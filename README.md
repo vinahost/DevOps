@@ -17,7 +17,7 @@
 - [✔️] ⌨️ 7 > [Bức tranh toàn cảnh: DevOps & Học một ngôn ngữ lập trình](Days/day07.md)
 - [✔️] ⌨️ 8 > [Thiết lập môi trường DevOps cho Go & Hello World](Days/day08.md)
 - [✔️] ⌨️ 9 > [Giải thích mã Hello World](Days/day09.md)
-- [✔️] ⌨️ 10 > [Không gian làm việc của Go](Days/day10.md)
+- [✔️] ⌨️ 10 > [Không gian làm việc của Python](Days/day10.md)
 - [✔️] ⌨️ 11 > [Biến, hằng số & kiểu dữ liệu](Days/day11.md)
 - [✔️] ⌨️ 12 > [Nhận thông tin đầu vào sử dụng con trỏ và chương trình hoàn thiện](Days/day12.md)
 - [✔️] ⌨️ 13 > [Tweet tiến trình của bạn với ứng dụng mới của chúng ta](Days/day13.md)
@@ -42,7 +42,7 @@
 - [✔️] 🌐 26 > [Building our Lab](Days/day26.md)
 - [✔️] 🌐 27 > [Getting Hands-On with Python & Network](Days/day27.md)
 
-### Tìm hiểu về một Cloud Provider
+### Tìm hiểu về Alibaba CLoud
 
 - [✔️] ☁️ 28 > [Bức tranh toàn cảnh: DevOps & The Cloud](Days/day28.md)
 - [✔️] ☁️ 29 > [Kiến thức cơ bản về Alibaba Cloud](Days/day29.md)
