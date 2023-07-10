@@ -2,7 +2,7 @@
 
 ## Progress
 
-- [✔️] ♾️ 1 > [Giới thiệu](Days/day01.md)
+- [✔️] ♾️ 1 > [Giới thiệu về DevOps](Days/day01.md)
 
 ### DevOps là gì và tại sao chúng ta sử dụng nó
 
