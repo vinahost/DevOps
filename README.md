@@ -14,7 +14,7 @@
 
 ### Học một ngôn ngữ lập trình
 
-- [✔️] ⌨️ 7 > [Bức tranh toàn cảnh: DevOps & Học một ngôn ngữ lập trình](howto/step07.md)
+- [✔️] ⌨️ 7 > [Overview: DevOps & Học một ngôn ngữ lập trình](howto/step07.md)
 - [✔️] ⌨️ 8 > [Thiết lập môi trường DevOps cho Python & Hello World](howto/step08.md)
 - [✔️] ⌨️ 9 > [Giải thích mã Hello World](howto/step09.md)
 - [✔️] ⌨️ 10 > [Không gian làm việc của Python](howto/step10.md)
@@ -24,7 +24,7 @@
 
 ### Kiến thức cơ bản về Linux
 
-- [✔️] 🐧 14 > [Bức tranh lớn: DevOps và Linux](howto/step14.md)
+- [✔️] 🐧 14 > [Overview: DevOps và Linux](howto/step14.md)
 - [✔️] 🐧 15 > [Các lệnh Linux cho DevOps (Thực tế là tất cả mọi người)](howto/step15.md)
 - [✔️] 🐧 16 > [Quản lý Hệ thống Linux, Hệ thống Tệp & Lưu trữ](howto/step16.md)
 - [✔️] 🐧 17 > [Text Editors - nano vs vim](howto/step17.md)
@@ -34,7 +34,7 @@
 
 ### Kiến thức về mạng (Network)
 
-- [✔️] 🌐 21 > [Bức tranh toàn cảnh: DevOps và Mạng máy tính](howto/step21.md)
+- [✔️] 🌐 21 > [Overview: DevOps và Mạng máy tính](howto/step21.md)
 - [✔️] 🌐 22 > [Mô hình OSI - 7 lớp mạng](howto/step22.md)
 - [✔️] 🌐 23 > [Giao thức mạng](howto/step23.md)
 - [✔️] 🌐 24 > [Tự động hoá mạng máy tính](howto/step24.md)
@@ -44,7 +44,7 @@
 
 ### Tìm hiểu về Alibaba CLoud
 
-- [✔️] ☁️ 28 > [Bức tranh toàn cảnh: DevOps & The Cloud](howto/step28.md)
+- [✔️] ☁️ 28 > [Overview: DevOps & The Cloud](howto/step28.md)
 - [✔️] ☁️ 29 > [Kiến thức cơ bản về Alibaba Cloud](howto/step29.md)
 - [✔️] ☁️ 30 > [Mô hình bảo mật Alibaba Cloud](howto/step30.md)
 - [✔️] ☁️ 31 > [Mô hình Điện toán Alibaba Cloud](howto/step31.md)
@@ -54,7 +54,7 @@
 
 ### Cách sử dụng Git hiệu quả
 
-- [✔️] 📚 35 > [Bức tranh toàn cảnh: Git - Quản lý phiên bản](howto/step35.md)
+- [✔️] 📚 35 > [Overview: Git - Quản lý phiên bản](howto/step35.md)
 - [✔️] 📚 36 > [Cài đặt & Cấu hình Git](howto/step36.md)
 - [✔️] 📚 37 > [Giới thiệu về Git](howto/step37.md)
 - [✔️] 📚 38 > [Staging & Changing](howto/step38.md)
@@ -63,7 +63,7 @@
 - [✔️] 📚 41 > [Quy trình làm việc với mã nguồn mở](howto/step41.md)
 ### Containers
 
-- [✔️] 🏗️ 42 > [Bức tranh toàn cảnh: Containers](howto/step42.md)
+- [✔️] 🏗️ 42 > [Overview: Containers](howto/step42.md)
 - [✔️] 🏗️ 43 > [Docker là gì & Cài đặt](howto/step43.md)
 - [✔️] 🏗️ 44 > [Docker Images & Thực hành với Docker Desktop](howto/step44.md)
 - [✔️] 🏗️ 45 > [Phân tích một Docker Image](howto/step45.md)
@@ -73,7 +73,7 @@
 
 ### Kubernetes
 
-- [✔️] ☸ 49 > [Bức tranh toàn cảnh: Kubernetes](howto/step49.md)
+- [✔️] ☸ 49 > [Overview: Kubernetes](howto/step49.md)
 - [✔️] ☸ 50 > [Chọn nền tảng chạy Kubernetes](howto/step50.md)
 - [✔️] ☸ 51 > [Triển khai Kubernetes cluster đầu tiên](howto/step51.md)
 - [✔️] ☸ 52 > [Thiết lập Kubernetes cluster đa node](howto/step52.md)
@@ -83,7 +83,7 @@
 
 ### Học cơ sở hạ tầng dưới dạng mã (Infrastructure as Code)
 
-- [✔️] 🤖 56 > [Bức tranh toàn cảnh: Cơ sở hạ tầng dưới dạng mã (IaC)](howto/step56.md)
+- [✔️] 🤖 56 > [Overview: Cơ sở hạ tầng dưới dạng mã (IaC)](howto/step56.md)
 - [✔️] 🤖 57 > [Giới thiệu về Terraform](howto/step57.md)
 - [✔️] 🤖 58 > [Ngôn ngữ cấu hình HashiCorp (HCL)](howto/step58.md)
 - [✔️] 🤖 59 > [Tạo VM với Terraform & Biến](howto/step59.md)
@@ -93,7 +93,7 @@
 
 ### Tự động hóa quản lý cấu hình
 
-- [✔️] 📜 63 > [Bức tranh toàn cảnh: Quản lý cấu hình](howto/step63.md)
+- [✔️] 📜 63 > [Overview: Quản lý cấu hình](howto/step63.md)
 - [✔️] 📜 64 > [Ansible: Bắt đầu](howto/step64.md)
 - [✔️] 📜 65 > [Ansible Playbooks](howto/step65.md)
 - [✔️] 📜 66 > [Tiếp tục với Ansible Playbooks...](howto/step66.md)
@@ -103,7 +103,7 @@
 
 ### Tạo CI/CD Pipelines
 
-- [✔️] 🔄 70 > [The Big Picture: CI/CD Pipelines](howto/step70.md)
+- [✔️] 🔄 70 > [Overview: CI/CD Pipelines](howto/step70.md)
 - [✔️] 🔄 71 > [What is Jenkins?](howto/step71.md)
 - [✔️] 🔄 72 > [Getting hands on with Jenkins](howto/step72.md)
 - [✔️] 🔄 73 > [Building a Jenkins pipeline](howto/step73.md)
@@ -113,9 +113,9 @@
 
 ### Giám sát, quản lý logs và trực quan hóa dữ liệu
 
-- [✔️] 📈 77 > [The Big Picture: Monitoring](howto/step77.md)
+- [✔️] 📈 77 > [Overview: Monitoring](howto/step77.md)
 - [✔️] 📈 78 > [Hands-On Monitoring Tools](howto/step78.md)
-- [✔️] 📈 79 > [The Big Picture: Log Management](howto/step79.md)
+- [✔️] 📈 79 > [Overview: Log Management](howto/step79.md)
 - [✔️] 📈 80 > [ELK Stack](howto/step80.md)
 - [✔️] 📈 81 > [Fluentd & FluentBit](howto/step81.md)
 - [✔️] 📈 82 > [EFK Stack](howto/step82.md)
@@ -123,7 +123,7 @@
 
 ### Lưu trữ & Bảo vệ Dữ liệu
 
-- [✔️] 🗃️ 84 > [The Big Picture: Data Management](howto/step84.md)
+- [✔️] 🗃️ 84 > [Overview: Data Management](howto/step84.md)
 - [✔️] 🗃️ 85 > [Data Services](howto/step85.md)
 - [✔️] 🗃️ 86 > [Backup all the platforms](howto/step86.md)
 - [✔️] 🗃️ 87 > [Hands-On Backup & Recovery](howto/step87.md)
