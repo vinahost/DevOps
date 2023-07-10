@@ -45,12 +45,12 @@
 ### Tìm hiểu về một Cloud Provider
 
 - [✔️] ☁️ 28 > [Bức tranh toàn cảnh: DevOps & The Cloud](Days/day28.md)
-- [✔️] ☁️ 29 > [Kiến thức cơ bản về Microsoft Azure](Days/day29.md)
-- [✔️] ☁️ 30 > [Mô hình bảo mật Microsoft Azure](Days/day30.md)
-- [✔️] ☁️ 31 > [Mô hình Điện toán Microsoft Azure](Days/day31.md)
-- [✔️] ☁️ 32 > [Mô hình lưu trữ và cơ sở dữ liệu Microsoft Azure](Days/day32.md)
-- [✔️] ☁️ 33 > [Mô hình Mạng Microsoft Azure + Quản lý Azure](Days/day33.md)
-- [✔️] ☁️ 34 > [Thực hành với Microsoft Azure](Days/day34.md)
+- [✔️] ☁️ 29 > [Kiến thức cơ bản về Alibaba Cloud](Days/day29.md)
+- [✔️] ☁️ 30 > [Mô hình bảo mật Alibaba Cloud](Days/day30.md)
+- [✔️] ☁️ 31 > [Mô hình Điện toán Alibaba Cloud](Days/day31.md)
+- [✔️] ☁️ 32 > [Mô hình lưu trữ và cơ sở dữ liệu Alibaba Cloud](Days/day32.md)
+- [✔️] ☁️ 33 > [Mô hình Mạng Alibaba Cloud](Days/day33.md)
+- [✔️] ☁️ 34 > [Thực hành với Alibaba Cloud](Days/day34.md)
 
 ### Cách sử dụng Git hiệu quả
 
