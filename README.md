@@ -2,7 +2,8 @@
 
 ## Progress
 
-- [✔️] ♾️ 1 > [Giới thiệu về DevOps](howto/step01.md)
+- [✔️] ♾️ > [DevOps là gì](howto/DevOps-la-gi.md)
+- [✔️] ♾️ > [Roadmap để trở thành DevOps](howto/DevOps-Roadmap.md)
 
 ### DevOps là gì và tại sao chúng ta sử dụng nó
 
