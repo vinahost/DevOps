@@ -13,7 +13,7 @@
 - [✔️] ♾️ > [Kế hoạch > Viết mã > Xây dựng > Kiểm thử > Phát hành > Triển khai > Vận hành > Giám sát >](howto/step05.md)
 - [✔️] ♾️ > [DevOps - Những câu chuyện thực tế](howto/step06.md)
 
-### Học một ngôn ngữ lập trình
+### Học một ngôn ngữ lập trình Python
 
 - [✔️] ⌨️ > [Overview: DevOps & Học một ngôn ngữ lập trình](howto/step07.md)
 - [✔️] ⌨️ > [Thiết lập môi trường DevOps cho Python & Hello World](howto/step08.md)
@@ -62,6 +62,7 @@
 - [✔️] 📚 > [Xem, unstaging, loại bỏ & khôi phục](howto/step39.md)
 - [✔️] 📚 > [Mạng xã hội dành cho code](howto/step40.md)
 - [✔️] 📚 > [Quy trình làm việc với mã nguồn mở](howto/step41.md)
+
 ### Containers
 
 - [✔️] 🏗️ > [Overview: Containers](howto/step42.md)
@@ -132,7 +133,8 @@
 - [✔️] 🗃️ > [Disaster Recovery](howto/step89.md)
 - [✔️] 🗃️ > [Data & Application Mobility](howto/step90.md)
 
-### Cheat sheet một số dịch vụ
+### Cheatsheet
+
 - [✔️] [Linux]
 - [✔️] [Python]
 - [✔️] [Docker]
