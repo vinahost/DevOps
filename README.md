@@ -1,4 +1,4 @@
-# Journey to Become a DevOps
+# Journey to Become a DevOps - Hành trình để trở thành DevOps
 
 ## Progress
 
