@@ -9,3 +9,10 @@
     Memory Management 
     Disk Management 
     Disk Scheduling
+
+If you are going into DevOps, you need to live in the terminal, for the same, it becomes necessary to have a keen knowledge of command-line-based Operating Systems, and when it comes to the command line the only thing that comes to mind is Linux.
+
+Linux is an open-source operating system that would be needed for collaboration, automation, and continuous improvement of Software Development and IT Operations. The key reasons why you need to learn Linux are- 
+
+It is widely used in DevOps environments.
+Mainly used for Scripting and Automation.
