@@ -7,6 +7,7 @@
 - [✔️] Lấn sâu vào CI (Continuous Integration) và CD (Continuous Deployment)
 - [✔️] Hiểu sâu về Application Monitoring và Infrastructure Monitoring.
 
+![img](DevOps-Roadmap.png)
 *Tham khảo*
  -   <https://github.com/milanm/DevOps-Roadmap>
  -   <https://roadmap.sh/devops>
