@@ -16,3 +16,11 @@ Linux is an open-source operating system that would be needed for collaboration,
 
 It is widely used in DevOps environments.
 Mainly used for Scripting and Automation.
+
+Below are listed some of the key concepts regarding Linux.
+
+- Command Line
+- Bash and Shell Scripting
+- Package Management
+- Networking Tools
+- Security Concepts
