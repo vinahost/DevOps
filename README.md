@@ -42,7 +42,7 @@
 - [✔️] 🌐 > [Building our Lab](Overview/step26.md)
 - [✔️] 🌐 > [Getting Hands-On with Python & Network](Overview/step27.md)
 
-### Tìm hiểu về Alibaba CLoud
+### Tìm hiểu về Alibaba Cloud
 
 - [✔️] ☁️ > [Overview: DevOps & The Cloud](Overview/step28.md)
 - [✔️] ☁️ > [Kiến thức cơ bản về Alibaba Cloud](Overview/step29.md)
