@@ -134,7 +134,7 @@
 
 ### Cheatsheet
 
-# [Tham khảo tại](https://github.com/vinahostvn/devops/blob/main/Cheatsheet/DevOps-Cheatsheet.md)
+#### [Tham khảo tại](https://github.com/vinahostvn/devops/blob/main/Cheatsheet/DevOps-Cheatsheet.md)
 
 - [✔️] [Linux]
 - [✔️] [Python]
