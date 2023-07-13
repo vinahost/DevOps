@@ -46,11 +46,11 @@
 
 - [✔️] ☁️ > [Overview: DevOps & The Cloud]
 - [✔️] ☁️ > [Kiến thức cơ bản về Alibaba Cloud]
+- [✔️] ☁️ > [Server Migration Center (SMC) là gì ?](Cloud-Provider/Alibaba-Cloud/Server-Migration-Center-SMC-la-gi.md)
 - [✔️] ☁️ > [Mô hình bảo mật Alibaba Cloud]
 - [✔️] ☁️ > [Mô hình Điện toán Alibaba Cloud]
 - [✔️] ☁️ > [Mô hình lưu trữ và cơ sở dữ liệu Alibaba Cloud]
 - [✔️] ☁️ > [Mô hình Mạng Alibaba Cloud]
-- [✔️] ☁️ > [Server Migration Center (SMC) là gì ?](Cloud-Provider/Alibaba-Cloud/Server-Migration-Center-SMC-la-gi.md)
 - [✔️] ☁️ > [Thực hành với Alibaba Cloud]
 
 ### Cách sử dụng Git hiệu quả
