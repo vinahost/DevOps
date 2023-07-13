@@ -132,9 +132,7 @@
 - [✔️] 🗃️ > [Disaster Recovery](Overview/step89.md)
 - [✔️] 🗃️ > [Data & Application Mobility](Overview/step90.md)
 
-### Cheatsheet
-
-#### [Tham khảo tại đây](https://github.com/vinahostvn/devops/blob/main/Cheatsheet/DevOps-Cheatsheet.md)
+### [Cheatsheet](https://github.com/vinahostvn/devops/blob/main/Cheatsheet/DevOps-Cheatsheet.md)
 
 - [✔️] [Linux]
 - [✔️] [Python]
