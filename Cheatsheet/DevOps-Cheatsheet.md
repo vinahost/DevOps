@@ -30,4 +30,4 @@
 - https://github.com/arslanbilal/git-cheat-sheet
 
 ### DevOps RoadMap
-![img](../Overview/devops-roadmap01.jpg)
+![img](../Overview/DevOps-Roadmap.png)
