@@ -9,7 +9,7 @@
 - [✔️] ♾️ > [DevOps là gì](Overview/DevOps-la-gi.md)
 - [✔️] ♾️ > [Roadmap để trở thành DevOps](Overview/DevOps-Roadmap.md)
 - [✔️] ♾️ > [DevOps Lifecycle]
-- [✔️] ♾️ > [DevOps & Agile]
+- [✔️] ♾️ > [DevOps & Agile](Overview/DevOps-Agile.md)
 - [✔️] ♾️ > [Kế hoạch > Viết mã > Xây dựng > Kiểm thử > Phát hành > Triển khai > Vận hành > Giám sát >]
 
 ### DevOps và ngôn ngữ lập trình
