@@ -70,6 +70,7 @@
 - [✔️] 🏗️ > [Phân tích một Docker Image]
 - [✔️] 🏗️ > [Docker Compose]
 - [✔️] 🏗️ > [Docker Networking & Security]
+- [✔️] 🏗️ > [Docker Nâng Cao](Containers/Docker/Docker-nang-cao.md)
 - [✔️] 🏗️ > [Các lựa chọn thay thế cho Docker]
 
 ### Kubernetes
