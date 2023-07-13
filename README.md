@@ -71,7 +71,7 @@
 - [✔️] 🏗️ > [Docker Compose]
 - [✔️] 🏗️ > [Docker Networking & Security]
 - [✔️] 🏗️ > [Docker Nâng Cao](Containers/Docker/Docker-nang-cao.md)
-- [✔️] 🏗️ > [Các lựa chọn thay thế cho Docker]
+- [✔️] 🏗️ > [Các lựa chọn thay thế cho Docker](Containers/Docker/Tim-hieu-Docker-Swarm.md)
 
 ### Kubernetes
 
