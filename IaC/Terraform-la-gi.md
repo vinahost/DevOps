@@ -1,4 +1,5 @@
-Terraform là một công cụ mã nguồn mở cho phép bạn định nghĩa Infrastructure as Code - IaC với đa dạng cloud provider ví dụ: Alibaba Cloud, AWS, Azure… Terraform giúp bạn quản lý hệ thống bằng code và tự động hóa việc triển khai hạ tầng của bạn. Bạn có thể sử dụng Terraform để quản lý các tài nguyên như máy chủ, mạng, cơ sở dữ liệu và các tài nguyên khác của các nhà cung cấp đám mây khác nhau.
+### Terraform là gì
+**Terraform** là một công cụ mã nguồn mở cho phép bạn định nghĩa **Infrastructure as Code - IaC** với đa dạng cloud provider ví dụ: Alibaba Cloud, AWS, Azure… Terraform giúp bạn quản lý hệ thống bằng code và tự động hóa việc triển khai hạ tầng của bạn. Bạn có thể sử dụng Terraform để quản lý các tài nguyên như máy chủ, mạng, cơ sở dữ liệu và các tài nguyên khác của các nhà cung cấp đám mây khác nhau.
 - Quản lý tài nguyên đám mây đa nền tảng.
 - Quản lý các phiên bản khác nhau của cơ sở hạ tầng.
 - Quản lý các phụ thuộc giữa các tài nguyên.
