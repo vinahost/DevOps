@@ -1,18 +1,20 @@
 ### Alibaba Cloud Object Storage Service là gì?
 
-**Alibaba Cloud Object Storage Service (OSS)** là dịch vụ lưu trữ đối tượng trên đám mây. OSS cung cấp các bộ nhớ bảo mật, giữ được sự toàn vẹn của dữ liệu lên đến **99.9999999999%** và độ khả dụng dữ liệu đạt **99.995%**. OSS cung cấp nhiều lớp lưu trữ để giúp bạn quản lý tốt với chi phí tiết kiệm.
+**Alibaba Cloud Object Storage Service (OSS)** là dịch vụ lưu trữ đối tượng trên đám mây. **OSS** cung cấp các bộ nhớ bảo mật, giữ được sự toàn vẹn của dữ liệu lên đến **99.9999999999%** và độ khả dụng dữ liệu đạt **99.995%**. **OSS** cung cấp nhiều lớp lưu trữ để giúp bạn quản lý tốt với chi phí tiết kiệm.
 
-OSS cung cấp các API độc lập về mặt nền tảng, cho phép người dùng tải lên và truy cập dữ liệu từ bất kỳ ứng dụng nào mọi lúc mọi nơi.
+**OSS** cung cấp các **API** độc lập về mặt nền tảng, cho phép người dùng tải lên và truy cập dữ liệu từ bất kỳ ứng dụng nào mọi lúc mọi nơi.
 
 ### Cách tạo Bucket trên OSS
 
-OSS lưu trữ dữ liệu trong các **buckets**. Vì thế, để bắt đầu sử dụng và lưu trữ dữ liệu của bạn với OSS, trước tiên bạn phải tạo một bucket. Trong bài viết này chúng ta sẽ đi qua các bước để tạo một bucket trong Alibaba Cloud OSS thông qua giao diện Alibaba Cloud Console.
+OSS lưu trữ dữ liệu trong các **buckets**. Vì thế, để bắt đầu sử dụng và lưu trữ dữ liệu của bạn với OSS, trước tiên bạn phải tạo một bucket. Trong bài viết này chúng ta sẽ đi qua các bước để tạo một bucket trong Alibaba Cloud OSS thông qua giao diện **Alibaba Cloud Console**.
 
-Đầu tiên, để tạo một máy ảo trên ECS, bạn cần có một tài khoản Alibaba Cloud và đăng nhập vào tài khoản.
+Đầu tiên, để tạo một máy ảo trên ECS, bạn cần có một tài khoản **Alibaba Cloud** và đăng nhập vào tài khoản.
 
 Sau khi đăng nhập thành công, từ giao diện console của Alibaba Cloud, chọn vào menu ở góc trái, chọn **Object Storage Service**.
 
 ![img](../../Image/OSS01.png)
+
+Tiếp tục chọn **Object Storage Service**
 
 ![img](../../Image/OSS02.png)
 
@@ -62,3 +64,10 @@ Bạn có thể xóa một bucket trong OSS bằng cách nhấn vào tên **Buck
 ![img](../../Image/OSS10.png)
 
 Nhấn **Delete** để xóa bucket.
+
+### Tham khảo
+
+- https://www.alibabacloud.com/blog/600182
+- https://www.alibabacloud.com/product/object-storage-service
+- https://www.alibabacloud.com/help/en/object-storage-service
+- https://vinahost.vn/object-storage-service
