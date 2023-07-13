@@ -21,7 +21,7 @@ Sau khi chọn **Create Instance**, chọn **Custom Launch** để có thể xem
 - **Networking** (thông tin về mạng)
 - **System Configurations** (thông số hệ thống) - không bắt buộc
 - **Grouping** (chọn nhóm bảo mật cho máy ảo) - không bắt buộc
-- **Preview **(xem lại các thông số chi tiết đã lựa chọn cho máy ảo).
+- **Preview** (xem lại các thông số chi tiết đã lựa chọn cho máy ảo).
 
 ![img](../../Image/ECS03.png)
 
