@@ -1,6 +1,6 @@
 ## DevOps & Agile
 
-![img](../../Image/Differences-Devops-Agile.jpg)
+![img](/Image/Differences-Devops-Agile.jpg)
 
 Bạn có biết sự khác biệt của DevOps và Agile? Chúng được hình thành như những khái niệm độc lập. Nhưng bây giờ hai thuật ngữ đang dần được hợp nhất.
 
@@ -12,7 +12,7 @@ Hãy bắt đầu với các định nghĩa.
 
 ### Agile Development
 
-![img](../../Image/Agile.png)
+![img](/Image/Agile.png)
 
 Agile là một cách tiếp cận tập trung vào việc cung cấp các kết quả nhỏ và nhanh hơn thay vì phát hành một thay đổi lớn của sản phẩm. Phần mềm được phát triển trong nhiều phân đoạn (iteration). Nhóm sản phẩm phát hành các phiên bản mới trong các bản cập nhật hàng tuần hoặc hàng tháng. Mục tiêu cuối cùng của Agile là tối ưu trải nghiệm của người dùng cuối.
 
