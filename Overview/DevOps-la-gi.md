@@ -1,9 +1,8 @@
 ### Roadmaps để trở thành DevOps
-![img](devops.jpg)
 
 DevOps là sự kết hợp của từ Development (phát triển tính năng sản phẩm) + Operations (vận hành) . DevOps là một sự kết hợp của các nguyên lý, thực hành, quy trình và các tool giúp tự động hóa quá trình lập trình và chuyển giao phần mềm . DevOps là một thuật ngữ để chỉ một tập hợp các hành động trong đó nhấn mạnh sự hợp tác và trao đổi thông tin của các lập trình viên và chuyên viên tin học khi cùng làm việc để tự động hóa quá trình chuyển giao sản phẩm phần mềm và thay đổi kiến trúc hệ thống.
 
-![devops_tools](https://yqintl.alicdn.com/e4a6d9f9cbb31b051c7d986c49ab72e914b15b4a.jpeg)
+![img](devops.jpg)
 
 DevOps là một phương pháp quản lý và phát triển phần mềm mới so với các cách tiếp cận truyền thống của quản lý dự án. DevOps thay đổi cách tiếp cận truyền thống là phát triển và thử nghiệm riêng biệt. Các nhóm hoạt động theo cách hợp tác trong đó cả hai nhóm đều tích cực tham gia trong suốt vòng đời dịch vụ. DevOps sẽ giúp tối ưu hóa 2 giai đoạn phát triển phần mềm này giúp đẩy cao tốc độ phát triển và cải tiến sản phẩm so với các quy trình quản lý và phát triển phần mềm truyền thống
 
@@ -45,11 +44,11 @@ DevOps là một phương pháp quản lý và phát triển phần mềm mới 
 
 **Roadmap để trở  thành DevOps**
 
-![devops_page_0001](https://yqintl.alicdn.com/4343ad807e048f69f321252544f691a8b2be5863.jpeg)
+![DevOps Roadmap](devops-roadmap01.jpg)
 
 **Alibaba Cloud Container Service Portfolio**
 
-![alibabacloud](https://yqintl.alicdn.com/c1ad562fd69e3d8877670ac0d2ceae28af5e4093.png)
+![alibabacloud](alibabacloud.png)
 
 **Tham khảo**
 
