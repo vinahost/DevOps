@@ -8,21 +8,11 @@ Server Migration Center (SMC) là một nền tảng giúp người dùng dễ d
 - Các hệ điều hành chính bao gồm Windows 2003 trở lên, CentOS, Red Hat, Ubuntu, Debian, SUSE và openSUSE.
 - Khả năng truyền tải dữ liệu an toàn, bảo mật. Nền tảng SMC sử dụng khóa RSA 2048-bit để mã hóa dữ liệu trong suốt quá trình truyền tải. Bên cạnh đó, SMC cho phép người dùng sử dụng mạng riêng như cổng VPN cũng như các kết nối vật lý do Alibaba Cloud Express Connect cung cấp.
 
-
-**Video giới thiệu** 
-<video style="text-align:center" width="100%" height="100%" autoplay="autoplay" src="https://cloud.video.taobao.com/play/u/null/p/1/e/6/t/1/d/ud/378567887228.mp4" controls="true"></video>
-
 **Quá trình Migration**
 
 SMC bao gồm SMC client và SMC console. Hình ảnh bên dưới cho thấy cách chuyển một máy chủ thành Elastic Compute Service (ECS) image.
 
 ![Server Migration Center (SMC) là gì ?](/Image/Server-Migration-Center-SMC-la-gi.png)
-
-**Bài viết tiếp theo sẽ hướng dẫn các bạn**
-
-- Hướng dẫn chuyển server Linux lên Alibaba Cloud bằng Server Migration Center (SMC) thông qua SSH
-- Hướng dẫn chuyển server Linux lên Alibaba Cloud bằng Server Migration Center (SMC) thông qua go2aliyun_client
-- Hướng dẫn chuyển server Windows lên Alibaba Cloud bằng Server Migration Center (SMC)
 
 **Tài liệu tham khảo**
 - Link dịch vụ: https://smc.console.aliyun.com/
