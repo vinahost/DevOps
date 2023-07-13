@@ -21,3 +21,4 @@ SMC bao gồm SMC client và SMC console. Hình ảnh bên dưới cho thấy c�
 - https://www.alibabacloud.com/help/en/server-migration-center/latest/smc-faq
 - Tài liệu giới thiệu: tham khảo [**tại đây**](https://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/download%2Fpdf%2F121557%2FProduct_Introduction_intl_en-US.pdf)
 - User Guide: tham khảo [**tại đây**](https://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/download%2Fpdf%2F121561%2FUser_Guide_intl_en-US.pdf)
+- Xem video giới thiệu [**tại đây**](https://cloud.video.taobao.com/play/u/null/p/1/e/6/t/1/d/ud/378567887228.mp4)
