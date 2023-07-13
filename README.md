@@ -51,9 +51,10 @@
 - [✔️] ☁️ > [Mô hình Điện toán Alibaba Cloud]
 - [✔️] ☁️ > [Mô hình lưu trữ và cơ sở dữ liệu Alibaba Cloud]
 - [✔️] ☁️ > [Mô hình Mạng Alibaba Cloud]
-- [✔️] ☁️ > [Thực hành với Alibaba Cloud - Hướng dẫn tạo  Elastic Compute Service - ECS ](Cloud-Provider/Alibaba-Cloud/Elastic-Compute-Service-ECS.md)
-- [✔️] ☁️ > [Thực hành với Alibaba Cloud - Hướng dẫn tạo  Object Storage Service - OSS ](Cloud-Provider/Alibaba-Cloud/Object-Storage-Service-OSS.md)
+- [✔️] ☁️ > [Thực hành với Alibaba Cloud - Hướng dẫn tạo Elastic Compute Service - ECS ](Cloud-Provider/Alibaba-Cloud/Elastic-Compute-Service-ECS.md)
+- [✔️] ☁️ > [Thực hành với Alibaba Cloud - Hướng dẫn tạo Object Storage Service - OSS ](Cloud-Provider/Alibaba-Cloud/Object-Storage-Service-OSS.md)
 
+- [✔️] ☁️ > [Thực hành với Alibaba Cloud - Hướng dẫn tạo và cấp quyền cho tài khoản RAM ](Cloud-Provider/Alibaba-Cloud/Resource-Access-Management-RAM.md)
 ### Cách sử dụng Git hiệu quả
 
 - [✔️] 📚 > [Overview: Git - Quản lý phiên bản]
