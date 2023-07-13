@@ -1,4 +1,4 @@
-Docker Swarm là công cụ tạo ra một clustering Docker. Cho phép ta có thể kết nối các docker host với nhau tạo thành một cụm các máy, khi tạo được hệ thống Docker Swarm thì chúng ta có thể quản lý và chạy các dịch vụ trên hệ thống này một cách dẽ dàng. Giả sử ta có các hệ thống docker chạy trên các vps khác nhau thì ta có kể kết nối chúng tạo thành một cụm docker
+**Docker Swarm** là công cụ tạo ra một clustering Docker. Cho phép ta có thể kết nối các docker host với nhau tạo thành một cụm các máy, khi tạo được hệ thống Docker Swarm thì chúng ta có thể quản lý và chạy các dịch vụ trên hệ thống này một cách dẽ dàng. Giả sử ta có các hệ thống docker chạy trên các vps khác nhau thì ta có kể kết nối chúng tạo thành một cụm docker
 
 Chúng ta cần dùng Docker Swarm khi project của bạn cần phát triển, quản lý, deploy trên nhiều nhiều host thì đó là lúc cần dùng đến Docker Swarm.
 
@@ -25,7 +25,7 @@ Chúng ta cần dùng Docker Swarm khi project của bạn cần phát triển, 
 - Rolling updates: ASwarm giúp update image của service một cách hoàn toàn tự động. Swarm manager giúp bạn kiểm soát độ trễ giữa service deploy tới các node khác nhau và bạn có thể rolling back bất cứ lúc nào.
 
 **Kiến trúc của Docker Swarm**
-![swarm_diagram](Image\../../Image/Docker-Swarm.png)
+![swarm_diagram](/Image/Docker-Swarm.png)
 
 Kiến trúc Swarm bao gồm một tập hợp các node có ít nhất một nút chính (Manager-Leader) và một số node worker có thể là máy ảo hoặc vật lý.
 
