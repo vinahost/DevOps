@@ -1,4 +1,4 @@
-### Roadmaps để trở thành DevOps
+### DevOps là gì ?
 
 DevOps là sự kết hợp của từ Development (phát triển tính năng sản phẩm) + Operations (vận hành) . DevOps là một sự kết hợp của các nguyên lý, thực hành, quy trình và các tool giúp tự động hóa quá trình lập trình và chuyển giao phần mềm . DevOps là một thuật ngữ để chỉ một tập hợp các hành động trong đó nhấn mạnh sự hợp tác và trao đổi thông tin của các lập trình viên và chuyên viên tin học khi cùng làm việc để tự động hóa quá trình chuyển giao sản phẩm phần mềm và thay đổi kiến trúc hệ thống.
 
