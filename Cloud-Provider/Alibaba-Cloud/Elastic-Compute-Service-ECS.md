@@ -106,4 +106,4 @@ Chúc mừng bạn đã tạo thành công máy ảo trong ECS! Để thực hi�
 - https://www.alibabacloud.com/blog/600134
 - https://www.alibabacloud.com/product/ecs
 - https://www.alibabacloud.com/help/en/elastic-compute-service
-- https://vinahost.vn/alibaba-cloud-ecs-elastic-compute-service/
+- https://vinahost.vn/alibaba-cloud-ecs-elastic-compute-service
