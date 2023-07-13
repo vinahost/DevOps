@@ -114,7 +114,7 @@ docker images
 ```  
 **Quy trình thực thi của một hệ thống sử dụng Docker**
 
-![quy_trinh_thuc_thi_docker](..\../../Image/Docker-process.png)
+![quy_trinh_thuc_thi_docker](/Image/Docker-process.png)
 
 Như trong hình vẽ, một hệ thống Docker được thực thi với 3 bước chính :
 
