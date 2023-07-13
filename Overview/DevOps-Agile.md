@@ -2,7 +2,7 @@
 
 ![img](/Image/Differences-Devops-Agile.jpg)
 
-Bạn có biết sự khác biệt của DevOps và Agile? Chúng được hình thành như những khái niệm độc lập. Nhưng bây giờ hai thuật ngữ đang dần được hợp nhất.
+Bạn có biết sự khác biệt của **DevOps** và **Agile**? Chúng được hình thành như những khái niệm độc lập. Nhưng bây giờ hai thuật ngữ đang dần được hợp nhất.
 
 Trong bài viết này, chúng ta sẽ xem xét sự khác biệt quan trọng giữa Agile và DevOps và tìm hiểu lý do tại sao hai thứ được kết nối chặt chẽ như vậy.
 
@@ -14,7 +14,7 @@ Hãy bắt đầu với các định nghĩa.
 
 ![img](/Image/Agile.png)
 
-Agile là một cách tiếp cận tập trung vào việc cung cấp các kết quả nhỏ và nhanh hơn thay vì phát hành một thay đổi lớn của sản phẩm. Phần mềm được phát triển trong nhiều phân đoạn (iteration). Nhóm sản phẩm phát hành các phiên bản mới trong các bản cập nhật hàng tuần hoặc hàng tháng. Mục tiêu cuối cùng của Agile là tối ưu trải nghiệm của người dùng cuối.
+**Agile** là một cách tiếp cận tập trung vào việc cung cấp các kết quả nhỏ và nhanh hơn thay vì phát hành một thay đổi lớn của sản phẩm. Phần mềm được phát triển trong nhiều phân đoạn (iteration). Nhóm sản phẩm phát hành các phiên bản mới trong các bản cập nhật hàng tuần hoặc hàng tháng. Mục tiêu cuối cùng của Agile là tối ưu trải nghiệm của người dùng cuối.
 
 ### DevOps
 
@@ -22,7 +22,7 @@ Chúng ta đã đề cập tới khái niệm này trong nhiều ngày qua theo 
 
 ## Sự khác biệt giữa Agile và DevOps
 
-Sự khác biệt lớn nhất là mối bận tâm (preoccupations). Agile và DevOps có những mối bận tâm khác nhau nhưng chúng lại giúp đỡ lẫn nhau. Agile muốn có những phân đoạn ngắn, điều này gần như cần có các quy trình tự động hoá (automations) mà DevOps đem lại. Agile muốn khách hàng dùng thử các phiên bản và nhận được phản hồi một cách nhanh chóng, điều này gần như chỉ có thể thực hiện được nếu DevOps có thể tạo môi trường mới một cách dễ dàng.
+Sự khác biệt lớn nhất là mối bận tâm (**preoccupations**). Agile và DevOps có những mối bận tâm khác nhau nhưng chúng lại giúp đỡ lẫn nhau. Agile muốn có những phân đoạn ngắn, điều này gần như cần có các quy trình tự động hoá (**automations**) mà DevOps đem lại. Agile muốn khách hàng dùng thử các phiên bản và nhận được phản hồi một cách nhanh chóng, điều này gần như chỉ có thể thực hiện được nếu DevOps có thể tạo môi trường mới một cách dễ dàng.
 
 ### Thành phần tham gia
 
@@ -34,11 +34,11 @@ Agile thường được áp dụng cho nhóm phát triển và quản lý dự 
 
 ### Các frameworks được áp dụng
 
-Agile có rất nhiều framework quản lý để đạt được sự linh hoạt và minh bạch: Scrum > Kanban > Lean > Extreme > Crystal > Dynamic > Feature-Driven. DevOps tập trung vào sự cộng tác trong việc phát triển nhưng không có các framework cụ thể. DevOps thúc đẩy các phương pháp như cơ sở hạ tầng dưới dạng mã (IaC), kiến trúc dưới dạng mã, giám sát, tự khắc phục lỗi (Self-Healing), tự động hóa kiểm thử (end to end test automation) ... Tuy nhiên, đây không được coi là các framework, mà chỉ là các phương pháp.
+Agile có rất nhiều framework quản lý để đạt được sự linh hoạt và minh bạch: **Scrum** > **Kanban** > **Lean** > **Extreme** > **Crystal** > **Dynamic** > **Feature-Driven**. DevOps tập trung vào sự cộng tác trong việc phát triển nhưng không có các framework cụ thể. DevOps thúc đẩy các phương pháp như cơ sở hạ tầng dưới dạng mã (IaC), kiến trúc dưới dạng mã, giám sát, tự khắc phục lỗi (**Self-Healing**), tự động hóa kiểm thử (**end to end test automation**) ... Tuy nhiên, đây không được coi là các framework, mà chỉ là các phương pháp.
 
 ### Nhận xét/Phản hồi
 
-Trong Agile, nguồn phản hồi chính là người dùng cuối còn với DevOps những phản hồi từ các bên liên quan(stakeholders) và bản thân nhóm có mức độ ưu tiên cao hơn.
+Trong Agile, nguồn phản hồi chính là người dùng cuối còn với DevOps những phản hồi từ các bên liên quan(**stakeholders**) và bản thân nhóm có mức độ ưu tiên cao hơn.
 
 ### Phạm vi tập trung
 
@@ -56,9 +56,9 @@ Rủi ro của DevOps đến từ việc hiểu sai thuật ngữ và thiếu c�
 
 ### Công cụ
 
-Các công cụ Agile tập trung vào việc cộng tác giao tiếp quản lý, đo lường và xử lý phản hồi. Các công cụ phổ biến nhất bao gồm JIRA, Trello, Slack, Zoom, SurveyMonkey, v.v.
+Các công cụ Agile tập trung vào việc cộng tác giao tiếp quản lý, đo lường và xử lý phản hồi. Các công cụ phổ biến nhất bao gồm **JIRA**, **Trello**, **Slack**, **Zoom**, **SurveyMonkey**, v.v.
 
-DevOps sử dụng các công cụ để giao tiếp nhóm, phát triển phần mềm, triển khai và tích hợp như Jenkins, GitHub Actions, BitBucket, v.v. Mặc dù Agile và DevOps có trọng tâm và phạm vi hơi khác nhau nhưng chúng có các giá trị chính gần như giống nhau, chính vì vậy có thể kết hợp và hỗ trợ lẫn nhau rất tốt.
+DevOps sử dụng các công cụ để giao tiếp nhóm, phát triển phần mềm, triển khai và tích hợp như **Jenkins**, **GitHub Actions**, **BitBucket**, v.v. Mặc dù Agile và DevOps có trọng tâm và phạm vi hơi khác nhau nhưng chúng có các giá trị chính gần như giống nhau, chính vì vậy có thể kết hợp và hỗ trợ lẫn nhau rất tốt.
 
 ## Kết hợp với nhau... có phải là một ý tưởng tốt? cần thảo luận?
 
@@ -70,7 +70,7 @@ Kết hợp Agile và DevOps sẽ mang lại những lợi ích sau:
 - Nó giúp làm tốt hơn: quá trình giao tiếp, hợp tác của các nhóm sử dụng Agile, tăng động lực cho nhóm và giúp giảm tỷ lệ nghỉ việc.
 - Kết quả là bạn có một sản phẩm với chất lượng tốt hơn.
 
-Agile cho bạn quay lại các quá trình phát triển sản phẩm trước đó để sửa lỗi và tránh khỏi việc mắc quá nhiều nợ kỹ thuật (technical debt). Để áp dụng Agile và DevOps đồng cùng lúc, chúng ta cần thực hiện 7 bước sau:
+Agile cho bạn quay lại các quá trình phát triển sản phẩm trước đó để sửa lỗi và tránh khỏi việc mắc quá nhiều nợ kỹ thuật (**technical debt**). Để áp dụng Agile và DevOps đồng cùng lúc, chúng ta cần thực hiện 7 bước sau:
 
 1. Tích hợp các nhóm phát triển và vận hành.
 2. Tạo các nhóm xây dựng và điều hành và thảo luận tất cả các vấn đề liên quan tới phát triển, vận hành cần được thảo luận bởi toàn bộ nhóm DevOps.
