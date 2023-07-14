@@ -8,15 +8,16 @@ Alibaba Cloud được thành lập vào năm 2009 và là một trong những n
 
 Dịch vụ Alibaba Cloud bao gồm:
 
-- Máy chủ ảo (ECS)
-- Lưu trữ (OSS)
-- Cơ sở dữ liệu (RDS)
+- Elastic Compute Service (ECS): Dịch vụ máy chủ ảo cho phép khách hàng tạo và quản lý các máy chủ ảo trong đám mây.
+- Object Storage Service (OSS): Dịch vụ lưu trữ đối tượng cho phép khách hàng lưu trữ dữ liệu dưới dạng các đối tượng.
+- Relational Database Service (RDS): Dịch vụ cơ sở dữ liệu quan hệ cho phép khách hàng tạo và quản lý các cơ sở dữ liệu quan hệ trong đám mây.
+- Elastic Load Balancing (ELB): Dịch vụ cân bằng tải cho phép khách hàng cân bằng tải cho các ứng dụng của người dùng.
+- Data Analytics Service (DAS): Dịch vụ phân tích dữ liệu cho phép khách hàng phân tích dữ liệu của người dùng trong đám mây.
+- Artificial Intelligence (AI) Service: Dịch vụ trí tuệ nhân tạo cho phép khách hàng sử dụng trí tuệ nhân tạo để xây dựng các ứng dụng của người dùng.
+- Machine Learning (ML) Service: Dịch vụ máy học cho phép khách hàng sử dụng máy học để xây dựng các ứng dụng của người dùng.
 - Container (ACK)
 - Anti-DDoS
 - Mạng (ALB)
-- Phân tích dữ liệu (Data Analytics)
-- Trí tuệ nhân tạo (AI)
-- Máy học (ML)
 - Và nhiều dịch vụ khác
 
 Alibaba Cloud cung cấp một loạt các lợi ích cho doanh nghiệp và cá nhân, bao gồm:
