@@ -44,7 +44,7 @@
 
 ### Tìm hiểu về Alibaba Cloud
 
-- [✔️] ☁️ > [Overview: DevOps & The Cloud]
+- [✔️] ☁️ > [Overview: DevOps & The Cloud](Cloud-Provider/Overview-DevOps-The-Cloud.md)
 - [✔️] ☁️ > [Kiến thức cơ bản về Alibaba Cloud](Cloud-Provider/Alibaba-Cloud/Alibaba-Cloud-la-gi.md)
 - [✔️] ☁️ > [Server Migration Center (SMC) là gì ?](Cloud-Provider/Alibaba-Cloud/Server-Migration-Center-SMC-la-gi.md)
 - [✔️] ☁️ > [Mô hình bảo mật Alibaba Cloud]
