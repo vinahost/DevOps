@@ -1,8 +1,8 @@
 ### Tổng quan DevOps và Cloud
 
-    **DevOps** là một cách tiếp cận tổng thể cho việc phát triển và vận hành phần mềm, tập trung vào việc hợp nhất các nhóm phát triển và vận hành để tạo ra các ứng dụng và dịch vụ nhanh hơn, đáng tin cậy hơn và an toàn hơn.
+**DevOps** là một cách tiếp cận tổng thể cho việc phát triển và vận hành phần mềm, tập trung vào việc hợp nhất các nhóm phát triển và vận hành để tạo ra các ứng dụng và dịch vụ nhanh hơn, đáng tin cậy hơn và an toàn hơn.
 
-    **The Cloud** là một mô hình cung cấp các dịch vụ điện toán, lưu trữ và phần mềm qua Internet. Các dịch vụ Cloud có thể được sử dụng để triển khai các ứng dụng DevOps, giúp các nhóm phát triển và vận hành hợp tác hiệu quả hơn và cung cấp các ứng dụng nhanh hơn, đáng tin cậy hơn và an toàn hơn.
+**The Cloud** là một mô hình cung cấp các dịch vụ điện toán, lưu trữ và phần mềm qua Internet. Các dịch vụ Cloud có thể được sử dụng để triển khai các ứng dụng DevOps, giúp các nhóm phát triển và vận hành hợp tác hiệu quả hơn và cung cấp các ứng dụng nhanh hơn, đáng tin cậy hơn và an toàn hơn.
 
 ![img](../Image/Devops-And-Cloud.jpg)
 
