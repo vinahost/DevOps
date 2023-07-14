@@ -1,16 +1,16 @@
 ### Tổng quan DevOps và Cloud
 
-DevOps là một cách tiếp cận tổng thể cho việc phát triển và vận hành phần mềm, tập trung vào việc hợp nhất các nhóm phát triển và vận hành để tạo ra các ứng dụng và dịch vụ nhanh hơn, đáng tin cậy hơn và an toàn hơn.
+**DevOps** là một cách tiếp cận tổng thể cho việc phát triển và vận hành phần mềm, tập trung vào việc hợp nhất các nhóm phát triển và vận hành để tạo ra các ứng dụng và dịch vụ nhanh hơn, đáng tin cậy hơn và an toàn hơn.
+
+**The Cloud** là một mô hình cung cấp các dịch vụ điện toán, lưu trữ và phần mềm qua Internet. Các dịch vụ Cloud có thể được sử dụng để triển khai các ứng dụng DevOps, giúp các nhóm phát triển và vận hành hợp tác hiệu quả hơn và cung cấp các ứng dụng nhanh hơn, đáng tin cậy hơn và an toàn hơn.
 
 ![img](../Image/Devops-And-Cloud.jpg)
-
-The Cloud là một mô hình cung cấp các dịch vụ điện toán, lưu trữ và phần mềm qua Internet. Các dịch vụ Cloud có thể được sử dụng để triển khai các ứng dụng DevOps, giúp các nhóm phát triển và vận hành hợp tác hiệu quả hơn và cung cấp các ứng dụng nhanh hơn, đáng tin cậy hơn và an toàn hơn.
 
 Có một số lợi ích của việc sử dụng DevOps và Cloud cùng nhau, bao gồm:
 
 - **Tăng tốc độ phát triển**: DevOps cho phép các nhóm phát triển và vận hành hợp tác chặt chẽ hơn, dẫn đến việc phát triển ứng dụng nhanh hơn.
-- Tăng cường khả năng đáp ứng: Các ứng dụng được triển khai trên Cloud có thể được mở rộng và thu nhỏ nhanh chóng để đáp ứng nhu cầu thay đổi của người dùng.
-- T**ăng cường tính bảo mật**: Các dịch vụ Cloud thường được tích hợp với các tính năng bảo mật, giúp các ứng dụng được triển khai trên Cloud được bảo vệ tốt hơn.
+- **Tăng cường khả năng đáp ứng**: Các ứng dụng được triển khai trên Cloud có thể được mở rộng và thu nhỏ nhanh chóng để đáp ứng nhu cầu thay đổi của người dùng.
+- **Tăng cường tính bảo mật**: Các dịch vụ Cloud thường được tích hợp với các tính năng bảo mật, giúp các ứng dụng được triển khai trên Cloud được bảo vệ tốt hơn.
 - **Giảm chi phí:** Các dịch vụ Cloud thường có chi phí thấp hơn so với việc tự triển khai và vận hành các ứng dụng.
 
 Nếu bạn đang tìm cách phát triển và vận hành các ứng dụng nhanh hơn, đáng tin cậy hơn và an toàn hơn, thì việc sử dụng DevOps và Cloud là một giải pháp hiệu quả.
