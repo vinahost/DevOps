@@ -12,8 +12,8 @@ Vòng đời DevOps bao gồm các giai đoạn sau:
 - **Vận hành thay đổi (CO)**: CO là quá trình tự động hóa việc quản lý các thay đổi đối với các ứng dụng. CO giúp cải thiện khả năng kiểm soát và độ tin cậy của các ứng dụng.
 - **Tính liên tục học hỏi (CL)**: CL là quá trình tự động hóa việc thu thập và phân tích dữ liệu về hiệu suất của các ứng dụng. CL giúp cải thiện chất lượng và độ tin cậy của các ứng dụng.
 
-Vòng đời DevOps là một mô hình linh hoạt có thể được tùy chỉnh để phù hợp với nhu cầu của từng tổ chức. Tuy nhiên, các nguyên tắc cơ bản của vòng đời DevOps vẫn là như nhau: **tự động hóa, hợp lý hóa và hợp tác.
-**
+Vòng đời DevOps là một mô hình linh hoạt có thể được tùy chỉnh để phù hợp với nhu cầu của từng tổ chức. Tuy nhiên, các nguyên tắc cơ bản của vòng đời DevOps vẫn là như nhau: **tự động hóa, hợp lý hóa và hợp tác.**
+
 Trong các bài viết, chúng ta sẽ nói đến vòng đời của DevOps (**Phát triển liên tục, Kiểm thử, Triển khai, Giám sát**) rất nhiều lần. Nếu bạn muốn trở thành một kỹ sư DevOps thì bạn sẽ quen với việc lặp đi lặp lại những điều này. Tuy nhiên, việc liên tục cải thiện từng quá trình trong vòng đời này sẽ khiến công việc của chúng ta trở nên thú vị.
 
 Trong lần này, chúng ta sẽ nhìn tổng thể các quá trình phát triển ứng dụng từ khi bắt đầu tới khi kết thúc và nhắc lại điều này nhiều lần như một vòng lặp liên tục.
@@ -26,9 +26,9 @@ Nói tới các công cụ ở quá trình này, không có yêu cầu thực s�
 
 Hãy nhớ rằng, là một kỹ sư DevOps, bạn có có thể không phải là người lên kế hoạch cũng như lập trình ứng dụng cho người dùng cuối. Việc này thường sẽ được một kỹ sư phát triển đảm nhiện. Tuy nhiên, sẽ rất tuyệt vời nếu bạn có thể đọc được một số đoạn mã và hiểu được các yêu cầu của ứng dụng, từ đó đưa ra các quyết định tốt nhất cho cơ sở hạ tầng cho hệ thống mới.
 
-Ứng dụng này có thể được viết bằng bất cứ ngôn ngữ nào, nhưng điều quan trọng là mã ứng dụng nên được quản lý bởi một hệ thống kiểm soát phiên bản (version control system). Chúng ta sẽ tìm hiểu chi tiết hơn về mục này ở phần sau (cụ thể là sẽ tập trung vào git).
+Ứng dụng này có thể được viết bằng bất cứ ngôn ngữ nào, nhưng điều quan trọng là mã ứng dụng nên được quản lý bởi một hệ thống kiểm soát phiên bản (**version control system**). Chúng ta sẽ tìm hiểu chi tiết hơn về mục này ở phần sau (cụ thể là sẽ tập trung vào git).
 
-Dù có 1 hay nhiều thành viên tham gia vào dự án, phương pháp tốt nhất vẫn là sử dụng một kho lưu trữ(code repository) để lưu trữ mã giúp nhiều thanh viên có thể cộng tác khi làm việc với mã chương trình. Kho lưu trữ mã có thể được lưu trữ công khai hoặc riêng tư, bạn cũng có thể sẽ nghe nói đến việc sử dụng GitHub hoặc GitLab làm kho lưu trữ. Chúng ta sẽ đề cập đến những điều này trong phần nói về Git.
+Dù có 1 hay nhiều thành viên tham gia vào dự án, phương pháp tốt nhất vẫn là sử dụng một kho lưu trữ (**code repository**) để lưu trữ mã giúp nhiều thanh viên có thể cộng tác khi làm việc với mã chương trình. Kho lưu trữ mã có thể được lưu trữ công khai hoặc riêng tư, bạn cũng có thể sẽ nghe nói đến việc sử dụng GitHub hoặc GitLab làm kho lưu trữ. Chúng ta sẽ đề cập đến những điều này trong phần nói về Git.
 
 ## Kiểm thử
 
@@ -58,7 +58,7 @@ Cuối cùng thì chúng ta cũng đã xây dựng xong ứng dụng, kiểm th�
 
 Đây chính là quá trình mà các đoạn mã sẽ được triển khai lên các máy chủ của môi trường production và cũng chính là một quá trình cực kỳ thú vị và cũng chính là phần mà chúng ta sẽ đào sâu hơn trong 86 ngày còn lại. 
 
-Các ứng dụng khác nhau đòi hỏi các yêu cầu khác nhau về phần cứng và cấu hình. Đó là khi quản lý cấu hình ứng dụng (Application Configuration Management) và cơ sở hạ tầng ứng dụng dưới dạng mã (Infrastructure as Code) đóng vai trò then chốt trong vòng đời DevOps. Các ứng dụng có thể được đóng gói và chạy trong các containers hoặc chạy trên các máy ảo (VM). Điều này khiến chúng ta cần sử dụng các nền tảng như Kubernetes để điều phối các containers và đảm bảo ứng dụng ở trong trạng thái mong muốn nhằm phục vụ người dùng cuối.
+Các ứng dụng khác nhau đòi hỏi các yêu cầu khác nhau về phần cứng và cấu hình. Đó là khi quản lý cấu hình ứng dụng (**Application Configuration Management**) và cơ sở hạ tầng ứng dụng dưới dạng mã (**Infrastructure as Code**) đóng vai trò then chốt trong vòng đời DevOps. Các ứng dụng có thể được đóng gói và chạy trong các containers hoặc chạy trên các máy ảo (VM). Điều này khiến chúng ta cần sử dụng các nền tảng như Kubernetes để điều phối các containers và đảm bảo ứng dụng ở trong trạng thái mong muốn nhằm phục vụ người dùng cuối.
 
 Chúng ta sẽ tìm hiểu chi tiết về các chủ đề quan trọng này trong vài tuần tới để có kiến thức nền tảng tốt hơn về chúng và khi nào thì nên sử dụng.
 
@@ -70,7 +70,7 @@ Nhưng bây giờ chúng ta phải đảm bảo rằng người dùng cuối có
 
 Giai đoạn này cũng là khi chúng ta nhận các phản hồi về các tính năng và nhu cầu của người dùng cuối với ứng dụng.
 
-Độ tin cậy (reliability) cũng là một yếu tố quan trọng. Suy cho cùng thì chúng ta muốn ứng dụng của mình luôn sẵn sàng bất cứ khi nào người dùng cần. Chính vì vậy, các yếu tố khác như bảo mật, tính quan sát, quản lý dữ liệu cần được giám sát liên tục và kết quả được sử dụng để liên tục cải tiến, cập nhật ứng dụng bằng việc phát hành các phiên bản mới.
+Độ tin cậy (**reliability**) cũng là một yếu tố quan trọng. Suy cho cùng thì chúng ta muốn ứng dụng của mình luôn sẵn sàng bất cứ khi nào người dùng cần. Chính vì vậy, các yếu tố khác như bảo mật, tính quan sát, quản lý dữ liệu cần được giám sát liên tục và kết quả được sử dụng để liên tục cải tiến, cập nhật ứng dụng bằng việc phát hành các phiên bản mới.
 
 Một vài ý kiến đóng góp từ cộng đồng và cụ thể là [@\_ediri](https://twitter.com/_ediri) cũng đề cập rằng các **FinOps** cũng nên là một phần của quá trình liên tục này. Ứng dụng và Dữ liệu đang chạy và được lưu trữ cũng nên được theo dõi liên tục để đảm bảo mọi thay đổi của tài nguyên không gây ra thiệt hại đáng kể về mặt tài chính, đặc biệt với hoá đơn điện toán đám mây của bạn.
 
