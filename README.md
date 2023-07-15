@@ -88,7 +88,7 @@
 
 ### Học cơ sở hạ tầng dưới dạng mã (Infrastructure as Code)
 
-- [✔️] 🤖 > [Overview: Cơ sở hạ tầng dưới dạng mã (IaC)]
+- [✔️] 🤖 > [Overview: Cơ sở hạ tầng dưới dạng mã (IaC)](IaC/Infrastructure-as-Code-IaC.md)
 - [✔️] 🤖 > [Giới thiệu về Terraform](IaC/Terraform-la-gi.md)
 - [✔️] 🤖 > [Ngôn ngữ cấu hình HashiCorp (HCL)]
 - [✔️] 🤖 > [Tạo VM với Terraform & Biến]
