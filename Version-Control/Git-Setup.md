@@ -46,7 +46,7 @@ Mở thư mục mà bạn muốn tạo kho lưu trữ trong cửa sổ dòng l�
 Gõ lệnh sau:
 
     git init
-    
+
 Kho lưu trữ mới sẽ được tạo trong thư mục hiện tại.
 
 Bạn có thể bắt đầu thêm các tệp vào kho lưu trữ bằng cách sử dụng lệnh *git add*. Để đẩy các thay đổi của bạn lên kho lưu trữ từ xa, hãy sử dụng lệnh *git push*. Để kéo các thay đổi từ kho lưu trữ từ xa xuống, hãy sử dụng lệnh *git pull*.
