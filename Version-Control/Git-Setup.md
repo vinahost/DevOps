@@ -39,7 +39,6 @@ Sau khi Git đã được cài đặt và cấu hình, bạn có thể bắt đ�
 
 - Mở thư mục mà bạn muốn tạo kho lưu trữ trong cửa sổ dòng lệnh.
 - Gõ lệnh sau:
-
     git init
 
 Kho lưu trữ mới sẽ được tạo trong thư mục hiện tại.
