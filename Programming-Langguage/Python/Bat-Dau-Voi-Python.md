@@ -37,17 +37,25 @@ Python là một ngôn ngữ lập trình mạnh mẽ và linh hoạt, có thể
 5. **Tích hợp liên tục (CI)**:  tích hợp liên tục (CI) là một quy trình tự động hóa việc xây dựng và kiểm tra mã khi có bất kỳ thay đổi nào được thực hiện. Bạn có thể sử dụng một công cụ CI như **Jenkins** hoặc **Travis CI** để tích hợp liên tục mã Python của mình.
 6. **Triển khai liên tục (CD)**: triển khai liên tục (CD) là một quy trình tự động hóa việc triển khai mã đã được kiểm tra thành môi trường sản xuất. Bạn có thể sử dụng một công cụ CD như Jenkins hoặc Travis CI để triển khai liên tục mã Python của mình.
 
-Dưới đây là một ví dụ về mã Python Hello World *hello.py*:
+Mã Hello World Python là một chương trình đơn giản in ra văn bản "Hello, World!" trên màn hình. Đây là một chương trình mẫu thường được sử dụng để giới thiệu ngôn ngữ lập trình Python.
+
+Mã Hello World Python rất đơn giản, vd ta có file *main.py*:
 
     print("Hello, world!")
 
+Câu lệnh *print()* được sử dụng để in văn bản trên màn hình. Văn bản được in trong ngoặc kép là "Hello, World!"
+
 Để chạy ứng dụng Python Hello World, bạn có thể sử dụng trình thông dịch *Python* như sau:
 
-    python hello_world.py
+    python main.py
 
 Đầu ra sẽ là:
 
     Hello, world!
+
+Trong DevOps, mã Hello World Python thường được sử dụng để kiểm tra một hệ thống **Tích hợp liên tục (CI)**. Hệ thống CI là một tập hợp các công cụ được sử dụng để tự động hóa quá trình xây dựng, kiểm tra và triển khai mã. Bằng cách chạy mã Hello World Python thông qua hệ thống CI, bạn có thể đảm bảo rằng hệ thống CI đang hoạt động bình thường và có thể xây dựng, kiểm tra và triển khai mã mà không gặp bất kỳ lỗi nào.
+
+Ngoài ra, mã Hello World Python còn có thể được sử dụng để kiểm tra một hệ thống **Triển khai liên tục (CD)**. Hệ thống CD là một tập hợp các công cụ được sử dụng để tự động hóa quá trình triển khai mã lên môi trường sản xuất. Bằng cách chạy mã Hello World Python thông qua hệ thống CD, bạn có thể đảm bảo rằng hệ thống CD đang hoạt động bình thường và có thể triển khai mã lên môi trường sản xuất mà không gặp bất kỳ lỗi nào.
 
 #### Để thiết lập môi trường DevOps cho Python, bạn cần làm theo các bước sau:
 
