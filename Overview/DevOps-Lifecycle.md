@@ -12,7 +12,7 @@ Vòng đời DevOps bao gồm các giai đoạn sau:
 - **Vận hành thay đổi (CO)**: CO là quá trình tự động hóa việc quản lý các thay đổi đối với các ứng dụng. CO giúp cải thiện khả năng kiểm soát và độ tin cậy của các ứng dụng.
 - **Tính liên tục học hỏi (CL)**: CL là quá trình tự động hóa việc thu thập và phân tích dữ liệu về hiệu suất của các ứng dụng. CL giúp cải thiện chất lượng và độ tin cậy của các ứng dụng.
 
-Vòng đời DevOps là một mô hình linh hoạt có thể được tùy chỉnh để phù hợp với nhu cầu của từng tổ chức. Tuy nhiên, các nguyên tắc cơ bản của vòng đời DevOps vẫn là như nhau: **tự động hóa, hợp lý hóa và hợp tác.**
+Vòng đời DevOps là một mô hình linh hoạt có thể được tùy chỉnh để phù hợp với nhu cầu của từng tổ chức. Tuy nhiên, các nguyên tắc cơ bản của vòng đời DevOps vẫn là như nhau: **tự động hóa, hợp lý hóa và hợp tác**.
 
 Trong các bài viết, chúng ta sẽ nói đến vòng đời của DevOps (**Phát triển liên tục, Kiểm thử, Triển khai, Giám sát**) rất nhiều lần. Nếu bạn muốn trở thành một kỹ sư DevOps thì bạn sẽ quen với việc lặp đi lặp lại những điều này. Tuy nhiên, việc liên tục cải thiện từng quá trình trong vòng đời này sẽ khiến công việc của chúng ta trở nên thú vị.
 
