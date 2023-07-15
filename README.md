@@ -108,7 +108,7 @@
 
 ### Tạo CI/CD Pipelines
 
-- [✔️] 🔄 > [Overview: CI/CD Pipelines]
+- [✔️] 🔄 > [Overview: CI/CD Pipelines](CI-Cd/Overview-CI-CD-Pipelines.md)
 - [✔️] 🔄 > [What is Jenkins?]
 - [✔️] 🔄 > [Getting hands on with Jenkins]
 - [✔️] 🔄 > [Building a Jenkins pipeline]
