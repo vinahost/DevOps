@@ -1,5 +1,7 @@
 
-DevOps là một phương pháp phát triển và vận hành phần mềm tập trung vào việc tự động hóa và tích hợp các quy trình phát triển và vận hành. Mục tiêu của DevOps là tạo ra một môi trường nơi các nhóm phát triển và vận hành có thể cộng tác chặt chẽ để cung cấp phần mềm nhanh hơn, đáng tin cậy hơn và linh hoạt hơn.
+**DevOps** là một phương pháp phát triển và vận hành phần mềm tập trung vào việc tự động hóa và tích hợp các quy trình phát triển và vận hành. Mục tiêu của DevOps là tạo ra một môi trường nơi các nhóm phát triển và vận hành có thể cộng tác chặt chẽ để cung cấp phần mềm nhanh hơn, đáng tin cậy hơn và linh hoạt hơn.
+
+![img](../Image/Programming-Languages.jpg)
 
 Có một số ngôn ngữ lập trình và công nghệ phổ biến được sử dụng trong DevOps, bao gồm:
 
@@ -12,9 +14,9 @@ Có một số ngôn ngữ lập trình và công nghệ phổ biến được s
 - **Kubernetes**: Kubernetes là một hệ thống quản lý container giúp các nhà phát triển và vận hành quản lý các cụm container. Kubernetes là một công nghệ quan trọng trong DevOps.
 - **Jenkins**: Jenkins là một công cụ tự động hóa được sử dụng để chạy các bài kiểm tra, xây dựng mã và triển khai phần mềm. Nó được sử dụng trong DevOps để tự động hóa các quy trình phát triển và vận hành.
 
-Các ngôn ngữ lập trình và công nghệ DevOps khác nhau được sử dụng tùy thuộc vào nhu cầu cụ thể của từng tổ chức. Tuy nhiên, Python, JavaScript, Go, Docker và Kubernetes là một số ngôn ngữ lập trình và công nghệ DevOps phổ biến nhất.
+Các ngôn ngữ lập trình và công nghệ DevOps khác nhau được sử dụng tùy thuộc vào nhu cầu cụ thể của từng tổ chức. Tuy nhiên, **Python**, **JavaScript**, **Go**, **Docker** và **Kubernetes** là một số ngôn ngữ lập trình và công nghệ DevOps phổ biến nhất.
 
-Ngôn ngữ lập trình tốt nhất cho DevOps là ngôn ngữ mà bạn cảm thấy thoải mái nhất và có kiến thức tốt nhất. Nếu bạn không chắc chắn ngôn ngữ nào nên sử dụng, thì Python là một lựa chọn tốt.
+Ngôn ngữ lập trình tốt nhất cho DevOps là ngôn ngữ mà bạn cảm thấy thoải mái nhất và có kiến thức tốt nhất. Nếu bạn không chắc chắn ngôn ngữ nào nên sử dụng, thì **Python** là một lựa chọn tốt.
 
 ### Tham khảo
 - https://www.python.org/
