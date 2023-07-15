@@ -23,7 +23,7 @@
 
 ### Kiến thức cơ bản về Linux
 
-- [✔️] 🐧 > [Overview: DevOps và Linux]
+- [✔️] 🐧 > [Overview: DevOps & Linux]
 - [✔️] 🐧 > [Các lệnh Linux cho DevOps (Thực tế là tất cả mọi người)]
 - [✔️] 🐧 > [Quản lý Hệ thống Linux, Hệ thống Tệp & Lưu trữ]
 - [✔️] 🐧 > [Text Editors - nano vs vim]
@@ -33,7 +33,7 @@
 
 ### Kiến thức về mạng (Network)
 
-- [✔️] 🌐 > [Overview: DevOps và Mạng máy tính]
+- [✔️] 🌐 > [Overview: DevOps & Mạng máy tính]
 - [✔️] 🌐 > [Mô hình OSI - 7 lớp mạng]
 - [✔️] 🌐 > [Giao thức mạng]
 - [✔️] 🌐 > [Tự động hoá mạng máy tính]
