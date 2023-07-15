@@ -23,8 +23,8 @@
 
 ### Kiến thức cơ bản về Linux
 
-- [✔️] 🐧 > [Overview: DevOps & Linux]
-- [✔️] 🐧 > [Các lệnh Linux cho DevOps (Thực tế là tất cả mọi người)]
+- [✔️] 🐧 > [Overview: DevOps & Linux](OS/Basic/DevOps-va-Linux.md)
+- [✔️] 🐧 > [Các lệnh Linux cho DevOps]
 - [✔️] 🐧 > [Quản lý Hệ thống Linux, Hệ thống Tệp & Lưu trữ]
 - [✔️] 🐧 > [Text Editors - nano vs vim]
 - [✔️] 🐧 > [SSH & Máy chủ Web (LAMP)]

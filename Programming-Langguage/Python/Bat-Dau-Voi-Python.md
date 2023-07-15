@@ -107,3 +107,13 @@ Sau khi chạy lệnh này, bạn sẽ thấy một giao diện Python. Bạn c�
 - https://www.python.org/
 - https://www.docker.com/
 - https://github.com/vinahostvn/devops/blob/main/Containers/Docker/Docker-la-gi.md
+- https://github.com/gto76/python-cheatsheet hoặc https://gto76.github.io/python-cheatsheet/
+- https://github.com/trekhleb/learn-python
+- https://github.com/FavioVazquez/ds-cheatsheets
+- https://github.com/crazyguitar/pysheeet
+- https://github.com/matplotlib/cheatsheets
+- https://github.com/Tikam02/DevOps-Guide
+- https://github.com/wilfredinni/python-cheatsheet
+- https://github.com/Fechin/reference
+- https://www.pythoncheatsheet.org/
+- https://quickref.me/python.html
