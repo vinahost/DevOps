@@ -42,23 +42,43 @@ Sau khi Git đã được cài đặt và cấu hình, bạn có thể bắt đ�
 
 ### Để bắt đầu sử dụng Git, hãy tạo một kho lưu trữ mới. Để làm điều này, hãy làm theo các bước sau:
 
-Mở thư mục mà bạn muốn tạo kho lưu trữ trong cửa sổ dòng lệnh và gõ lệnh sau:
+**Tạo một kho lưu trữ Git**. Một kho lưu trữ Git là một thư mục chứa mã của bạn và lịch sử các thay đổi đối với mã đó. Để tạo một kho lưu trữ Git, hãy chạy lệnh sau trên máy của bạn:
 
     git init
 
 Kho lưu trữ mới sẽ được tạo trong thư mục hiện tại.
 
-Bạn có thể bắt đầu thêm các tệp vào kho lưu trữ bằng cách sử dụng lệnh *git add*. Để đẩy các thay đổi của bạn lên kho lưu trữ từ xa, hãy sử dụng lệnh *git push*. Để kéo các thay đổi từ kho lưu trữ từ xa xuống, hãy sử dụng lệnh *git pull*. Để lưu trữ lên kho Git sử dụng lệnh *git commit -m "Initial commit"*
+**Thêm mã của bạn vào kho lưu trữ Git.** Để thêm mã của bạn vào kho lưu trữ Git, hãy chạy lệnh sau trên máy của bạn:
+
+    git add .
+
+Bạn có thể bắt đầu thêm các tệp vào kho lưu trữ bằng cách sử dụng lệnh *git add*. Để đẩy các thay đổi của bạn lên kho lưu trữ từ xa, hãy sử dụng lệnh *git push*. Để kéo các thay đổi từ kho lưu trữ từ xa xuống, hãy sử dụng lệnh *git pull*.
+
+**Lưu trữ mã của bạn trong kho lưu trữ Git**. Để lưu trữ mã của bạn trong kho lưu trữ Git, hãy chạy lệnh sau trong thiết bị đầu cuối của bạn:
+
+    git commit -m "Initial commit"
 
 - **Tạo một kho lưu trữ Git trên GitHub**: GitHub là một dịch vụ lưu trữ kho lưu trữ Git trực tuyến. Để tạo một kho lưu trữ Git trên GitHub, hãy tạo một tài khoản GitHub và sau đó tạo một kho lưu trữ mới.
 - **Đăng ký kho lưu trữ Git của bạn trên GitHub**: để đăng ký kho lưu trữ Git của bạn trên GitHub, hãy chạy lệnh sau trong thiết bị đầu cuối của bạn:
+- 
     git push origin master
+
 Bây giờ, kho lưu trữ Git của bạn đã được đăng ký trên GitHub và có thể truy cập được bởi bất kỳ ai có quyền truy cập vào kho lưu trữ.
 
-Dưới đây là một số mẹo để sử dụng Git với DevOps:
+Một số công cụ DevOps phổ biến mà Git có thể được sử dụng cùng bao gồm:
 
-- **Sử dụng các quy trình và công cụ tiêu chuẩn**. Có một số quy trình và công cụ tiêu chuẩn được sử dụng để làm việc với Git với DevOps. Những quy trình và công cụ này có thể giúp bạn làm việc hiệu quả hơn và hợp tác tốt hơn với những người khác.
-- **Sử dụng các công cụ tự động hóa**. Có một số công cụ tự động hóa có thể giúp bạn tự động hóa các tác vụ Git. Những công cụ này có thể giúp bạn tiết kiệm thời gian và đảm bảo rằng các quy trình Git của bạn được tuân thủ nhất quán.
-- **Sử dụng các công cụ giám sát**. Có một số công cụ giám sát có thể giúp bạn theo dõi kho lưu trữ Git của mình. Những công cụ này có thể giúp bạn phát hiện các vấn đề sớm và khắc phục các vấn đề đó nhanh chóng.
+- Jenkins: Jenkins là một công cụ tự động hóa xây dựng và triển khai có thể được sử dụng để tự động hóa các quy trình liên quan đến Git.
+- Travis CI: Travis CI là một nền tảng tự động hóa xây dựng và triển khai có thể được sử dụng để tự động hóa các quy trình liên quan đến Git.
+- CircleCI: CircleCI là một nền tảng tự động hóa xây dựng và triển khai có thể được sử dụng để tự động hóa các quy trình liên quan đến Git.
+
+Việc cài đặt và cấu hình Git với DevOps là một quá trình quan trọng đối với bất kỳ tổ chức nào sử dụng DevOps. Bằng cách cài đặt và cấu hình Git, các tổ chức có thể tận dụng các tính năng và lợi ích của Git để cải thiện quy trình phát triển và triển khai của họ.
+
+Bên dưới là một số lợi ích của việc cài đặt và cấu hình Git với DevOps:
+
+- **Cải thiện khả năng cộng tác**: Git có thể được sử dụng để cải thiện khả năng cộng tác giữa các nhà phát triển bằng cách cho phép họ theo dõi các thay đổi đối với mã và chia sẻ các thay đổi của họ với những người khác.
+- **Cải thiện khả năng tái sử dụng mã**: Git có thể được sử dụng để cải thiện khả năng tái sử dụng mã bằng cách cho phép các nhà phát triển lưu trữ mã của họ trong một kho lưu trữ chung và sau đó truy cập mã đó từ bất kỳ dự án nào.
+- **Cải thiện khả năng theo dõi các thay đổi**: Git có thể được sử dụng để cải thiện khả năng theo dõi các thay đổi đối với mã bằng cách cho phép các nhà phát triển theo dõi các thay đổi đối với mã và khôi phục các thay đổi cũ nếu cần.
+- **Cải thiện khả năng kiểm tra chất lượng**: Git có thể được sử dụng để cải thiện khả năng kiểm tra chất lượng bằng cách cho phép các nhà phát triển chạy các bài kiểm tra tự động trên mã của họ và theo dõi kết quả của các bài kiểm tra đó.
+- **Cải thiện khả năng triển khai**: Git có thể được sử dụng để cải thiện khả năng triển khai bằng cách cho phép các nhà phát triển triển khai mã của họ lên các môi trường sản xuất một cách an toàn và hiệu quả.
 
 Git là một công cụ mạnh mẽ có thể được sử dụng để theo dõi các thay đổi đối với các dự án. Nó rất dễ sử dụng và có thể được cài đặt trên hầu hết các hệ điều hành.
