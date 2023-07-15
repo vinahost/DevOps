@@ -73,7 +73,7 @@ Bạn có thể xem ba khái niệm liên tục ở trên là tập hợp đơn 
 - **Kiểm thử (Testing)**: Bước tiếp theo là kiểm tra phần mềm. Điều này bao gồm việc chạy các bài kiểm tra tự động và kiểm tra thủ công để đảm bảo rằng phần mềm hoạt động bình thường.
 - **Phát hành (Release)**: Bước tiếp theo là phát hành phần mềm. Điều này bao gồm việc đưa phần mềm vào môi trường sản xuất.
 - **Triển khai (Deploy)**: Bước tiếp theo là triển khai phần mềm. Điều này bao gồm việc cài đặt phần mềm trên các máy chủ và cấu hình phần mềm để hoạt động.
--** Vận hành (Operate)**: Bước tiếp theo là vận hành phần mềm. Điều này bao gồm việc theo dõi hiệu suất của phần mềm, khắc phục sự cố và cập nhật phần mềm.
+- **Vận hành (Operate)**: Bước tiếp theo là vận hành phần mềm. Điều này bao gồm việc theo dõi hiệu suất của phần mềm, khắc phục sự cố và cập nhật phần mềm.
 - **Giám sát (Monitor)**: Bước cuối cùng là giám sát phần mềm. Điều này bao gồm việc theo dõi hiệu suất của phần mềm, khắc phục sự cố và cập nhật phần mềm.
 
 ## Tài liệu tham khảo
