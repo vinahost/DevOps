@@ -57,7 +57,7 @@
               
 ### Cách sử dụng Git hiệu quả
 
-- [✔️] 📚 > [Overview: Git - Quản lý phiên bản]
+- [✔️] 📚 > [Overview: Git - Quản lý phiên bản](Version-Control/Git.md)
 - [✔️] 📚 > [Cài đặt & Cấu hình Git]
 - [✔️] 📚 > [Giới thiệu về Git]
 - [✔️] 📚 > [Staging & Changing]
