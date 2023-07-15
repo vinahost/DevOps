@@ -15,7 +15,7 @@
 ### DevOps và ngôn ngữ lập trình
 
 - [✔️] ⌨️ > [Overview: DevOps & Học một ngôn ngữ lập trình](Programming-Langguage/Ngon-Ngu-Lap-Trinh-DevOps.md)
-- [✔️] ⌨️ > [Thiết lập môi trường DevOps cho Python & Hello World]
+- [✔️] ⌨️ > [Thiết lập môi trường DevOps cho Python & Hello World](Programming-Langguage/Python/Bat-Dau-Voi-Python.md)
 - [✔️] ⌨️ > [Giải thích mã Hello World]
 - [✔️] ⌨️ > [Không gian làm việc của Python]
 - [✔️] ⌨️ > [Biến, hằng số & kiểu dữ liệu]
