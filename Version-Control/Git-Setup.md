@@ -6,13 +6,13 @@ Git là một công cụ mạnh mẽ có thể được sử dụng để theo d
 
 Git có thể được cài đặt trên hệ điều hành Linux bằng cách sử dụng các lệnh sau:
 
-**Ubuntu:**
+Ubuntu:
     sudo apt-get install git
-**Fedora:**
+Fedora:
     sudo dnf install git
-**CentOS:**
+CentOS:
     sudo yum install git
-**Arch Linux:**
+Arch Linux:
     sudo pacman -S git
 Sau khi Git đã được cài đặt, bạn có thể cấu hình nó bằng cách chạy lệnh sau:
 
@@ -33,10 +33,10 @@ Sau khi Git đã được cài đặt và cấu hình, bạn có thể bắt đ�
 
 Để bắt đầu sử dụng Git, hãy tạo một kho lưu trữ mới. Để làm điều này, hãy làm theo các bước sau:
 
-- Mở thư mục mà bạn muốn tạo kho lưu trữ trong cửa sổ dòng lệnh.
-- Gõ lệnh sau:
-    git init
+Mở thư mục mà bạn muốn tạo kho lưu trữ trong cửa sổ dòng lệnh.
 
+Gõ lệnh sau:
+    git init
 Kho lưu trữ mới sẽ được tạo trong thư mục hiện tại.
 
 Bạn có thể bắt đầu thêm các tệp vào kho lưu trữ bằng cách sử dụng lệnh *git add*. Để đẩy các thay đổi của bạn lên kho lưu trữ từ xa, hãy sử dụng lệnh *git push*. Để kéo các thay đổi từ kho lưu trữ từ xa xuống, hãy sử dụng lệnh *git pull*.
