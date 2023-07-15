@@ -8,16 +8,12 @@ Git có thể được cài đặt trên hệ điều hành Linux bằng cách s
 
 **Ubuntu:**
     sudo apt-get install git
-
 **Fedora:**
     sudo dnf install git
-
 **CentOS:**
     sudo yum install git
-
 **Arch Linux:**
     sudo pacman -S git
-
 Sau khi Git đã được cài đặt, bạn có thể cấu hình nó bằng cách chạy lệnh sau:
 
     git config --global user.name "Your Name"
