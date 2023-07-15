@@ -95,7 +95,7 @@ Sau khi chạy lệnh này, bạn sẽ thấy một giao diện Python. Bạn c�
 
 Đây chỉ là một ví dụ về cách thiết lập môi trường DevOps cho Python. Có nhiều cách khác để thiết lập môi trường DevOps, và cách tốt nhất sẽ phụ thuộc vào nhu cầu cụ thể của bạn. Nếu bạn chưa từng làm với Docker, đừng quá lo lắng, bài viết sau đây https://github.com/vinahostvn/devops/blob/main/Containers/Docker/Docker-la-gi.md sẽ hướng dẫn bạn cụ thể hơn về Docker.
 
-Tham khảo:
+**Tham khảo:**
 - https://www.python.org/
 - https://www.docker.com/
 - https://github.com/vinahostvn/devops/blob/main/Containers/Docker/Docker-la-gi.md
