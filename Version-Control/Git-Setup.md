@@ -58,18 +58,19 @@ Bạn có thể bắt đầu thêm các tệp vào kho lưu trữ bằng cách s
 
     git commit -m "Initial commit"
 
-- **Tạo một kho lưu trữ Git trên GitHub**: GitHub là một dịch vụ lưu trữ kho lưu trữ Git trực tuyến. Để tạo một kho lưu trữ Git trên GitHub, hãy tạo một tài khoản GitHub và sau đó tạo một kho lưu trữ mới.
-- **Đăng ký kho lưu trữ Git của bạn trên GitHub**: để đăng ký kho lưu trữ Git của bạn trên GitHub, hãy chạy lệnh sau trong thiết bị đầu cuối của bạn:
-- 
+**Tạo một kho lưu trữ Git trên GitHub**: GitHub là một dịch vụ lưu trữ kho lưu trữ Git trực tuyến. Để tạo một kho lưu trữ Git trên GitHub, hãy tạo một tài khoản GitHub và sau đó tạo một kho lưu trữ mới.
+
+**Đăng ký kho lưu trữ Git của bạn trên GitHub**: để đăng ký kho lưu trữ Git của bạn trên GitHub, hãy chạy lệnh sau trong thiết bị đầu cuối của bạn:
+
     git push origin master
 
 Bây giờ, kho lưu trữ Git của bạn đã được đăng ký trên GitHub và có thể truy cập được bởi bất kỳ ai có quyền truy cập vào kho lưu trữ.
 
 Một số công cụ DevOps phổ biến mà Git có thể được sử dụng cùng bao gồm:
 
-- Jenkins: Jenkins là một công cụ tự động hóa xây dựng và triển khai có thể được sử dụng để tự động hóa các quy trình liên quan đến Git.
-- Travis CI: Travis CI là một nền tảng tự động hóa xây dựng và triển khai có thể được sử dụng để tự động hóa các quy trình liên quan đến Git.
-- CircleCI: CircleCI là một nền tảng tự động hóa xây dựng và triển khai có thể được sử dụng để tự động hóa các quy trình liên quan đến Git.
+- **Jenkins**: Jenkins là một công cụ tự động hóa xây dựng và triển khai có thể được sử dụng để tự động hóa các quy trình liên quan đến Git.
+- **Travis CI**: Travis CI là một nền tảng tự động hóa xây dựng và triển khai có thể được sử dụng để tự động hóa các quy trình liên quan đến Git.
+- **CircleCI**: CircleCI là một nền tảng tự động hóa xây dựng và triển khai có thể được sử dụng để tự động hóa các quy trình liên quan đến Git.
 
 Việc cài đặt và cấu hình Git với DevOps là một quá trình quan trọng đối với bất kỳ tổ chức nào sử dụng DevOps. Bằng cách cài đặt và cấu hình Git, các tổ chức có thể tận dụng các tính năng và lợi ích của Git để cải thiện quy trình phát triển và triển khai của họ.
 
