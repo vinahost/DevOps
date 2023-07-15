@@ -6,21 +6,17 @@ Git là một công cụ mạnh mẽ có thể được sử dụng để theo d
 
 Git có thể được cài đặt trên hệ điều hành Linux bằng cách sử dụng các lệnh sau:
 
-- Ubuntu:
-
+**Ubuntu:**
     sudo apt-get install git
 
-- Fedora:
-
+**Fedora:**
     sudo dnf install git
 
-- CentOS:
-
+**CentOS:**
     sudo yum install git
 
-- Arch Linux:
-
-- sudo pacman -S git
+**Arch Linux:**
+    sudo pacman -S git
 
 Sau khi Git đã được cài đặt, bạn có thể cấu hình nó bằng cách chạy lệnh sau:
 
