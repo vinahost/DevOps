@@ -17,7 +17,7 @@ Sau khi việc lên kế hoạch kết thúc, họ sẽ bắt đầu viết mã,
 
 ### Xây dựng (Build)
 
-Đây là điểm bắt đầu của quy trình tự động hoá. Chúng ta sẽ lấy mã nguồn từ nhóm phát triển, và xây dựng ứng dụng từ đó. Tuỳ thuộc vào ngôn ngữ họ sử dụng mà chúng ta có thể sẽ chuyển mã, biên dịch hoặc tậm chí là xây dựng một D**ocker image** từ mã nguồn. Dù như thế nào, chúng ta vẫn sẽ sử dụng các **CI/CD pipeline** cho quá trình này.
+Đây là điểm bắt đầu của quy trình tự động hoá. Chúng ta sẽ lấy mã nguồn từ nhóm phát triển, và xây dựng ứng dụng từ đó. Tuỳ thuộc vào ngôn ngữ họ sử dụng mà chúng ta có thể sẽ chuyển mã, biên dịch hoặc tậm chí là xây dựng một **Docker image** từ mã nguồn. Dù như thế nào, chúng ta vẫn sẽ sử dụng các **CI/CD pipeline** cho quá trình này.
 
 ### Kiểm thử (Testing)
 
@@ -45,7 +45,7 @@ Sau khi hoàn thành, chúng ta quay lại từ đầu bắt đầu bằng việ
 
 ## Liên tục (Continuous)
 
-Nhiều công cụ giúp chúng ta thực hiện quy trình liên tục ở trên với mục tiêu cuối cùng là tự động toàn bộ quy trình. Việc này thường được gọi là **Tích hợp liên tục** / **Phân phối liên tụ**c / **Triển khai liên tục** hoặc viết tắt là "**CI/CD**". Chúng ta sẽ có các bài viêt tiếp theo để tìm hiểu kiến ​​thức cơ bản với một số ví dụ và hướng dẫn.
+Nhiều công cụ giúp chúng ta thực hiện quy trình liên tục ở trên với mục tiêu cuối cùng là tự động toàn bộ quy trình. Việc này thường được gọi là **Tích hợp liên tục** / **Phân phối liên tụ**c / **Triển khai liên tục** hoặc viết tắt là "**CI/CD**". Chúng ta sẽ có các bài viết tiếp theo để tìm hiểu kiến ​​thức cơ bản với một số ví dụ và hướng dẫn.
 
 ### Phân phối liên tục (Continuous Delivery)
 
@@ -53,7 +53,7 @@ Nhiều công cụ giúp chúng ta thực hiện quy trình liên tục ở trê
 
 ### Tích hợp liên tục (Continuous Integration)
 
-Đây là kết quả của **Phân phối liên tục (Continuous Delivery)** cộng với kết quả của giai đoạn Phát hành. Nếu thất bại thì sẽ quay trở lại **Phân phối liên tục (Continuous Delivery)**, nếu thành công thì chuyển sang giai đoạn **Triển khai liên tục (Continuous Deployment)**.
+Đây là kết quả của **Phân phối liên tục (Continuous Delivery)** cộng với kết quả của giai đoạn **Phát hành (Release)**. Nếu thất bại thì sẽ quay trở lại **Phân phối liên tục (Continuous Delivery)**, nếu thành công thì chuyển sang giai đoạn **Triển khai liên tục (Continuous Deployment)**.
 
 - Tích hợp liên tục = Kế hoạch > Viết mã > Xây dựng > Kiểm thử > Phát hành - ( Continuous Integration = Plan > Code > Build > Test > Release )
 
@@ -63,7 +63,7 @@ Sau khi có bản phát hành thành công từ **Tích hợp liên tục (Conti
 
 - Tích hợp liên tục phát hành thành công = Triển khai liên tục = Triển khai > Vận hành > Giám sát - ( CI Release is Success = Continuous Deployment = Deploy > Operate > Monitor )
 
-Bạn có thể xem ba khái niệm **liên tục** ở trên là tập hợp đơn giản của các giai đoạn của Vòng đời DevOps.
+Bạn có thể xem ba khái niệm **Liên tục(Continuous)** ở trên là tập hợp đơn giản của các giai đoạn của Vòng đời DevOps.
 
 #### Có thể tóm gọn quy trình DevOps bao gồm các bước sau:
 
