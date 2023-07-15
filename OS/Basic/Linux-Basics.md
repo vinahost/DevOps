@@ -69,6 +69,10 @@
 - kubectl get nodes --all-namespaces -o wide: Lấy danh sách tất cả các nút Kubernetes trong tất cả các không gian tên với thông tin chi tiết.
 - kubectl get cluster-autoscaler --all-namespaces: Lấy trạng thái của trình tự mở rộng cụm Kubernetes trong tất cả các không gian tên.
 
+Trường hợp cần thông tin chi tiết, các bạn có thể sử dụng lệnh *man* để có thêm thông tin của các lệnh tương ứng, cấu trúc lệnh man <command>
+
+    man ls
+
 Đây chỉ là một số lệnh Linux phổ biến được sử dụng trong DevOps. Có nhiều lệnh khác có thể được sử dụng, tùy thuộc vào các nhiệm vụ cụ thể mà bạn đang thực hiện.
 
 **Tham khảo**
