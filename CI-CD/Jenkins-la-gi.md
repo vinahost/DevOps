@@ -18,10 +18,13 @@ Jenkins có thể được cài đặt trên máy chủ cục bộ hoặc trên 
 
 Dưới đây là một số lợi ích của việc sử dụng Jenkins:
 
-- Tăng chất lượng mã: Jenkins có thể giúp phát hiện và khắc phục lỗi sớm hơn, đồng thời giảm thiểu rủi ro khi triển khai mã mới.
-- Tăng tốc độ phát triển: Jenkins có thể giúp các nhóm phát triển xây dựng và triển khai mã mới nhanh hơn.
-- Giảm thiểu rủi ro: Jenkins có thể giúp giảm thiểu rủi ro khi triển khai mã mới bằng cách tự động hóa các quy trình kiểm tra và triển khai.
-- Tăng khả năng mở rộng: Jenkins có thể giúp các nhóm phát triển dễ dàng mở rộng quy mô của các dự án của họ.
-- Tăng khả năng bảo mật: Jenkins có thể giúp các nhóm phát triển phát hiện và khắc phục các lỗ hổng bảo mật sớm hơn.
+- **Tăng chất lượng code**: Jenkins có thể giúp phát hiện và khắc phục lỗi sớm hơn, đồng thời giảm thiểu rủi ro khi triển khai mã mới.
+- **Tăng tốc độ phát triển**: Jenkins có thể giúp các nhóm phát triển xây dựng và triển khai mã mới nhanh hơn.
+- **Giảm thiểu rủi ro**: Jenkins có thể giúp giảm thiểu rủi ro khi triển khai mã mới bằng cách tự động hóa các quy trình kiểm tra và triển khai.
+- **Tăng khả năng mở rộng**: Jenkins có thể giúp các nhóm phát triển dễ dàng mở rộng quy mô của các dự án của họ.
+- **Tăng khả năng bảo mật**: Jenkins có thể giúp các nhóm phát triển phát hiện và khắc phục các lỗ hổng bảo mật sớm hơn.
 
 Jenkins là một công cụ hữu ích cho các nhóm phát triển phần mềm của mọi quy mô. Nó có thể giúp cải thiện chất lượng mã, tăng tốc độ phát triển và giảm thiểu rủi ro khi triển khai mã mới.
+
+**Tham khảo**
+- https://www.jenkins.io/
