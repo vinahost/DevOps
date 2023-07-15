@@ -14,7 +14,7 @@ Fedora:
 
     sudo dnf install git
 
-entOS:
+CentOS:
 
     sudo yum install git
 
@@ -41,9 +41,7 @@ Sau khi Git đã được cài đặt và cấu hình, bạn có thể bắt đ�
 
 Để bắt đầu sử dụng Git, hãy tạo một kho lưu trữ mới. Để làm điều này, hãy làm theo các bước sau:
 
-Mở thư mục mà bạn muốn tạo kho lưu trữ trong cửa sổ dòng lệnh.
-
-Gõ lệnh sau:
+Mở thư mục mà bạn muốn tạo kho lưu trữ trong cửa sổ dòng lệnh và gõ lệnh sau:
 
     git init
 
