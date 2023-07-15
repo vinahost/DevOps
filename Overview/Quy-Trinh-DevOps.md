@@ -49,19 +49,19 @@ Nhiều công cụ giúp chúng ta thực hiện quy trình liên tục ở trê
 
 ### Phân phối liên tục (Continuous Delivery)
 
-Phân phối liên tục = Kế hoạch > Viết mã > Xây dựng > Kiểm thử - ( Continuous Delivery = Plan > Code > Build > Test ) 
+- Phân phối liên tục = Kế hoạch > Viết mã > Xây dựng > Kiểm thử - ( Continuous Delivery = Plan > Code > Build > Test ) 
 
 ### Tích hợp liên tục (Continuous Integration)
 
 Đây là kết quả của Phân phối liên tục cộng với kết quả của giai đoạn Phát hành. Nếu thất bại thì sẽ quay trở lại Phân phối liên tục, nếu thành công thì chuyển sang giai đoạn Triển khai liên tục.
 
-Tích hợp liên tục = Kế hoạch > Viết mã > Xây dựng > Kiểm thử > Phát hành - ( Continuous Integration = Plan > Code > Build > Test > Release )
+- Tích hợp liên tục = Kế hoạch > Viết mã > Xây dựng > Kiểm thử > Phát hành - ( Continuous Integration = Plan > Code > Build > Test > Release )
 
 ### Triển khai liên tục (Continuous Deployment)
 
 Sau khi có bản phát hành thành công từ Tích hợp liên tục, chúng ta sẽ chuyển sang Triển khai liên tục gồm các giai đoạn sau.
 
-Tích hợp liên tục phát hành thành công = Triển khai liên tục = Triển khai > Vận hành > Giám sát - CI Release is Success = Continuous Deployment = Deploy > Operate > Monitor
+- Tích hợp liên tục phát hành thành công = Triển khai liên tục = Triển khai > Vận hành > Giám sát - ( CI Release is Success = Continuous Deployment = Deploy > Operate > Monitor )
 
 Bạn có thể xem ba khái niệm liên tục ở trên là tập hợp đơn giản của các giai đoạn của Vòng đời DevOps.
 
