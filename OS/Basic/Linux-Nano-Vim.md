@@ -99,6 +99,8 @@ Vim là một công cụ tuyệt vời để tạo và chỉnh sửa các tệp 
 
 ### So sánh giữa Nano và Vim
 
+![img](../../Image/Vim-Nano.jpg)
+
 Nano và Vim đều là những trình soạn thảo văn bản dòng lệnh miễn phí và mã nguồn mở. Chúng đều có thể được sử dụng để tạo và chỉnh sửa các tệp văn bản trên các hệ thống giống Unix, bao gồm Linux, macOS và Windows.
 
 Tuy nhiên, có một số điểm khác biệt chính giữa Nano và Vim. Nano là một trình soạn thảo văn bản đơn giản hơn, trong khi Vim là một trình soạn thảo văn bản mạnh mẽ hơn.
