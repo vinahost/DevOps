@@ -2,7 +2,7 @@
 
 ![img](../../Image/python.jpg)
 
-Python là một ngôn ngữ lập trình đa năng được phát triển bởi Guido van Rossum vào năm 1991. Python là một ngôn ngữ lập trình cấp cao, có nghĩa là nó dễ đọc và viết hơn các ngôn ngữ lập trình cấp thấp. Python cũng là một ngôn ngữ lập trình hướng đối tượng, có nghĩa là nó cho phép các nhà phát triển tạo các chương trình bằng cách sử dụng các đối tượng.
+**Python** là một ngôn ngữ lập trình đa năng được phát triển bởi **Guido van Rossum** vào năm **1991**. Python là một ngôn ngữ lập trình cấp cao, có nghĩa là nó dễ đọc và viết hơn các ngôn ngữ lập trình cấp thấp. Python cũng là một ngôn ngữ lập trình hướng đối tượng, có nghĩa là nó cho phép các nhà phát triển tạo các chương trình bằng cách sử dụng các đối tượng.
 
 Python là một ngôn ngữ lập trình phổ biến, được sử dụng cho nhiều mục đích khác nhau, bao gồm:
 
@@ -30,21 +30,21 @@ Python là một ngôn ngữ lập trình mạnh mẽ và linh hoạt, có thể
 
 ![img](../../Image/docker-python.png)
 
-1. **Cài đặt Python**: bạn có thể tải xuống và cài đặt Python từ trang web chính thức của ![Python](https://www.python.org/)
+1. **Cài đặt Python**: bạn có thể tải xuống và cài đặt Python từ trang web chính thức của Python https://www.python.org/
 2. **Tạo một dự án Python**: bạn có thể tạo một dự án Python mới bằng cách sử dụng trình tạo dự án của Python hoặc bằng cách tạo một thư mục mới và thêm tệp Python vào thư mục đó.
 3. **Thêm mã Python vào dự án**: bạn có thể thêm mã Python vào dự án bằng cách tạo một tệp mới và thêm mã vào tệp đó.
 4. **Chạy ứng dụng Python:** bạn có thể chạy ứng dụng Python bằng cách sử dụng trình thông dịch Python.
 5. **Tích hợp liên tục (CI)**:  tích hợp liên tục (CI) là một quy trình tự động hóa việc xây dựng và kiểm tra mã khi có bất kỳ thay đổi nào được thực hiện. Bạn có thể sử dụng một công cụ CI như **Jenkins** hoặc **Travis CI** để tích hợp liên tục mã Python của mình.
 6. **Triển khai liên tục (CD)**: triển khai liên tục (CD) là một quy trình tự động hóa việc triển khai mã đã được kiểm tra thành môi trường sản xuất. Bạn có thể sử dụng một công cụ CD như Jenkins hoặc Travis CI để triển khai liên tục mã Python của mình.
-Dưới đây là một ví dụ về mã Python Hello World:
 
-Python
+Dưới đây là một ví dụ về mã Python Hello World *hello.py*:
+
     print("Hello, world!")
 
-Để chạy ứng dụng Python Hello World, bạn có thể sử dụng trình thông dịch Python như sau:
+Để chạy ứng dụng Python Hello World, bạn có thể sử dụng trình thông dịch *Python* như sau:
 
-Python
     python hello_world.py
+
 Đầu ra sẽ là:
 
     Hello, world!
@@ -93,7 +93,7 @@ Bạn có thể chạy hình ảnh Docker của dự án bằng cách sử dụn
 
 Sau khi chạy lệnh này, bạn sẽ thấy một giao diện Python. Bạn có thể bắt đầu viết và chạy mã Python của mình.
 
-Đây chỉ là một ví dụ về cách thiết lập môi trường DevOps cho Python. Có nhiều cách khác để thiết lập môi trường DevOps, và cách tốt nhất sẽ phụ thuộc vào nhu cầu cụ thể của bạn. Nếu bạn chưa từng làm với Docker, đừng quá lo lắng, các ![bài viết sau đây](https://github.com/vinahostvn/devops/blob/main/Containers/Docker/Docker-la-gi.md) sẽ hướng dẫn bạn cụ thể hơn về Docker.
+Đây chỉ là một ví dụ về cách thiết lập môi trường DevOps cho Python. Có nhiều cách khác để thiết lập môi trường DevOps, và cách tốt nhất sẽ phụ thuộc vào nhu cầu cụ thể của bạn. Nếu bạn chưa từng làm với Docker, đừng quá lo lắng, bài viết sau đây https://github.com/vinahostvn/devops/blob/main/Containers/Docker/Docker-la-gi.md sẽ hướng dẫn bạn cụ thể hơn về Docker.
 
 Tham khảo:
 - https://www.python.org/
