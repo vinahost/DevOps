@@ -26,7 +26,7 @@ Nói tới các công cụ ở quá trình này, không có yêu cầu thực s�
 
 Hãy nhớ rằng, là một kỹ sư DevOps, bạn có có thể không phải là người lên kế hoạch cũng như lập trình ứng dụng cho người dùng cuối. Việc này thường sẽ được một kỹ sư phát triển đảm nhiện. Tuy nhiên, sẽ rất tuyệt vời nếu bạn có thể đọc được một số đoạn mã và hiểu được các yêu cầu của ứng dụng, từ đó đưa ra các quyết định tốt nhất cho cơ sở hạ tầng cho hệ thống mới.
 
-Ứng dụng này có thể được viết bằng bất cứ ngôn ngữ nào, nhưng điều quan trọng là mã ứng dụng nên được quản lý bởi một hệ thống kiểm soát phiên bản (**version control system**). Chúng ta sẽ tìm hiểu chi tiết hơn về mục này ở phần sau (cụ thể là sẽ tập trung vào git).
+Ứng dụng này có thể được viết bằng bất cứ ngôn ngữ nào, nhưng điều quan trọng là mã ứng dụng nên được quản lý bởi một hệ thống kiểm soát phiên bản (**version control system**). Chúng ta sẽ tìm hiểu chi tiết hơn về mục này ở phần sau (cụ thể là sẽ tập trung vào **git**).
 
 Dù có 1 hay nhiều thành viên tham gia vào dự án, phương pháp tốt nhất vẫn là sử dụng một kho lưu trữ (**code repository**) để lưu trữ mã giúp nhiều thanh viên có thể cộng tác khi làm việc với mã chương trình. Kho lưu trữ mã có thể được lưu trữ công khai hoặc riêng tư, bạn cũng có thể sẽ nghe nói đến việc sử dụng **GitHub** hoặc **GitLab** làm kho lưu trữ. Chúng ta sẽ đề cập đến những điều này trong phần nói về **Git**.
 
@@ -34,7 +34,7 @@ Dù có 1 hay nhiều thành viên tham gia vào dự án, phương pháp tốt 
 
 Ở quá trình này, chúng ta đã có các yêu cầu và đang phát triển ứng dụng. Vấn đề tiếp theo là chúng ta cần đảm bảo rằng mã ứng dụng cần được kiểm thử ở các môi trường khác nhau mà chúng ta có hoặc cụ thể hơn là với ngôn ngữ lập trình chúng ta đã chọn.
 
-Quá trình này cho phép nhóm quản lý chất lượng (**QA**) kiểm tra lỗi, chúng ta thường sử dụng các containers để mô phỏng môi trường kiểm thử để có thể giảm thiểu chi phí cho các máy chủ vật lý hoặc cơ sở hạ tầng trên cloud.
+Quá trình này cho phép nhóm quản lý chất lượng (**QA**) kiểm tra lỗi, chúng ta thường sử dụng các **containers** để mô phỏng môi trường kiểm thử để có thể giảm thiểu chi phí cho các máy chủ vật lý hoặc cơ sở hạ tầng trên cloud.
 
 Quá trình này có khả năng cao là sẽ được tự động hoá như một phần của quá trình **Tích hợp liên tục (CI)** được nhắc tới sau đây.
 
@@ -44,7 +44,7 @@ Tự động hoá quá trình kiểm thử sẽ giải phóng 10, 100 thậm ch�
 
 Ở giữa vòng đời DevOps là **Tích hợp** - một phần rất quan trọng. Đây là một phương thức khi mà khi các lập trình viên thay đổi mã nguồn một cách thường xuyên hơn. Điều này có thể diễn ra hàng ngày hoặc hàng tuần.
 
-Với mỗi thay đổi, ứng dụng sẽ được kiểm tra bằng các giai đoạn kiểm thử tự động, điều này sẽ phát hiện sớm các vấn đề hoặc lỗi trước khi đi tới quá trình tiếp theo.
+Với mỗi thay đổi, ứng dụng sẽ được kiểm tra bằng các giai đoạn **kiểm thử tự động**, điều này sẽ phát hiện sớm các vấn đề hoặc lỗi trước khi đi tới quá trình tiếp theo.
 
 > Nhưng chúng tôi không tạo ra ứng dụng, chúng tôi mua nó từ một nhà cung cấp phần mềm 
 
@@ -100,4 +100,5 @@ Lời khuyên của tôi là hãy xem tất cả những tài liệu bên dướ
 - [The Remote Flow](https://www.notion.so/The-Remote-Flow-d90982e77a144f4f990c135f115f41c6)
 - [FinOps Foundation - What is FinOps](https://www.finops.org/introduction/what-is-finops/)
 - https://github.com/MichaelCade/90DaysOfDevOps/blob/main/2022/vi/Days/day03.md
+- https://github.com/MichaelCade/90DaysOfDevOps/blob/main/2022/Days/day03.md
 - [**CÓ PHÍ** The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/1942788290/)
