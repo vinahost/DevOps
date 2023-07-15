@@ -1,6 +1,8 @@
 ### Cài đặt & Cấu hình Git
 Git là một hệ thống quản lý phiên bản phân tán được sử dụng để theo dõi các thay đổi đối với các tệp và thư mục trong một dự án. Nó được sử dụng rộng rãi bởi các nhà phát triển phần mềm để theo dõi các thay đổi đối với mã của họ, nhưng nó cũng có thể được sử dụng bởi bất kỳ ai cần theo dõi các thay đổi đối với một dự án.
 
+![img](../Image/Git.png)
+
 Git hoạt động bằng cách lưu trữ các thay đổi đối với các tệp và thư mục trong các đơn vị được gọi là "**commit**". Mỗi commit có một ID duy nhất và nó chứa thông tin về các thay đổi đã được thực hiện đối với các tệp và thư mục. Git cũng lưu trữ một lịch sử của các commit, cho phép bạn xem các thay đổi đã được thực hiện đối với dự án theo thời gian.
 
 Git là một công cụ mạnh mẽ có thể được sử dụng để theo dõi các thay đổi đối với các dự án lớn và phức tạp. Nó cũng rất dễ sử dụng và có thể được cài đặt trên hầu hết các hệ điều hành.
@@ -58,7 +60,7 @@ Bạn có thể bắt đầu thêm các tệp vào kho lưu trữ bằng cách s
 
     git commit -m "Initial commit"
 
-**4. Tạo một kho lưu trữ Git trên GitHub**: GitHub là một dịch vụ lưu trữ kho lưu trữ Git trực tuyến. Để tạo một kho lưu trữ Git trên GitHub, hãy tạo một tài khoản GitHub và sau đó tạo một kho lưu trữ mới.
+**4. Tạo một kho lưu trữ Git trên GitHub**: GitHub - https://github.com/ là một dịch vụ lưu trữ kho lưu trữ Git trực tuyến. Để tạo một kho lưu trữ Git trên GitHub, hãy tạo một tài khoản GitHub và sau đó tạo một kho lưu trữ mới.
 
 **5. Đăng ký kho lưu trữ Git của bạn trên GitHub**: để đăng ký kho lưu trữ Git của bạn trên GitHub, hãy chạy lệnh sau trong thiết bị đầu cuối của bạn:
 
