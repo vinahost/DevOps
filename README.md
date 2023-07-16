@@ -78,7 +78,7 @@
 
 ### Kubernetes
 
-- [✔️] ☸ > [Overview: Kubernetes]
+- [✔️] ☸ > [Overview: Kubernetes](Containers-Orchestration/Kubernetes/Kubernetes-la-gi.md)
 - [✔️] ☸ > [Chọn nền tảng chạy Kubernetes]
 - [✔️] ☸ > [Triển khai Kubernetes cluster đầu tiên]
 - [✔️] ☸ > [Thiết lập Kubernetes cluster đa node]
