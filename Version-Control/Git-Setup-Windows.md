@@ -1,8 +1,8 @@
 ## Hướng dẫn cài đặt & Cấu hình Git trên Windows
 
-GIt là một công cụ quản lý phiên bản mã nguồn mở, đa nền tảng. Nếu bạn giống tôi, sử dụng Ubuntu hoặc các hệ điều hành Linux khác, bạn có thể thấy rằng git đã được cài đặt sẵn, tuy nhiên chúng ta vẫn sẽ đi qua việc cài đặt và cấu hình nó.
+GIt là một công cụ quản lý phiên bản mã nguồn mở, đa nền tảng. Có thể sử dụng **Ubuntu** hoặc các hệ điều hành Linux khác như **Windows**, **Mac OS**. Bài viết sẽ hướng dẫn chúng ta vẫn sẽ đi qua việc cài đặt và cấu hình Git trên **Windows**.
 
-Ngay cả khi bạn đã cài đặt git trên hệ thống của mình, bạn cũng nên đảm bảo rằng chúng ta luôn có bản cập nhật mới nhất.
+Ngay cả khi bạn đã cài đặt git trên hệ thống, bạn cũng nên đảm bảo rằng chúng ta luôn có bản cập nhật mới nhất.
 
 ### Cài đặt Git
 
@@ -16,11 +16,11 @@ Trước khi chúng ta cài đặt bất cứ thứ gì, hãy kiểm tra phiên 
 
 ![img](/Image/Git-Windows01.png)
 
-Chúng ta cũng có thể kiểm tra phiên bản Git trên WSL Ubuntu của mình.
+Chúng ta cũng có thể kiểm tra phiên bản Git trên **WSL Ubuntu** của mình.
 
 ![img](/Image/Git-Windows02.png)
 
-Tại thời điểm viết bài, bản phát hành mới nhất trên Windows là `2.35.1`, vì vậy tôi sẽ hướng dẫn việc update một vài thứ. Linux cũng có thể tương tự như vậy.
+Tại thời điểm viết bài, bản phát hành mới nhất trên Windows là `2.41.0`, vì vậy tôi sẽ hướng dẫn việc update một vài thứ. Linux cũng có thể tương tự như vậy.
 
 Sau khi tải xuống trình cài đặt phiên bản mới nhất và chạy qua trình hướng dẫn và ghi lại những điều đó tại đây. Lưu ý quan trọng là git sẽ gỡ cài đặt các phiên bản trước đó rồi mới cài đặt phiên bản mới nhất.
 
@@ -30,11 +30,11 @@ Có nghĩ là quy trình bên dưới cũng là quy trình mà chúng ta phải 
 
 ![img](/Image/Git-Windows03.png)
 
-Bây giờ chúng ta có thể chọn các thành phần bổ sung mà chúng ta muốn cài đặt cũng như liên kết với git. Trên Windows, tôi luôn đảm bảo rằng mình đã cài đặt Git Bash vì điều này cho phép chúng ta chạy các lệnh bash trên Windows.
+Bây giờ chúng ta có thể chọn các thành phần bổ sung mà chúng ta muốn cài đặt cũng như liên kết với git. Trên Windows, tôi luôn đảm bảo rằng mình đã cài đặt **Git Bash** vì điều này cho phép chúng ta chạy các lệnh **bash** trên Windows.
 
 ![img](/Image/Git-Windows04.png)
 
-Sau đó, chúng ta có thể chọn phần mềm SSH mà chúng ta muốn sử dụng. Tôi chọn OpenSSH như bản có thể thấy trong phần tìm hiểu về Linux.
+Sau đó, chúng ta có thể chọn phần mềm SSH mà chúng ta muốn sử dụng. Tôi chọn **OpenSSH** như bản có thể thấy trong phần tìm hiểu về Linux.
 
 ![img](/Image/Git-Windows05.png)
 
@@ -46,7 +46,7 @@ Cài đặt hoàn tất, bây giờ chúng ta có thể chọn mở Git Bash ho�
 
 ![img](/Image/Git-Windows07.png)
 
-Bước kiểm tra cuối cùng là mở PowerShell và thử lại câu lệnh kiểm tra phiên bản git.
+Bước kiểm tra cuối cùng là mở **PowerShell** và thử lại câu lệnh kiểm tra phiên bản git.
 
 ![img](/Image/Git-Windows08.png)
 
@@ -56,7 +56,7 @@ Tôi chỉ cần chạy lệnh `sudo apt-get install git`.
 
 ![img](/Image/Git-linux01.png)
 
-Bạn cũng có thể chạy các câu lệnh dưới dây để add thêm git repository cho các cài đặt phần mềm.
+Bạn cũng có thể chạy các câu lệnh dưới dây để add thêm **git repository** cho các cài đặt phần mềm.
 
 ```
 sudo add-apt-repository ppa:git-core/ppa -y
@@ -83,7 +83,7 @@ Khi lần đầu tiên sử dụng git, chúng ta phải xác định một số
 Ví dụ:
 `git config --global user.name "Journey to Become a DevOps"`
 `git config --global user.email support@vinahost.vn"`
-Tuỳ thuộc vào hệ điều hành của bạn, text editor mặc định sẽ được tự xác định. Với Ubuntu của tôi, câu lệnh tiếp theo sẽ sử dụng nano. Lệnh dưới đây sẽ thay đổi editor thành Visual Studio Code.
+Tuỳ thuộc vào hệ điều hành của bạn, text editor mặc định sẽ được tự xác định. Với Ubuntu của tôi, câu lệnh tiếp theo sẽ sử dụng **nano**. Lệnh dưới đây sẽ thay đổi editor thành **Visual Studio Code**.
 
 `git config --global core.editor "code --wait"`
 
@@ -99,13 +99,13 @@ Trên tất cả các máy, tệp này sẽ được đặt tên là `.gitconfig
 
 ### Lý thuyết Git
 
-Tôi đã đề cập trong bài đăng ngày hôm qua rằng có các loại quản lý phiên bản khác nhau và chúng ta có thể chia thành hai loại chính. Một là Client-Server và loại còn lại là hệ phân tán.
+Như đã đề cập ở các bài trước, rằng có các loại quản lý phiên bản khác nhau và chúng ta có thể chia thành hai loại chính. Một là **Client-Server** và loại còn lại là hệ phân tán.
 
 ### Quản lý phiên bản Client-Server 
 
-Trước khi git xuất hiện, Client-Server là phương thức chính để quản lý phiên bản. Ví dụ cho điều này sẽ là [Apache Subversion](https://subversion.apache.org/) là một một hệ thống kiểm soát phiên bản mã nguồn mở được ra mắt vào năm 2000.
+Trước khi git xuất hiện, **Client-Server** là phương thức chính để quản lý phiên bản. Ví dụ cho điều này sẽ là [Apache Subversion](https://subversion.apache.org/) là một một hệ thống kiểm soát phiên bản mã nguồn mở được ra mắt vào năm 2000.
 
-Trong mô hình quản lý phiên bản Client-Server này, bước đầu tiên nhà phát triểu cần làm là tải xuống mã nguồn và các tệp từ máy chủ. Điều này không giải quyết các xung đột nhưng nó loại bỏ sự phức tạp của các xung đột và cách giải quyết chúng.
+Trong mô hình quản lý phiên bản **Client-Server** này, bước đầu tiên nhà phát triểu cần làm là tải xuống mã nguồn và các tệp từ máy chủ. Điều này không giải quyết các xung đột nhưng nó loại bỏ sự phức tạp của các xung đột và cách giải quyết chúng.
 
 ![img](/Image/Git04.png)
 
@@ -128,7 +128,7 @@ Một số lợi ích chính của Git là:
 - Linh hoạt
 - An toàn & Bảo mật
 
-Khác với mô hình kiểm soát phiên bản Client-Server, mỗi nhà phát triển tải xuống một repository thì nó sẽ bao gồm tất cả mọi thứ. Lịch sử các commit, tất cả các nhánh,...
+Khác với mô hình kiểm soát phiên bản **Client-Server**, mỗi nhà phát triển tải xuống một **repository** thì nó sẽ bao gồm tất cả mọi thứ. Lịch sử các **commit**, tất cả các nhánh ...
 
 ![img](/Image/Git07.png)
 
