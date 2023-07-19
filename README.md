@@ -59,7 +59,7 @@
 
 - [✔️] 📚 > [Overview: Git - Quản lý phiên bản](Version-Control/Git.md)
 - [✔️] 📚 > [Cài đặt & Cấu hình Git](Version-Control/Git-Setup.md)
-- [✔️] 📚 > [Giới thiệu về Git]
+- [✔️] 📚 > [Cơ bản về Git](Version-Control/Git-Co-Ban.md)
 - [✔️] 📚 > [Staging & Changing]
 - [✔️] 📚 > [Xem, unstaging, loại bỏ & khôi phục]
 - [✔️] 📚 > [Mạng xã hội dành cho code]
