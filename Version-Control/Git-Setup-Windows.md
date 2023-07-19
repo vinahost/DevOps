@@ -81,8 +81,11 @@ Khi lần đầu tiên sử dụng git, chúng ta phải xác định một số
 - Local = repository hiện tại 
 
 Ví dụ:
-    git config --global user.name "Journey to Become a DevOps"
-    git config --global user.email "support@vinahost.vn"
+
+```
+git config --global user.name "Journey to Become a DevOps"
+git config --global user.email "support@vinahost.vn"
+```
 
 Tuỳ thuộc vào hệ điều hành của bạn, text editor mặc định sẽ được tự xác định. Với Ubuntu của tôi, câu lệnh tiếp theo sẽ sử dụng **nano**. Lệnh dưới đây sẽ thay đổi editor thành **Visual Studio Code**.
 
