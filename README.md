@@ -63,7 +63,7 @@
 - [✔️] 📚 > [Cài đặt & Cấu hình Git trên Windows](Version-Control/Git-Setup-Windows.md)
 - [✔️] 📚 > [Cơ bản về Git](Version-Control/Git-Co-Ban.md)
 - [✔️] 📚 > [Staging & Changing](Version-Control/Staging-Changing.md)
-- [✔️] 📚 > [Xem, unstaging, loại bỏ & khôi phục]
+- [✔️] 📚 > [Viewing, unstaging, discarding & restoring](Version-Control/Git-Advanced.md)
 - [✔️] 📚 > [Mạng xã hội dành cho code]
 - [✔️] 📚 > [Quy trình làm việc với mã nguồn mở]
 
