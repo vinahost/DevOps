@@ -1,3 +1,7 @@
+### Git là gì ?
+
+![img](../Image/Git.png)
+
 Git là một hệ thống quản lý phiên bản phân tán được sử dụng để theo dõi các thay đổi đối với các tệp và thư mục trong một dự án. Nó được sử dụng rộng rãi bởi các nhà phát triển phần mềm để theo dõi các thay đổi đối với mã của họ, nhưng nó cũng có thể được sử dụng bởi bất kỳ ai cần theo dõi các thay đổi đối với một dự án.
 
 Git hoạt động bằng cách lưu trữ các thay đổi đối với các tệp và thư mục trong các đơn vị được gọi là "**commit**". Mỗi commit có một ID duy nhất và nó chứa thông tin về các thay đổi đã được thực hiện đối với các tệp và thư mục. Git cũng lưu trữ một lịch sử của các commit, cho phép bạn xem các thay đổi đã được thực hiện đối với dự án theo thời gian.
