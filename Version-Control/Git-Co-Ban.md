@@ -1,6 +1,6 @@
 ## Giới thiệu về git
 
-Trong các bài trước trước, chúng ta đã tìm hiệu về quản lý phiên bản và một số quy trình, workflow của git với tư cách là một hệ thống quản lý phiên bản.  Sau đó chúng ta đã cài đặt git trên hệ thống, cập nhật và cấu hình. Chúng ta cũng đã đi sâu hơn một chút và điểm khác nhau cơ bản trong hệ thống quản lý phiên bản Client-Server và hệ thống quản lý phiên bản phân tán ví dụ như Git vào.
+Trong các bài trước trước, chúng ta đã tìm hiệu về quản lý phiên bản và một số quy trình, workflow của git với tư cách là một hệ thống quản lý phiên bản.  Sau đó chúng ta đã cài đặt git trên hệ thống, cập nhật và cấu hình. Chúng ta cũng đã đi sâu hơn một chút và điểm khác nhau cơ bản trong hệ thống quản lý phiên bản Client-Server và hệ thống quản lý phiên bản phân tán ví dụ như Git.
 
 Bây giờ, chúng ta sẽ tìm hiểu các câu lệnh cơ bản và trường hợp sử dụng chúng với git.
 
@@ -67,7 +67,7 @@ Tôi đã lấy những câu lệnh từ [atlassian](https://www.atlassian.com/g
 | git log       | `git log`                   | Hiển thị tất cả lịch sử commit bằng định dạng mặc định. Có các tuỳ chọn bổ sung với lệnh này.
 | git diff      | `git diff`                  | Hiển thị các thay đổi của các thay đổi chưa được stage.                                                             |
 
-### Git Hoàn tác thay đổi
+### Git Undoing Changes
 
 | Lệnh       | Ví dụ                     | Mô tả                                                                                                                 |
 | ---------- | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
@@ -75,7 +75,7 @@ Tôi đã lấy những câu lệnh từ [atlassian](https://www.atlassian.com/g
 | git reset  | `git reset <file>`    | Xoá <file> khỏi stage, nhưng không thay đổi thư mục làm việc. Điều này unstaged một tệp nhưng không ghi đè bất cứ thay đổi nào. |
 | git clean  | `git clean -n`        | Hiển thị tệp nào sẽ bị xoá khỏi thư mục làm việc. Sử dụng `-f` thay cho `-n` để thực hiện việc xoá.                        |
 
-### Git viết lại lịch sử
+### Git Rewriting History
 
 | Lệnh       | Ví dụ                     | Mô tả                                                                                                                 |
 | ---------- | -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
