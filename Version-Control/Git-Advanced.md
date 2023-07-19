@@ -115,7 +115,7 @@ We can also do the same to modified files such as main.js and unstage the commit
 
 ![img](/Image/Git-Advanced21.png)
 
-I have found this command quite useful during the 90DaysOfDevOps as I sometimes work ahead of the days where I feel I want to make notes for the following day but I don't want to commit and push to the public GitHub repository.
+I have found this command quite useful during this project as I sometimes work ahead of the days where I feel I want to make notes for the following day but I don't want to commit and push to the public GitHub repository.
 
 ### Discarding Local Changes
 
