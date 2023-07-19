@@ -54,7 +54,7 @@ Sau các bước siêu đơn giản ở trên, chúng ta sẽ có phiên bản m
 
 Tôi chỉ cần chạy lệnh `sudo apt-get install git`.
 
-![img](Image/Git-linux01.png)
+![img](/Image/Git-linux01.png)
 
 Bạn cũng có thể chạy các câu lệnh dưới dây để add thêm git repository cho các cài đặt phần mềm.
 
@@ -91,11 +91,11 @@ bây giờ, nếu chúng ta muốn kiểm tra tất cả các cầu hình git th
 
 `git config --global -e`
 
-![img](Image/Git-linux02.png)
+![img](/Image/Git-linux02.png)
 
 Trên tất cả các máy, tệp này sẽ được đặt tên là `.gitconfig`. Trên máy Windows của tôi, bạn sẽ tìm thấy tệp này trong thư mục người dùng của mình.
 
-![img](Image/Git-linux03.png)
+![img](/Image/Git-linux03.png)
 
 ### Lý thuyết Git
 
@@ -107,15 +107,15 @@ Trước khi git xuất hiện, Client-Server là phương thức chính để q
 
 Trong mô hình quản lý phiên bản Client-Server này, bước đầu tiên nhà phát triểu cần làm là tải xuống mã nguồn và các tệp từ máy chủ. Điều này không giải quyết các xung đột nhưng nó loại bỏ sự phức tạp của các xung đột và cách giải quyết chúng.
 
-![img](Image/Git04.png)
+![img](/Image/Git04.png)
 
 Bây giờ, giả sử chúng ta có hai nhà phát triển làm việc trên cùng một tệp và một người xong trước, upload file của họ lên server trước với những thay đổi của họ. Khi người thứ hai cập nhật file đó, xung đột sẽ xảy ra.
 
-![img](Image/Git05.png)
+![img](/Image/Git05.png)
 
 Vì vậy, bây giờ người thứ hai cần kéo thay đổi mã của người đầu tiên xuống và giải quyết các xung đột trong mã nguồn rồi sau đó mới commit lên máy chủ.
 
-![img](Image/Git06.png)
+![img](/Image/Git06.png)
 
 ### Distributed Version Control
 
@@ -130,7 +130,7 @@ Một số lợi ích chính của Git là:
 
 Khác với mô hình kiểm soát phiên bản Client-Server, mỗi nhà phát triển tải xuống một repository thì nó sẽ bao gồm tất cả mọi thứ. Lịch sử các commit, tất cả các nhánh,...
 
-![img](Image/Git07.png)
+![img](/Image/Git07.png)
 
 ## Tài liệu tham khảo
 
