@@ -57,7 +57,8 @@
               
 ### Cách sử dụng Git hiệu quả
 
-- [✔️] 📚 > [Overview: Git - Quản lý phiên bản](Version-Control/Git.md)
+- [✔️] 📚 > [Overview: Git là gì?](Version-Control/Git.md)
+- [✔️] 📚 > [Overview: Git - Quản lý phiên bản](Version-Control/Git-Version.md)
 - [✔️] 📚 > [Cài đặt & Cấu hình Git trên Linux](Version-Control/Git-Setup.md)
 - [✔️] 📚 > [Cài đặt & Cấu hình Git trên Windows](Version-Control/Git-Setup-Windows.md)
 - [✔️] 📚 > [Cơ bản về Git](Version-Control/Git-Co-Ban.md)
