@@ -64,6 +64,7 @@
 - [✔️] 📚 > [Cơ bản về Git](Version-Control/Git-Co-Ban.md)
 - [✔️] 📚 > [Staging & Changing](Version-Control/Staging-Changing.md)
 - [✔️] 📚 > [Viewing, unstaging, discarding & restoring](Version-Control/Git-Advanced.md)
+- [✔️] 📚 > [Viewing, unstaging, discarding & restoring - Tiếng Việt](Version-Control/Git-Advanced-vi.md)
 - [✔️] 📚 > [Mạng xã hội dành cho code]
 - [✔️] 📚 > [Quy trình làm việc với mã nguồn mở]
 
