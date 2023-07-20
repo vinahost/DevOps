@@ -96,8 +96,10 @@ Từ đó giá tiền sẽ được tính:
 => **Tổng chi phí = 0.5625 + 2.43324 = 2.99574 (đơn vị USD)**
 
 ![ApsaraVideo VOD Calculator](/Image/ApsaraVideo-VOD-Calculator012.png)
-    *Author*: **Vo Thi Phuong Anh**
-    *Solution Architect* - **Alibaba Cloud Intelligence**
+    
+*Author*: **Vo Thi Phuong Anh**
+
+*Solution Architect* - **Alibaba Cloud Intelligence**
 
 **Tham khảo:**
 - https://www.alibabacloud.com/blog/how-to-use-apsaravideo-vod-calculator_599978
