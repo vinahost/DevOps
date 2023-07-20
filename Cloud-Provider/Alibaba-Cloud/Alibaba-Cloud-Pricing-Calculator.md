@@ -2,11 +2,11 @@
 
 ##### Alibaba Cloud Pricing Calculator là gì ?
 
-**Alibaba Cloud Pricing Calculator** là một công cụ được cung cấp bởi **Alibaba Cloud** giúp người dùng dễ dàng tính được các giá ước tính của các sản phẩm và dịch vụ **Alibaba Cloud**. **Alibaba Cloud Pricing Calculator** hỗ trợ tính giá hiện hành của đa số các sản phẩm của** Alibaba Cloud** như **ECS (Subcription, Pay-as-you-go); RDS, ACK, WAF, CDN, Anti-DDoS, MaxCompute**…
+**Alibaba Cloud Pricing Calculator** là một công cụ được cung cấp bởi **Alibaba Cloud** giúp người dùng dễ dàng tính được các giá ước tính của các sản phẩm và dịch vụ **Alibaba Cloud**. **Alibaba Cloud Pricing Calculator** hỗ trợ tính giá hiện hành của đa số các sản phẩm của **Alibaba Cloud** như **ECS (Subcription, Pay-as-you-go); RDS, ACK, WAF, CDN, Anti-DDoS, MaxCompute**…
 
 Bài viết sau đây hướng dẫn sử dụng **Alibaba Cloud Pricing Calculator** để tính toán chi phí cho giải pháp **Alibaba Cloud** của bạn.
 
-Để bắt đầu sử dụng, truy cập vào trang web của Alibaba Cloud Pricing Calculator(https://www.alibabacloud.com/pricing-calculator#/commodity/vm_intl), tại đây bạn sẽ thấy một số sản phẩm cùng với 3 tabs **Pricing**, **Price Calculator** và **Optional Inventory**:
+Để bắt đầu sử dụng, truy cập vào trang web của [Alibaba Cloud Pricing Calculator](https://www.alibabacloud.com/pricing-calculator#/commodity/vm_intl), tại đây bạn sẽ thấy một số sản phẩm cùng với 3 tabs **Pricing**, **Price Calculator** và **Optional Inventory**:
 
 - **Pricing**: Giá list niêm yết của sản phẩm (không bao gồm phần chiết khấu).
 - **Price Calculator**: trình tính toán các sản phẩm. Bạn có thể tính toán nhiều sản phẩm trong gói giải pháp của mình và thêm chúng vào tab **Optional Inventory** để cho ra giá tổng cộng.
@@ -21,7 +21,7 @@ Bài viết sau đây hướng dẫn sử dụng **Alibaba Cloud Pricing Calcula
 
 **Alibaba Cloud Pricing Calculator** có thể giúp tính toán giá (ước tính) của giải pháp trên chỉ với 2 bước đơn giản!
 
-#### Bước 1: TÍNH GIÁ CỦA TỪNG SẢN PHẨM, DỊCH VỤ
+### Bước 1: TÍNH GIÁ CỦA TỪNG SẢN PHẨM, DỊCH VỤ
 
 **Alibaba Cloud Pricing Calculator** hoạt động giống với các giỏ hàng trên sàn thương mại điện tử, người dùng cần tính giá theo từng loại sản phẩm của **Alibaba Cloud (ECS, OSS, ACK,…)** sau đó thêm vào list, giá của từng loại sản phẩm sẽ được cộng lại thành giá của giải pháp. Với giải pháp gồm các sản phẩm nêu trên, ta sẽ cần tính giá của từng sản phẩm.
 
@@ -81,7 +81,7 @@ Nhập các thông số cho **instance** cơ sở dữ liệu, dưới đây là
 
 Sau khi hoàn tất, nhấn **Add to List** để thêm vào danh sách.
 
-#### Bước 2: KIỂM TRA TỔNG CHI PHÍ
+### Bước 2: KIỂM TRA TỔNG CHI PHÍ
 
 Sau khi đã thêm xong tất cả các sản phẩm trong giải pháp của bạn, chọn **Optional Inventory** để xem danh sách các sản phẩm cùng với giá tiền được ước tính cho toàn bộ giải pháp của bạn, ở đây chúng tôi chọn ước tính trong thời gian 1 tháng.
 
