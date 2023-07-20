@@ -97,8 +97,9 @@ Với các bước như trên bạn đã sử dụng thành công **Alibaba Clou
 - **Alibaba Cloud Pricing Calculator** cung cấp mức giá **list** chưa bao gồm chiết khấu
 - Các mức giá được tính toán chỉ mang tính chất tham khảo.
 
-    Author: Vo Thi Phuong Anh
-    Solution Architect - Alibaba Cloud Intelligence
+    *Author*: **Vo Thi Phuong Anh**
+
+    *Solution Architect* - **Alibaba Cloud Intelligence**
 
 **Tham khảo:**
 - https://www.alibabacloud.com/blog/how-to-use-alibaba-cloud-pricing-calculator_600050
