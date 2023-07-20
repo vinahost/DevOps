@@ -1,4 +1,4 @@
-## Viewing, unstaging, discarding & restoring - Tiếng Việtstaged
+## Viewing, unstaging, discarding & restoring - Tiếng Việt
 
 Tiếp tục sau khi đã thực hành một số lệnh của git và thực hành với dự án mới của bạn. Hãy nhớ rằng, chúng ta chưa nhắc tới **GitHub** hoặc bất kỳ dịch vụ nào dựa trên git. Tất cả những điều được nhắc tới cho đến bây giờ giúp bản kiểm soát cục bộ các dự án của mình tại thời điển này nhưng chúng sẽ trở nên hữu ích khi bạn tích hợp với các công cụ được nhắc đến ở trên.
 
