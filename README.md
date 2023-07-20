@@ -1,7 +1,5 @@
 # Journey to Become a DevOps - Hành trình để trở thành DevOps
 
-## Chú ý: chủ đề đang trong giai đoạn phát triển, nội dung chưa hoàn chỉnh, mong các bạn thông cảm
-
 ![img](Overview/devops.jpeg)
 
 ### Tổng Quan - DevOps là gì
