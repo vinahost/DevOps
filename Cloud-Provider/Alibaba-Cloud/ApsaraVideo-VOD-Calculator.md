@@ -97,7 +97,6 @@ Từ đó giá tiền sẽ được tính:
 
 ![ApsaraVideo VOD Calculator](/Image/ApsaraVideo-VOD-Calculator012.png)
     *Author*: **Vo Thi Phuong Anh**
-
     *Solution Architect* - **Alibaba Cloud Intelligence**
 
 **Tham khảo:**
