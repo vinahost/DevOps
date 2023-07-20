@@ -4,7 +4,7 @@
 
 - **ApsaraVideo VOD** cung cấp các tính năng như lưu trữ video, mã hóa video, phân phối, phát trực tiếp và phát lại định dạng video, cho phép người dùng tùy chỉnh, chi tiết và quản lý các nội dung video trên đám mây.
 
-##### Phương thức thanh toán của ApsaraVideo VOD:
+### Phương thức thanh toán của ApsaraVideo VOD:
 
 Chi phí sử dụng **ApsaraVideo VOD** được là tổng các chi phí **sử dụng bộ nhớ**, **transcoding**, **phân phối nội dung CDN** và chi phí **Short Video SDK** (nếu có).
 
@@ -55,7 +55,7 @@ Tại trang chủ, nhập vào các thông số các video của bạn:
 - **Average video in mins**: số phút trung bình (thời lượng trung bình của video), thông số này để tính **Transcoding Mins (Start)**.
 - **Average viewer**: lượt xem trung bình của video.
 - **Average view duration in mins**: thời lượng xem video trung bình của người xem.
-- **New video in min**s: thời lượng video mới. Trường này là trường không bắt buộc nhập.
+- **New video in mins**: thời lượng video mới. Trường này là trường không bắt buộc nhập.
 - **Media Center**: chọn vị trí phát trung tâm của bạn. Cước phí cho một số dịch vụ sẽ được tính dựa trên vị trí này.
 - **Quality**: Độ phân giải mong muốn khi phát video. Độ phân giải thấp nhất là 480p và cao nhất là 4K với những mức giá tương ứng.
 
@@ -66,16 +66,16 @@ Tại trang chủ, nhập vào các thông số các video của bạn:
 - **Storage GB (Start)** = Transcoding Minute * số GB/phút (xem ở bảng 3.1)
 - - **Storage Fee** miễn phí với số GB từ 50 trở xuống; số GB > 50 được tính theo giá ở phần 2.1 (tính cả phần <50).
 - **Traffic GB** (xấp xỉ) = No. Video Average Viewer Average View Duration in minute* số GB/phút (xem ở bảng 3.1)
-- Phí **Traffic** được tính theo CDN Service theo số GB và khu vực (theo giá ở mục 2.3)
-- Ngoài ra bạn có thể set up **Region Split** để chia lượng TraficGB về từng khu vực (nếu có nhu cầu).
+- Phí **Traffic** được tính theo **CDN Service** theo số GB và khu vực (theo giá ở mục 2.3)
+- Ngoài ra bạn có thể thiết lập **Region Split** để chia lượng **Trafic** GB về từng khu vực (nếu có nhu cầu).
  
 ![ApsaraVideo VOD Calculator](/Image/ApsaraVideo-VOD-Calculator09.png)
 
-Sau khi các thông số về lượng sử dụng trên được tính, hệ thống sẽ nhân với giá list để ra hóa đơn tổng thể ứng với lượng sử dụng của bạn.
+Sau khi các thông số về lượng sử dụng trên được tính, hệ thống sẽ nhân với giá **list** để ra hóa đơn tổng thể ứng với lượng sử dụng của bạn.
 
 Ví dụ, nhập các thông số sau:
 
-![ApsaraVideo VOD Calculator](/Image/ApsaraVideo-VOD-Calculator10.png)
+![ApsaraVideo VOD Calculator](/Image/ApsaraVideo-VOD-Calculator010.png)
 
 ![ApsaraVideo VOD Calculator](/Image/ApsaraVideo-VOD-Calculator011.png)
 
@@ -96,7 +96,6 @@ Từ đó giá tiền sẽ được tính:
 => **Tổng chi phí = 0.5625 + 2.43324 = 2.99574 (đơn vị USD)**
 
 ![ApsaraVideo VOD Calculator](/Image/ApsaraVideo-VOD-Calculator012.png)
-
     *Author*: **Vo Thi Phuong Anh**
 
     *Solution Architect* - **Alibaba Cloud Intelligence**
