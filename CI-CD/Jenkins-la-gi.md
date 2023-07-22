@@ -1,4 +1,4 @@
-### Jenkins là gì ?
+# Jenkins là gì ?
 
 ![img](../Image/Jenkins-Devops.png)
 
@@ -27,4 +27,5 @@ Dưới đây là một số lợi ích của việc sử dụng Jenkins:
 Jenkins là một công cụ hữu ích cho các nhóm phát triển phần mềm của mọi quy mô. Nó có thể giúp cải thiện chất lượng mã, tăng tốc độ phát triển và giảm thiểu rủi ro khi triển khai mã mới.
 
 **Tham khảo**
+
 - https://www.jenkins.io/

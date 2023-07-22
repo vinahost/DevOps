@@ -1,4 +1,5 @@
-### Elastic Compute Service là gì?
+# Elastic Compute Service là gì?
+
 **Elastic Compute Service (ECS)** là một sản phẩm của **Alibaba Cloud** cung cấp các máy ảo vận hành trên đám mây.
 
 Để bắt đầu sử dụng ECS, bạn có thể một máy ảo (**ECS instance**) từ giao diện **Console** của Alibaba Cloud.
@@ -102,7 +103,9 @@ Sau khi nhấn **Console**, **Instance** được tạo thành công sẽ có tr
 Chúc mừng bạn đã tạo thành công máy ảo trong ECS! Để thực hiện các thao tác liên quan với instance, nhấn vào các tên thao tác trong mục **Actions** được hiển thị cùng dòng với thông tin máy ảo.
 
 *By Vo Thi Phuong Anh, Alibaba Cloud Solutions Architect of Vietnam*
-#### Tham khảo 
+
+**Tham khảo** 
+
 - https://www.alibabacloud.com/blog/600134
 - https://www.alibabacloud.com/product/ecs
 - https://www.alibabacloud.com/help/en/elastic-compute-service

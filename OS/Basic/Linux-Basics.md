@@ -1,4 +1,4 @@
-### Dưới đây là một số lệnh Linux phổ biến được sử dụng trong DevOps:
+# Một số lệnh Linux phổ biến được sử dụng trong DevOps:
 
 #### Lệnh cho Debian - Ubuntu ...
 - apt-get install: Lệnh này được sử dụng để cài đặt các gói phần mềm.
@@ -76,5 +76,6 @@ Trường hợp cần thông tin chi tiết, các bạn có thể sử dụng l�
 Đây chỉ là một số lệnh Linux phổ biến được sử dụng trong DevOps. Có nhiều lệnh khác có thể được sử dụng, tùy thuộc vào các nhiệm vụ cụ thể mà bạn đang thực hiện.
 
 **Tham khảo**
+
 - https://github.com/trinib/Linux-Bash-Commands
 - https://github.com/sk3pp3r/cheat-sheet-pdf

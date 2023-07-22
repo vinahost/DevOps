@@ -1,4 +1,4 @@
-### Infrastructure as Code (IaC) là gì ?
+# Infrastructure as Code (IaC) là gì ?
 
 Cơ sở hạ tầng dưới dạng mã (IaC) là một cách tiếp cận quản lý cơ sở hạ tầng bằng cách sử dụng mã. Điều này có nghĩa là cơ sở hạ tầng được mô tả dưới dạng các tài liệu có thể được máy đọc, thay vì được cấu hình theo cách thủ công.
 

@@ -1,3 +1,5 @@
+# Git Advanced
+
 ## Viewing, unstaging, discarding & restoring
 
 Continuing from where we finished yesterday around some of the commands that we have with git and how to leverage git with your projects. Remember we have not touched GitHub or any other git-based services yet this is all to help you keep control of your projects locally at the moment, but they will all become useful when we start to integrate into those tools.

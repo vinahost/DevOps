@@ -1,4 +1,4 @@
-### Roadmap để trở thành DevOps
+# Roadmap để trở thành DevOps
 
 **DevOps** là một cách tiếp cận kết hợp giữa phát triển và vận hành phần mềm. Nó tập trung vào việc tự động hóa các quy trình và tích hợp chặt chẽ giữa hai nhóm để tạo ra các ứng dụng chất lượng cao hơn, được phân phối nhanh hơn.
 

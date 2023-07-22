@@ -1,5 +1,4 @@
-
-## Git - Quản lý phiên bản
+# Git - Quản lý phiên bản
 
 Trước khi bắt đầu tìm hiểu về git, chúng ta cần hiểu quản lý phiên bản là gì và tại sao chúng ta cần làm vậy? Trong bài mở đầu về git này, chúng ta sẽ đi qua khái niệm quản lý phiên bản và kiếm thức cơ bản về git.
 

@@ -1,4 +1,4 @@
-## Staging & Changing
+# Staging & Changing
 
 Chúng ta đã đề cập đến một số điều cơ bản nhưng việc đưa mọi thứ vào một kịch bản hoàn chỉnh giúp tôi học và hiểu cách thức, lý do chúng ta thực hiện theo cách này tốt hơn. Trước khi chúng ta sử dụng bất kỳ dịch vụ dựa trên git nào như **GitHub**, git có các chức năng mà bạn có thể tận dụng trên máy của mình.
 

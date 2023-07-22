@@ -1,4 +1,4 @@
-### Alibaba Cloud Object Storage Service là gì?
+# Alibaba Cloud Object Storage Service là gì?
 
 **Alibaba Cloud Object Storage Service (OSS)** là dịch vụ lưu trữ đối tượng trên đám mây. **OSS** cung cấp các bộ nhớ bảo mật, giữ được sự toàn vẹn của dữ liệu lên đến **99.9999999999%** và độ khả dụng dữ liệu đạt **99.995%**. **OSS** cung cấp nhiều lớp lưu trữ để giúp bạn quản lý tốt với chi phí tiết kiệm.
 

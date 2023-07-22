@@ -1,4 +1,4 @@
-## Hướng dẫn cài đặt & Cấu hình Git trên Windows
+# Hướng dẫn cài đặt & Cấu hình Git trên Windows
 
 GIt là một công cụ quản lý phiên bản mã nguồn mở, đa nền tảng. Có thể sử dụng **Ubuntu** hoặc các hệ điều hành Linux khác như **Windows**, **Mac OS**. Bài viết sẽ hướng dẫn chúng ta vẫn sẽ đi qua việc cài đặt và cấu hình Git trên **Windows**.
 

@@ -1,4 +1,4 @@
-## Vòng đời DevOps - Tập trung vào ứng dụng
+# Vòng đời DevOps - Tập trung vào ứng dụng
 
 ![img](../Image/DevOps-Lifecycle.png)
 

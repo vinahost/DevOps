@@ -1,3 +1,5 @@
+# Mối liên hệ giữa DevOps và Linux
+
 **DevOps** là một phương pháp tiếp cận tích hợp và tự động hóa các quy trình phát triển và vận hành phần mềm. Mục tiêu của DevOps là cung cấp phần mềm nhanh hơn, đáng tin cậy hơn và linh hoạt hơn.
 
 **Linux** là một hệ điều hành mã nguồn mở, đa năng được sử dụng rộng rãi trên các máy chủ, máy tính để bàn và thiết bị di động. Linux là một nền tảng phổ biến cho DevOps vì nó miễn phí, linh hoạt và có thể được tùy chỉnh để đáp ứng các nhu cầu cụ thể của một tổ chức.
@@ -22,6 +24,7 @@ Dưới đây là một số ví dụ về cách Linux được sử dụng cho 
 DevOps và Linux là hai công nghệ có thể được kết hợp để tạo ra một môi trường phát triển và vận hành hiệu quả hơn. Linux có thể được sử dụng để tự động hóa các quy trình phát triển và vận hành, quản lý cơ sở hạ tầng, bảo vệ phần mềm và cơ sở hạ tầng, và giám sát phần mềm và cơ sở hạ tầng. Bằng cách kết hợp DevOps và Linux, các tổ chức có thể xây dựng và vận hành phần mềm một cách nhanh hơn, đáng tin cậy hơn và linh hoạt hơn.
 
 **Tham khảo**
+
 - https://www.linux.org/
 - https://www.amazon.com/Hands-DevOps-Linux-Pipelines-Kubernetes/dp/9389423481/
 - https://www.amazon.com/Practical-Linux-DevOps-Building-Development/dp/1484283171

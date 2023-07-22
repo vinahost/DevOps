@@ -1,3 +1,5 @@
+# Docker là gì ?
+
 **Docker** là một nền tảng mở dành cho các lập trình viên, quản trị hệ thống dùng để xây dựng, vận chuyển và chạy các ứng dụng phân tán. Docker giúp đóng gói phần mềm vào các đơn vị tiêu chuẩn hóa và được gọi là container. Ban đầu viết bằng Python, hiện tại đã chuyển sang Golang.
 
 ![Docker_la_gi](/Image/Docker-la-gi.png)
@@ -184,6 +186,7 @@ Start một container:
 $ docker start <tên container>
 ```  
 **Tham khảo**
+
 - https://docs.docker.com/get-docker/
 - https://www.alibabacloud.com/help/en/elastic-compute-service/latest/deploy-and-use-docker
 - https://www.alibabacloud.com/help/en/container-registry/latest/basic-operations-on-docker-images

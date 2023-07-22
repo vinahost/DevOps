@@ -1,4 +1,5 @@
-### Cài đặt & Cấu hình Git
+# Cài đặt & Cấu hình Git
+
 Git là một hệ thống quản lý phiên bản phân tán được sử dụng để theo dõi các thay đổi đối với các tệp và thư mục trong một dự án. Nó được sử dụng rộng rãi bởi các nhà phát triển phần mềm để theo dõi các thay đổi đối với mã của họ, nhưng nó cũng có thể được sử dụng bởi bất kỳ ai cần theo dõi các thay đổi đối với một dự án.
 
 ![img](../Image/Git.png)

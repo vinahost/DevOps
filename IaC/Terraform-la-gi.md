@@ -1,4 +1,5 @@
-### Terraform là gì
+# Terraform là gì?
+
 **Terraform** là một công cụ mã nguồn mở cho phép bạn định nghĩa **Infrastructure as Code - IaC** với đa dạng cloud provider ví dụ: Alibaba Cloud, AWS, Azure… Terraform giúp bạn quản lý hệ thống bằng code và tự động hóa việc triển khai hạ tầng của bạn. Bạn có thể sử dụng Terraform để quản lý các tài nguyên như máy chủ, mạng, cơ sở dữ liệu và các tài nguyên khác của các nhà cung cấp đám mây khác nhau.
 - Quản lý tài nguyên đám mây đa nền tảng.
 - Quản lý các phiên bản khác nhau của cơ sở hạ tầng.
@@ -263,6 +264,7 @@ docker_image.nginx
 - *terraform destroy* là một lệnh trong Terraform được sử dụng để xóa các tài nguyên được tạo ra bởi Terraform. Lệnh này sẽ xóa các tài nguyên được tạo ra bởi Terraform theo thứ tự ngược lại với thứ tự mà chúng được tạo ra 
 
 **Tài liệu tham khảo:**
+
 - https://github.com/aliyun/terraform-provider-alicloud
 - https://github.com/terraform-alicloud-modules
 - https://registry.terraform.io/namespaces/terraform-alicloud-modules

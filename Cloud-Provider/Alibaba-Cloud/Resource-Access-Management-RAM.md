@@ -1,4 +1,5 @@
-### Alibaba Cloud Resource Access Management (RAM)
+# Alibaba Cloud Resource Access Management (RAM) là gì ?
+
 **Resource Access Management (RAM)** là một dịch vụ được cung cấp bởi Alibaba Cloud cho phép người dùng quản lý người dùng và quyền truy cập tài nguyên từ một tài khoản chính.
 
 Giả sử bạn muốn thực hiện một dự án lên Alibaba Cloud và đã mua một số loại tài nguyên Alibaba Cloud, như **Elastic Compute Service (ECS)**, **ApsaraDB RDS**, **Server Load Balancer (SLB)**, các bucket OSS…. Từ đó các thành viên của dự án phải quản lý các tài nguyên khác nhau và yêu cầu các quyền khác nhau. Trong trường hợp này, **Alibaba Cloud RAM** có thể giúp phân quyền hiệu quả và đảm bảo các yếu tố sau:
@@ -50,7 +51,8 @@ Nhấn **OK** để hoàn tất.
 
 Sau khi cấp quyền các tài khoản RAM đã có thể hoạt động trên Alibaba Cloud dưới tài khoản chính của bạn.
 
-### Tham khảo
+**Tham khảo**
+
 - https://www.alibabacloud.com/blog/create-alibaba-cloud-ram-account_600153
 - https://www.alibabacloud.com/product/ram
 - https://www.alibabacloud.com/help/en/resource-access-management

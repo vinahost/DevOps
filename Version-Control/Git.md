@@ -1,4 +1,4 @@
-### Git là gì ?
+# Git là gì ?
 
 ![img](../Image/Git.png)
 
@@ -34,6 +34,7 @@ Nhìn chung, Git là lựa chọn tốt hơn cho hầu hết các dự án. Tuy 
 Nếu bạn đang tìm kiếm một hệ thống quản lý phiên bản, thì Git là một lựa chọn tuyệt vời. Nó là một công cụ mạnh mẽ, dễ sử dụng và có thể được sử dụng để theo dõi các thay đổi đối với các dự án lớn và phức tạp.
 
 **Tham khảo**
+
 - https://git-scm.com/
 - https://github.com/
 - https://about.gitlab.com/

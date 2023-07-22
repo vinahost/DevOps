@@ -1,3 +1,5 @@
+# Docker Swarm là gì ?
+
 **Docker Swarm** là công cụ tạo ra một clustering Docker. Cho phép ta có thể kết nối các docker host với nhau tạo thành một cụm các máy, khi tạo được hệ thống Docker Swarm thì chúng ta có thể quản lý và chạy các dịch vụ trên hệ thống này một cách dẽ dàng. Giả sử ta có các hệ thống docker chạy trên các vps khác nhau thì ta có kể kết nối chúng tạo thành một cụm docker
 
 Chúng ta cần dùng Docker Swarm khi project của bạn cần phát triển, quản lý, deploy trên nhiều nhiều host thì đó là lúc cần dùng đến Docker Swarm.
@@ -111,4 +113,5 @@ Một số điểm khác biệt giữa Kubernetes và Docker Swarm:
 - Kubernetes có thể tự động khôi phục các container bị lỗi, trong khi Docker Swarm không có tính năng này.
 
 **Tài liệu tham khảo**
+
 - https://docs.docker.com/engine/swarm/

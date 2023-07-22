@@ -1,3 +1,5 @@
+# Git cơ bản
+
 ## Giới thiệu về git
 
 Trong các bài trước trước, chúng ta đã tìm hiệu về quản lý phiên bản và một số quy trình, workflow của git với tư cách là một hệ thống quản lý phiên bản.  Sau đó chúng ta đã cài đặt git trên hệ thống, cập nhật và cấu hình. Chúng ta cũng đã đi sâu hơn một chút và điểm khác nhau cơ bản trong hệ thống quản lý phiên bản Client-Server và hệ thống quản lý phiên bản phân tán ví dụ như Git.

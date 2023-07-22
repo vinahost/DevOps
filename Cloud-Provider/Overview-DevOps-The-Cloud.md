@@ -1,4 +1,4 @@
-### Tổng quan DevOps và Cloud
+# Tổng quan DevOps và Cloud
 
 **DevOps** là một cách tiếp cận tổng thể cho việc phát triển và vận hành phần mềm, tập trung vào việc hợp nhất các nhóm phát triển và vận hành để tạo ra các ứng dụng và dịch vụ nhanh hơn, đáng tin cậy hơn và an toàn hơn.
 

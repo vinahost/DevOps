@@ -1,3 +1,5 @@
+# Hướng dẫn sử dụng Nano và Vim trên Linux
+
 ### Hướng dẫn sử dụng Nano trên Linux
 
 Nano là một trình soạn thảo văn bản dòng lệnh đơn giản được cài đặt theo mặc định trên hầu hết các hệ điều hành Linux. Nó là một công cụ tuyệt vời để tạo và chỉnh sửa các tệp văn bản, và nó cũng có thể được sử dụng để tạo các tệp cấu hình.
