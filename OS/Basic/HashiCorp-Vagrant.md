@@ -122,3 +122,4 @@ Trong bài tiếp theo chúng ta sẽ tìm hiểu về một số lệnh và tá
 
 - [Learn the Linux Fundamentals - Part 1](https://www.youtube.com/watch?v=kPylihJRG70)
 - [Linux for hackers (don't worry you don't need to be a hacker!)](https://www.youtube.com/watch?v=VbEx7B_PTOE)
+- https://github.com/MichaelCade/90DaysOfDevOps/blob/main/2022/vi/Days/day14.md
