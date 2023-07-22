@@ -124,7 +124,7 @@ Trên **Windows**, bạn có ổ** C:** và đó là thứ mà chúng ta coi là
 
 - `/usr` - Nếu chúng tôi với tư cách là người dùng đã cài đặt các gói phần mềm, gói phần mềm đó thường sẽ được cài đặt ở vị trí `/usr/bin`.
 
-![Linux File System](../../Image/File-System-Linux24.png)
+![Linux File System](../../Image/File-System-Linux024.png)
 
 - `/var` - Các ứng dụng của chúng tôi được cài đặt trong thư mục `bin`. Chúng tôi cần một nơi nào đó để lưu trữ tất cả các tệp logs, đó chính là `/var`
 
