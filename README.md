@@ -139,6 +139,8 @@
 - [✔️] 🗃️ > [Disaster Recovery]
 - [✔️] 🗃️ > [Data & Application Mobility]
 
-### [Cheatsheet](/Cheatsheet/DevOps-Cheatsheet.md)
+### [Cheatsheet]
+
+[Cheatsheet](/Cheatsheet/DevOps-Cheatsheet.md)
 
 [✔️] [Linux] - [✔️] [Python] - [✔️] [Docker] - [✔️] [Kubernetes] - [✔️] [Git] - [✔️] [Terraform] - [✔️] [Ansible] - [✔️] [CI/CD] - [✔️] [Jenkins] - [✔️] [GitHub] - [✔️] [ArgoCD] - [✔️] [Nginx]
