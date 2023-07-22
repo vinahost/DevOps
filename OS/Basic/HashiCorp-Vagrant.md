@@ -1,14 +1,10 @@
-# Mối liên hệ giữa Linux Và DevOps
+# Hướng dẫn sử dụng Vagrant và WSL 
 
-**Linux** và **DevOps** có văn hóa và nhiều quan điểm rất giống nhau; cả hai đều tập trung vào khả năng tùy biến và khả năng mở rộng. Cả hai khía cạnh này của **Linux** đều có tầm quan trọng đặc biệt đối với **DevOps**.
+Tùy thuộc vào nhu cầu và mục đích sử dụng của bạn mà bạn nên chọn **WSL** hay **Vagrant**.
 
-Rất nhiều công nghệ bắt đầu với **Linux**, đặc biệt nếu chúng liên quan đến phát triển phần mềm hoặc quản lý cơ sở hạ tầng.
+- **WSL** là một tính năng của **Windows** cho phép bạn chạy các ứng dụng **Linux** trên máy tính chạy **Windows**. **WSL** là một cách tuyệt vời để sử dụng các công cụ và ứng dụng **Linux** từ **Windows**, nhưng nó không phải là một máy ảo. Điều này có nghĩa là các ứng dụng **WSL** không thể truy cập các tài nguyên vật lý của máy tính **Windows**, chẳng hạn như đĩa, bộ nhớ và mạng.
 
-Cũng như rất nhiều dự án mã nguồn mở, đặc biệt là các công cụ **DevOps**, được thiết kế để chạy trên **Linux** ngay từ đầu.
-
-Từ góc độ **DevOps** hoặc bất kỳ góc độ nào từ việc vận hành, bạn sẽ tiếp xúc với **Linux** nếu không muốn nói là chủ yếu. Có một nơi dành cho WinOps nhưng phần lớn thời gian bạn sẽ quản lý và triển khai các máy chủ **Linux**.
-
-Tôi đã sử dụng **Linux** hàng ngày trong nhiều năm nhưng máy tính để bàn của tôi luôn là **macOS** hoặc **Windows**. Tuy nhiên, khi tôi bắt đầu làm việc dưới role **Cloud Native** hiện tại, tôi đã cố gắng đảm bảo máy tính xách tay của tôi hoàn toàn chạy trên **Linux**, và mặc dù tôi vẫn cần **Windows** cho các ứng dụng trong công việc và rất nhiều thiết bị âm thanh và **video gear** của tôi không chạy trên **Linux**, tôi đã buộc mình phải dùng một máy tính chạy trên **Linux** để hiểu rõ hơn về những thứ mà chúng ta sẽ tiếp xúc trong những ngày tới.
+- **Vagrant** là một công cụ tạo và quản lý máy ảo. **Vagrant** có thể được sử dụng để tạo máy ảo chạy bất kỳ hệ điều hành nào, bao gồm **Linux**, **Windows** và **macOS**. Các máy ảo **Vagrant** có thể truy cập các tài nguyên vật lý của máy tính **Windows**, điều này làm cho chúng trở nên linh hoạt hơn **WSL**.
 
 ## Bắt đầu
 
@@ -114,8 +110,6 @@ Sau khi bạn đã khởi động bản phân phối **Linux**, bạn có thể 
 
 Nếu bạn chỉ cần chạy các ứng dụng **Linux** từ **Windows**, thì **WSL** là một lựa chọn tuyệt vời. Tuy nhiên, nếu bạn cần một máy ảo linh hoạt hơn có thể truy cập các tài nguyên vật lý của máy tính **Windows**, thì **Vagrant** là một lựa chọn tốt hơn.
 
-Để tìm hiểu thêm về **WSL 2**, hãy truy cập trang web của **Microsoft**: https://docs.microsoft.com/en-us/windows/wsl/install-win10
-
 Trong bài tiếp theo chúng ta sẽ tìm hiểu về một số lệnh và tác dụng của chúng, **Terminal** sẽ là nơi để biến mọi thứ thành hiện thực.
 
 ## Tài liệu tham khảo
@@ -123,3 +117,5 @@ Trong bài tiếp theo chúng ta sẽ tìm hiểu về một số lệnh và tá
 - [Learn the Linux Fundamentals - Part 1](https://www.youtube.com/watch?v=kPylihJRG70)
 - [Linux for hackers (don't worry you don't need to be a hacker!)](https://www.youtube.com/watch?v=VbEx7B_PTOE)
 - https://github.com/MichaelCade/90DaysOfDevOps/blob/main/2022/vi/Days/day14.md
+- https://docs.microsoft.com/en-us/windows/wsl/install-win10
+- https://www.vagrantup.com/
