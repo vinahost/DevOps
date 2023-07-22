@@ -12,6 +12,8 @@
 - **Quản lý ứng dụng**: Kubernetes có thể được sử dụng để quản lý các ứng dụng container hóa, bao gồm việc giám sát hiệu suất, theo dõi tài nguyên và cân bằng tải. Điều này có thể giúp đảm bảo rằng các ứng dụng luôn hoạt động tốt và đáp ứng nhu cầu của người dùng.
 - **Tự động hóa**: Kubernetes có thể được sử dụng để tự động hóa nhiều nhiệm vụ liên quan đến vận hành, chẳng hạn như triển khai bản cập nhật, quản lý lưu lượng truy cập và theo dõi hiệu suất. Điều này có thể giúp giảm bớt gánh nặng cho các nhóm vận hành và cho phép họ tập trung vào các nhiệm vụ chiến lược hơn.
 
+### Lợi ích của việc sử dụng Kubernetes
+
 Dưới đây là một số lợi ích của việc sử dụng Kubernetes:
 
 - **Tự động hóa**: Kubernetes có thể tự động hóa các tác vụ như triển khai, quản lý và mở rộng các ứng dụng container hóa. Điều này có thể giúp bạn tiết kiệm thời gian và công sức.
@@ -21,7 +23,7 @@ Dưới đây là một số lợi ích của việc sử dụng Kubernetes:
 
 Nếu bạn đang tìm kiếm một hệ thống để quản lý các ứng dụng container hóa, Kubernetes là một công cụ đáng để xem xét.
 
-**Tham khảo**
+### Tham khảo
 
 - [Trang chủ Kubernetes](https://kubernetes.io/vi/)
 - [Kubernetes CheatSheet](/Cheatsheet/KUBERNETES-Cheat-Sheet.pdf)

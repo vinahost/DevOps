@@ -8,6 +8,8 @@
 
 Git là một công cụ mạnh mẽ có thể được sử dụng để theo dõi các thay đổi đối với các dự án lớn và phức tạp. Nó cũng rất dễ sử dụng và có thể được cài đặt trên hầu hết các hệ điều hành.
 
+### Lợi ích khi sử dụng Git
+
 Dưới đây là một số lợi ích của việc sử dụng Git:
 
 - **Theo dõi các thay đổi đối với các dự án**: Git có thể được sử dụng để theo dõi các thay đổi đối với các dự án lớn và phức tạp. Điều này có thể giúp bạn quản lý các thay đổi, khôi phục các thay đổi cũ và cộng tác với các nhà phát triển khác.
@@ -33,7 +35,7 @@ Nhìn chung, Git là lựa chọn tốt hơn cho hầu hết các dự án. Tuy 
 
 Nếu bạn đang tìm kiếm một hệ thống quản lý phiên bản, thì Git là một lựa chọn tuyệt vời. Nó là một công cụ mạnh mẽ, dễ sử dụng và có thể được sử dụng để theo dõi các thay đổi đối với các dự án lớn và phức tạp.
 
-**Tham khảo**
+### Tham khảo
 
 - https://git-scm.com/
 - https://github.com/

@@ -100,7 +100,7 @@ DevOps và Agile đều là những cách tiếp cận hiệu quả để phát 
 
 Còn ý kiến của bạn thì sao? Bạn có quan điểm khác? Tôi muốn nghe ý kiến từ các kỹ sư phát triển, vận hành, QA hoặc bất kỳ ai hiểu rõ hơn về Agile và DevOps. Rất mong có nhận xét và phản hồi của các bạn về vấn đề này?
 
-## Tài liệu tham khảo
+### Tài liệu tham khảo
 
 Luôn sẵn lòng chào đón thêm các tài nguyên mới tại đây.
 

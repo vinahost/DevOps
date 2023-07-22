@@ -4,6 +4,8 @@
 
 ![img](../Image/CI-CD-Pipelines.png)
 
+### Xây dựng CI/CD Pipelines theo các bước
+
 Các CI/CD Pipelines thường được xây dựng theo một cách nhất quán, với các bước sau:
 
 1. **Tích hợp**: Đây là bước mà mã từ các nhà phát triển khác nhau được tích hợp lại với nhau.
@@ -13,7 +15,7 @@ Các CI/CD Pipelines thường được xây dựng theo một cách nhất quá
 
 Các CI/CD Pipelines có thể giúp các nhóm phát triển phần mềm cải thiện chất lượng mã, tăng tốc độ phát triển và giảm thiểu rủi ro khi triển khai mã mới.
 
-Một số lợi ích của việc sử dụng các CI/CD Pipelines:
+### Một số lợi ích của việc sử dụng các CI/CD Pipelines:
 
 - **Tăng chất lượng code**: Các CI/CD Pipelines có thể giúp phát hiện và khắc phục lỗi sớm hơn, đồng thời giảm thiểu rủi ro khi triển khai code mới.
 - **Tăng tốc độ phát triển**: Các CI/CD Pipelines có thể giúp các nhóm phát triển xây dựng và triển khai mã mới nhanh hơn.

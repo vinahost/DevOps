@@ -1,6 +1,6 @@
 # Hướng dẫn gởi ticket trên Alibaba Cloud
 
-1) **Alibaba Cloud After-Sales Support Plan**
+1) Alibaba Cloud After-Sales Support Plan
 
 Đối với mọi khách hàng sử dụng các giải pháp, sản phẩm của **Alibaba Cloud** đều được cung cấp gói hỗ trợ **Basic** (hỗ trợ theo Ticket) đi kèm hoàn toàn miễn phí.
 
@@ -8,7 +8,7 @@
 
 Để sử dụng gói hỗ trợ **Basic**, người dùng có thể gởi một **ticket** yêu cầu được hỗ trợ từ đội ngũ kỹ thuật của **Alibaba Cloud**. Trong bài viết này chúng ta sẽ cùng điểm qua cách tạo một **ticket** khi bạn gặp sự cố hoặc cần hỗ trợ về kỹ thuật/sản phẩm của **Alibaba Cloud**.
 
-2) **Cách tạo một ticket yêu cầu hỗ trợ kỹ thuật**
+2) Cách tạo một ticket yêu cầu hỗ trợ kỹ thuật
  
 Để tạo một **ticket** trên **Alibaba Cloud**, truy cập vào **Console** của **Alibaba Cloud**, sau đó chọn **Tickets** > **Submit Ticket**.
 
@@ -25,6 +25,8 @@ Tại trang **New Ticket**, chọn loại support ticket tương ứng với nhu
 ![Submit Ticket trên Alibaba Cloud](../../Image/Ticket-Submit05.png)
 
 Chọn loại **Ticket** phù hợp với nhu cầu của bạn. Nhấn **Ask** đối với** Consulting & Technical Ticket** hoặc nhấp vào tên sản phẩm bạn cần được hỗ trợ đối với **Product Ticket**.
+
+### Hướng dẫn tạo support ticket trên Alibaba CLoud
 
 Ví dụ bạn cần được hỗ trợ vấn đề liên quan đến việc sử dụng **ECS**, bạn có thể chọn **Elastic Compute Service**.
 
@@ -50,7 +52,7 @@ Kế đến, nhập mô tả chi tiết về vấn đề bạn gặp phải.
 
 Sau khi hoàn tất, nhấn **Submit** để gửi **Ticket**.
 
-Sau khi gửi **Ticket**, bạn có thể kiểm tra thông tin **ticket** trong **My ticket records**.
+Khi quá trình gởi **Ticket** đã hoàn tất, bạn có thể kiểm tra thông tin **ticket** trong **My ticket records**.
 
 ![Submit Ticket trên Alibaba Cloud](../../Image/Ticket-Submit011.png)
 
@@ -62,6 +64,6 @@ Chúc bạn sẽ có những trải nghiệm tốt với dịch vụ của Aliba
 
 *Solution Architect* - **Alibaba Cloud Intelligence**
 
-**Tham khảo**
+### Tham khảo
 
 - https://www.alibabacloud.com/blog/how-to-submit-a-ticket-to-request-technical-support-on-alibaba-cloud_600146

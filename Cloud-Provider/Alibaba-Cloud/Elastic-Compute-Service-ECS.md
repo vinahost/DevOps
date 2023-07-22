@@ -102,9 +102,11 @@ Sau khi nhấn **Console**, **Instance** được tạo thành công sẽ có tr
 
 Chúc mừng bạn đã tạo thành công máy ảo trong ECS! Để thực hiện các thao tác liên quan với instance, nhấn vào các tên thao tác trong mục **Actions** được hiển thị cùng dòng với thông tin máy ảo.
 
-*By Vo Thi Phuong Anh, Alibaba Cloud Solutions Architect of Vietnam*
+*Author*: **Vo Thi Phuong Anh**
 
-**Tham khảo** 
+*Solution Architect* - **Alibaba Cloud Intelligence**
+
+### Tham Khảo 
 
 - https://www.alibabacloud.com/blog/600134
 - https://www.alibabacloud.com/product/ecs

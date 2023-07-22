@@ -32,6 +32,6 @@ Sau khi hoàn tất, nhấn **Save** để tạo ra **Alert**.
 
 *Solution Architect* - **Alibaba Cloud Intelligence**
 
-**Tham khảo**
+### Tham khảo
 
 - https://www.alibabacloud.com/blog/set-billing-alert-on-alibaba-cloud_600156

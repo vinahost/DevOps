@@ -6,6 +6,8 @@
 
 ![Top 75 Kubernetes Questions and Answers](/Image/Kubernetes-Architecture.png)
 
+### Questions 01 -> Questions 10
+
 **Questions 01:** What is Kubernetes? Kubernetes, often abbreviated as K8s, is an open-source platform for automating deployment, scaling, and management of containerized applications. It was originally developed by Google and is now maintained by the Cloud Native Computing Foundation (CNCF).
 
 **Questions 02:** What is a container? A container is a lightweight, stand-alone, and executable software package that includes everything needed to run a piece of software, including the code, runtime, system tools, libraries, and settings.
@@ -25,6 +27,8 @@
 **Questions 09:** What is a Service? A Service is an abstraction that defines a logical set of Pods and a policy to access them. It provides a stable IP address and DNS name, allowing clients to discover and communicate with the Pods.
 
 **Questions 10:** What are ConfigMaps and Secrets? ConfigMaps and Secrets are Kubernetes objects used to store non-sensitive and sensitive configuration data, respectively. They decouple configuration data from container images, making it easier to update and manage.
+
+### Questions 10 -> Questions 20
 
 **Questions 11:** What is Ingress? Ingress is an API object that manages external access to the services in a cluster, typically through HTTP. It provides load balancing, SSL termination, and name-based virtual hosting.
 
@@ -46,6 +50,8 @@
 
 **Questions 20:** What is Helm? Helm is a package manager for Kubernetes, allowing you to define, install, and manage Kubernetes applications using Helm charts, which are versioned, pre-configured application packages.
 
+### Questions 21 -> Questions 30
+
 **Questions 21:** What is a Custom Resource Definition (CRD)? A Custom Resource Definition (CRD) allows you to define and manage custom resources in Kubernetes, extending its functionality with new API objects tailored to your specific use case.
 
 **Questions 22:** What is RBAC (Role-Based Access Control)? RBAC is a security feature in Kubernetes that allows you to define and enforce access policies for resources based on user roles. It uses Role and ClusterRole objects to define permissions and RoleBinding and ClusterRoleBinding objects to grant those permissions to users or groups.
@@ -65,6 +71,8 @@
 **Questions 29:** What is a liveness probe? A liveness probe is a diagnostic check that determines if a container is running properly. If a container fails the liveness probe, Kubernetes will restart the container, attempting to resolve the issue.
 
 **Questions 30:** What is a CronJob? A CronJob is a Kubernetes object that allows you to run a specific job on a scheduled basis, based on a cron expression. It is useful for tasks like backups, report generation, or other periodic tasks.
+
+### Questions 31 -> Questions 40
 
 **Questions 31:** What is a Job? A Job is a Kubernetes object that represents a finite task that runs one or more Pods to completion. Jobs are useful for running batch processes or other tasks that need to run to completion, rather than continuously running services.
 
@@ -86,6 +94,8 @@
 
 **Questions 40:** What are init containers? Init containers are special-purpose containers that run before the main containers in a Pod. They are often used to perform setup tasks, such as downloading dependencies, configuring the environment, or validating configuration data before the main application starts.
 
+### Questions 41 -> Questions 50
+
 **Questions 41:** What is a Kubernetes Service Account? A Service Account is a Kubernetes object that represents an identity for processes running within a Pod. Service Accounts can be used to provide authentication and authorization for accessing the Kubernetes API or other resources within a cluster.
 
 **Questions 42:** What is a Kubernetes Ingress Controller? A Kubernetes Ingress Controller is a component that manages the routing of external traffic to Services within a cluster based on Ingress rules. It watches for Ingress resources and updates the underlying load balancer or proxy configuration accordingly.
@@ -105,6 +115,8 @@
 **Questions 49:** What is a Kubernetes Persistent Storage? Kubernetes persistent storage refers to the various storage solutions available for storing data that needs to persist beyond the lifetime of a container or Pod. This includes Persistent Volumes, Persistent Volume Claims, and Storage Classes, which allow you to manage and provision storage resources in a consistent and efficient manner.
 
 **Questions 50:** What is a Kubernetes Admission Controller? A Kubernetes Admission Controller is a component that intercepts requests to the Kubernetes API server before the object persistence phase, enabling you to validate or modify the object based on custom policies or business logic.
+
+### Questions 51 -> Questions 60
 
 **Questions 51:** What is Kubernetes Autoscaling? Kubernetes Autoscaling refers to the process of automatically adjusting the number of Pods, nodes, or resources based on application demands or cluster utilization. This includes Horizontal Pod Autoscaler (HPA), Vertical Pod Autoscaler (VPA), and Cluster Autoscaler (CA).
 
@@ -126,6 +138,8 @@
 
 **Questions 60:** What is a Kubernetes Sidecar pattern? The Kubernetes Sidecar pattern involves deploying an additional container alongside the main container within a Pod. The sidecar container typically extends or enhances the functionality of the main container, such as log forwarding, monitoring, or data processing.
 
+### Questions 61 -> Questions 70
+
 **Questions 61:** What is a Kubernetes Ambassador pattern? The Kubernetes Ambassador pattern involves deploying a container that acts as a proxy or adapter for the main container within a Pod. This pattern simplifies communication with external systems or provides a unified interface for accessing different services.
 
 **Questions 62:** What is a Kubernetes Adapter pattern? The Kubernetes Adapter pattern involves deploying a container that translates or modifies the interface of the main container within a Pod. This pattern enables the main container to work with other systems or APIs without modifying its code.
@@ -145,6 +159,8 @@
 **Questions 69:** What is the Kubernetes Object Management model? The Kubernetes Object Management model is a declarative approach to managing resources, where you define the desired state of the system using YAML or JSON manifests, and the control plane works to achieve and maintain that state through reconciliation loops.
 
 **Questions 70:** What is the Kubernetes Garbage Collection? Kubernetes Garbage Collection is a mechanism that automatically removes unused or orphaned resources, such as terminated Pods, unused ConfigMaps, or completed Jobs, to free up system resources and maintain a clean cluster.
+
+### Questions 71 -> Questions 75
 
 **Questions 71:** What is the Kubernetes Audit Log? The Kubernetes Audit Log is a record of events that occur in the Kubernetes API server, providing detailed information about requests, responses, and metadata. It can be used for security monitoring, troubleshooting, or compliance purposes.
 

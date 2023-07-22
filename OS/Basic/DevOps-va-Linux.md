@@ -6,6 +6,8 @@
 
 ![img](../../Image/DevOps-Linux.png)
 
+### Lợi ích của Linux cho DevOps
+
 Có một số lợi ích của việc sử dụng Linux cho DevOps, bao gồm:
 
 - **Miễn phí**: Linux là một hệ điều hành mã nguồn mở, có nghĩa là nó miễn phí để sử dụng và phân phối. Điều này có thể giúp tiết kiệm chi phí cho các tổ chức.
@@ -13,6 +15,8 @@ Có một số lợi ích của việc sử dụng Linux cho DevOps, bao gồm:
 - **Hỗ trợ tốt**: Linux có một cộng đồng người dùng và nhà phát triển lớn, cung cấp hỗ trợ tốt cho các tổ chức sử dụng hệ điều hành này.
 
 Nếu bạn đang tìm kiếm một nền tảng cho DevOps, Linux là một lựa chọn tốt. Linux là một hệ điều hành miễn phí, linh hoạt và có hỗ trợ tốt, có thể giúp các tổ chức xây dựng và vận hành phần mềm một cách hiệu quả hơn.
+
+### Ví dụ về sử dụng Linux cho DevOps
 
 Dưới đây là một số ví dụ về cách Linux được sử dụng cho DevOps:
 
@@ -23,7 +27,7 @@ Dưới đây là một số ví dụ về cách Linux được sử dụng cho 
 
 DevOps và Linux là hai công nghệ có thể được kết hợp để tạo ra một môi trường phát triển và vận hành hiệu quả hơn. Linux có thể được sử dụng để tự động hóa các quy trình phát triển và vận hành, quản lý cơ sở hạ tầng, bảo vệ phần mềm và cơ sở hạ tầng, và giám sát phần mềm và cơ sở hạ tầng. Bằng cách kết hợp DevOps và Linux, các tổ chức có thể xây dựng và vận hành phần mềm một cách nhanh hơn, đáng tin cậy hơn và linh hoạt hơn.
 
-**Tham khảo**
+### Tham khảo
 
 - https://www.linux.org/
 - https://www.amazon.com/Hands-DevOps-Linux-Pipelines-Kubernetes/dp/9389423481/

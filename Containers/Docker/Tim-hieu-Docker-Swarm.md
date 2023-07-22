@@ -4,7 +4,7 @@
 
 Chúng ta cần dùng Docker Swarm khi project của bạn cần phát triển, quản lý, deploy trên nhiều nhiều host thì đó là lúc cần dùng đến Docker Swarm.
 
-**Tính năng nổi bật**
+### Tính năng nổi bật
 
 - Cluster management integrated with Docker Engine : Sử dụng bộ Docker Engine CLI để tạo swarm một cách dễ dàng
 
@@ -26,7 +26,8 @@ Chúng ta cần dùng Docker Swarm khi project của bạn cần phát triển, 
 
 - Rolling updates: ASwarm giúp update image của service một cách hoàn toàn tự động. Swarm manager giúp bạn kiểm soát độ trễ giữa service deploy tới các node khác nhau và bạn có thể rolling back bất cứ lúc nào.
 
-**Kiến trúc của Docker Swarm**
+### Kiến trúc của Docker Swarm
+
 ![swarm_diagram](/Image/Docker-Swarm.png)
 
 Kiến trúc Swarm bao gồm một tập hợp các node có ít nhất một nút chính (Manager-Leader) và một số node worker có thể là máy ảo hoặc vật lý.
@@ -41,7 +42,7 @@ Kiến trúc Swarm bao gồm một tập hợp các node có ít nhất một n�
 
 - Service: Một service xác định image của container và số lượng các replicas (bản sao) mong muốn khởi chạy trong Swarm.
 
-**Khởi tạo Docker Swarm**
+### Khởi tạo Docker Swarm
 
 Phần này chúng ta sẽ tạo một cụm docker với 2 máy host làm node worker và 1 host làm node manager
 
@@ -100,18 +101,18 @@ $ docker swarm join --token <token> <host>:<port>
 -  < host >: Địa chỉ ip của con manager
 -  < port>: Cổng port của con manager
 
-**So sánh giữa Kubernetes và Docker Swarm**
+### So sánh giữa Kubernetes và Docker Swarm
 
-Kubernetes và Docker Swarm đều là các công cụ quản lý container orchestration cho phép ta có thể quản lý các container trên nhiều máy chủ vật lý khác nhau.
+**Kubernetes** và **Docker Swarm** đều là các công cụ quản lý **container orchestration** cho phép ta có thể quản lý các **container** trên nhiều máy chủ vật lý khác nhau.
 
-Tuy nhiên, Kubernetes là công cụ phổ biến hơn và có nhiều tính năng hơn so với Docker Swarm.
+Tuy nhiên, **Kubernetes** là công cụ phổ biến hơn và có nhiều tính năng hơn so với **Docker Swarm**.
 
-Một số điểm khác biệt giữa Kubernetes và Docker Swarm:
+### Một số điểm khác biệt giữa **Kubernetes** và **Docker Swarm**:
 
 - Kubernetes có thể quản lý các container của nhiều nhà cung cấp khác nhau, trong khi Docker Swarm chỉ quản lý các container của Docker.
 - Kubernetes có thể tự động phân phối tải cho các container, trong khi Docker Swarm cần một công cụ bên ngoài để phân phối tải.
 - Kubernetes có thể tự động khôi phục các container bị lỗi, trong khi Docker Swarm không có tính năng này.
 
-**Tài liệu tham khảo**
+### Tài liệu tham khảo
 
 - https://docs.docker.com/engine/swarm/

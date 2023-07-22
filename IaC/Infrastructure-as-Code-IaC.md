@@ -4,6 +4,8 @@ Cơ sở hạ tầng dưới dạng mã (IaC) là một cách tiếp cận quả
 
 ![img](../Image/infrastructure-as-a-code.jpg)
 
+### Lợi ích khi sử dụng IaC
+
 IaC có một số lợi ích, bao gồm:
 
 - **Tăng tính nhất quán**: IaC có thể giúp đảm bảo rằng cơ sở hạ tầng được cấu hình nhất quán trên tất cả các môi trường. Điều này có thể giúp ngăn ngừa lỗi và sự cố.
@@ -11,6 +13,8 @@ IaC có một số lợi ích, bao gồm:
 - **Tăng khả năng bảo mật**: IaC có thể giúp cải thiện bảo mật cơ sở hạ tầng bằng cách tự động hóa các quy trình tạo và quản lý cơ sở hạ tầng. Điều này có thể giúp ngăn chặn truy cập trái phép vào cơ sở hạ tầng.
 - **Tăng khả năng kiểm tra**: IaC có thể giúp dễ dàng kiểm tra cơ sở hạ tầng bằng cách sử dụng mã. Điều này có thể giúp đảm bảo rằng cơ sở hạ tầng hoạt động bình thường.
 - **Tăng khả năng tự động hóa**: IaC có thể giúp tự động hóa các quy trình quản lý cơ sở hạ tầng. Điều này có thể giúp doanh nghiệp tiết kiệm thời gian và tiền bạc.
+
+### Các công cụ IaC thường dùng
 
 Có một số công cụ IaC khác nhau có sẵn, bao gồm:
 

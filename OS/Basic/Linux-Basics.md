@@ -1,19 +1,22 @@
 # Một số lệnh Linux phổ biến được sử dụng trong DevOps:
 
-#### Lệnh cho Debian - Ubuntu ...
+### Lệnh cho Debian - Ubuntu ...
+
 - apt-get install: Lệnh này được sử dụng để cài đặt các gói phần mềm.
 - apt-get remove: Lệnh này được sử dụng để gỡ cài đặt các gói phần mềm.
 - apt-get update: Lệnh này được sử dụng để cập nhật danh sách các gói phần mềm có sẵn.
 - apt-get upgrade: Lệnh này được sử dụng để nâng cấp các gói phần mềm hiện có.
 
-#### Lệnh cho Centos - Redhat ...
+### Lệnh cho Centos - Redhat ...
+
 - yum install: Lệnh này được sử dụng để cài đặt các gói phần mềm trên hệ điều hành Fedora hoặc Red Hat.
 - yum remove: Lệnh này được sử dụng để gỡ cài đặt các gói phần mềm trên hệ điều hành Fedora hoặc Red Hat.
 - yum update: Lệnh này được sử dụng để cập nhật danh sách các gói phần mềm có sẵn trên hệ điều hành Fedora hoặc Red Hat.
 - yum upgrade: Lệnh này được sử dụng để nâng cấp các gói phần mềm hiện có trên hệ điều hành Fedora hoặc Red Hat.
 - dnf install: Tải xuống và cài đặt một gói phần mềm trên hệ thống Fedora 30 trở lên hoặc RHEL 8 trở lên.
 
-#### Lệnh chung trên Linux
+### Lệnh chung trên Linux
+
 - wget: Lệnh này được sử dụng để tải xuống các tệp từ internet.
 - curl: Lệnh này cũng được sử dụng để tải xuống các tệp từ internet, nhưng nó có nhiều tính năng hơn lệnh wget.
 - tar: Lệnh này được sử dụng để giải nén các tệp đã được nén.
@@ -35,7 +38,8 @@
 - mv: Lệnh này di chuyển hoặc đổi tên một tệp hoặc thư mục.
 - rm: Lệnh này xóa một tệp hoặc thư mục.
 
-#### Một số lệnh cho các phần mềm trên Linux
+### Một số lệnh cho các phần mềm trên Linux
+
 - pip install: Tải xuống và cài đặt một gói phần mềm Python.
 - npm install: Tải xuống và cài đặt một gói phần mềm JavaScript.
 - composer install: Tải xuống và cài đặt một gói phần mềm PHP.
@@ -43,12 +47,14 @@
 - maven install: Xây dựng một dự án Maven.
 - sbt compile: Xây dựng một dự án SBT.
 
-#### Một số lệnh dành cho Docker
+### Một số lệnh dành cho Docker
+
 - docker build: Xây dựng một hình ảnh Docker.
 - docker run: Chạy một hình ảnh Docker.
 - docker push: Đẩy một hình ảnh Docker lên kho lưu trữ Docker.
 
-#### Một số lệnh dành cho Kubernetes
+### Một số lệnh dành cho Kubernetes
+
 - kubectl create deployment: Tạo một triển khai Kubernetes.
 - kubectl scale deployment: Thay đổi quy mô một triển khai Kubernetes.
 - kubectl rollout restart deployment: Khởi động lại một triển khai Kubernetes.
@@ -75,7 +81,7 @@ Trường hợp cần thông tin chi tiết, các bạn có thể sử dụng l�
 
 Đây chỉ là một số lệnh Linux phổ biến được sử dụng trong DevOps. Có nhiều lệnh khác có thể được sử dụng, tùy thuộc vào các nhiệm vụ cụ thể mà bạn đang thực hiện.
 
-**Tham khảo**
+### Tham khảo
 
 - https://github.com/trinib/Linux-Bash-Commands
 - https://github.com/sk3pp3r/cheat-sheet-pdf

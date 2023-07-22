@@ -9,6 +9,8 @@
 Terraform sử dụng ngôn ngữ HCL (HashiCorp Configuration Language) để định nghĩa cấu trúc hạ tầng của bạn và có thể được sử dụng để quản lý hạ tầng trên nhiều nhà cung cấp đám mây khác nhau.
 ![terraform](../Image/Terraform-la-gi.png)
 
+### Các công cụ thay thế Terraform
+
 Một số công cụ tương đương với Terraform mà bạn có thể tham khảo bao gồm:
 
 - Chef Infra
@@ -26,7 +28,7 @@ Terraform cũng hỗ trợ cho Alibaba Cloud thông qua provider của Alibaba C
 
 Ngoài ra, Alibaba Cloud cũng cung cấp một giải pháp sử dụng Terraform để triển khai và quản lý hạ tầng của mình.
 
-**Cài đặt Terraform**
+### Cài đặt Terraform
 
 Terraform hỗ trợ nhiều hệ điều hành khác nhau như Windows, Linux, MacOS, Solaris, FreeBSD và OpenBSD... Bài viết này sẽ hướng dẫn các bạn cài trên hệ điều hành Ubuntu
 
@@ -98,6 +100,8 @@ Terraform sử dụng các file cấu hình để quản lý các tài nguyên c
 - terraform apply: Trong trường hợp chưa run CMD plan trước khi run cmd apply. Terraform sẽ tự động rerun plan và mình cần xác nhận đồng ý với execution plan mới có thể tiến hành apply.
 - terraform destroy: là lệnh dùng destroy các provided, vì vậy cần cẩn thận và hiểu rõ ý nghĩa những việc đang thực hiện khi sử lệnh này đặc biệt là trên môi trường production.
 
+### Cách thành phần chính trong Terraform
+
 Một RootModule thông thường sẽ có 3 Terraform files chính:
 - main.tf: file là file tập trung các config Terraform chính, nằm ở root project.
 - variables.tf: là file tập trung tất cả các khai bao biến, nằm ở root project.
@@ -107,7 +111,7 @@ Một RootModule thông thường sẽ có 3 Terraform files chính:
 
 ![Terraform_Workflow](../Image/Terraform-03.jpeg)
 
-**Hướng dẫn sử dụng Terraform cơ bản với Docker**
+### Hướng dẫn sử dụng Terraform cơ bản với Docker
 
 Sau khi bạn đã cài đặt Terraform xong, bạn có thể cung cấp máy chủ NGINX trong vòng chưa đầy một phút bằng cách sử dụng Docker trên Mac, Windows hoặc Linux. Yêu cầu là Docker đã được cài trên máy của bạn. Hướng dẫn này được thực hiện trên UBuntu
 
@@ -253,7 +257,7 @@ docker_image.nginx
 
 ```  
 
-**Một số lệnh khác**
+### Một số lệnh khác trên Terraform
 
 - *terraform apply -auto-approve* là một tham số có thể được truyền vào lệnh *terraform apply* để bỏ qua xác nhận *yes*. Nó cũng có thể được kết hợp với các tùy chọn khác như *-input=false* để vô hiệu hóa các lời nhắc đầu vào. Thường được dùng trong automation CI/CD pipelines.
 
@@ -263,7 +267,7 @@ docker_image.nginx
 
 - *terraform destroy* là một lệnh trong Terraform được sử dụng để xóa các tài nguyên được tạo ra bởi Terraform. Lệnh này sẽ xóa các tài nguyên được tạo ra bởi Terraform theo thứ tự ngược lại với thứ tự mà chúng được tạo ra 
 
-**Tài liệu tham khảo:**
+### Tài liệu tham khảo:
 
 - https://github.com/aliyun/terraform-provider-alicloud
 - https://github.com/terraform-alicloud-modules

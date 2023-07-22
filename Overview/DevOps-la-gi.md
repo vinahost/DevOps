@@ -6,6 +6,8 @@
 
 DevOps là một phương pháp quản lý và phát triển phần mềm mới so với các cách tiếp cận truyền thống của quản lý dự án. DevOps thay đổi cách tiếp cận truyền thống là phát triển và thử nghiệm riêng biệt. Các nhóm hoạt động theo cách hợp tác trong đó cả hai nhóm đều tích cực tham gia trong suốt vòng đời dịch vụ. DevOps sẽ giúp tối ưu hóa 2 giai đoạn phát triển phần mềm này giúp đẩy cao tốc độ phát triển và cải tiến sản phẩm so với các quy trình quản lý và phát triển phần mềm truyền thống
 
+### Các giai đoạn trong vòng đời DevOps
+
 **Có 7 giai đoạn trong vòng đời DevOps:**
 
 - Phát triển liên tục (CD) – Continuous development
@@ -16,6 +18,8 @@ DevOps là một phương pháp quản lý và phát triển phần mềm mới 
 - Giám sát liên tục – Continuous Monitoring
 - Hoạt động liên tục – Continuous Operations
 
+### Lợi ích của DevOps
+
 **Các lợi ích của DevOps bao gồm:**
 
 - Tăng tốc độ triển khai sản phẩm
@@ -25,7 +29,10 @@ DevOps là một phương pháp quản lý và phát triển phần mềm mới 
 - Tăng sự hợp tác giữa các nhóm phát triển và vận hành
 - Giảm thiểu rủi ro và chi phí
 
+### Một số công cụ sử dụng cho DevOps
+
 **Một số công cụ DevOps thông dụng được biết đến bao gồm :**
+
 - Git & GitHub – Quản lý mã nguồn (Hệ thống kiểm soát phiên bản)
 - Jenkins – Máy chủ tự động, với các plugin được xây dựng để phát triển CI / CD pipelines
 - Selenium – Kiểm thử tự động
@@ -33,6 +40,8 @@ DevOps là một phương pháp quản lý và phát triển phần mềm mới 
 - Kubernetes – Công cụ điều phối container
 - Puppet – Quản lý cấu hình và triển khai
 - Terraform - Đơn giản hóa việc khởi tạo và quản lý tài nguyên  
+
+### Kỹ năng để trở thành DevOps
 
 **Các kỹ năng cần thiết để trở thành DevOps bao gồm :**
 
@@ -42,7 +51,7 @@ DevOps là một phương pháp quản lý và phát triển phần mềm mới 
 - Kỹ năng quản lý dự án
 - Kỹ năng giao tiếp và hợp tác
 
-**Roadmap để trở  thành DevOps**
+### Roadmap để trở  thành DevOps
 
 ![DevOps Roadmap](devops-roadmap01.jpg)
 
@@ -50,7 +59,7 @@ DevOps là một phương pháp quản lý và phát triển phần mềm mới 
 
 ![alibabacloud](alibabacloud.png)
 
-**Tham khảo**
+### Tham khảo
 
 - https://vi.wikipedia.org/wiki/DevOps
 - https://roadmap.sh/devops

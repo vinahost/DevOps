@@ -12,6 +12,7 @@ Giả sử bạn muốn thực hiện một dự án lên Alibaba Cloud và đã
 Với những lợi ích đó, Alibaba Cloud RAM có thể hỗ trợ rất nhiều trong việc quản lý người dùng và các tài nguyên trên Alibaba Cloud. Để bắt đầu sử dụng Alibaba Cloud RAM, tỏng bài viết này chúng tôi sẽ hướng dẫn cách tạo một tài khoản RAM trên Alibaba Cloud.
 
 ### Cách tạo RAM Account và phân quyền trên console Alibaba Cloud
+
 Để tiến hành tạo tài khoản RAM Alibaba Cloud, truy cập vào trang console của Alibaba Cloud và chọn **All Products** > **Cloud Management** > **Resource Access Management**.
 
 ![img](../../Image/RAM01.png)
@@ -51,7 +52,7 @@ Nhấn **OK** để hoàn tất.
 
 Sau khi cấp quyền các tài khoản RAM đã có thể hoạt động trên Alibaba Cloud dưới tài khoản chính của bạn.
 
-**Tham khảo**
+### Tham khảo
 
 - https://www.alibabacloud.com/blog/create-alibaba-cloud-ram-account_600153
 - https://www.alibabacloud.com/product/ram

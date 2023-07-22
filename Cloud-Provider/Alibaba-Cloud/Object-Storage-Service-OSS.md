@@ -65,6 +65,10 @@ Bạn có thể xóa một bucket trong OSS bằng cách nhấn vào tên **Buck
 
 Nhấn **Delete** để xóa bucket.
 
+*Author*: **Vo Thi Phuong Anh**
+
+*Solution Architect* - **Alibaba Cloud Intelligence**
+
 ### Tham khảo
 
 - https://www.alibabacloud.com/blog/600182

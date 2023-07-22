@@ -101,7 +101,7 @@ Với các bước như trên bạn đã sử dụng thành công **Alibaba Clou
 
 *Solution Architect* - **Alibaba Cloud Intelligence**
 
-**Tham khảo:**
+### Tham khảo:
 
 - https://www.alibabacloud.com/blog/how-to-use-alibaba-cloud-pricing-calculator_600050
 - https://www.alibabacloud.com/pricing-calculator#/commodity/vm_intl

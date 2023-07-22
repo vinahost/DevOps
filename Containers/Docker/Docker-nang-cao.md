@@ -31,7 +31,7 @@ Dockerfile là file config cho Docker để build ra image. Nó dùng một imag
 - EXPOSE — khai báo port lắng nghe của image.
 - VOLUME — tạo một điểm gắn thư mục để truy cập và lưu trữ data.
 
-**Demo tạo file Dockerfile**
+### Demo tạo file Dockerfile
 
 > Một số bước thực hiện:
 > - Đầu tiên chúng ta sẽ viết Dockerfile để tạo nên image rồi tạo nên container, sau khi tạo được container rồi thì đồng nghĩa là đã tạo ra được máy ảo để bạn có thể khởi chạy ứng dụng của bạn trên máy ảo đó.
@@ -114,7 +114,7 @@ sudo docker run -v  /home/webroot:/var/www/html -p 9000:80 -it ubuntu-nginx /bin
 
 ```  
 
-**Các lệnh thường dùng**
+### Các lệnh thường dùng
 
 Build container từ image
 
@@ -204,7 +204,7 @@ docker tag {image_id} {new_name:new_version}
 
 ```  
 
-**Data Volume**
+### Data Volume
 
 Data volume dùng để chia sẻ dữ liệu, thông thường ta sẽ dùng cho những trường hợp sau:
 
@@ -282,7 +282,7 @@ docker run -it --name C2 -v Disk_2:/home/disk_2 ubuntu:22.04
 ```  
 > Note: Khi đã ánh xạ ổ đĩa với host thì mình sẽ ko sử dụng --mount mà dùng
 
-**Khái niệm và các default Docker Network**
+### Khái niệm và các default Docker Network
 
 Docker network là nơi sẽ đảm nhiệm nhiệm vụ cho container kết nối vào network
 
@@ -363,7 +363,7 @@ Docker Hub là một dịch vụ do Docker cung cấp, cho phép tìm kiếm và
 
 Để sử dụng Docker Hub, bạn hãy đăng ký một tài khoản [tại đây](https://hub.docker.com/).
 
-**Docker compose**
+### Docker compose
 
 Là công cụ giúp ta thiết lập và quản lý nhiều container, network, volume (gọi chung là các service) và thiết lập cấu hình cho các service một cách nhanh chóng và đơn giản bằng việc chạy theo các chỉ định trong file docker-compose.yml
 
@@ -450,7 +450,8 @@ Theo dõi Logs các services
 ```js
 docker-compose logs [SERVICES]
 ```  
-**Tài liệu tham khảo**
+
+### Tài liệu tham khảo
 
 - https://docs.docker.com/engine/reference/builder/
 - https://docs.docker.com/docker-hub/

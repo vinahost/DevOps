@@ -4,7 +4,7 @@
 
 ![Docker_la_gi](/Image/Docker-la-gi.png)
 
-**Ưu điểm của Docker**
+### Ưu điểm của Docker
 
 - Tiện lợi: Bình thường khi cần chạy ứng dụng chúng ta cần cài đầy đủ môi trường trên máy tính, chưa kể có sự xung đột, sự cố xảy ra với các ứng dụng. Với Docker, bạn có thể đóng gói tất cả các thành phần của ứng dụng vào một container và chạy nó trên bất kỳ máy tính nào mà không cần phải cài đặt lại môi trường.
 
@@ -15,7 +15,7 @@
 - Linh hoạt: Triển khai ở bất kỳ nơi đâu do sự phụ thuộc của ứng dụng vào tầng OS cũng như cơ sở hạ tầng được loại bỏ.
 - Môi trường chạy và khả năng mở rộng: Bạn có thể chia nhỏ những chức năng của ứng dụng thành các container riêng lẻ. Ví dụng Database chạy trên một container và Redis cache có thể chạy trên một container khác trong khi ứng dụng Node.js lại chạy trên một cái khác nữa. Với Docker, rất dễ để liên kết các container với nhau để tạo thành một ứng dụng, làm cho nó dễ dàng scale, update các thành phần độc lập với nhau.
 
-**Các thành phần chính của Docker**
+### Các thành phần chính của Docker
 
 - Docker Engine: dùng để tạo ra Docker image và chạy Docker container. Là thành phần chính của Docker, như một công cụ để đóng gói ứng dụng.
 - Docker Hub: dịch vụ lưu trữ giúp chứa các Docker image. Trên DockerHub có hàng ngàn public images được tạo bởi cộng đồng cho phép bạn dễ dàng tìm thấy những image mà bạn cần. Và chỉ cần pull về và sử dụng với một số config mà bạn mong muốn.
@@ -33,12 +33,12 @@
 - Docker Services: là các containers trong production. 1 service chỉ run 1 image nhưng nó mã hoá cách thức để run image — sử dụng port nào, bao nhiêu bản sao container run để service có hiệu năng cần thiết và ngay lập tức.
 - Docker Object: khi sử dụng docker, bạn có thể khở tạo hoặc sử các images, container, network, volumes, plugins hoặc các object khác. Những thành phần này được gọi chung là docker objects.
 
-**Sự khác biệt giữa Docker Images và Docker Containers**
+### Sự khác biệt giữa Docker Images và Docker Containers
 
 - Docker Images: Là một template chỉ cho phép đọc, ví dụ một image có thể chứa hệ điều hành Ubuntu và web app. Images được dùng để tạo Docker container. Docker cho phép chúng ta build và cập nhật các image có sẵn một cách cơ bản nhất, hoặc bạn có thể download Docker images của người khác.
 - Docker Containers: Docker container có nét giống với các directory. Một Docker container giữ mọi thứ chúng ta cần để chạy một app. Mỗi container được tạo từ Docker image. Docker container có thể có các trạng thái run, started, stopped, moved và deleted.
 
-**Cài đặt Docker**
+### Cài đặt Docker
 
 Docker hỗ trợ nhiều nền tảng hệ điều hành khác nhau bao gồm Linux, Windows và cả Ma. Ngoài ra, Docker còn hỗ trợ nhiều dịch vụ điện toán đám mây nổi tiếng như Alibaba Cloud, Microsoft Azure, Amazon Web Services.. Lưu ý là ban đầu nó được xây dựng trên nền tảng Linux.
 
@@ -114,7 +114,7 @@ Chạy lệnh dưới đây để xem các images đã tải xuống.
 docker images
 
 ```  
-**Quy trình thực thi của một hệ thống sử dụng Docker**
+### Quy trình thực thi của một hệ thống sử dụng Docker
 
 ![quy_trinh_thuc_thi_docker](/Image/Docker-process.png)
 
@@ -129,7 +129,7 @@ Như trong hình vẽ, một hệ thống Docker được thực thi với 3 bư
 - Pull, Run: Nếu một máy tính khác muốn sử dụng Container chúng ta thì bắt buộc máy phải thực hiện việc Pull container này về máy, tất nhiên máy này cũng phải cài Docker Engine. Sau đó thực hiện Run Container này.
 
 
-**Các lệnh cơ bản trong docker**
+### Các lệnh cơ bản trong docker
 
 List image/container:
 ```js
@@ -185,7 +185,7 @@ Start một container:
 ```js
 $ docker start <tên container>
 ```  
-**Tham khảo**
+### Tham khảo
 
 - https://docs.docker.com/get-docker/
 - https://www.alibabacloud.com/help/en/elastic-compute-service/latest/deploy-and-use-docker

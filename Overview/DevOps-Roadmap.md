@@ -4,6 +4,8 @@
 
 ![img](devops.jpeg)
 
+### Lộ trình để trở thành DevOps
+
 Nếu bạn muốn trở thành một **DevOps Engineer**, đây là lộ trình mà bạn có thể tham khảo:
 
 1. **Học về DevOps**: Có rất nhiều nguồn tài liệu trực tuyến và sách có thể giúp bạn học về DevOps. Bạn cũng có thể tham gia các hội thảo và hội nghị DevOps để tìm hiểu thêm về lĩnh vực này.
@@ -12,6 +14,8 @@ Nếu bạn muốn trở thành một **DevOps Engineer**, đây là lộ trình
 4. **Thi lấy chứng chỉ DevOps**: nếu bạn có một số chứng chỉ DevOps có sẵn, chẳng hạn như Certified Kubernetes Administrator (CKA) và Certified Kubernetes Application Developer (CKAD). Nhận chứng chỉ DevOps có thể giúp bạn có lợi thế hơn trong quá trình tìm kiếm việc làm.
 5. **Tham gia cộng đồng DevOps**: có rất nhiều cộng đồng DevOps online và offline. Tham gia cộng đồng DevOps là một cách tuyệt vời để tìm hiểu thêm về lĩnh vực này, gặp gỡ những người cùng chí hướng và tìm kiếm cơ hội việc làm.
 6. **Theo dõi các xu hướng DevOps**: DevOps là một lĩnh vực đang phát triển nhanh chóng, vì vậy điều quan trọng là phải cập nhật các xu hướng mới nhất. Bạn có thể làm điều này bằng cách đọc các bài báo, blog và tài liệu về DevOps, hoặc tham gia các hội nghị và sự kiện về DevOps.
+
+### Các bước để trở thành kỹ sư DevOps
 
 Để trở thành một kỹ sư **DevOps**, điều đầu tiên và quan trọng nhất là phải hiểu văn hóa **DevOps**. Đó là tất cả các nhóm khác nhau làm việc cùng nhau hướng tới một mục tiêu chung. Sau đó, bạn có thể bắt đầu học các kỹ năng cần thiết để trở thành một kỹ sư DevOps. Dưới đây là một số bước để trở thành một kỹ sư DevOps:
 
@@ -36,7 +40,8 @@ DevOps là một lĩnh vực đang phát triển nhanh chóng, do đó nhu cầu
 
 ![img](DevOps-Roadmap.png)
 
-**Tham khảo**
+### Tham khảo
+
  -   <https://github.com/milanm/DevOps-Roadmap>
  -   <https://roadmap.sh/devops>
  -   <https://www.techworld-with-nana.com/devops-roadmap>

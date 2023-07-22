@@ -4,6 +4,8 @@
 
 ![img](../Image/Programming-Languages.jpg)
 
+### Các ngôn ngữ và công nghệ phổ biến trong DevOps
+
 Có một số ngôn ngữ lập trình và công nghệ phổ biến được sử dụng trong DevOps, bao gồm:
 
 - **Python**: Python là một ngôn ngữ lập trình phổ biến được sử dụng cho nhiều mục đích khác nhau, bao gồm cả DevOps. Python có nhiều tính năng phù hợp với DevOps, chẳng hạn như khả năng tự động hóa, khả năng dễ đọc và khả năng dễ sử dụng.
@@ -19,6 +21,8 @@ Có một số ngôn ngữ lập trình và công nghệ phổ biến được s
 
 Cách tốt nhất để tìm hiểu về DevOps là bắt đầu với một dự án nhỏ. Bạn có thể sử dụng một trong các công cụ hoặc dịch vụ DevOps được đề cập ở trên để tự động hóa các quy trình phát triển và vận hành của mình.
 
+### Với DevOps bạn có thể:
+
 Dưới đây là một số ví dụ về cách bạn có thể sử dụng DevOps để tự động hóa các quy trình phát triển và vận hành của mình:
 
 - Bạn có thể sử dụng **Jenkins** để tự động hóa xây dựng và kiểm tra mã của mình.
@@ -30,6 +34,7 @@ Các ngôn ngữ lập trình và công nghệ DevOps khác nhau được sử d
 Ngôn ngữ lập trình tốt nhất cho DevOps là ngôn ngữ mà bạn cảm thấy thoải mái nhất và có kiến thức tốt nhất. Nếu bạn không chắc chắn ngôn ngữ nào nên sử dụng, thì **Python** là một lựa chọn tốt.
 
 ### Tham khảo
+
 - https://www.python.org/
 - https://vi.wikipedia.org/wiki/Bash
 - https://vi.wikipedia.org/wiki/JavaScript

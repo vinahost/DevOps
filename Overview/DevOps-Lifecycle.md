@@ -5,7 +5,7 @@
 
 **Vòng đời DevOps** là một quá trình liên tục của việc phát triển, thử nghiệm, triển khai và vận hành các ứng dụng. Vòng đời DevOps được thiết kế để hợp lý hóa và tự động hóa các quy trình phát triển phần mềm, nhằm cải thiện tốc độ, chất lượng và độ tin cậy của các ứng dụng.
 
-#### Vòng đời DevOps bao gồm các giai đoạn sau:
+### Vòng đời DevOps bao gồm các giai đoạn sau:
 
 - **Tính liên tục tích hợp (CI)**: CI là quá trình tự động hóa việc tích hợp mã của các nhà phát triển vào một cơ sở mã chung. CI giúp phát hiện lỗi sớm và cải thiện chất lượng của mã.
 - **Tính liên tục cung cấp (CD)**: CD là quá trình tự động hóa việc triển khai các ứng dụng đã được kiểm tra và tích hợp thành môi trường sản xuất. CD giúp cải thiện tốc độ và độ tin cậy của các ứng dụng.
