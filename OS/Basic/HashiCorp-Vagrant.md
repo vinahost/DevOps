@@ -59,7 +59,7 @@ Dòng tiếp theo, chúng ta nói rằng chúng ta muốn sử dụng một nhà
 v.customize ["modifyvm", :id, "--vram", ""]
 ```
 
-Tôi cũng đã đặt một bản sao của tệp vagrant cụ thể này trong [thư mục Linux](Scripts/VAGRANTFILE)
+Tôi cũng đã đặt một bản sao của tệp vagrant cụ thể này trong [thư mục Linux](/Scripts/VAGRANTFILE)
 
 ## Tạo Linux Desktop
 
