@@ -40,7 +40,7 @@ Khi nói đến việc lưu các tệp này và sắp xếp các **VAGRANTFILE**
 
 Hãy cùng nhìn lại **VAGRANTFILE** đó và xem những gì chúng ta đang xây dựng.
 
-```ruby:Vagrantfile
+```
 Vagrant.configure("2") do |config|
     config.vm.box = "chenhan/ubuntu-desktop-20.04"
         config.vm.provider :virtualbox do |v|
@@ -55,11 +55,11 @@ end
 
 Dòng tiếp theo, chúng ta nói rằng chúng ta muốn sử dụng một nhà cung cấp cụ thể và trong trường hợp này là `VirtualBox`. Chúng ta cũng muốn bộ nhớ của máy là `8GB` và số lượng CPU là `4`. Theo kinh nghiệm của tôi, bạn có thể sẽ phải thêm dòng sau nếu bạn gặp sự cố hiển thị. Tôi sẽ tăng bộ nhớ này lên đến `128MB` nhưng nó hoàn toàn phụ thuộc vào cấu hình hệ thống của bạn.
 
-```ruby
+```
 v.customize ["modifyvm", :id, "--vram", ""]
 ```
 
-Tôi cũng đã đặt một bản sao của tệp vagrant cụ thể này trong [thư mục Linux](VAGRANTFILE)
+Tôi cũng đã đặt một bản sao của tệp vagrant cụ thể này trong [thư mục Linux](Scripts/VAGRANTFILE)
 
 ## Tạo Linux Desktop
 
