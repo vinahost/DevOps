@@ -108,8 +108,6 @@ Bạn cũng có thể mở bản phân phối **Linux** từ menu **Start**.
 
 Sau khi bạn đã khởi động bản phân phối **Linux**, bạn có thể bắt đầu sử dụng nó giống như bất kỳ bản phân phối **Linux** nào khác. Bạn có thể chạy các lệnh, cài đặt các gói và sử dụng các ứng dụng.
 
-Nếu bạn chỉ cần chạy các ứng dụng **Linux** từ **Windows**, thì **WSL** là một lựa chọn tuyệt vời. Tuy nhiên, nếu bạn cần một máy ảo linh hoạt hơn có thể truy cập các tài nguyên vật lý của máy tính **Windows**, thì **Vagrant** là một lựa chọn tốt hơn.
-
 Trong bài tiếp theo chúng ta sẽ tìm hiểu về một số lệnh và tác dụng của chúng, **Terminal** sẽ là nơi để biến mọi thứ thành hiện thực.
 
 ## Tài liệu tham khảo
