@@ -4,7 +4,7 @@
 
 **Python** là một ngôn ngữ lập trình đa năng được phát triển bởi **Guido van Rossum** vào năm **1991**. Python là một ngôn ngữ lập trình cấp cao, có nghĩa là nó dễ đọc và viết hơn các ngôn ngữ lập trình cấp thấp. Python cũng là một ngôn ngữ lập trình hướng đối tượng, có nghĩa là nó cho phép các nhà phát triển tạo các chương trình bằng cách sử dụng các đối tượng.
 
-Python là một ngôn ngữ lập trình phổ biến, được sử dụng cho nhiều mục đích khác nhau, bao gồm:
+**Python** là một ngôn ngữ lập trình phổ biến, được sử dụng cho nhiều mục đích khác nhau, bao gồm:
 
 - Phát triển web
 - Khoa học dữ liệu
@@ -16,9 +16,9 @@ Python là một ngôn ngữ lập trình phổ biến, được sử dụng cho
 - Tài chính
 - Y tế
 
-Python là một ngôn ngữ lập trình mạnh mẽ và linh hoạt, có thể được sử dụng cho nhiều mục đích khác nhau. Python cũng là một ngôn ngữ lập trình dễ học, có nhiều tài nguyên có sẵn để giúp bạn học Python.
+**Python** là một ngôn ngữ lập trình mạnh mẽ và linh hoạt, có thể được sử dụng cho nhiều mục đích khác nhau. **Python** cũng là một ngôn ngữ lập trình dễ học, có nhiều tài nguyên có sẵn để giúp bạn học **Python**.
 
-Đây là một số lợi ích của việc sử dụng Python:
+Đây là một số lợi ích của việc sử dụng **Python**:
 
 - Python là một ngôn ngữ dễ học
 - Python có một cộng đồng người dùng lớn và tích cực
@@ -37,7 +37,7 @@ Python là một ngôn ngữ lập trình mạnh mẽ và linh hoạt, có thể
 5. **Tích hợp liên tục (CI)**:  tích hợp liên tục (CI) là một quy trình tự động hóa việc xây dựng và kiểm tra mã khi có bất kỳ thay đổi nào được thực hiện. Bạn có thể sử dụng một công cụ CI như **Jenkins** hoặc **Travis CI** để tích hợp liên tục mã Python của mình.
 6. **Triển khai liên tục (CD)**: triển khai liên tục (CD) là một quy trình tự động hóa việc triển khai mã đã được kiểm tra thành môi trường sản xuất. Bạn có thể sử dụng một công cụ CD như Jenkins hoặc Travis CI để triển khai liên tục mã Python của mình.
 
-Mã Hello World Python là một chương trình đơn giản in ra văn bản "Hello, World!" trên màn hình. Đây là một chương trình mẫu thường được sử dụng để giới thiệu ngôn ngữ lập trình Python.
+Mã **Hello World** Python là một chương trình đơn giản in ra văn bản "Hello, World!" trên màn hình. Đây là một chương trình mẫu thường được sử dụng để giới thiệu ngôn ngữ lập trình **Python**.
 
 Mã Hello World Python rất đơn giản, vd ta có file *main.py*:
 
@@ -53,7 +53,7 @@ Câu lệnh *print()* được sử dụng để in văn bản trên màn hình.
 
     Hello, world!
 
-Trong DevOps, mã Hello World Python thường được sử dụng để kiểm tra một hệ thống **Tích hợp liên tục (CI)**. Hệ thống CI là một tập hợp các công cụ được sử dụng để tự động hóa quá trình xây dựng, kiểm tra và triển khai mã. Bằng cách chạy mã Hello World Python thông qua hệ thống CI, bạn có thể đảm bảo rằng hệ thống CI đang hoạt động bình thường và có thể xây dựng, kiểm tra và triển khai mã mà không gặp bất kỳ lỗi nào.
+Trong **DevOps**, mã Hello World Python thường được sử dụng để kiểm tra một hệ thống **Tích hợp liên tục (CI)**. Hệ thống CI là một tập hợp các công cụ được sử dụng để tự động hóa quá trình xây dựng, kiểm tra và triển khai mã. Bằng cách chạy mã Hello World Python thông qua hệ thống CI, bạn có thể đảm bảo rằng hệ thống CI đang hoạt động bình thường và có thể xây dựng, kiểm tra và triển khai mã mà không gặp bất kỳ lỗi nào.
 
 Ngoài ra, mã Hello World Python còn có thể được sử dụng để kiểm tra một hệ thống **Triển khai liên tục (CD)**. Hệ thống CD là một tập hợp các công cụ được sử dụng để tự động hóa quá trình triển khai mã lên môi trường sản xuất. Bằng cách chạy mã Hello World Python thông qua hệ thống CD, bạn có thể đảm bảo rằng hệ thống CD đang hoạt động bình thường và có thể triển khai mã lên môi trường sản xuất mà không gặp bất kỳ lỗi nào.
 
@@ -101,7 +101,7 @@ Bạn có thể chạy hình ảnh Docker của dự án bằng cách sử dụn
 
 Sau khi chạy lệnh này, bạn sẽ thấy một giao diện Python. Bạn có thể bắt đầu viết và chạy mã Python của mình.
 
-Đây chỉ là một ví dụ về cách thiết lập môi trường DevOps cho Python. Có nhiều cách khác để thiết lập môi trường DevOps, và cách tốt nhất sẽ phụ thuộc vào nhu cầu cụ thể của bạn. Nếu bạn chưa từng làm với Docker, đừng quá lo lắng, bài viết sau đây https://github.com/vinahostvn/devops/blob/main/Containers/Docker/Docker-la-gi.md sẽ hướng dẫn bạn cụ thể hơn về Docker.
+Đây chỉ là một ví dụ về cách thiết lập môi trường DevOps cho Python. Có nhiều cách khác để thiết lập môi trường DevOps, và cách tốt nhất sẽ phụ thuộc vào nhu cầu cụ thể của bạn. Nếu bạn chưa từng làm với Docker, đừng quá lo lắng, bài viết [sau đây](/Containers/Docker/Docker-la-gi.md) sẽ hướng dẫn bạn cụ thể hơn về Docker.
 
 **Tham khảo:**
 
