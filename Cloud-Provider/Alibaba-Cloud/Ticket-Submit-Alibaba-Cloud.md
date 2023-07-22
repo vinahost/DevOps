@@ -9,14 +9,16 @@
 Để sử dụng gói hỗ trợ **Basic**, người dùng có thể gởi một **ticket** yêu cầu được hỗ trợ từ đội ngũ kỹ thuật của **Alibaba Cloud**. Trong bài viết này chúng ta sẽ cùng điểm qua cách tạo một **ticket** khi bạn gặp sự cố hoặc cần hỗ trợ về kỹ thuật/sản phẩm của **Alibaba Cloud**.
 
 2) **Cách tạo một ticket yêu cầu hỗ trợ kỹ thuật**
-3) 
+ 
 Để tạo một **ticket** trên **Alibaba Cloud**, truy cập vào **Console** của **Alibaba Cloud**, sau đó chọn **Tickets** > **Submit Ticket**.
 
 ![Submit Ticket trên Alibaba Cloud](../../Image/Ticket-Submit02.png)
 
-Tại trang **New Ticket**, chọn loại support ticket tương ứng với nhu cầu của bạn, một số loại ticket phổ biến trên **Alibaba Cloud** được phân loại thành **Consulting Ticket**, **Technical Ticket** and **Product Ticket**.
+ Một số loại ticket phổ biến trên **Alibaba Cloud** được phân loại thành **Consulting Ticket**, **Technical Ticket** and **Product Ticket**.
 
 ![Submit Ticket trên Alibaba Cloud](../../Image/Ticket-Submit03.png)
+
+Tại trang **New Ticket**, chọn loại support ticket tương ứng với nhu cầu của bạn,
 
 ![Submit Ticket trên Alibaba Cloud](../../Image/Ticket-Submit04.png)
 
@@ -55,6 +57,10 @@ Sau khi gửi **Ticket**, bạn có thể kiểm tra thông tin **ticket** trong
 Vậy là chúng ta đã hoàn tất việc tìm hiểu về các **Support Package** của **Alibaba Cloud** và **raise ticket** yêu cầu hỗ trợ.
 
 Chúc bạn sẽ có những trải nghiệm tốt với dịch vụ của Alibaba Cloud nhé!
+
+*Author*: **Vo Thi Phuong Anh**
+
+*Solution Architect* - **Alibaba Cloud Intelligence**
 
 **Tham khảo**
 
