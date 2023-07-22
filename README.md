@@ -146,5 +146,6 @@
 ### Cheatsheet
 
 [Bộ sưu tập các Cheatsheets dành cho DevOps](Cheatsheet/DevOps-Cheatsheet.md)
+[Danh sách các Public DNS ở tại Việt Nam và Thế Giới](Cheatsheet/Public-DNS-Servers.md)
 
 [✔️] [Linux] - [✔️] [Python] - [✔️] [Docker] - [✔️] [Kubernetes] - [✔️] [Git] - [✔️] [Terraform] - [✔️] [Ansible] - [✔️] [CI/CD] - [✔️] [Jenkins] - [✔️] [GitHub] - [✔️] [ArgoCD] - [✔️] [Nginx]
