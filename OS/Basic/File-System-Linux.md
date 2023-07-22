@@ -150,7 +150,7 @@ Nếu bạn không muốn **unmount** ổ đĩa đó và bạn sẽ sử dụng 
 
 Sau khi bạn chỉnh sửa tệp cấu hình `fstab`, bạn có thể kiểm tra hoạt động bằng lệnh `sudo mount -a` nếu không có lỗi thì các thay đổi của bạn sẽ vẫn ở đó dù khởi động lại hệ thống.
 
-Chúng tôi sẽ đề cập đến cách bạn chỉnh sửa file bằng trình soạn thảo văn bản trong bài [Hướng dẫn sử dụng Nano và Vim trên Linux](/OS/Basic/Linux-Nano-Vim.md)
+Chúng tôi sẽ đề cập đến cách bạn chỉnh sửa file bằng trình soạn thảo văn bản trong bài [Hướng dẫn sử dụng Nano và Vim trên Linux](Linux-Nano-Vim.md)
 
 ## Tài liệu tham khảo
 
