@@ -22,6 +22,7 @@
 ### Kiến thức cơ bản về Linux
 
 - [✔️] 🐧 > [Overview: DevOps & Linux](OS/Basic/DevOps-va-Linux.md)
+- [✔️] 🐧 > [Thực hành Linux với HashiCorp Vagrant](OS/Basic/HashiCorp-Vagrant.md)
 - [✔️] 🐧 > [Các lệnh Linux cho DevOps](OS/Basic/Linux-Basics.md)
 - [✔️] 🐧 > [Quản lý Hệ thống Linux, Hệ thống Flie & Lưu trữ](OS/Basic/File-System-Linux.md)
 - [✔️] 🐧 > [Text Editors - nano vs vim](OS/Basic/Linux-Nano-Vim.md)
