@@ -1,6 +1,6 @@
 # Hướng dẫn sử dụng Vagrant và WSL 
 
-Tùy thuộc vào nhu cầu và mục đích sử dụng của bạn mà bạn nên chọn **WSL** hay **Vagrant**.
+Tùy thuộc vào nhu cầu và mục đích sử dụng của bạn mà bạn nên chọn **WSL** hay **Vagrant**. Trong chủ đề này chúng ta sẽ thực hiện dựa trên **Vagrant**
 
 - **WSL** là một tính năng của **Windows** cho phép bạn chạy các ứng dụng **Linux** trên máy tính chạy **Windows**. **WSL** là một cách tuyệt vời để sử dụng các công cụ và ứng dụng **Linux** từ **Windows**, nhưng nó không phải là một máy ảo. Điều này có nghĩa là các ứng dụng **WSL** không thể truy cập các tài nguyên vật lý của máy tính **Windows**, chẳng hạn như đĩa, bộ nhớ và mạng.
 
