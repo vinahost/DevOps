@@ -1,11 +1,11 @@
 # Kubernetes là gì ?
-Kubernetes là một nền tảng mã nguồn mở, được quản lý bởi cộng đồng, để tự động hóa việc triển khai, cân bằng tải và quản lý các ứng dụng được đóng gói trong các container. Kubernetes thường được gọi là bộ điều phối container, vì nó có nhiệm vụ tự động hóa các tác vụ thủ công liên quan đến việc triển khai và quản lý các ứng dụng container.
+**Kubernetes** là một nền tảng mã nguồn mở, được quản lý bởi cộng đồng, để tự động hóa việc triển khai, cân bằng tải và quản lý các ứng dụng được đóng gói trong các **container**. **Kubernetes** thường được gọi là bộ điều phối **container**, vì nó có nhiệm vụ tự động hóa các tác vụ thủ công liên quan đến việc triển khai và quản lý các ứng dụng **container**.
 
 ![img](../../Image/Kubernetes-Architecture.png)
 
-Kubernetes được sử dụng bởi một số công ty lớn, bao gồm Alibaba Cloud, Google, Amazon Web Services và Microsoft. Nó cũng được sử dụng bởi một số công ty khởi nghiệp và doanh nghiệp nhỏ.
+**Kubernetes** được sử dụng bởi một số công ty lớn, bao gồm **Alibaba Cloud**, **Google**, A**mazon Web Services** và **Microsoft**. Nó cũng được sử dụng bởi một số công ty khởi nghiệp và doanh nghiệp nhỏ.
 
-Kubernetes có thể được sử dụng để thực hiện một số nhiệm vụ DevOps, bao gồm:
+**Kubernetes** có thể được sử dụng để thực hiện một số nhiệm vụ **DevOps**, bao gồm:
 
 - **Triển khai ứng dụng**: Kubernetes có thể được sử dụng để triển khai các ứng dụng container hóa một cách nhanh chóng và dễ dàng. Điều này có thể giúp đảm bảo rằng các ứng dụng luôn được triển khai một cách nhất quán và đáng tin cậy.
 - **Quản lý ứng dụng**: Kubernetes có thể được sử dụng để quản lý các ứng dụng container hóa, bao gồm việc giám sát hiệu suất, theo dõi tài nguyên và cân bằng tải. Điều này có thể giúp đảm bảo rằng các ứng dụng luôn hoạt động tốt và đáp ứng nhu cầu của người dùng.
