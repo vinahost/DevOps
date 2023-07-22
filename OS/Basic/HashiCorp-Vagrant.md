@@ -59,7 +59,7 @@ Dòng tiếp theo, chúng ta nói rằng chúng ta muốn sử dụng một nhà
 v.customize ["modifyvm", :id, "--vram", ""]
 ```
 
-Tôi cũng đã đặt một bản sao của tệp vagrant cụ thể này trong [thư mục Linux](/Scripts/VAGRANTFILE)
+Tôi cũng đã đặt một bản sao của tệp vagrant cụ thể này trong [thư mục Scripts](/Scripts/VAGRANTFILE)
 
 ## Tạo Linux Desktop
 
@@ -84,7 +84,39 @@ Nếu bạn đã đi được đến đây và đang tự hỏi "TÊN NGƯỜI D
 - Username = vagrant
 - Password = vagrant
 
-Ngày mai chúng ta sẽ tìm hiểu về một số lệnh và tác dụng của chúng, **Terminal** sẽ là nơi để biến mọi thứ thành hiện thực.
+## Windows Subsystem for Linux (WSL) là gì ?
+
+**Windows Subsystem for Linux (WSL)** là một tính năng của **Windows** cho phép bạn chạy các ứng dụng **Linux** trên máy tính **Windows** của mình. **WSL** được thiết kế để chạy trên **Windows 10** và **Windows 11**.
+
+**WSL 2** là phiên bản mới nhất của **Windows Subsystem** for **Linux**, cho phép bạn chạy các ứng dụng **Linux** trên **Windows 10** và **Windows 11**. **WSL 2** được xây dựng dựa trên **Hyper-V**, cung cấp khả năng tương thích tốt hơn với các ứng dụng **Linux** và hiệu suất cao hơn. Có nhiều bản phân phối Linux khác nhau có sẵn cho WSL, bao gồm Ubuntu, Debian, và Fedora.
+
+Bạn có thể cài đặt **WSL** từ **Microsoft Store** hoặc bằng cách sử dụng lệnh *wsl --install* trong **Windows PowerShell** hoặc **Command Prompt**. Để cài đặt **WSL 2**, hãy làm theo các bước sau:
+
+- Mở Windows PowerShell với tư cách quản trị viên.
+
+- Chạy lệnh sau:
+
+    wsl --install
+
+- **Windows** sẽ cài đặt **WSL 2** và một bản phân phối **Linux** mới.
+
+- Sau khi cài đặt xong, bạn có thể mở bản phân phối **Linux** bằng cách chạy lệnh sau:
+
+    wsl -d <distribution name>
+
+**Ví dụ**: để mở bản phân phối **Ubuntu**, hãy chạy lệnh sau:
+
+    wsl -d Ubuntu
+
+Bạn cũng có thể mở bản phân phối **Linux** từ menu **Start**.
+
+Sau khi bạn đã khởi động bản phân phối **Linux**, bạn có thể bắt đầu sử dụng nó giống như bất kỳ bản phân phối **Linux** nào khác. Bạn có thể chạy các lệnh, cài đặt các gói và sử dụng các ứng dụng.
+
+Nếu bạn chỉ cần chạy các ứng dụng **Linux** từ **Windows**, thì **WSL** là một lựa chọn tuyệt vời. Tuy nhiên, nếu bạn cần một máy ảo linh hoạt hơn có thể truy cập các tài nguyên vật lý của máy tính **Windows**, thì **Vagrant** là một lựa chọn tốt hơn.
+
+Để tìm hiểu thêm về **WSL 2**, hãy truy cập trang web của **Microsoft**: https://docs.microsoft.com/en-us/windows/wsl/install-win10
+
+Trong bài tiếp theo chúng ta sẽ tìm hiểu về một số lệnh và tác dụng của chúng, **Terminal** sẽ là nơi để biến mọi thứ thành hiện thực.
 
 ## Tài liệu tham khảo
 
