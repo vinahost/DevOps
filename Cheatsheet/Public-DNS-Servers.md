@@ -2,19 +2,22 @@
 
 [Public DNS Server](/Image/public-dns-server.jpg)
 
-Dưới đây là danh sách các Public DNS Server có thể sử dụng tại Việt Nam:
+Dưới đây là danh sách các **Public DNS Server** có thể sử dụng tại **Việt Nam**:
 
 ### Danh sách DNS Server IPv4 quốc tế
 
-- Google Public DNS: 
+- Google Public DNS:
+
     Primary DNS: 8.8.8.8
     Secondary DNS: 8.8.4.4
 
-- Cloudflare Public DNS: 
+- Cloudflare Public DNS:
+
     Primary DNS: 1.1.1.1 
     Secondary DNS: 1.0.0.1
 
 - OpenDNS Public DNS: 
+    
     Primary DNS: 208.67.222.222 
     Secondary DNS: 208.67.220.220
 
@@ -23,18 +26,22 @@ Dưới đây là danh sách các Public DNS Server có thể sử dụng tại 
     Secondary DNS: 149.112.112.112
 
 - Verisign Public DNS: 
+   
     Primary DNS: 64.6.64.6 
     Secondary DNS: 64.6.65.6
 
 - Comodo Secure DNS: 
+    
     Primary DNS: 8.26.56.26
     Secondary DNS: 8.20.247.20
 
 - Level3 DNS: 
+    
     Primary DNS: 209.244.0.4
     Secondary DNS: 209.244.0.5
 
 - DynDNS: 
+    
     Primary DNS: 216.146.35.35
     Secondary DNS: 208.67.222.222
 
