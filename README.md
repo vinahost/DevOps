@@ -88,6 +88,7 @@
 - [✔️] ☸ > [Tổng quan về Rancher - Thực hành]
 - [✔️] ☸ > [Triển khai ứng dụng Kubernetes]
 - [✔️] ☸ > [State và Ingress trong Kubernetes]
+- [✔️] ☸ > [Hỏi đáp về Kubernetes - English](Containers-Orchestration/Kubernetes/75-Cau-k8s.md)
 
 ### Học cơ sở hạ tầng dưới dạng mã (Infrastructure as Code)
 
