@@ -22,58 +22,58 @@ Có sẵn nhiều công cụ quản lý cấu hình và mỗi công cụ đều 
 
 - **Chef**
 
-   - Chef đảm bảo cấu hình được áp dụng nhất quán trong mọi môi trường, ở mọi quy mô lớn với cơ sở hạ tầng tự động hóa.
-   - Chef là một công cụ mã nguồn mở được phát triển bởi OpsCode được viết bằng Ruby và Erlang.
-   - Chef phù hợp nhất cho các tổ chức có cơ sở hạ tầng không đồng nhất và đang tìm kiếm các giải pháp hoàn thiện.
-   - Recipes và Cookbooks xác định mã cấu hình cho hệ thống của bạn.
-   - Pro - Có sẵn một bộ sưu tập lớn các recipes
-   - Pro - Tích hợp tốt với Git, cung cấp khả năng kiểm soát phiên bản mạnh mẽ
-   - Con - Phải học rất nhiều và cần một lượng thời gian đáng kể để làm quen.
-   - Con - Máy chủ chính không có nhiều quyền kiểm soát.
-   - Kiến trúc - Server/Client
-   - Dễ dàng thiết lập - Trung bình
-   - Language - Procedural - Chỉ định cách thực hiện tác vụ
+     - Chef đảm bảo cấu hình được áp dụng nhất quán trong mọi môi trường, ở mọi quy mô lớn với cơ sở hạ tầng tự động hóa.
+     - Chef là một công cụ mã nguồn mở được phát triển bởi OpsCode được viết bằng Ruby và Erlang.
+     - Chef phù hợp nhất cho các tổ chức có cơ sở hạ tầng không đồng nhất và đang tìm kiếm các giải pháp hoàn thiện.
+     - Recipes và Cookbooks xác định mã cấu hình cho hệ thống của bạn.
+     - Pro - Có sẵn một bộ sưu tập lớn các recipes
+     - Pro - Tích hợp tốt với Git, cung cấp khả năng kiểm soát phiên bản mạnh mẽ
+     - Con - Phải học rất nhiều và cần một lượng thời gian đáng kể để làm quen.
+     - Con - Máy chủ chính không có nhiều quyền kiểm soát.
+     - Kiến trúc - Server/Client
+     - Dễ dàng thiết lập - Trung bình
+     - Language - Procedural - Chỉ định cách thực hiện tác vụ
 
 
 - **Puppet**
 
-   - Puppet là công cụ quản lý cấu hình hỗ trợ triển khai tự động.
-   - Puppet được xây dựng bằng Ruby và sử dụng DSL để viết bảng kê khai.
-   - Puppet cũng hoạt động tốt với cơ sở hạ tầng không đồng nhất, nơi tập trung vào khả năng mở rộng.
-   - Pro - Cộng đồng hỗ trợ lớn.
-   - Pro - Cơ chế báo cáo được viết rất tốt.
-   - Con - Các nhiệm vụ nâng cao yêu cầu kiến ​​thức về ngôn ngữ Ruby.
-   - Con - Máy chủ chính không có nhiều quyền kiểm soát.
-   - Kiến trúc - Server/Client
-   - Dễ thiết lập - Trung bình
-   - Language - Declarative - Chỉ định những việc cần làm
+     - Puppet là công cụ quản lý cấu hình hỗ trợ triển khai tự động.
+     - Puppet được xây dựng bằng Ruby và sử dụng DSL để viết bảng kê khai.
+     - Puppet cũng hoạt động tốt với cơ sở hạ tầng không đồng nhất, nơi tập trung vào khả năng mở rộng.
+     - Pro - Cộng đồng hỗ trợ lớn.
+     - Pro - Cơ chế báo cáo được viết rất tốt.
+     - Con - Các nhiệm vụ nâng cao yêu cầu kiến ​​thức về ngôn ngữ Ruby.
+     - Con - Máy chủ chính không có nhiều quyền kiểm soát.
+     - Kiến trúc - Server/Client
+     - Dễ thiết lập - Trung bình
+     - Language - Declarative - Chỉ định những việc cần làm
 
 - **Ansible**
 
-   - Ansible là một công cụ tự động hóa CNTT giúp tự động hóa việc quản lý cấu hình, triển khai trên đám mây, triển khai và điều phối.
-   - Cốt lõi của Ansible playbooks được viết bằng YAML (Nên làm một phần về YAML như chúng ta đã thấy điều này một vài lần)
-   - Ansible hoạt động tốt khi các môi trường tập trung vào việc khởi động và chạy mọi thứ một cách nhanh chóng.
-   - Hoạt động trên playbook cung cấp hướng dẫn cho máy chủ của bạn.
-   - Pro - Không agents trên trên các node từ xa.
-   - Pro - YAML rất dễ học.
-   - Con - Tốc độ thực hiện thường kém hơn các công cụ khác (Nhanh hơn Dũng tự làm thủ công)
-   - Con - YAML không mạnh bằng Ruby nhưng học nó dễ dàng hơn Ruby.
-   - Kiến trúc - client only
-   - Dễ thiết lập - Rất dễ
-   - Language - Procedural - Chỉ định cách thực hiện tác vụ
+     - Ansible là một công cụ tự động hóa CNTT giúp tự động hóa việc quản lý cấu hình, triển khai trên đám mây, triển khai và điều phối.
+     - Cốt lõi của Ansible playbooks được viết bằng YAML (Nên làm một phần về YAML như chúng ta đã thấy điều này một vài lần)
+     - Ansible hoạt động tốt khi các môi trường tập trung vào việc khởi động và chạy mọi thứ một cách nhanh chóng.
+     - Hoạt động trên playbook cung cấp hướng dẫn cho máy chủ của bạn.
+     - Pro - Không agents trên trên các node từ xa.
+     - Pro - YAML rất dễ học.
+     - Con - Tốc độ thực hiện thường kém hơn các công cụ khác (Nhanh hơn Dũng tự làm thủ công)
+     - Con - YAML không mạnh bằng Ruby nhưng học nó dễ dàng hơn Ruby.
+     - Kiến trúc - client only
+     - Dễ thiết lập - Rất dễ
+     - Language - Procedural - Chỉ định cách thực hiện tác vụ
 
 - **SaltStack**
 
-   - SaltStack là một công cụ dựa trên CLI giúp tự động hóa việc quản lý cấu hình và thực thi từ xa.
-   - SaltStack dựa trên Python trong khi các hướng dẫn được viết bằng YAML hoặc DSL của nó.
-   - Hoàn hảo cho các môi trường ưu tiên khả năng mở rộng và khả năng phục hồi.
-   - Pro - Dễ sử dụng khi thiết lập và chạy
-   - Pro - Cơ chế báo cáo tốt
-   - Con - Giai đoạn thiết lập khó khăn
-   - Con - Giao diện người dùng web mới kém phát triển hơn nhiều so với các giao diện người dùng khác.
-   - Kiến trúc - Server/Client
-   - Dễ thiết lập - Trung bình
-   - Language - Declarative - Chỉ định những việc cần làm
+     - SaltStack là một công cụ dựa trên CLI giúp tự động hóa việc quản lý cấu hình và thực thi từ xa.
+     - SaltStack dựa trên Python trong khi các hướng dẫn được viết bằng YAML hoặc DSL của nó.
+     - Hoàn hảo cho các môi trường ưu tiên khả năng mở rộng và khả năng phục hồi.
+     - Pro - Dễ sử dụng khi thiết lập và chạy
+     - Pro - Cơ chế báo cáo tốt
+     - Con - Giai đoạn thiết lập khó khăn
+     - Con - Giao diện người dùng web mới kém phát triển hơn nhiều so với các giao diện người dùng khác.
+     - Kiến trúc - Server/Client
+     - Dễ thiết lập - Trung bình
+     - Language - Declarative - Chỉ định những việc cần làm
 
 ### Ansible vs Terraform
 
