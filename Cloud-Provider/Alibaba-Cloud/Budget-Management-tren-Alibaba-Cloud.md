@@ -31,3 +31,7 @@ Sau khi hoàn tất, nhấn **Save** để tạo ra **Alert**.
 *Author*: **Vo Thi Phuong Anh**
 
 *Solution Architect* - **Alibaba Cloud Intelligence**
+
+**Tham khảo**
+
+- https://www.alibabacloud.com/blog/set-billing-alert-on-alibaba-cloud_600156
