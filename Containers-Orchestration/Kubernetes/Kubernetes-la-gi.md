@@ -21,4 +21,5 @@ Dưới đây là một số lợi ích của việc sử dụng Kubernetes:
 Nếu bạn đang tìm kiếm một hệ thống để quản lý các ứng dụng container hóa, Kubernetes là một công cụ đáng để xem xét.
 
 **Tham khảo**
-- https://kubernetes.io/vi/
+- [Trang chủ Kubernetes](https://kubernetes.io/vi/)
+- [Kubernetes CheatSheet](KUBERNETES-Cheat-Sheet.pdf)
