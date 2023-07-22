@@ -139,6 +139,6 @@
 - [✔️] 🗃️ > [Disaster Recovery]
 - [✔️] 🗃️ > [Data & Application Mobility]
 
-### [Cheatsheet](https://github.com/vinahostvn/devops/blob/main/Cheatsheet/DevOps-Cheatsheet.md)
+### [Cheatsheet](/Cheatsheet/DevOps-Cheatsheet.md)
 
 [✔️] [Linux] - [✔️] [Python] - [✔️] [Docker] - [✔️] [Kubernetes] - [✔️] [Git] - [✔️] [Terraform] - [✔️] [Ansible] - [✔️] [CI/CD] - [✔️] [Jenkins] - [✔️] [GitHub] - [✔️] [ArgoCD] - [✔️] [Nginx]

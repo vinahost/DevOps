@@ -1,5 +1,5 @@
 # Bộ sưu tập các Cheatsheets dành cho DevOps
-![img](../Overview/periodic-table-devops.png)
+![Bảng tuần hoàn DevOps](../Overview/periodic-table-devops.png)
 ###  Cheatsheets cho các ngôn ngữ lập trình thông dụng, framework và công cụ phát triển phổ biến. Chúng bao gồm mọi thứ bạn nên biết trong một tệp duy nhất.
 - https://github.com/LeCoupa/awesome-cheatsheets hoặc https://lecoupa.github.io/awesome-cheatsheets/
 
@@ -27,9 +27,10 @@
 
 ### Kubernetes CheatSheet
 - https://github.com/dennyzhang/cheatsheet-kubernetes-A4
+- [Kubernetes CheatSheet](KUBERNETES-Cheat-Sheet.pdf)
 
 ### Git CheatSheet
 - https://github.com/arslanbilal/git-cheat-sheet
 
 ### DevOps RoadMap
-![img](../Overview/DevOps-Roadmap.png)
+![DevOps RoadMap](../Overview/DevOps-Roadmap.png)
