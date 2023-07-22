@@ -139,7 +139,7 @@
 - [✔️] 🗃️ > [Disaster Recovery]
 - [✔️] 🗃️ > [Data & Application Mobility]
 
-### [Cheatsheet]
+### Cheatsheet
 
 [Bộ sưu tập các Cheatsheets dành cho DevOps](Cheatsheet/DevOps-Cheatsheet.md)
 
