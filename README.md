@@ -23,7 +23,7 @@
 
 - [✔️] 🐧 > [Overview: DevOps & Linux](OS/Basic/DevOps-va-Linux.md)
 - [✔️] 🐧 > [Các lệnh Linux cho DevOps](OS/Basic/Linux-Basics.md)
-- [✔️] 🐧 > [Quản lý Hệ thống Linux, Hệ thống Flie & Lưu trữ]
+- [✔️] 🐧 > [Quản lý Hệ thống Linux, Hệ thống Flie & Lưu trữ](OS/Basic/File-System-Linux.md)
 - [✔️] 🐧 > [Text Editors - nano vs vim](OS/Basic/Linux-Nano-Vim.md)
 - [✔️] 🐧 > [SSH & Máy chủ Web (LAMP)]
 - [✔️] 🐧 > [Tự động hóa các tác vụ với các tập lệnh bash]
