@@ -2,7 +2,7 @@
 
 ![img](Overview/devops.jpeg)
 
-### Tổng Quan - DevOps là gì
+### Giới thiệu DevOps
 
 - [✔️] ♾️ > [DevOps là gì](Overview/DevOps-la-gi.md)
 - [✔️] ♾️ > [Roadmap để trở thành DevOps](Overview/DevOps-Roadmap.md)
@@ -40,7 +40,7 @@
 - [✔️] 🌐 > [Building our Lab]
 - [✔️] 🌐 > [Getting Hands-On with Python & Network]
 
-### Tìm hiểu về Alibaba Cloud
+### Tìm hiểu về điện toán đám mây
 
 - [✔️] ☁️ > [Overview: DevOps & The Cloud](Cloud-Provider/Overview-DevOps-The-Cloud.md)
 - [✔️] ☁️ > [Kiến thức cơ bản về Alibaba Cloud](Cloud-Provider/Alibaba-Cloud/Alibaba-Cloud-la-gi.md)
@@ -143,7 +143,7 @@
 - [✔️] 🗃️ > [Disaster Recovery]
 - [✔️] 🗃️ > [Data & Application Mobility]
 
-### Cheatsheet
+### Misc
 
 - [Bộ sưu tập các Cheatsheets dành cho DevOps](Cheatsheet/DevOps-Cheatsheet.md)
 - [Danh sách các Public DNS ở tại Việt Nam và Thế Giới](Cheatsheet/Public-DNS-Servers.md)
