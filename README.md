@@ -15,6 +15,7 @@
 - [✔️] ⌨️ > [Overview: DevOps & Học một ngôn ngữ lập trình](Programming-Langguage/Ngon-Ngu-Lap-Trinh-DevOps.md)
 - [✔️] ⌨️ > [Thiết lập môi trường DevOps cho Python](Programming-Langguage/Python/Bat-Dau-Voi-Python.md)
 - [✔️] ⌨️ > [Introduction to Python](Programming-Langguage/Python/Introduction-to-Python.md)
+- [✔️] ⌨️ > [Python Loops, functions, modules and libraries](Programming-Langguage/Python/Python-4-Concepts.md)
 - [✔️] ⌨️ > [Không gian làm việc của Python]
 - [✔️] ⌨️ > [Biến, hằng số & kiểu dữ liệu]
 - [✔️] ⌨️ > [Nhận thông tin đầu vào sử dụng con trỏ và chương trình hoàn thiện]
