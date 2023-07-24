@@ -7,7 +7,7 @@
 
 ## Data Structures:
 
-Python includes a number of data structures for storing and organizing data. The following are some of the most common ones:
+**Python** includes a number of data structures for storing and organizing data. The following are some of the most common ones:
 
 ### Lists:
 
