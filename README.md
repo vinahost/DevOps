@@ -93,7 +93,7 @@
 - [✔️] ☸ > [State và Ingress trong Kubernetes]
 - [✔️] ☸ > [Hỏi đáp về Kubernetes - English](Containers-Orchestration/Kubernetes/75-Cau-k8s.md)
 
-### Học cơ sở hạ tầng dưới dạng mã (Infrastructure as Code)
+### Cơ sở hạ tầng dưới dạng mã (Infrastructure as Code)
 
 - [✔️] 🤖 > [Overview: Cơ sở hạ tầng dưới dạng mã (IaC)](IaC/Infrastructure-as-Code-IaC.md)
 - [✔️] 🤖 > [Giới thiệu về Terraform](IaC/Terraform-la-gi.md)
@@ -113,7 +113,7 @@
 - [✔️] 📜 > [Tags, Variables, Inventory & Database Server config]
 - [✔️] 📜 > [Tất cả những thứ còn lại của Ansible - Automation Controller, AWX, Vault]
 
-### Tạo CI/CD Pipelines
+### CI/CD Pipelines
 
 - [✔️] 🔄 > [Overview: CI/CD Pipelines](CI-CD/Overview-CI-CD-Pipelines.md)
 - [✔️] 🔄 > [Jenkins là gì?](CI-CD/Jenkins-la-gi.md)
@@ -133,7 +133,7 @@
 - [✔️] 📈 > [EFK Stack]
 - [✔️] 📈 > [Data Visualisation - Grafana]
 
-### Lưu trữ & Bảo vệ Dữ liệu
+### Lưu trữ & Bảo vệ dữ liệu
 
 - [✔️] 🗃️ > [Overview: Data Management]
 - [✔️] 🗃️ > [Data Services]
