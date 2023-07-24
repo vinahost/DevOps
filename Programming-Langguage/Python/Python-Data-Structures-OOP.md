@@ -131,7 +131,23 @@ person.speak()   # "Hello, my name is Rishab and I am from Canada."
 student.speak()  # "Hello, my name is John and I am a Computer Science major."
 ```
 
-## Conclusion
+## Summary:
+
+**Data Structures** and **OOP** are often used together in **Python** programming. For example, you might use a list to store a collection of objects, or you might use a dictionary to store a mapping between keys and values.
+
+Here are some of the most common data structures in **Python**:
+
+- **Lists** are a sequence of elements that can be accessed by their index. Lists are mutable, which means that they can be changed after they have been created.
+- **Tuples** are similar to lists, but they are immutable, which means that they cannot be changed after they have been created.
+- **Dictionaries** are a mapping between keys and values. Keys are unique, and values can be any type of object.
+- **Sets** are a collection of unique elements. Sets are unordered, and they cannot contain duplicate elements.
+
+Here are some of the most important concepts in **OOP**:
+
+- **Classes** are the blueprint for creating objects. Classes define the data and behavior of objects.
+- **Objects** are instances of classes. Objects have the data and behavior defined by their class.
+- **Inheritance** is the ability of one class to inherit the data and behavior of another class.
+- **Polymorphism** is the ability of objects to behave differently depending on their type.
 
 ## Resources:
 
