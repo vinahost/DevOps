@@ -6,4 +6,4 @@ Bài viết này hiện đang được cập nhật. Vui lòng kiểm tra lại 
 
 ### Trang chủ
 
-Quay về lại [trang chủ](README.md)
+Quay về lại [**Trang Chủ**](/README.md)
