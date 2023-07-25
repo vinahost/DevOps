@@ -6,7 +6,7 @@ Using **Python** for infrastructure management involves automating the managemen
 
 - **Fabric** is a command-line tool that allows you to run commands on remote machines. It is a powerful tool that can be used to automate a wide range of tasks.
 - **PyWinRM**  is a **Python** library that allows you to interact with Windows machines using the **Remote Management (RMM)** protocol. It is a good choice for automating tasks on **Windows** machines.
-- **Pulumi** is a *Cloud Infrastructure as Code *(**CIaC**) tool that allows you to create, manage, and update infrastructure using code. It is a good choice for automating tasks in the cloud
+- **Pulumi** is a *Cloud Infrastructure as Code* (**CIaC**) tool that allows you to create, manage, and update infrastructure using code. It is a good choice for automating tasks in the cloud
 
 ## Fabric
 
