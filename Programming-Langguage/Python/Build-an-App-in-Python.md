@@ -1,5 +1,7 @@
 # Build an App in Python
 
+In the previous lessons, we learned about **Python** Loops, functions, modules and libraries, Data Structures and OOP, Debugging, Testing and Regular expression, and web application in **Python**. In the next lesson, we will implement a **Python** application.
+
 Let's create a simple blog app with the help of [Flask](https://flask.palletsprojects.com/en/2.3.x/) that supports posts in [markdown.](https://www.markdownguide.org/basic-syntax/)
 
 ## Initiating virtual env and installing packages
