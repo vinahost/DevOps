@@ -152,4 +152,4 @@ try:
 
 ## Resources:
 
-- https://github.com/MichaelCade/90DaysOfDevOps/blob/main/2023/day43.md
+- [7 Days of Python](https://7daysofpython.com/)
