@@ -7,6 +7,7 @@ Let's create a simple blog app with the help of [Flask](https://flask.palletspro
 ## Initiating virtual env and installing packages
 
 Let's create a directory for our blog project. After you have created your project directory, create virtual environment using the following commands:
+
 - **Windows**
   ``` bash
   c:\>python -m venv c:\path\to\myenv
@@ -17,6 +18,7 @@ Let's create a directory for our blog project. After you have created your proje
   ```
 
 - Activate the virtual environment:
+
     *Windows cmd*
   ``` bash
   C:\> <venv>\Scripts\activate.bat
@@ -160,6 +162,6 @@ If we click on the `hello` blog post:
 
 We have concluded the series of **Python** tutorials. The series is intended for beginners who are interested in learning **Python** for **Cloud Computing** or **DevOps**. However, I want to emphasize that you cannot become a **Python** expert in just a few days. It is a starting point to understand the basics of the language and some related concepts. **Python** is a large and ever-evolving language, so becoming an expert takes time and practice. I hope that with the knowledge you have learned above, you can easily conquer **Python**.
 
-## Resources:
+## Resources
 
 - [7 Days of Python](https://7daysofpython.com/)
