@@ -5,7 +5,7 @@
 
 **Vòng đời DevOps** là một quá trình liên tục của việc phát triển, thử nghiệm, triển khai và vận hành các ứng dụng. Vòng đời DevOps được thiết kế để hợp lý hóa và tự động hóa các quy trình phát triển phần mềm, nhằm cải thiện tốc độ, chất lượng và độ tin cậy của các ứng dụng.
 
-### Vòng đời DevOps bao gồm các giai đoạn sau:
+## Vòng đời DevOps bao gồm các giai đoạn sau:
 
 - **Tính liên tục tích hợp (CI)**: CI là quá trình tự động hóa việc tích hợp mã của các nhà phát triển vào một cơ sở mã chung. CI giúp phát hiện lỗi sớm và cải thiện chất lượng của mã.
 - **Tính liên tục cung cấp (CD)**: CD là quá trình tự động hóa việc triển khai các ứng dụng đã được kiểm tra và tích hợp thành môi trường sản xuất. CD giúp cải thiện tốc độ và độ tin cậy của các ứng dụng.
@@ -78,7 +78,7 @@ Một vài ý kiến đóng góp từ cộng đồng và cụ thể là [@\_edir
 
 Đây cũng là thời điểm thích hợp để nói về "**Kỹ sư DevOps**" được nhắc tới ở trên. Mặc dù có rất nhiều người đang nắm giữ vị trí Kỹ sư DevOps nhưng đó không phải là vị trí duy nhất để áp dụng quy trình DevOps. Quan điểm của tôi khi nói với những người trong cộng đồng là, danh hiệu "kỹ sư DevOps" không nên là mục tiêu cho bất kỳ ai vì bất cứ vị trí nào cũng nên áp dụng các quy trình, văn hoá DevOps được nhắc tới ở đây. DevOps nên được sử dụng ở các vị trí khác ví dụ như kỹ sư/kiến trúc sư Cloud, kỹ sư quản lý ảo hoá, kỹ sư quản lý cơ sở hạ tầng,... Việc sử dụng vị trí "kỹ sư DevOps" ở trên chỉ để làm nổi bật phạm vi mà quy trình được sử dụng bởi bất kỳ vị trí nào ở trên và các vị trí khác.
 
-#### Vòng đời DevOps mang lại một số lợi ích cho các tổ chức, bao gồm:
+## Vòng đời DevOps mang lại một số lợi ích cho các tổ chức, bao gồm:
 
 - **Tốc độ phát triển nhanh hơn**: Vòng đời DevOps giúp các tổ chức phát triển và triển khai các ứng dụng nhanh hơn.
 - **Chất lượng cao hơn**: Vòng đời DevOps giúp các tổ chức cải thiện chất lượng của các ứng dụng bằng cách phát hiện lỗi sớm và tự động hóa việc kiểm tra và tích hợp.
