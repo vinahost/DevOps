@@ -126,10 +126,8 @@ Here are some resources that you may find helpful:
 - **Debugging in Python**: https://docs.python.org/3/library/pdb.html
 - **Testing in Python**: https://docs.python.org/3/library/unittest.html
 - **Regular Expressions in Python**: https://docs.python.org/3/library/re.html
+- **datetime - Basic date and time types**: https://docs.python.org/3/library/datetime.html
 
 ## Resources
 
-- [pdb - The Python Debugger](https://docs.python.org/3/library/pdb.html)
-- [re - Regular expressions operations](https://docs.python.org/3/library/re.html)
-- [datetime - Basic date and time types](https://docs.python.org/3/library/datetime.html)
 - [7 Days of Python](https://7daysofpython.com/days/day4/)
