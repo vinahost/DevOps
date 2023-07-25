@@ -21,16 +21,16 @@
 
 ### Lợi ích khi sử dụng Alibaba Cloud
 
-Alibaba Cloud cung cấp một loạt các lợi ích cho doanh nghiệp và cá nhân, bao gồm:
+**Alibaba Cloud** cung cấp một loạt các lợi ích cho doanh nghiệp và cá nhân, bao gồm:
 
 - **Linh hoạt**: Alibaba Cloud cung cấp một loạt các dịch vụ có thể được tùy chỉnh để đáp ứng nhu cầu cụ thể của doanh nghiệp hoặc cá nhân.
 - **Tiết kiệm chi phí**: Alibaba Cloud cung cấp một loạt các dịch vụ có thể giúp doanh nghiệp tiết kiệm chi phí.
 - **An toàn**: Alibaba Cloud cung cấp một loạt các tính năng bảo mật để giúp bảo vệ dữ liệu của doanh nghiệp hoặc cá nhân.
 - **Dễ sử dụng**: Alibaba Cloud cung cấp một loạt các tài nguyên và hướng dẫn để giúp doanh nghiệp và cá nhân dễ dàng sử dụng nền tảng này.
 
-Nếu bạn đang tìm kiếm một nền tảng điện toán đám mây linh hoạt, tiết kiệm chi phí, an toàn và dễ sử dụng, thì Alibaba Cloud là một lựa chọn tuyệt vời.
+Nếu bạn đang tìm kiếm một nền tảng điện toán đám mây linh hoạt, tiết kiệm chi phí, an toàn và dễ sử dụng, thì **Alibaba Cloud** là một lựa chọn tuyệt vời.
 
 ### Tham khảo
 
-- https://www.alibabacloud.com/
-- https://vinahost.vn/alibaba-cloud-partner/
+- [Trang Chủ Alibaba Cloud](https://www.alibabacloud.com)
+- [Alibaba Cloud Partner](https://vinahost.vn/alibaba-cloud-partner)
