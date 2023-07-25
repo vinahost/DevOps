@@ -19,7 +19,7 @@
 - [✔️] ⌨️ > [Python Data Structures and OOP](Programming-Langguage/Python/Python-Data-Structures-OOP.md)
 - [✔️] ⌨️ > [Python: Debugging, Testing and Regular expression](Programming-Langguage/Python/Python-Debugging-Testing-Regular.md)
 - [✔️] ⌨️ > [Web development in Python](Programming-Langguage/Python/Web-development-in-Python.md)
-- [✔️] ⌨️ > [Nhận thông tin đầu vào sử dụng con trỏ và chương trình hoàn thiện]
+- [✔️] ⌨️ > [Automation with Python]((Programming-Langguage/Python/Automation-with-Python.md))
 - [✔️] ⌨️ > [Tweet tiến trình của bạn với ứng dụng mới của chúng ta]
 
 ### Kiến thức cơ bản về Linux
