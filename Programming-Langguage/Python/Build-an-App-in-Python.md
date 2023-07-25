@@ -17,17 +17,17 @@ Let's create a directory for our blog project. After you have created your proje
   ```
 
 - Activate the virtual environment:
-  - - Windows cmd
+    *Windows cmd*
   ``` bash
   C:\> <venv>\Scripts\activate.bat
   ```
 
-  - - Windows powershell
+    *Windows powershell*
   ``` powershell
   <venv>\Scripts\Activate.ps1
   ```
 
-  - - Linux//MacOs
+    *Linux/MacOs*
   ``` bash
   source <venv>/bin/activate
   ```
