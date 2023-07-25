@@ -73,4 +73,5 @@ The print argument is a string, which is one of **Python's** basic data types fo
 - [Learn Python - Full course by freeCodeCamp](https://youtu.be/rfscVS0vtbw)
 - [Python tutorial for beginners by Nana](https://youtu.be/t8pPdKYpowI)
 - [Python Crash Course book](https://amzn.to/40NfY45)
+- [7 Days of Python](https://7daysofpython.com/)
 - https://github.com/MichaelCade/90DaysOfDevOps/blob/main/2023/day42.md

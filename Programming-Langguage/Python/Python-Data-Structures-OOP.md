@@ -152,3 +152,4 @@ Here are some of the most important concepts in **OOP**:
 ## Resources:
 
 - https://github.com/MichaelCade/90DaysOfDevOps/blob/main/2023/day44.md
+- https://7daysofpython.com/days/day3/

@@ -47,5 +47,13 @@ Hướng dẫn DevOps - Development đến Production tất cả các cấu hìn
 ### Git CheatSheet
 - https://github.com/arslanbilal/git-cheat-sheet
 
+### Learn to Cloud
+- https://github.com/learntocloud/learn-to-cloud
+- https://github.com/rishabkumar7/the-devops-guide
+- https://github.com/rishabkumar7/7DaysOfPython
+- https://github.com/rishabkumar7/CloudNotes
+- https://github.com/rishabkumar7/cloud-cheat-sheets
+- https://github.com/rishabkumar7/LearningKubernetes
+
 ### DevOps RoadMap
 ![DevOps RoadMap](../Overview/DevOps-Roadmap.png)
