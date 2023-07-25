@@ -20,7 +20,7 @@
 - [✔️] ⌨️ > [Python: Debugging, Testing and Regular expression](Programming-Langguage/Python/Python-Debugging-Testing-Regular.md)
 - [✔️] ⌨️ > [Web development in Python](Programming-Langguage/Python/Web-development-in-Python.md)
 - [✔️] ⌨️ > [Automation with Python](Programming-Langguage/Python/Automation-with-Python.md)
-- [✔️] ⌨️ > [Tweet tiến trình của bạn với ứng dụng mới của chúng ta]
+- [✔️] ⌨️ > [Build an App in Python](Programming-Langguage/Python/Build-an-App-in-Python.md)
 
 ### Kiến thức cơ bản về Linux
 
