@@ -5,7 +5,9 @@ Using **Python** for infrastructure management involves automating the managemen
 **Python** is a popular language for infrastructure management, and there are several tools and libraries available to help with this. Some popular tools for infrastructure management that use **Python** include:
 
 - **Fabric** is a command-line tool that allows you to run commands on remote machines. It is a powerful tool that can be used to automate a wide range of tasks.
+
 - **PyWinRM**  is a **Python** library that allows you to interact with Windows machines using the **Remote Management (RMM)** protocol. It is a good choice for automating tasks on **Windows** machines.
+
 - **Pulumi** is a *Cloud Infrastructure as Code* (**CIaC**) tool that allows you to create, manage, and update infrastructure using code. It is a good choice for automating tasks in the cloud
 
 ## Fabric

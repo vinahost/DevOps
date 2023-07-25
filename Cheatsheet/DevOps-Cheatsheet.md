@@ -41,13 +41,16 @@ Hướng dẫn DevOps - Development đến Production tất cả các cấu hìn
 - https://quickref.me/python.html
 
 ### Kubernetes CheatSheet
+
 - https://github.com/dennyzhang/cheatsheet-kubernetes-A4
 - [Kubernetes CheatSheet](KUBERNETES-Cheat-Sheet.pdf)
 
 ### Git CheatSheet
+
 - https://github.com/arslanbilal/git-cheat-sheet
 
 ### Learn to Cloud
+
 - https://github.com/learntocloud/learn-to-cloud
 - https://github.com/rishabkumar7/the-devops-guide
 - https://github.com/rishabkumar7/7DaysOfPython
@@ -56,4 +59,5 @@ Hướng dẫn DevOps - Development đến Production tất cả các cấu hìn
 - https://github.com/rishabkumar7/LearningKubernetes
 
 ### DevOps RoadMap
+
 ![DevOps RoadMap](../Overview/DevOps-Roadmap.png)

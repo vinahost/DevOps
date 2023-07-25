@@ -3,8 +3,11 @@
 **Debugging**, **testing**, and **regular expressions** are all important aspects of programming in **Python**.
 
 - **Debugging** is the process of ensuring that code is working properly. It is also an essential part of software development, as it helps to ensure that the code is meeting the requirements of the project. There are a number of different testing techniques that can be used, such as unit testing, integration testing, and system testing.
+
 - **Testing** is the process of ensuring that code is working properly. It is also an essential part of software development, as it helps to ensure that the code is meeting the requirements of the project. There are a number of different testing techniques that can be used, such as unit testing, integration testing, and system testing.
+
 - **Regular expressions** is a built-in Python library that provides a number of functions for working with dates and times. The datetime library can be used to represent dates, times, and time intervals. It can also be used to perform calculations with dates and times, such as finding the difference between two dates or converting between different date and time formats.
+
 - **Datetime library** is a built-in **Python** library that provides a number of functions for working with dates and times. The datetime library can be used to represent dates, times, and time intervals. It can also be used to perform calculations with dates and times, such as finding the difference between two dates or converting between different date and time formats.
 
 ## Debugging and testing
@@ -120,7 +123,7 @@ Output:
 15 days, 23:33:27.257712
 ```
 
-### Reference
+### Sumary
 
 Here are some examples of how to use these tools in **Python**:
 

@@ -3,9 +3,13 @@
 **Python**: *Loops*, *functions*, *modules* and *libraries* are all important concepts in **Python** programming.
 
 - **Loops** are used to repeat a block of code a certain number of times or until a certain condition is met. There are two types of loops in Python: for loops and while loops.
+
 - **Functions** are reusable blocks of code that can be called from anywhere in a program. Functions can take in arguments and return values.
+
 - **Modules** are files that contain Python code. Modules can be imported into other programs to use their functions and variables.
+
 - **Libraries** are collections of modules that are designed to perform specific tasks. There are many popular Python libraries, such as the math library, the random library, and the datetime library.
+
 - **File I/O** in Python refers to the reading and writing of data to and from files. Files are containers that store data on a computer's hard drive or other storage device. They can be used to store a variety of data, such as text, images, and audio files.
 
 ## Loops (for/while):
