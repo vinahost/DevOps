@@ -1,8 +1,8 @@
 # Automation with Python
 
-Using **Python** for infrastructure management involves automating the management of IT infrastructure, such as servers, databases, and networking equipment. This can include tasks like provisioning, configuration, and orchestration.
+Using **Python** for infrastructure management involves automating the management of **IT Infrastructure**, such as *servers*, *databases*, and *networking* equipment. This can include tasks like provisioning, configuration, and orchestration.
 
-**Python** is a popular language for infrastructure management, and there are several tools and libraries available to help with this. Some popular tools for infrastructure management that use Python include:
+**Python** is a popular language for infrastructure management, and there are several tools and libraries available to help with this. Some popular tools for infrastructure management that use **Python** include:
 
 - Fabric
 - PyWinRM
@@ -10,9 +10,9 @@ Using **Python** for infrastructure management involves automating the managemen
 
 ## Fabric
 
-**Fabric** is a **Python** library that can be used for streamlining SSH commands and remote execution of scripts, which can be used to automate server configuration and deployment.
+**Fabric** is a **Python** library that can be used for streamlining **SSH** commands and remote execution of scripts, which can be used to automate server configuration and deployment.
 
-Here is an example in which we will be using the Fabric library to connect to a remote server using SSH, and then run the `ls -l` command on the remote server. The output of the command will be printed to the console.
+Here is an example in which we will be using the **Fabric** library to connect to a remote server using **SSH**, and then run the `ls -l` command on the remote server. The output of the command will be printed to the **console**.
 
 ``` python
 from fabric import Connection
@@ -30,11 +30,11 @@ print(result.stdout)
 
 ## PyWinRM
 
- A **Python** library that can be used to automate **Windows Remote Management** tasks, which can be used to automate Windows server configuration and management.
+ A **Python** library that can be used to automate **Windows Remote Management** tasks, which can be used to automate **Windows Server** configuration and management.
 
 ## Pulumi
 
-**Pulumi** is a cloud infrastructure as code (**CIaC**) tool that lets you define and manage cloud resources in a variety of programming languages, including Python.
+**Pulumi** is a *Cloud Infrastructure as Code* (**CIaC**) tool that lets you define and manage cloud resources in a variety of programming languages, including **Python**.
 
 You can use Pulumi to write **Python** code to describe your infrastructure as code, and then use the **Pulumi** **CLI** to deploy and manage it. Here is an example:
 
