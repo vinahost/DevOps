@@ -9,7 +9,7 @@ Let's create a directory for our blog project. After you have created your proje
   ``` bash
   c:\>python -m venv c:\path\to\myenv
   ```
-- **Linux//MacOs**
+- **Linux/MacOs**
   ``` bash
   python3 -m venv /path/to/new/virtual/environment
   ```
@@ -20,7 +20,7 @@ Let's create a directory for our blog project. After you have created your proje
   C:\> <venv>\Scripts\activate.bat
   ```
 
-  - Windows powershell
+  - - Windows powershell
   ``` powershell
   <venv>\Scripts\Activate.ps1
   ```
@@ -153,6 +153,10 @@ Here is how it would look, I have 2 blog posts and have some gifs in my blog pos
 If we click on the `hello` blog post:
 
 ![Hello blog post](/Image/App-in-Python02.png)
+
+## Sumary
+
+We have concluded the series of **Python** tutorials. The series is intended for beginners who are interested in learning **Python** for **Cloud Computing** or **DevOps**. However, I want to emphasize that you cannot become a **Python** expert in just a few days. It is a starting point to understand the basics of the language and some related concepts. **Python** is a large and ever-evolving language, so becoming an expert takes time and practice. I hope that with the knowledge you have learned above, you can easily conquer **Python**.
 
 ## Resources:
 
