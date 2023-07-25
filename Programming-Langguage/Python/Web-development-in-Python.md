@@ -44,7 +44,7 @@ This code creates a **SQLite** database and a User table using **SQLAlchemy**. T
 
 Having a good understanding of how these web apps work, will help you with automation and deployment when it comes to practicing **DevOps**.
 
-### Serverless Technologies
+## Serverless Technologies
 
 You can dive deeper into how you can build **APIs** using **Python** and serverless technologies like:
 
