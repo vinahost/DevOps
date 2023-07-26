@@ -4,17 +4,17 @@
 
 ![img](/Image/Differences-Devops-Agile.jpg)
 
-**DevOps** và **Agile** là hai cách tiếp cận khác nhau để phát triển và vận hành phần mềm. Cả hai đều tập trung vào việc tăng tốc thời gian đưa sản phẩm ra thị trường, cải thiện chất lượng và giảm chi phí. Tuy nhiên, có một số điểm khác biệt chính giữa DevOps và Agile.
+**DevOps** và **Agile** là hai cách tiếp cận khác nhau để phát triển và vận hành phần mềm. Cả hai đều tập trung vào việc tăng tốc thời gian đưa sản phẩm ra thị trường, cải thiện chất lượng và giảm chi phí. Tuy nhiên, có một số điểm khác biệt chính giữa **DevOps** và **Agile**.
 
-DevOps là một cách tiếp cận tổng thể tập trung vào việc hợp nhất các nhóm phát triển và vận hành. Điều này bao gồm việc sử dụng các công cụ và quy trình chung, cũng như việc giao tiếp và hợp tác chặt chẽ hơn. Agile là một cách tiếp cận lặp đi lặp lại tập trung vào việc phân chia các dự án lớn thành các phần nhỏ hơn, dễ quản lý hơn. Mỗi phần được phát triển và triển khai một cách độc lập, sau đó được tích hợp lại với nhau để tạo thành sản phẩm cuối cùng.
+**DevOps** là một cách tiếp cận tổng thể tập trung vào việc hợp nhất các nhóm phát triển và vận hành. Điều này bao gồm việc sử dụng các công cụ và quy trình chung, cũng như việc giao tiếp và hợp tác chặt chẽ hơn. **Agile** là một cách tiếp cận lặp đi lặp lại tập trung vào việc phân chia các dự án lớn thành các phần nhỏ hơn, dễ quản lý hơn. Mỗi phần được phát triển và triển khai một cách độc lập, sau đó được tích hợp lại với nhau để tạo thành sản phẩm cuối cùng.
 
-DevOps và Agile có thể được sử dụng cùng nhau để tạo ra một cách tiếp cận hiệu quả hơn để phát triển và vận hành phần mềm. Bằng cách kết hợp sự linh hoạt và khả năng thích ứng của Agile với sự hợp nhất và tự động hóa của DevOps, các tổ chức có thể tạo ra các sản phẩm chất lượng cao hơn, nhanh hơn và với chi phí thấp hơn.
+**DevOps** và **Agile** có thể được sử dụng cùng nhau để tạo ra một cách tiếp cận hiệu quả hơn để phát triển và vận hành phần mềm. Bằng cách kết hợp sự linh hoạt và khả năng thích ứng của Agile với sự hợp nhất và tự động hóa của **DevOps**, các tổ chức có thể tạo ra các sản phẩm chất lượng cao hơn, nhanh hơn và với chi phí thấp hơn.
 
 Bạn có biết sự khác biệt của **DevOps** và **Agile**? Chúng được hình thành như những khái niệm độc lập. Nhưng bây giờ hai thuật ngữ đang dần được hợp nhất.
 
-Trong bài viết này, chúng ta sẽ xem xét sự khác biệt quan trọng giữa Agile và DevOps và tìm hiểu lý do tại sao hai thứ được kết nối chặt chẽ như vậy.
+Trong bài viết này, chúng ta sẽ xem xét sự khác biệt quan trọng giữa **Agile** và **DevOps** và tìm hiểu lý do tại sao hai thứ được kết nối chặt chẽ như vậy.
 
-Tôi nghĩ bây giờ là thời điểm thích hợp để tìm hiểu về DevOps và Agile vì chúng có nhiều điểm tương đồng với nhau. Tuy chúng có mục tiêu và các quy trình giống nhau nhưng hi vọng bài viết này có thể tóm tắt được những ý chính để có thể hiểu sâu hơn về 2 khái niệm khác biệt này.
+Tôi nghĩ bây giờ là thời điểm thích hợp để tìm hiểu về **DevOps** và **Agile** vì chúng có nhiều điểm tương đồng với nhau. Tuy chúng có mục tiêu và các quy trình giống nhau nhưng hi vọng bài viết này có thể tóm tắt được những ý chính để có thể hiểu sâu hơn về 2 khái niệm khác biệt này.
 
 Hãy bắt đầu với các định nghĩa.
 
@@ -22,63 +22,63 @@ Hãy bắt đầu với các định nghĩa.
 
 ![img](/Image/Agile.png)
 
-**Agile** là một cách tiếp cận tập trung vào việc cung cấp các kết quả nhỏ và nhanh hơn thay vì phát hành một thay đổi lớn của sản phẩm. Phần mềm được phát triển trong nhiều phân đoạn (iteration). Nhóm sản phẩm phát hành các phiên bản mới trong các bản cập nhật hàng tuần hoặc hàng tháng. Mục tiêu cuối cùng của Agile là tối ưu trải nghiệm của người dùng cuối.
+**Agile** là một cách tiếp cận tập trung vào việc cung cấp các kết quả nhỏ và nhanh hơn thay vì phát hành một thay đổi lớn của sản phẩm. Phần mềm được phát triển trong nhiều phân đoạn (**iteration**). Nhóm sản phẩm phát hành các phiên bản mới trong các bản cập nhật hàng tuần hoặc hàng tháng. Mục tiêu cuối cùng của **Agile** là tối ưu trải nghiệm của người dùng cuối.
 
 ### DevOps
 
-Chúng ta đã đề cập tới khái niệm này trong nhiều ngày qua theo một số cách khác nhau để mô tả mục tiêu cuối cùng của DevOps. DevOps thường được nhắc tới như các phương pháp phát triển và phân phối phần mềm dựa trên sự hợp tác giữa nhóm phát triển phần mềm và nhóm vận hành. Lợi ích chính của DevOps là đơn giản hoá quy trình phát triển và giảm thiểu thông tin sai lệch.
+Chúng ta đã đề cập tới khái niệm này trong nhiều ngày qua theo một số cách khác nhau để mô tả mục tiêu cuối cùng của **DevOps**. **DevOps** thường được nhắc tới như các phương pháp phát triển và phân phối phần mềm dựa trên sự hợp tác giữa nhóm phát triển phần mềm và nhóm vận hành. Lợi ích chính của **DevOps** là đơn giản hoá quy trình phát triển và giảm thiểu thông tin sai lệch.
 
 ## Sự khác biệt giữa Agile và DevOps
 
-Sự khác biệt lớn nhất là mối bận tâm (**preoccupations**). Agile và DevOps có những mối bận tâm khác nhau nhưng chúng lại giúp đỡ lẫn nhau. Agile muốn có những phân đoạn ngắn, điều này gần như cần có các quy trình tự động hoá (**automations**) mà DevOps đem lại. Agile muốn khách hàng dùng thử các phiên bản và nhận được phản hồi một cách nhanh chóng, điều này gần như chỉ có thể thực hiện được nếu DevOps có thể tạo môi trường mới một cách dễ dàng.
+Sự khác biệt lớn nhất là mối bận tâm (**preoccupations**). **Agile** và **DevOps** có những mối bận tâm khác nhau nhưng chúng lại giúp đỡ lẫn nhau. **Agile** muốn có những phân đoạn ngắn, điều này gần như cần có các quy trình tự động hoá (**automations**) mà **DevOps** đem lại. **Agile** muốn khách hàng dùng thử các phiên bản và nhận được phản hồi một cách nhanh chóng, điều này gần như chỉ có thể thực hiện được nếu **DevOps** có thể tạo môi trường mới một cách dễ dàng.
 
 ### Thành phần tham gia
 
-Agile tập trung vào việc tối ưu hoá giao tiếp giữu người dùng cuối và nhóm phát triển, trong khi DevOps nhắm tới nhóm phát triển và nhóm vận hành. Chúng ta có thể nói Agile hướng tới khách hàng, trong khi DevOps là một tập hợp các phương pháp nội bộ.
+**Agile** tập trung vào việc tối ưu hoá giao tiếp giữu người dùng cuối và nhóm phát triển, trong khi **DevOps** nhắm tới nhóm phát triển và nhóm vận hành. Chúng ta có thể nói **Agile** hướng tới khách hàng, trong khi **DevOps** là một tập hợp các phương pháp nội bộ.
 
 ### Team
 
-Agile thường được áp dụng cho nhóm phát triển và quản lý dự án. Còn vai trò của các kỹ sư DevOps được thể hiện ở phần giao giữa việc phát triển, quản lý chất lượng (QA) và vận hành bởi vì họ tham gia vào tất cả các giao đoạn của chu kỳ sản phẩm và là một phần của team Agile.
+**Agile** thường được áp dụng cho nhóm phát triển và quản lý dự án. Còn vai trò của các kỹ sư **DevOps** được thể hiện ở phần giao giữa việc phát triển, quản lý chất lượng (**QA**) và vận hành bởi vì họ tham gia vào tất cả các giao đoạn của chu kỳ sản phẩm và là một phần của **team Agile**.
 
 ### Các frameworks được áp dụng
 
-Agile có rất nhiều framework quản lý để đạt được sự linh hoạt và minh bạch: **Scrum** > **Kanban** > **Lean** > **Extreme** > **Crystal** > **Dynamic** > **Feature-Driven**. DevOps tập trung vào sự cộng tác trong việc phát triển nhưng không có các framework cụ thể. DevOps thúc đẩy các phương pháp như cơ sở hạ tầng dưới dạng mã (IaC), kiến trúc dưới dạng mã, giám sát, tự khắc phục lỗi (**Self-Healing**), tự động hóa kiểm thử (**end to end test automation**) ... Tuy nhiên, đây không được coi là các framework, mà chỉ là các phương pháp.
+**Agile** có rất nhiều **framework** quản lý để đạt được sự linh hoạt và minh bạch: **Scrum** > **Kanban** > **Lean** > **Extreme** > **Crystal** > **Dynamic** > **Feature-Driven**. **DevOps** tập trung vào sự cộng tác trong việc phát triển nhưng không có các **framework** cụ thể. **DevOps** thúc đẩy các phương pháp như cơ sở hạ tầng dưới dạng mã (**IaC**), kiến trúc dưới dạng mã, giám sát, tự khắc phục lỗi (**Self-Healing**), tự động hóa kiểm thử (**end to end test automation**) ... Tuy nhiên, đây không được coi là các **framework**, mà chỉ là các phương pháp.
 
 ### Nhận xét/Phản hồi
 
-Trong Agile, nguồn phản hồi chính là người dùng cuối còn với DevOps những phản hồi từ các bên liên quan(**stakeholders**) và bản thân nhóm có mức độ ưu tiên cao hơn.
+Trong **Agile**, nguồn phản hồi chính là người dùng cuối còn với **DevOps** những phản hồi từ các bên liên quan(**stakeholders**) và bản thân nhóm có mức độ ưu tiên cao hơn.
 
 ### Phạm vi tập trung
 
-Agile tập trung nhiều hơn vào phát triển phần mềm hơn là triển khai và bảo trì. DevOps cũng tập trung vào phát triển phần mềm, nhưng giá trị và công cụ của nó cũng bao gồm các giai đoạn sau phát hành như triển khai, giám sát, tính sẵn sàng cao, bảo mật và bảo vệ dữ liệu.
+**Agile** tập trung nhiều hơn vào phát triển phần mềm hơn là triển khai và bảo trì. **DevOps** cũng tập trung vào phát triển phần mềm, nhưng giá trị và công cụ của nó cũng bao gồm các giai đoạn sau phát hành như triển khai, giám sát, tính sẵn sàng cao, bảo mật và bảo vệ dữ liệu.
 
 ### Tài liệu
 
-Agile ưu tiên tính linh hoạt và các nhiệm vụ hơn việc bàn giao tài liệu và giám sát. Trái lại, DevOps coi tài liệu dự án là một trong những thành phần thiết yếu của dự án.
+**Agile** ưu tiên tính linh hoạt và các nhiệm vụ hơn việc bàn giao tài liệu và giám sát. Trái lại, **DevOps** coi tài liệu dự án là một trong những thành phần thiết yếu của dự án.
 
 ### Rủi ro
 
-Rủi ro của Agile đến từ tính linh hoạt của các phương pháp của nó. Các dự án Agile rất khó dự đoán và đánh giá rủi ro do thứ tự ưu tiên và yêu cầu thay đổi liên tục.
+Rủi ro của **Agile** đến từ tính linh hoạt của các phương pháp của nó. Các dự án **Agile** rất khó dự đoán và đánh giá rủi ro do thứ tự ưu tiên và yêu cầu thay đổi liên tục.
 
-Rủi ro của DevOps đến từ việc hiểu sai thuật ngữ và thiếu các công cụ thích hợp. Một số người hiểu nhầm rằng DevOps chỉ là một tập hợp các phần mềm để triển khai phần mềm và tích hợp liên tục. Chính vì suy nghĩ đó mà không có sự đóng góp, thay đổi cấu trúc cơ bản của quá trình phát triển.
+Rủi ro của **DevOps** đến từ việc hiểu sai thuật ngữ và thiếu các công cụ thích hợp. Một số người hiểu nhầm rằng **DevOps** chỉ là một tập hợp các phần mềm để triển khai phần mềm và tích hợp liên tục. Chính vì suy nghĩ đó mà không có sự đóng góp, thay đổi cấu trúc cơ bản của quá trình phát triển.
 
 ### Công cụ
 
-Các công cụ Agile tập trung vào việc cộng tác giao tiếp quản lý, đo lường và xử lý phản hồi. Các công cụ phổ biến nhất bao gồm **JIRA**, **Trello**, **Slack**, **Zoom**, **SurveyMonkey**, v.v.
+Các công cụ **Agile** tập trung vào việc cộng tác giao tiếp quản lý, đo lường và xử lý phản hồi. Các công cụ phổ biến nhất bao gồm **JIRA**, **Trello**, **Slack**, **Zoom**, **SurveyMonkey**, v.v.
 
-DevOps sử dụng các công cụ để giao tiếp nhóm, phát triển phần mềm, triển khai và tích hợp như **Jenkins**, **GitHub Actions**, **BitBucket**, v.v. Mặc dù Agile và DevOps có trọng tâm và phạm vi hơi khác nhau nhưng chúng có các giá trị chính gần như giống nhau, chính vì vậy có thể kết hợp và hỗ trợ lẫn nhau rất tốt.
+**DevOps** sử dụng các công cụ để giao tiếp nhóm, phát triển phần mềm, triển khai và tích hợp như **Jenkins**, **GitHub Actions**, **BitBucket**, v.v. Mặc dù **Agile** và **DevOps** có trọng tâm và phạm vi hơi khác nhau nhưng chúng có các giá trị chính gần như giống nhau, chính vì vậy có thể kết hợp và hỗ trợ lẫn nhau rất tốt.
 
 ## Kết hợp với nhau... có phải là một ý tưởng tốt? cần thảo luận?
 
-Kết hợp Agile và DevOps sẽ mang lại những lợi ích sau:
+Kết hợp **Agile** và **DevOps** sẽ mang lại những lợi ích sau:
 
 - Quản lý linh hoạt và công nghệ mạnh mẽ.
-- Phương pháp Agile giúp các nhóm DevOps giao tiếp, trao đổi về các ưu tiên một các hiệu quả hơn.
+- Phương pháp **Agile** giúp các nhóm **DevOps** giao tiếp, trao đổi về các ưu tiên một các hiệu quả hơn.
 - Yêu cầu triển khai nhanh chóng và thường xuyên của bạn hợp lý hoá cho các chi phí phát sinh từ quá trình tự động hóa.
-- Nó giúp làm tốt hơn: quá trình giao tiếp, hợp tác của các nhóm sử dụng Agile, tăng động lực cho nhóm và giúp giảm tỷ lệ nghỉ việc.
+- Nó giúp làm tốt hơn: quá trình giao tiếp, hợp tác của các nhóm sử dụng **Agile**, tăng động lực cho nhóm và giúp giảm tỷ lệ nghỉ việc.
 - Kết quả là bạn có một sản phẩm với chất lượng tốt hơn.
 
-Agile cho bạn quay lại các quá trình phát triển sản phẩm trước đó để sửa lỗi và tránh khỏi việc mắc quá nhiều nợ kỹ thuật (**technical debt**). Để áp dụng Agile và DevOps đồng cùng lúc, chúng ta cần thực hiện 7 bước sau:
+**Agile** cho bạn quay lại các quá trình phát triển sản phẩm trước đó để sửa lỗi và tránh khỏi việc mắc quá nhiều nợ kỹ thuật (**technical debt**). Để áp dụng **Agile** và **DevOps** đồng cùng lúc, chúng ta cần thực hiện 7 bước sau:
 
 1. Tích hợp các nhóm phát triển và vận hành.
 2. Tạo các nhóm xây dựng và điều hành và thảo luận tất cả các vấn đề liên quan tới phát triển, vận hành cần được thảo luận bởi toàn bộ nhóm DevOps.
@@ -88,21 +88,18 @@ Agile cho bạn quay lại các quá trình phát triển sản phẩm trước 
 6. Tự động hoá mọi thứ mà bạn có thể.
 7. Do lường và kiểm soát các bản phân phối bằng cách đánh số dễ hiểu.
 
+## Dưới đây là một số điểm khác biệt chính giữa DevOps và Agile:
 
-#### Dưới đây là một số điểm khác biệt chính giữa DevOps và Agile:
+- **DevOps** tập trung vào việc hợp nhất các nhóm phát triển và vận hành, trong khi **Agile** tập trung vào việc phân chia các dự án lớn thành các phần nhỏ hơn, dễ quản lý hơn.
+- **DevOps** là một cách tiếp cận tổng thể, trong khi **Agile** là một cách tiếp cận lặp đi lặp lại.
+- **DevOps** tập trung vào việc tự động hóa, trong khi **Agile** tập trung vào sự linh hoạt và khả năng thích ứng.
+- **DevOps** có thể được sử dụng cho các dự án lớn và nhỏ, trong khi **Agile** thường được sử dụng cho các dự án nhỏ hơn.
 
-- DevOps tập trung vào việc hợp nhất các nhóm phát triển và vận hành, trong khi Agile tập trung vào việc phân chia các dự án lớn thành các phần nhỏ hơn, dễ quản lý hơn.
-- DevOps là một cách tiếp cận tổng thể, trong khi Agile là một cách tiếp cận lặp đi lặp lại.
-- DevOps tập trung vào việc tự động hóa, trong khi Agile tập trung vào sự linh hoạt và khả năng thích ứng.
-- DevOps có thể được sử dụng cho các dự án lớn và nhỏ, trong khi Agile thường được sử dụng cho các dự án nhỏ hơn.
+**DevOps** và **Agile** đều là những cách tiếp cận hiệu quả để phát triển và vận hành phần mềm. Tuy nhiên, mỗi cách tiếp cận có những ưu điểm và nhược điểm riêng. Tùy thuộc vào nhu cầu và mục tiêu cụ thể của tổ chức, một cách tiếp cận có thể phù hợp hơn cách tiếp cận khác.
 
-DevOps và Agile đều là những cách tiếp cận hiệu quả để phát triển và vận hành phần mềm. Tuy nhiên, mỗi cách tiếp cận có những ưu điểm và nhược điểm riêng. Tùy thuộc vào nhu cầu và mục tiêu cụ thể của tổ chức, một cách tiếp cận có thể phù hợp hơn cách tiếp cận khác.
+Còn ý kiến của bạn thì sao? Bạn có quan điểm khác? Tôi muốn nghe ý kiến từ các kỹ sư phát triển, vận hành, **QA** hoặc bất kỳ ai hiểu rõ hơn về **Agile** và **DevOps**. Rất mong có nhận xét và phản hồi của các bạn về vấn đề này?
 
-Còn ý kiến của bạn thì sao? Bạn có quan điểm khác? Tôi muốn nghe ý kiến từ các kỹ sư phát triển, vận hành, QA hoặc bất kỳ ai hiểu rõ hơn về Agile và DevOps. Rất mong có nhận xét và phản hồi của các bạn về vấn đề này?
-
-### Tài liệu tham khảo
-
-Luôn sẵn lòng chào đón thêm các tài nguyên mới tại đây.
+## Tài liệu tham khảo
 
 Lời khuyên của tôi là hãy xem tất cả những tài liệu bên dưới và hy vọng bạn sẽ kết nối được với những điều được viết ở phía trên.
 
