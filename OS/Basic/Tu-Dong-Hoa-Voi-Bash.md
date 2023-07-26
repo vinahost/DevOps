@@ -68,7 +68,7 @@ Những câu lệnh khá cơ bản nhưng bạn có thể tưởng tượng ra v
 
 Phần lớn phần này lặp lại những gì chúng ta đã đề cập khi học Python nhưng tôi nghĩ nó đáng để chúng ta tìm hiểu lại một lần nữa.
 
-- ### Biến
+#### Biến
 
 Các biến cho phép chúng ta xác định một giá trị được lặp lại, cụ thể được sử dụng trong toàn bộ tập lệnh.
 
@@ -93,7 +93,7 @@ read name
 
 Sau đó chúng ta định nghĩa đầu vào được nhập là biến `$name` và có thể sử dụng biến từ đó.
 
-- ### Điều kiện
+#### Điều kiện
 
 Có thể chúng ta muốn tìm hiểu xem ai đang tham gia thử thách và đã hoàn thành bao nhiêu ngày, chúng ta có thể xác định điều này bằng cách sử dụng các điều kiện `if` `if-else` `else-if`, đây là những gì chúng ta đã định nghĩa trong tập lệnh của mình .
 
