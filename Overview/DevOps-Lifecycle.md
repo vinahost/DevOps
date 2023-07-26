@@ -3,7 +3,7 @@
 ![img](../Image/DevOps-Lifecycle.png)
 
 
-**Vòng đời DevOps** là một quá trình liên tục của việc phát triển, thử nghiệm, triển khai và vận hành các ứng dụng. Vòng đời DevOps được thiết kế để hợp lý hóa và tự động hóa các quy trình phát triển phần mềm, nhằm cải thiện tốc độ, chất lượng và độ tin cậy của các ứng dụng.
+**Vòng đời DevOps** là một quá trình liên tục của việc phát triển, thử nghiệm, triển khai và vận hành các ứng dụng. Vòng đời **DevOps** được thiết kế để hợp lý hóa và tự động hóa các quy trình phát triển phần mềm, nhằm cải thiện tốc độ, chất lượng và độ tin cậy của các ứng dụng.
 
 ## Vòng đời DevOps bao gồm các giai đoạn sau:
 
@@ -12,25 +12,25 @@
 - **Vận hành thay đổi (CO)**: CO là quá trình tự động hóa việc quản lý các thay đổi đối với các ứng dụng. CO giúp cải thiện khả năng kiểm soát và độ tin cậy của các ứng dụng.
 - **Tính liên tục học hỏi (CL)**: CL là quá trình tự động hóa việc thu thập và phân tích dữ liệu về hiệu suất của các ứng dụng. CL giúp cải thiện chất lượng và độ tin cậy của các ứng dụng.
 
-Vòng đời DevOps là một mô hình linh hoạt có thể được tùy chỉnh để phù hợp với nhu cầu của từng tổ chức. Tuy nhiên, các nguyên tắc cơ bản của vòng đời DevOps vẫn là như nhau: **tự động hóa, hợp lý hóa và hợp tác**.
+Vòng đời **DevOps** là một mô hình linh hoạt có thể được tùy chỉnh để phù hợp với nhu cầu của từng tổ chức. Tuy nhiên, các nguyên tắc cơ bản của vòng đời **DevOps** vẫn là như nhau: **tự động hóa, hợp lý hóa và hợp tác**.
 
 Trong các bài viết, chúng ta sẽ nói đến vòng đời của DevOps (**Phát triển liên tục, Kiểm thử, Triển khai, Giám sát**) rất nhiều lần. Nếu bạn muốn trở thành một kỹ sư DevOps thì bạn sẽ quen với việc lặp đi lặp lại những điều này. Tuy nhiên, việc liên tục cải thiện từng quá trình trong vòng đời này sẽ khiến công việc của chúng ta trở nên thú vị.
 
 Trong lần này, chúng ta sẽ nhìn tổng thể các quá trình phát triển ứng dụng từ khi bắt đầu tới khi kết thúc và nhắc lại điều này nhiều lần như một vòng lặp liên tục.
 
-## Phát triển
+### Phát triển
 
 Hãy tưởng tượng chúng ta đang bắt đầu phát triển mội ứng dụng hoàn toàn mới. Nếu bạn là một kỹ sư phát triển, bạn cần thảo luận với khách hàng hoặc người dùng cuối về các yêu cầu của họ rồi đưa ra kế hoạch, những yêu cầu về mặt tính năng, thiết kế cho ứng dụng của bạn. Sau đó, chúng ta tạo ứng dụng mới này từ các yêu cầu đó.
 
 Nói tới các công cụ ở quá trình này, không có yêu cầu thực sự nào khác ngoài việc chọn môi trường phát triển tích hợp (**IDE**) và ngôn ngữ lập trình mà bạn muốn sử dụng để viết ứng dụng.
 
-Hãy nhớ rằng, là một kỹ sư DevOps, bạn có có thể không phải là người lên kế hoạch cũng như lập trình ứng dụng cho người dùng cuối. Việc này thường sẽ được một kỹ sư phát triển đảm nhiện. Tuy nhiên, sẽ rất tuyệt vời nếu bạn có thể đọc được một số đoạn mã và hiểu được các yêu cầu của ứng dụng, từ đó đưa ra các quyết định tốt nhất cho cơ sở hạ tầng cho hệ thống mới.
+Hãy nhớ rằng, là một kỹ sư **DevOps**, bạn có có thể không phải là người lên kế hoạch cũng như lập trình ứng dụng cho người dùng cuối. Việc này thường sẽ được một kỹ sư phát triển đảm nhiện. Tuy nhiên, sẽ rất tuyệt vời nếu bạn có thể đọc được một số đoạn mã và hiểu được các yêu cầu của ứng dụng, từ đó đưa ra các quyết định tốt nhất cho cơ sở hạ tầng cho hệ thống mới.
 
 Ứng dụng này có thể được viết bằng bất cứ ngôn ngữ nào, nhưng điều quan trọng là mã ứng dụng nên được quản lý bởi một hệ thống kiểm soát phiên bản (**version control system**). Chúng ta sẽ tìm hiểu chi tiết hơn về mục này ở phần sau (cụ thể là sẽ tập trung vào **git**).
 
 Dù có 1 hay nhiều thành viên tham gia vào dự án, phương pháp tốt nhất vẫn là sử dụng một kho lưu trữ (**code repository**) để lưu trữ mã giúp nhiều thanh viên có thể cộng tác khi làm việc với mã chương trình. Kho lưu trữ mã có thể được lưu trữ công khai hoặc riêng tư, bạn cũng có thể sẽ nghe nói đến việc sử dụng **GitHub** hoặc **GitLab** làm kho lưu trữ. Chúng ta sẽ đề cập đến những điều này trong phần nói về **Git**.
 
-## Kiểm thử
+### Kiểm thử
 
 Ở quá trình này, chúng ta đã có các yêu cầu và đang phát triển ứng dụng. Vấn đề tiếp theo là chúng ta cần đảm bảo rằng mã ứng dụng cần được kiểm thử ở các môi trường khác nhau mà chúng ta có hoặc cụ thể hơn là với ngôn ngữ lập trình chúng ta đã chọn.
 
@@ -40,7 +40,7 @@ Quá trình này có khả năng cao là sẽ được tự động hoá như m�
 
 Tự động hoá quá trình kiểm thử sẽ giải phóng 10, 100 thậm chí hàng nghìn kỹ sư quản lý chất lượng khỏi việc phải kiểm tra một cách thủ công. Từ đó họ có thể tập trung vào các phần khác trong hệ thống giúp tăng tốc độ phát triển, tạo ra nhiều chức năng mới hơn thay vì sa lầy vào việc kiểm tra lỗi và phần mềm và làm chậm quá trình phát hành các phiên bản mới theo mô hình thác nước truyền thống.
 
-## Tích hợp
+### Tích hợp
 
 Ở giữa vòng đời DevOps là **Tích hợp** - một phần rất quan trọng. Đây là một phương thức khi mà khi các lập trình viên thay đổi mã nguồn một cách thường xuyên hơn. Điều này có thể diễn ra hàng ngày hoặc hàng tuần.
 
@@ -52,17 +52,17 @@ Với mỗi thay đổi, ứng dụng sẽ được kiểm tra bằng các giai 
 
 Việc hiểu về các quá trình cũng rất quan trọng vì có thể bạn sẽ mua các ứng dụng từ nhà cung cấp ngày hôm nay, nhưng không chắc bạn sẽ làm điều tương tự vào ngày mai, hoặc có thể nó sẽ có ích khi bạn chuyển sang một công việc mới?
 
-## Triển khai
+### Triển khai
 
 Cuối cùng thì chúng ta cũng đã xây dựng xong ứng dụng, kiểm thử với các yêu cầu của người dùng cuối, bây giờ chúng ta cần triển khai ứng dụng này để người dùng cuối có thể sử dụng.
 
-Đây chính là quá trình mà các đoạn mã sẽ được triển khai lên các máy chủ của môi trường production và cũng chính là một quá trình cực kỳ thú vị và cũng chính là phần mà chúng ta sẽ đào sâu hơn trong những bài tiếp theo. 
+Đây chính là quá trình mà các đoạn mã sẽ được triển khai lên các máy chủ của môi trường **production** và cũng chính là một quá trình cực kỳ thú vị và cũng chính là phần mà chúng ta sẽ đào sâu hơn trong những bài tiếp theo. 
 
 Các ứng dụng khác nhau đòi hỏi các yêu cầu khác nhau về phần cứng và cấu hình. Đó là khi quản lý cấu hình ứng dụng (**Application Configuration Management**) và cơ sở hạ tầng ứng dụng dưới dạng mã (**Infrastructure as Code**) đóng vai trò then chốt trong vòng đời DevOps. Các ứng dụng có thể được đóng gói và chạy trong các **containers** hoặc chạy trên các máy ảo (**VM**). Điều này khiến chúng ta cần sử dụng các nền tảng như **Kubernetes** để điều phối các **containers** và đảm bảo ứng dụng ở trong trạng thái mong muốn nhằm phục vụ người dùng cuối.
 
 Chúng ta sẽ tìm hiểu chi tiết về các chủ đề quan trọng này trong vài tuần tới để có kiến thức nền tảng tốt hơn về chúng và khi nào thì nên sử dụng.
 
-## Giám sát
+### Giám sát
 
 Mọi thứ diễn ra rất nhanh chóng, chúng ta đã triển khai úng dụng mới và liên tục cập nhật những tính năng mới và luôn kiểm thử trước mỗi lần phát hành để đảm bảo không có bug nào trong ứng dụng. Ứng dụng cũng đang chạy trong môi trường mà cấu hình cũng như hiệu năng ổn định theo đúng yêu cầu.
 
@@ -76,22 +76,20 @@ Một vài ý kiến đóng góp từ cộng đồng và cụ thể là [@\_edir
 
 > FinOps, viết tắt của Financial Operations, là một phương thức quản lý nhằm nâng cao trách nhiệm chung đối với cơ sở hạ tầng và chi phí điện toán đám mây của một tổ chức.
 
-Đây cũng là thời điểm thích hợp để nói về "**Kỹ sư DevOps**" được nhắc tới ở trên. Mặc dù có rất nhiều người đang nắm giữ vị trí Kỹ sư DevOps nhưng đó không phải là vị trí duy nhất để áp dụng quy trình DevOps. Quan điểm của tôi khi nói với những người trong cộng đồng là, danh hiệu "kỹ sư DevOps" không nên là mục tiêu cho bất kỳ ai vì bất cứ vị trí nào cũng nên áp dụng các quy trình, văn hoá DevOps được nhắc tới ở đây. DevOps nên được sử dụng ở các vị trí khác ví dụ như kỹ sư/kiến trúc sư Cloud, kỹ sư quản lý ảo hoá, kỹ sư quản lý cơ sở hạ tầng,... Việc sử dụng vị trí "kỹ sư DevOps" ở trên chỉ để làm nổi bật phạm vi mà quy trình được sử dụng bởi bất kỳ vị trí nào ở trên và các vị trí khác.
+Đây cũng là thời điểm thích hợp để nói về "**Kỹ sư DevOps**" được nhắc tới ở trên. Mặc dù có rất nhiều người đang nắm giữ vị trí Kỹ sư DevOps nhưng đó không phải là vị trí duy nhất để áp dụng quy trình DevOps. Quan điểm của tôi khi nói với những người trong cộng đồng là, danh hiệu "**kỹ sư DevOps**" không nên là mục tiêu cho bất kỳ ai vì bất cứ vị trí nào cũng nên áp dụng các quy trình, văn hoá DevOps được nhắc tới ở đây. **DevOps** nên được sử dụng ở các vị trí khác ví dụ như kỹ sư/kiến trúc sư **Cloud**, kỹ sư quản lý ảo hoá, kỹ sư quản lý cơ sở hạ tầng,... Việc sử dụng vị trí "**kỹ sư DevOps**" ở trên chỉ để làm nổi bật phạm vi mà quy trình được sử dụng bởi bất kỳ vị trí nào ở trên và các vị trí khác.
 
 ## Lợi ích DevOps mang lại
 
-Vòng đời DevOps mang lại một số lợi ích cho các tổ chức, bao gồm:
+Vòng đời **DevOps** mang lại một số lợi ích cho các tổ chức, bao gồm:
 
 - **Tốc độ phát triển nhanh hơn**: Vòng đời DevOps giúp các tổ chức phát triển và triển khai các ứng dụng nhanh hơn.
 - **Chất lượng cao hơn**: Vòng đời DevOps giúp các tổ chức cải thiện chất lượng của các ứng dụng bằng cách phát hiện lỗi sớm và tự động hóa việc kiểm tra và tích hợp.
 - **Độ tin cậy cao hơn**: Vòng đời DevOps giúp các tổ chức cải thiện độ tin cậy của các ứng dụng bằng cách tự động hóa việc triển khai và quản lý các thay đổi.
 - **Chi phí thấp hơn**: Vòng đời DevOps giúp các tổ chức giảm chi phí bằng cách tự động hóa các quy trình và cải thiện hiệu quả.
 
-Vòng đời DevOps là một mô hình hiệu quả có thể giúp các tổ chức cải thiện tốc độ, chất lượng, độ tin cậy và hiệu quả của việc phát triển và vận hành các ứng dụng.
+Vòng đời **DevOps** là một mô hình hiệu quả có thể giúp các tổ chức cải thiện tốc độ, chất lượng, độ tin cậy và hiệu quả của việc phát triển và vận hành các ứng dụng.
 
 ## Tài liệu tham khảo
-
-Luôn sẵn lòng chào đón thêm các tài nguyên mới tại đây.
 
 Lời khuyên của tôi là hãy xem tất cả những tài liệu bên dưới và hy vọng bạn sẽ kết nối được với những điều được viết ở phía trên.
 

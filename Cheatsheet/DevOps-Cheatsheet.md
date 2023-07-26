@@ -9,7 +9,7 @@ Cheatsheets cho các ngôn ngữ lập trình thông dụng, framework và công
 - https://github.com/LeCoupa/awesome-cheatsheets 
 - https://lecoupa.github.io/awesome-cheatsheets/
 
-### Một bộ sưu tập cheatsheets các danh sách: 
+### Bộ sưu tập cheatsheets: 
 
 Một bộ sưu tập các danh sách: hướng dẫn sử dụng, cheatsheets, blog, hacks, one-liners, cli/web tools và hơn thế nữa.
 

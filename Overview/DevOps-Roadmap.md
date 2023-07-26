@@ -17,7 +17,7 @@ Nếu bạn muốn trở thành một **DevOps Engineer**, đây là lộ trình
 
 ### Các bước để trở thành kỹ sư DevOps
 
-Để trở thành một kỹ sư **DevOps**, điều đầu tiên và quan trọng nhất là phải hiểu văn hóa **DevOps**. Đó là tất cả các nhóm khác nhau làm việc cùng nhau hướng tới một mục tiêu chung. Sau đó, bạn có thể bắt đầu học các kỹ năng cần thiết để trở thành một kỹ sư DevOps. Dưới đây là một số bước để trở thành một kỹ sư DevOps:
+Để trở thành một kỹ sư **DevOps**, điều đầu tiên và quan trọng nhất là phải hiểu văn hóa **DevOps**. Đó là tất cả các nhóm khác nhau làm việc cùng nhau hướng tới một mục tiêu chung. Sau đó, bạn có thể bắt đầu học các kỹ năng cần thiết để trở thành một kỹ sư **DevOps**. Dưới đây là một số bước để trở thành một kỹ sư **DevOps**:
 
 - [✔️] Học một ngôn ngữ lập trình
 - [✔️] Học về hệ điều hành (Operating System)
@@ -26,7 +26,9 @@ Nếu bạn muốn trở thành một **DevOps Engineer**, đây là lộ trình
 - [✔️] Lấn sâu vào CI (Continuous Integration) và CD (Continuous Deployment)
 - [✔️] Hiểu sâu về Application Monitoring và Infrastructure Monitoring.
 
-### Dưới đây là một số kỹ năng và kiến thức mà bạn cần có để trở thành một DevOps Engineer:
+### Kỹ năng và kiến thức để trở thành DevOps
+
+Dưới đây là một số kỹ năng và kiến thức mà bạn cần có để trở thành một DevOps Engineer:
 
 - Kiến thức về các nguyên tắc và thực hành DevOps.
 - Kiến thức về các công cụ và công nghệ được sử dụng trong DevOps.
@@ -36,7 +38,7 @@ Nếu bạn muốn trở thành một **DevOps Engineer**, đây là lộ trình
 - Kỹ năng giải quyết vấn đề.
 - Kỹ năng tự học.
 
-DevOps là một lĩnh vực đang phát triển nhanh chóng, do đó nhu cầu về các DevOps Engineer cũng đang ngày càng tăng. Nếu bạn có các kỹ năng và kiến thức cần thiết, bạn có thể có một tương lai tươi sáng trong lĩnh vực DevOps.
+**DevOps** là một lĩnh vực đang phát triển nhanh chóng, do đó nhu cầu về các **DevOps Engineer** cũng đang ngày càng tăng. Nếu bạn có các kỹ năng và kiến thức cần thiết, bạn có thể có một tương lai tươi sáng trong lĩnh vực **DevOps**.
 
 ![img](DevOps-Roadmap.png)
 
