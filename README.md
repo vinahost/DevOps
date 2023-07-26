@@ -13,6 +13,8 @@
 ### DevOps và ngôn ngữ lập trình
 
 - [✔️] ⌨️ > [Overview: DevOps & Học một ngôn ngữ lập trình](Programming-Langguage/Ngon-Ngu-Lap-Trinh-DevOps.md)
+
+#### Lập trình với Python
 - [✔️] ⌨️ > [Thiết lập môi trường DevOps cho Python](Programming-Langguage/Python/Bat-Dau-Voi-Python.md)
 - [✔️] ⌨️ > [Introduction to Python](Programming-Langguage/Python/Introduction-to-Python.md)
 - [✔️] ⌨️ > [Python Loops, functions, modules and libraries](Programming-Langguage/Python/Python-4-Concepts.md)
@@ -21,6 +23,9 @@
 - [✔️] ⌨️ > [Web development in Python](Programming-Langguage/Python/Web-development-in-Python.md)
 - [✔️] ⌨️ > [Automation with Python](Programming-Langguage/Python/Automation-with-Python.md)
 - [✔️] ⌨️ > [Build an App in Python](Programming-Langguage/Python/Build-an-App-in-Python.md)
+
+#### Lập trình với GoLang
+- [✔️] ⌨️ > [Thiết lập môi trường DevOps cho GoLang](Programming-Langguage/GoLang/DevOps-Va-GoLang.md)
 
 ### Kiến thức cơ bản về Linux
 
