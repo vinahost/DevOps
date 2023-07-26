@@ -42,11 +42,13 @@ Bây giờ hãy bật lại máy ảo và bây giờ nó sẽ có một địa c
 
 Chúng ta biết **SSH** đã được định cấu hình trên máy vì chúng ta đã sử dụng nó với *vagrant* nhưng cũng có thể xác nhận bằng cách chạy
 
-    `sudo systemctl status ssh`
+    sudo systemctl status ssh
 
 ![SSH](/Image/SSH03.png)
 
-Nếu hệ thống của bạn không có server **SSH** thì bạn có thể cài đặt nó bằng lệnh `sudo apt install OpenSSH-server`
+Nếu hệ thống của bạn không có server **SSH** thì bạn có thể cài đặt nó bằng lệnh 
+
+    sudo apt install OpenSSH-server
 
 Sau đó, bạn muốn đảm bảo nếu tường lửa đang chạy, nó sẽ cho phép chúng ta kết nối tới server **SSH**. Việc này có thể được thực hiện với lệnh `sudo ufw allow ssh`, điều này không bắt buộc đối với cấu hình của chúng ta vì nó đã được tự động hóa với việc khi chúng ta khởi tạo bằng **vagrant**.
 
@@ -76,7 +78,7 @@ Khóa **SSH** có nghĩa là chúng ta cung cấp một cặp khóa để cả m
 
 Tạo một khóa rất dễ dàng. Trên máy cục bộ của chúng ta (**Windows**) chúng ta có thể sử dụng lệnh sau nếu bạn đã cài đặt **ssh-client** và tôi tin rằng câu lệnh tương tự sẽ hoạt động trên các hệ điều hành khác.
 
-    `ssh-keygen -t ed25519`
+    ssh-keygen -t ed25519
 
 Tôi sẽ không đi sâu vào `ed25519` là gì và có nghĩa như thế nào nhưng bạn có thể tự tìm kiếm nếu muốn hiểu thêm về [mã hoá](https://en.wikipedia.org/wiki/EdDSA#Ed25519)
 
@@ -84,7 +86,9 @@ Tôi sẽ không đi sâu vào `ed25519` là gì và có nghĩa như thế nào 
 
 Chúng ta đã tạo khóa SSH được lưu trữ trong `C:\Users\micha/.ssh/`
 
-Nhưng để kết nối với máy ảo **Linux** của chúng ta, chúng ta cần sao chép khóa bằng lệnh `ssh-copy-id vagrant@192.168.169.135`
+Nhưng để kết nối với máy ảo **Linux** của chúng ta, chúng ta cần sao chép khóa bằng lệnh 
+
+    ssh-copy-id vagrant@192.168.169.135
 
 Tôi đã sử dụng **Powershell** để tạo khóa trên máy khách **Windows** của mình nhưng không có `ssh-copy-id` ở đây. Có nhiều cách để bạn có thể thực hiện việc này trên **Windows** và chỉ cần tìm kiếm trên **Google** bạn sẽ có một giải pháp thay thế, còn tôi thì chỉ cần sử dụng **git bash** trên máy **Windows** của tôi để tạo một bản sao.
 
@@ -92,15 +96,17 @@ Tôi đã sử dụng **Powershell** để tạo khóa trên máy khách **Windo
 
 Bây giờ, chúng ta có thể quay lại **Powershell** để kiểm tra xem kết nối của chúng ta hiện có hoạt động với Khóa **SSH** mà không cần mật khẩu hay không.
 
-    `ssh vagrant@192.168.169.135`
+    ssh vagrant@192.168.169.135
 
 ![SSH](/Image/SSH09.png)
 
 Chúng ta có thể nâng cao tính bảo mật hơn nữa nếu cần bằng cách sử dụng cụm mật khẩu (**passphrase**). Chúng ta cũng có thể tiến thêm một bước nữa khi không cho phép kết nối bằng mật khẩu, có nghĩa là chỉ cho phép kết nối thông qua cặp khóa. Bạn có thể thực hiện điều này trong tệp cấu hình dưới đây
 
-`sudo nano /etc/ssh/sshd_config`
+    sudo nano /etc/ssh/sshd_config
 
-Có một dòng là `PasswordAuthentication yes` và nó đang bị *comment* với ký tự `#` ở đầu dóng. Bạn nên xoá ký tự này và thay đổi *yes* thành *no*, lưu tệp cấu hình và cuối cùng là khởi động lại dịch vụ SSH với `sudo systemctl reload sshd`
+Có một dòng là `PasswordAuthentication yes` và nó đang bị *comment* với ký tự `#` ở đầu dóng. Bạn nên xoá ký tự này và thay đổi *yes* thành *no*, lưu tệp cấu hình và cuối cùng là khởi động lại dịch vụ SSH với 
+
+    sudo systemctl reload sshd
 
 ## Thiết lập Máy chủ Web
 
@@ -119,9 +125,11 @@ Bạn cũng có thể thấy stack này được gọi là **LAMP stack**.
 
 Apache2 là một máy chủ HTTP mã nguồn mở. Chúng ta có thể cài đặt apache2 với câu lệnh sau
 
-    `sudo apt-get install apache2`
+    sudo apt-get install apache2
 
-Để xác nhận rằng apache2 đã được cài đặt một cách chính xác, chúng ta có thể chạy `sudo service apache2 restart`
+Để xác nhận rằng apache2 đã được cài đặt một cách chính xác, chúng ta có thể chạy 
+
+    sudo service apache2 restart
 
 Sau đó, sử dụng địa chỉ mạng bắc cầu từ phần trên, mở trình duyệt và truy cập địa chỉ đó. Địa chỉ của tôi là `http://192.168.169.135/`
 
@@ -141,11 +149,13 @@ Chúng ta sử dụng lệnh `sudo nano /etc/apache2/mods-enabled/dir.conf` và 
 
 ![Web Sever Apache2](/Image/WebServer-LAMP02.png)
 
-Khởi động lại dịch vụ apache2 `sudo systemctl restart apache2`
+Khởi động lại dịch vụ **apache2** 
+
+    sudo systemctl restart apache2
 
 Bây giờ, hãy xác nhận rằng hệ thống của chúng ta được cấu hình đúng cho **PHP**. Tạo tệp sau bằng cách sử dụng lệnh này, thao tác này sẽ mở một tệp trống ở định dạng **nano**.
 
-    `sudo nano /var/www/html/90Days.php`
+    sudo nano /var/www/html/90Days.php
 
 Sau đó sao chép phần sau, sử dụng **control + x** để thoát và lưu lại tệp của bạn.
 
