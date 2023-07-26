@@ -21,7 +21,7 @@ Có một số ngôn ngữ lập trình và công nghệ phổ biến được s
 
 Cách tốt nhất để tìm hiểu về DevOps là bắt đầu với một dự án nhỏ. Bạn có thể sử dụng một trong các công cụ hoặc dịch vụ DevOps được đề cập ở trên để tự động hóa các quy trình phát triển và vận hành của mình.
 
-### Với DevOps bạn có thể:
+### Với DevOps bạn có thể
 
 Dưới đây là một số ví dụ về cách bạn có thể sử dụng DevOps để tự động hóa các quy trình phát triển và vận hành của mình:
 

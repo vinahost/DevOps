@@ -22,7 +22,9 @@
 
 **Jenkins** có thể được cài đặt trên máy chủ cục bộ hoặc trên máy chủ đám mây. Nó cũng có thể được sử dụng với một loạt các công cụ và nền tảng khác nhau, bao gồm **Git**, **GitHub**, **Docker** và **Kubernetes**.
 
-### Dưới đây là một số lợi ích của việc sử dụng Jenkins:
+### Lợi ích khi sử dụng Jenkins
+
+Dưới đây là một số lợi ích của việc sử dụng Jenkins:
 
 - **Tăng chất lượng code**: Jenkins có thể giúp phát hiện và khắc phục lỗi sớm hơn, đồng thời giảm thiểu rủi ro khi triển khai mã mới.
 
