@@ -4,7 +4,7 @@
 
 **Linux** là một hệ điều hành mã nguồn mở, đa năng được sử dụng rộng rãi trên các máy chủ, máy tính để bàn và thiết bị di động. Linux là một nền tảng phổ biến cho **DevOps** vì nó miễn phí, linh hoạt và có thể được tùy chỉnh để đáp ứng các nhu cầu cụ thể của một tổ chức.
 
-![img](../../Image/DevOps-Linux.png)
+![DevOps với Linux](../../Image/DevOps-Linux.png)
 
 ### Lợi ích của Linux cho DevOps
 
