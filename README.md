@@ -30,7 +30,7 @@
 - [✔️] 🐧 > [Quản lý Hệ thống Linux, Hệ thống Flie & Lưu trữ](OS/Basic/File-System-Linux.md)
 - [✔️] 🐧 > [Text Editors - nano vs vim](OS/Basic/Linux-Nano-Vim.md)
 - [✔️] 🐧 > [SSH & Webserver (LAMP)](OS/Basic/SSH-Webserver.md)
-- [✔️] 🐧 > [Tự động hóa các tác vụ với các tập lệnh bash]
+- [✔️] 🐧 > [Tự động hóa các tác vụ với các tập lệnh bash](OS/Basic/Tu-Dong-Hoa-Voi-Bash.md)
 - [✔️] 🐧 > [Thiết lập máy trạm phát triển - những điều tuyệt vời]
 
 ### Kiến thức về mạng (Network)
