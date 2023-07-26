@@ -14,19 +14,21 @@ Các ngôn ngữ lập trình mà chúng ta thường sử dụng như **Python*
 
 ![DevOps và GoLang](/Image/GoLang014.png)
 
-Bạn có thể thấy những gì chúng ta đã làm ở trên. Chúng ta đã tạo một tệp main.go đơn giản và sử dụng lệnh `go build main.go` để biên dịch ra một tệp thực thi.
+Bạn có thể thấy những gì chúng ta đã làm ở trên. Chúng ta đã tạo một tệp *main.go* đơn giản và sử dụng lệnh `go build main.go` để biên dịch ra một tệp thực thi.
 
 ### Gói (Packages) là gì?
 
-Gói là một tập hợp các tệp nguồn trong cùng một thư mục và được biên dịch cùng nhau. Nói một cách đơn giản hơn, một gói là một loạt các tệp .go trong cùng một thư mục. Khi bạn viết những chương trình phức tạp hơn bằng **Go**, bạn có thể thấy có *folder1* *folder2* và *folder3* chứa các tệp *.go* khác nhau tạo nên chương trình với nhiều gói.
+Gói là một tập hợp các tệp nguồn trong cùng một thư mục và được biên dịch cùng nhau. Nói một cách đơn giản hơn, một gói là một loạt các tệp *.go* trong cùng một thư mục. Khi bạn viết những chương trình phức tạp hơn bằng **Go**, bạn có thể thấy có *folder1* *folder2* và *folder3* chứa các tệp *.go* khác nhau tạo nên chương trình với nhiều gói.
 
 Chúng ta sử dụng các gói để có thể tái sử dụng lại mã của người khác để không phải viết mọi thứ từ đầu. Ví dụ chúng ta muốn có "máy tính" như một phần của chương trình, bạn có thể tìm thấy gói **Go** chứa các hàm toán học mà bạn có thể sử dụng, giúp bạn tiết kiệm rất nhiều thời gian và công sức.
 
 **Go** khuyến khích bạn tổ chức mã của mình thành các gói để dễ dàng tái sử dụng và duy trì.
 
-### Hello #90DaysOfDevOps Từng dòng một
+### Giải thích đoạn mã GoLang
 
-Bây giờ hãy xem qua tệp main.go của chúng ta.
+Hello #90DaysOfDevOps từng dòng một
+
+Bây giờ hãy xem qua tệp **main.go** của chúng ta.
 
 ![DevOps và GoLang](/Image/GoLang015.png)
 
