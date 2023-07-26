@@ -1,9 +1,9 @@
 # Quy trình của DevOps
 
 ## Kế hoạch > Viết mã > Xây dựng > Kiểm thử > Phát hành > Triển khai > Vận hành > Giám sát >
-### Plan > Code > Build > Testing > Release > Deploy > Operate > Monitor >
+## Plan > Code > Build > Testing > Release > Deploy > Operate > Monitor >
 
-**DevOps** là một phương pháp phát triển và vận hành phần mềm tập trung vào việc tự động hóa và tích hợp các quy trình phát triển và vận hành. Mục tiêu của DevOps là tạo ra một môi trường nơi các nhóm phát triển và vận hành có thể cộng tác chặt chẽ để cung cấp phần mềm nhanh hơn, đáng tin cậy hơn và linh hoạt hơn.
+**DevOps** là một phương pháp phát triển và vận hành phần mềm tập trung vào việc tự động hóa và tích hợp các quy trình phát triển và vận hành. Mục tiêu của **DevOps** là tạo ra một môi trường nơi các nhóm phát triển và vận hành có thể cộng tác chặt chẽ để cung cấp phần mềm nhanh hơn, đáng tin cậy hơn và linh hoạt hơn.
 
 Hôm nay chúng ta sẽ tập trung vào các bước riêng lẻ và chu trình liên tục của một ứng dụng từ đầu đến cuối trong thế giới DevOps.
 
@@ -67,9 +67,9 @@ Sau khi có bản phát hành thành công từ **Tích hợp liên tục (Conti
 
 Bạn có thể xem ba khái niệm **Liên tục(Continuous)** ở trên là tập hợp đơn giản của các giai đoạn của Vòng đời DevOps.
 
-#### Có thể tóm gọn quy trình DevOps bao gồm các bước sau:
+### Có thể tóm gọn quy trình DevOps bao gồm các bước sau:
 
-- **Kế hoạch (Plan)**: Bước đầu tiên trong quy trình DevOps là lên kế hoạch cho dự án. Điều này bao gồm việc xác định các yêu cầu của dự án, xác định các thành viên của nhóm DevOps và thiết lập các quy trình và công cụ sẽ được sử dụng.
+- **Kế hoạch (Plan)**: Bước đầu tiên trong quy trình **DevOps** là lên kế hoạch cho dự án. Điều này bao gồm việc xác định các yêu cầu của dự án, xác định các thành viên của nhóm **DevOps** và thiết lập các quy trình và công cụ sẽ được sử dụng.
 - **Viết mã (code)**: Bước tiếp theo là viết mã cho dự án. Điều này bao gồm việc viết mã mới, sửa lỗi và cải tiến mã hiện có.
 - **Xây dựng (Build)**: Bước tiếp theo là xây dựng mã. Điều này bao gồm việc biên dịch mã, kiểm tra mã và tạo một bản dựng của phần mềm.
 - **Kiểm thử (Testing)**: Bước tiếp theo là kiểm tra phần mềm. Điều này bao gồm việc chạy các bài kiểm tra tự động và kiểm tra thủ công để đảm bảo rằng phần mềm hoạt động bình thường.
@@ -84,5 +84,3 @@ Bạn có thể xem ba khái niệm **Liên tục(Continuous)** ở trên là t�
 - [Techworld with Nana -DevOps Roadmap 2022 - How to become a DevOps Engineer? What is DevOps?](https://www.youtube.com/watch?v=9pZ2xmsSDdo&t=125s)
 - [How to become a DevOps Engineer in 2021 - DevOps Roadmap](https://www.youtube.com/watch?v=5pxbp6FyTfk)
 - https://github.com/MichaelCade/90DaysOfDevOps/blob/main/2022/vi/Days/day05.md
-
-Nếu bạn đã đi được tới đây, bạn chắn hẳn đã biết rõ liệu đây có phải là hành trình bạn muốn theo đuổi hay không.
