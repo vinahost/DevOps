@@ -26,7 +26,9 @@ Máy chủ có dịch vụ **SSH** luôn chạy và nghe trên cổng **TCP** c�
 
 Nếu kết nối với thông tin đăng nhập chính xác hoặc một khoá **SSH** hợp lệ, chúng ta sẽ có quyền truy cập vào máy chủ đó.
 
-### Thêm bộ điều hợp mạng bắc cầu (bridged network adapter) vào hệ thống
+### Bridged Network Adapter
+
+Thêm bộ điều hợp mạng bắc cầu (bridged network adapter) vào hệ thống
 
 Để thực hiện những điều này với **Virtual Box VM** hiện tại, chúng ta cần thêm bộ điều hợp mạng bắc cầu vào máy của mình.
 
@@ -70,7 +72,7 @@ Sau đó, chúng ta được yêu cầu nhập tên người dùng (**vagrant**)
 
 Trên đây là cách dễ dàng nhất để có quyền truy cập vào hệ thống của bạn, tuy nhiên nó vẫn dựa vào tên người dùng và mật khẩu. Nếu một kẻ xấu nào đó có quyền truy cập những thông tin này cộng với địa chỉ công khai hoặc IP của hệ thống của bạn thì nó có thể dễ dàng bị xâm phạm. Chính vì lý do đó, khoá **SSH** được cho là giải pháp tốt hơn.
 
-Khóa SSH có nghĩa là chúng ta cung cấp một cặp khóa để cả máy khách và máy chủ đều biết rằng đây là đối phương là thiết bị đáng tin cậy.
+Khóa **SSH** có nghĩa là chúng ta cung cấp một cặp khóa để cả máy khách và máy chủ đều biết rằng đây là đối phương là thiết bị đáng tin cậy.
 
 Tạo một khóa rất dễ dàng. Trên máy cục bộ của chúng ta (**Windows**) chúng ta có thể sử dụng lệnh sau nếu bạn đã cài đặt **ssh-client** và tôi tin rằng câu lệnh tương tự sẽ hoạt động trên các hệ điều hành khác.
 
@@ -82,7 +84,7 @@ Tôi sẽ không đi sâu vào `ed25519` là gì và có nghĩa như thế nào 
 
 Chúng ta đã tạo khóa SSH được lưu trữ trong `C:\Users\micha/.ssh/`
 
-Nhưng để kết nối với máy ảo Linux của chúng ta, chúng ta cần sao chép khóa bằng lệnh `ssh-copy-id vagrant@192.168.169.135`
+Nhưng để kết nối với máy ảo **Linux** của chúng ta, chúng ta cần sao chép khóa bằng lệnh `ssh-copy-id vagrant@192.168.169.135`
 
 Tôi đã sử dụng **Powershell** để tạo khóa trên máy khách **Windows** của mình nhưng không có `ssh-copy-id` ở đây. Có nhiều cách để bạn có thể thực hiện việc này trên **Windows** và chỉ cần tìm kiếm trên **Google** bạn sẽ có một giải pháp thay thế, còn tôi thì chỉ cần sử dụng **git bash** trên máy **Windows** của tôi để tạo một bản sao.
 
