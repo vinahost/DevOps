@@ -49,7 +49,7 @@ Cần phải **biên dịch** mã trước khi chạy mã. Có 3 cách để là
 - go install
 - go run
 
-Trước khi đến giai đoạn biên dịch ở trên, chúng ta cần xem xét những gì nhận được sau khi cài đặt Go.
+Trước khi đến giai đoạn biên dịch ở trên, chúng ta cần xem xét những gì nhận được sau khi cài đặt **Go**.
 
 Khi cài đặt **Go**, chúng ta đã cài đặt một thứ được gọi là công cụ **Go** bao gồm một số chương trình cho phép xây dựng và xử lý các tệp mã nguồn **Go** của mình. Một trong số những công cụ đó là `go`
 
@@ -77,7 +77,7 @@ Chúng ta đã sử dụng *go build* và *go run* nhưng hãy thử lại nếu
 
 ![Go Workspace](/Image/Go-Workspace09.png)
 
-Hy vọng rằng bạn vừa theo dõi nội dung các ngày qua cùng lúc với xem một trong những video bên dưới. Tôi ghi lại và tóm tắt những thứ này thành ghi chú của bản thân để có thể hiểu được kiến ​​thức nền tảng về **Golang**. Các tài nguyên dưới đây có thể giúp bạn hiểu rõ hơn về nhiều kiến thức tổng thể khác mà bạn cần khi học **Golang**, nhưng tôi sẽ chia sẻ một số điều thú vị mà tôi tìm thấy trong những bài viết vừa rồi.
+Hy vọng rằng bạn vừa theo dõi nội dung các ngày qua cùng lúc với xem một trong những video bên dưới. Tôi ghi lại và tóm tắt những thứ này thành ghi chú của bản thân để có thể hiểu được kiến ​​thức nền tảng về **GoLang**. Các tài nguyên dưới đây có thể giúp bạn hiểu rõ hơn về nhiều kiến thức tổng thể khác mà bạn cần khi học **GoLang**, nhưng tôi sẽ chia sẻ một số điều thú vị mà tôi tìm thấy trong những bài viết vừa rồi.
 
 ## Tài liệu tham khảo
 

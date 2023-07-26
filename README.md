@@ -28,6 +28,7 @@
 - [✔️] ⌨️ > [Thiết lập môi trường DevOps cho GoLang](Programming-Langguage/GoLang/DevOps-Va-GoLang.md)
 - [✔️] ⌨️ > [Chương trình đầu tiên với GoLang: Hello World](Programming-Langguage/GoLang/Hello-World-GoLang.md)
 - [✔️] ⌨️ > [Go Workspace](Programming-Langguage/GoLang/Go-Workspace.md)
+- [✔️] ⌨️ > [Biến, hằng số, kiểu dữ liệu trong Go](Programming-Langguage/GoLang/Bien-Hang-So-Go.md)
 
 ### Kiến thức cơ bản về Linux
 
