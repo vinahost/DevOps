@@ -1,0 +1,21 @@
+edition: 1.0.0          # The version of the YAML specification. The version complies with the semantic versioning specification.
+name: fcDeployApp       # The name of the project.
+access: "default"       # The alias of the key.
+
+services:
+  fc-deploy-test: # The name of the service.
+    component: fc  # The name of the component.
+    props: # The property value of the component.
+      region: cn-shanghai
+      service:
+        name: fctest
+        description: 'test'
+        internetAccess: true
+      function:
+        name: emoji
+        description: this is a emoji
+        runtime: python3
+        codeUri: ./
+        handler: index.handler
+        memorySize: 128
+        timeout: 6
