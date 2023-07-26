@@ -1,10 +1,12 @@
-# Biến và Hằng số trong Go
+# Biến, hằng số & kiểu dữ liệu trong Go
 
 Trong **Go**, biến là một tên được đặt cho một giá trị có thể thay đổi. Giá trị của một biến có thể thay đổi trong quá trình thực thi chương trình. Hằng số là một tên được đặt cho một giá trị không thể thay đổi. Giá trị của một hằng số không thể thay đổi trong quá trình thực thi chương trình.
 
 - Các biến được sử dụng để lưu trữ các giá trị.
 - Giống như một hộp nhỏ chứa thông tin hoặc giá trị của chúng ta.
 - Biến này có thể được sử dụng trong suốt chương trình và cũng có ưu điểm là nếu bạn muốn thay đổi tên thử thách hoặc biến này, bạn chỉ phải thay đổi nó ở một nơi. Nói cách khác, bằng cách thay đổi một giá trị của biến này, nó có thể được chuyển sang các tên các thử thách khác trong cộng đồng.
+
+## Biến - Variables
 
 Để khai báo điều này trong **Go**, hãy sử dụng **từ khóa** cho các biến. Khai báo này sẽ được sử dụng trong khối mã `func main` mà chúng ta sẽ nhắc tới sau. Giải thích chi tết về **Từ khoá** tại [đây](https://go.dev/ref/spec#Keywords).
 
@@ -32,6 +34,8 @@ Bạn có thể tìm thấy đoạn mã trên tại [example01.go](/Scripts/GoLa
 Sau đó, chúng ta xây dựng mã của với ví dụ trên và nhận được kết quả hiển thị như dưới đây.
 
 ![Variables & Constants in Go](/Image/Variables-Constants-Go01.png)
+
+## Hằng số - Constants 
 
 Tuy nhiên, với chương trình này, chúng ta muốn khai báo nó như một hằng số. Các hằng số cũng giống như các biến, ngoại trừ việc giá trị của chúng không thể thay đổi trong đoạn mã (chúng ta vẫn có thể tạo một ứng dụng mới với mã được giữ nguyên và thay đổi hằng số này nhưng giá trị 90 sẽ không thay đổi khi chúng ta chạy ứng dụng của mình)
 
