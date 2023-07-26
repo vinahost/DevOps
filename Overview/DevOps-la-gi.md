@@ -10,13 +10,13 @@
 
 **Có 7 giai đoạn trong vòng đời DevOps:**
 
-- Phát triển liên tục (CD) – Continuous development
-- Tích hợp liên tục (CI) – Continuous integration
-- Kiểm tra liên tục – Continuous testing
-- Triển khai liên tục – Continuous Deployment
-- Phản hồi liên tục – Continuous Feedback
-- Giám sát liên tục – Continuous Monitoring
-- Hoạt động liên tục – Continuous Operations
+- **Phát triển liên tục (CD)** – Continuous development
+- **Tích hợp liên tục (CI)** – Continuous integration
+- **Kiểm tra liên tục** – Continuous testing
+- **Triển khai liên tục** – Continuous Deployment
+- **Phản hồi liên tục** – Continuous Feedback
+- **Giám sát liên tục** – Continuous Monitoring
+- **Hoạt động liên tục** – Continuous Operations
 
 ### Lợi ích của DevOps
 
@@ -33,13 +33,13 @@
 
 **Một số công cụ DevOps thông dụng được biết đến bao gồm :**
 
-- Git & GitHub – Quản lý mã nguồn (Hệ thống kiểm soát phiên bản)
-- Jenkins – Máy chủ tự động, với các plugin được xây dựng để phát triển CI / CD pipelines
-- Selenium – Kiểm thử tự động
-- Docker – Container hóa phần mềm
-- Kubernetes – Công cụ điều phối container
-- Puppet – Quản lý cấu hình và triển khai
-- Terraform - Đơn giản hóa việc khởi tạo và quản lý tài nguyên  
+- **Git & GitHub** – Quản lý mã nguồn (Hệ thống kiểm soát phiên bản)
+- **Jenkins** – Máy chủ tự động, với các plugin được xây dựng để phát triển **CI / CD pipelines**
+- **Selenium** – Kiểm thử tự động
+- **Docker** – Container hóa phần mềm
+- **Kubernetes** – Công cụ điều phối container
+- **Puppet** – Quản lý cấu hình và triển khai
+- **Terraform** - Đơn giản hóa việc khởi tạo và quản lý tài nguyên  
 
 ### Kỹ năng để trở thành DevOps
 
@@ -101,7 +101,7 @@ Qua những bài viết, chúng ta có thể tóm tắt về **DevOps** như sau
 - Trọng tâm và mục đích chính của **DevOps** là rút ngắn vòng đời phát triển trong khi thường xuyên cung cấp các tính năng, bản sửa lỗi, chức năng phù hợp và liên quan chặt chẽ tới mục tiêu kinh doanh.
 - **DevOps** là một cách tiếp cận cho quá trình phát triển phần mềm, qua đó phần mềm có thể được phân phối và phát triển một cách đáng tin cậy và nhanh chóng. Đôi khi còn được nhắc tới với các khái niệm như Phát triển, Kiểm thử, Triển khai, Giám sát (liên tục).
 
-### Roadmap để trở  thành DevOps
+## Roadmap để trở  thành DevOps
 
 ![DevOps Roadmap](devops-roadmap01.jpg)
 
@@ -109,7 +109,7 @@ Qua những bài viết, chúng ta có thể tóm tắt về **DevOps** như sau
 
 ![alibabacloud](alibabacloud.png)
 
-### Tham khảo
+## Tham khảo
 
 - https://vi.wikipedia.org/wiki/DevOps
 - https://roadmap.sh/devops
