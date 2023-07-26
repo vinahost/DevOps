@@ -26,6 +26,7 @@
 
 #### Lập trình với GoLang
 - [✔️] ⌨️ > [Thiết lập môi trường DevOps cho GoLang](Programming-Langguage/GoLang/DevOps-Va-GoLang.md)
+- [✔️] ⌨️ > [Chương trình đầu tiên với GoLang: Hello World](Programming-Langguage/GoLang/Hello-World-GoLang.md)
 
 ### Kiến thức cơ bản về Linux
 
