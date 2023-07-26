@@ -5,13 +5,13 @@
 
 **DevOps** là một phương pháp phát triển và vận hành phần mềm tập trung vào việc tự động hóa và tích hợp các quy trình phát triển và vận hành. Mục tiêu của **DevOps** là tạo ra một môi trường nơi các nhóm phát triển và vận hành có thể cộng tác chặt chẽ để cung cấp phần mềm nhanh hơn, đáng tin cậy hơn và linh hoạt hơn.
 
-Hôm nay chúng ta sẽ tập trung vào các bước riêng lẻ và chu trình liên tục của một ứng dụng từ đầu đến cuối trong thế giới DevOps.
+Hôm nay chúng ta sẽ tập trung vào các bước riêng lẻ và chu trình liên tục của một ứng dụng từ đầu đến cuối trong thế giới **DevOps**.
 
 ![img](../Image/DevOps-process.png)
 
 ### Kế hoạch (Plan)
 
-Tất cả bắt đầu với việc lên kế hoạch, đây là lúc nhóm phát triển họp lại với nhau để thảo luận và tìm ra các tính năng và bản sửa lỗi mà họ muốn có trong sprint tiếp theo. Đây cũng là lúc mà kỹ sư DevOps tham gia và tìm hiểu những phần liên quan tới công việc của mình. Bạn cũng có thể đóng góp ý kiến vào các quyết định của nhóm phát triển, giúp họ có thể làm việc với cơ sở hạ tầng mà bạn đã xây dựng hoặc hướng họ đến lựa chọn tốt hơn nếu họ đang không lựa chọn phương án tốt nhất. Một điều quan trọng nên nhớ là nhóm phát triển đang là khách hàng của bạn, đây là cơ hội tốt để làm việc với họ trước khi mọi thứ không đi trên con đường tốt nhất.
+Tất cả bắt đầu với việc lên kế hoạch, đây là lúc nhóm phát triển họp lại với nhau để thảo luận và tìm ra các tính năng và bản sửa lỗi mà họ muốn có trong sprint tiếp theo. Đây cũng là lúc mà kỹ sư **DevOps** tham gia và tìm hiểu những phần liên quan tới công việc của mình. Bạn cũng có thể đóng góp ý kiến vào các quyết định của nhóm phát triển, giúp họ có thể làm việc với cơ sở hạ tầng mà bạn đã xây dựng hoặc hướng họ đến lựa chọn tốt hơn nếu họ đang không lựa chọn phương án tốt nhất. Một điều quan trọng nên nhớ là nhóm phát triển đang là khách hàng của bạn, đây là cơ hội tốt để làm việc với họ trước khi mọi thứ không đi trên con đường tốt nhất.
 
 ### Viết mã (Code)
 
@@ -39,7 +39,7 @@ Sau khi triển khai ứng dụng, chúng ta sẽ chuyển qua giai đoạn vậ
 
 ### Giám sát (Monitor)
 
-Tất cả đều dẫn đến bước cuối cùng, giám sát. Điều này quan trọng với các các vấn đề vận hành như khắc phục sự cố, tự động mở rộng quy mô. Bạn có thể sẽ không biết có vấn đề xảy ra nếu bạn không giám sát hệ thống. Một số ví dụ cho các số liệu mà bạn có thể giám sát là: % sử dụng bộ nhớ, % sử dụng CPU, dung lượng ổ đĩa, thời gian phản hồi của API, và một phần rất qua trọng, logs. Nhờ logs, nhóm phát triển có thể xem những gì đã và đang diễn ra mà không cần truy cập vào hệ thống của môi trường sản xuất.
+Tất cả đều dẫn đến bước cuối cùng, giám sát. Điều này quan trọng với các các vấn đề vận hành như khắc phục sự cố, tự động mở rộng quy mô. Bạn có thể sẽ không biết có vấn đề xảy ra nếu bạn không giám sát hệ thống. Một số ví dụ cho các số liệu mà bạn có thể giám sát là: % sử dụng bộ nhớ, % sử dụng CPU, dung lượng ổ đĩa, thời gian phản hồi của **API**, và một phần rất qua trọng, logs. Nhờ logs, nhóm phát triển có thể xem những gì đã và đang diễn ra mà không cần truy cập vào hệ thống của môi trường sản xuất.
 
 ## Lặp lại
 
@@ -63,9 +63,11 @@ Nhiều công cụ giúp chúng ta thực hiện quy trình liên tục ở trê
 
 Sau khi có bản phát hành thành công từ **Tích hợp liên tục (Continuous Integration)**, chúng ta sẽ chuyển sang **Triển khai liên tục (Continuous Deployment)** gồm các giai đoạn sau.
 
-- Tích hợp liên tục phát hành thành công = Triển khai liên tục = Triển khai > Vận hành > Giám sát - ( CI Release is Success = Continuous Deployment = Deploy > Operate > Monitor )
+- Tích hợp liên tục phát hành thành công = Triển khai liên tục = Triển khai > Vận hành > Giám sát 
 
-Bạn có thể xem ba khái niệm **Liên tục(Continuous)** ở trên là tập hợp đơn giản của các giai đoạn của Vòng đời DevOps.
+- ( CI Release is Success = Continuous Deployment = Deploy > Operate > Monitor )
+
+Bạn có thể xem ba khái niệm **Liên tục (Continuous)** ở trên là tập hợp đơn giản của các giai đoạn của Vòng đời **DevOps**.
 
 ### Có thể tóm gọn quy trình DevOps bao gồm các bước sau:
 
