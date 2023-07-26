@@ -2,9 +2,9 @@
 
 ![img](Overview/devops.jpeg)
 
-### Giới thiệu DevOps
+### Giới thiệu về DevOps
 
-- [✔️] ♾️ > [DevOps là gì](Overview/DevOps-la-gi.md)
+- [✔️] ♾️ > [DevOps là gì?](Overview/DevOps-la-gi.md)
 - [✔️] ♾️ > [Roadmap để trở thành DevOps](Overview/DevOps-Roadmap.md)
 - [✔️] ♾️ > [DevOps Lifecycle - Vòng đời DevOps](Overview/DevOps-Lifecycle.md)
 - [✔️] ♾️ > [DevOps & Agile](Overview/DevOps-Agile.md)
@@ -29,7 +29,7 @@
 - [✔️] 🐧 > [Các lệnh Linux cho DevOps](OS/Basic/Linux-Basics.md)
 - [✔️] 🐧 > [Quản lý Hệ thống Linux, Hệ thống Flie & Lưu trữ](OS/Basic/File-System-Linux.md)
 - [✔️] 🐧 > [Text Editors - nano vs vim](OS/Basic/Linux-Nano-Vim.md)
-- [✔️] 🐧 > [SSH & Máy chủ Web (LAMP)]
+- [✔️] 🐧 > [SSH & Webserver (LAMP)](OS/Basic/SSH-Webserver.md)
 - [✔️] 🐧 > [Tự động hóa các tác vụ với các tập lệnh bash]
 - [✔️] 🐧 > [Thiết lập máy trạm phát triển - những điều tuyệt vời]
 
