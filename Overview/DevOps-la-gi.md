@@ -8,7 +8,7 @@
 
 ### Các giai đoạn trong vòng đời DevOps
 
-**Có 7 giai đoạn trong vòng đời DevOps:**
+Có 7 giai đoạn trong vòng đời **DevOps**:
 
 - **Phát triển liên tục (CD)** – Continuous development
 - **Tích hợp liên tục (CI)** – Continuous integration
@@ -20,7 +20,7 @@
 
 ### Lợi ích của DevOps
 
-**Các lợi ích của DevOps bao gồm:**
+Các lợi ích của **DevOps** bao gồm:
 
 - Tăng tốc độ triển khai sản phẩm
 - Giảm thiểu thời gian phát triển sản phẩm
@@ -31,7 +31,7 @@
 
 ### Một số công cụ sử dụng cho DevOps
 
-**Một số công cụ DevOps thông dụng được biết đến bao gồm :**
+Một số công cụ **DevOps** thông dụng được biết đến bao gồm :
 
 - **Git & GitHub** – Quản lý mã nguồn (Hệ thống kiểm soát phiên bản)
 - **Jenkins** – Máy chủ tự động, với các plugin được xây dựng để phát triển **CI / CD pipelines**
@@ -43,7 +43,7 @@
 
 ### Kỹ năng để trở thành DevOps
 
-**Các kỹ năng cần thiết để trở thành DevOps bao gồm :**
+Các kỹ năng cần thiết để trở thành **DevOps** bao gồm :
 
 - Kiến thức về các công cụ và phần mềm liên quan đến DevOps
 - Kiến thức về các quy trình phát triển phần mềm
@@ -55,7 +55,7 @@
 
 Lúc đầu, **DevOps** được cho là không thực tế với nhiều người do thiếu môi trường và các điều kiện như **Netflix** hay các công ty trong **Fortune 500** đang có. Nhưng giờ đây, tất cả các các doanh nghiệp đang tìm cách áp dụng các phương pháp DevOps, nó đang trở thành chuẩn mực.
 
-Bạn sẽ thấy từ các tài liệu tham khảo bên dưới rằng có rất nhiều ngành và ngành dọc khác nhau đang sử dụng DevOps và nó có tác động tích cực đến các mục tiêu kinh doanh của họ.
+Bạn sẽ thấy từ các tài liệu tham khảo bên dưới rằng có rất nhiều ngành và ngành dọc khác nhau đang sử dụng **DevOps** và nó có tác động tích cực đến các mục tiêu kinh doanh của họ.
 
 Lợi ích bao trùm ở đây là nếu **DevOps** được thực hiện đúng cách, tốc độ và chất lượng phát triển phần mềm của doanh nghiệp sẽ được cải thiện.
 
@@ -65,9 +65,9 @@ Chúng ta đã đề cập đến **Netflix** và sẽ đề cập đến nó m�
 
 ### Amazon
 
-Năm 2010, **Amazon** đã chuyển từ các máy chủ vật lý sang sử dụng điện toán đám mây **AWS** (**Amazon Web Services**). Điều này cho phép họ tiết kiệm tài nguyên bằng cách tăng/giảm dung lượng theo từng bước rất nhỏ. Chúng ta cũng biết rằng trong nhiều năm trở lại đây, **AWS** đã phát triển và tạo ra doanh thu khổng lồ cho **Amazon**.
+Năm **2010**, **Amazon** đã chuyển từ các máy chủ vật lý sang sử dụng điện toán đám mây **AWS** (**Amazon Web Services**). Điều này cho phép họ tiết kiệm tài nguyên bằng cách tăng/giảm dung lượng theo từng bước rất nhỏ. Chúng ta cũng biết rằng trong nhiều năm trở lại đây, **AWS** đã phát triển và tạo ra doanh thu khổng lồ cho **Amazon**.
 
-Vào năm 2011 (theo video ở phía dưới), **Amazon** đã áp dụng một quy trình triển khai liên tục cho phép nhóm phát triển có thể triển khai mã bất cứ khi nào họ muốn tới bất cứ máy chủ nào họ cần. Điều này cho phép **Amazon** triển khai phần mềm mới cho các máy chủ sản xuất với thời gian trung bình là 11.6 giây!
+Vào năm **2011** (theo video ở phía dưới), **Amazon** đã áp dụng một quy trình triển khai liên tục cho phép nhóm phát triển có thể triển khai mã bất cứ khi nào họ muốn tới bất cứ máy chủ nào họ cần. Điều này cho phép **Amazon** triển khai phần mềm mới cho các máy chủ sản xuất với thời gian trung bình là 11.6 giây!
 
 ### Netflix
 
@@ -85,7 +85,7 @@ Dưới đây là một cuộc nói chuyện tuyệt vời về những điều 
 
 Nhiều người trong chúng ta và nhiều doanh nghiệp đã thực sự phải vật lộn với việc triển khai chậm chạp và khó khăn. Tương tự với điều đó, chúng ta có thể đã có kinh nghiệm làm việc trong các nhóm phối hợp kém với nhau.
 
-Với những gì đã đọc từ **Amazon** và **Netflix**, **Etsy** có thể đã cho phép nhóm phát triển tự triển khai mã nguồn của họ vào khoảng cuối năm 2009, thậm chí còn có thể trước hai doanh nghiệp lớn trên. (Thật không thể tin được!)
+Với những gì đã đọc từ **Amazon** và **Netflix**, **Etsy** có thể đã cho phép nhóm phát triển tự triển khai mã nguồn của họ vào khoảng cuối năm **2009**, thậm chí còn có thể trước hai doanh nghiệp lớn trên. (Thật không thể tin được!)
 
 Một điều thú vị khác mà tôi rút ra được ở đây là khi các nhà phát triển cảm thấy có trách nhiệm với việc triển khai, họ cũng sẽ chịu trách nhiệm với hiệu suất ứng dụng, uptime và các mục tiêu, chỉ số khác.
 
