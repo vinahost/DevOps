@@ -1,6 +1,6 @@
 ## SSH & Webserver (LAMP)
 
-Như đã đề cập một vài lần, có thể bạn sẽ cần quản lý rất nhiều máy chủ Linux từ xa. Chính vì điều này, bạn sẽ cần đảm bảo rằng kết nối của mình với các máy chủ này được an toàn. Trong ngày hôm nay, chúng ta sẽ đề cập đến một số kiến ​​thức cơ bản về **SSH** để giúp bạn tạo đường hầm an toàn (**secure tunnel**) đến các hệ thống của mình từ xa.
+Như đã đề cập một vài lần, có thể bạn sẽ cần quản lý rất nhiều máy chủ **Linux** từ xa. Chính vì điều này, bạn sẽ cần đảm bảo rằng kết nối của mình với các máy chủ này được an toàn. Trong ngày hôm nay, chúng ta sẽ đề cập đến một số kiến ​​thức cơ bản về **SSH** để giúp bạn tạo đường hầm an toàn (**secure tunnel**) đến các hệ thống của mình từ xa.
 
 - Thiết lập kết nối với SSH
 - Chuyển tập tin
@@ -12,9 +12,9 @@ Như đã đề cập một vài lần, có thể bạn sẽ cần quản lý r�
 - Giao thức mạng
 - Cho phép liên lạc an toàn
 - Có thể bảo mật bất kỳ dịch vụ mạng nào
-- Thường được sử dụng với truy cập dòng lệnh (CLI) từ xa
+- Thường được sử dụng với truy cập dòng lệnh (**CLI**) từ xa
 
-Trong môi trường của chúng ta, nếu bạn đã theo dõi, chúng ta đã sử dụng SSH nhưng tất cả điều này đã được cấu hình và tự động hóa thông qua *vagrant*, vì vậy chúng ta chỉ phải chạy `vagrant ssh` là đã có thể truy cập vào máy ảo từ xa của mình.
+Trong môi trường của chúng ta, nếu bạn đã theo dõi, chúng ta đã sử dụng **SSH** nhưng tất cả điều này đã được cấu hình và tự động hóa thông qua *vagrant*, vì vậy chúng ta chỉ phải chạy `vagrant ssh` là đã có thể truy cập vào máy ảo từ xa của mình.
 
 Nếu máy chủ của chúng ta không nằm trên cùng hệ thống và ở rất xa với máy trạm, có thể trên môi trường cloud hoặc trên trung tâm dữ liệu (*Datacenter*) và chỉ có thể truy cập qua **Internet**, chúng ta sẽ cần một cách an toàn để có thể truy cập vào hệ thống và quản lý nó.
 
@@ -28,7 +28,7 @@ Nếu kết nối với thông tin đăng nhập chính xác hoặc một khoá 
 
 ### Bridged Network Adapter
 
-Thêm bộ điều hợp mạng bắc cầu (bridged network adapter) vào hệ thống
+Thêm bộ điều hợp mạng bắc cầu (*Bridged Network Adapter*) vào hệ thống
 
 Để thực hiện những điều này với **Virtual Box VM** hiện tại, chúng ta cần thêm bộ điều hợp mạng bắc cầu vào máy của mình.
 
@@ -36,13 +36,13 @@ Tắt nguồn máy ảo của bạn, nhấp chuột phải vào máy của bạn
 
 ![Bridged Network Adapter](/Image/SSH02.png)
 
-Bây giờ hãy bật lại máy ảo và bây giờ nó sẽ có một địa chỉ IP trên máy cục bộ của chúng ta. Bạn có thể xác nhận điều này bằng lệnh `IP addr`.
+Bây giờ hãy bật lại máy ảo và bây giờ nó sẽ có một địa chỉ **IP** trên máy cục bộ của chúng ta. Bạn có thể xác nhận điều này bằng lệnh `IP addr`.
 
-### Xác nhận máy chủ SSH đang chạy
+### Kiểm tra trạng thái dịch vụ SSH
 
-Chúng ta biết SSH đã được định cấu hình trên máy vì chúng ta đã sử dụng nó với vagrant nhưng cũng có thể xác nhận bằng cách chạy
+Chúng ta biết **SSH** đã được định cấu hình trên máy vì chúng ta đã sử dụng nó với *vagrant* nhưng cũng có thể xác nhận bằng cách chạy
 
-`sudo systemctl status ssh`
+    `sudo systemctl status ssh`
 
 ![SSH](/Image/SSH03.png)
 
@@ -50,7 +50,7 @@ Nếu hệ thống của bạn không có server **SSH** thì bạn có thể c�
 
 Sau đó, bạn muốn đảm bảo nếu tường lửa đang chạy, nó sẽ cho phép chúng ta kết nối tới server **SSH**. Việc này có thể được thực hiện với lệnh `sudo ufw allow ssh`, điều này không bắt buộc đối với cấu hình của chúng ta vì nó đã được tự động hóa với việc khi chúng ta khởi tạo bằng **vagrant**.
 
-### Truy cập từ xa - Mật khẩu SSH
+### Truy cập từ xa bằng mật khẩu SSH
 
 Bây giờ, chúng ta đã có server **SSH** nghe trên cổng 22 cho mọi yêu cầu kết nối đến và chúng ta đã thêm mạng bắc cầu, chúng ta có thể sử dụng **PuTTY** hoặc ứng dụng **SSH client** trên máy cục bộ của mình để kết nối với hệ thống bằng **SSH**.
 
@@ -68,7 +68,7 @@ Sau đó, chúng ta được yêu cầu nhập tên người dùng (**vagrant**)
 
 Ở giai đoạn này, chúng ta được kết nối với VM từ máy khách từ xa và chúng ta có thể thực hiện các lệnh trên hệ thống của mình.
 
-### Truy cập từ xa - Khóa SSH
+### Truy cập từ xa bằng khóa SSH
 
 Trên đây là cách dễ dàng nhất để có quyền truy cập vào hệ thống của bạn, tuy nhiên nó vẫn dựa vào tên người dùng và mật khẩu. Nếu một kẻ xấu nào đó có quyền truy cập những thông tin này cộng với địa chỉ công khai hoặc IP của hệ thống của bạn thì nó có thể dễ dàng bị xâm phạm. Chính vì lý do đó, khoá **SSH** được cho là giải pháp tốt hơn.
 
@@ -76,7 +76,7 @@ Khóa **SSH** có nghĩa là chúng ta cung cấp một cặp khóa để cả m
 
 Tạo một khóa rất dễ dàng. Trên máy cục bộ của chúng ta (**Windows**) chúng ta có thể sử dụng lệnh sau nếu bạn đã cài đặt **ssh-client** và tôi tin rằng câu lệnh tương tự sẽ hoạt động trên các hệ điều hành khác.
 
-`ssh-keygen -t ed25519`
+    `ssh-keygen -t ed25519`
 
 Tôi sẽ không đi sâu vào `ed25519` là gì và có nghĩa như thế nào nhưng bạn có thể tự tìm kiếm nếu muốn hiểu thêm về [mã hoá](https://en.wikipedia.org/wiki/EdDSA#Ed25519)
 
@@ -92,7 +92,7 @@ Tôi đã sử dụng **Powershell** để tạo khóa trên máy khách **Windo
 
 Bây giờ, chúng ta có thể quay lại **Powershell** để kiểm tra xem kết nối của chúng ta hiện có hoạt động với Khóa **SSH** mà không cần mật khẩu hay không.
 
-`ssh vagrant@192.168.169.135`
+    `ssh vagrant@192.168.169.135`
 
 ![SSH](/Image/SSH09.png)
 
@@ -119,7 +119,7 @@ Bạn cũng có thể thấy stack này được gọi là **LAMP stack**.
 
 Apache2 là một máy chủ HTTP mã nguồn mở. Chúng ta có thể cài đặt apache2 với câu lệnh sau
 
-`sudo apt-get install apache2`
+    `sudo apt-get install apache2`
 
 Để xác nhận rằng apache2 đã được cài đặt một cách chính xác, chúng ta có thể chạy `sudo service apache2 restart`
 
@@ -145,7 +145,7 @@ Khởi động lại dịch vụ apache2 `sudo systemctl restart apache2`
 
 Bây giờ, hãy xác nhận rằng hệ thống của chúng ta được cấu hình đúng cho **PHP**. Tạo tệp sau bằng cách sử dụng lệnh này, thao tác này sẽ mở một tệp trống ở định dạng **nano**.
 
-`sudo nano /var/www/html/90Days.php`
+    `sudo nano /var/www/html/90Days.php`
 
 Sau đó sao chép phần sau, sử dụng **control + x** để thoát và lưu lại tệp của bạn.
 
