@@ -135,3 +135,27 @@ You need to navigate:
 |docker pull    |Download an image          |
 |docker stats   |Container information      |
 |Docker images  |List of images downloaded  |
+
+## **How does communication happen between Docker client and Docker Daemon?**
+
+You can communicate between Docker client and Docker Daemon with the combination of Rest API, socket.IO, and TCP.
+
+## **Explain Implementation method of Continuous Integration(CI) and Continues Development (CD) in Docker**
+
+You need to do the following things:
+
+- Runs Jenkins on docker
+- You can run integration tests in Jenkins using docker-compose
+
+## **What are the command to control Docker with Systemd?**
+
+    systemctl start/stop docker
+    service docker start/stop
+
+## **How to use JSON instead of YAML compose file?**
+
+    docker-compose -f docker-compose.json up
+
+## **What is the command you need to give to push the new image to Docker registry?**
+
+    docker push myorg/img
