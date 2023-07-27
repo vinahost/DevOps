@@ -129,8 +129,9 @@ You need to navigate:
 
 ## **List out some important advanced docker commands**
 
-**Command**	                **Description**
-docker info	            Information Command
-docker pull	            Download an image
-docker stats	        Container information
-Docker images	        List of images downloaded
+|Command        |Description                |
+|---------------|---------------------------|
+|docker info    |Information Command        |
+|docker pull    |Download an image          |
+|docker stats   |Container information      |
+|Docker images  |List of images downloaded  |
