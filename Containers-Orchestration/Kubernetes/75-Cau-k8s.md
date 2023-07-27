@@ -306,7 +306,7 @@ A Kubernetes PodSecurityPolicy is a cluster-level resource that defines the secu
 
 A Kubernetes Operator is a method for extending Kubernetes functionality using custom resources and custom controllers. Operators define custom resources and include the logic to manage their lifecycle, often encoding domain-specific knowledge about applications.
 
-## Sumary
+## **Sumary**
 
 These 75 questions and answers further expand your understanding of Kubernetes and its many components and features. With a solid foundation in Kubernetes concepts, you’ll be well-prepared to tackle complex container orchestration tasks and build reliable, scalable, and secure applications.
 
