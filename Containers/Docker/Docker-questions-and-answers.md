@@ -24,6 +24,43 @@ The hypervisor allows you to create a virtual environment in which the guest vir
 
 Docker is an open-source lightweight containerization technology. It has gained widespread popularity in the cloud and application packaging world. It allows you to automate the deployment of applications in lightweight and portable containers.
 
+## **What is a DockerFile?**
+
+A Dockerfile is a text file that contains a set of instructions for building a Docker image. It is a text document that contains all the commands a user could call on the command line to assemble an image. Docker uses this script to build a container image.
+
+![DockerFile](/Image/Docker-QA02.png)
+
+The Dockerfile is a key part of the Docker ecosystem. It allows you to create reproducible and portable images that can be run on any machine that has Docker installed.
+
+The syntax of a Dockerfile is relatively simple. It consists of a series of instructions that are executed in order. The most common instructions are:
+
+- FROM: This instruction specifies the base image that the Dockerfile will be built on.
+- RUN: This instruction executes a command in the Dockerfile.
+- COPY: This instruction copies a file or directory from the host machine into the Dockerfile.
+- ENV: This instruction sets an environment variable in the Dockerfile.
+- LABEL: This instruction sets a label in the Dockerfile.
+
+Here is an example of a Dockerfile:
+
+    FROM ubuntu:latest
+    RUN apt-get update && apt-get install -y nginx
+    COPY nginx.conf /etc/nginx/nginx.conf
+    CMD ["nginx", "-g", "daemon off;"]
+
+This Dockerfile will create an image that installs Nginx on Ubuntu. The `RUN` instruction installs Nginx, the `COPY` instruction copies the nginx.conf file into the container, and the `CMD` instruction starts Nginx.
+
+Once you have created a Dockerfile, you can build an image from it using the `docker build` command. For example, to build the image from the above Dockerfile, you would run the following command:
+
+    docker build -t my-nginx .
+
+This will create an image named `my-nginx` from the Dockerfile in the current directory.
+
+Once you have built an image, you can run it using the `docker run` command. For example, to run the `my-nginx` image, you would run the following command:
+
+    docker run -p 80:80 my-nginx
+
+This will start a container running Nginx on port 80.
+
 ## **What are the advantages of using Docker container?**
 
 Here, are a major advantage of using Docker.
@@ -249,19 +286,19 @@ It contains container, images, and Docker daemon. It offers a complete environme
 
 ## **How do I run multiple copies of Compose file on the same host?**
 
-To run multiple copies of a Compose file on the same host, you can use the '-p' command line option or the 'COMPOSE_PROJECT_NAME' environment variable.
+To run multiple copies of a Compose file on the same host, you can use the `-p` command line option or the `COMPOSE_PROJECT_NAME` environment variable.
 
-The '-p' command line option allows you to specify a custom project name for your Compose file. This will create a unique set of identifiers for all of the containers and other resources in your project. For example, if you run the following command:
+The `-p` command line option allows you to specify a custom project name for your Compose file. This will create a unique set of identifiers for all of the containers and other resources in your project. For example, if you run the following command:
 
     docker-compose -p my-project up
 
-This will create a project named 'my-project' with its own set of identifiers. You can then run multiple copies of this project on the same host without any conflicts.
+This will create a project named `my-project` with its own set of identifiers. You can then run multiple copies of this project on the same host without any conflicts.
 
-The 'COMPOSE_PROJECT_NAME' environment variable also allows you to specify a custom project name for your Compose file. To use this variable, you would set it in your environment before running 'docker-compose'. For example, you could set the variable in your shell like this:
+The `COMPOSE_PROJECT_NAME` environment variable also allows you to specify a custom project name for your Compose file. To use this variable, you would set it in your environment before running `docker-compose`. For example, you could set the variable in your shell like this:
 
     export COMPOSE_PROJECT_NAME=my-project
 
-Then, you could run 'docker-compose up' and it would create a project named 'my-project' with its own set of identifiers.
+Then, you could run `docker-compose up` and it would create a project named `my-project` with its own set of identifiers.
 
 ## **Why Learn Docker?**
 
