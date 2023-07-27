@@ -10,19 +10,19 @@
 
 **What is Kubernetes?** 
     
-    Kubernetes, often abbreviated as K8s, is an open-source platform for automating deployment, scaling, and management of containerized applications. It was originally developed by Google and is now maintained by the Cloud Native Computing Foundation (CNCF).
+Kubernetes, often abbreviated as K8s, is an open-source platform for automating deployment, scaling, and management of containerized applications. It was originally developed by Google and is now maintained by the Cloud Native Computing Foundation (CNCF).
 
 **What is a container?**
     
-    A container is a lightweight, stand-alone, and executable software package that includes everything needed to run a piece of software, including the code, runtime, system tools, libraries, and settings.
+A container is a lightweight, stand-alone, and executable software package that includes everything needed to run a piece of software, including the code, runtime, system tools, libraries, and settings.
 
 **What are the main components of Kubernetes?** 
 
-    The main components of Kubernetes are the control plane, worker nodes, and the Kubernetes API.
+The main components of Kubernetes are the control plane, worker nodes, and the Kubernetes API.
 
-**What is the control plane? **
+**What is the control plane?**
 
-    The control plane is the set of components that manage the overall state of the cluster, including the API server, etcd datastore, controller manager, and the kube-scheduler.
+The control plane is the set of components that manage the overall state of the cluster, including the API server, etcd datastore, controller manager, and the kube-scheduler.
 
 **Questions 05:** What are worker nodes? Worker nodes are the machines that run containers. Each worker node runs the container runtime (such as Docker) and the kubelet agent, which communicates with the control plane.
 
