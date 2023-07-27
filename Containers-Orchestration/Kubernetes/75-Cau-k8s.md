@@ -8,7 +8,10 @@
 
 ### Questions 01 -> Questions 10
 
-**Questions 01:** What is Kubernetes? Kubernetes, often abbreviated as K8s, is an open-source platform for automating deployment, scaling, and management of containerized applications. It was originally developed by Google and is now maintained by the Cloud Native Computing Foundation (CNCF).
+**Questions 01:** 
+
+- **What is Kubernetes?** 
+    Kubernetes, often abbreviated as K8s, is an open-source platform for automating deployment, scaling, and management of containerized applications. It was originally developed by Google and is now maintained by the Cloud Native Computing Foundation (CNCF).
 
 **Questions 02:** What is a container? A container is a lightweight, stand-alone, and executable software package that includes everything needed to run a piece of software, including the code, runtime, system tools, libraries, and settings.
 
