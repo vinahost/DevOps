@@ -81,6 +81,10 @@ Here are the essential features of Docker:
 - Developer Productivity
 - Operational Efficiencies
 
+## **What can you tell about Docker Compose?**
+
+It is a YAML file consisting of all the details regarding various services, networks, and volumes that are needed for setting up the Docker-based application. So, docker-compose is used for creating multiple containers, host them and establish communication between them. For the purpose of communication amongst the containers, ports are exposed by each and every container
+
 ## **What are the main drawbacks of Docker?**
 
 Some notable drawbacks of Docker are:
