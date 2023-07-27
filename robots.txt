@@ -1,4 +1,8 @@
 User-agent: *
+Disallow: /nogooglebot/
+Disallow: /sitemap.xml
+
+User-agent: *
 Allow: /
 
-Sitemap: https://devops.vinahost.vn/sitemap.xml
+Sitemap: https://devops.vinahost.vn/site-map.xml
