@@ -159,3 +159,94 @@ You need to do the following things:
 ## **What is the command you need to give to push the new image to Docker registry?**
 
     docker push myorg/img
+
+## **How to include code with copy/add or volumes?**
+
+In docker file, we need to use COPY or ADD directive. This is useful to relocate code. However, we should use a volume if we want to make changes.
+
+## **Explain the process of scaling your Docker containers**
+
+The Docker containers can be scaled to any level starting from a few hundred to even thousands or millions of containers. The only condition for this is that the containers need the memory and the OS at all times, and there should not be a constraint when the Docker is getting scaled.
+
+## **What is the method for creating a Docker container?**
+
+You can use any of the specific Docker images for creating a Docker container using the below command.
+
+    docker run -t -i command name
+
+This command not only creates the container but also start it for you.
+
+## **What are the steps for the Docker container life cycle?**
+
+Below are the steps for Docker life cycle:
+
+- Build
+- Pull
+- Run
+
+## **How can you run multiple containers using a single service?**
+
+By using docker-compose, you can run multiple containers using a single service. All docker-compose files uses yaml language.
+
+## **What is CNM?**
+
+CNM stands for Container Networking Model. It is a standard or specification from Docker, Inc. that forms the basis of container networking in a Docker environment. This docker’s approach provides container networking with support for multiple network drivers.
+
+## **Does Docker offer support for IPV6?**
+
+Yes, Docker provides support IPv6. IPv6 networking is supported only on Docker daemons runs on Linux hosts. However, if you want to enable IPv6 support in the Docker daemon, you need to modify /etc/docker/daemon.json and set the ipv6 key to true.
+
+## **Can you lose data when the container exits?**
+
+No, any data that your application writes to disk get stored in container. The file system for the contain persists even after the container halts.
+
+## **What are a different kind of volume mount types available in Docker?**
+
+There are three types of volume mount types available in Docker:
+
+- **Bind mounts**: Bind mounts are the most basic type of volume mount. They allow you to mount a file or directory from the host machine into a container. This is useful for things like mounting your application's codebase or configuration files.
+- **Volumes**: Volumes are a more sophisticated type of volume mount. They are managed by Docker and can be shared between containers. This makes them a good choice for things like storing data that needs to be persisted across container restarts.
+- **tmpfs mount**s: tmpfs mounts are a type of volume mount that creates a temporary filesystem in the container's memory. This is useful for things like storing temporary data or caching.
+
+The best type of volume mount to use depends on your specific needs. If you need to mount a file or directory from the host machine into a container, then a bind mount is a good option. If you need to store data that needs to be persisted across container restarts, then a volume is a good option. And if you need to store temporary data or cache, then a tmpfs mount is a good option.
+
+Here are some examples of how to use the different volume mount types:
+
+    # Bind mount
+    docker run -it -v /my/code:/app my/app
+
+    # Volume
+    docker run -it -v my-volume:/data my/app
+
+    # tmpfs mount
+    docker run -it -v tmpfs:/tmp my/app
+
+## **How to configure the default logging driver under Docker?**
+
+To configure the Docker daemon to default to a specific logging driver. You need to set the value of log-driver to the name of the logging drive the daemon.jason.fie.
+
+## **Explain Docker Trusted Registry?**
+
+Docker Trusted Registry is the enterprise-grade image storage toll for Docker. You should install it after your firewall so that you can securely manage the Docker images you use in your applications.
+
+## **What are Docker Namespaces?**
+
+The Namespace in Docker is a technique which offers isolated workspaces called the Container. Namespaces also offer a layer of isolation for the Docker containers.
+
+## **What are the three components of Docker Architecture**
+
+- Client
+- Docker-Host
+- Registry
+
+## **What is client?**
+
+Docker provides Command Line Interface tools to the client to interact with Docker daemon.
+
+## **What is the purpose of Docker_Host?**
+
+It contains container, images, and Docker daemon. It offers a complete environment to execute and run your application.
+
+## **How do I run multiple copies of Compose file on the same host?**
+
+Compose uses the project name which allows you to create unique identifiers for all of a project’s containers and other resources. To run multiple copies of a project, set a custom project name using the -a command-line option or using COMPOSE_PROJECT_NAME environment variable.
