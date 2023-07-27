@@ -249,4 +249,25 @@ It contains container, images, and Docker daemon. It offers a complete environme
 
 ## **How do I run multiple copies of Compose file on the same host?**
 
-Compose uses the project name which allows you to create unique identifiers for all of a project’s containers and other resources. To run multiple copies of a project, set a custom project name using the -a command-line option or using COMPOSE_PROJECT_NAME environment variable.
+To run multiple copies of a Compose file on the same host, you can use the '-p' command line option or the 'COMPOSE_PROJECT_NAME' environment variable.
+
+The '-p' command line option allows you to specify a custom project name for your Compose file. This will create a unique set of identifiers for all of the containers and other resources in your project. For example, if you run the following command:
+
+    docker-compose -p my-project up
+
+This will create a project named 'my-project' with its own set of identifiers. You can then run multiple copies of this project on the same host without any conflicts.
+
+The 'COMPOSE_PROJECT_NAME' environment variable also allows you to specify a custom project name for your Compose file. To use this variable, you would set it in your environment before running 'docker-compose'. For example, you could set the variable in your shell like this:
+
+    export COMPOSE_PROJECT_NAME=my-project
+
+Then, you could run 'docker-compose up' and it would create a project named 'my-project' with its own set of identifiers.
+
+## **Why Learn Docker?**
+
+Application development is a lot more than just writing code! They involve a lot of behind-the-scenes things like usage of multiple frameworks and architectures for every stage of its lifecycle which makes the process more complex and challenging. Using the nature of containerization helps developers to simplify and efficiently accelerate the application workflow along with giving them the liberty to develop using their own choice of technology and development environments.
+
+- All these aspects form the core part of DevOps which becomes all the more important for any developer to know these in order to improve productivity, fasten the development along with keeping in mind the factors of application scalability and more efficient resource management.
+- Imagine containers as a very lightweight pre-installed box with all the packages, dependencies, software required by your application, just deploy to production with minimal configuration changes.
+- Lots of companies like PayPal, Spotify, Uber, etc use Docker to simplify the operations and to bring the infrastructure and security closer to make more secure applications.
+- Being portable, Containers can be deployed on multiple platforms like bare instances, virtual machines, Kubernetes platform etc. as per requirements of scale or desired platform.
