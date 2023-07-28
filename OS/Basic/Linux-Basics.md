@@ -75,7 +75,7 @@ Câu lệnh này sẽ liệt kê toàn bộ nội dung tại thư mục đang l�
 
 Thực thi câu lệnh kèm theo với quyền `root` / `superuser`.
 
-Cú pháp: 
+**Cú pháp: **
 
     sudo - execute a command as another user
 
@@ -88,113 +88,116 @@ Cú pháp:
 |sudo groupdel <groupname>|Xóa group ra khỏi hệ thống.|
 |sudo usermod -g <groupname> <username>|Thêm user vào một group primary.|
  
+### Lệnh cat
 
-3. cat
 Câu lệnh này sẽ giúp người dùng có thể đọc, điều chỉnh hoặc ghép các tập tin định dạng text.
 
-Cú pháp:
+**Cú pháp:**
 
-cat <option> <tên file>
+    cat <option> <tên file>
 
-Câu lệnh	Chi tiết
-cat -b	Đánh số thứ tự cho các dòng có ký tự.
-cat -n	Đánh số thứ tự cho toàn bộ các dòng trong tập tin.
-cat -s	Gộp những dòng không có ký tự lại thành 1 dòng.
-cat -E	Hiển thị dấu $ ở cuối dùng.
- 
+|Câu lệnh|Chi tiết|
+|--------|--------|
+|cat -b|Đánh số thứ tự cho các dòng có ký tự.|
+|cat -n|Đánh số thứ tự cho toàn bộ các dòng trong tập tin.|
+|cat -s|Gộp những dòng không có ký tự lại thành 1 dòng.|
+|cat -E|Hiển thị dấu $ ở cuối dùng.|
 
-4. grep
-Câu lệnh này sẽ giúp người dùng có thể tìm kiếm một từ khóa hoặc một đoạn từ khóa trong một tập tin. Tương tự chức năng “Ctrl + F” nhưng thực thi bằng CLI.
+### grep
 
-Cú pháp: 
+Câu lệnh này sẽ giúp người dùng có thể tìm kiếm một từ khóa hoặc một đoạn từ khóa trong một tập tin. Tương tự chức năng `Ctrl + F` nhưng thực thi bằng **CLI**.
 
-grep <option hoặc từ khóa cần tìm> <tên file>
+**Cú pháp:** 
 
-Câu lệnh	Chi tiết
-grep -i	Hiện thị kết quả tìm kiếm không phân biệt in hoa và in thường.
-grep -n	Hiển thị kết quả tìm kiếm cùng với số thứ tự của dòng.
-grep -v	Hiển thị kết quả những dòng không giống với cụm từ cần tìm.
-grep -c	Hiển thị số lượng dòng trùng khớp với cụm từ cần tìm.
-Trong thực tế, grep thường được lồng ghép với các câu lệnh liệt kê thông tin để lọc kết quả cần hiển thị. Ví dụ như bạn cần tìm PID của tiến trình python đang hoạt động trong hệ thống, thì sẽ gõ câu lệnh như sau: ps ux | grep python
+    grep <option hoặc từ khóa cần tìm> <tên file>
 
- 
+|Câu lệnh|Chi tiết|
+|--------|--------|
+|grep -i|Hiện thị kết quả tìm kiếm không phân biệt in hoa và in thường.|
+|grep -n|Hiển thị kết quả tìm kiếm cùng với số thứ tự của dòng.|
+|grep -v|Hiển thị kết quả những dòng không giống với cụm từ cần tìm.|
+|grep -c|Hiển thị số lượng dòng trùng khớp với cụm từ cần tìm.|
 
-5. sort
+Trong thực tế, `grep` thường được lồng ghép với các câu lệnh liệt kê thông tin để lọc kết quả cần hiển thị. Ví dụ như bạn cần tìm `PID` của tiến trình **python** đang hoạt động trong hệ thống, thì sẽ gõ câu lệnh như sau: `ps ux | grep python`
+
+### sort
 Câu lệnh này sẽ sắp xếp kết quả tìm kiếm theo thứ tự alphabet hoặc theo số tăng dần. Ngoài ra, câu lệnh này cũng sẽ sắp xếp tập tin, nội dung tập tin và thư mục.
 
-Cú pháp:
+**Cú pháp:**
 
-sort <option> <tên file>
+    sort <option> <tên file>
 
-Câu lệnh	Chi tiết
-sort -r	Đảo ngược kết quả sắp xếp.
-sort -f	Sắp xếp kết quả không phân biệt chữ hoa và thường.
-sort -n	Sắp xếp kết quả dựa theo số tăng dần.
- 
+|Câu lệnh|Chi tiết|
+|--------|--------|
+|sort -r|Đảo ngược kết quả sắp xếp.|
+|sort -f|Sắp xếp kết quả không phân biệt chữ hoa và thường.|
+|sort -n|Sắp xếp kết quả dựa theo số tăng dần.|
 
-6. tail
+### tail
+
 Câu lệnh này mặc định sẽ hiển thị 10 dòng cuối cùng của tập tin được chỉ định ra màn hình. Người dùng cũng có thể xem cùng lúc nội dung của nhiều tập tin.
 
-Cú pháp:
+**Cú pháp:**
 
-tail <option> <tên file>
+    tail <option> <tên file>
 
-Câu lệnh	Chi tiết
-tail -n	Hiển thị n dòng kết quả cuối cùng của tập tin.
-tail +<số>	Hiển thị kết quả từ dòng <số>.
-tail -c <số>	Hiển thị <số> byte cuối cùng từ tập tin được chỉ định.
+|Câu lệnh|Chi tiết|
+|--------|--------|
+|tail -n|Hiển thị n dòng kết quả cuối cùng của tập tin.|
+|tail +<số>|Hiển thị kết quả từ dòng <số>.|
+|tail -c <số>|Hiển thị <số> byte cuối cùng từ tập tin được chỉ định.|
  
+### chown
 
-7. chown
-Lệnh này được sử dụng để thay đổi user hoặc nhóm sở hữu tập tin hoặc thư mục. Bất cứ khi nào bạn muốn thay đổi quyền sở hữu, bạn có thể sử dụng lệnh chown.
+Lệnh này được sử dụng để thay đổi **user** hoặc nhóm sở hữu tập tin hoặc thư mục. Bất cứ khi nào bạn muốn thay đổi quyền sở hữu, bạn có thể sử dụng lệnh `chown`.
 
-Cú pháp: 
+**Cú pháp: **
 
-chown <option>… <OWNER><:[GROUP]> <tên file>…
-chown <option>… –reference=RFILE <tên file>…
+    chown <option>… <OWNER><:[GROUP]> <tên file>…
+    chown <option>… –reference=RFILE <tên file>…
 
- 
-
-8. chmod
+### chmod
 Lệnh này được sử dụng để thay đổi quyền truy cập của các tập tin và thư mục.
 
-Cú pháp:
+**Cú pháp:**
 
-chmod <quyền của user,group,"khác"> <tên file>
+    chmod <quyền của user,group,"khác"> <tên file>
 
-#	Quyền
-7	Đọc, ghi  và thực thi (read, write, execute).
-6	Đọc và ghi.
-5	Đọc và thực thi.
-4	Chỉ đọc.
-3	Ghi và thực thi.
-2	Chỉ ghi.
-1	Chỉ thực thi.
-0	Không phân quyền.
- 
+**Quyền**
 
-9. lsof
-lsof hay còn gọi là “list open files“, dùng để liệt kê thông tin về các tập tin trên hệ thống đang hoặc đã được mở bởi các tiến trình đang hoạt động.
+- 7	Đọc, ghi  và thực thi (read, write, execute).
+- 6	Đọc và ghi.
+- 5	Đọc và thực thi.
+- 4	Chỉ đọc.
+- 3	Ghi và thực thi.
+- 2	Chỉ ghi.
+- 1	Chỉ thực thi.
+- 0	Không phân quyền.
 
-Cú pháp: 
+### lsof
 
-lsof <option> <username>
+**lsof** hay còn gọi là “**list open files**“, dùng để liệt kê thông tin về các tập tin trên hệ thống đang hoặc đã được mở bởi các tiến trình đang hoạt động.
+
+**Cú pháp: **
+
+    lsof <option> <username>
 
 Kết quả sẽ hiển thị với các cột có các nội dung tương ứng như sau:
 
-Cột	Chú thích
-COMMAND	9 kí tự đầu tiên của tên chương trình lệnh tương ứng với tiến trình.
-PID	Thông tin PID của tiến trình.
-USER	User thực thi tiến trình đó. Có thể là UID hoặc username.
-FD	File Descriptor của tập tin được liệt kê, hoặc các thông tin khác hay mode (w,u,r) của tập tin. 
-cwd : là thư mục đang hoạt động của tiến trình.
-txt : program text (code và data).
-mmap : tập tin memory-mapped.
-rtd : root directory (thư mục root).
-DEL : Linux map tập tin đã bị xoá.
-w : đang truy cập ghi xuống dữ liệu.
-u : đang truy cập ghi và đọc dữ liệu.
-r : đang truy cập đọc dữ liệu.
+|Cột|Chú thích|
+|---|---------|
+|COMMAND|9 kí tự đầu tiên của tên chương trình lệnh tương ứng với tiến trình.|
+|PID|Thông tin PID của tiến trình.|
+|USER|User thực thi tiến trình đó. Có thể là UID hoặc username.|
+|FD|File Descriptor của tập tin được liệt kê, hoặc các thông tin khác hay mode (w,u,r) của tập tin.
+- cwd : là thư mục đang hoạt động của tiến trình.
+- txt : program text (code và data).
+- mmap : tập tin memory-mapped.
+- rtd : root directory (thư mục root).
+- DEL : Linux map tập tin đã bị xoá.
+- w : đang truy cập ghi xuống dữ liệu.
+- u : đang truy cập ghi và đọc dữ liệu.
+- r : đang truy cập đọc dữ liệu.|
 TYPE	
 REG : tập tin thông thường
 sock : socket.
