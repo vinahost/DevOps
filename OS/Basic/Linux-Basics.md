@@ -23,7 +23,7 @@ Lệnh `apt` có thể được sử dụng để cài đặt các gói từ kho
 
 Lệnh `apt` là một công cụ mạnh mẽ và linh hoạt có thể được sử dụng để quản lý các gói phần mềm trên các hệ thống dựa trên **Debian**. Nó là một công cụ quan trọng đối với bất kỳ ai sử dụng một hệ thống dựa trên **Debian**, và nó có thể được sử dụng để dễ dàng cài đặt, gỡ bỏ, cập nhật và quản lý các gói phần mềm.
 
-**Dưới đây là một số lệnh `apt` phổ biến:**
+Một số lệnh `apt` phổ biến:
 
 - apt install package_name: Cài đặt gói phần mềm có tên package_name.
 - apt remove package_name: Gỡ bỏ gói phần mềm có tên package_name.
@@ -37,7 +37,7 @@ Lệnh `apt` là một công cụ mạnh mẽ và linh hoạt có thể được
 
 Tuy nhiên, `apt` và `apt-get` có một số khác biệt chính. `Apt` là một công cụ hiện đại hơn, được thiết kế để dễ sử dụng hơn và cung cấp nhiều tính năng hơn. `Apt-get` là một công cụ cũ hơn, nhưng vẫn được sử dụng rộng rãi.
 
-Dưới đây là một số điểm khác biệt chính giữa `apt` và `apt-get`:
+Một số điểm khác biệt chính giữa `apt` và `apt-get`:
 
 - Apt là một công cụ hiện đại hơn, được thiết kế để dễ sử dụng hơn.
 - Apt cung cấp nhiều tính năng hơn apt-get, chẳng hạn như khả năng quản lý các kho lưu trữ và các phụ thuộc của gói.
@@ -54,7 +54,7 @@ Lệnh `yum` có thể được sử dụng để cài đặt các gói từ kho
 
 Lệnh `yum` là một công cụ mạnh mẽ và linh hoạt có thể được sử dụng để quản lý các gói phần mềm trên các hệ thống dựa trên **Red Hat**. Nó là một công cụ quan trọng đối với bất kỳ ai sử dụng một hệ thống dựa trên **Red Hat**, và nó có thể được sử dụng để dễ dàng cài đặt, gỡ bỏ, cập nhật và quản lý các gói phần mềm.
 
-Dưới đây là một số lệnh `yum` phổ biến:
+Một số lệnh `yum` phổ biến:
 
 - yum install package_name: Cài đặt gói phần mềm có tên package_name.
 - yum remove package_name: Gỡ bỏ gói phần mềm có tên package_name.
@@ -71,7 +71,7 @@ Lệnh `dnf` là một công cụ mạnh mẽ và linh hoạt có thể được
 
 Lệnh `dnf` được sử dụng trên hệ thống **Fedora 30** trở lên hoặc **RHEL 8** trở lên.
 
-Dưới đây là một số lệnh `dnf` phổ biến:
+Một số lệnh `dnf` phổ biến:
 
 - dnf install package_name: Cài đặt gói phần mềm có tên package_name.
 - dnf remove package_name: Gỡ bỏ gói phần mềm có tên package_name.
@@ -80,7 +80,7 @@ Dưới đây là một số lệnh `dnf` phổ biến:
 - dnf search keyword: Tìm kiếm các gói phần mềm có chứa từ khóa keyword.
 - dnf info package_name: Hiển thị thông tin chi tiết về gói phần mềm có tên package_name.
 
-Một số khác biệt chính giữa **YUM** và **DNF** bao gồm:
+So sánh khác biệt chính giữa **YUM** và **DNF** bao gồm:
 
 - DNF nhanh hơn YUM.
 - DNF có nhiều tính năng hơn YUM, chẳng hạn như khả năng quản lý các kho lưu trữ và các phụ thuộc của gói.
