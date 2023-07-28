@@ -38,6 +38,7 @@
 - [✔️] 🐧 > [Thực hành Linux với HashiCorp Vagrant](OS/Basic/HashiCorp-Vagrant.md)
 - [✔️] 🐧 > [Các lệnh Linux cho DevOps](OS/Basic/Linux-Basics.md)
 - [✔️] 🐧 > [Cài phần mềm trên Linux](OS/Basic/Install-Software-Linux.md)
+- [✔️] 🐧 > [Câu lệnh Find trong Linux](OS/Basic/Lenh-Find-Trong-Linux.md)
 - [✔️] 🐧 > [Quản lý Hệ thống Linux, Hệ thống Flie & Lưu trữ](OS/Basic/File-System-Linux.md)
 - [✔️] 🐧 > [Text Editors - nano vs vim](OS/Basic/Linux-Nano-Vim.md)
 - [✔️] 🐧 > [SSH & Webserver (LAMP)](OS/Basic/SSH-Webserver.md)
