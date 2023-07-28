@@ -15,20 +15,78 @@
 - **An toàn**: Linux được thiết kế để bảo mật và chống lại các cuộc tấn công.
 - **Miễn phí**: Linux là một hệ điều hành miễn phí, có nghĩa là bạn có thể sử dụng nó và sửa đổi nó mà không phải trả bất kỳ khoản phí nào.
 
-### Lệnh cho Debian - Ubuntu ...
+## Lệnh apt trên Debian - Ubuntu
 
-- apt-get install: Lệnh này được sử dụng để cài đặt các gói phần mềm.
-- apt-get remove: Lệnh này được sử dụng để gỡ cài đặt các gói phần mềm.
-- apt-get update: Lệnh này được sử dụng để cập nhật danh sách các gói phần mềm có sẵn.
-- apt-get upgrade: Lệnh này được sử dụng để nâng cấp các gói phần mềm hiện có.
+Lệnh `apt` là một công cụ quản lý gói dòng lệnh được sử dụng để cài đặt, gỡ bỏ, cập nhật và quản lý các gói phần mềm trên các hệ thống dựa trên **Debian**, bao gồm **Ubuntu** và **Linux Mint**. Nó là một phần của hệ thống quản lý gói **APT** (**Advanced Package Tool**), cung cấp một cách thống nhất để quản lý các gói phần mềm.
 
-### Lệnh cho Centos - Redhat ...
+Lệnh `apt` có thể được sử dụng để cài đặt các gói từ kho lưu trữ **Debian** chính thức, cũng như từ các kho lưu trữ của bên thứ ba. Nó cũng có thể được sử dụng để gỡ bỏ các gói, cập nhật các gói hiện có và quản lý các phụ thuộc của gói.
 
-- yum install: Lệnh này được sử dụng để cài đặt các gói phần mềm trên hệ điều hành Fedora hoặc Red Hat.
-- yum remove: Lệnh này được sử dụng để gỡ cài đặt các gói phần mềm trên hệ điều hành Fedora hoặc Red Hat.
-- yum update: Lệnh này được sử dụng để cập nhật danh sách các gói phần mềm có sẵn trên hệ điều hành Fedora hoặc Red Hat.
-- yum upgrade: Lệnh này được sử dụng để nâng cấp các gói phần mềm hiện có trên hệ điều hành Fedora hoặc Red Hat.
-- dnf install: Tải xuống và cài đặt một gói phần mềm trên hệ thống Fedora 30 trở lên hoặc RHEL 8 trở lên.
+Lệnh `apt` là một công cụ mạnh mẽ và linh hoạt có thể được sử dụng để quản lý các gói phần mềm trên các hệ thống dựa trên **Debian**. Nó là một công cụ quan trọng đối với bất kỳ ai sử dụng một hệ thống dựa trên **Debian**, và nó có thể được sử dụng để dễ dàng cài đặt, gỡ bỏ, cập nhật và quản lý các gói phần mềm.
+
+**Dưới đây là một số lệnh `apt` phổ biến:**
+
+- apt install package_name: Cài đặt gói phần mềm có tên package_name.
+- apt remove package_name: Gỡ bỏ gói phần mềm có tên package_name.
+- apt update: Cập nhật danh sách các gói phần mềm có sẵn từ kho lưu trữ.
+- apt upgrade: Cập nhật tất cả các gói phần mềm đã cài đặt lên phiên bản mới nhất.
+- apt dist-upgrade: Cập nhật hệ điều hành lên phiên bản mới nhất.
+- apt-cache search keyword: Tìm kiếm các gói phần mềm có chứa từ khóa keyword.
+- apt-cache show package_name: Hiển thị thông tin chi tiết về gói phần mềm có tên package_name
+
+`apt` và `apt-get` đều là các công cụ dòng lệnh được sử dụng để quản lý các gói phần mềm trên các hệ thống dựa trên **Debian**, bao gồm **Ubuntu** và **Linux Mint**. Cả hai đều dựa trên **APT** (**Advanced Package Tool**), một hệ thống quản lý gói cung cấp một cách thống nhất để cài đặt, gỡ bỏ, cập nhật và quản lý các gói phần mềm.
+
+Tuy nhiên, `apt` và `apt-get` có một số khác biệt chính. `Apt` là một công cụ hiện đại hơn, được thiết kế để dễ sử dụng hơn và cung cấp nhiều tính năng hơn. `Apt-get` là một công cụ cũ hơn, nhưng vẫn được sử dụng rộng rãi.
+
+Dưới đây là một số điểm khác biệt chính giữa `apt` và `apt-get`:
+
+- Apt là một công cụ hiện đại hơn, được thiết kế để dễ sử dụng hơn.
+- Apt cung cấp nhiều tính năng hơn apt-get, chẳng hạn như khả năng quản lý các kho lưu trữ và các phụ thuộc của gói.
+- Apt có thể được sử dụng để giao tiếp với các kho lưu trữ của bên thứ ba, trong khi apt-get không thể.
+- Apt là công cụ mặc định trong Ubuntu và Linux Mint, trong khi apt-get là công cụ mặc định trong Debian.
+
+Nhìn chung, `apt` là công cụ quản lý gói tốt hơn `apt-get`. Nó hiện đại hơn, dễ sử dụng hơn và cung cấp nhiều tính năng hơn. Nếu bạn đang sử dụng một hệ thống dựa trên **Debian**, tôi khuyên bạn nên sử dụng `apt` thay vì `apt-get`.
+
+## Lệnh cài đặt trên Centos - Redhat
+
+Lệnh `yum` là một công cụ quản lý gói dòng lệnh được sử dụng để cài đặt, gỡ bỏ, cập nhật và quản lý các gói phần mềm trên các hệ thống dựa trên **Red Hat**, bao gồm **CentOS**, **RHEL**, **Fedora** và **AlmaLinux**. Nó là một phần của hệ thống quản lý gói **YUM** (*Yellow dog Updater, Modified*), cung cấp một cách thống nhất để quản lý các gói phần mềm.
+
+Lệnh `yum` có thể được sử dụng để cài đặt các gói từ kho lưu trữ **Red Hat** chính thức, cũng như từ các kho lưu trữ của bên thứ ba. Nó cũng có thể được sử dụng để gỡ bỏ các gói, cập nhật các gói hiện có và quản lý các phụ thuộc của gói.
+
+Lệnh `yum` là một công cụ mạnh mẽ và linh hoạt có thể được sử dụng để quản lý các gói phần mềm trên các hệ thống dựa trên **Red Hat**. Nó là một công cụ quan trọng đối với bất kỳ ai sử dụng một hệ thống dựa trên **Red Hat**, và nó có thể được sử dụng để dễ dàng cài đặt, gỡ bỏ, cập nhật và quản lý các gói phần mềm.
+
+Dưới đây là một số lệnh `yum` phổ biến:
+
+- yum install package_name: Cài đặt gói phần mềm có tên package_name.
+- yum remove package_name: Gỡ bỏ gói phần mềm có tên package_name.
+- yum update: Cập nhật tất cả các gói phần mềm đã cài đặt lên phiên bản mới nhất.
+- yum list: Liệt kê tất cả các gói phần mềm đã cài đặt trên hệ thống của bạn.
+- yum search keyword: Tìm kiếm các gói phần mềm có chứa từ khóa keyword.
+- yum info package_name: Hiển thị thông tin chi tiết về gói phần mềm có tên package_name.
+
+`dnf` là một công cụ quản lý gói dòng lệnh được sử dụng để cài đặt, gỡ bỏ, cập nhật và quản lý các gói phần mềm trên các hệ thống dựa trên **Red Hat**, bao gồm **Fedora**, **CentOS**, **RHEL** và **AlmaLinux**. Nó là một phần của hệ thống quản lý gói **DNF** (*Dnf Package Manager*), là một bản thay thế mới hơn cho **YUM** (*Yellow dog Updater, Modified*).
+
+Lệnh `dnf` có thể được sử dụng để cài đặt các gói từ kho lưu trữ **Red Hat** chính thức, cũng như từ các kho lưu trữ của bên thứ ba. Nó cũng có thể được sử dụng để gỡ bỏ các gói, cập nhật các gói hiện có và quản lý các phụ thuộc của gói.
+
+Lệnh `dnf` là một công cụ mạnh mẽ và linh hoạt có thể được sử dụng để quản lý các gói phần mềm trên các hệ thống dựa trên **Red Hat**. Nó là một công cụ quan trọng đối với bất kỳ ai sử dụng một hệ thống dựa trên **Red Hat**, và nó có thể được sử dụng để dễ dàng cài đặt, gỡ bỏ, cập nhật và quản lý các gói phần mềm.
+
+Lệnh `dnf` được sử dụng trên hệ thống **Fedora 30** trở lên hoặc **RHEL 8** trở lên.
+
+Dưới đây là một số lệnh `dnf` phổ biến:
+
+- dnf install package_name: Cài đặt gói phần mềm có tên package_name.
+- dnf remove package_name: Gỡ bỏ gói phần mềm có tên package_name.
+- dnf update: Cập nhật tất cả các gói phần mềm đã cài đặt lên phiên bản mới nhất.
+- dnf list: Liệt kê tất cả các gói phần mềm đã cài đặt trên hệ thống của bạn.
+- dnf search keyword: Tìm kiếm các gói phần mềm có chứa từ khóa keyword.
+- dnf info package_name: Hiển thị thông tin chi tiết về gói phần mềm có tên package_name.
+
+Một số khác biệt chính giữa **YUM** và **DNF** bao gồm:
+
+- DNF nhanh hơn YUM.
+- DNF có nhiều tính năng hơn YUM, chẳng hạn như khả năng quản lý các kho lưu trữ và các phụ thuộc của gói.
+- DNF tương thích với nhiều hệ thống hơn YUM, bao gồm CentOS, RHEL, Fedora và AlmaLinux.
+
+Nhìn chung, `dnf` là một bản nâng cấp đáng kể so với `yum`. Nó nhanh hơn, có nhiều tính năng hơn và tương thích với nhiều hệ thống hơn. Nếu bạn đang sử dụng một hệ thống dựa trên **Red Hat**, tôi khuyên bạn nên sử dụng **DNF** thay vì **YUM**.
 
 ### Lệnh chung trên Linux
 
@@ -638,7 +696,7 @@ Cú pháp:
 
     telnet <hostname / địa chỉ ip>
 
-### Một số lệnh cho các phần mềm trên Linux
+## Một số lệnh cho các phần mềm trên Linux
 
 - pip install: Tải xuống và cài đặt một gói phần mềm Python.
 - npm install: Tải xuống và cài đặt một gói phần mềm JavaScript.
@@ -647,13 +705,13 @@ Cú pháp:
 - maven install: Xây dựng một dự án Maven.
 - sbt compile: Xây dựng một dự án SBT.
 
-### Một số lệnh dành cho Docker
+## Một số lệnh dành cho Docker
 
 - docker build: Xây dựng một hình ảnh Docker.
 - docker run: Chạy một hình ảnh Docker.
 - docker push: Đẩy một hình ảnh Docker lên kho lưu trữ Docker.
 
-### Một số lệnh dành cho Kubernetes
+## Một số lệnh dành cho Kubernetes
 
 - kubectl create deployment: Tạo một triển khai Kubernetes.
 - kubectl scale deployment: Thay đổi quy mô một triển khai Kubernetes.
@@ -681,7 +739,7 @@ Trường hợp cần thông tin chi tiết, các bạn có thể sử dụng l�
 
 Đây chỉ là một số lệnh Linux phổ biến được sử dụng trong DevOps. Có nhiều lệnh khác có thể được sử dụng, tùy thuộc vào các nhiệm vụ cụ thể mà bạn đang thực hiện.
 
-### Tham khảo
+## Tham khảo
 
 - https://github.com/trinib/Linux-Bash-Commands
 - https://github.com/sk3pp3r/cheat-sheet-pdf
