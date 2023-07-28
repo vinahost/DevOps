@@ -109,8 +109,8 @@ Sau khi chạy lệnh này, bạn sẽ thấy một giao diện Python. Bạn c�
 
 ### Tham khảo:
 
-- https://www.python.org/
-- https://www.docker.com/
+- [Trang chủ Python](https://www.python.org/)
+- [Trang chủ Docker](https://www.docker.com/)
 - https://github.com/vinahostvn/devops/blob/main/Containers/Docker/Docker-la-gi.md
 - https://github.com/gto76/python-cheatsheet hoặc https://gto76.github.io/python-cheatsheet/
 - https://github.com/trekhleb/learn-python
