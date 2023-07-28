@@ -190,14 +190,15 @@ Kết quả sẽ hiển thị với các cột có các nội dung tương ứng
 |PID|Thông tin PID của tiến trình.|
 |USER|User thực thi tiến trình đó. Có thể là UID hoặc username.|
 |FD| File Descriptor của tập tin được liệt kê, hoặc các thông tin khác hay mode (w,u,r) của tập tin.|
- || cwd : là thư mục đang hoạt động của tiến trình.|
- || txt : program text (code và data).|
- || mmap : tập tin memory-mapped.|
- || rtd : root directory (thư mục root).|
- || DEL : Linux map tập tin đã bị xoá.|
- || w : đang truy cập ghi xuống dữ liệu.|
- || u : đang truy cập ghi và đọc dữ liệu.|
- || r : đang truy cập đọc dữ liệu.|
+|-|-|
+|| cwd : là thư mục đang hoạt động của tiến trình.|
+|| txt : program text (code và data).|
+|| mmap : tập tin memory-mapped.|
+|| rtd : root directory (thư mục root).|
+|| DEL : Linux map tập tin đã bị xoá.|
+|| w : đang truy cập ghi xuống dữ liệu.|
+|| u : đang truy cập ghi và đọc dữ liệu.|
+|| r : đang truy cập đọc dữ liệu.|
 |TYPE|
  || REG : tập tin thông thường|
  || sock : socket.|
