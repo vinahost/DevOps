@@ -46,21 +46,21 @@ Bây giờ chúng ta cần các khóa, các **tokens** và **secrets** mà chún
 
 **Windows**
 
-    ```
-    set CONSUMER_KEY
-    set CONSUMER_SECRET
-    set ACCESS_TOKEN
-    set ACCESS_TOKEN_SECRET
-    ```
+```
+set CONSUMER_KEY
+set CONSUMER_SECRET
+set ACCESS_TOKEN
+set ACCESS_TOKEN_SECRET
+```
 
 **Linux/macOS**
 
-    ```
-    export CONSUMER_KEY
-    export CONSUMER_SECRET
-    export ACCESS_TOKEN
-    export ACCESS_TOKEN_SECRET
-    ```
+```
+export CONSUMER_KEY
+export CONSUMER_SECRET
+export ACCESS_TOKEN
+export ACCESS_TOKEN_SECRET
+```
 
 Ở giai đoạn này, bạn có thể xem mã tại [Twitter02](/Scripts/GoLang/Twitter02.go) nhưng bạn sẽ thấy ở đây rằng chúng ta sẽ sử dụng một cấu trúc (**struct**) để khai báo khóa, **secrets** và **tokens**.
 
@@ -268,7 +268,7 @@ Sau khi bạn đã khắc phục điều đó hoặc nếu bạn chọn không x
 
 ## Cách biên dịch cho nhiều hệ điều hành
 
-Tiếp theo, tôi muốn đề cập đến câu hỏi, "Làm cách nào để bạn biên dịch cho nhiều Hệ điều hành?". Điều tuyệt vời của Go là nó có thể dễ dàng biên dịch cho nhiều Hệ điều hành khác nhau. Bạn có thể nhận được danh sách đầy đủ bằng cách chạy lệnh sau:
+Tiếp theo, tôi muốn đề cập đến câu hỏi, "Làm cách nào để bạn biên dịch cho nhiều Hệ điều hành?". Điều tuyệt vời của **Go** là nó có thể dễ dàng biên dịch cho nhiều Hệ điều hành khác nhau. Bạn có thể nhận được danh sách đầy đủ bằng cách chạy lệnh sau:
 
 ```
 go tool dist list
