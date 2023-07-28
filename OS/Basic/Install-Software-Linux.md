@@ -8,7 +8,7 @@ Một số cách phổ biến nhất để cài đặt phần mềm trên **Linu
 
 - Sử dụng trình quản lý gói: Trình quản lý gói là một công cụ được sử dụng để cài đặt, gỡ bỏ và quản lý các gói phần mềm trên **Linux**. Các trình quản lý gói phổ biến nhất bao gồm **APT** (*Advanced Package Tool*) trên các hệ thống dựa trên **Debian** và **RPM** (*Red Hat Package Manager*) trên các hệ thống dựa trên **Red Hat**.
 - Chạy tệp nhị phân (binary): Nếu phần mềm bạn muốn cài đặt có sẵn dưới dạng tệp nhị phân, bạn có thể chạy tệp đó để cài đặt.
-- Cài đặt từ nguồn: Nếu phần mềm bạn muốn cài đặt không có sẵn dưới dạng tệp nhị phân, bạn có thể cài đặt từ nguồn. Điều này liên quan đến việc tải xuống mã nguồn của phần mềm và biên dịch nó trên hệ thống của bạn.
+- Cài đặt từ nguồn (source code): Nếu phần mềm bạn muốn cài đặt không có sẵn dưới dạng tệp nhị phân, bạn có thể cài đặt từ nguồn. Điều này liên quan đến việc tải xuống mã nguồn của phần mềm và biên dịch nó trên hệ thống của bạn.
 
 Dưới đây là một số ví dụ về cách cài đặt phần mềm trên Linux bằng các phương pháp khác nhau:
 
