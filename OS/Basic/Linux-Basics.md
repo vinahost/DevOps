@@ -71,19 +71,22 @@ Câu lệnh này sẽ liệt kê toàn bộ nội dung tại thư mục đang l�
 |ls -l|Liệt kê toàn bộ nội dung có trong thư mục kèm theo các trường thông tin như người sở hữu, các quyền trên nội dung, thời gian chỉnh sửa gần nhất.|
 |ls -a|Liệt kê toàn bộ nội dung bên trong thư mục, bao gồm các tập tin ẩn.|
  
+### Lệnh sudo
 
-2. sudo
-Thực thi câu lệnh kèm theo với quyền root / superuser.
+Thực thi câu lệnh kèm theo với quyền `root` / `superuser`.
 
 Cú pháp: 
 
-Câu lệnh	Chi tiết
-sudo useradd <username>	Thêm mới user vào hệ thống.
-sudo passwd <username>	Thiết lập mật khẩu cho user.
-sudo userdel <username>	Xóa user ra khỏi hệ thống.
-sudo groupadd <groupname>	Thêm mới group vào hệ thống.
-sudo groupdel <groupname>	Xóa group ra khỏi hệ thống.
-sudo usermod -g <groupname> <username>	Thêm user vào một group primary.
+    sudo - execute a command as another user
+
+|Câu lệnh|Chi tiết|
+|--------|--------|
+|sudo useradd <username>|Thêm mới user vào hệ thống.|
+|sudo passwd <username>|Thiết lập mật khẩu cho user.|
+|sudo userdel <username>|Xóa user ra khỏi hệ thống.|
+|sudo groupadd <groupname>|Thêm mới group vào hệ thống.|
+|sudo groupdel <groupname>|Xóa group ra khỏi hệ thống.|
+|sudo usermod -g <groupname> <username>|Thêm user vào một group primary.|
  
 
 3. cat
