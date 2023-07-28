@@ -55,9 +55,9 @@
 
 ### Chi tiết những câu lệnh trên Linux thường sử dụng trong DevOps
 
-Sau đây sẽ là những câu lệnh trên Linux thường sử dụng trong công việc của DevOps.
+Sau đây sẽ là những câu lệnh trên **Linux** thường sử dụng trong công việc của **DevOps**.
 
-#### ls
+#### Lệnh ls
 
 Câu lệnh này sẽ liệt kê toàn bộ nội dung tại thư mục đang làm việc.
 
