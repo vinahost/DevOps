@@ -189,8 +189,8 @@ Kết quả sẽ hiển thị với các cột có các nội dung tương ứng
 |COMMAND|9 kí tự đầu tiên của tên chương trình lệnh tương ứng với tiến trình.|
 |PID|Thông tin PID của tiến trình.|
 |USER|User thực thi tiến trình đó. Có thể là UID hoặc username.|
-|FD|File Descriptor của tập tin được liệt kê, hoặc các thông tin khác hay mode (w,u,r) của tập tin.|
-|FD|- cwd : là thư mục đang hoạt động của tiến trình.|
+|FD|File Descriptor của tập tin được liệt kê, hoặc các thông tin khác hay mode (w,u,r) của tập tin.
+  - cwd : là thư mục đang hoạt động của tiến trình.|
 - txt : program text (code và data).
 - mmap : tập tin memory-mapped.
 - rtd : root directory (thư mục root).
@@ -227,7 +227,7 @@ lsof      28208          root  txt       REG                8,2    154184    650
 
  
 
-10. ifconfig
+1.  ifconfig
 ifconfig (interface configuration) là một trong những câu lệnh dùng để xem nhanh các địa chỉ IP và các thông tin khác của giao diện mạng (interface). Gõ ifconfig để xem trạng thái các interface hiện đang hoạt động, trong đó bao gồm tên, tình trạng thông tin địa chỉ IP, địa chỉ MAC. Bạn cũng có thể chỉ định tên một interface cần xem thông tin thay vì xem toàn bộ.
 
 Cú pháp: 
