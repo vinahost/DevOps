@@ -1,6 +1,6 @@
 # Python là gì ?
 
-![img](../../Image/python.jpg)
+![Python là gì](../../Image/python.jpg)
 
 **Python** là một ngôn ngữ lập trình đa năng được phát triển bởi **Guido van Rossum** vào năm **1991**. Python là một ngôn ngữ lập trình cấp cao, có nghĩa là nó dễ đọc và viết hơn các ngôn ngữ lập trình cấp thấp. Python cũng là một ngôn ngữ lập trình hướng đối tượng, có nghĩa là nó cho phép các nhà phát triển tạo các chương trình bằng cách sử dụng các đối tượng.
 
@@ -32,7 +32,7 @@
 
 ### Dưới đây là các bước để thiết lập môi trường DevOps cho Python và ứng dụng **Hello World**:
 
-![img](../../Image/docker-python.png)
+![Python là gì](../../Image/docker-python.png)
 
 1. **Cài đặt Python**: bạn có thể tải xuống và cài đặt Python từ trang web chính thức của Python https://www.python.org/
 2. **Tạo một dự án Python**: bạn có thể tạo một dự án Python mới bằng cách sử dụng trình tạo dự án của Python hoặc bằng cách tạo một thư mục mới và thêm tệp Python vào thư mục đó.
@@ -105,7 +105,7 @@ Bạn có thể chạy hình ảnh Docker của dự án bằng cách sử dụn
 
 Sau khi chạy lệnh này, bạn sẽ thấy một giao diện Python. Bạn có thể bắt đầu viết và chạy mã Python của mình.
 
-Đây chỉ là một ví dụ về cách thiết lập môi trường DevOps cho Python. Có nhiều cách khác để thiết lập môi trường DevOps, và cách tốt nhất sẽ phụ thuộc vào nhu cầu cụ thể của bạn. Nếu bạn chưa từng làm với Docker, đừng quá lo lắng, bài viết [sau đây](/Containers/Docker/Docker-la-gi.md) sẽ hướng dẫn bạn cụ thể hơn về Docker.
+Đây chỉ là một ví dụ về cách thiết lập môi trường DevOps cho Python. Có nhiều cách khác để thiết lập môi trường DevOps, và cách tốt nhất sẽ phụ thuộc vào nhu cầu cụ thể của bạn. Nếu bạn chưa từng làm với Docker, đừng quá lo lắng, bài viết [Docker là gì & Cài đặt](/Containers/Docker/Docker-la-gi.md) sẽ hướng dẫn bạn cụ thể hơn về Docker.
 
 ### Tham khảo:
 
