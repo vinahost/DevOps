@@ -189,10 +189,7 @@ Kết quả sẽ hiển thị với các cột có các nội dung tương ứng
 |COMMAND|9 kí tự đầu tiên của tên chương trình lệnh tương ứng với tiến trình.|
 |PID|Thông tin PID của tiến trình.|
 |USER|User thực thi tiến trình đó. Có thể là UID hoặc username.|
-|FD| File Descriptor của tập tin được liệt kê, hoặc các thông tin khác hay mode (w,u,r) của tập tin.|
-|-|-|
-|| cwd : là thư mục đang hoạt động của tiến trình.|
-|| txt : program text (code và data).|
+|FD| File Descriptor của tập tin được liệt kê, hoặc các thông tin khác hay mode (w,u,r) của tập tin. - cwd : là thư mục đang hoạt động của tiến trình. -txt : program text (code và data).|
 || mmap : tập tin memory-mapped.|
 || rtd : root directory (thư mục root).|
 || DEL : Linux map tập tin đã bị xoá.|
