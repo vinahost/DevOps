@@ -224,389 +224,422 @@ Kết quả sẽ hiển thị với các cột có các nội dung tương ứng
     lsof      28208          root  txt       REG                8,2    154184    6505411 /usr/sbin/lsof
     ...
 
- 
+### ifconfig
 
-1.  ifconfig
 ifconfig (interface configuration) là một trong những câu lệnh dùng để xem nhanh các địa chỉ IP và các thông tin khác của giao diện mạng (interface). Gõ ifconfig để xem trạng thái các interface hiện đang hoạt động, trong đó bao gồm tên, tình trạng thông tin địa chỉ IP, địa chỉ MAC. Bạn cũng có thể chỉ định tên một interface cần xem thông tin thay vì xem toàn bộ.
 
-Cú pháp: 
+**Cú pháp:** 
 
-ifconfig <option> <interface>
+if  config <option> <interface>
 
-Câu lệnh	Chi tiết
-ifconfig -a	Liệt kê toàn bộ thông tin interface có trên hệ thống, kể cả chúng đã bị “tắt”.
-ifconfig -s	Liệt kê tóm tắt thông tin interface trên hệ thống
+|Câu lệnh|Chi tiết|
+|--------|--------|
+|ifconfig -a|	Liệt kê toàn bộ thông tin interface có trên hệ thống, kể cả chúng đã bị “tắt”.|
+|ifconfig -s|	Liệt kê tóm tắt thông tin interface trên hệ thống|
  
 
-11. id
-Câu lệnh này sẽ liệt kê các thông tin (name, group,…) của user hiện tại hoặc user được chỉ định trên server.
+### Lệnh id
 
-Cú pháp:
+Câu lệnh này sẽ liệt kê các thông tin (**name, group,…**) của user hiện tại hoặc user được chỉ định trên server.
 
-id <option> <username>
+**Cú pháp:**
 
-Câu lệnh	Chi tiết
-id -g <username>	Liệt kê group ID của user được chỉ định.
-id -G <username>	Liệt kê toàn bộ group ID mà user “tham gia”.
-id -n <username>	Liệt kê tên của user được chỉ định thay vì ID.
-id -r <username>	Liệt kê real ID  của user được chỉ định.
-id -u <username>	Hiển thị user ID của user được chỉ định.
+    id <option> <username>
+
+|Câu lệnh|Chi tiết|
+|--------|--------|
+|id -g <username>|	Liệt kê group ID của user được chỉ định.|
+|id -G <username>|	Liệt kê toàn bộ group ID mà user “tham gia”.|
+|id -n <username>|	Liệt kê tên của user được chỉ định thay vì ID.|
+|id -r <username>|	Liệt kê real ID  của user được chỉ định.|
+|id -u <username>|	Hiển thị user ID của user được chỉ định.|
  
+### Lệnh cut
 
-12. cut
 Câu lệnh này được sử dụng thao tác với tệp dựa trên cột và được thiết kế để trích xuất các cột cụ thể.
 
-Cú pháp:
+**Cú pháp:**
 
-cut -c<số thứ tự cột đầu tiên - số thứ tự cột cuối cùng> <tên file>
+    cut -c<số thứ tự cột đầu tiên - số thứ tự cột cuối cùng> <tên file>
 
-Ví dụ: Cần cắt 16 ký tự đầu tiên từ tập tin tập tin.txt:
+**Ví dụ:** Cần cắt 16 ký tự đầu tiên từ tập tin tập *tin.txt*:
 
-[root@tel4vn_lab ~]# cat file.txt
-Roses are red, Violets are blue,
-Sugar is sweet, And so are you.
-[root@tel4vn_lab ~]# cut -c 1-16 file.txt
-Roses are red, V
-Sugar is sweet,
+    [root@DevOps ~]# cat file.txt
+    Roses are red, Violets are blue,
+    Sugar is sweet, And so are you.
+    [root@DevOps ~]# cut -c 1-16 file.txt
+    Roses are red, V
+    Sugar is sweet,
 
- 
+### Lệnh sed
 
-13. sed
 Ngoài việc lọc kết quả từ cụm từ khóa mà người dùng chỉ định, câu lệnh còn hỗ trợ người dùng thay thế các từ khóa đầu tiên xuất hiện trong mỗi dòng (hoặc tất cả) mà nó tìm thấy trong tập tin văn bản được chỉ định, và hiển thị kết quả ra màn hình.
 
-Cú pháp:
+**Cú pháp:**
 
-sed 's/<từ cần tìm>/<từ thay thế>/' <tên tập tin>
+    sed 's/<từ cần tìm>/<từ thay thế>/' <tên tập tin>
 
-Câu lệnh	Chi tiết
-sed ‘s/<từ cần tìm>/<từ thay thế>/’ <tên tập tin>	Thay thế chuỗi đầu tiên xuất hiện trong mỗi dòng từ tập tin được chỉ định
-sed ‘s/<từ cần tìm>/<từ thay thế>/g’ <tên tập tin>	Thay thế tất cả các lần xuất hiện trong mỗi dòng từ tập tin được chỉ định
-sed ‘1,3s/<từ cần tìm>/<từ thay thế>/g’ <tên tập tin>	Thay thế tất cả các lần xuất hiện chuỗi trong một loạt các dòng từ tập tin được chỉ định
-Ví du:
+|Câu lệnh|Chi tiết|
+|--------|--------|
+|sed ‘s/<từ cần tìm>/<từ thay thế>/’ <tên tập tin>|	Thay thế chuỗi đầu tiên xuất hiện trong mỗi dòng từ tập tin được chỉ định|
+|sed ‘s/<từ cần tìm>/<từ thay thế>/g’ <tên tập tin>|	Thay thế tất cả các lần xuất hiện trong mỗi dòng từ tập tin được chỉ định|
+|sed ‘1,3s/<từ cần tìm>/<từ thay thế>/g’ <tên tập tin>|	Thay thế tất cả các lần xuất hiện chuỗi trong một loạt các dòng từ tập tin được chỉ định|
 
-[root@tel4vn_lab ~]# cat test.txt
-Hello Student 
-[root@tel4vn_lab ~]# sed 's/Student/STUDENT/' test.txt
-Hello STUDENT
+**Ví dụ:**
 
- 
+    [root@DevOps ~]# cat test.txt
+    Hello Student 
+    [root@DevOps ~]# sed 's/Student/STUDENT/' test.txt
+    Hello STUDENT
 
-14. diff
+### Lệnh diff
+
 Câu lệnh này sẽ so sánh và hiển thị sự khác nhau giữa 2 tập tin chỉ định.
 
-Cú pháp:
+**Cú pháp:**
 
-diff <option> <tên file 1> <tên file 2>
+    diff <option> <tên file 1> <tên file 2>
 
-Một vài tuỳ chọn (option) được dùng thường xuyên gồm:
+Một vài tuỳ chọn (*option*) được dùng thường xuyên gồm:
 
-Tuỳ chọn	Sử dụng
--c	Cung cấp 3 dòng trước và sau của sự khác nhau về nội dung.
--r	Sử dụng để so sánh đệ quy các thư mục con, thư mục hiện tại.
--i	Bỏ qua trường hợp chữ cái.
--w	Bỏ qua sự khác biệt về tab ( khoảng trắng ).
--q	Báo những tệp khác nhau mà không cần liệt kê sự khác biệt.
+|Câu lệnh|Chi tiết|
+|--------|--------|
+|-c|	Cung cấp 3 dòng trước và sau của sự khác nhau về nội dung.|
+|-r|	Sử dụng để so sánh đệ quy các thư mục con, thư mục hiện tại.|
+|-i|	Bỏ qua trường hợp chữ cái.|
+|-w|	Bỏ qua sự khác biệt về tab ( khoảng trắng ).|
+|-q|	Báo những tệp khác nhau mà không cần liệt kê sự khác biệt.|
  
+**Ví dụ:**
 
-Ví dụ:
+    [root@DevOps ~]# cat test1.txt
+    this is the original text
+    line2
+    line3
+    line4
+    happy hacking !
+    [root@DevOps ~]# cat test2.txt
+    this is the original text
+    line2
+    line4
+    happy hacking !
+    GNU is not UNIX
+    [root@DevOps ~]#diff test1.txt test2.txt
+    3d2
+    < line3 
+    6c5 
+    > GNU is not UNIX
 
-[root@tel4vn_lab ~]# cat test1.txt
-this is the original text
-line2
-line3
-line4
-happy hacking !
-[root@tel4vn_lab ~]# cat test2.txt
-this is the original text
-line2
-line4
-happy hacking !
-GNU is not UNIX
-[root@tel4vn_lab ~]#diff test1.txt test2.txt
-3d2
-< line3 
-6c5 
-> GNU is not UNIX
+### Lệnh history
 
- 
-
-15. history
 Câu lệnh history được sử dụng để xem các lệnh đã thực hiện trước đó.
 
-Cú pháp:
+**Cú pháp:**
 
-history <số lượng câu lệnh cần hiển thị - mặc định sẽ hiển thị toàn bộ>
+    history <số lượng câu lệnh cần hiển thị - mặc định sẽ hiển thị toàn bộ>
 
 Sau khi có kết quả danh sách các câu lệnh để thực thi, bạn có thể thực hiện lại 1 câu lệnh bất kỳ trong danh sách câu lệnh bằng cú pháp:
 
 !<số thứ tự của câu lệnh từ kết quả của câu lệnh history>
 
- 
+### Lệnh dd
 
-16. dd
 Câu lệnh này sử dụng trong các trường hợp sau:
 
-Sao lưu và phục hồi toàn bộ dữ liệu ổ cứng hoặc một partition
-Chuyển đổi định dạng dữ liệu từ ASCII sang EBCDIC hoặc ngược lại
-Sao lưu lại MBR trong máy (MBR là một tập tin dữ liệu rất quan trong nó chứa các lệnh để LILO hoặc GRUB nạp hệ điều hành)
-Chuyển đổi chữ thường sang chữ hoa và ngược lại
-Tạo một tập tin với kích cỡ cố định
-Tạo một tập tin ISO
-Cú pháp: 
+- Sao lưu và phục hồi toàn bộ dữ liệu ổ cứng hoặc một partition
+- Chuyển đổi định dạng dữ liệu từ ASCII sang EBCDIC hoặc ngược lại
+- Sao lưu lại MBR trong máy (MBR là một tập tin dữ liệu rất quan trong nó chứa các lệnh để LILO hoặc GRUB nạp hệ điều hành)
+- Chuyển đổi chữ thường sang chữ hoa và ngược lại
+- Tạo một tập tin với kích cỡ cố định
+- Tạo một tập tin ISO
 
-dd if=<địa chỉ đầu vào> of=<địa chỉ đầu ra> <option>
+**Cú pháp: **
 
-Trong đó:
+    dd if=<địa chỉ đầu vào> of=<địa chỉ đầu ra> <option>
 
-if= địa chỉ nguồn của dữ liệu nó sẽ bắt đầu đọc
-of= viết đầu ra của tập tin
-option : các tùy chọn cho câu lệnh
-Ý nghĩa các tham số:
+**Trong đó:**
 
-Tùy chọn	Ý nghĩa
-bs=Bytes	Quá trình đọc (ghi) bao nhiêu byte một lần đọc (ghi)
-cbs=Bytes	Chuyển đổi bao nhiêu byte một lần
-count=Blocks	thực hiện bao nhiêu Block trong quá trình thực thi câu lệnh
-if	Chỉ đường dẫn đọc đầu vào
-of	Chỉ đường dẫn ghi đầu ra
-ibs=bytes	Chỉ ra số byte một lần đọc
-obs=bytes	Chỉ ra số byte một lần ghi
-skip=blocks	Bỏ qua bao nhiêu block đầu vào
-conv=Convs	Chỉ ra tác vụ cụ thể của câu lệnh
- 
+- if= địa chỉ nguồn của dữ liệu nó sẽ bắt đầu đọc
+- of= viết đầu ra của tập tin
+- option : các tùy chọn cho câu lệnh
+- 
+**Ý nghĩa các tham số:**
 
-Các tùy chọn (option) của conv
+|Tùy chọn|Ý nghĩa|
+|--------|--------|
+|bs=Bytes|	Quá trình đọc (ghi) bao nhiêu byte một lần đọc (ghi)|
+|cbs=Bytes|	Chuyển đổi bao nhiêu byte một lần|
+|count=Blocks|	thực hiện bao nhiêu Block trong quá trình thực thi câu lệnh|
+|if|	Chỉ đường dẫn đọc đầu vào|
+|of|	Chỉ đường dẫn ghi đầu ra|
+|ibs=bytes|	Chỉ ra số byte một lần đọc|
+|obs=bytes|	Chỉ ra số byte một lần ghi|
+|skip=blocks|	Bỏ qua bao nhiêu block đầu vào|
+|conv=Convs|	Chỉ ra tác vụ cụ thể của câu lệnh|
 
-Tùy chọn	Ý nghĩa
-ascii	Chuyển đôi từ mã EBCDIC sáng ASCII
-ebcdic	Chuyển đổi từ mã ASCII sang EBCDIC
-lcase	Chuyển đổi từ chữ thường lên hết thành chữ in hoa
-ucase	Chuyển đổi từ chữ in hoa sang chữ thường
-nocreat	Không tạo ra tập tin đầu ra
-noerror	Tiếp tục sao chép dữ liệu khi đầu vào bị lỗi
-sync	Đồng bộ dữ liệu với ổ đang sao chép sang
- 
+**Các tùy chọn (option) của conv**
 
-Lưu ý:  Mặc định nó được tính theo đơn vị là kb. Bạn có thể thêm một số trường sau để báo định dạng khác:
+|Tùy chọn|Ý nghĩa|
+|--------|--------|
+|ascii|	Chuyển đôi từ mã EBCDIC sáng ASCII|
+|ebcdic|	Chuyển đổi từ mã ASCII sang EBCDIC|
+|lcase|	Chuyển đổi từ chữ thường lên hết thành chữ in hoa|
+|ucase|	Chuyển đổi từ chữ in hoa sang chữ thường|
+|nocreat|	Không tạo ra tập tin đầu ra|
+|noerror|	Tiếp tục sao chép dữ liệu khi đầu vào bị lỗi|
+|sync|	Đồng bộ dữ liệu với ổ đang sao chép sang|
 
-c = 1 byte
-w = 2 byte
-b = 512 byte
-kB = 1000 byte
-K = 1024 byte
-MB = 1000000 byte
-M = (1024 * 1024) byte
-GB = (1000 * 1000 * 1000) byte
-G = (1024 * 1024 * 1024) byte
+**Lưu ý**:  Mặc định nó được tính theo đơn vị là kb. Bạn có thể thêm một số trường sau để báo định dạng khác:
+
+- c = 1 byte
+- w = 2 byte
+- b = 512 byte
+- kB = 1000 byte
+- K = 1024 byte
+- MB = 1000000 byte
+- M = (1024 * 1024) byte
+- GB = (1000 * 1000 * 1000) byte
+- G = (1024 * 1024 * 1024) byte
+
 Ngoài ra, người dùng có thể sử dụng câu lệnh này để kiểm tra tốc độ đọc/ghi ổ cứng hiện tại của server:
 
-Cú pháp: 
+**Cú pháp: **
 
-dd if=/dev/zero of=test bs=64k count=16k conv=fdatasync
+    dd if=/dev/zero of=test bs=64k count=16k conv=fdatasync
  
- 
+### Lệnh find
 
- 
+Lệnh `find` được sử dụng để tìm kiếm và định vị danh sách các tập tin và thư mục dựa trên các điều kiện bạn chỉ định cho các tệp khớp với các đối số cần tìm: tên tập tin, tên thư mục, phân quyền, owner, groups,…
 
-17. find
-Lệnh find được sử dụng để tìm kiếm và định vị danh sách các tập tin và thư mục dựa trên các điều kiện bạn chỉ định cho các tệp khớp với các đối số cần tìm: tên tập tin, tên thư mục, phân quyền, owner, groups,…
+**Cú pháp: **
 
-Cú pháp: 
+    find <vị trí con trỏ bắt đầu tìm kiếm> <đối số cần tìm> <option> <từ khóa cần tìm>
 
-find <vị trí con trỏ bắt đầu tìm kiếm> <đối số cần tìm> <option> <từ khóa cần tìm>
+### Lệnh free
 
-Bạn đọc có thể tham khảo thêm “29 câu lệnh find thường gặp trong Linux“: Tại đây
-
- 
-
-18. free
 Câu lệnh này sẽ cung cấp thông tin về dung lượng bộ nhớ đã sử dụng và chưa sử dụng, kèm theo đó là thông tin về dung lượng RAM ảo SWAP.
 
-Cú pháp:
+**Cú pháp:**
 
-free <option>
+    free <option>
 
 Các tùy chọn (option) thường dùng
 
-Tùy chọn	Ý nghĩa
--b	Hiển thị kết quả theo dung lượng byte
--k	Hiển thị kết quả theo dung lượng kilobyte (mặc định)
--m 	Hiển thị kết quả theo dung lượng megabyte
--g	Hiển thị kết quả theo dung lượng gigabyte
+|Tùy chọn|Ý nghĩa|
+|--------|--------|
+|-b|	Hiển thị kết quả theo dung lượng byte|
+|-k|	Hiển thị kết quả theo dung lượng kilobyte (mặc định)|
+|-m| 	Hiển thị kết quả theo dung lượng megabyte|
+|-g|	Hiển thị kết quả theo dung lượng gigabyte|
 
 Ý nghĩa các cột trong kết quả hiển thị
 
-Cột	Ý nghĩa
-total 	Tổng dung lượng bộ nhớ hiện có trên thiết bị
-used 	Dung lượng bộ nhớ đang sử dụng
-free 	Dung lượng bộ nhớ còn trống
-shared 	Dung lượng bộ nhớ được sử dụng bởi tmpfs
-buffers 	Dung lượng bộ nhớ được sử dụng bởi kernel buffer
-cache 	Dung lượng bộ nhớ được sử dụng bởi page cache và slab
-buffers/cache	Tổng dung lượng buffer và cache đang sử dụng
- 
+|Cột|Ý nghĩa|
+|--------|--------|
+|total|Tổng dung lượng bộ nhớ hiện có trên thiết bị|
+|used|Dung lượng bộ nhớ đang sử dụng|
+|free|Dung lượng bộ nhớ còn trống|
+|shared|Dung lượng bộ nhớ được sử dụng bởi tmpfs|
+|buffers|Dung lượng bộ nhớ được sử dụng bởi kernel buffer|
+|cache|Dung lượng bộ nhớ được sử dụng bởi page cache và slab|
+|buffers/cache|Tổng dung lượng buffer và cache đang sử dụng|
 
-19. ssh-keygen
-Sử dụng lệnh ssh-keygen để tạo cặp khóa xác thực public/private, giúp người dùng kết nối với hệ thống từ xa mà không cần cung cấp mật khẩu. Các khóa phải được tạo riêng cho từng người dùng. Nếu bạn tạo các cặp khóa xác thực là với quyền user root thì chỉ user root mới có thể sử dụng các khóa đã tạo.
+### Lệnh ssh-keygen
 
-Cú pháp: 
+Sử dụng lệnh `ssh-keygen` để tạo cặp khóa xác thực **public/private**, giúp người dùng kết nối với hệ thống từ xa mà không cần cung cấp mật khẩu. Các khóa phải được tạo riêng cho từng người dùng. Nếu bạn tạo các cặp khóa xác thực là với quyền user root thì chỉ user root mới có thể sử dụng các khóa đã tạo.
 
-ssh-keygen -t <option>
+**Cú pháp: **
+
+    ssh-keygen -t <option>
 
 Các option thường sử dụng bao gồm:
 
-rsa1
-dsa
-ecdsa
-rsa
-Để tránh việc khóa xác thực bị tin tặc (hacker) chiếm đoạn và sử dụng, người dùng sẽ được yêu cầu nhập mật khẩu để sử dụng khóa xác thực trong bước tạo khóa. Điều này giúp hạn chế được việc tin tặc lấy được khóa xác thực và chiếm toàn bộ quyền trên server.
+- rsa1
+- dsa
+- ecdsa
+- rsa
 
- 
+Để tránh việc khóa xác thực bị tin tặc (*hacker*) chiếm đoạn và sử dụng, người dùng sẽ được yêu cầu nhập mật khẩu để sử dụng khóa xác thực trong bước tạo khóa. Điều này giúp hạn chế được việc tin tặc lấy được khóa xác thực và chiếm toàn bộ quyền trên server.
 
-20. ip
-Câu lệnh này thuộc gói net-tools được cài đặt trên Linux, giúp người dùng có thể thao tác, quản trị hệ thống mạng trên thiết bị. Có chức năng gần như tương tự với câu lệnh ifconfig: hiển thị thông số, điều chỉnh các giao diện mạng (interface).
+### Lệnh ip
+Câu lệnh này thuộc gói `net-tools` được cài đặt trên **Linux**, giúp người dùng có thể thao tác, quản trị hệ thống mạng trên thiết bị. Có chức năng gần như tương tự với câu lệnh `ifconfig`: hiển thị thông số, điều chỉnh các giao diện mạng (**interface**).
 
-Cú pháp:
+**Cú pháp:**
 
-ip <option> <các đối tượng mạng trên hệ thống> <COMMAND | help>
+`ip <option> <các đối tượng mạng trên hệ thống> <COMMAND | help>
 
 Các tùy chọn (option) thường dùng
 
-Tùy chọn	Ý nghĩa
-address	Hiển thị toàn bộ thông tin của các interface hiện có trên thiết bị
-link	Hiển thị địa chỉ MAC của các interface hiện có trên thiết bị
-route	Hiển thị thông tin định tuyến
- 
+|Tùy chọn|Ý nghĩa|
+|--------|--------|
+|address|	Hiển thị toàn bộ thông tin của các interface hiện có trên thiết bị|
+|link|	Hiển thị địa chỉ MAC của các interface hiện có trên thiết bị|
+|route|	Hiển thị thông tin định tuyến|
 
-21. nslookup
-nslookup được sử dụng để truy vấn các Internet Domain Name Servers (DNS). Nslookup có hai chế độ: tương tác (interactive) và không tương tác (non-interactive). Chế độ tương tác cho phép người dùng truy vấn các tên máy chủ để biết thông tin về các máy chủ và tên miền khác nhau hoặc để in danh sách các máy chủ trong một miền. Chế độ không tương tác được sử dụng để chỉ in tên và thông tin được yêu cầu cho máy chủ lưu trữ hoặc tên miền.
+### Lệnh nslookup
 
-Cú pháp: 
+`nslookup` được sử dụng để truy vấn các **Internet Domain Name Servers (DNS)**. `Nslookup` có hai chế độ: tương tác (**interactive**) và không tương tác (**non-interactive**). Chế độ tương tác cho phép người dùng truy vấn các tên máy chủ để biết thông tin về các máy chủ và tên miền khác nhau hoặc để in danh sách các máy chủ trong một miền. Chế độ không tương tác được sử dụng để chỉ in tên và thông tin được yêu cầu cho máy chủ lưu trữ hoặc tên miền.
 
-nsloopkup <đường dẫn cần kiểm tra>
+**Cú pháp: **
 
-Ví dụ:
+    nsloopkup <đường dẫn cần kiểm tra>
 
-câu lệnh trên Linux thường sử dụng
+**Ví dụ:**
 
- 
+    root@vinahost:~/devops# nslookup
+    > google.com
+    Server:         127.0.0.53
+    Address:        127.0.0.53#53
 
-22. curl
-Một trong những điều cơ bản nhất bạn có thể làm với curl là tải xuống một trang web hoặc tập tin.
+    Non-authoritative answer:
+    Name:   google.com
+    Address: 74.125.68.102
+    Name:   google.com
+    Address: 74.125.68.100
+    Name:   google.com
+    Address: 74.125.68.101
+    Name:   google.com
+    Address: 74.125.68.139
+    Name:   google.com
+    Address: 74.125.68.138
+    Name:   google.com
+    Address: 74.125.68.113
+    Name:   google.com
+    Address: 2404:6800:4003:c06::66
+    Name:   google.com
+    Address: 2404:6800:4003:c06::8b
+    Name:   google.com
+    Address: 2404:6800:4003:c06::65
+    Name:   google.com
+    Address: 2404:6800:4003:c06::64
+    >
+Để cài trên **Red Hat Linux**/ **CentOS** sử dụng lệnh
 
-Cú pháp: 
+    dnf install bind-utils
 
-curl <option> <đường dẫn / URL>
+hoặc
+
+    dnf install bind-utils
+
+Để cài trên Debian / Ubuntu sử dụng lệnh
+
+    apt install dnsutils
+
+### Lệnh curl
+
+Một trong những điều cơ bản nhất bạn có thể làm với `curl` là tải xuống một trang web hoặc tập tin.
+
+**Cú pháp: **
+
+    curl <option> <đường dẫn / URL>
 
 Nếu bạn muốn lưu kết quả sau khi “curl” được thì chỉ cần thêm option “-o <tên tập tin>” vào trước URL để lưu kết quả vào tập tin mong muốn. Ví dụ:
 
-curl -o hello.zip ftp://speedtest.tele2.net/1MB.zip
+    curl -o hello.zip ftp://speedtest.tele2.net/1MB.zip
 
- 
+### Lệnh tr
 
-23. tr
-Câu lệnh này được sử dụng trên hệ điều hành Linux giúp người dùng có thể thay đổi hoặc xóa các ký tự.
+Câu lệnh này được sử dụng trên hệ điều hành **Linux** giúp người dùng có thể thay đổi hoặc xóa các ký tự.
 
-Cú pháp:
+**Cú pháp:**
 
-tr <option> <set1> <set2>
+    tr <option> <set1> <set2>
 
 Ví dụ: Bạn cần thay đổi các ký tự trong tập tin từ chữ thường sang chữ hoa
 
-[root@te4lvn_lab ~]# cat test.txt
-tel4vn training center
-[root@te4lvn_lab ~]# cat test.txt | tr [:lower:] [:upper:]
-TEL4VN TRAINING CENTER
+[root@DevOps ~]# cat test.txt
+devops
+[root@DevOps ~]# cat test.txt | tr [:lower:] [:upper:]
+DEVOPS
 
 Các tùy chọn (option) thường dùng
 
-Tùy chọn	Ý nghĩa
--c	Áp dụng các option khác đối với các ký tự không có trong bộ lọc “set1”
--d	Xóa ký tự trong chuỗi
--s	Bỏ các ký tự lặp liên tiếp
+|Tùy chọn|Ý nghĩa|
+|--------|--------|
+|-c|	Áp dụng các option khác đối với các ký tự không có trong bộ lọc “set1”|
+|-d|	Xóa ký tự trong chuỗi|
+|-s|	Bỏ các ký tự lặp liên tiếp|
  
+### Lệnh iptables
 
-24. iptables
-iptables là ứng dụng tường lửa miễn phí trong Linux, cho phép thiết lập các quy tắc riêng để kiểm soát truy cập, tăng tính bảo mật cho hệ thống. Về cơ bản, iptables chỉ là giao diện dòng lệnh để tương tác với packet filtering của netfilter framework. Trong đó:
+`iptables` là ứng dụng tường lửa miễn phí trong **Linux**, cho phép thiết lập các quy tắc riêng để kiểm soát truy cập, tăng tính bảo mật cho hệ thống. Về cơ bản, `iptables` chỉ là giao diện dòng lệnh để tương tác với **packet filtering** của **netfilter framework**. Trong đó:
 
-Table: được iptables sử dụng để định nghĩa các rule(quy tắc) dành cho các gói tin.
-Chain: được tạo ra với một số lượng nhất định ứng với mỗi Table, giúp lọc gói tin tại các điểm khác nhau.
-Rule: các điều kiện ứng với các loại gói tin.
-Tagert: có thể được hiểu là hành động dành cho các gói tin khi gói tin thỏa mãn các rule đã quy định.
-Policy: cơ chế mặc định đối với các trường hợp gói tin không trùng khớp với các Chain hiện có.
-Cú pháp: 
+- Table: được iptables sử dụng để định nghĩa các rule(quy tắc) dành cho các gói tin.
+- Chain: được tạo ra với một số lượng nhất định ứng với mỗi Table, giúp lọc gói tin tại các điểm khác nhau.
+- Rule: các điều kiện ứng với các loại gói tin.
+- Tagert: có thể được hiểu là hành động dành cho các gói tin khi gói tin thỏa mãn các rule đã quy định.
+- Policy: cơ chế mặc định đối với các trường hợp gói tin không trùng khớp với các Chain hiện có.
 
-iptables --table TABLE -A/-C/-D... CHAIN rule --jump Target
+**Cú pháp: **
 
- 
+    iptables --table TABLE -A/-C/-D... CHAIN rule --jump Target
 
-25. apt-get
-apt-get là một công cụ command-line giúp xử lý các gói cài đặt trong Linux. Nhiệm vụ chính của nó là lấy thông tin và các gói từ các nguồn được xác thực để cài đặt, nâng cấp và loại bỏ các gói cài đặt và các thành phần kèm theo của chúng. APT là viết tắt của Advanced Packaging Tool.
+### Lệnh apt-get
 
-apt-get <option> command
+`apt-get` là một công cụ **command-line** giúp xử lý các gói cài đặt trong **Debian/Ubuntu**. Nhiệm vụ chính của nó là lấy thông tin và các gói từ các nguồn được xác thực để cài đặt, nâng cấp và loại bỏ các gói cài đặt và các thành phần kèm theo của chúng. **APT** là viết tắt của **Advanced Packaging Tool**.
 
-apt-get update: lệnh này được sử dụng để đồng bộ hóa các tệp chỉ mục gói cài đặt từ các nguồn của chúng một lần nữa. Người dùng cần thực hiện cập nhật trước khi nâng cấp các gói cài đặt trên hệ thống của mình.
+    apt-get <option> command
 
- 
+`apt-get update`: lệnh này được sử dụng để đồng bộ hóa các tệp chỉ mục gói cài đặt từ các nguồn của chúng một lần nữa. Người dùng cần thực hiện cập nhật trước khi nâng cấp các gói cài đặt trên hệ thống của mình.
 
-26. df, du
-Lệnh df (disk free) hiển thị tình trạng dung lượng ổ đĩa trống đang được sử dụng bởi các tập tin của hệ thống. Lệnh du (disk usage) tình trạng dung lượng của cây thư mục bao gồm tất cả nội dung của chúng và kích thước của các tệp riêng lẻ. Công cụ này giúp người dùng có thể quản lý được tài nguyên đang sử dụng trên hệ thống, giảm tình thiểu tình trạng hệ thống thiếu hụt tài nguyên.
+### Lệnh df, du
 
-Cú pháp: 
+Lệnh `df` (**disk free**) hiển thị tình trạng dung lượng ổ đĩa trống đang được sử dụng bởi các tập tin của hệ thống. Lệnh `du` (**disk usage**) tình trạng dung lượng của cây thư mục bao gồm tất cả nội dung của chúng và kích thước của các tệp riêng lẻ. Công cụ này giúp người dùng có thể quản lý được tài nguyên đang sử dụng trên hệ thống, giảm tình thiểu tình trạng hệ thống thiếu hụt tài nguyên.
 
-df -h 
- 
-du -h
+**Cú pháp:**
 
- 
+    df -h 
+    du -h
 
-27. htop
-Đây là công cụ giúp người dùng có thể theo các tiến trình đang hoạt động trên hệ thống, tổng quan các tài nguyên của hệ thống như CPU, lượng RAM và Swap sử dụng theo thời gian thực (real-time).
+### Lệnh htop
 
-Cú pháp:
+Đây là công cụ giúp người dùng có thể theo các tiến trình đang hoạt động trên hệ thống, tổng quan các tài nguyên của hệ thống như **CPU**, lượng **RAM** và **Swap** sử dụng theo thời gian thực (**real-time**).
 
-htop <option>
+**Cú pháp:**
+
+    htop <option>
 
 Các tùy chọn (option) thường dùng:
 
-Tùy chọn	Ý nghĩa
-–d / –delay	Hiển thị độ trễ giữa các bản cập nhật, tính bằng 1/10 giây
-–C / –no-color	Chế độ đơn sắc
-–h / –help	Hiển thị thông báo trợ giúp và thoát
-–u / –user=USERNAME	Chỉ hiển thị các PID đã chỉ định
-–v / –version	Hiển thị thông tin phiên bản và thoát
+|Tùy chọn|Ý nghĩa|
+|--------|--------|
+| –d / –delay|	Hiển thị độ trễ giữa các bản cập nhật, tính bằng 1/10 giây|
+| –C / –no-color|	Chế độ đơn sắc|
+| –h / –help|	Hiển thị thông báo trợ giúp và thoát|
+| –u / –user=USERNAME|	Chỉ hiển thị các PID đã chỉ định|
+| –v / –version|	Hiển thị thông tin phiên bản và thoát|
  
+### Lệnh ps
 
-28. ps
 Câu lệnh này sẽ hiển thị danh sách các tiến trình đang hoạt động trên hệ thống.
 
-Cú pháp: 
+**Cú pháp: **
 
-ps <option>
+    ps <option>
 
 Các tùy chọn (option) thường dùng:
 
-Tùy chọn	Ý nghĩa
-a	Hiển thị tất cả các tiến trình của toàn bộ user trên hệ thống
-u	Hiển thị người khởi tạo tiến trình
-x	Hiển thị các tiến trình không attach terminal
+|Tùy chọn|Ý nghĩa|
+|--------|--------|
+|a|	Hiển thị tất cả các tiến trình của toàn bộ user trên hệ thống|
+|u|	Hiển thị người khởi tạo tiến trình|
+|x|	Hiển thị các tiến trình không attach terminal|
  
+### Lệnh kill
 
-29. kill
-Lệnh kill có thể được dùng để ngắt một hoặc nhiều tiến trình đang hoạt động trên hệ thống.
+Lệnh `kill` có thể được dùng để ngắt một hoặc nhiều tiến trình đang hoạt động trên hệ thống.
+
+**Cú pháp: **
+
+    kill <option> <ID của tiến trình>
+
+### Lệnh telnet
+
+`Telnet` là một giao thức mạng (**network protocol**) và cũng là công cụ quản trị server từ xa thông qua **command line**. **TELNET** (viết tắt của **TErminaL NETwork**) được dùng phổ biến trong mạng máy tính cục bộ (**LAN**). Ngoài ra, bạn có thể sử dụng câu lệnh này để kiểm tra **TCP** port của server hiện có đang mở hay không.
 
 Cú pháp: 
 
-kill <option> <ID của tiến trình>
-
- 
-
-30. telnet
-Telnet là một giao thức mạng (network protocol) và cũng là công cụ quản trị server từ xa thông qua command line. TELNET (viết tắt của TErminaL NETwork) được dùng phổ biến trong mạng máy tính cục bộ (LAN). Ngoài ra, bạn có thể sử dụng câu lệnh này để kiểm tra TCP port của server hiện có đang mở hay không.
-
-Cú pháp: 
-
-telnet <hostname / địa chỉ ip>
+    telnet <hostname / địa chỉ ip>
 
 ### Một số lệnh cho các phần mềm trên Linux
 
