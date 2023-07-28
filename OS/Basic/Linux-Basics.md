@@ -178,7 +178,7 @@ Lệnh này được sử dụng để thay đổi quyền truy cập của các
 
 **lsof** hay còn gọi là “**list open files**“, dùng để liệt kê thông tin về các tập tin trên hệ thống đang hoặc đã được mở bởi các tiến trình đang hoạt động.
 
-**Cú pháp: **
+**Cú pháp:**
 
     lsof <option> <username>
 
@@ -190,8 +190,8 @@ Kết quả sẽ hiển thị với các cột có các nội dung tương ứng
 |PID|Thông tin PID của tiến trình.|
 |USER|User thực thi tiến trình đó. Có thể là UID hoặc username.|
 |FD|File Descriptor của tập tin được liệt kê, hoặc các thông tin khác hay mode (w,u,r) của tập tin.|
-|.|- cwd : là thư mục đang hoạt động của tiến trình.|
-|.|-txt : program text (code và data).|
+||- cwd : là thư mục đang hoạt động của tiến trình.|
+||-txt : program text (code và data).|
 || mmap : tập tin memory-mapped.|
 || rtd : root directory (thư mục root).|
 || DEL : Linux map tập tin đã bị xoá.|
