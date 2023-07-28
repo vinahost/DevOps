@@ -114,7 +114,7 @@ Tìm và xóa một file có tên *devops.txt* có trong thư mục */home*
 
 Tìm và xóa nhiều file có định dạng *.txt* trong thư mục */home*
 
-find /home -type f -name "*.txt" -exec rm -f {} \;
+    find /home -type f -name "*.txt" -exec rm -f {} \;
 
 **Chú ý:** những lệnh thế này hơi nguy hiểm cho những bạn mới làm quen với **Linux**. Nếu bạn gõ sai đường dẫn **/home** thành đường dẫn khác thì sẽ xóa nhầm file. Hoặc xóa tất cả các file dẫn đến lỗi server. Một lời khuyên cho bạn là nên **backup** dữ liệu hằng ngày để tránh những sai sót nghiêm trọng.
 
@@ -130,7 +130,7 @@ Tìm tất cả những thu mục trống có trong server của bạn bằng l�
 
     find / -type d -empty
 
-### BTìm tất cả những file ẩn
+### Tìm tất cả những file ẩn
 
 Tìm tất cả những file ẩn có trong thư mục */home*. File ẩn thường là những file có tên bằng đầu bằng dấu chấm “.”
 
@@ -140,7 +140,7 @@ Tìm tất cả những file ẩn có trong thư mục */home*. File ẩn thư�
 
 ### Tìm file với user
  
-Tìm file có tên là “devops.txt” thuộc sở hữu của user **root** trong thư mục */home*
+Tìm file có tên là *devops.txt* thuộc sở hữu của user **root** trong thư mục */home*
 
     find / -user root -name devops.txt
  
@@ -196,7 +196,7 @@ Tìm tất cả các file được chỉnh sửa trong khoảng 2 tiếng trư�
 
     find /home -size +10M
 
-### Tìm tất cả các file có dung lượng lớn hơn 50M trong thư mục /home và xóa
+### Tìm và xóa tất cả các file có dung lượng lớn hơn 50M trong thư mục /home
 
     find /home -size +50M -exec rm -rf {} \;
 
