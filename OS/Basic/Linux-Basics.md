@@ -171,7 +171,7 @@ Câu lệnh này sẽ giúp người dùng có thể đọc, điều chỉnh ho�
 |cat -s|Gộp những dòng không có ký tự lại thành 1 dòng.|
 |cat -E|Hiển thị dấu $ ở cuối dùng.|
 
-### grep
+### Lệnh grep
 
 Câu lệnh này sẽ giúp người dùng có thể tìm kiếm một từ khóa hoặc một đoạn từ khóa trong một tập tin. Tương tự chức năng `Ctrl + F` nhưng thực thi bằng **CLI**.
 
@@ -188,7 +188,7 @@ Câu lệnh này sẽ giúp người dùng có thể tìm kiếm một từ khó
 
 Trong thực tế, `grep` thường được lồng ghép với các câu lệnh liệt kê thông tin để lọc kết quả cần hiển thị. Ví dụ như bạn cần tìm `PID` của tiến trình **python** đang hoạt động trong hệ thống, thì sẽ gõ câu lệnh như sau: `ps ux | grep python`
 
-### sort
+### Lệnh sort
 Câu lệnh này sẽ sắp xếp kết quả tìm kiếm theo thứ tự alphabet hoặc theo số tăng dần. Ngoài ra, câu lệnh này cũng sẽ sắp xếp tập tin, nội dung tập tin và thư mục.
 
 **Cú pháp:**
@@ -201,7 +201,7 @@ Câu lệnh này sẽ sắp xếp kết quả tìm kiếm theo thứ tự alphab
 |sort -f|Sắp xếp kết quả không phân biệt chữ hoa và thường.|
 |sort -n|Sắp xếp kết quả dựa theo số tăng dần.|
 
-### tail
+### Lệnh tail
 
 Câu lệnh này mặc định sẽ hiển thị 10 dòng cuối cùng của tập tin được chỉ định ra màn hình. Người dùng cũng có thể xem cùng lúc nội dung của nhiều tập tin.
 
@@ -215,7 +215,7 @@ Câu lệnh này mặc định sẽ hiển thị 10 dòng cuối cùng của t�
 |tail +<số>|Hiển thị kết quả từ dòng <số>.|
 |tail -c <số>|Hiển thị <số> byte cuối cùng từ tập tin được chỉ định.|
  
-### chown
+### Lệnh chown
 
 Lệnh này được sử dụng để thay đổi **user** hoặc nhóm sở hữu tập tin hoặc thư mục. Bất cứ khi nào bạn muốn thay đổi quyền sở hữu, bạn có thể sử dụng lệnh `chown`.
 
@@ -224,7 +224,7 @@ Lệnh này được sử dụng để thay đổi **user** hoặc nhóm sở h�
     chown <option>… <OWNER><:[GROUP]> <tên file>…
     chown <option>… –reference=RFILE <tên file>…
 
-### chmod
+### Lệnh chmod
 Lệnh này được sử dụng để thay đổi quyền truy cập của các tập tin và thư mục.
 
 **Cú pháp:**
@@ -242,7 +242,7 @@ Lệnh này được sử dụng để thay đổi quyền truy cập của các
 - 1	Chỉ thực thi.
 - 0	Không phân quyền.
 
-### lsof
+### Lệnh lsof
 
 **lsof** hay còn gọi là “**list open files**“, dùng để liệt kê thông tin về các tập tin trên hệ thống đang hoặc đã được mở bởi các tiến trình đang hoạt động.
 
@@ -292,7 +292,7 @@ Kết quả sẽ hiển thị với các cột có các nội dung tương ứng
     lsof      28208          root  txt       REG                8,2    154184    6505411 /usr/sbin/lsof
     ...
 
-### ifconfig
+### Lệnh ifconfig
 
 `ifconfig` (**interface configuration**) là một trong những câu lệnh dùng để xem nhanh các địa chỉ **IP** và các thông tin khác của giao diện mạng (**interface**). Gõ ifconfig để xem trạng thái các **interface** hiện đang hoạt động, trong đó bao gồm tên, tình trạng thông tin địa chỉ IP, địa chỉ **MAC**. Bạn cũng có thể chỉ định tên một **interface** cần xem thông tin thay vì xem toàn bộ.
 
@@ -706,7 +706,7 @@ Cú pháp:
 
     telnet <hostname / địa chỉ ip>
 
-## Một số lệnh cho các phần mềm trên Linux
+## Một số lệnh của các phần mềm trên Linux
 
 - pip install: Tải xuống và cài đặt một gói phần mềm Python.
 - npm install: Tải xuống và cài đặt một gói phần mềm JavaScript.
@@ -717,9 +717,19 @@ Cú pháp:
 
 ## Một số lệnh dành cho Docker
 
-- docker build: Xây dựng một hình ảnh Docker.
-- docker run: Chạy một hình ảnh Docker.
+- docker run: Chạy một container Docker.
+- docker build: Xây dựng một hình ảnh Docker từ một tệp Dockerfile.
 - docker push: Đẩy một hình ảnh Docker lên kho lưu trữ Docker.
+- docker pull: Kéo một hình ảnh Docker từ kho lưu trữ Docker.
+- docker stop: Dừng một container Docker đang chạy.
+- docker start: Khởi động lại một container Docker đã dừng.
+- docker rm: Xóa một container Docker.
+- docker images: Liệt kê tất cả các hình ảnh Docker.
+- docker ps: Liệt kê tất cả các container Docker đang chạy.
+- docker logs: Xem nhật ký của một container Docker.
+- docker network ls: Liệt kê tất cả các mạng Docker.
+- docker volume ls: Liệt kê tất cả các khối lượng Docker.
+- docker compose up: Chạy một ứng dụng Docker từ tệp docker-compose.yml.
 
 ## Một số lệnh dành cho Kubernetes
 
