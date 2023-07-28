@@ -75,7 +75,7 @@ Câu lệnh này sẽ liệt kê toàn bộ nội dung tại thư mục đang l�
 
 Thực thi câu lệnh kèm theo với quyền `root` / `superuser`.
 
-**Cú pháp: **
+**Cú pháp:**
 
     sudo - execute a command as another user
 
@@ -90,7 +90,7 @@ Thực thi câu lệnh kèm theo với quyền `root` / `superuser`.
  
 ### Lệnh cat
 
-Câu lệnh này sẽ giúp người dùng có thể đọc, điều chỉnh hoặc ghép các tập tin định dạng text.
+Câu lệnh này sẽ giúp người dùng có thể đọc, điều chỉnh hoặc ghép các tập tin định dạng **text**.
 
 **Cú pháp:**
 
@@ -151,7 +151,7 @@ Câu lệnh này mặc định sẽ hiển thị 10 dòng cuối cùng của t�
 
 Lệnh này được sử dụng để thay đổi **user** hoặc nhóm sở hữu tập tin hoặc thư mục. Bất cứ khi nào bạn muốn thay đổi quyền sở hữu, bạn có thể sử dụng lệnh `chown`.
 
-**Cú pháp: **
+**Cú pháp:**
 
     chown <option>… <OWNER><:[GROUP]> <tên file>…
     chown <option>… –reference=RFILE <tên file>…
@@ -226,21 +226,20 @@ Kết quả sẽ hiển thị với các cột có các nội dung tương ứng
 
 ### ifconfig
 
-ifconfig (interface configuration) là một trong những câu lệnh dùng để xem nhanh các địa chỉ IP và các thông tin khác của giao diện mạng (interface). Gõ ifconfig để xem trạng thái các interface hiện đang hoạt động, trong đó bao gồm tên, tình trạng thông tin địa chỉ IP, địa chỉ MAC. Bạn cũng có thể chỉ định tên một interface cần xem thông tin thay vì xem toàn bộ.
+`ifconfig` (**interface configuration**) là một trong những câu lệnh dùng để xem nhanh các địa chỉ **IP** và các thông tin khác của giao diện mạng (**interface**). Gõ ifconfig để xem trạng thái các **interface** hiện đang hoạt động, trong đó bao gồm tên, tình trạng thông tin địa chỉ IP, địa chỉ **MAC**. Bạn cũng có thể chỉ định tên một **interface** cần xem thông tin thay vì xem toàn bộ.
 
 **Cú pháp:** 
 
-if  config <option> <interface>
+    ifconfig <option> <interface>
 
 |Câu lệnh|Chi tiết|
 |--------|--------|
 |ifconfig -a|	Liệt kê toàn bộ thông tin interface có trên hệ thống, kể cả chúng đã bị “tắt”.|
 |ifconfig -s|	Liệt kê tóm tắt thông tin interface trên hệ thống|
- 
 
 ### Lệnh id
 
-Câu lệnh này sẽ liệt kê các thông tin (**name, group,…**) của user hiện tại hoặc user được chỉ định trên server.
+Câu lệnh này sẽ liệt kê các thông tin (**name, group,…**) của **user** hiện tại hoặc **user** được chỉ định trên **server**.
 
 **Cú pháp:**
 
@@ -332,15 +331,13 @@ Một vài tuỳ chọn (*option*) được dùng thường xuyên gồm:
 
 ### Lệnh history
 
-Câu lệnh history được sử dụng để xem các lệnh đã thực hiện trước đó.
+Câu lệnh `history` được sử dụng để xem các lệnh đã thực hiện trước đó.
 
 **Cú pháp:**
 
     history <số lượng câu lệnh cần hiển thị - mặc định sẽ hiển thị toàn bộ>
 
-Sau khi có kết quả danh sách các câu lệnh để thực thi, bạn có thể thực hiện lại 1 câu lệnh bất kỳ trong danh sách câu lệnh bằng cú pháp:
-
-!<số thứ tự của câu lệnh từ kết quả của câu lệnh history>
+Bạn cũng có thể sử dụng ký hiệu ! với lệnh `history` để lấy số thứ tự của một câu lệnh cụ thể. Ví dụ, để lấy số thứ tự của câu lệnh `ls`, bạn có thể sử dụng lệnh `!ls`.
 
 ### Lệnh dd
 
@@ -353,7 +350,7 @@ Câu lệnh này sử dụng trong các trường hợp sau:
 - Tạo một tập tin với kích cỡ cố định
 - Tạo một tập tin ISO
 
-**Cú pháp: **
+**Cú pháp:**
 
     dd if=<địa chỉ đầu vào> of=<địa chỉ đầu ra> <option>
 
@@ -362,14 +359,14 @@ Câu lệnh này sử dụng trong các trường hợp sau:
 - if= địa chỉ nguồn của dữ liệu nó sẽ bắt đầu đọc
 - of= viết đầu ra của tập tin
 - option : các tùy chọn cho câu lệnh
-- 
+
 **Ý nghĩa các tham số:**
 
 |Tùy chọn|Ý nghĩa|
 |--------|--------|
 |bs=Bytes|	Quá trình đọc (ghi) bao nhiêu byte một lần đọc (ghi)|
 |cbs=Bytes|	Chuyển đổi bao nhiêu byte một lần|
-|count=Blocks|	thực hiện bao nhiêu Block trong quá trình thực thi câu lệnh|
+|count=Blocks|	Thực hiện bao nhiêu Block trong quá trình thực thi câu lệnh|
 |if|	Chỉ đường dẫn đọc đầu vào|
 |of|	Chỉ đường dẫn ghi đầu ra|
 |ibs=bytes|	Chỉ ra số byte một lần đọc|
@@ -403,7 +400,7 @@ Câu lệnh này sử dụng trong các trường hợp sau:
 
 Ngoài ra, người dùng có thể sử dụng câu lệnh này để kiểm tra tốc độ đọc/ghi ổ cứng hiện tại của server:
 
-**Cú pháp: **
+**Cú pháp:**
 
     dd if=/dev/zero of=test bs=64k count=16k conv=fdatasync
  
@@ -411,13 +408,13 @@ Ngoài ra, người dùng có thể sử dụng câu lệnh này để kiểm tr
 
 Lệnh `find` được sử dụng để tìm kiếm và định vị danh sách các tập tin và thư mục dựa trên các điều kiện bạn chỉ định cho các tệp khớp với các đối số cần tìm: tên tập tin, tên thư mục, phân quyền, owner, groups,…
 
-**Cú pháp: **
+**Cú pháp:**
 
     find <vị trí con trỏ bắt đầu tìm kiếm> <đối số cần tìm> <option> <từ khóa cần tìm>
 
 ### Lệnh free
 
-Câu lệnh này sẽ cung cấp thông tin về dung lượng bộ nhớ đã sử dụng và chưa sử dụng, kèm theo đó là thông tin về dung lượng RAM ảo SWAP.
+Câu lệnh này sẽ cung cấp thông tin về dung lượng bộ nhớ đã sử dụng và chưa sử dụng, kèm theo đó là thông tin về dung lượng **RAM** ảo **SWAP**.
 
 **Cú pháp:**
 
@@ -448,7 +445,7 @@ Các tùy chọn (option) thường dùng
 
 Sử dụng lệnh `ssh-keygen` để tạo cặp khóa xác thực **public/private**, giúp người dùng kết nối với hệ thống từ xa mà không cần cung cấp mật khẩu. Các khóa phải được tạo riêng cho từng người dùng. Nếu bạn tạo các cặp khóa xác thực là với quyền user root thì chỉ user root mới có thể sử dụng các khóa đã tạo.
 
-**Cú pháp: **
+**Cú pháp:**
 
     ssh-keygen -t <option>
 
@@ -466,9 +463,9 @@ Câu lệnh này thuộc gói `net-tools` được cài đặt trên **Linux**, 
 
 **Cú pháp:**
 
-`ip <option> <các đối tượng mạng trên hệ thống> <COMMAND | help>
+    ip <option> <các đối tượng mạng trên hệ thống> <COMMAND | help>
 
-Các tùy chọn (option) thường dùng
+Các tùy chọn (*option*) thường dùng
 
 |Tùy chọn|Ý nghĩa|
 |--------|--------|
@@ -480,7 +477,7 @@ Các tùy chọn (option) thường dùng
 
 `nslookup` được sử dụng để truy vấn các **Internet Domain Name Servers (DNS)**. `Nslookup` có hai chế độ: tương tác (**interactive**) và không tương tác (**non-interactive**). Chế độ tương tác cho phép người dùng truy vấn các tên máy chủ để biết thông tin về các máy chủ và tên miền khác nhau hoặc để in danh sách các máy chủ trong một miền. Chế độ không tương tác được sử dụng để chỉ in tên và thông tin được yêu cầu cho máy chủ lưu trữ hoặc tên miền.
 
-**Cú pháp: **
+**Cú pháp:**
 
     nsloopkup <đường dẫn cần kiểm tra>
 
@@ -521,7 +518,7 @@ hoặc
 
     dnf install bind-utils
 
-Để cài trên Debian / Ubuntu sử dụng lệnh
+Để cài trên **Debian/Ubuntu** sử dụng lệnh
 
     apt install dnsutils
 
@@ -529,7 +526,7 @@ hoặc
 
 Một trong những điều cơ bản nhất bạn có thể làm với `curl` là tải xuống một trang web hoặc tập tin.
 
-**Cú pháp: **
+**Cú pháp:**
 
     curl <option> <đường dẫn / URL>
 
@@ -545,14 +542,14 @@ Câu lệnh này được sử dụng trên hệ điều hành **Linux** giúp n
 
     tr <option> <set1> <set2>
 
-Ví dụ: Bạn cần thay đổi các ký tự trong tập tin từ chữ thường sang chữ hoa
+**Ví dụ:** Bạn cần thay đổi các ký tự trong tập tin từ chữ thường sang chữ hoa
 
-[root@DevOps ~]# cat test.txt
-devops
-[root@DevOps ~]# cat test.txt | tr [:lower:] [:upper:]
-DEVOPS
+    [root@DevOps ~]# cat test.txt
+    devops
+    [root@DevOps ~]# cat test.txt | tr [:lower:] [:upper:]
+    DEVOPS
 
-Các tùy chọn (option) thường dùng
+Các tùy chọn (*option*) thường dùng
 
 |Tùy chọn|Ý nghĩa|
 |--------|--------|
@@ -570,7 +567,7 @@ Các tùy chọn (option) thường dùng
 - Tagert: có thể được hiểu là hành động dành cho các gói tin khi gói tin thỏa mãn các rule đã quy định.
 - Policy: cơ chế mặc định đối với các trường hợp gói tin không trùng khớp với các Chain hiện có.
 
-**Cú pháp: **
+**Cú pháp:**
 
     iptables --table TABLE -A/-C/-D... CHAIN rule --jump Target
 
@@ -599,7 +596,7 @@ Lệnh `df` (**disk free**) hiển thị tình trạng dung lượng ổ đĩa t
 
     htop <option>
 
-Các tùy chọn (option) thường dùng:
+Các tùy chọn (*option*) thường dùng:
 
 |Tùy chọn|Ý nghĩa|
 |--------|--------|
@@ -613,11 +610,11 @@ Các tùy chọn (option) thường dùng:
 
 Câu lệnh này sẽ hiển thị danh sách các tiến trình đang hoạt động trên hệ thống.
 
-**Cú pháp: **
+**Cú pháp:**
 
     ps <option>
 
-Các tùy chọn (option) thường dùng:
+Các tùy chọn (*option*) thường dùng:
 
 |Tùy chọn|Ý nghĩa|
 |--------|--------|
@@ -629,7 +626,7 @@ Các tùy chọn (option) thường dùng:
 
 Lệnh `kill` có thể được dùng để ngắt một hoặc nhiều tiến trình đang hoạt động trên hệ thống.
 
-**Cú pháp: **
+**Cú pháp:**
 
     kill <option> <ID của tiến trình>
 
