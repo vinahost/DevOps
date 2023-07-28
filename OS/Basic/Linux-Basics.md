@@ -189,7 +189,8 @@ Kết quả sẽ hiển thị với các cột có các nội dung tương ứng
 |COMMAND|9 kí tự đầu tiên của tên chương trình lệnh tương ứng với tiến trình.|
 |PID|Thông tin PID của tiến trình.|
 |USER|User thực thi tiến trình đó. Có thể là UID hoặc username.|
-|FD|File Descriptor của tập tin được liệt kê, hoặc các thông tin khác hay mode (w,u,r) của tập tin.|
+|FD|
+ || File Descriptor của tập tin được liệt kê, hoặc các thông tin khác hay mode (w,u,r) của tập tin.|
  || cwd : là thư mục đang hoạt động của tiến trình.|
  || txt : program text (code và data).|
  || mmap : tập tin memory-mapped.|
@@ -203,10 +204,10 @@ Kết quả sẽ hiển thị với các cột có các nội dung tương ứng
  || sock : socket.|
  || ipv4/ipv6 : socket IPv4/v6.|
  || DIR : thư mục.|
-DEVICE	Số đại diện của thiết bị như partition mà tập tin thuộc về.
-SIZE/OFF	Dung lượng của tập tin.
-NODE 	Số node của tập tin.
-NAME 	Tên tập tin.
+|DEVICE|Số đại diện của thiết bị như partition mà tập tin thuộc về.|
+|SIZE/OFF|Dung lượng của tập tin.|
+|NODE|Số node của tập tin.|
+|NAME|Tên tập tin.|
  
 
 Ví dụ:
