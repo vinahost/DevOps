@@ -41,19 +41,19 @@ Sau khi hoàn tất, chúng ta sử dụng một dấu nhắc lệnh (*command p
 
 `go version`
 
-![DevOps và GoLang](/Image/GoLang01.png)
+![DevOps và GoLang](/Image/GoLang03.png)
 
 Tiếp theo, chúng ta sẽ kiểm tra môi trường cho **Go** để đảm bảo các việc các thư mục làm việc được cấu hình chính xác. Như bạn có thể thấy bên dưới, chúng ta cần đảm bảo rằng những thư mục sau có trên hệ thống của mình.
 
-![DevOps và GoLang](/Image/GoLang01.png)
+![DevOps và GoLang](/Image/GoLang04.png)
 
 Bạn đã kiểm tra chưa? Bạn có đang theo kịp không? Bạn có thể sẽ nhận được một lỗi giống như dưới đây khi bạn thử và cố gắng điều hướng đến đó.
 
-![DevOps và GoLang](/Image/GoLang01.png)
+![DevOps và GoLang](/Image/GoLang05.png)
 
 Được rồi, hãy tạo thư mục đó bằng cách sử dụng lệnh **mkdir** trong P*owerShell terminal*. Chúng ta cũng cần tạo 3 thư mục trong thư mục **Go** như bạn sẽ thấy bên dưới.
 
-![DevOps và GoLang](/Image/GoLang01.png)
+![DevOps và GoLang](/Image/GoLang06.png)
 
 Sau khi chúng ta cài đặt Go và có các thư mục sẵn sàng cho **Go** hoạt động, chúng ta cần một môi trường phát triển tích hợp (**IDE**). Có rất nhiều lựa chọn mà bạn có thể sử dụng nhưng phổ biến nhất và **IDE** mà tôi sử dụng là **Visual Studio Code** hoặc Code. Bạn có thể tìm hiểu thêm về các **IDEs** tại [đây](https://www.youtube.com/watch?v=vUn5akOlFXQ).
 
