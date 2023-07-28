@@ -53,11 +53,11 @@
 - mv: Lệnh này di chuyển hoặc đổi tên một tệp hoặc thư mục.
 - rm: Lệnh này xóa một tệp hoặc thư mục.
 
-### Chi tiết những câu lệnh trên Linux thường sử dụng trong DevOps
+## Chi tiết những câu lệnh trên Linux thường sử dụng trong DevOps
 
 Sau đây sẽ là những câu lệnh trên **Linux** thường sử dụng trong công việc của **DevOps**.
 
-#### Lệnh ls
+- ### Lệnh ls
 
 Câu lệnh này sẽ liệt kê toàn bộ nội dung tại thư mục đang làm việc.
 
@@ -66,7 +66,7 @@ Câu lệnh này sẽ liệt kê toàn bộ nội dung tại thư mục đang l�
     ls <option>
 
 |Câu lệnh       |Chi tiết|
-|--------       |--------|
+|---------------|--------|
 |ls <đường dẫn> |Liệt kê các nội dung đang được lưu trữ bên trong đường dẫn chỉ định.|
 |ls -l          |Liệt kê toàn bộ nội dung có trong thư mục kèm theo các trường thông tin như người sở hữu, các quyền trên nội dung, thời gian chỉnh sửa gần nhất.|
 |ls -a          |Liệt kê toàn bộ nội dung bên trong thư mục, bao gồm các tập tin ẩn.|
