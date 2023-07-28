@@ -190,8 +190,8 @@ Kết quả sẽ hiển thị với các cột có các nội dung tương ứng
 |PID|Thông tin PID của tiến trình.|
 |USER|User thực thi tiến trình đó. Có thể là UID hoặc username.|
 |FD|File Descriptor của tập tin được liệt kê, hoặc các thông tin khác hay mode (w,u,r) của tập tin.|
-||- cwd : là thư mục đang hoạt động của tiến trình.|
-||-txt : program text (code và data).|
+|| cwd : là thư mục đang hoạt động của tiến trình.|
+|| txt : program text (code và data).|
 || mmap : tập tin memory-mapped.|
 || rtd : root directory (thư mục root).|
 || DEL : Linux map tập tin đã bị xoá.|
@@ -208,22 +208,21 @@ Kết quả sẽ hiển thị với các cột có các nội dung tương ứng
 |NODE|Số node của tập tin.|
 |NAME|Tên tập tin.|
  
+**Ví dụ:**
 
-Ví dụ:
-
-[root@tel4vn_lab ~]# lsof
-COMMAND   PID            USER    FD      TYPE             DEVICE    SIZE/OFF     NODE NAME
-lsof      28207          root    0u      CHR              136,0       0t0          3 /dev/pts/0
-lsof      28207          root    1u      CHR              136,0       0t0          3 /dev/pts/0
-lsof      28207          root    2u      CHR              136,0       0t0          3 /dev/pts/0
-lsof      28207          root    3r      DIR                0,3         0          1 /proc
-lsof      28207          root    4r      DIR                0,3         0     231727 /proc/28207/fd
-lsof      28207          root    5w     FIFO                0,9       0t0     231732 pipe
-lsof      28207          root    6r     FIFO                0,9       0t0     231733 pipe
-lsof      28208          root  cwd       DIR                8,2      4096    2097217 /root
-lsof      28208          root  rtd       DIR                8,2       263         64 /
-lsof      28208          root  txt       REG                8,2    154184    6505411 /usr/sbin/lsof
-...
+    [root@Devops ~]# lsof
+    COMMAND   PID            USER    FD      TYPE             DEVICE    SIZE/OFF     NODE NAME
+    lsof      28207          root    0u      CHR              136,0       0t0          3 /dev/pts/0
+    lsof      28207          root    1u      CHR              136,0       0t0          3 /dev/pts/0
+    lsof      28207          root    2u      CHR              136,0       0t0          3 /dev/pts/0
+    lsof      28207          root    3r      DIR                0,3         0          1 /proc
+    lsof      28207          root    4r      DIR                0,3         0     231727 /proc/28207/fd
+    lsof      28207          root    5w     FIFO                0,9       0t0     231732 pipe
+    lsof      28207          root    6r     FIFO                0,9       0t0     231733 pipe
+    lsof      28208          root  cwd       DIR                8,2      4096    2097217 /root
+    lsof      28208          root  rtd       DIR                8,2       263         64 /
+    lsof      28208          root  txt       REG                8,2    154184    6505411 /usr/sbin/lsof
+    ...
 
  
 
