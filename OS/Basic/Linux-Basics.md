@@ -23,6 +23,8 @@ Lệnh `apt` có thể được sử dụng để cài đặt các gói từ kho
 
 Lệnh `apt` là một công cụ mạnh mẽ và linh hoạt có thể được sử dụng để quản lý các gói phần mềm trên các hệ thống dựa trên **Debian**. Nó là một công cụ quan trọng đối với bất kỳ ai sử dụng một hệ thống dựa trên **Debian**, và nó có thể được sử dụng để dễ dàng cài đặt, gỡ bỏ, cập nhật và quản lý các gói phần mềm.
 
+### Lệnh apt phổ biến
+
 Một số lệnh `apt` phổ biến:
 
 - apt install package_name: Cài đặt gói phần mềm có tên package_name.
@@ -32,6 +34,8 @@ Một số lệnh `apt` phổ biến:
 - apt dist-upgrade: Cập nhật hệ điều hành lên phiên bản mới nhất.
 - apt-cache search keyword: Tìm kiếm các gói phần mềm có chứa từ khóa keyword.
 - apt-cache show package_name: Hiển thị thông tin chi tiết về gói phần mềm có tên package_name
+
+### So sánh apt và apt-get
 
 `apt` và `apt-get` đều là các công cụ dòng lệnh được sử dụng để quản lý các gói phần mềm trên các hệ thống dựa trên **Debian**, bao gồm **Ubuntu** và **Linux Mint**. Cả hai đều dựa trên **APT** (**Advanced Package Tool**), một hệ thống quản lý gói cung cấp một cách thống nhất để cài đặt, gỡ bỏ, cập nhật và quản lý các gói phần mềm.
 
@@ -48,6 +52,8 @@ Nhìn chung, `apt` là công cụ quản lý gói tốt hơn `apt-get`. Nó hi�
 
 ## Lệnh cài đặt trên Centos - Redhat
 
+### Lệnh yum
+
 Lệnh `yum` là một công cụ quản lý gói dòng lệnh được sử dụng để cài đặt, gỡ bỏ, cập nhật và quản lý các gói phần mềm trên các hệ thống dựa trên **Red Hat**, bao gồm **CentOS**, **RHEL**, **Fedora** và **AlmaLinux**. Nó là một phần của hệ thống quản lý gói **YUM** (*Yellow dog Updater, Modified*), cung cấp một cách thống nhất để quản lý các gói phần mềm.
 
 Lệnh `yum` có thể được sử dụng để cài đặt các gói từ kho lưu trữ **Red Hat** chính thức, cũng như từ các kho lưu trữ của bên thứ ba. Nó cũng có thể được sử dụng để gỡ bỏ các gói, cập nhật các gói hiện có và quản lý các phụ thuộc của gói.
@@ -62,6 +68,8 @@ Một số lệnh `yum` phổ biến:
 - yum list: Liệt kê tất cả các gói phần mềm đã cài đặt trên hệ thống của bạn.
 - yum search keyword: Tìm kiếm các gói phần mềm có chứa từ khóa keyword.
 - yum info package_name: Hiển thị thông tin chi tiết về gói phần mềm có tên package_name.
+
+### Lệnh dnf
 
 `dnf` là một công cụ quản lý gói dòng lệnh được sử dụng để cài đặt, gỡ bỏ, cập nhật và quản lý các gói phần mềm trên các hệ thống dựa trên **Red Hat**, bao gồm **Fedora**, **CentOS**, **RHEL** và **AlmaLinux**. Nó là một phần của hệ thống quản lý gói **DNF** (*Dnf Package Manager*), là một bản thay thế mới hơn cho **YUM** (*Yellow dog Updater, Modified*).
 
@@ -79,6 +87,8 @@ Một số lệnh `dnf` phổ biến:
 - dnf list: Liệt kê tất cả các gói phần mềm đã cài đặt trên hệ thống của bạn.
 - dnf search keyword: Tìm kiếm các gói phần mềm có chứa từ khóa keyword.
 - dnf info package_name: Hiển thị thông tin chi tiết về gói phần mềm có tên package_name.
+
+### So sánh khác nhau giữa yum và dnf
 
 So sánh khác biệt chính giữa **YUM** và **DNF** bao gồm:
 
