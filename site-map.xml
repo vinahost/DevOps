@@ -141,6 +141,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://devops.vinahost.vn/OS/Basic/Install-Software-Linux/</loc>
+         <lastmod>2023-07-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://devops.vinahost.vn/OS/Basic/Lenh-Find-Trong-Linux/</loc>
+         <lastmod>2023-07-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://devops.vinahost.vn/OS/Basic/Linux-Basics/</loc>
          <lastmod>2023-07-28</lastmod>
          <changefreq>daily</changefreq>
@@ -201,12 +211,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://devops.vinahost.vn/Programming-Langguage/GoLang/Go-Nhan-Gia-Tri-Bien/</loc>
+         <lastmod>2023-07-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://devops.vinahost.vn/Programming-Langguage/GoLang/Go-Workspace/</loc>
          <lastmod>2023-07-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Programming-Langguage/GoLang/Hello-World-GoLang/</loc>
+         <lastmod>2023-07-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://devops.vinahost.vn/Programming-Langguage/GoLang/Twitter-Voi-GoLang/</loc>
          <lastmod>2023-07-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
