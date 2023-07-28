@@ -2,7 +2,7 @@
 
 ![Python là gì](../../Image/python.jpg)
 
-**Python** là một ngôn ngữ lập trình đa năng được phát triển bởi **Guido van Rossum** vào năm **1991**. Python là một ngôn ngữ lập trình cấp cao, có nghĩa là nó dễ đọc và viết hơn các ngôn ngữ lập trình cấp thấp. Python cũng là một ngôn ngữ lập trình hướng đối tượng, có nghĩa là nó cho phép các nhà phát triển tạo các chương trình bằng cách sử dụng các đối tượng.
+**Python** là một ngôn ngữ lập trình đa năng được phát triển bởi **Guido van Rossum** vào năm **1991**. Python là một ngôn ngữ lập trình cấp cao, có nghĩa là nó dễ đọc và viết hơn các ngôn ngữ lập trình cấp thấp. **Python** cũng là một ngôn ngữ lập trình hướng đối tượng, có nghĩa là nó cho phép các nhà phát triển tạo các chương trình bằng cách sử dụng các đối tượng.
 
 ### Python được ứng dụng cho:
 
@@ -105,13 +105,12 @@ Bạn có thể chạy hình ảnh Docker của dự án bằng cách sử dụn
 
 Sau khi chạy lệnh này, bạn sẽ thấy một giao diện Python. Bạn có thể bắt đầu viết và chạy mã Python của mình.
 
-Đây chỉ là một ví dụ về cách thiết lập môi trường DevOps cho Python. Có nhiều cách khác để thiết lập môi trường DevOps, và cách tốt nhất sẽ phụ thuộc vào nhu cầu cụ thể của bạn. Nếu bạn chưa từng làm với Docker, đừng quá lo lắng, bài viết [Docker là gì & Cài đặt](/Containers/Docker/Docker-la-gi.md) sẽ hướng dẫn bạn cụ thể hơn về Docker.
+Đây chỉ là một ví dụ về cách thiết lập môi trường **DevOps** cho **Python**. Có nhiều cách khác để thiết lập môi trường **DevOps**, và cách tốt nhất sẽ phụ thuộc vào nhu cầu cụ thể của bạn. Nếu bạn chưa từng làm với **Docker**, đừng quá lo lắng, bài viết **Docker là gì & Cài đặt** sẽ hướng dẫn bạn cụ thể hơn về **Docker**.
 
 ### Tham khảo:
 
 - [Trang chủ Python](https://www.python.org/)
 - [Trang chủ Docker](https://www.docker.com/)
-- https://github.com/vinahostvn/devops/blob/main/Containers/Docker/Docker-la-gi.md
 - https://github.com/gto76/python-cheatsheet hoặc https://gto76.github.io/python-cheatsheet/
 - https://github.com/trekhleb/learn-python
 - https://github.com/FavioVazquez/ds-cheatsheets
