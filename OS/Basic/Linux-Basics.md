@@ -67,7 +67,7 @@ Câu lệnh này sẽ liệt kê toàn bộ nội dung tại thư mục đang l�
 
 |Câu lệnh|Chi tiết|
 |--------|--------|
-|ls <đường dẫn>|Liệt kê các nội dung đang được lưu trữ bên trong đường dẫn chỉ định.|
+|ls < đường dẫn > |Liệt kê các nội dung đang được lưu trữ bên trong đường dẫn chỉ định.|
 |ls -l|Liệt kê toàn bộ nội dung có trong thư mục kèm theo các trường thông tin như người sở hữu, các quyền trên nội dung, thời gian chỉnh sửa gần nhất.|
 |ls -a|Liệt kê toàn bộ nội dung bên trong thư mục, bao gồm các tập tin ẩn.|
  
@@ -189,8 +189,8 @@ Kết quả sẽ hiển thị với các cột có các nội dung tương ứng
 |COMMAND|9 kí tự đầu tiên của tên chương trình lệnh tương ứng với tiến trình.|
 |PID|Thông tin PID của tiến trình.|
 |USER|User thực thi tiến trình đó. Có thể là UID hoặc username.|
-|FD|File Descriptor của tập tin được liệt kê, hoặc các thông tin khác hay mode (w,u,r) của tập tin.
-- cwd : là thư mục đang hoạt động của tiến trình.
+|FD|File Descriptor của tập tin được liệt kê, hoặc các thông tin khác hay mode (w,u,r) của tập tin.|
+||- cwd : là thư mục đang hoạt động của tiến trình.|
 - txt : program text (code và data).
 - mmap : tập tin memory-mapped.
 - rtd : root directory (thư mục root).
