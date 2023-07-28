@@ -75,7 +75,7 @@ Cho tới lúc này, mọi thứ khác dễ dàng đúng không? Bây giờ chú
 
 Tiếp theo, tạo một tệp có tên là `main.go` trong thư mục `Hello`. Ngay sau khi bạn nhấn **Enter** tại file *main.go*, bạn sẽ được hỏi xem bạn có muốn cài đặt tiện ích mở rộng (**extension**) cho **Go** không cũng như các các **packages** mới. Bạn cũng có thể kiểm tra xem liệu tệp **pkg** mà chúng ta đã tạo có một số **packages** mới trong đó hay không?
 
-![DevOps và GoLang](/Image/GoLang01.png)
+![DevOps và GoLang](/Image/GoLang010.png)
 
 Bây giờ, hãy bắt đầu ứng dụng **Hello World**, sao chép mã sau vào tệp *main.go* mới của bạn và lưu lại.
 

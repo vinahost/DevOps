@@ -29,6 +29,7 @@
 - [✔️] ⌨️ > [Chương trình đầu tiên với GoLang: Hello World](Programming-Langguage/GoLang/Hello-World-GoLang.md)
 - [✔️] ⌨️ > [Go Workspace](Programming-Langguage/GoLang/Go-Workspace.md)
 - [✔️] ⌨️ > [Biến, hằng số, kiểu dữ liệu trong Go](Programming-Langguage/GoLang/Bien-Hang-So-Go.md)
+- [✔️] ⌨️ > [Go nhận giá trị đầu vào](Programming-Langguage/GoLang/Go-Nhan-Gia-Tri-Bien.md)
 - [✔️] ⌨️ > [Ứng dụng GoLang với Twitter](Programming-Langguage/GoLang/Twitter-Voi-GoLang.md)
 
 ### Kiến thức cơ bản về Linux
