@@ -88,7 +88,7 @@ So sánh khác biệt chính giữa **YUM** và **DNF** bao gồm:
 
 Nhìn chung, `dnf` là một bản nâng cấp đáng kể so với `yum`. Nó nhanh hơn, có nhiều tính năng hơn và tương thích với nhiều hệ thống hơn. Nếu bạn đang sử dụng một hệ thống dựa trên **Red Hat**, tôi khuyên bạn nên sử dụng **DNF** thay vì **YUM**.
 
-### Lệnh chung trên Linux
+## Lệnh cơ bản trên Linux
 
 - wget: Lệnh này được sử dụng để tải xuống các tệp từ internet.
 - curl: Lệnh này cũng được sử dụng để tải xuống các tệp từ internet, nhưng nó có nhiều tính năng hơn lệnh wget.
