@@ -7,9 +7,27 @@ Cài đặt phần mềm trên **Linux** có thể được thực hiện theo n
 Một số cách phổ biến nhất để cài đặt phần mềm trên **Linux** bao gồm:
 
 - Sử dụng trình quản lý gói: Trình quản lý gói là một công cụ được sử dụng để cài đặt, gỡ bỏ và quản lý các gói phần mềm trên **Linux**. Các trình quản lý gói phổ biến nhất bao gồm **APT** (*Advanced Package Tool*) trên các hệ thống dựa trên **Debian** và **RPM** (*Red Hat Package Manager*) trên các hệ thống dựa trên **Red Hat**.
-- Chạy tệp nhị phân (bin): Nếu phần mềm bạn muốn cài đặt có sẵn dưới dạng tệp nhị phân, bạn có thể chạy tệp đó để cài đặt.
+- Chạy tệp nhị phân (binary): Nếu phần mềm bạn muốn cài đặt có sẵn dưới dạng tệp nhị phân, bạn có thể chạy tệp đó để cài đặt.
 - Cài đặt từ nguồn: Nếu phần mềm bạn muốn cài đặt không có sẵn dưới dạng tệp nhị phân, bạn có thể cài đặt từ nguồn. Điều này liên quan đến việc tải xuống mã nguồn của phần mềm và biên dịch nó trên hệ thống của bạn.
-- 
+
+Dưới đây là một số ví dụ về cách cài đặt phần mềm trên Linux bằng các phương pháp khác nhau:
+
+    # Cài đặt gói bằng APT
+    sudo apt install software-name
+
+    # Cài đặt gói bằng YUM
+    sudo yum install software-name
+
+    # Cài đặt bằng file nhị phân (binary)
+    chmod +x install.bin
+    ./install.bin
+
+    # Cài đặt phần mềm từ source
+    git clone https://github.com/username/software_repo.git
+    cd software_repo
+    make
+    sudo make install
+
 Khi cài đặt phần mềm trên **Linux**, điều quan trọng là phải đảm bảo rằng bạn cài đặt phiên bản phần mềm tương thích với hệ thống **Linux** của bạn. Bạn cũng nên đảm bảo rằng bạn đã cài đặt tất cả các phụ thuộc cần thiết cho phần mềm.
 
 ## Lệnh apt trên Debian - Ubuntu
