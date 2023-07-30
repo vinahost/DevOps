@@ -104,11 +104,12 @@ end                                             #  hết cấu hình tạo máy 
 - Nhìn vào các thông báo quá trình tạo máy ảo, mặc định nó sẽ chia sẻ thư mục chứa file **Vagrantfile** ở máy host vào máy ảo ở đường dẫn */vagran*t của máy ảo. Có nghĩa tại máy ảo truy cập vào thư mục */vagrant/* thì trong đó chính là dữ liệu trong thư mục có file **Vagrantfile** của máy host
 
 ### vagrant ssh
-- Khi máy ảo đang chạy, vẫn đang ở dòng lệnh tại thư mục chứa file Vag**r**ant để kết nối đến máy ảo bằng giao thức ssh gõ lệnh sau:
+
+Khi máy ảo đang chạy, vẫn đang ở dòng lệnh tại thư mục chứa file **Vagrant** để kết nối đến máy ảo bằng giao thức **ssh** gõ lệnh sau:
 
     vagrant ssh
 
-- Bạn sẽ đăng nhập vào máy ảo với tài khoản **user** có tên là **vagrant**, từ tài khoản này nếu muốn chuyển sang **root** gõ lệnh:
+Bạn sẽ đăng nhập vào máy ảo với tài khoản **user** có tên là **vagrant**, từ tài khoản này nếu muốn chuyển sang **root** gõ lệnh:
 
     sudo -i
 
@@ -125,7 +126,7 @@ end                                             #  hết cấu hình tạo máy 
 
 ## Đồng bộ thư mục
 
-- Mặc định khi chạy máy ảo, nó đã đồng bộ qua lại giữa thư mục chứa file **Vagrantfile** vào thư mục */vagrant/* của máy ảo. Nếu muốn cấu hình đồng bộ sử dụng **config.vm.synced_folder**, ví dụ cần đồng bộ thư mục máy host hiện tại . vào thư mục **/data/mydata/** của máy ảo `config.vm.synced_folder '.', '/data/mydata/'`
+Mặc định khi chạy máy ảo, nó đã đồng bộ qua lại giữa thư mục chứa file **Vagrantfile** vào thư mục */vagrant/* của máy ảo. Nếu muốn cấu hình đồng bộ sử dụng **config.vm.synced_folder**, ví dụ cần đồng bộ thư mục máy host hiện tại . vào thư mục **/data/mydata/** của máy ảo `config.vm.synced_folder '.', '/data/mydata/'`
 
 ```
 # -*- mode: ruby -*-
@@ -145,8 +146,11 @@ Vagrant.configure(2) do |config|                # Bắt đầu khai báo máy �
 end                                             #  hết cấu hình tạo máy ảo
 ```
 
-- Sau khi sửa file cấu hình, nạp lại máy ảo bằng vagrant reload
-- Nếu có lỗi có thể cần cài đặt Plugin vagrant-vbguest
+Sau khi sửa file cấu hình, nạp lại máy ảo bằng 
+
+    vagrant reload
+
+Nếu có lỗi có thể cần cài đặt **Plugin** *vagrant-vbguest*
 
     vagrant plugin install vagrant-vbguest
 
@@ -230,7 +234,7 @@ end
 
 Xóa máy ảo cũ, thực hiện `vagrant up` tạo lại máy ảo. Sau khi tạo máy ảo có thể cần khởi động lại (**reload**) để cấu hình như **Selinux**, **Apache** có hiệu lực
 
-- Tạo file **index.php** ở thư mục dự án với nội dung:
+Tạo file **index.php** ở thư mục dự án với nội dung:
 
 ```
 <?php
