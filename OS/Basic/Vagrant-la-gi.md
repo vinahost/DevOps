@@ -137,7 +137,7 @@ Bạn sẽ đăng nhập vào máy ảo với tài khoản **user** có tên là
 - `vagrant reload`	Khởi động lại máy ảo, có đọc lại cấu hình trong Vagrantfile
 - `vagrant destroy`	Xóa máy ảo
 
-## Đồng bộ thư mục
+### Đồng bộ thư mục
 
 Mặc định khi chạy máy ảo, nó đã đồng bộ qua lại giữa thư mục chứa file **Vagrantfile** vào thư mục */vagrant/* của máy ảo. Nếu muốn cấu hình đồng bộ sử dụng **config.vm.synced_folder**, ví dụ cần đồng bộ thư mục máy host hiện tại . vào thư mục **/data/mydata/** của máy ảo `config.vm.synced_folder '.', '/data/mydata/'`
 
@@ -259,7 +259,7 @@ Giờ truy cập http://192.168.10.55
 
 ![vagrant là gì](/Image/Vagrant03.png)
 
-### Lợi ích của sử dụng Vagrant
+## Lợi ích của sử dụng Vagrant
 
 Một số lợi ích của việc sử dụng **Vagrant**:
 
@@ -269,7 +269,7 @@ Một số lợi ích của việc sử dụng **Vagrant**:
 
 Nếu bạn đang tìm kiếm một công cụ để tạo và quản lý các máy ảo, thì **Vagrant** là một lựa chọn tuyệt vời. **Vagrant** là một công cụ miễn phí và mã nguồn mở, dễ sử dụng và có nhiều tính năng.
 
-### Công cụ thay thế Vagrant
+## Công cụ thay thế Vagrant
 
 Dưới đây là một số công cụ thay thế cho Vagrant:
 
