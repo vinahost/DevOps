@@ -12,11 +12,13 @@ Sau khi **Vagrantfile** được tạo, máy ảo có thể được tạo bằn
 
 ### Cài đặt Vagrant
 
-- **Vagrant** làm việc với một nền tảng ảo hóa nào đó như **VirtualBox, HyperV, VM** ... nên bạn cũng cần có trên hệ thống của mình, ví dụ cần cài đặt **VirtualBox** nếu dùng nền tảng này, ở phần này coi như bạn đã đang có **VirtualBox** hay **HyperV** trên hệ thống
+**Vagrant** làm việc với một nền tảng ảo hóa nào đó như **VirtualBox, HyperV, VM** ... nên bạn cũng cần có trên hệ thống của mình, ví dụ cần cài đặt **VirtualBox** nếu dùng nền tảng này, ở phần này coi như bạn đã đang có **VirtualBox** hay **HyperV** trên hệ thống
 
-**Cài đặt vagrant trên Windows / macOS**
+#### Cài đặt vagrant trên Windows / macOS
 
-**Cài đặt Vagrant trên Ubuntu**
+[**Tham khảo cách cài tại link**](https://developer.hashicorp.com/vagrant/downloads)
+
+#### *Cài đặt Vagrant trên Ubuntu
 
     sudo apt-get install vagrant
 
@@ -26,9 +28,9 @@ Cũng kiểm tra bằng lệnh:
 
 ### Sử dụng Vagrant tạo và quản lý máy ảo Linux
 
-- Cách sử dụng thông thường là khai báo các máy ảo trong một file cấu hình có tên là *Vagrantfile*, quy tắc viết cấu hình ở dưới, nhưng trước tiên cần xác định máy ảo đó chạy hệ điều hành gì ... để file cấu hình khởi tạo máy ảo, các nguồn để khởi tạo máy ảo được gọi là các **Box**, bạn có thể tìm **Box** muốn sử dụng tại [Box Vagrant](https://app.vagrantup.com/boxes/search)
+Cách sử dụng thông thường là khai báo các máy ảo trong một file cấu hình có tên là *Vagrantfile*, quy tắc viết cấu hình ở dưới, nhưng trước tiên cần xác định máy ảo đó chạy hệ điều hành gì ... để file cấu hình khởi tạo máy ảo, các nguồn để khởi tạo máy ảo được gọi là các **Box**, bạn có thể tìm **Box** muốn sử dụng tại [Box Vagrant](https://app.vagrantup.com/boxes/search)
 
-- Ví dụ, muốn khởi tạo một máy ảo từ hệ điệu hành **CentOS**, thì có thể tìm và chọn **Box** có tên *centos/7* nó phù hợp cho cả **VirtualBox** và **HyperV**. Muốn một máy ảo **Ubuntu** có thể chọn **Box** có tên *ubuntu/trusty64* **Box** này lại chỉ phù hợp với **Virtual Box**. Tương tự như vậy có thể tìm kiếm chọn ra Box phù hợp! Hướng dẫn này giả sử sẽ tạo một máy ảo chạy *CentOS/7*, dùng nền tảng **VirtualBox** (trên máy phải cài đặt sẵn **VirualBox**).
+Ví dụ, muốn khởi tạo một máy ảo từ hệ điệu hành **CentOS**, thì có thể tìm và chọn **Box** có tên *centos/7* nó phù hợp cho cả **VirtualBox** và **HyperV**. Muốn một máy ảo **Ubuntu** có thể chọn **Box** có tên *ubuntu/trusty64* **Box** này lại chỉ phù hợp với **Virtual Box**. Tương tự như vậy có thể tìm kiếm chọn ra Box phù hợp! Hướng dẫn này giả sử sẽ tạo một máy ảo chạy *CentOS/7*, dùng nền tảng **VirtualBox** (trên máy phải cài đặt sẵn **VirualBox**).
 
 Tạo một thư mục dự án đạt tên là *vagrant-exam*, từ dòng lệnh (*terminal*, *powershell* ...) vào thư mục đó gõ lệnh sau để nó sinh ra file cấu hình **Vagrantfile:**
 
@@ -97,11 +99,12 @@ end                                             #  hết cấu hình tạo máy 
 ```
 
 ### vagrant up
-- Thi hành tạo máy ảo: gõ với lệnh `vagrant up`, lệnh này sẽ tạo máy ảo (cập nhật) được cấu hình trong **Vagrantfile**, nếu mở V**irtualBox Manager** sẽ thấy tên và trạng thái máy ảo này. Ở đây là máy ảo có tên **may-ao-01**
+
+Thi hành tạo máy ảo: gõ với lệnh `vagrant up`, lệnh này sẽ tạo máy ảo (cập nhật) được cấu hình trong **Vagrantfile**, nếu mở V**irtualBox Manager** sẽ thấy tên và trạng thái máy ảo này. Ở đây là máy ảo có tên **may-ao-01**
 
 ![vagrant là gì](/Image/Vagrant01.png)
 
-- Nhìn vào các thông báo quá trình tạo máy ảo, mặc định nó sẽ chia sẻ thư mục chứa file **Vagrantfile** ở máy host vào máy ảo ở đường dẫn */vagran*t của máy ảo. Có nghĩa tại máy ảo truy cập vào thư mục */vagrant/* thì trong đó chính là dữ liệu trong thư mục có file **Vagrantfile** của máy host
+Nhìn vào các thông báo quá trình tạo máy ảo, mặc định nó sẽ chia sẻ thư mục chứa file **Vagrantfile** ở máy host vào máy ảo ở đường dẫn */vagran*t của máy ảo. Có nghĩa tại máy ảo truy cập vào thư mục */vagrant/* thì trong đó chính là dữ liệu trong thư mục có file **Vagrantfile** của máy host
 
 ### vagrant ssh
 
@@ -156,17 +159,17 @@ Nếu có lỗi có thể cần cài đặt **Plugin** *vagrant-vbguest*
 
 ### Forward cổng máy ảo ra host
 
-- Nếu muốn chuyển cổng từ máy ảo ra máy host, ví dụ cổng máy ảo là **80** ra cổng máy host **8080** (có nghĩa là từ máy host truy cập cổng **8080 - locahost:8080** - thì có nghĩa là truy cập cổng **80** của máy ảo) `config.vm.network "forwarded_port", guest: 80, host: 8080`
+Nếu muốn chuyển cổng từ máy ảo ra máy host, ví dụ cổng máy ảo là **80** ra cổng máy host **8080** (có nghĩa là từ máy host truy cập cổng **8080 - locahost:8080** - thì có nghĩa là truy cập cổng **80** của máy ảo) `config.vm.network "forwarded_port", guest: 80, host: 8080`
 
-- Ngoài ra bạn cũng có thể thiết lập cho máy ảo có cấu hình với địa chỉ IP do bạn chỉ định và **NAT** giúp máy host (các máy khác trong LAN) truy cập đến địa chỉ này của máy ảo mà không cần **forward** cổng `config.vm.network "private_network", ip: "192.168.10.155"`
+Ngoài ra bạn cũng có thể thiết lập cho máy ảo có cấu hình với địa chỉ IP do bạn chỉ định và **NAT** giúp máy host (các máy khác trong LAN) truy cập đến địa chỉ này của máy ảo mà không cần **forward** cổng `config.vm.network "private_network", ip: "192.168.10.155"`
 
-- Với cấu hình trên, thì địa chỉ máy ảo là 192.168.10.155, bạn có thể truy cập đến các cổng của máy ảo với địa chỉ IP này, ví dụ http://192.168.10.155 (tức cổng 80)
+Với cấu hình trên, thì địa chỉ máy ảo là 192.168.10.155, bạn có thể truy cập đến các cổng của máy ảo với địa chỉ IP này, ví dụ http://192.168.10.155 (tức cổng 80)
 
 ### Provision - chạy lệnh khi tạo máy ảo
 
-- Trong quá trình tạo máy ảo, sau khi nạp Box, bạn có thể chạy các lệnh, các script của hệ điều hành, nếu chạy một script từ file **myscript.sh** thì cấu hình là: `config.vm.provision "shell", path: "./myscript.sh"`
+Trong quá trình tạo máy ảo, sau khi nạp Box, bạn có thể chạy các lệnh, các script của hệ điều hành, nếu chạy một script từ file **myscript.sh** thì cấu hình là: `config.vm.provision "shell", path: "./myscript.sh"`
 
-- Cũng có thể cấu hình chạy trực tiếp các lệnh, ví dụ:
+Cũng có thể cấu hình chạy trực tiếp các lệnh, ví dụ:
 
 ```
 config.vm.provision "shell", inline: <<-SHELL
