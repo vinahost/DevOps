@@ -271,7 +271,7 @@ Mục tiêu của file playbook setup_application.yml này là cấu hình tư�
 ## Modules
 ### [1. File](https://docs.ansible.com/ansible/latest/modules/file_module.html)
 
-* Create Folder/File
+Create Folder/File
 
 ```
 - name: create folder
@@ -285,7 +285,7 @@ Mục tiêu của file playbook setup_application.yml này là cấu hình tư�
   	state: touch
 ```
 
-* Link Folder/File - change ownership
+Link Folder/File - change ownership
 
 ```
 - name: Create a symbolic link
@@ -438,7 +438,7 @@ Mục tiêu của file playbook setup_application.yml này là cấu hình tư�
 
 ### [12. How to set and use sudo password for Ansible Vault](https://www.cyberciti.biz/faq/how-to-set-and-use-sudo-password-for-ansible-vault/)
 
-* First update your inventory file as follows:
+First update your inventory file as follows:
 
 ```
 [cluster:vars]
