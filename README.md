@@ -35,6 +35,7 @@
 ### Kiến thức cơ bản về Linux
 
 - [✔️] 🐧 > [Overview: DevOps & Linux](OS/Basic/DevOps-va-Linux.md)
+- [✔️] 🐧 > [Vagrant là gì ?](OS/Basic/Vagrant-la-gi.md)
 - [✔️] 🐧 > [Thực hành Linux với HashiCorp Vagrant](OS/Basic/HashiCorp-Vagrant.md)
 - [✔️] 🐧 > [Các lệnh Linux cho DevOps](OS/Basic/Linux-Basics.md)
 - [✔️] 🐧 > [Cài phần mềm trên Linux](OS/Basic/Install-Software-Linux.md)

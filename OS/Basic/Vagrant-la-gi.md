@@ -14,17 +14,15 @@ Sau khi **Vagrantfile** được tạo, máy ảo có thể được tạo bằn
 
 - **Vagrant** làm việc với một nền tảng ảo hóa nào đó như **VirtualBox, HyperV, VM** ... nên bạn cũng cần có trên hệ thống của mình, ví dụ cần cài đặt **VirtualBox** nếu dùng nền tảng này, ở phần này coi như bạn đã đang có **VirtualBox** hay **HyperV** trên hệ thống
 
-**Cài đặt vagrant trên Windows / macOS**
-
-[Link tai](https://www.vagrantup.com/downloads.html)
+**Cài đặt vagrant trên Windows / macOS** [Install Vagrant](https://www.vagrantup.com/downloads.html)
 
 **Cài đặt Vagrant trên Ubuntu**
 
-`sudo apt-get install vagrant`
+    `sudo apt-get install vagrant`
 
 Cũng kiểm tra bằng lệnh:
 
-`vagrant version`
+    `vagrant version`
 
 ### Sử dụng Vagrant tạo và quản lý máy ảo Linux
 
@@ -34,7 +32,7 @@ Cũng kiểm tra bằng lệnh:
 
 Tạo một thư mục dự án đạt tên là *vagrant-exam*, từ dòng lệnh (*terminal*, *powershell* ...) vào thư mục đó gõ lệnh sau để nó sinh ra file cấu hình **Vagrantfile:**
 
-`vagrant init`
+    `vagrant init`
 
 Sau lệnh này, nó sinh ra file *Vagrantfile* trong đó có chứa nội dung hướng dẫn cấu hình theo mẫu. Nội dung file đó có dạng:
 
@@ -253,7 +251,7 @@ Giờ truy cập http://192.168.10.55
 
 ### Lợi ích của sử dụng Vagrant
 
-Dưới đây là một số lợi ích của việc sử dụng Vagrant:
+Dưới đây là một số lợi ích của việc sử dụng **Vagrant**:
 
 - Tạo môi trường phát triển nhất quán: Vagrant có thể được sử dụng để tạo môi trường phát triển nhất quán cho các dự án phần mềm. Điều này có nghĩa là các nhà phát triển có thể sử dụng cùng một hệ điều hành, cùng một bộ gói phần mềm và cùng một cấu hình trên tất cả các máy tính của họ. Điều này có thể giúp giảm thiểu các vấn đề tương thích và cải thiện tính nhất quán của các dự án phần mềm.
 - Quản lý máy ảo: Vagrant có thể được sử dụng để quản lý máy ảo, chẳng hạn như khởi động, dừng và xóa. Điều này có thể giúp tiết kiệm thời gian và công sức cho việc quản lý các máy ảo.
