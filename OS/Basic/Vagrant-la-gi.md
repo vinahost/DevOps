@@ -14,15 +14,15 @@ Sau khi **Vagrantfile** được tạo, máy ảo có thể được tạo bằn
 
 - **Vagrant** làm việc với một nền tảng ảo hóa nào đó như **VirtualBox, HyperV, VM** ... nên bạn cũng cần có trên hệ thống của mình, ví dụ cần cài đặt **VirtualBox** nếu dùng nền tảng này, ở phần này coi như bạn đã đang có **VirtualBox** hay **HyperV** trên hệ thống
 
-**Cài đặt vagrant trên Windows / macOS** [Install Vagrant](https://www.vagrantup.com/downloads.html)
+**Cài đặt vagrant trên Windows / macOS**
 
 **Cài đặt Vagrant trên Ubuntu**
 
-    `sudo apt-get install vagrant`
+    sudo apt-get install vagrant
 
 Cũng kiểm tra bằng lệnh:
 
-    `vagrant version`
+    vagrant version
 
 ### Sử dụng Vagrant tạo và quản lý máy ảo Linux
 
@@ -32,7 +32,7 @@ Cũng kiểm tra bằng lệnh:
 
 Tạo một thư mục dự án đạt tên là *vagrant-exam*, từ dòng lệnh (*terminal*, *powershell* ...) vào thư mục đó gõ lệnh sau để nó sinh ra file cấu hình **Vagrantfile:**
 
-    `vagrant init`
+    vagrant init
 
 Sau lệnh này, nó sinh ra file *Vagrantfile* trong đó có chứa nội dung hướng dẫn cấu hình theo mẫu. Nội dung file đó có dạng:
 
@@ -97,7 +97,7 @@ end                                             #  hết cấu hình tạo máy 
 ```
 
 ### vagrant up
-- Thi hành tạo máy ảo: gõ với lệnh `vagrant up`, lệnh này sẽ tạo máy ảo (cập nhật) được cấu hình trong Vagrantfile, nếu mở VirtualBox Manager sẽ thấy tên và trạng thái máy ảo này. Ở đây là máy ảo có tên **may-ao-01**
+- Thi hành tạo máy ảo: gõ với lệnh `vagrant up`, lệnh này sẽ tạo máy ảo (cập nhật) được cấu hình trong **Vagrantfile**, nếu mở V**irtualBox Manager** sẽ thấy tên và trạng thái máy ảo này. Ở đây là máy ảo có tên **may-ao-01**
 
 ![vagrant là gì](/Image/Vagrant01.png)
 
@@ -106,11 +106,11 @@ end                                             #  hết cấu hình tạo máy 
 ### vagrant ssh
 - Khi máy ảo đang chạy, vẫn đang ở dòng lệnh tại thư mục chứa file Vag**r**ant để kết nối đến máy ảo bằng giao thức ssh gõ lệnh sau:
 
-`vagrant ssh`
+    vagrant ssh
 
 - Bạn sẽ đăng nhập vào máy ảo với tài khoản **user** có tên là **vagrant**, từ tài khoản này nếu muốn chuyển sang **root** gõ lệnh:
 
-`sudo -i`
+    sudo -i
 
 ![vagrant là gì](/Image/Vagrant02.png)
 
@@ -125,9 +125,7 @@ end                                             #  hết cấu hình tạo máy 
 
 ## Đồng bộ thư mục
 
-- Mặc định khi chạy máy ảo, nó đã đồng bộ qua lại giữa thư mục chứa file **Vagrantfile** vào thư mục */vagrant/* của máy ảo. Nếu muốn cấu hình đồng bộ sử dụng **config.vm.synced_folder**, ví dụ cần đồng bộ thư mục máy host hiện tại . vào thư mục **/data/mydata/** của máy ảo
-
-`config.vm.synced_folder '.', '/data/mydata/'`
+- Mặc định khi chạy máy ảo, nó đã đồng bộ qua lại giữa thư mục chứa file **Vagrantfile** vào thư mục */vagrant/* của máy ảo. Nếu muốn cấu hình đồng bộ sử dụng **config.vm.synced_folder**, ví dụ cần đồng bộ thư mục máy host hiện tại . vào thư mục **/data/mydata/** của máy ảo `config.vm.synced_folder '.', '/data/mydata/'`
 
 ```
 # -*- mode: ruby -*-
@@ -150,25 +148,19 @@ end                                             #  hết cấu hình tạo máy 
 - Sau khi sửa file cấu hình, nạp lại máy ảo bằng vagrant reload
 - Nếu có lỗi có thể cần cài đặt Plugin vagrant-vbguest
 
-`vagrant plugin install vagrant-vbguest`
+    vagrant plugin install vagrant-vbguest
 
 ### Forward cổng máy ảo ra host
 
-- Nếu muốn chuyển cổng từ máy ảo ra máy host, ví dụ cổng máy ảo là **80** ra cổng máy host **8080** (có nghĩa là từ máy host truy cập cổng **8080 - locahost:8080** - thì có nghĩa là truy cập cổng **80** của máy ảo)
+- Nếu muốn chuyển cổng từ máy ảo ra máy host, ví dụ cổng máy ảo là **80** ra cổng máy host **8080** (có nghĩa là từ máy host truy cập cổng **8080 - locahost:8080** - thì có nghĩa là truy cập cổng **80** của máy ảo) `config.vm.network "forwarded_port", guest: 80, host: 8080`
 
-`config.vm.network "forwarded_port", guest: 80, host: 8080`
-
-- Ngoài ra bạn cũng có thể thiết lập cho máy ảo có cấu hình với địa chỉ IP do bạn chỉ định và **NAT** giúp máy host (các máy khác trong LAN) truy cập đến địa chỉ này của máy ảo mà không cần **forward** cổng.
-
-`config.vm.network "private_network", ip: "192.168.10.155"`
+- Ngoài ra bạn cũng có thể thiết lập cho máy ảo có cấu hình với địa chỉ IP do bạn chỉ định và **NAT** giúp máy host (các máy khác trong LAN) truy cập đến địa chỉ này của máy ảo mà không cần **forward** cổng `config.vm.network "private_network", ip: "192.168.10.155"`
 
 - Với cấu hình trên, thì địa chỉ máy ảo là 192.168.10.155, bạn có thể truy cập đến các cổng của máy ảo với địa chỉ IP này, ví dụ http://192.168.10.155 (tức cổng 80)
 
 ### Provision - chạy lệnh khi tạo máy ảo
 
-- Trong quá trình tạo máy ảo, sau khi nạp Box, bạn có thể chạy các lệnh, các script của hệ điều hành, nếu chạy một script từ file **myscript.sh** thì cấu hình là:
-
-`config.vm.provision "shell", path: "./myscript.sh"`
+- Trong quá trình tạo máy ảo, sau khi nạp Box, bạn có thể chạy các lệnh, các script của hệ điều hành, nếu chạy một script từ file **myscript.sh** thì cấu hình là: `config.vm.provision "shell", path: "./myscript.sh"`
 
 - Cũng có thể cấu hình chạy trực tiếp các lệnh, ví dụ:
 
@@ -232,7 +224,8 @@ config.vm.provision "shell", inline: <<-SHELL
     systemctl start httpd
 SHELL
 
-end                                             #  hết cấu hình tạo máy ảo
+end
+#  hết cấu hình tạo máy ảo
 ```
 
 Xóa máy ảo cũ, thực hiện `vagrant up` tạo lại máy ảo. Sau khi tạo máy ảo có thể cần khởi động lại (**reload**) để cấu hình như **Selinux**, **Apache** có hiệu lực
