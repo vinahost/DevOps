@@ -72,7 +72,8 @@ ansible-palybook -i hosts my_playbook.yml
 ```
 
 ## MODULES
-* Ansible cung cấp rất nhiều module
+
+**Ansible** cung cấp rất nhiều module
 
 1. **System**: Bao gồm các module như User, Group, Hostname, Systemd, Service
 2. **Commands**: Thường có module con như Command, Expect, Raw, Script, Shell
@@ -80,9 +81,10 @@ ansible-palybook -i hosts my_playbook.yml
 4. **Database**: Ansbile cũng support mạnh mẽ những module làm việc với DB như Mongodb, Mssql, Mysql, Postgresql, Proxysql, v.v...
 5. **Cloud**: Ansible cũng không quên kết hợp với các dịch vụ clound nổi tiếng như Amazon, Google, Docker, Linode, VMware, Digital Ocean, v.v...
 
-Và còn hàng trăm module khác đã được ansible cung cấp sẵn.
+Và còn hàng trăm module khác đã được **ansible** cung cấp sẵn.
 
 ## INVENTORY
+
 Đây là nơi sẽ chứa tên các con server hay địa chỉ ip mà bạn muốn thực thi.
 
 ```
@@ -125,7 +127,8 @@ sql_db2 ansible_host=sql02.xyz.com ansible_connection=ssh ansible_user=root ansi
 ```
 
 ## VARIABLES
-* Biến được sử dụng để lưu trữ các giá trị và có thể thay đổi giá trị được.
+
+Biến được sử dụng để lưu trữ các giá trị và có thể thay đổi giá trị được.
 
 ```
 -
@@ -147,7 +150,8 @@ sql_db2 ansible_host=sql02.xyz.com ansible_connection=ssh ansible_user=root ansi
 **car_model** sẽ là key, **"BMW M3"** sẽ là value. Bên dưới để sử dụng biến **car_model** ta sử dụng cặp dấu ngoặc nhọn và tên biến **{{ car_model }}**
 
 ## CONDITIONS
-* Ansible cũng cho phép bạn điều hướng lệnh chạy hay giới hạn phạm vi để run câu lệnh nào đó.
+
+**Ansible** cũng cho phép bạn điều hướng lệnh chạy hay giới hạn phạm vi để run câu lệnh nào đó.
 
 ```
 #Simple playbook.yml
@@ -166,9 +170,10 @@ sql_db2 ansible_host=sql02.xyz.com ansible_connection=ssh ansible_user=root ansi
 ```
 
 ## REGISTER
-*  Register giúp nhận kết quả trả về từ một câu lệnh. Sau đó ta có thể dùng kết quá trả về đó cho những câu lệnh chạy sau đó.
 
-Ví dụ ta có bài toán như sau: kiểm tra trạng thái của service httpd, nếu start thất bại thì gửi mail thông báo cho admin.
+**Register** giúp nhận kết quả trả về từ một câu lệnh. Sau đó ta có thể dùng kết quá trả về đó cho những câu lệnh chạy sau đó.
+
+Ví dụ ta có bài toán như sau: kiểm tra trạng thái của **service httpd**, nếu **start** thất bại thì gửi mail thông báo cho admin.
 
 ```
 #Sample ansible playbook.yml
@@ -189,7 +194,8 @@ Ví dụ ta có bài toán như sau: kiểm tra trạng thái của service http
 Nhờ vào thuộc tính register, kết quả trả về sẽ được chứa vào biến command_output. Từ đó ta sử dụng tiếp các thuộc tính của biến command_output là stdout.find để tìm chữ "down" có xuất hiện trong nội dung trả về không. Nếu không tìm thấy thì kết quả sẽ là -1.
 
 ## LOOPS
-* Nhưng nếu server yêu cầu cài thêm nhiều gói service khác như mysql, php thì sao nhĩ. Như bình thường chúng ta sẽ viết như sau:
+
+Nhưng nếu server yêu cầu cài thêm nhiều gói service khác như mysql, php thì sao nhĩ. Như bình thường chúng ta sẽ viết như sau:
 
 ```
 # Simple Ansible Playbook1.yml
@@ -226,6 +232,7 @@ Nhờ vào thuộc tính register, kết quả trả về sẽ được chứa v
 **with_items** là một lệnh lặp, thực thi cùng một tác vụ nhiều lần. Mỗi lần chạy, nó lưu giá trị của từng thành phần trong biến item.
 
 ## ROLES
+
 Nếu bạn có nhiều server hay nhiều group server và mỗi server thực thiện những tasks riêng biệt. Và khi này nếu viết tất cả vào cùng một file playbook thì khá là xấu code và khó để quản lý. Ansible đã cung cấp sẵn chức năng roles, về đơn giản nó sẽ giúp bạn phân chia khu vực với nhiệm vụ riêng biệt.
 
 ```
@@ -259,7 +266,7 @@ Nếu bạn có nhiều server hay nhiều group server và mỗi server thực 
 
 Mục tiêu của file playbook setup_application.yml này là cấu hình tường lửa cho group server về web. Bây giờ chúng ta sẽ cắt nhỏ file playbook này ra thành những file có chức năng riêng biệt như file chỉ chưa định nghĩa biến, hay file chứa định nghĩa tasks. Trước khi cắt file playbook nhỏ gọn lại, ta cần tạo cấu trúc thư mục như sau để ansible nhận biết được các thành phần ta đã khai báo.
 
-![Ansible Playbook](/Image/Ansible-Playbook.jpg)
+![Ansible Playbook](/Image/Ansible-Playbook01.png)
 
 ## Modules
 ### [1. File](https://docs.ansible.com/ansible/latest/modules/file_module.html)
