@@ -26,7 +26,7 @@ Cũng kiểm tra bằng lệnh:
 
     vagrant version
 
-## Lệnh vagrant hay dùng
+## Lệnh vagrant thường sử dụng
 
 - `vagrant init`	Sinh file cấu hình máy ảo mới Vagrantfile
 - `vagrant up`	Thực hiện tạo / hoặc chạy máy ảo với cấu hình từ Vagrantfile
