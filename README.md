@@ -124,7 +124,7 @@
 
 - [✔️] 📜 > [Overview: Quản lý cấu hình](IaC/Configuration-Management.md)
 - [✔️] 📜 > [Ansible: Bắt đầu]
-- [✔️] 📜 > [Ansible Playbooks]
+- [✔️] 📜 > [Ansible Playbooks](IaC/Ansible-Playbook.md)
 - [✔️] 📜 > [Tiếp tục với Ansible Playbooks...]
 - [✔️] 📜 > [Sử dụng Role & Triển khai Loadbalancer]
 - [✔️] 📜 > [Tags, Variables, Inventory & Database Server config]
