@@ -195,7 +195,7 @@ Nhờ vào thuộc tính register, kết quả trả về sẽ được chứa v
 
 ## LOOPS
 
-Nhưng nếu server yêu cầu cài thêm nhiều gói service khác như mysql, php thì sao nhĩ. Như bình thường chúng ta sẽ viết như sau:
+Nhưng nếu server yêu cầu cài thêm nhiều gói service khác như mysql, php thì sao. Như bình thường chúng ta sẽ viết như sau:
 
 ```
 # Simple Ansible Playbook1.yml
@@ -236,7 +236,7 @@ Nhưng nếu server yêu cầu cài thêm nhiều gói service khác như mysql,
 Nếu bạn có nhiều server hay nhiều group server và mỗi server thực thiện những tasks riêng biệt. Và khi này nếu viết tất cả vào cùng một file playbook thì khá là xấu code và khó để quản lý. Ansible đã cung cấp sẵn chức năng roles, về đơn giản nó sẽ giúp bạn phân chia khu vực với nhiệm vụ riêng biệt.
 
 ```
-#Simple Ansible setup_application.yml
+# Simple Ansible setup_application.yml
 -
   name: Set firewall configurations
   hosts: web
@@ -551,7 +551,7 @@ Alternative Directory Layout
 
 ## NOTE
 
-###4.1.1. Inventory Parameters
+### 4.1.1. Inventory Parameters
 - Là các tùy chọn đi kèm với các server, được cấu hình trong file inventory: `/etc/ansible/hosts`
 
 - Note: Ansible 2.0 has deprecated the “ssh” from:
@@ -580,9 +580,9 @@ Alternative Directory Layout
 |ansible_*_interpreter|Works for anything such as ruby or perl and works just like ansible_python_interpreter. This replaces shebang of modules which will run on that host.|
 |ansible_shell_executable|This sets the shell the ansible controller will use on the target machine, overrides executable in ansible.cfg which defaults to /bin/sh. You should really only change it if is not possible to use /bin/sh (i.e. /bin/sh is not installed on the target machine or cannot be run from sudo.).|
 
-###4.1.2 Iventory Dynamic
+### 4.1.2 Iventory Dynamic
 
-##4.2 `ansible.cfg`
+## 4.2 `ansible.cfg`
 
 ansible.cfg in the current working directory, .ansible.cfg in the home directory or /etc/ansible/ansible.cfg, whichever it finds first
 - Nội dung mặc định của file ansible.cfg: https://raw.githubusercontent.com/ansible/ansible/devel/examples/ansible.cfg
@@ -656,12 +656,9 @@ roles/
 
 ```
 
+**Trong đó:**
 
-Trong đó:
-
-```
-  - production: giống file /etc/ansible/hosts, liệt kê group, host
-  - group_vars/*: đặt các biến chung cho cùng 1 nhóm, ví dụ [webservers] có biến listen_port: 80
-  - host_vars/*: đặt các biến riêng cho từng host
-  - roles/*: đặt các role, ví dụ các host trong [webservers] gọi đến role webtier
-```
+- production: giống file /etc/ansible/hosts, liệt kê group, host
+- group_vars/*: đặt các biến chung cho cùng 1 nhóm, ví dụ [webservers] có biến listen_port: 80
+- host_vars/*: đặt các biến riêng cho từng host
+- roles/*: đặt các role, ví dụ các host trong [webservers] gọi đến role webtier
