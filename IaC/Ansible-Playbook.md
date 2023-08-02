@@ -216,7 +216,8 @@ Nhưng nếu server yêu cầu cài thêm nhiều gói service khác như mysql,
 
 Ở đây mới ví dụ 3 service cần cài mà phải viết lập lại các thuộc tính name, module yum đến 3 lần. Nếu server cần cài lên đến 100 gói service thì việc ngồi copy/paste cũng trở nên vấn đề đấy. Thay vào đó, chúng ta sẽ sử dụng chức năng loops mà ansible đã cung cấp để để viết.
 
-```# Simple Ansible Playbook1.yml
+```
+# Simple Ansible Playbook1.yml
 -
   name: Install packages
   hosts: localhost
