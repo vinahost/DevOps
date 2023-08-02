@@ -33,6 +33,14 @@
 
 ## PLAYBOOKS
 
+Ansible Playbook là gì ?
+
+**Ansible Playbook** là một tệp văn bản được viết bằng định dạng **YAML** chứa các hướng dẫn về cách tự động hóa các tác vụ trên các máy chủ. Các playbook Ansible thường được sử dụng để quản lý cấu hình, triển khai phần mềm và quản lý mạng.
+
+Một playbook Ansible có thể chứa nhiều tác vụ, mỗi tác vụ thực hiện một nhiệm vụ cụ thể. Các tác vụ có thể được sắp xếp thành các nhóm để tổ chức mã. Các playbook Ansible có thể được chạy theo cách thủ công hoặc được lên lịch để chạy tự động.
+
+Ansible Playbook là một cách hiệu quả để tự động hóa các tác vụ trên các máy chủ. Chúng dễ viết và dễ đọc, và chúng có thể được sử dụng để quản lý các máy chủ trên nhiều nền tảng.
+
 - Trong playbooks, chúng ta sẽ xác định những gì cần phải làm. Hay nói cách khác là nơi ta sẽ viết kịch bản cho các con server.
 - Trong playbooks sẽ chứa một tập hợn các activities (hoạt động) hay các tasks (nhiệm vụ) sẽ được chạy trên một hay một nhóm servers.
 - Trong đó task là một hành động duy nhất được thực hiện trên server, ví dụ như cài gói service nào đó, hay bật tắt service.
