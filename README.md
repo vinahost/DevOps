@@ -166,4 +166,4 @@
 - [Danh sách các Public DNS ở tại Việt Nam và Thế Giới](Cheatsheet/Public-DNS-Servers.md)
 - [Các khóa đào tạo trên Alibaba Cloud](Cheatsheet/Training.md)
 
-[✔️] [Linux] - [✔️] [Python] - [✔️] [Docker] - [✔️] [Kubernetes] - [✔️] [Git] - [✔️] [Terraform] - [✔️] [Ansible] - [✔️] [CI/CD] - [✔️] [Jenkins] - [✔️] [GitHub] - [✔️] [ArgoCD] - [✔️] [Nginx]
+[✔️] [Linux] - [✔️] [Python] - [✔️] [Docker] - [✔️] [Kubernetes] - [✔️] [Git] - [✔️] [Terraform] - [✔️] [Ansible] - [✔️] [CI/CD] - [✔️] [Jenkins] - [✔️] [GitHub] - [✔️] [ArgoCD] - [✔️] [Nginx]- [✔️] [AlibabaCloud]
