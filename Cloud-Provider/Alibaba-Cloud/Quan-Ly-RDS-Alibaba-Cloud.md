@@ -2,6 +2,8 @@
 
 ## Data Management Tools trên Alibaba Cloud là gì ?
 
+![DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud.jpg)
+
 **Data Management Tools** (*DBMS*) trên **Alibaba Cloud** là một tập hợp các dịch vụ giúp bạn quản lý dữ liệu của mình một cách hiệu quả. Giải pháp **DBMS** của **Alibaba Cloud** hiện nay cung cấp nhiều sản phẩm, dịch vụ đa dạng với nhiều nhu cầu xây dựng hệ thống dữ liệu. Người dùng có thể gần như làm mọi thứ với dữ liệu trên **Alibaba Cloud**, có thể kể đến như: xây dựng cơ sở dữ liệu, thêm dữ liệu hiện có, phân tích dữ liệu, quản lý toàn hệ thống dữ liệu, chạy các mô hình học máy phức tạp…
 
 Vào tháng **12/2022**, các giải pháp về **Cloud DBMS** của **Alibaba Cloud** đã được định vị vào vị trí "*Leaders*" trong báo cáo lần thứ ba trong ba năm liên tiếp.
@@ -13,11 +15,11 @@ Vào tháng **12/2022**, các giải pháp về **Cloud DBMS** của **Alibaba C
 - **Data Management (DMS)**: Một dịch vụ quản lý dữ liệu trên Alibaba Cloud đảm bảo các yếu tố bảo mật, hiệu quả.
 - **Database Autonomy Service (DAS)**: Nền tảng cơ sở dữ liệu tự động: tự sửa chữa, tự tối ưu hóa và tự bảo mật.
 
-Trong bài viết này, chúng ta sẽ cùng tìm hiểu về **DMS** và một số chức năng cơ bản của DMS trong việc thao tác và quản lý cơ sở dữ liệu host trên **Alibaba Cloud**.
+Trong bài viết này, chúng ta sẽ cùng tìm hiểu về **DMS** và một số chức năng cơ bản của **DMS** trong việc thao tác và quản lý cơ sở dữ liệu host trên **Alibaba Cloud**.
 
 ## DMS là gì?
 
-**Alibaba Cloud DMS (Data Management Service)** là một dịch vụ quản lý dữ liệu toàn diện được cung cấp bởi **Alibaba Cloud**. DMS cung cấp một nền tảng đa chức năng để quản lý và vận hành dữ liệu trong môi trường đám mây.
+**Alibaba Cloud DMS (Data Management Service)** là một dịch vụ quản lý dữ liệu toàn diện được cung cấp bởi **Alibaba Cloud**. **DMS** cung cấp một nền tảng đa chức năng để quản lý và vận hành dữ liệu trong môi trường đám mây.
 
 **DMS** cho phép người dùng quản lý toàn bộ quy trình quản lý dữ liệu, từ việc thiết kế và triển khai cơ sở dữ liệu cho đến quản lý vòng đời dữ liệu. Với **DMS**, người dùng có thể thực hiện các tác vụ quan trọng như tạo và quản lý cơ sở dữ liệu, sao lưu và khôi phục dữ liệu, điều chỉnh và tối ưu hóa hiệu suất cơ sở dữ liệu, kiểm tra và bảo mật dữ liệu, và tích hợp dữ liệu từ nhiều nguồn khác nhau.
 
@@ -144,3 +146,8 @@ Sau khi đổ dữ liệu vào cả ba bảng, bạn có thể sử dụng **SQL
 ![DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud022.png)
 
 Như vậy là chúng ta đã đi qua các phần cơ bản để thao tác với dữ liệu của bạn trong **DMS**. Trong các bài tiếp theo, chúng ta sẽ cùng tìm hiểu cách tạo **report**, dựng **data warehouse** bằng các sản phẩm **Big Data** đến từ **Alibaba Cloud** như **DataWorks**, **QuickBI** …
+
+## Tham khảo
+
+- https://www.alibabacloud.com/product/data-management-service
+- https://www.alibabacloud.com/help/en/dms/product-overview/what-is-dms
