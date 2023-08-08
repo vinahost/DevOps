@@ -103,5 +103,5 @@ Từ đó giá tiền sẽ được tính:
 
 ### Tham khảo
 
-- https://www.alibabacloud.com/blog/how-to-use-apsaravideo-vod-calculator_599978
-- https://yida.alibaba-inc.com/o/vodcalculator#/
+- [Alibaba Cloud Partner](https://vinahost.vn/alibaba-cloud-partner/)
+- [Apsara Video Cloud | CDN Calculator](https://yida.alibaba-inc.com/o/vodcalculator#/)
