@@ -26,4 +26,3 @@ Nếu bạn đang tìm kiếm một hệ thống để quản lý các ứng d�
 ### Tham khảo
 
 - [Trang chủ Kubernetes](https://kubernetes.io/vi/)
-- [Kubernetes CheatSheet](/Cheatsheet/KUBERNETES-Cheat-Sheet.pdf)

@@ -43,7 +43,6 @@ Hướng dẫn DevOps - Development đến Production tất cả các cấu hìn
 ### Kubernetes CheatSheet
 
 - https://github.com/dennyzhang/cheatsheet-kubernetes-A4
-- [Kubernetes CheatSheet](KUBERNETES-Cheat-Sheet.pdf)
 
 ### Git CheatSheet
 
