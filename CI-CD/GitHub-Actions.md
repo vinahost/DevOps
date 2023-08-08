@@ -38,9 +38,13 @@ Trong phần sau, chúng ta sẽ triển khai 1 **container** chạy **Webserver
 
 ![GitHub Actions](/Image/GitHub-Actions02.png)
 
+Bạn có thể tham khảo file cấu hình mẫu [tại đây](/Scripts/yml/workflows_alibabacloud.yml)
+
 - **Bước 3**: Thêm biến môi trường **Access_Key_ID** & **Access_Key_Secret** của tài khoản **Alibaba Cloud** vào trong **Github** dưới **Settings**:
 
 ![GitHub Actions](/Image/GitHub-Actions03.png)
+
+Xem thêm cách lấy **Access_Key_ID** & **Access_Key_Secret** tại bài viết [Alibaba Cloud Resource Access Management (RAM)](/Cloud-Provider/Alibaba-Cloud/Resource-Access-Management-RAM.md)
 
 - **Bước 4**: Sau khi **commit** lên **Github repository**, nó sẽ kích hoạt **trigger** trong file **workfow** và chạy. Sau khi thành công, tất cả các bước trong job sẽ đánh dấu **complete**
 
