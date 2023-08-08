@@ -147,6 +147,10 @@ Sau khi đổ dữ liệu vào cả ba bảng, bạn có thể sử dụng **SQL
 
 Như vậy là chúng ta đã đi qua các phần cơ bản để thao tác với dữ liệu của bạn trong **DMS**. Trong các bài tiếp theo, chúng ta sẽ cùng tìm hiểu cách tạo **report**, dựng **data warehouse** bằng các sản phẩm **Big Data** đến từ **Alibaba Cloud** như **DataWorks**, **QuickBI** …
 
+*Author*: **Vo Thi Phuong Anh**
+
+*Solution Architect* - **Alibaba Cloud Intelligence**
+
 ## Tham khảo
 
 - https://www.alibabacloud.com/product/data-management-service
