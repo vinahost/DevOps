@@ -44,7 +44,7 @@ Bạn có thể tham khảo file cấu hình mẫu [tại đây](/Scripts/yml/wo
 
 ![GitHub Actions](/Image/GitHub-Actions03.png)
 
-Xem thêm cách lấy **Access_Key_ID** & **Access_Key_Secret** tại bài viết [Alibaba Cloud Resource Access Management (RAM)](/Cloud-Provider/Alibaba-Cloud/Resource-Access-Management-RAM.md)
+Xem thêm cách lấy **Access_Key_ID** & **Access_Key_Secret** tại bài viết **Alibaba Cloud Resource Access Management (RAM)**
 
 - **Bước 4**: Sau khi **commit** lên **Github repository**, nó sẽ kích hoạt **trigger** trong file **workfow** và chạy. Sau khi thành công, tất cả các bước trong job sẽ đánh dấu **complete**
 
