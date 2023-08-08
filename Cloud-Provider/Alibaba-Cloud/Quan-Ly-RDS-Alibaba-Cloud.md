@@ -27,109 +27,111 @@ Trong bài viết này, chúng ta sẽ cùng tìm hiểu về **DMS** và một 
 
 Để tiến hành sử dụng **DMS** để quản lý cơ sở dữ liệu **RDS**, ta cần tạo ra 1 **instance ApsaraDB RDS**. Trong bài hướng dẫn này, chúng tôi sẽ xem như bạn đã tạo được một cơ sở dữ liệu của riêng mình trên **RDS**. 
 
-[DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud01.png)
+![DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud01.png)
 
 Tiếp theo tạo **user** và **database** trên **instance RDS**
 
 Nhấn vào tên **instance RDS** > **Account** > **Create Account**.
 
-[DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud02.png)
-[DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud03.png)
-[DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud04.png)
+![DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud02.png)
+![DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud03.png)
+![DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud04.png)
 
 **RDS** hỗ trợ tạo 2 dạng user: **Privileged** và **Standard**. Ở đây chúng ta sẽ tạo ra một tài khoản **Privileged**. Nhập các thông tin **username** và **password** đăng nhập cho tài khoản.
 
-[DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud05.png)
+![DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud05.png)
 
 Sau khi nhập xong các thông tin cho tài khoản, chọn **Ok** để tạo.
 
-[DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud06.png)
+![DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud06.png)
 
 *Account sau khi tạo thành công*
 
 Sau khi đã có **Account**, tạo một cơ sở dữ liệu trên **instance RDS** của bạn bằng cách chọn mục **Database** >** Create Database**.
 
-[DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud07.png)
-[DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud08.png)
+![DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud07.png)
+![DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud08.png)
 
 Nhập các thông tin cho **database** của bạn. Bạn có thể nhập giống như bên dưới và nhấn **Create** để hoàn tất.
 
-[DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud09.png)
+![DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud09.png)
 
 Sau khi hoàn tất tạo **User** và **Database**, nhấn vào **Log on to database** để vào **DMS**.
 
-[DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud010.png)
+![DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud010.png)
 
 Bạn sẽ được chuyển đến **console** của **DMS**, nhập các thông tin cơ sở dữ liệu và **user** để kết nối vào **DMS**.
 
-[DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud011.png)
+![DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud011.png)
 
 Chọn **Test connection** để kiểm tra các thông tin đăng nhập. Nếu các thông tin là đúng, thông báo như sau sẽ hiển thị.
 
-[DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud012.png)
+![DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud012.png)
 
 Chọn **Ok** và tiếp tục chọn **Log In để** đăng nhập.
 
 Tại trang chủ **DMS**, chọn **SQL Console** và chọn cơ sở dữ liệu bạn muốn thao tác.
 
-[DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud014.png)
+![DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud014.png)
 
 Paste câu lệnh **SQL** sau đây vào **SQL Console** để tạo các bảng cho cơ sở dữ liệu. Nhấn **Execute(F8)** để chạy lệnh.
 
-CREATE TABLE `users` (
-    `user_id` bigint NOT NULL,
-    `name` varchar(32) NULL,
-    `age` bigint NULL,
-    `sex` varchar(32) NULL,
-    `country` varchar(32) NULL,
-    `country_code` varchar(32) NULL,
-    PRIMARY KEY (`user_id`)
-) ENGINE=InnoDB
-DEFAULT CHARACTER SET=utf8;
-CREATE TABLE `products` (
-    `product_id` bigint NOT NULL,
-    `product_name` varchar(32) NULL,
-    `price` float NULL,
-    PRIMARY KEY (`product_id`)
-) ENGINE=InnoDB
-DEFAULT CHARACTER SET=utf8;
-CREATE TABLE `products` (
-    `product_id` bigint NOT NULL,
-    `product_name` varchar(32) NULL,
-    `price` float NULL,
-    PRIMARY KEY (`product_id`)
-) ENGINE=InnoDB
-DEFAULT CHARACTER SET=utf8;
+    CREATE TABLE `users` (
+        `user_id` bigint NOT NULL,
+        `name` varchar(32) NULL,
+        `age` bigint NULL,
+        `sex` varchar(32) NULL,
+        `country` varchar(32) NULL,
+        `country_code` varchar(32) NULL,
+        PRIMARY KEY (`user_id`)
+    ) ENGINE=InnoDB
+    DEFAULT CHARACTER SET=utf8;
 
-[DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud015.png)
+    CREATE TABLE `products` (
+        `product_id` bigint NOT NULL,
+        `product_name` varchar(32) NULL,
+        `price` float NULL,
+        PRIMARY KEY (`product_id`)
+    ) ENGINE=InnoDB
+    DEFAULT CHARACTER SET=utf8;
+
+    CREATE TABLE `products` (
+        `product_id` bigint NOT NULL,
+        `product_name` varchar(32) NULL,
+        `price` float NULL,
+        PRIMARY KEY (`product_id`)
+    ) ENGINE=InnoDB
+    DEFAULT CHARACTER SET=utf8;
+
+![DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud015.png)
 
 Sau khi đã có các bảng, tiến hành **import data** vào các bảng. Trong bài hướng dẫn này, chúng tôi sẽ sử dụng dữ liệu **E-commerce** có sẵn trên **Github** của **Alibaba Cloud Academy**.
 
 Truy cập vào **Github** chứa dữ liệu, tải ba file **csv** sau:
 
-[DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud016.png)
+![DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud016.png)
 
 Tại **DMS**, chọn **Data Import** để tiến hành đổ dữ liệu vào các bảng.
 
-[DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud017.png)
+![DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud017.png)
 
 Nhập các thông tin được yêu cầu và chọn từng file **.csv** tương ứng với mỗi bảng.
 
-[DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud018.png)
+![DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud018.png)
 
 Sau khi hoàn tất, nhấn **Submit**.
 
 Lúc này bạn sẽ tạo ra một **ticket** trên **DMS** để đổ dữ liệu vào, sau khi **ticket** được **check** thành công, bạn có thể chọn **Execute Change** để đến bước tiếp theo.
 
-[DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud019.png)
+![DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud019.png)
 
 Tiếp tục chọn **Confirm Execution**.
 
-[DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud020.png)
+![DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud020.png)
 
 Nếu hiển thị như sau, bạn đã đổ dữ liệu thành công.
 
-[DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud021.png)
+![DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud021.png)
 
 Làm tương tự với 2 file **csv** còn lại để đổ vào 2 bảng còn lại trong cơ sở dữ liệu.
 
@@ -139,6 +141,6 @@ Sau khi đổ dữ liệu vào cả ba bảng, bạn có thể sử dụng **SQL
     SELECT * FROM products LIMIT 10;
     SELECT * FROM orders LIMIT 10;
 
-[DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud022.png)
+![DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud022.png)
 
 Như vậy là chúng ta đã đi qua các phần cơ bản để thao tác với dữ liệu của bạn trong **DMS**. Trong các bài tiếp theo, chúng ta sẽ cùng tìm hiểu cách tạo **report**, dựng **data warehouse** bằng các sản phẩm **Big Data** đến từ **Alibaba Cloud** như **DataWorks**, **QuickBI** …
