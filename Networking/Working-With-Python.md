@@ -18,7 +18,6 @@ Tuy nhiên, chúng ta vẫn cần phải kết nối các thiết bị hiện t�
 
 Tiếp theo bạn hãy truy cập vào từng thiết bị và chạy các lệnh sau trên card mạng được dùng để kết nối với "**Management(Cloud0)**".
 
-    ```
     enable
     config t
     int gi0/0
@@ -27,7 +26,6 @@ Tiếp theo bạn hãy truy cập vào từng thiết bị và chạy các lện
     exit
     exit
     sh ip int br
-```
 
 Lệnh trên nhằm cấp phát địa chỉ IP cho card mạng kết nối với Home Network. Địa chỉ IP của các thiết bị được liệt kê trong bảng sau:
 
