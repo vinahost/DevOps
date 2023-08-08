@@ -27,7 +27,7 @@ Tiếp theo bạn hãy truy cập vào từng thiết bị và chạy các lện
     exit
     sh ip int br
 
-Lệnh trên nhằm cấp phát địa chỉ IP cho card mạng kết nối với Home Network. Địa chỉ IP của các thiết bị được liệt kê trong bảng sau:
+Lệnh trên nhằm cấp phát địa chỉ **IP** cho card mạng kết nối với **Home Network**. Địa chỉ **IP** của các thiết bị được liệt kê trong bảng sau:
 
 | Node    | IP Address   | Home Network IP |
 | ------- | ------------ | --------------- |
