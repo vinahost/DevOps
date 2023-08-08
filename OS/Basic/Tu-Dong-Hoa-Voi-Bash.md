@@ -16,7 +16,7 @@ Một điều khác mà tôi đã nghe được là các câu hỏi viết các 
 
 Cũng giống như rất nhiều thứ mà chúng ta sẽ đề cập trong suốt chuỗi bài viết, cách duy nhất để học là thông qua thực hành. Kinh nghiệm thực hành sẽ giúp tất cả những điều này in sâu vào trí nhớ của bạn.
 
-Trước hết, chúng ta sẽ cần một trình soạn thảo văn bản. Ở những bài trước, chúng ta đã đề cập đến hai trình soạn thảo văn bản phổ biến nhất là [Nano và Vim](/OS/Basic/Linux-Nano-Vim.md) và một chút về cách sử dụng chúng.
+Trước hết, chúng ta sẽ cần một trình soạn thảo văn bản. Ở những bài trước, chúng ta đã đề cập đến hai trình soạn thảo văn bản phổ biến nhất là [Nano và Vim](Linux-Nano-Vim.md) và một chút về cách sử dụng chúng.
 
 Hãy bắt đầu tạo tập lệnh **shell** đầu tiên của chúng ta.
 
