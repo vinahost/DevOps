@@ -60,7 +60,7 @@ Nhập các thông tin cho **database** của bạn. Bạn có thể nhập gi�
 
 Sau khi hoàn tất tạo **User** và **Database**, nhấn vào **Log on to database** để vào **DMS**.
 
-![DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud010.png)
+![DMS Alibaba Cloud](/Image/DMS-Alibaba-Cloud024.png)
 
 Bạn sẽ được chuyển đến **console** của **DMS**, nhập các thông tin cơ sở dữ liệu và **user** để kết nối vào **DMS**.
 
