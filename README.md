@@ -71,6 +71,7 @@
     - [✔️] ☁️ > [Hướng dẫn tạo và cấp quyền cho tài khoản RAM ](Cloud-Provider/Alibaba-Cloud/Resource-Access-Management-RAM.md)
     - [✔️] ☁️ > [Hướng dẫn sử dụng Alibaba Cloud Pricing Calculator ](Cloud-Provider/Alibaba-Cloud/Alibaba-Cloud-Pricing-Calculator.md)
     - [✔️] ☁️ > [Hướng dẫn sử dụng ApsaraVideo VOD Calculator ](Cloud-Provider/Alibaba-Cloud/ApsaraVideo-VOD-Calculator.md)
+    - [✔️] ☁️ > [Quản lý cơ sở dữ liệu RDS với Alibaba Cloud DMS](Cloud-Provider/Alibaba-Cloud/Quan-Ly-RDS-Alibaba-Cloud.md)
     - [✔️] ☁️ > [Billing Management trên Aliaba Cloud ](Cloud-Provider/Alibaba-Cloud/Budget-Management-tren-Alibaba-Cloud.md)
     - [✔️] ☁️ > [Hướng dẫn gởi ticket trên Alibaba Cloud ](Cloud-Provider/Alibaba-Cloud/Ticket-Submit-Alibaba-Cloud.md)
               
