@@ -52,9 +52,9 @@
 - [✔️] 🌐 > [Mô hình OSI - 7 lớp mạng]
 - [✔️] 🌐 > [Giao thức mạng]
 - [✔️] 🌐 > [Tự động hoá mạng máy tính]
-- [✔️] 🌐 > [Python cho tự động hoá Network](/Networking/Python-Network-Automation.md)
-- [✔️] 🌐 > [Xây dựng Lab với EVE-NG](/Networking/EVE-NG.md)
-- [✔️] 🌐 > [Getting Hands-On with Python & Network](/Networking/Working-With-Python.md)
+- [✔️] 🌐 > [Python cho tự động hoá Network](Networking/Python-Network-Automation.md)
+- [✔️] 🌐 > [Xây dựng Lab với EVE-NG](Networking/EVE-NG.md)
+- [✔️] 🌐 > [Getting Hands-On with Python & Network](Networking/Working-With-Python.md)
 
 ### Tìm hiểu về điện toán đám mây
 
