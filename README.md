@@ -52,9 +52,9 @@
 - [✔️] 🌐 > [Mô hình OSI - 7 lớp mạng]
 - [✔️] 🌐 > [Giao thức mạng]
 - [✔️] 🌐 > [Tự động hoá mạng máy tính]
-- [✔️] 🌐 > [Python cho tự động hoá mạng máy tính]
-- [✔️] 🌐 > [Building our Lab]
-- [✔️] 🌐 > [Getting Hands-On with Python & Network]
+- [✔️] 🌐 > [Python cho tự động hoá Network](/Networking/Python-Network-Automation.md)
+- [✔️] 🌐 > [Building our Lab](/Networking/EVE-NG.md)
+- [✔️] 🌐 > [Getting Hands-On with Python & Network](/Networking/Working-With-Python.md)
 
 ### Tìm hiểu về điện toán đám mây
 
@@ -63,7 +63,6 @@
 - [✔️] ☁️ > [Server Migration Center (SMC) là gì ?](Cloud-Provider/Alibaba-Cloud/Server-Migration-Center-SMC-la-gi.md)
 - [✔️] ☁️ > [Mô hình bảo mật Alibaba Cloud]
 - [✔️] ☁️ > [Mô hình Điện toán Alibaba Cloud]
-- [✔️] ☁️ > [Mô hình lưu trữ và cơ sở dữ liệu Alibaba Cloud]
 - [✔️] ☁️ > [Mô hình Mạng Alibaba Cloud]
 - [✔️] ☁️ > [Thực hành với Alibaba Cloud]
     - [✔️] ☁️ > [Hướng dẫn tạo Elastic Compute Service - ECS ](Cloud-Provider/Alibaba-Cloud/Elastic-Compute-Service-ECS.md)
