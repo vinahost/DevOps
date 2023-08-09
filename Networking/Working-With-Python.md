@@ -1,4 +1,4 @@
-## Thực hành với Python
+## Thực hành với Python và Network
 
 Trong phần cuối của loạt bài về mạng máy tính, chúng ta sẽ tìm hiểu một số tác vụ và công cụ tự động hóa dựa trên môi trường lab đã được tạo ra trong bài trước
 
