@@ -152,6 +152,7 @@ Tôi đã lấy những câu lệnh từ [atlassian](https://www.atlassian.com/g
 
 ## Tài liệu tham khảo
 
+- [Học Git bằng tiếng Việt](https://learngitbranching.js.org/?locale=vi)
 - [What is Version Control?](https://www.youtube.com/watch?v=Yc8sCSeMhi4)
 - [Types of Version Control System](https://www.youtube.com/watch?v=kr62e_n6QuQ)
 - [Git Tutorial for Beginners](https://www.youtube.com/watch?v=8JJ101D3knE&t=52s)
