@@ -163,9 +163,9 @@
 
 ### Misc
 
-- [Bộ sưu tập các Cheatsheets dành cho DevOps](Cheatsheet/DevOps-Cheatsheet.md)
-- [Danh sách các Public DNS ở tại Việt Nam và Thế Giới](Cheatsheet/Public-DNS-Servers.md)
-- [Các khóa đào tạo trên Alibaba Cloud](Cheatsheet/Training-Alibaba-Cloud.md)
-- [Sự khác nhau giữa Backup và Snapshot](Cheatsheet/Snapshot-Backup.md)
+- [Bộ sưu tập các Cheatsheets dành cho DevOps](Misc/DevOps-Cheatsheet.md)
+- [Danh sách các Public DNS ở tại Việt Nam và Thế Giới](Misc/Public-DNS-Servers.md)
+- [Các khóa đào tạo trên Alibaba Cloud](Misc/Training-Alibaba-Cloud.md)
+- [Sự khác nhau giữa Backup và Snapshot](Misc/Snapshot-Backup.md)
 
 [✔️] [Linux] - [✔️] [Python] - [✔️] [Docker] - [✔️] [Kubernetes] - [✔️] [Git] - [✔️] [Terraform] - [✔️] [Ansible] - [✔️] [CI/CD] - [✔️] [Jenkins] - [✔️] [GitHub] - [✔️] [ArgoCD] - [✔️] [Nginx]- [✔️] [AlibabaCloud]
