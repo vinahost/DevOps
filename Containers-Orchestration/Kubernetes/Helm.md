@@ -34,7 +34,7 @@
 
 - **Tiller Server**: **Server** nằm trong **Kubernetes cluster**, tương tác với **Helm Client** và giao tiếp **Kubernetes API server**. Từ đó, **Helm** có thể dễ dàng quản lý **Kubernetes** với các tác vụ như *install*, *upgrade*, *query* và *remove* đối với **Kubernetes resources**.
 
-Cấu trúc 1 **Helm Package**
+Cấu trúc của một **Helm Package**
 
     [root@master1181 apache]# tree
     .
@@ -264,7 +264,7 @@ Chúng ta sẽ test thử nội dung cuả **nginx** này
 
 ![Helm Chart](/Image/Helm-Chart07.png)
 
-**Lợi ích của việc sử dụng helm qua ví dụ minh họa**
+## Lợi ích của việc sử dụng helm qua ví dụ minh họa
 
 Giả sử chúng ta **update** *example-project* của chúng ta với **image** không tồn tại vì 1 lý do nào đó thành n**ginxdemos/hello-non-existing** và cập nhật phiên bản mới của **project** của chúng ta
 
@@ -294,7 +294,7 @@ Việc **uninstall** cũng nhanh không kém cạnh. Chúng ta không cần ph�
 
     helm uninstall example-project
 
-## Một số lợi ích của việc sử dụng Helm:
+## Một số lợi ích của việc sử dụng Helm
 
 - Quản lý các ứng dụng Kubernetes của bạn theo cách có cấu trúc và có thể mở rộng: Helm sử dụng các gói, được gọi là chart, để mô tả ứng dụng của bạn. Điều này giúp bạn quản lý các ứng dụng của mình một cách có tổ chức và dễ dàng hơn.
 
