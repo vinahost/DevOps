@@ -30,9 +30,9 @@
 
 **Helm** sử dụng kiến trúc **client-server** gồm:
 
-- **Client CLI**: cung cấp cho developer sử dụng nó một **command-line interface (CLI)** để làm việc với *Charts*, *Config*, *Release*, *Repositories*. **Helm Client** sẽ tương tác với *Tiller Server*, để thực hiện các hành động khác nhau như *install*, *upgrade* và *rollback* với những *Charts*, *Release*.
+- **Client CLI**: cung cấp cho developer sử dụng nó một **command-line interface (CLI)** để làm việc với *Charts*, *Config*, *Release*, *Repositories*. **Helm Client** sẽ tương tác với **Tiller Server**, để thực hiện các hành động khác nhau như *install*, *upgrade* và *rollback* với những *Charts*, *Release*.
 
-- **Tiller Server**: Server nằm trong Kubernetes cluster, tương tác với Helm Client và giao tiếp Kubernetes API server. Từ đó, Helm có thể dễ dàng quản lý Kubernetes với các tác vụ như install, upgrade, query và remove đối với Kubernetes resources.
+- **Tiller Server**: **Server** nằm trong **Kubernetes cluster**, tương tác với **Helm Client** và giao tiếp **Kubernetes API server**. Từ đó, **Helm** có thể dễ dàng quản lý **Kubernetes** với các tác vụ như *install*, *upgrade*, *query* và *remove* đối với **Kubernetes resources**.
 
 Cấu trúc 1 **Helm Package**
 
@@ -104,7 +104,7 @@ Tải các kho lưu trữ **Chart**
 
 Kết quả như hình:
 
-![Helm Chart](Image/Helm-Chart01.png)
+![Helm Chart](/Image/Helm-Chart01.png)
 
 Như các bạn thấy rất nhiều **repo stable** để cài đặt.
 
@@ -114,13 +114,13 @@ Như các bạn thấy rất nhiều **repo stable** để cài đặt.
 
     helm repo update
 
-![Helm Chart](Image/Helm-Chart02.png)
+![Helm Chart](/Image/Helm-Chart02.png)
 
 Tìm kiếm repo **Nginx**
 
     helm search repo nginx
 
-![Helm Chart](Image/Helm-Chart03.png)
+![Helm Chart](/Image/Helm-Chart03.png)
 
 Ở trên chúng ta có thể sử dụng **nginx-ingress** được **config** tích hợp sẵn với **kubernetes**. Đến đoạn này mình chỉ giới thiệu qua vì mình ko dùng **nginx-ingress** của **helm stable**. Cài đặt **nginx-ingress** thông tin chi tiết thêm [tại đây](https://github.com/helm/charts/tree/master/stable/nginx-ingress)
 
@@ -146,11 +146,11 @@ Bằng việc chạy lệnh
 
     helm create example-project
 
-![Helm Chart](Image/Helm-Chart04.png)
+![Helm Chart](/Image/Helm-Chart04.png)
 
-Tùy chỉnh lại theo ý mình
+**Tùy chỉnh lại **
 
-trước khi tùy chỉnh chúng ta sẽ xem xét qua các nội dung của file ở phần *templates* chúng ta có các file như:
+Trước khi tùy chỉnh chúng ta sẽ xem xét qua các nội dung của file ở phần *templates* chúng ta có các file như:
 
 - deployment.yaml deployment với kubernetes
 - _helpers.tpl mẫu có sẵn có thể tái sử dụng trong chart
@@ -159,7 +159,7 @@ trước khi tùy chỉnh chúng ta sẽ xem xét qua các nội dung của file
 - service.yaml triển khai các deployment với các service
 - tests/ thư mục chứa các testing về chart
 
-chúng ta sẽ tự tạo **chart** từ đầu và chúng ta sẽ xóa các mục sau:
+Chúng ta sẽ tự tạo **chart** từ đầu và chúng ta sẽ xóa các mục sau:
 
     rm -rf example-project/templates/
     rm -rf example-project/Chart.yaml
@@ -183,7 +183,7 @@ Sau đó, chúng ta sẽ tạo các **deployment** và service đơn giản bên
 
 Có 1 chút khác biệt so với deployment thông thường là có *config {{ .Values.replicas }}* hay *{{ .Values.hello.image }}:{{ .Values.version }}* được maping đến *values.yaml* sẽ khai báo sau
 
-templates/deployment/coffee-deployment.yaml
+Tạo file: *templates/deployment/coffee-deployment.yaml*
 
     apiVersion: apps/v1
     kind: Deployment
@@ -205,7 +205,7 @@ templates/deployment/coffee-deployment.yaml
             ports:
             - containerPort: 80
 
-templates/service/coffee-service.yaml
+Tạo file: *templates/service/coffee-service.yaml*
 
     apiVersion: v1
     kind: Service
@@ -220,7 +220,7 @@ templates/service/coffee-service.yaml
     selector:
         app: coffee
 
-Tạo values.yaml
+Tạo file values.yaml
 
     cat <<EoF > example-project/values.yaml
     # Default values for example-project.
@@ -242,7 +242,7 @@ Trước khi deployment chúng ta sẽ kiểm tra **Chart** để xác nhận c�
 
     helm install --debug --dry-run example-project example-project
 
-![Helm Chart](Image/Helm-Chart05.png)
+![Helm Chart](/Image/Helm-Chart05.png)
 
 Chúng ta sẽ **deploy**
 
@@ -257,12 +257,12 @@ Chúng ta sẽ test thử nội dung cuả **nginx** này
 
     kubectl describe svc coffee-svc
 
-![Helm Chart](Image/Helm-Chart06.png)
+![Helm Chart](/Image/Helm-Chart06.png)
 
     #chúng ta có 3 cái pods khác nhau, truy cập thử 1 cái
     curl 10.244.1.16:80
 
-![Helm Chart](Image/Helm-Chart07.png)
+![Helm Chart](/Image/Helm-Chart07.png)
 
 **Lợi ích của việc sử dụng helm qua ví dụ minh họa**
 
@@ -270,15 +270,15 @@ Giả sử chúng ta **update** *example-project* của chúng ta với **image*
 
     helm upgrade example-project example-project
 
-![Helm Chart](Image/Helm-Chart08.png)
+![Helm Chart](/Image/Helm-Chart08.png)
 
 **Kubernetes** sẽ tạo **pod** khác với **image** mới đó nhưng có lỗi là **ImagePullBackOff**. Vậy chúng ta phải **Rollback** lại phiên bản
 
-![Helm Chart](Image/Helm-Chart09.png)
+![Helm Chart](/Image/Helm-Chart09.png)
 
     helm history example-project
 
-![Helm Chart](Image/Helm-Chart010.png)
+![Helm Chart](/Image/Helm-Chart010.png)
 
 Rollback:
 
@@ -286,7 +286,7 @@ Rollback:
 
 lỗi không còn nữa
 
-![Helm Chart](Image/Helm-Chart011.png)
+![Helm Chart](/Image/Helm-Chart011.png)
 
 **Xóa example-project**
 
