@@ -51,6 +51,8 @@ Có nhiều cách khác nhau để tạo **backup**, bao gồm:
 
 ## Sự khác nhau giữa Backup và Snapshot
 
+![Backup và Snapshot](/Image/Snapshot-vs-Backup.jpg)
+
 **Snapshot** và **backup** đều là các bản sao dữ liệu, nhưng chúng có một số điểm khác biệt chính. **Snapshot** là một bản sao của dữ liệu tại một thời điểm nhất định, trong khi **backup** là một bản sao toàn bộ của dữ liệu. **Snapshot** được sử dụng để khôi phục dữ liệu về trạng thái trước khi nó bị thay đổi, trong khi **backup** được sử dụng để khôi phục dữ liệu đã bị mất hoặc bị hư hỏng.
 
 **Snapshot** được tạo nhanh hơn **backup**, vì chúng chỉ sao chép những thay đổi đối với dữ liệu kể từ lần **snapshot** trước. **Snapshot** cũng chiếm ít dung lượng hơn **backup**, vì chúng chỉ lưu trữ dữ liệu đã thay đổi.
