@@ -21,6 +21,10 @@ Hướng dẫn DevOps - Development đến Production tất cả các cấu hìn
 
 - https://github.com/Tikam02/DevOps-Guide
 
+### Khóa học miễn phí Làm việc với Terminal & Ubuntu
+
+- https://fullstack.edu.vn/courses/windows-terminal-wsl
+
 ### Các lệnh Linux Bash
 
 - https://github.com/trinib/Linux-Bash-Commands
