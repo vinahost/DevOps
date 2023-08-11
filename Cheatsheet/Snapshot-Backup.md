@@ -25,7 +25,7 @@ Trong hệ thống lưu trữ, một **snapshot** là một bản sao của dữ
 - Hệ thống lưu trữ cục bộ
 - Hệ thống lưu trữ mạng (NAS)
 - Hệ thống lưu trữ đám mây (cloud storage)
-- 
+
 Nếu bạn đang tìm kiếm một cách hiệu quả để bảo vệ hệ thống và dữ liệu của mình, thì **snapshot** là một lựa chọn tốt. **Snapshot** có thể giúp bạn khôi phục hệ thống hoặc tệp dữ liệu về trạng thái ban đầu nếu có sự cố xảy ra. Snapshot cũng có thể được sử dụng để tạo một bản sao của hệ thống hoặc tệp dữ liệu để thử nghiệm hoặc phát triển.
 
 ## Backup là gì?
@@ -60,6 +60,7 @@ Có nhiều cách khác nhau để tạo **backup**, bao gồm:
 Dưới đây là bảng tóm tắt sự khác biệt giữa **snapshot** và **backup**:
 
 |Feature|	Snapshot|	Backup|
+|-------|-----------|---------|
 |Thời gian tạo|	Tại một thời điểm nhất định|	Theo định kỳ|
 |Kích thước|	Bằng kích thước của dữ liệu gốc|	Có thể lớn hơn hoặc nhỏ hơn kích thước của dữ liệu gốc|
 |Mục đích sử dụng|	Khôi phục dữ liệu về trạng thái ban đầu|	Khôi phục dữ liệu trong trường hợp bản gốc bị mất hoặc hư hỏng|
