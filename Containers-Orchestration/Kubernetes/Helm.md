@@ -148,7 +148,7 @@ Bằng việc chạy lệnh
 
 ![Helm Chart](/Image/Helm-Chart04.png)
 
-**Tùy chỉnh lại **
+**Tùy chỉnh lại**
 
 Trước khi tùy chỉnh chúng ta sẽ xem xét qua các nội dung của file ở phần *templates* chúng ta có các file như:
 
