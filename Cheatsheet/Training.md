@@ -34,23 +34,23 @@ Bên cạnh đó, các chứng chỉ của **Alibaba Cloud Academy** còn đư�
 
 ### System Operator (Vận hành hệ thống)
 
-Đây là chứng chỉ dành cho những chuyên gia quản lý hệ thống (**Sys Admin**) hoặc chuyên gia vận hành (**SysOps**)
+- Đây là chứng chỉ dành cho những chuyên gia quản lý hệ thống (**Sys Admin**) hoặc chuyên gia vận hành (**SysOps**)
 
 ### Developer (Nhà phát triển ứng dụng)
 
-Để đạt được chứng chỉ này, bạn cần có những kỹ năng lập trình nhất định. Chứng chỉ này phù hợp với những lập trình viên phát triển ứng dụng trên nền tảng đám mây.
+- Để đạt được chứng chỉ này, bạn cần có những kỹ năng lập trình nhất định. Chứng chỉ này phù hợp với những lập trình viên phát triển ứng dụng trên nền tảng đám mây.
 
 ### Big Data Architect (Kiến trúc dữ liệu lớn)
 
-Chứng chỉ này tập trung vào các phương pháp xử lý dữ liệu như lưu trữ, tính toán, phân tích và xử lý các dữ liệu lớn trên đám mây thông qua các công cụ như **DataHub, Flink, AIACC, PAI-DSW**.
+- Chứng chỉ này tập trung vào các phương pháp xử lý dữ liệu như lưu trữ, tính toán, phân tích và xử lý các dữ liệu lớn trên đám mây thông qua các công cụ như **DataHub, Flink, AIACC, PAI-DSW**.
 
 ### Cloud Native Architect (Kiến trúc phần mềm đám mây)
 
-Chứng chỉ này kiểm tra khả năng xây dựng các ứng dụng khai thác triệt để các lợi thế của mô hình điện toán đám mây, được phát triển trực tiếp trong hạ tầng cơ sở dữ liệu, tạo ra các mô hình triển khai ứng dụng mới như **Docker**, **Kubernetes** …
+- Chứng chỉ này kiểm tra khả năng xây dựng các ứng dụng khai thác triệt để các lợi thế của mô hình điện toán đám mây, được phát triển trực tiếp trong hạ tầng cơ sở dữ liệu, tạo ra các mô hình triển khai ứng dụng mới như **Docker**, **Kubernetes** …
 
 ### Database Architect (Kiến trúc cơ sở dữ liệu)
 
-Chứng chỉ này dành cho các chuyên gia dữ liệu đã quen thuộc với **TP, AP, NoSQL**, các công cụ và những công nghệ cơ sở dữ liệu khác.
+- Chứng chỉ này dành cho các chuyên gia dữ liệu đã quen thuộc với **TP, AP, NoSQL**, các công cụ và những công nghệ cơ sở dữ liệu khác.
 
 ## Phân loại chứng chỉ theo cấp độ
 
@@ -76,8 +76,7 @@ Cấp độ này hướng tới các cá nhân có đã có những kiến thứ
 
 - **Alibaba Cloud** là một trong những đơn vị điện toán đám mây hàng đầu thế giới
 
-- **Alibaba Cloud** là một trong những đơn vị hàng đầu thế giới về điện toán đám mây. Do đó, các chứng chỉ 
-- **Alibaba Cloud** sẽ có mức độ nhận diện cao trong ngành công nghiệp điện toán đám mây. Việc sở hữu một chứng chỉ **Alibaba Cloud** có thể được xem là một minh chứng cho kiến thức, kinh nghiệm và trải nghiệm của bạn trong ngành công nghệ mới nổi này!
+- **Alibaba Cloud** là một trong những đơn vị hàng đầu thế giới về điện toán đám mây. Do đó, các chứng chỉ **Alibaba Cloud** sẽ có mức độ nhận diện cao trong ngành công nghiệp điện toán đám mây. Việc sở hữu một chứng chỉ **Alibaba Cloud** có thể được xem là một minh chứng cho kiến thức, kinh nghiệm và trải nghiệm của bạn trong ngành công nghệ mới nổi này!
 
 ### Việt Nam là thị trường tiềm năng cho điện toán đám mây và Alibaba Cloud
 
