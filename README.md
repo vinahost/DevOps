@@ -108,6 +108,7 @@
 - [✔️] ☸ > [Tổng quan về Rancher - Thực hành]
 - [✔️] ☸ > [Triển khai ứng dụng Kubernetes]
 - [✔️] ☸ > [State và Ingress trong Kubernetes]
+- [✔️] ☸ > [Helm Chart là gì?](Containers-Orchestration/Kubernetes/Helm.md)
 - [✔️] ☸ > [Hỏi đáp về Kubernetes - English](Containers-Orchestration/Kubernetes/75-Cau-k8s.md)
 
 ### Cơ sở hạ tầng dưới dạng mã (Infrastructure as Code)
