@@ -56,15 +56,15 @@ Bên cạnh đó, các chứng chỉ của **Alibaba Cloud Academy** còn đư�
 
 ### Alibaba Cloud Certified Associate (ACA)
 
-Đây là cấp độ cơ bản tập trung vào các kiến thức và kĩ năng nền tảng liên quan đến các sản phẩm và dịch vụ của **Alibaba Cloud**. Chứng chỉ này bao gồm các chủ đề như khái niệm về điện toán đám mây, kiến trúc hệ thống cơ bản, mạng máy tính, và lưu trữ.
+- Đây là cấp độ cơ bản tập trung vào các kiến thức và kĩ năng nền tảng liên quan đến các sản phẩm và dịch vụ của **Alibaba Cloud**. Chứng chỉ này bao gồm các chủ đề như khái niệm về điện toán đám mây, kiến trúc hệ thống cơ bản, mạng máy tính, và lưu trữ.
 
 ### Alibaba cloud Certified Professional (ACP) 
 
-Cấp độ này hướng tới các cá nhân có đã có những kiến thức, kỹ năng và kinh nghiệm nhất định về **Alibaba Cloud**. Nó bao gồm các chứng chỉ trong các lĩnh vực riêng biệt như điện toán đám mây, mạng máy tính, dữ liệu lớn (**big data**) và **DevOps**.
+- Cấp độ này hướng tới các cá nhân có đã có những kiến thức, kỹ năng và kinh nghiệm nhất định về **Alibaba Cloud**. Nó bao gồm các chứng chỉ trong các lĩnh vực riêng biệt như điện toán đám mây, mạng máy tính, dữ liệu lớn (**big data**) và **DevOps**.
 
 ### Alibaba Cloud Certified Expert (ACE)
 
-Đây là cấp độ chứng chỉ cao nhất, đại diện cho các kiến thức, kỹ năng ở cấp độ chuyên gia, có các kinh nghiệm chuyên biệt trong các lĩnh vực. Hiện nay, **Alibaba Cloud** có 2 chứng chỉ ACE: **ACE Cloud Computing** và **ACE Big Data**.
+- Đây là cấp độ chứng chỉ cao nhất, đại diện cho các kiến thức, kỹ năng ở cấp độ chuyên gia, có các kinh nghiệm chuyên biệt trong các lĩnh vực. Hiện nay, **Alibaba Cloud** có 2 chứng chỉ ACE: **ACE Cloud Computing** và **ACE Big Data**.
 
 ### Để có thể xác định được lộ trình cần thiết
 
@@ -94,7 +94,7 @@ Bên cạnh cơ hội rộng mở, các chuyên gia của **Alibaba Cloud** còn
 
 Hiện nay, hầu hết các chứng chỉ **Alibaba Cloud Academy** có thể tham gia lấy online. Thông tin về quy trình tham gia lấy chứng chỉ **Alibaba Cloud** online có thể xem [tại đây](https://edu.alibabacloud.com/)
 
-### Các lựa chọn cho khóa học
+## Các lựa chọn cho khóa học
 
 - **Free digital training courses**: Alibaba Cloud Academy cung cấp hơn 100 khóa đào tạo kỹ thuật số miễn phí bao gồm các khái niệm điện toán đám mây cốt lõi và giải pháp của Alibaba Cloud. Các khóa học này tự tốc độ và có thể truy cập theo yêu cầu.
  
@@ -106,7 +106,7 @@ Hiện nay, hầu hết các chứng chỉ **Alibaba Cloud Academy** có thể t
  
 - **Bootcamps**: Alibaba Cloud Academy cung cấp hơn 10 buổi tập huấn nhằm mang đến cho bạn cơ hội tìm hiểu về các sản phẩm và giải pháp của Alibaba Cloud thông qua các bài tập nhập vai và các phòng thí nghiệm thực hành. Các buổi tập huấn này thường kéo dài từ 3 đến 5 ngày và được cung cấp tại một số địa điểm trên thế giới.
 
-### Các nguồn tài nguyên khác
+## Các nguồn tài nguyên khác
 
 Ngoài các tùy chọn đào tạo này, **Alibaba Cloud Academy** cũng cung cấp một loạt các tài nguyên khác để giúp bạn tìm hiểu về Alibaba Cloud, bao gồm:
 
@@ -116,7 +116,7 @@ Ngoài các tùy chọn đào tạo này, **Alibaba Cloud Academy** cũng cung c
 
 - **Blog**: Blog của Alibaba Cloud là một nguồn tài nguyên tuyệt vời để cập nhật những tin tức và phát triển mới nhất của Alibaba Cloud.
 
-### Tham khảo
+## Tham khảo
 
 - https://edu.alibabacloud.com/
 - https://www.alibabacloud.com/forum
