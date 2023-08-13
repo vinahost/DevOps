@@ -19,7 +19,7 @@ Các tính năng chính của **GitHub**
 - Công cụ quản lý dự án - Issues
 - CI / CD Pipeline - GitHub Actions
 
-Về giá cả, GitHub có các mức giá khác nhau cho người dùng. Bạn có thể tìm thêm thông tin về [Pricing](https://github.com/pricing)
+Về giá cả, **GitHub** có các mức giá khác nhau cho người dùng. Bạn có thể tìm thêm thông tin về [Pricing](https://github.com/pricing)
 
 Lần này, chúng ta sẽ tìm hiểu với cấp miễn phí.
 
@@ -29,43 +29,43 @@ Tôi sẽ sử dụng tài khoản **GitHub** đã tạo của mình trong hư�
 
 Khi bạn đăng nhập lần đầu vào tài khoản **GitHub** của mình, bạn sẽ nhận được một trang chứa rất nhiều tiện ích cung cấp cho bạn các tùy chọn về địa điểm và nội dung bạn muốn xem hoặc làm. Đầu tiên, chúng ta có mục "**All Activity**", điều này sẽ cung cấp cho bạn cái nhìn về những gì đang xảy ra với kho lưu trữ hoặc hoạt động được liên kết với tổ chức hoặc tài khoản của bạn.
 
-![GitHub](Image/GitHub01.png)
+![GitHub](/Image/GitHub01.png)
 
 Tiếp theo, chúng ta có Kho lưu trữ mã, kho lưu trữ của riêng chúng ta hoặc kho lưu trữ mà chúng ta đã tương tác gần đây. Chúng ta cũng có thể nhanh chóng tạo các kho mới hoặc tìm kiếm các kho mã.
 
-![GitHub](Image/GitHub02.png)
+![GitHub](/Image/GitHub02.png)
 
 Sau đó, chúng ta có hoạt động gần đây của chúng ta, những điều này đối với tôi là **issues** và **pull requests** mà tôi đã tạo hoặc đóng góp gần đây.
 
-![GitHub](Image/GitHub03.png)
+![GitHub](/Image/GitHub03.png)
 
 Ở phía bên phải của trang, chúng ta có một số giới thiệu về các kho mã mà chúng ta có thể quan tâm, rất có thể dựa trên hoạt động gần đây của bạn hoặc các dự án của riêng bạn.
 
-![GitHub](Image/GitHub04.png)
+![GitHub](/Image/GitHub04.png)
 
 Thành thật mà nói, tôi rất hiếm khi vào trang chủ của mình, mặc dù bây giờ tôi thấy rằng việc xem qua nó có thể thực sự hữu ích để giúp tương tác với cộng đồng tốt hơn một chút trong một số dự án nhất định.
 
 Tiếp theo, nếu chúng ta muốn truy cập Hồ sơ **GitHub** của mình, chúng ta có thể điều hướng đến góc trên cùng bên phải và trên hình ảnh của bạn, có một **drop-down** cho phép bạn qua tài khoản của mình. Từ đây để truy cập Hồ sơ của bạn, chọn "**Your Profile**"
 
-![GitHub](Image/GitHub05.png)
+![GitHub](/Image/GitHub05.png)
 
 Bạn sẽ không mất nhiều thời gian để xem hồ sơ của mình, nhưng đây là một nơi rất tốt để chia sẻ với mạng lưới của bạn để họ có thể thấy các dự án thú vị mà bạn đang thực hiện.
 
-![GitHub](Image/GitHub06.png)
+![GitHub](/Image/GitHub06.png)
 
 Sau đó, chúng ta có thể đi sâu vào khối xây dựng của **GitHub**, các kho lưu trữ. Ở đây bạn sẽ thấy các kho lưu trữ của mình và nếu bạn có các kho lưu trữ **private** thì chúng cũng sẽ được hiển thị trong danh sách dài này.
 
-![GitHub](Image/GitHub07.png)
+![GitHub](/Image/GitHub07.png)
 
 Vì kho lưu trữ rất quan trọng đối với **GitHub**, hãy để tôi chọn một kho lưu trữ khá hot trong thời gian gần đây và thực hiện một số chức năng chính có thể sử dụng ở đây khi tôi chỉnh sửa "**mã**" của chúng ta bằng **git** trên thống cục bộ của tôi.
 
 Trước hết, từ cửa sổ trước, tôi đã chọn kho lưu trữ **90DaysOfDevOps** và chúng ta có thể thấy mành hình này. Bạn có thể thấy từ đây, chúng ta có rất nhiều thông tin, có cấu trúc mã chính ở giữa hiển thị các tệp và thư mục được lưu trữ trong kho lưu trữ, có `readme.md` hiển thị ở dưới cùng. Ở bên phải của trang, chúng ta có phần giới thiệu, có mô tả và mục đích của kho lưu trữ. Sau đó, chúng ta có rất nhiều thông tin bên dưới điều này cho thấy có bao nhiêu người đã thả sao cho dự án, số lần được **fork** và số người theo dõi.
 
-![GitHub](Image/GitHub08.png)
+![GitHub](/Image/GitHub08.png)
 
 Nếu cuộn xuống thêm một chút, bạn cũng sẽ thấy rằng chúng ta có **Released**, đó là từ phần **golang** trong thử thách này. Chúng ta không có bất kỳ gói nào trong dự án của mình, và có người đóng góp được liệt kê ở đây. (Cảm ơn cộng đồng đã hỗ trợ tôi kiểm tra chính tả và tính xác thực của thông tin). Sau đó, chúng ta có các ngôn ngữ, đây là những ngôn ngữ được sử dụng trong thử thách.
 
-![GitHub](Image/GitHub09.png)
+![GitHub](/Image/GitHub09.png)
 
 Ở đầu trang, bạn sẽ thấy một danh sách các **tab**. Chúng có thể khác nhau và chúng có thể được tuỳ biến để chỉ hiển thị những thứ bạn yêu cầu. Bạn sẽ thấy ở đây tôi không sử dụng tất cả những thứ này và nên loại bỏ chúng để đảm bảo toàn bộ kho lưu trữ gọn gàng.
 
@@ -75,43 +75,43 @@ Nếu cuộn xuống thêm một chút, bạn cũng sẽ thấy rằng chúng ta
 
 Nếu đây là một kho lưu trữ mã thì đây là nơi tuyệt vời để nêu lên các vấn đề với những người bảo trì, nhưng hãy nhớ chú ý và cụ thể về những gì bạn đang báo cáo và cung cấp càng nhiều thông tin càng tốt.
 
-![GitHub](Image/GitHub010.png)
+![GitHub](/Image/GitHub010.png)
 
 **Tab** tiếp theo là **Pull Requests**, **Pull Requests** cho phép bạn thông báo cho người khác về những thay đổi mà bạn đã đẩy tới một nhánh trong kho lưu trữ. Đây là nơi ai đó có thể đã phân nhánh kho lưu trữ của bạn, thực hiện các thay đổi như sửa lỗi hoặc cải tiến tính năng hoặc chỉ lỗi đánh máy.
 
 Chúng ta sẽ đề cập đến **fork** sau.
 
-![GitHub](Image/GitHub011.png)
+![GitHub](/Image/GitHub011.png)
 
 Tôi tin rằng tab tiếp theo khá mới? **Tab Discussion** (Thảo luận). Nhưng tôi nghĩ đối với một dự án như **#90DaysOfDevOps**, điều này có thể giúp hướng dẫn cho các nội dung mới nhưng cũng giúp ích cho cộng đồng và qua hành trình học tập của mình. Tôi đã tạo một số nhóm thảo luận cho từng phần của thử thách để mọi người có thể tham gia và bình luận.
 
-![GitHub](Image/GitHub012.png)
+![GitHub](/Image/GitHub012.png)
 
 **Tab** *Actions* sẽ cho phép bạn **build**, kiểm thử và triển khai mã,... với **GitHub**. **GitHub Actions** sẽ là nội dung chúng ta đề cập trong phần **CI/CD** của thử thách, đây là nơi chúng ta có thể đặt một số cấu hình để tự động hóa các bước.
 
 Trên Hồ sơ **GitHub** chính của mình, tôi đang sử dụng **GitHub Actions** để tìm các bài đăng trên website [DevOps](https://devops.vinahost.vn) mới nhất để cập nhật màn hình chính đó.
 
-![GitHub](Image/GitHub014.png)
+![GitHub](/Image/GitHub014.png)
 
 Tôi đã đề cập ở trên về cách **GitHub** không chỉ là kho lưu trữ mã nguồn mà còn là một công cụ quản lý dự án, tab **Project** cho phép chúng ta xây dựng các bảng **kanban** cho dự án để chúng ta có thể liên kết các **Issues** và **PR** nhằm cộng tác tốt hơn và có thểm theo dõi tiến độ của các **tasks**.
 
-![GitHub](Image/GitHub015.png)
+![GitHub](/Image/GitHub015.png)
 
 Tôi biết rằng **issues** có vẻ là một nơi tốt để ghi lại các yêu cầu tính năng và chúng đúng là để làm như vậy nhưng trang **wiki** cho phép phác thảo một lộ trình toàn diện cho dự án với trạng thái hiện tại và giúp các tài liệu hoàn thiện hơn cho dự án của bạn, ví dụ như hướng dẫn khắc phục sự cố các nội dụng dạng **how-to**.
 
-![GitHub](Image/GitHub016.png)
+![GitHub](/Image/GitHub016.png)
 
 Không có trong dự án này nhưng có tab **Security** để đảm bảo rằng những **contributors** biết cách xử lý một số tác vụ nhất định, chúng ta có thể xác định một **policy** tại đây cũng như các tiện ích quét mã để đảm bảo mã của bạn không chứa các biến môi trường bí mật.
 
-![GitHub](Image/GitHub017.png)
+![GitHub](/Image/GitHub017.png)
 
 Đối với tôi, tab **insights** rất tuyệt, nó cung cấp rất nhiều thông tin về kho lưu trữ, từ bao nhiêu hoạt động đang diễn ra cho đến các **commits** và **issues**, nhưng nó cũng báo cáo về lượng truy cập vào kho lưu trữ. Bạn có thể thấy một danh sách ở phía bên trái cho phép bạn xem chi tiết về các số liệu trên kho lưu trữ.
 
-![GitHub](Image/GitHub018.png)
+![GitHub](/Image/GitHub018.png)
 
 Cuối cùng, chúng ta có tab **Settings**, đây là nơi chúng ta có thể xem chi tiết cách chúng ta chạy kho lưu trữ của mình, tôi hiện là người bảo trì duy nhất của kho lưu trữ nhưng chúng ta có thể chia sẻ trách nhiệm này tại đây. Chúng ta có thể định nghĩa tích hợp và các tác vụ khác tương tự như vậy tại đây.
 
-![GitHub](Image/GitHub019.png)
+![GitHub](/Image/GitHub019.png)
 
     This was a super quick overview of GitHub, I think there are some other areas that I might have mentioned that need explaining in a little more detail. As mentioned GitHub houses millions of repositories mostly these are holding source code and these can be public or privately accessible.
 
@@ -123,11 +123,11 @@ Ta sẽ tìm hiểu thêm về Nguồn mở trong bài tiếp theo nhưng một 
 
 Hãy quay lại trang mở đầu sau khi đăng nhập và xem một trong những kho lưu trữ được đề xuất đó.
 
-![GitHub](Image/GitHub020.png)
+![GitHub](/Image/GitHub020.png)
 
 Nếu chúng ta nhấp vào kho lưu trữ đó, chúng ta sẽ có giao diện giống như kho lưu trữ **90DaysOfDevOps**.
 
-![GitHub](Image/GitHub021.png)
+![GitHub](/Image/GitHub021.png)
 
 Nếu để ý bên dưới, chúng ta có 3 tùy chọn, chúng ta có **watch**, **fork** và **star**.
 
@@ -135,15 +135,15 @@ Nếu để ý bên dưới, chúng ta có 3 tùy chọn, chúng ta có **watch*
 - Fork - một bản sao của một kho lưu trữ.
 - Star - "Tôi nghĩ dự án của bạn rất tuyệt"
 
-![GitHub](Image/GitHub022.png)
+![GitHub](/Image/GitHub022.png)
 
 Với kịch bản của chúng ta là muốn một bản sao của kho lưu trữ để làm việc với nó, chúng ta sẽ nhấn tùy chọn **fork**. Nếu bạn là thành viên của nhiều tổ chức thì bạn sẽ phải chọn nơi để **fork**, tôi sẽ chọn **profile** của mình.
 
-![GitHub](Image/GitHub023.png)
+![GitHub](/Image/GitHub023.png)
 
 Bây giờ chúng ta có bản sao của kho lưu trữ để có thể tự do làm việc và thay đổi phù hợp. Đây sẽ là bước khởi đầu của quy trình **pull request** mà chúng ta đã đề cập ngắn gọn trước đây, nó sẽ được đề cập chi tiết hơn ở bài tiếp theo.
 
-![GitHub](Image/GitHub024.png)
+![GitHub](/Image/GitHub024.png)
 
 Ok, nhưng làm cách nào để thay đổi kho lưu trữ và mã này nếu nó ở trên một trang **web**, bạn có thể xem qua và chỉnh sửa trực tiếp trên đó nhưng bạn không thể sử dụng **IDE** yêu thích của bạn trên máy cá nhân với **theme** màu yêu thích của bạn. Để chúng ta có được một bản sao của kho lưu trữ này trên máy của mình, chúng ta sẽ **clone** kho lưu trữ đó. Điều này sẽ cho phép chúng ta làm việc trên môi trường cục bộ và sau đó đẩy (**push**) các thay đổi trở lại bản sao được fork từ kho lưu trữ gốc.
 
@@ -153,29 +153,29 @@ Có một phiên bản của **GitHub Desktop** cung cấp cho bạn một ứng
 
 Đối với **demo** nhỏ này, tôi sẽ sử dụng **URL HTTPS** mà chúng ta thấy trên đó.
 
-![GitHub](Image/GitHub025.png)
+![GitHub](/Image/GitHub025.png)
 
 Bây giờ trên máy cục bộ của chúng ta, tôi sẽ điều hướng đến một thư mục mà tôi muốn tải xuống kho lưu trữ này và sau đó chạy `git clone url`
 
-![GitHub](Image/GitHub026.png)
+![GitHub](/Image/GitHub026.png)
 
 Bây giờ chúng ta có thể mở nó bằng **VSCode** và thay đổi một số thứ.
 
-![GitHub](Image/GitHub027.png)
+![GitHub](/Image/GitHub027.png)
 
 Hãy thực hiện một số thay đổi, tôi muốn thay đổi các liên kết đó và thay thế nó bằng thứ gì khác.
 
-![GitHub](Image/GitHub028.png)
+![GitHub](/Image/GitHub028.png)
 
 Bây giờ, nếu chúng ta kiểm tra lại **GitHub** và tìm tệp **Readme.md** trong kho lưu trữ đó, bạn có thể thấy một vài thay đổi mà tôi đã thực hiện đối với tệp đó.
 
-![GitHub](Image/GitHub029.png)
+![GitHub](/Image/GitHub029.png)
 
 Ở thời điểm này, quá trình này có thể đã hoàn tất và chúng ta có thể hài lòng với thay đổi của mình vì chúng ta là những người duy nhất sẽ sử dụng thay đổi mới đó. Nhưng rất có thể sẽ có lúc thay đổi của chúng ta là để sửa một **bug** và thông qua một **Pull request**, chúng ta sẽ thông báo cho những người bảo trì kho lưu trữ đó về thay đổi của chúng ta và xem liệu họ có chấp nhận những thay đổi đó hay không.
 
 Chúng ta có thể làm điều này bằng cách sử dụng nút **Contribute** được làm rõ ở dưới đây. Tôi sẽ đề cập nhiều hơn về vấn đề này vào bài tiếp theo khi chúng ta xem xét quy trình làm việc với các phần mềm mã nguồn mở.
 
-![GitHub](Image/GitHub030.png)
+![GitHub](/Image/GitHub030.png)
 
 Tôi đã dành một thời gian dài để hướng dẫn về **Github** và tôi nghe thấy một số yêu cầu vê những lựa chọn khác.
 
