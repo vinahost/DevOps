@@ -85,7 +85,7 @@
 - [✔️] 📚 > [Viewing, unstaging, discarding & restoring](Version-Control/Git-Advanced.md)
 - [✔️] 📚 > [Viewing, unstaging, discarding & restoring - Tiếng Việt](Version-Control/Git-Advanced-vi.md)
 - [✔️] 📚 > [Mạng xã hội dành cho code](Version-Control/GitHub-GitLab-BitBucket.md)
-- [✔️] 📚 > [Quy trình làm việc với mã nguồn mở]
+- [✔️] 📚 > [Quy trình làm việc với mã nguồn mở](Version-Control/Quy-Trinh-Lam-Viec.md)
 
 ### Containers
 
