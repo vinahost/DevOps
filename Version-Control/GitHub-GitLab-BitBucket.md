@@ -177,7 +177,7 @@ Chúng ta có thể làm điều này bằng cách sử dụng nút **Contribute
 
 ![GitHub](/Image/GitHub030.png)
 
-Tôi đã dành một thời gian dài để hướng dẫn về **Github** và tôi nghe thấy một số yêu cầu vê những lựa chọn khác.
+Tôi đã dành một thời gian dài để hướng dẫn về **Github** và tôi nghe thấy một số yêu cầu về những lựa chọn khác.
 
 Và tôi cũng sẽ tìm một số tài nguyên cơ bản cho những vấn đề đó. Bạn sẽ thấy **GitLab** và **BitBucket** trong số những lựa chọn khi bạn sử dụng các dịch vụ quản lý phiên bản, tuy chúng là những dịch vụ dựa trên **git** nhưng chúng cũng có một số khác biệt nhất dịnh.
 
