@@ -10,7 +10,7 @@
 
 **TCP** hoạt động với giao thức **Internet** (**IP**) để chỉ định cách dữ liệu được trao đổi trực tuyến. **IP** chịu trách nhiệm gửi từng gói đến đích của nó, trong khi **TCP** đảm bảo rằng các **byte** được truyền theo thứ tự mà chúng được gửi mà không có lỗi hoặc thiếu sót nào. Hai giao thức kết hợp với nhau được gọi là **TCP/IP**.
 
-## TCP hoạt động như thế nào?
+### TCP hoạt động như thế nào?
 
 **TCP** hoạt động theo tiến trình bắt tay 3 bước (**3 way handshake**). Tiến trình này hoạt động như sau:
 
@@ -22,9 +22,9 @@
 
 Sau khi kết nối được thiết lập, **TCP** hoạt động bằng cách chia nhỏ dữ liệu đã truyền thành các **segment** (phân đoạn), mỗi **segment** được đóng gói thành một gói dữ liệu và được gửi đến đích của nó.
 
-## Cấu trúc của TCP Header
+### Cấu trúc của TCP Header
 
-![UDP Header](/Image/TCP-Header.png)
+![TCP Header](/Image/TCP-Header.png)
 
 - Source port (16 bit): Số cổng của thiết bị gửi.
 - Destination port (16 bit): Số cổng của thiết bị nhận.
@@ -55,13 +55,13 @@ Sau khi kết nối được thiết lập, **TCP** hoạt động bằng cách 
 
 Những ứng dụng phổ biến sử dụng **UDP** như **DNS** (*Domain Name System*), ứng dụng **streaming media**, **Voice over IP**, **Trivial File Transfer Protocol (TFTP)**, và **game** trực tuyến.
 
-## UDP hoạt động như thế nào?
+### UDP hoạt động như thế nào?
 
 Giao thức **UDP** hoạt động tương tự như **TCP**, nhưng nó bỏ qua quá trình kiểm tra lỗi. Khi một ứng dụng sử dụng giao thức **UDP**, các gói tin được gửi cho bên nhận và bên gửi không phải chờ để đảm bảo bên nhận đã nhận được gói tin, do đó nó lại tiếp tục gửi gói tin tiếp theo. Nếu bên nhận bỏ lỡ một vài gói tin **UDP**, họ sẽ mất vì bên gửi không gửi lại chúng. Do đó thiết bị có thể giao tiếp nhanh hơn.
 
 ![UDP](/Image/file-transfer-using-udp.png)
 
-## Cấu trúc UDP Header
+### Cấu trúc UDP Header
 
 ![UDP Header](/Image/UDP-Header.png)
 
