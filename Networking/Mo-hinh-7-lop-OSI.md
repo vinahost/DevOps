@@ -25,7 +25,7 @@ Mô hình **OSI** (*Mô hình kết nối hệ thống mở*) là một khuôn k
 
 Đây là lớp thứ 1 trong mô hình **OSI**, quy định cách mà chúng ta có thể chuyển dữ liệu từ một máy tính này thông qua máy tính khác về mặt vật lý (ví dụ dây mạng hoặc sóng **Wi-Fi**). Chúng ta cũng có thể bắt gặp một số thiết bị phần cứng cũ hoạt động ở lớp này như hub hoặc **repeater** (bộ lặp).
 
-![OSI Model - Mô hình 7 lớp](/Image/OSI-Model01.png)
+![OSI Model - Mô hình 7 lớp](/Image/OSI-Model02.png)
 
 ### Lớp liên kết dữ liệu (Data Link)
 
