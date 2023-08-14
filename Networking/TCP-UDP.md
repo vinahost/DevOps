@@ -24,6 +24,8 @@ Sau khi kết nối được thiết lập, **TCP** hoạt động bằng cách 
 
 ## Cấu trúc của TCP Header
 
+![UDP Header](/Image/TCP-Header.png)
+
 - Source port (16 bit): Số cổng của thiết bị gửi.
 - Destination port (16 bit): Số cổng của thiết bị nhận.
 - Sequence number (32 bit): Dùng để đánh số thứ tự gói tin ( từ số sequense nó sẽ tính ra được số byte đã được truyền)
