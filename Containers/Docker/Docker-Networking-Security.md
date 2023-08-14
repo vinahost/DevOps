@@ -8,19 +8,19 @@ Mở một **terminal** và gõ lệnh `docker network`, đây là câu lệnh c
 
 Theo như bên dưới, bạn có thể thấy đây là cách chúng ta có thể sử dụng lệnh và các lệnh phụ có sẵn. Chúng ta có thể tạo các mạng mới, liệt kê cách mạng hiện có, kiểm tra và xoá các mạng.
 
-![Docker Networking ](/Image/Docker-Docker-Networking01.png)
+![Docker Networking ](/Image/Docker-Networking01.png)
 
 Hãy xem qua các mạng hiện có mà chúng ta có kể từ khi cài đặt, mạng **Docker** có sẵn dùng trông giống như sử dụng lệnh `docker network list`.
 
 Mỗi mạng có một **NAME** và **ID** duy nhất. Mỗi mạng cũng được liên kết với một **driver** duy nhất. Lưu ý rằng mạng "**bridge**" và mạng "**host**" có cùng tên với **driver** tương ứng của chúng.
 
-![Docker Networking ](/Image/Docker-Docker-Networking02.png)
+![Docker Networking ](/Image/Docker-Networking02.png)
 
 Tiếp theo, chúng ta có thể xem xét kỹ hơn các mạng của mình bằng lệnh `docker network inspect`.
 
 Khi tôi chạy lệnh `docker network inspect bridge`, tôi có thể nhận được tất cả các chi tiết cấu hình của mạng cụ thể đó. Điều này bao gồm tên, **ID**, **driver**, **container** được liên kết và như bạn thấy, có rất nhiều thông tin khác.
 
-![Docker Networking ](/Image/Docker-Docker-Networking03.png)
+![Docker Networking ](/Image/Docker-Networking03.png)
 
 ## Docker: Bridge Networking
 
@@ -39,17 +39,17 @@ Hãy tạo một **container** mới với câu lệnh `docker run -dt ubuntu sl
 
 Lệnh **sleep** ở trên chỉ để giữ cho **container** chạy ở chế độ nền để chúng ta có thể thực hành với nó.
 
-![Docker Networking ](/Image/Docker-Docker-Networking04.png)
+![Docker Networking ](/Image/Docker-Networking04.png)
 
 Sau đó, nếu chúng ta kiểm tra mạng **bridge** của mình với lệnh `docker network inspect bridge`, bạn sẽ thấy rằng chúng ta có một **container** khớp với những gì chúng ta vừa triển khai vì chúng ta đã không chỉ định một mạng nào cho nó.
 
-![Docker Networking ](/Image/Docker-Docker-Networking05.png)
+![Docker Networking ](/Image/Docker-Networking05.png)
 
 Bạn cũng có thể đi sâu vào **container** bằng cách sử dụng `docker exec -it 3a99af449ca2 bash`, bạn sẽ phải sử dụng `docker ps` để lấy **container id** của bạn.
 
 Từ đây, **image** của chúng ta không có gì để **ping** nên chúng ta cần chạy thêm lệnh sau `apt-get update && apt-get install -y iputils-ping` sau đó **ping** một địa chỉ bên ngoài. `ping -c5 www.90daysofdevops.com`
 
-![Docker Networking ](/Image/Docker-Docker-Networking06.png)
+![Docker Networking ](/Image/Docker-Networking06.png)
 
 Để xoá bỏ **container**, chúng ta có thể chạy lại lệnh `docker stop 3a99af449ca2` và sử dụng lệnh `docker ps` để kiểm tra.
 
@@ -59,21 +59,21 @@ Trong bước này, chúng ta sẽ bắt đầu một **NGINX container** mới 
 
 Bắt đầu một **container** mới dựa trên **NGINX image** chính thức bằng cách chạy `docker run --name web1 -d -p 8080:80 nginx`
 
-![Docker Networking ](/Image/Docker-Docker-Networking07.png)
+![Docker Networking ](/Image/Docker-Networking07.png)
 
 Xem lại trạng thái của **container** và **port mapping** bằng cách chạy `docker ps`
 
-![Docker Networking ](/Image/Docker-Docker-Networking08.png)
+![Docker Networking ](/Image/Docker-Networking08.png)
 
 Dòng trên cùng hiển thị **container** `web1` mới đang chạy **NGINX**. Lưu ý lệnh mà **container** đang chạy cũng như **port mapping** - `0.0.0.0:8080->80/tcp` ánh xạ cổng **8080** trên tất cả các **interfaces** của máy chủ tới cổng **80** bên trong **container** `web1`. **Port mapping** này là yếu tố làm cho dịch vụ **web** của **container** có thể truy cập hiệu quả từ bên ngoài (thông qua địa chỉ IP máy chủ **Docker** trên cổng **8080**).
 
 Bây giờ chúng ta cần địa chỉ IP cho máy chủ thực tế của mình, có thể thực hiện việc này bằng cách vào **WSL terminal** của mình và sử dụng lệnh `IP addr`.
 
-![Docker Networking ](/Image/Docker-Docker-Networking09.png)
+![Docker Networking ](/Image/Docker-Networking09.png)
 
 Sau đó, chúng tôi có thể lấy **IP** này, mở trình duyệt và truy cập `http://172.25.218.154:8080/` **IP** của bạn có thể khác. Điều này xác nhận rằng có thể truy cập được **NGINX**.
 
-![Docker Networking ](/Image/Docker-Docker-Networking010.png)
+![Docker Networking ](/Image/Docker-Networking010.png)
 
 Tôi đã thực hiện các hướng dẫn của trang **web** này từ **DockerCon 2017** nhưng chúng vẫn còn phù hợp cho đến ngày nay. Tuy nhiên, phần còn lại của hướng dẫn đi sâu vào **Docker Swarm** và chúng ta sẽ không xem xét điều đó ở đây. [Mạng Docker - DockerCon 2017](https://github.com/docker/labs/tree/master/dockercon-us-2017/docker-networking)
 
@@ -119,7 +119,7 @@ Tôi đã đề cập đến việc này trong suốt các bài viết về **co
 
 `docker image` là một câu lệnh tốt để kiểm tra kích thước các **image** của bạn.
 
-![Docker Networking ](/Image/Docker-Docker-Networking011.png)
+![Docker Networking ](/Image/Docker-Networking011.png)
 
 ## Resources
 
