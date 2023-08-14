@@ -1,10 +1,10 @@
 # Docker Swarm là gì ?
 
-**Docker Swarm** là công cụ tạo ra một clustering Docker. Cho phép ta có thể kết nối các docker host với nhau tạo thành một cụm các máy, khi tạo được hệ thống Docker Swarm thì chúng ta có thể quản lý và chạy các dịch vụ trên hệ thống này một cách dẽ dàng. Giả sử ta có các hệ thống docker chạy trên các vps khác nhau thì ta có kể kết nối chúng tạo thành một cụm docker
+**Docker Swarm** là công cụ tạo ra một **clustering Docker**. Cho phép ta có thể kết nối các **docker host** với nhau tạo thành một cụm các máy, khi tạo được hệ thống **Docker Swarm** thì chúng ta có thể quản lý và chạy các dịch vụ trên hệ thống này một cách dẽ dàng. Giả sử ta có các hệ thống **docker** chạy trên các **vps** khác nhau thì ta có kể kết nối chúng tạo thành một cụm **docker**.
 
-Chúng ta cần dùng Docker Swarm khi project của bạn cần phát triển, quản lý, deploy trên nhiều nhiều host thì đó là lúc cần dùng đến Docker Swarm.
+Chúng ta cần dùng **Docker Swarm** khi **project** của bạn cần phát triển, quản lý, **deploy** trên nhiều nhiều **host** thì đó là lúc cần dùng đến **Docker Swarm**.
 
-### Tính năng nổi bật
+## Tính năng nổi bật
 
 - Cluster management integrated with Docker Engine : Sử dụng bộ Docker Engine CLI để tạo swarm một cách dễ dàng
 
@@ -26,11 +26,11 @@ Chúng ta cần dùng Docker Swarm khi project của bạn cần phát triển, 
 
 - Rolling updates: ASwarm giúp update image của service một cách hoàn toàn tự động. Swarm manager giúp bạn kiểm soát độ trễ giữa service deploy tới các node khác nhau và bạn có thể rolling back bất cứ lúc nào.
 
-### Kiến trúc của Docker Swarm
+## Kiến trúc của Docker Swarm
 
 ![swarm_diagram](/Image/Docker-Swarm.png)
 
-Kiến trúc Swarm bao gồm một tập hợp các node có ít nhất một nút chính (Manager-Leader) và một số node worker có thể là máy ảo hoặc vật lý.
+Kiến trúc **Docker Swarm** bao gồm một tập hợp các **node** có ít nhất một nút chính (**Manager-Leader**) và một số **node worker** có thể là máy ảo hoặc vật lý.
 
 - Swarm: là một cluster của một node trong chế độ Swarm, thay vì phải chạy các container bằng câu lệnh thì ta sẽ thiết lập các services để phân bổ các bản replicas tới các node.
 
@@ -42,16 +42,16 @@ Kiến trúc Swarm bao gồm một tập hợp các node có ít nhất một n�
 
 - Service: Một service xác định image của container và số lượng các replicas (bản sao) mong muốn khởi chạy trong Swarm.
 
-### Khởi tạo Docker Swarm
+## Khởi tạo Docker Swarm
 
-Phần này chúng ta sẽ tạo một cụm docker với 2 máy host làm node worker và 1 host làm node manager
+Phần này chúng ta sẽ tạo một cụm **docker** với 2 máy **host** làm **node worker** và 1 host làm **node manager**
 
-Tạo máy ảo cho Swarm manager bằng lệnh
+Tạo máy ảo cho **Swarm manager** bằng lệnh
 
 ```js
 $ docker-machine create manager
 ```  
-Tạo 2 máy ảo cho Swarm node worker bằng lệnh
+Tạo 2 máy ảo cho **Swarm node worker** bằng lệnh
 
 ```js
 $ docker-machine create worker1
@@ -69,30 +69,30 @@ Cần kiểm tra thông tin 1 máy ảo thì ta có thể dùng lệnh
 ```js
 $ docker-machine inspect manager
 ```  
-Khởi tạo Swarn trên máy ảo manager. Để truy cập vào máy manager thì ta SSH vào bằng lệnh
+Khởi tạo **Swarn** trên máy ảo **manager**. Để truy cập vào máy **manager** thì ta **SSH** vào bằng lệnh
 
 ```js
 $ docker-machine ssh manager
 ```  
-Ở local host khởi tạo Swarm với node manager là IP máy chọn làm manager,
+Ở **local host** khởi tạo **Swarm** với **node manager** là **IP** máy chọn làm **manager**,
 
 ```js
 $ docker swarm init --advertise-addr <IP Machine>
 
 ```  
-Ở đây <IP Machine> là IP máy mình chọn làm node manager , IP này mình có thể lấy ở lệnh *$ docker-machine ls* hoặc *$ docker-machine inspect manager*
+Ở đây <IP Machine> là **IP** máy mình chọn làm **node manager** , **IP** này mình có thể lấy ở lệnh *$ docker-machine ls* hoặc *$ docker-machine inspect manager*
 
-Tạo xong thì sẽ như này, dòng bôi trắng là lệnh dùng để các worker jorn vào Swarm này, lệnh này để dùng vào phần sau
+Tạo xong thì sẽ như này, dòng bôi trắng là lệnh dùng để các **worker join** vào **Swarm** này, lệnh này để dùng vào phần sau
 
-Kiểm tra list node hiện tại đang có trong Swarm
+Kiểm tra **list node** hiện tại đang có trong **Swarm**
 
 ```js
 docker node ls
 
 ```  
-Join một máy áo khác vào Swarm vừa tạo
+**Join** một máy áo khác vào **Swarm** vừa tạo
 
-Bật một terminal mới và ssh vào worker1, và sử dụng lệnh jorn ở trên khi khởi tạo Swarm giải thích 1 chút về lệnh jorn
+Bật một **terminal** mới và **ssh** vào **worker1**, và sử dụng lệnh **join** ở trên khi khởi tạo **Swarm**. Giải thích 1 chút về lệnh **join**
 
 ```js
 $ docker swarm join --token <token> <host>:<port>
@@ -101,18 +101,18 @@ $ docker swarm join --token <token> <host>:<port>
 -  < host >: Địa chỉ ip của con manager
 -  < port>: Cổng port của con manager
 
-### So sánh giữa Kubernetes và Docker Swarm
+## So sánh giữa Kubernetes và Docker Swarm
 
 **Kubernetes** và **Docker Swarm** đều là các công cụ quản lý **container orchestration** cho phép ta có thể quản lý các **container** trên nhiều máy chủ vật lý khác nhau.
 
 Tuy nhiên, **Kubernetes** là công cụ phổ biến hơn và có nhiều tính năng hơn so với **Docker Swarm**.
 
-### Một số điểm khác biệt giữa **Kubernetes** và **Docker Swarm**:
+## Một số điểm khác biệt giữa **Kubernetes** và **Docker Swarm**:
 
 - Kubernetes có thể quản lý các container của nhiều nhà cung cấp khác nhau, trong khi Docker Swarm chỉ quản lý các container của Docker.
 - Kubernetes có thể tự động phân phối tải cho các container, trong khi Docker Swarm cần một công cụ bên ngoài để phân phối tải.
 - Kubernetes có thể tự động khôi phục các container bị lỗi, trong khi Docker Swarm không có tính năng này.
 
-### Tài liệu tham khảo
+## Tài liệu tham khảo
 
 - https://docs.docker.com/engine/swarm/
