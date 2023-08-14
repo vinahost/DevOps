@@ -70,7 +70,7 @@ Giao thức **UDP** hoạt động tương tự như **TCP**, nhưng nó bỏ qu
 - Length: Xác định chiều dài của toàn bộ datagram: phần header và dữ liệu. Chiều dài tối thiểu là 8 byte khi gói tin không có dữ liệu, chỉ có header.
 - Checksum: Kiểm tra lỗi của phần header và dữ liệu. Việc sử dụng checks.
 
-## Bảng tóm tắt sự khác biệt chính giữa TCP và UDP:
+## Bảng tóm tắt sự khác biệt chính giữa TCP và UDP
 
 |Tính năng|	TCP|	UDP|
 |---------|----|-------|
