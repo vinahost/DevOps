@@ -1,8 +1,8 @@
 # DevOps và Mạng máy tính
 
-Tương tự như những bài trước, tôi sẽ sử dụng các tài liệu hướng dẫn miễn phí và nguồn mở. Trong phần này, phần lớn nội dung được lấy từ trang [Practical Networking](https://www.practicalnetworking.net/) và series [Các nguyên tắc cơ bản của Mạng máy tính - Networking Fundamentals series](https://www.youtube.com/playlist?list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi). Dù đã được đề cập trong mục "*Tài nguyên tham khảo*" nhưng cũng cần thiết để nhấn mạnh tài liệu trên bởi vì từ quan điểm của cộng đồng, tôi đã tận dụng các khóa học này để giúp bản thân hiểu thêm về các lĩnh vực cụ thể. Kho lưu trữ này được dùng để chứa các ghi chú của tôi với hy vọng mọi người có thể thấy nó hữu ích cũng như các nguồn tài nguyên được liệt kê.
+Tương tự như những bài trước, tôi sẽ sử dụng các tài liệu hướng dẫn miễn phí và nguồn mở. Trong phần này, phần lớn nội dung được lấy từ trang [Practical Networking](https://www.practicalnetworking.net/) và series [Các nguyên tắc cơ bản của Mạng máy tính - Networking Fundamentals series](https://www.youtube.com/playlist?list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi). Dù đã được đề cập trong mục "***Tài nguyên tham khảo***" nhưng cũng cần thiết để nhấn mạnh tài liệu trên bởi vì từ quan điểm của cộng đồng, tôi đã tận dụng các khóa học này để giúp bản thân hiểu thêm về các lĩnh vực cụ thể. Kho lưu trữ này được dùng để chứa các ghi chú của tôi với hy vọng mọi người có thể thấy nó hữu ích cũng như các nguồn tài nguyên được liệt kê.
 
-Chào mừng bạn đến bài tiếp theo. Chúng ta sẽ tìm hiểu về mạng máy tính trong những bài tới, *DevOps và Mạng máy tính* là những chủ đề chính của phần này nhưng chúng ta cũng sẽ cần phải tìm hiểu một số kiến thức nền tảng của mạng máy tính.
+Chào mừng bạn đến bài tiếp theo. Chúng ta sẽ tìm hiểu về mạng máy tính trong những bài tới, ***DevOps và Mạng máy tính*** là những chủ đề chính của phần này nhưng chúng ta cũng sẽ cần phải tìm hiểu một số kiến thức nền tảng của mạng máy tính.
 
 Như tôi đã nói trước đây, **DevOps** là sự thay đổi về văn hóa và quy trình trong quá trình phát triển phần mềm. Những thay đổi này có thể là về **Virtual Machines**, **Containers**, hoặc **Kubernetes**, hoặc cũng có thể là ở hệ thống mạng. Nếu chúng ta áp dụng các nguyên tắc của **DevOps** vào cơ sở hạ tầng vốn đã bao gồm hệ thống mạng, ở khía cạnh của một **DevOps**, bạn sẽ cần tìm hiểu về mạng máy tính bao gồm cấu trúc, lớp, và công cụ mạng.
 
@@ -19,7 +19,7 @@ Chúng ta có thể hiểu rằng **NetDevOps** hoặc **Network DevOps** là vi
 Chúng ta đã đề cập trước đây rằng **DevOps** phá vỡ sự độc lập giữa các nhóm làm việc và nếu chúng ta quan niệm **Network DevOps** là việc phải tự động hóa hế thống mạng, nếu nhóm quản lý mạng không thay đổi sang mô hình và quy trình tương tự thì họ sẽ trở thành điểm tắt nghẽn hoặc thậm chí có thể là điểm gây thất bại cho dự án.
 
 Sử dụng các nguyên tắc tự động hóa trong việc cung cấp, cấu hình, thử nghiệm, kiểm soát phiên bản, và triển khai là một khởi đầu tuyệt vời. Tự động hóa về tổng thể sẽ cho phép tăng tốc độ triển khai, sự ổn định của cơ sở hạ tầng mạng và liên tục cải tiến cũng như quy trình sẽ được chia sẻ trên nhiều môi trường sau khi chúng đã được kiểm tra. Ví dụ như một **Network Policy** đã được kiểm tra đầy đủ trên môi trường thử nghiệm có thể được nhanh chóng áp dụng ở một vị trí khác. Vì bản chất của việc này là chạy lại đoạn mã thay vì cấu hình thủ công như trước đây.
-Bạn có thể tìm hiểu thêm về lợi ích của khái niệm này ở đây. [Network DevOps](https://www.thousandeyes.com/learning/techtorials/network-devops)
+Bạn có thể tìm hiểu thêm về lợi ích của khái niệm này ở đây [Network DevOps](https://www.thousandeyes.com/learning/techtorials/network-devops)
 
 ## Kiến thức cơ bản về mạng
 
