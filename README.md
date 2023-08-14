@@ -2,19 +2,19 @@
 
 ![img](Overview/devops.jpeg)
 
-### Giới thiệu về DevOps
+## Giới thiệu về DevOps
 
 - [✔️] ♾️ > [DevOps là gì?](Overview/DevOps-la-gi.md)
 - [✔️] ♾️ > [Roadmap để trở thành DevOps](Overview/DevOps-Roadmap.md)
 - [✔️] ♾️ > [DevOps Lifecycle - Vòng đời DevOps](Overview/DevOps-Lifecycle.md)
 - [✔️] ♾️ > [DevOps & Agile](Overview/DevOps-Agile.md)
-- [✔️] ♾️ > [Kế hoạch > Viết mã > Xây dựng > Kiểm thử > Phát hành > Triển khai > Vận hành > Giám sát >](Overview/Quy-Trinh-DevOps.md)
+- [✔️] ♾️ > [Quy trình DevOps](Overview/Quy-Trinh-DevOps.md)
 
-### DevOps và ngôn ngữ lập trình
+## DevOps và ngôn ngữ lập trình
 
 - [✔️] ⌨️ > [Overview: DevOps & Học một ngôn ngữ lập trình](Programming-Langguage/Ngon-Ngu-Lap-Trinh-DevOps.md)
 
-#### Lập trình với Python
+### Lập trình với Python
 - [✔️] ⌨️ > [Thiết lập môi trường DevOps cho Python](Programming-Langguage/Python/Bat-Dau-Voi-Python.md)
 - [✔️] ⌨️ > [Introduction to Python](Programming-Langguage/Python/Introduction-to-Python.md)
 - [✔️] ⌨️ > [Python Loops, functions, modules and libraries](Programming-Langguage/Python/Python-4-Concepts.md)
@@ -24,7 +24,7 @@
 - [✔️] ⌨️ > [Automation with Python](Programming-Langguage/Python/Automation-with-Python.md)
 - [✔️] ⌨️ > [Build an App in Python](Programming-Langguage/Python/Build-an-App-in-Python.md)
 
-#### Lập trình với GoLang
+### Lập trình với GoLang
 - [✔️] ⌨️ > [Thiết lập môi trường DevOps cho GoLang](Programming-Langguage/GoLang/DevOps-Va-GoLang.md)
 - [✔️] ⌨️ > [Chương trình đầu tiên với GoLang: Hello World](Programming-Langguage/GoLang/Hello-World-GoLang.md)
 - [✔️] ⌨️ > [Go Workspace](Programming-Langguage/GoLang/Go-Workspace.md)
@@ -32,7 +32,7 @@
 - [✔️] ⌨️ > [Go nhận giá trị đầu vào](Programming-Langguage/GoLang/Go-Nhan-Gia-Tri-Bien.md)
 - [✔️] ⌨️ > [Ứng dụng GoLang với Twitter](Programming-Langguage/GoLang/Twitter-Voi-GoLang.md)
 
-### Kiến thức cơ bản về Linux
+## Kiến thức cơ bản về Linux
 
 - [✔️] 🐧 > [Overview: DevOps & Linux](OS/Basic/DevOps-va-Linux.md)
 - [✔️] 🐧 > [Vagrant là gì ?](OS/Basic/Vagrant-la-gi.md)
@@ -46,7 +46,7 @@
 - [✔️] 🐧 > [Tự động hóa các tác vụ với các tập lệnh bash](OS/Basic/Tu-Dong-Hoa-Voi-Bash.md)
 - [✔️] 🐧 > [Thiết lập máy trạm phát triển - những điều tuyệt vời]
 
-### Kiến thức về mạng (Network)
+## Kiến thức về mạng (Network)
 
 - [✔️] 🌐 > [Overview: DevOps & Mạng máy tính](Networking/DevOps-Networking.md)
 - [✔️] 🌐 > [Mô hình OSI - 7 lớp mạng](Networking/Mo-hinh-7-lop-OSI.md)
@@ -57,9 +57,12 @@
 - [✔️] 🌐 > [Xây dựng Lab với EVE-NG](Networking/EVE-NG.md)
 - [✔️] 🌐 > [Getting Hands-On with Python & Network](Networking/Working-With-Python.md)
 
-### Tìm hiểu về điện toán đám mây
+## Tìm hiểu về điện toán đám mây
 
 - [✔️] ☁️ > [Overview: DevOps & The Cloud](Cloud-Provider/Overview-DevOps-The-Cloud.md)
+
+### Alibaba Cloud
+
 - [✔️] ☁️ > [Kiến thức cơ bản về Alibaba Cloud](Cloud-Provider/Alibaba-Cloud/Alibaba-Cloud-la-gi.md)
 - [✔️] ☁️ > [Server Migration Center (SMC) là gì ?](Cloud-Provider/Alibaba-Cloud/Server-Migration-Center-SMC-la-gi.md)
 - [✔️] ☁️ > [Mô hình bảo mật Alibaba Cloud]
@@ -75,7 +78,7 @@
     - [✔️] ☁️ > [Billing Management trên Aliaba Cloud ](Cloud-Provider/Alibaba-Cloud/Budget-Management-tren-Alibaba-Cloud.md)
     - [✔️] ☁️ > [Hướng dẫn gởi ticket trên Alibaba Cloud ](Cloud-Provider/Alibaba-Cloud/Ticket-Submit-Alibaba-Cloud.md)
               
-### Cách sử dụng Git hiệu quả
+## Cách sử dụng Git hiệu quả
 
 - [✔️] 📚 > [Overview: Git là gì?](Version-Control/Git.md)
 - [✔️] 📚 > [Overview: Git - Quản lý phiên bản](Version-Control/Git-Version.md)
@@ -88,7 +91,7 @@
 - [✔️] 📚 > [Mạng xã hội dành cho code](Version-Control/GitHub-GitLab-BitBucket.md)
 - [✔️] 📚 > [Quy trình làm việc với mã nguồn mở](Version-Control/Quy-Trinh-Lam-Viec.md)
 
-### Containers
+## Containers
 
 - [✔️] 🏗️ > [Overview: Containers](Containers/Docker/Containers-la-gi.md)
 - [✔️] 🏗️ > [Docker là gì & Cài đặt](Containers/Docker/Docker-la-gi.md)
@@ -102,7 +105,7 @@
 - [✔️] 🏗️ > [Docker Swarm là gì](Containers/Docker/Tim-hieu-Docker-Swarm.md)
 - [✔️] 🏗️ > [Hỏi đáp về Docker - English](Containers/Docker/Docker-questions-and-answers.md)
 
-### Kubernetes
+## Kubernetes
 
 - [✔️] ☸ > [Overview: Kubernetes](Containers-Orchestration/Kubernetes/Kubernetes-la-gi.md)
 - [✔️] ☸ > [Chọn nền tảng chạy Kubernetes]
@@ -114,7 +117,7 @@
 - [✔️] ☸ > [Helm Chart là gì?](Containers-Orchestration/Kubernetes/Helm.md)
 - [✔️] ☸ > [Hỏi đáp về Kubernetes - English](Containers-Orchestration/Kubernetes/75-Cau-k8s.md)
 
-### Cơ sở hạ tầng dưới dạng mã (Infrastructure as Code)
+## Cơ sở hạ tầng dưới dạng mã (Infrastructure as Code)
 
 - [✔️] 🤖 > [Overview: Cơ sở hạ tầng dưới dạng mã (IaC)](IaC/Infrastructure-as-Code-IaC.md)
 - [✔️] 🤖 > [Giới thiệu về Terraform](IaC/Terraform-la-gi.md)
@@ -124,7 +127,7 @@
 - [✔️] 🤖 > [Kubernetes & Đa môi trường]
 - [✔️] 🤖 > [Testing, Tools & Alternatives]
 
-### Tự động hóa quản lý cấu hình
+## Tự động hóa quản lý cấu hình
 
 - [✔️] 📜 > [Overview: Quản lý cấu hình](IaC/Configuration-Management.md)
 - [✔️] 📜 > [Ansible: Bắt đầu]
@@ -134,7 +137,7 @@
 - [✔️] 📜 > [Tags, Variables, Inventory & Database Server config]
 - [✔️] 📜 > [Tất cả những thứ còn lại của Ansible - Automation Controller, AWX, Vault]
 
-### CI/CD Pipelines
+## CI/CD Pipelines
 
 - [✔️] 🔄 > [Overview: CI/CD Pipelines](CI-CD/Overview-CI-CD-Pipelines.md)
 - [✔️] 🔄 > [Jenkins là gì?](CI-CD/Jenkins-la-gi.md)
@@ -144,7 +147,7 @@
 - [✔️] 🔄 > [GitHub Actions Overview]
 - [✔️] 🔄 > [ArgoCD Overview]
 
-### Giám sát, quản lý logs và trực quan hóa dữ liệu
+## Giám sát, quản lý logs và trực quan hóa dữ liệu
 
 - [✔️] 📈 > [Overview: Monitoring]
 - [✔️] 📈 > [Hands-On Monitoring Tools]
@@ -154,7 +157,7 @@
 - [✔️] 📈 > [EFK Stack]
 - [✔️] 📈 > [Data Visualisation - Grafana]
 
-### Lưu trữ & Bảo vệ dữ liệu
+## Lưu trữ & Bảo vệ dữ liệu
 
 - [✔️] 🗃️ > [Overview: Data Management]
 - [✔️] 🗃️ > [Data Services]
@@ -164,7 +167,7 @@
 - [✔️] 🗃️ > [Disaster Recovery]
 - [✔️] 🗃️ > [Data & Application Mobility]
 
-### Misc
+## Misc
 
 - [Bộ sưu tập các Cheatsheets dành cho DevOps](Misc/DevOps-Cheatsheet.md)
 - [Danh sách các Public DNS ở tại Việt Nam và Thế Giới](Misc/Public-DNS-Servers.md)
