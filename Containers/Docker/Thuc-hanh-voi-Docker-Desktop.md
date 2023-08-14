@@ -82,7 +82,7 @@ Khi chúng tôi nhấn vào nút đó ở trên, chắc chắn rằng một tran
 
 Bây giờ chúng ta đã có **container** đầu tiên. Chưa có gì quá đáng sợ. Còn nếu chúng ta muốn **pull** một **container image** từ **DockerHub** thì sao? Có thể sẽ có một `hello world` **container** chúng ta có thể sử dụng.
 
-Tôi dừng **container** `getting started` không phải để tiết kiệm tài nguyên mà để những bước sau được nhìn rõ hơn.
+Tôi dùng **container** `getting started` không phải để tiết kiệm tài nguyên mà để những bước sau được nhìn rõ hơn.
 
 Quay trở lại **terminal**, chạy `docker run hello-world` và xem điều gì xảy ra.
 
