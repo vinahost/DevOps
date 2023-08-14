@@ -7,11 +7,11 @@ Tôi cũng sẽ cố gắng thực hành nhiều trong phần này để tại m
 Như mọi khi, bài đăng đầu tiên này sẽ tập trung vào bức tranh toàn cảnh cách chúng ta đi được tới đây và ý nghĩa của những điều đó.
 
 - Lịch sử của các phát triển **platforms** và các ứng dụng
-- Chúng ta cũng sẽ nói về ảo hoá và container hoá
+- Chúng ta cũng sẽ nói về ảo hoá và **container** hoá
 
 ## Tại sao chạy ứng dụng bằng một cách khác?
 
-Điều đầu tiên chúng ta phải xem xét là tại sao chúng ta cần một cách khác để chạy phần mềm hoặc ứng dụng của mình? Chà, lựa chọn đó thật tuyệt, chúng ta có thể chạy các ứng dụng của mình ở nhiều dạng khác nhau, chúng ta có thể thấy các ứng dụng được triển khai trên phần cứng vật lý có hệ điều hành và một ứng dụng duy nhất được triển khai tại đó. Cũng có thể thấy máy ảo hoặc các phiên bản **IaaS** sử dụng điện toán đám mây chạy ứng dụng của chúng ta, sau đó tích hợp lại vào cơ sở dữ liệu trong máy ảo hoặc dưới dạng cung cấp **PaaS** trong đám mây công cộng. Hoặc cũng có thể thấy ứng dụng chạy trong các **containers**.
+Điều đầu tiên chúng ta phải xem xét là tại sao chúng ta cần một cách khác để chạy phần mềm hoặc ứng dụng của mình? Chà, lựa chọn đó thật tuyệt, chúng ta có thể chạy các ứng dụng của mình ở nhiều dạng khác nhau, chúng ta có thể thấy các ứng dụng được triển khai trên phần cứng vật lý có hệ điều hành và một ứng dụng duy nhất được triển khai tại đó. Cũng có thể thấy máy ảo hoặc các phiên bản **IaaS** sử dụng điện toán đám mây chạy ứng dụng của chúng ta ( ví dụ **Alibaba Cloud** ), sau đó tích hợp lại vào cơ sở dữ liệu trong máy ảo hoặc dưới dạng cung cấp **PaaS** trong đám mây công cộng. Hoặc cũng có thể thấy ứng dụng chạy trong các **containers**.
 
 Không có lựa chọn nào ở trên là đúng hay sai, nhưng chúng đều có lý do để tồn tại và tôi cũng tin tưởng rằng không có lựa chọn nào trong số này sẽ biến mất trong tương lai gần. Tôi đã thấy rất nhiều nội dung liên quan đến việc so sánh **container** và **VMs** và thực sự điều đó không nên được tranh luận, nó giống như tranh luận táo với lê quả nào ngon hơn dù cả hai đều là trái cây (bằng cách chạy ứng dụng của chúng ta) và chúng không giống nhau.
 
