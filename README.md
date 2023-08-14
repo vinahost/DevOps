@@ -93,7 +93,7 @@
 - [✔️] 🏗️ > [Docker là gì & Cài đặt](Containers/Docker/Docker-la-gi.md)
 - [✔️] 🏗️ > [Cài đặt Docker Desktop](Containers/Docker/Cai-dat-Docker-Desktop.md)
 - [✔️] 🏗️ > [Docker Images & Thực hành với Docker Desktop](Containers/Docker/Thuc-hanh-voi-Docker-Desktop.md)
-- [✔️] 🏗️ > [Phân tích một Docker Image]
+- [✔️] 🏗️ > [Phân tích một Docker Image](Containers/Docker/Docker-Image.md)
 - [✔️] 🏗️ > [Docker Compose]
 - [✔️] 🏗️ > [Docker Networking & Security]
 - [✔️] 🏗️ > [Docker Nâng Cao](Containers/Docker/Docker-nang-cao.md)
