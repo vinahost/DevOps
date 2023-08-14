@@ -50,7 +50,7 @@
 
 - [✔️] 🌐 > [Overview: DevOps & Mạng máy tính](Networking/DevOps-Networking.md)
 - [✔️] 🌐 > [Mô hình OSI - 7 lớp mạng](Networking/Mo-hinh-7-lop-OSI.md)
-- [✔️] 🌐 > [Giao thức mạng]
+- [✔️] 🌐 > [Giao thức mạng](Networking/Network-Protocols.md)
 - [✔️] 🌐 > [Giao thức TCP và UDP là gì ?](Networking/TCP-UDP.md)
 - [✔️] 🌐 > [Tự động hoá mạng máy tính]
 - [✔️] 🌐 > [Python cho tự động hoá Network](Networking/Python-Network-Automation.md)
