@@ -54,7 +54,7 @@ Bảng sau đây chứa một số câu lệnh **dockerfile** mà chúng tôi s�
 | EXPOSE     | Để xác định cổng nào để truy cập ứng dụng container của bạn.                                                                    |
 | LABEL      | Để thêm metadata vào image.                                                                                                               |
 
-Bây giờ chúng ta có chi tiết về cách xây dựng **dockerfile** đầu tiên, chúng ta có thể tạo một thư mục làm việc và tạo **dockerfile**. Tôi đã tạo một thư mục làm việc trong **repository** này, nơi bạn có thể xem các tệp và thư mục mà tôi thực hành. [Container](/Scripts/Containers/)
+Bây giờ chúng ta có chi tiết về cách xây dựng **dockerfile** đầu tiên, chúng ta có thể tạo một thư mục làm việc và tạo **dockerfile**. Tôi đã tạo một thư mục làm việc trong **repository** này, nơi bạn có thể xem các tệp và thư mục mà tôi thực hành [**Container**](/Scripts/Containers/Containers.zip)
 
 Trong thư mục này, tôi sẽ tạo một tệp `.dockerignore` tương tự như `.gitignore` mà chúng ta đã sử dụng trong phần trước. Tệp này sẽ liệt kê bất kỳ tệp nào sẽ được tạo trong quá trình xây dựng **Docker** mà bạn muốn loại bỏ khỏi bản dựng cuối cùng.
 
