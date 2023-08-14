@@ -69,3 +69,20 @@ Giao thức **UDP** hoạt động tương tự như **TCP**, nhưng nó bỏ qu
 - Destination port: Số cổng của thiết bị nhận.
 - Length: Xác định chiều dài của toàn bộ datagram: phần header và dữ liệu. Chiều dài tối thiểu là 8 byte khi gói tin không có dữ liệu, chỉ có header.
 - Checksum: Kiểm tra lỗi của phần header và dữ liệu. Việc sử dụng checks.
+
+## Bảng tóm tắt sự khác biệt chính giữa TCP và UDP:
+
+|Tính năng|	TCP|	UDP|
+|---------|----|-------|
+|Hướng kết nối|	Có|	Không|
+|Tính đáng tin cậy|	Có|	Không|
+|Tính toàn vẹn|	Có|	Không|
+|Tính có thể tái tạo|	Có|	Không|
+|Kiểm soát luồng|	Có|	Không|
+|Tốc độ|	Chậm hơn|	Nhanh hơn|
+|Sử dụng|	Các ứng dụng yêu cầu tính đáng tin cậy cao, chẳng hạn như FTP, SSH và HTTP|	Các ứng dụng không yêu cầu tính đáng tin cậy cao, chẳng hạn như phát trực tiếp video và âm thanh|
+
+## Tham khảo
+
+- https://blog.vinahost.vn/giao-thuc-tcp-la-gi/
+- https://blog.vinahost.vn/giao-thuc-udp-la-gi/
