@@ -22,7 +22,7 @@ Một địa chỉ **IP** sẽ được gắn với một địa chỉ vật lý
 
 - FTP (File Transfer Protocol) - Giao thức truyền tải file
 
-Cho phép truyền tải các tập tin từ một máy nguồn đến máy đích. Về cơ bản, quá trình này được xác thực nhưng vẫn có thể cấu hình để cho phép quyền truy cập ẩn danh. Bạn sẽ thấy ![Network Protocols](/Image/Network-Protocols01.png) được sử dùng thường xuyên hơn vì nó cung cấp kết nối **SSL/TLS** tới các máy tính **FTP** từ máy khách để đảm bảo bảo mật tốt hơn. Giao thức này hoạt động ở lớp Ứng dụng của **Mô hình OSI**.
+Cho phép truyền tải các tập tin từ một máy nguồn đến máy đích. Về cơ bản, quá trình này được xác thực nhưng vẫn có thể cấu hình để cho phép quyền truy cập ẩn danh. Bạn sẽ thấy **FTPS** được sử dùng thường xuyên hơn vì nó cung cấp kết nối **SSL/TLS** tới các máy tính **FTP** từ máy khách để đảm bảo bảo mật tốt hơn. Giao thức này hoạt động ở lớp Ứng dụng của **Mô hình OSI**.
 
 ![Network Protocols](/Image/Network-Protocols02.png)
 
@@ -38,7 +38,7 @@ Cho phép truyền tải các tập tin từ một máy nguồn đến máy đí
 
 - HTTP (Hyper Text Transfer Protocol) - Giao thức truyền tải siêu văn bản
 
-**HTTP** là giao thức nền tảng cho việc truy cập nội dung trên **Internet**. Nó cung cấp cho chúng ta khả năng để dễ dàng truy cập các trang web. **HTTP** vẫn được sử dụng nhiều nhưng **HTTPS** hiện được sử dụng nhiều hơn để tăng cường khả năng bảo mật.
+**HTTP** là giao thức nền tảng cho việc truy cập nội dung trên **Internet**. Nó cung cấp cho chúng ta khả năng để dễ dàng truy cập các trang **web**. **HTTP** vẫn được sử dụng nhiều nhưng **HTTPS** hiện được sử dụng nhiều hơn để tăng cường khả năng bảo mật.
 
 ![Network Protocols](/Image/Network-Protocols04.png)
 
@@ -89,7 +89,7 @@ Chúng ta có thể coi **subnet mask** như là mã bưu điện hoặc mã **z
 
 **Gateway** mặc định là **IP** của bộ định tuyến đã cung cấp cho chúng ta kết nối đến **Internet** hoặc các mạng khác. Bạn có thể coi đây là con đường duy nhất cho phép chúng ta ra khỏi con phố của mình.
 
-Sau đó, chúng ta có DNS để chuyển đổi các địa chỉ **IP** công khai phức tạp thành các tên miền phù hợp và dễ nhớ hơn. Chúng ta có thể coi đây là văn phòng phân loại khổng lồ để đảm bảo chúng ta nhận được đúng gói hàng của mình.
+Sau đó, chúng ta có **DNS** để chuyển đổi các địa chỉ **IP** công khai phức tạp thành các tên miền phù hợp và dễ nhớ hơn. Chúng ta có thể coi đây là văn phòng phân loại khổng lồ để đảm bảo chúng ta nhận được đúng gói hàng của mình.
 
 Như tôi đã nói, mỗi máy tính yêu cầu 4 cài đặt này, nếu bạn có **1000** hoặc **10.000** máy tính thì bạn sẽ mất rất nhiều thời gian để cấu hình tất cả. Chính vì vậy, **DHCP** xuất hiện và cho phép bạn xác định phạm vi cho mạng của mình và giao thức này sẽ cấp phát những thông tin trên cho tất cả các máy tính trong mạng của bạn.
 
