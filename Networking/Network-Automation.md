@@ -2,7 +2,7 @@
 
 ## Khái niệm cơ bản về tự động hóa mạng
 
-Mục đích của việc Tự động hóa mạng
+Mục đích của việc **Tự động hóa mạng**
 
 - Đạt được sự linh hoạt
 - Giảm chi phí
@@ -10,19 +10,19 @@ Mục đích của việc Tự động hóa mạng
 - Tuân thủ các quy tắc, quy định (compliance)
 - Quản lý tập trung
 
-Quá trình áp dụng tự động hóa là riêng biệt cho từng doanh nghiệp. Không có một giải pháp nào phù hợp với tất cả các yêu cầu khi triển khai tự động hóa, khả năng xác định và nắm bắt phương pháp phù hợp nhất với tổ chức của bạn là rất quan trọng trong việc tiến tới duy trì hoặc tạo ra một môi trường linh hoạt hơn, trọng tâm luôn phải là giá trị kinh doanh và mục tiêu cuối cùng - trải nghiệm người dùng. (Chúng ta đã nói những điều tương tự ngay từ đầu về văn hóa DevOps và sự thay đổi văn hóa cũng như quy trình tự động mà điều này mang lại)
+Quá trình áp dụng **Tự Động Hóa** là riêng biệt cho từng doanh nghiệp. Không có một giải pháp nào phù hợp với tất cả các yêu cầu khi triển khai **Tự Động Hóa**, khả năng xác định và nắm bắt phương pháp phù hợp nhất với tổ chức của bạn là rất quan trọng trong việc tiến tới duy trì hoặc tạo ra một môi trường linh hoạt hơn, trọng tâm luôn phải là giá trị kinh doanh và mục tiêu cuối cùng - trải nghiệm người dùng. (Chúng ta đã nói những điều tương tự ngay từ đầu về văn hóa **DevOps** và sự thay đổi văn hóa cũng như quy trình tự động mà điều này mang lại)
 
-Để phân tích vấn đề này, bạn cần xác định bằng cách nào những nhiệm vụ hoặc quy trình mà bạn đang cố gắng tự động hóa sẽ giúp cải thiện trải nghiệm của người dùng cuối hoặc giá trị kinh doanh trong khi vẫn tuân theo phương pháp tiếp cận có hệ thống từng bước.
+Để phân tích vấn đề này, bạn cần xác định bằng cách nào những nhiệm vụ hoặc quy trình mà bạn đang cố gắng **Tự Động Hóa** sẽ giúp cải thiện trải nghiệm của người dùng cuối hoặc giá trị kinh doanh trong khi vẫn tuân theo phương pháp tiếp cận có hệ thống từng bước.
 
-"Nếu bạn không biết mình đang đi đâu, thì bất kỳ con đường nào cũng sẽ đưa bạn đến đích."
+    Nếu bạn không biết mình đang đi đâu, thì bất kỳ con đường nào cũng sẽ đưa bạn đến đích.
 
-Có một **framework** hoặc bản thiết kế mà bạn đang cố gắng để hoàn thành, biết rõ mục tiêu cuối cùng của mình là gì và sau đó làm việc từng bước để đạt được mục tiêu đó, đo lường mức độ thành công của việc tự động hóa ở các giai đoạn khác nhau dựa trên kết quả kinh doanh.
+Có một **framework** hoặc bản thiết kế mà bạn đang cố gắng để hoàn thành, biết rõ mục tiêu cuối cùng của mình là gì và sau đó làm việc từng bước để đạt được mục tiêu đó, đo lường mức độ thành công của việc **Tự Động Hóa** ở các giai đoạn khác nhau dựa trên kết quả kinh doanh.
 
 Xây dựng các khái niệm đã được mô hình hóa xung quanh các ứng dụng hiện có, không cần phải thiết kế các khái niệm xung quanh một mô hình giả tưởng vì chúng cần được áp dụng cho ứng dụng, dịch vụ và cơ sở hạ tầng của bạn. Vì vậy hãy bắt đầu xây dựng các khái niệm và mô hình hóa xung quanh cơ sở hạ tầng và ứng dụng hiện có của bạn.
 
 ## Cách tiếp cận việc Tự động hóa Mạng
 
-Chúng ta nên xác định các tác vụ và thực hiện khám phá các yêu cầu thay đổi trong thiết lập mạng để bạn có danh sách các vấn đề và sự cố phổ biến nhất mà cần một giải pháp tự động hóa.
+Chúng ta nên xác định các tác vụ và thực hiện khám phá các yêu cầu thay đổi trong thiết lập mạng để bạn có danh sách các vấn đề và sự cố phổ biến nhất mà cần một giải pháp **Tự Động Hóa**.
 
 - Lập danh sách tất cả các yêu cầu thay đổi và quy trình công việc hiện đang được giải quyết theo cách thủ công.
 - Xác định các hoạt động phổ biến, tốn thời gian và dễ mắc lỗi nhất.
@@ -70,13 +70,13 @@ Kết hợp các chính sách với các hoạt động kinh doanh cụ thể. V
 
 ## Công cụ tự động hóa mạng
 
-Tin tốt ở đây là phần lớn các công cụ chúng ta sử dụng ở đây cho tự động hóa Mạng nói chung giống với những công cụ mà chúng ta sẽ sử dụng cho các lĩnh vực tự động hóa khác đối với những gì chúng ta đã đề cập cho đến nay hoặc những gì chúng ta sẽ đề cập trong các phần sau.
+Tin tốt ở đây là phần lớn các công cụ chúng ta sử dụng ở đây cho **Tự Động Hóa** Mạng nói chung giống với những công cụ mà chúng ta sẽ sử dụng cho các lĩnh vực **Tự Động Hóa** khác đối với những gì chúng ta đã đề cập cho đến nay hoặc những gì chúng ta sẽ đề cập trong các phần sau.
 
 Hệ điều hành - Như tôi đã vượt qua thử thách này, tôi đang thực hiện hầu hết bài học của mình với HĐH **Linux**, lý do đó đã được đưa ra trong phần **Linux** nhưng hầu như tất cả các công cụ mà chúng ta sẽ sử dụng mặc dù hôm nay có thể là các nền tảng đa hệ điều hành, tuy nhiên tất cả đều bắt đầu dưới dạng các ứng dụng hoặc công cụ dựa trên **Linux**.
 
 Môi trường phát triển tích hợp (**IDE**) - Một lần nữa, không có nhiều điều để nói ở đây ngoài việc tôi sẽ đề xuất **Visual Studio Code** làm **IDE** xuyên suốt của bạn, nó cung cấp các **plugin** mở rộng có sẵn cho rất nhiều ngôn ngữ khác nhau.
 
-Quản lý cấu hình - chúng ta chưa đến phần Quản lý cấu hình, nhưng rõ ràng là **Ansible** được yêu thích trong lĩnh vực này để quản lý và tự động hóa cấu hình. **Ansible** được viết bằng **Python** nhưng bạn không cần phải biết **Python** để sử dụng nó.
+Quản lý cấu hình - chúng ta chưa đến phần Quản lý cấu hình, nhưng rõ ràng là **Ansible** được yêu thích trong lĩnh vực này để quản lý và **Tự Động Hóa** cấu hình. **Ansible** được viết bằng **Python** nhưng bạn không cần phải biết **Python** để sử dụng nó.
 
 - Agentless
 - Chỉ yêu cầu SSH
@@ -90,9 +90,9 @@ Quản lý cấu hình - chúng ta chưa đến phần Quản lý cấu hình, n
 
 Chúng ta cũng sẽ tìm hiểu **Ansible Tower** trong phần quản lý cấu hình, nó được xem như là giao diện người dùng (**GUI**) cho **Ansible**.
 
-**CI/CD **- Một lần nữa, chúng ta sẽ đề cập nhiều hơn về các khái niệm và công cụ xung quanh vấn đề này nhưng điều quan trọng là ít nhất phải đề cập ở đây vì khái niệm này không chỉ xuất hiện trong phần mạng mà còn bao gồm trong tất cả quá trình cung cấp dịch vụ và nền tảng.
+**CI/CD** - Một lần nữa, chúng ta sẽ đề cập nhiều hơn về các khái niệm và công cụ xung quanh vấn đề này nhưng điều quan trọng là ít nhất phải đề cập ở đây vì khái niệm này không chỉ xuất hiện trong phần mạng mà còn bao gồm trong tất cả quá trình cung cấp dịch vụ và nền tảng.
 
-Đặc biệt, **Jenkins** dường như là một công cụ phổ biến cho Tự động hóa mạng.
+Đặc biệt, **Jenkins** dường như là một công cụ phổ biến cho **Tự Động Hóa** mạng.
 
 - Theo dõi kho lưu trữ git để biết các thay đổi và sau đó khởi tạo chúng.
 
@@ -123,7 +123,7 @@ Phân tích **API** - **Postman** là một công cụ tuyệt vời để phân
 
 [Network Test Automation](https://pubhub.devnetcloud.com/media/genie-feature-browser/docs/#/)
 
-Trong các bài viết tới, tôi sẽ cung cấp nhiều hơn các bài thực hành với một số nội dung chúng ta đã đề cập và thực hiện một số công việc xung quanh **Python** và Tự động hóa mạng.
+Trong các bài viết tới, tôi sẽ cung cấp nhiều hơn các bài thực hành với một số nội dung chúng ta đã đề cập và thực hiện một số công việc xung quanh **Python** và **Tự Động Hóa** mạng.
 
 Cho đến nay, chúng ta vẫn chưa đề cập đến tất cả các chủ đề của mạng máy tính nhưng tôi cũng muốn làm cho chủ đề này đủ rộng để theo dõi và các bạn có thể tiếp tục học hỏi từ các tài nguyên mà tôi bổ sung bên dưới.
 
