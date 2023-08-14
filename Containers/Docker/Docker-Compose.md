@@ -145,7 +145,7 @@ Phần tiếp theo của chúng tôi sẽ đề cập đến **Kubernetes** như
 
 Trong kho lưu trữ ở trên, có một ví dụ tuyệt vời sẽ triển khai **Elaticsearch**, **Logstash** và **Kibana** (`ELK`) cho một **node**.
 
-Tôi đã tải các tệp lên [Thư mục vùng chứa](/Scripts//Containers/elasticsearch-logstash-kibana/) Khi bạn có thư mục này ở máy tính của bạn, hãy điều hướng đến đó và bạn chỉ cần sử dụng `docker-compose up -d`
+Tôi đã tải các tệp lên [**Thư mục Scripts**](/Scripts/Containers/elasticsearch-logstash-kibana.zip) Khi bạn có thư mục này ở máy tính của bạn, hãy điều hướng đến đó và bạn chỉ cần sử dụng `docker-compose up -d`
 
 ![Docker Compose ](/Image/Docker-Compose016.png)
 
