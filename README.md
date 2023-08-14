@@ -49,7 +49,7 @@
 ### Kiến thức về mạng (Network)
 
 - [✔️] 🌐 > [Overview: DevOps & Mạng máy tính](Networking/DevOps-Networking.md)
-- [✔️] 🌐 > [Mô hình OSI - 7 lớp mạng]
+- [✔️] 🌐 > [Mô hình OSI - 7 lớp mạng](Networking/Mo-hinh-7-lop-OSI.md)
 - [✔️] 🌐 > [Giao thức mạng]
 - [✔️] 🌐 > [Giao thức TCP và UDP là gì ?](Networking/TCP-UDP.md)
 - [✔️] 🌐 > [Tự động hoá mạng máy tính]
