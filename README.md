@@ -52,7 +52,7 @@
 - [✔️] 🌐 > [Mô hình OSI - 7 lớp mạng](Networking/Mo-hinh-7-lop-OSI.md)
 - [✔️] 🌐 > [Giao thức mạng](Networking/Network-Protocols.md)
 - [✔️] 🌐 > [Giao thức TCP và UDP là gì ?](Networking/TCP-UDP.md)
-- [✔️] 🌐 > [Tự động hoá mạng máy tính]
+- [✔️] 🌐 > [Tự động hoá mạng máy tính](Networking/Network-Automation.md)
 - [✔️] 🌐 > [Python cho tự động hoá Network](Networking/Python-Network-Automation.md)
 - [✔️] 🌐 > [Xây dựng Lab với EVE-NG](Networking/EVE-NG.md)
 - [✔️] 🌐 > [Getting Hands-On with Python & Network](Networking/Working-With-Python.md)
