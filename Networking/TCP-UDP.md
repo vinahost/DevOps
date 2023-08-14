@@ -63,7 +63,7 @@ Giao thức **UDP** hoạt động tương tự như **TCP**, nhưng nó bỏ qu
 
 ## Cấu trúc UDP Header
 
-![UDP Header](/Image/udp-header.png)
+![UDP Header](/Image/UDP-Header.png)
 
 - Source port: Số cổng của thiết bị gửi. Trường này có thể đặt là 0 nếu máy tính đích đến không cần trả lời người gửi.
 - Destination port: Số cổng của thiết bị nhận.
