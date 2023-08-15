@@ -8,7 +8,7 @@ Bài viết sẽ hướng dẫn các bạn cài đặt một hệ thống **Kube
 
 **Kubespray** là một công cụ cài đặt cụm **Kubernetes** chuẩn. Được cộng đồng **Kubernetes** khuyến khích sử dụng. Đây không phải là **tool** hay phần mềm gì đặc biệt, nó không giống như **Rancher RKE**. Phần mềm **RKE** là viết **tool** và dùng các file **config** để **deploy** lên thì **kubespray** được viết bằng **Ansible Playbook** và **Vagrant** là chính.
 
-Cách thức hoạt động thì nó được viết bằng **Ansible Playbook**. Nhìn qua bộ **Playbook** thực sự là khổng lồ và nhiều **task**, so với "**hard way**" cài đặt bằng **kubeadm** thì **Kubespray** cài đặt cũng tương tự sử dụng **kubeadm** nhưng chỉ cần chạy **ansible-playbook** là nó sẽ tự làm cho mình hết toàn bộ. Kể cả các phần trong **Requirement** của **Kubernetes** như **disable**, **swap**, bật **mod netfilter**, cài đặt **Docker**, **containerd**, khởi tạo **node**, **join node**, thêm, sửa xóa **node**. Đều được tự động hoàn toàn hết. Cấu hình cài đặt cụm bằng các **variable** trong **Ansible groups_vars**. Cần thông số gì thì **set** trong thư mục này là xong, hỗ trợ cài đặt luôn tất cả các **CNI**, **CSI** tự động, chỉ định được **runtime** mong muốn từ **crio**, **containerd**, **dockerd**. Nếu cài mới **OS** và chạy **Ansible Kubespray** gần như là cài chuẩn xác giống như "**hard way**" là dùng **kubeadm** trực tiếp.
+Cách thức hoạt động thì nó được viết bằng **Ansible Playbook**. Nhìn qua bộ **Playbook** thực sự là khổng lồ và nhiều **task**, so với "**hard way**" cài đặt bằng **kubeadm** thì **Kubespray** cài đặt cũng tương tự sử dụng **kubeadm** nhưng chỉ cần chạy **ansible-playbook** là nó sẽ tự làm cho mình hết toàn bộ. Kể cả các phần trong **Requirement** của **Kubernetes** như **disable**, **swap**, bật **mod netfilter**, cài đặt **Docker**, **containerd**, khởi tạo **node**, **join node**, thêm, sửa xóa **node**. Đều được tự động hoàn toàn. Cấu hình cài đặt cụm bằng các **variable** trong **Ansible groups_vars**. Cần thông số gì thì **set** trong thư mục này là xong, hỗ trợ cài đặt luôn tất cả các **CNI**, **CSI** tự động, chỉ định được **runtime** mong muốn từ **crio**, **containerd**, **dockerd**. Nếu cài mới **OS** và chạy **Ansible Kubespray** gần như là cài chuẩn xác giống như "**hard way**" là dùng **kubeadm** trực tiếp.
 
 So sánh với **kubeadm** thì mình đánh giá **Kubespray** dễ sử dụng hơn. So với **RKE** thì **RKE** sử dụng các **image** tùy chỉnh **100%**, **tool** cũng tự viết nhưng nhanh hơn, **image** nhẹ hơn. Nhưng độ ổn định thì chưa khẳng định được vì nó tùy biến quá nhiều. Sau khi dùng đủ các **tool** thì mình sẽ sử dụng  **Kubespray** trên môi trường **On-premise**, **bare-metal**. Thời gian chạy **Kubespray** để khởi tạo **Cluster** là **15 - 20 phút**, theo mình đánh giá là **khá nhanh**.
 
@@ -24,19 +24,19 @@ Chuẩn bị **08 máy** chủ trên [vCloud](https://vcloud.vinahost.vn/) của
 
 Các máy chủ trên cần thực hiện các bước cầu hình ban đầu như sau:
 
-- Tạo Security Group, các máy chủ sẽ dùng chung Security Group này để có thể giao tiếp được với nhau và bên ngoài dựa trên các rule 
+- Tạo **Security Group**, các máy chủ sẽ dùng chung **Security Group** này để có thể giao tiếp được với nhau và bên ngoài dựa trên các **rule** 
 
 ![Kubespray](/Image/Kubernetes-Cluster02.png)
 
-- Tạo EIP cho máy chủ LoadBlancer và máy chủ Kubespray để có thể kết nối từ internet đến 2 máy chủ này
+- Tạo **EIP** cho máy chủ **LoadBlancer** và máy chủ **Kubespray** để có thể kết nối từ **internet** đến 2 máy chủ này
 
 ![Kubespray](/Image/Kubernetes-Cluster03.png)
 
-- Tạo 6 máy chủ cho các node Kubernetes cluster, cài đặt Ubuntu 20.04, **`lưu ý`** cần add ssh-key khi tạo máy chủ để đỡ phải copy ssh-key lên từng máy chủ 
+- Tạo 6 máy chủ cho các node **Kubernetes cluster**, cài đặt **Ubuntu 20.04**, **`lưu ý`** cần **add ssh-key** khi tạo máy chủ để đỡ phải copy **ssh-key** lên từng máy chủ 
 
 ![Kubespray](/Image/Kubernetes-Cluster04.png)
 
-- Tạo thêm 2 máy chủ cho **`Kubespray`** và **`LoadBalancer`** và gắn EIP đã tạo cho 2 máy chủ này
+- Tạo thêm 2 máy chủ cho **`Kubespray`** và **`LoadBalancer`** và gắn **EIP** đã tạo cho 2 máy chủ này
 
 ![Kubespray](/Image/Kubernetes-Cluster05.png)
 
@@ -44,7 +44,7 @@ Các máy chủ trên cần thực hiện các bước cầu hình ban đầu nh
 
 ### Cài đặt **`Haporxy`**
 
-Phần nãy sẽ thực hiện trên máy chủ **LoadBalancer**, máy chủ này sẽ nhận các yêu cầu từ bên ngoài và chuyển các yêu cầu đó đến các **node** của **Kubernetes Cluster**
+Phần nàyy sẽ thực hiện trên máy chủ **LoadBalancer**, máy chủ này sẽ nhận các yêu cầu từ bên ngoài và chuyển các yêu cầu đó đến các **node** của **Kubernetes Cluster**
 
 ```
 apt install --no-install-recommends software-properties-common
@@ -193,7 +193,7 @@ all:
 
 - **`etcd`** là các node sẽ chạy etcd, thường chọn là các node master luôn dù không bắt buộc
 
-Tiếp đến nếu muốn đổi **CNI** (**network plugin** của **Kubernetes**) thì sửa file config sau:
+Tiếp đến nếu muốn đổi **CNI** (**network plugin** của **Kubernetes**) thì sửa file **config** sau:
 
 `inventory/mycluster/group_vars/k8s_cluster/k8s-cluster.yml`
 
@@ -287,7 +287,7 @@ Sau khi kiểm tra kết nối đến các **node**, ta bắt đầu chạy lệ
 ```
 ansible-playbook -i inventory/mycluster/hosts.yaml --private-key /root/.ssh/id_rsa cluster.yml
 ```
-Trong bước này **ansible** kết nối đến các node bằng **SSH** và cài đặt **Kubernetes**, cài đặt nhanh hay chậm sẽ phụ thuộc vào tốc độ **internet**
+Trong bước này **ansible** kết nối đến các **node** bằng **SSH** và cài đặt **Kubernetes**, cài đặt nhanh hay chậm sẽ phụ thuộc vào tốc độ **internet**
 
 Kết quả hoàn thành cài đặt sẽ như sau:
 
