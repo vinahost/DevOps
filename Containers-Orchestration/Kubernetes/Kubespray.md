@@ -187,6 +187,7 @@ all:
     calico_rr:
       hosts: {}
 ```
+
 - **`kube_control_plane`** là các node sẽ chạy với role kube_control_plane
 
 - **`kube_node`** là các node chạy role worker
