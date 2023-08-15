@@ -2,19 +2,19 @@
 
 **Kubernetes** là một phần mềm mã nguồn mở, có vai trò là một **Container Orchestration**, tức là một hệ quản trị các **Container** và các thành phần khác liên quan. Nó tương đương với **Docker Swarm** nhưng có nhiều tính năng ưu việt và mạnh mẽ hơn.
 
-Bài viết sẽ hướng dẫn các bạn cài đặt một hệ thống **Kubernetes Cluster** với đầy đủ các thành phần giống như một hệ thống **Product**. CHúng ta sẽ xây dựng hệ thống **Kubernetes Cluster** gồm 03 **node Master**, 03 **node Worker** và các hệ thống phụ trợ như **LoadBalancer Api-Server**, **LoadBalancer ingress**
+Bài viết sẽ hướng dẫn các bạn cài đặt một hệ thống **Kubernetes Cluster** bằng **Kubespray** với đầy đủ các thành phần giống như một hệ thống **Product**. Chúng ta sẽ xây dựng hệ thống **Kubernetes Cluster** gồm 03 **node Master**, 03 **node Worker** và các hệ thống phụ trợ như **LoadBalancer Api-Server**, **LoadBalancer ingress**
 
 ## Kuberspray là gì ?
 
 **Kubespray** là một công cụ cài đặt cụm **Kubernetes** chuẩn. Được cộng đồng **Kubernetes** khuyến khích sử dụng. Đây không phải là **tool** hay phần mềm gì đặc biệt, nó không giống như **Rancher RKE**. Phần mềm **RKE** là viết **tool** và dùng các file **config** để **deploy** lên thì **kubespray** được viết bằng **Ansible Playbook** và **Vagrant** là chính.
 
-Cách thức hoạt động thì nó được viết bằng **Ansible Playbook**. Nhìn qua bộ **Playbook** thực sự là khổng lồ và nhiều **task**, so với "**hard way**" cài đặt bằng **kubeadm** thì **Kubespray** cài đặt cũng tương tự sử dụng **kubeadm** nhưng chỉ cần chạy **ansible-playbook** là nó sẽ tự làm cho mình hết toàn bộ. Kể cả các phần trong **Requirement** của **Kubernetes** như **disable**, **swap**, bật **mod netfilter**, cài đặt **Docker**, **containerd**, khởi tạo **node**, **join node**, thêm, sửa xóa **node**. Đều được tự động hoàn toàn hết. Cấu hình cài đặt cụm bằng các **variable** trong **Ansible groups_vars**. Cần thông số gì thì **set** trong thư mục này là xong, hỗ trợ cài đặt luôn tất cả các **CNI**, **CSI** tự động, chỉ định được **runtime** mong muốn từ **crio**, **containerd**, **dockerd**. Nếu cài mới **OS** và chạy **Ansible Kubespra**y gần như là cài chuẩn xác giống như "**hard way**" là dùng **kubeadm** trực tiếp.
+Cách thức hoạt động thì nó được viết bằng **Ansible Playbook**. Nhìn qua bộ **Playbook** thực sự là khổng lồ và nhiều **task**, so với "**hard way**" cài đặt bằng **kubeadm** thì **Kubespray** cài đặt cũng tương tự sử dụng **kubeadm** nhưng chỉ cần chạy **ansible-playbook** là nó sẽ tự làm cho mình hết toàn bộ. Kể cả các phần trong **Requirement** của **Kubernetes** như **disable**, **swap**, bật **mod netfilter**, cài đặt **Docker**, **containerd**, khởi tạo **node**, **join node**, thêm, sửa xóa **node**. Đều được tự động hoàn toàn hết. Cấu hình cài đặt cụm bằng các **variable** trong **Ansible groups_vars**. Cần thông số gì thì **set** trong thư mục này là xong, hỗ trợ cài đặt luôn tất cả các **CNI**, **CSI** tự động, chỉ định được **runtime** mong muốn từ **crio**, **containerd**, **dockerd**. Nếu cài mới **OS** và chạy **Ansible Kubespray** gần như là cài chuẩn xác giống như "**hard way**" là dùng **kubeadm** trực tiếp.
 
-So sánh với **kubeadm** thì mình đánh giá **Kubespray** dễ sử dụng hơn. So với **RKE** thì **RKE** sử dụng các **image** tùy chỉnh **100**%, **tool** cũng tự viết luôn, một mình một kiểu nhưng nhanh hơn, **image** nhẹ hơn. Nhưng độ ổn định thì chưa khẳng định được vì nó tùy biến quá nhiều. Chốt là sau khi dùng đủ các **tool** thì mình chốt là dùng **kubespray** trên môi trường **On-premise**, **bare-metal**. Thời gian chạy **Kubespray** để khởi tạo **Cluster** là **15 - 20 phút**, theo mình đánh giá là **khá nhanh**.
+So sánh với **kubeadm** thì mình đánh giá **Kubespray** dễ sử dụng hơn. So với **RKE** thì **RKE** sử dụng các **image** tùy chỉnh **100%**, **tool** cũng tự viết nhưng nhanh hơn, **image** nhẹ hơn. Nhưng độ ổn định thì chưa khẳng định được vì nó tùy biến quá nhiều. Sau khi dùng đủ các **tool** thì mình sẽ sử dụng  **Kubespray** trên môi trường **On-premise**, **bare-metal**. Thời gian chạy **Kubespray** để khởi tạo **Cluster** là **15 - 20 phút**, theo mình đánh giá là **khá nhanh**.
 
 ## Chuẩn bị
 
-Chuẩn bị 08 máy chủ trên [vCloud](https://vcloud.vinahost.vn/) của **Vinahost** (là các VM chạy **Ubuntu 20.04**), cụ thể như sau:
+Chuẩn bị **08 máy** chủ trên [vCloud](https://vcloud.vinahost.vn/) của **Vinahost** (là các **VM** chạy **Ubuntu 20.04**), cụ thể như sau:
 
 - Master, Worker: 2 CPU, 4G RAM
 - Kubespray: 1 CPU, 1G RAM
@@ -23,6 +23,7 @@ Chuẩn bị 08 máy chủ trên [vCloud](https://vcloud.vinahost.vn/) của **V
 ![Kubespray](/Image/Kubernetes-Cluster01.png)
 
 Các máy chủ trên cần thực hiện các bước cầu hình ban đầu như sau:
+
 - Tạo Security Group, các máy chủ sẽ dùng chung Security Group này để có thể giao tiếp được với nhau và bên ngoài dựa trên các rule 
 
 ![Kubespray](/Image/Kubernetes-Cluster02.png)
@@ -111,7 +112,7 @@ Vậy là đã cấu hình xong trên máy chủ **LoadBalancer**
 
 Trong phần này sẽ thực hiện trên server **Kubespray**
 
-Trước tiên, cần *download* **Kubespray**, lưu ý down đúng phiên bản bạn cần, Trong phần này mình cài **kubernetes version v1.26.5** nên sẽ *download* **kuberpay** phiên bản **release-2.21**
+Trước tiên, cần *download* **Kubespray**, lưu ý *download* đúng phiên bản bạn cần, Trong phần này mình cài **kubernetes version v1.26.5** nên sẽ *download* **kuberpay** phiên bản **release-2.21**
 
 ```
 git clone https://github.com/kubernetes-sigs/kubespray.git --branch release-2.21
@@ -187,7 +188,9 @@ all:
       hosts: {}
 ```
 - **`kube_control_plane`** là các node sẽ chạy với role kube_control_plane
+
 - **`kube_node`** là các node chạy role worker
+
 - **`etcd`** là các node sẽ chạy etcd, thường chọn là các node master luôn dù không bắt buộc
 
 Tiếp đến nếu muốn đổi **CNI** (**network plugin** của **Kubernetes**) thì sửa file config sau:
