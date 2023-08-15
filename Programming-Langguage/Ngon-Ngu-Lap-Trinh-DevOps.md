@@ -52,7 +52,7 @@ Không giống như **Python** thường yêu cầu sử dụng thư viện củ
 
 Người ta nói rằng một khi bạn học được ngôn ngữ lập trình đầu tiên, việc tiếp nhận các ngôn ngữ khác trở nên dễ dàng hơn. Có lẽ không có công việc nào trong bất kỳ công ty nào không liên quan đến việc quản lý, **architect**, quản lý và gỡ lỗi các ứng dụng **JavaScript** hoặc **Node JS**.
 
-### Các ngôn ngữ và công nghệ phổ biến trong DevOps
+## Các ngôn ngữ và công nghệ phổ biến trong DevOps
 
 Có một số ngôn ngữ lập trình và công nghệ phổ biến được sử dụng trong **DevOps**, bao gồm:
 
@@ -69,7 +69,7 @@ Có một số ngôn ngữ lập trình và công nghệ phổ biến được s
 
 Cách tốt nhất để tìm hiểu về DevOps là bắt đầu với một dự án nhỏ. Bạn có thể sử dụng một trong các công cụ hoặc dịch vụ **DevOps** được đề cập ở trên để tự động hóa các quy trình phát triển và vận hành của mình.
 
-### Với DevOps bạn có thể
+## Với DevOps bạn có thể
 
 Dưới đây là một số ví dụ về cách bạn có thể sử dụng **DevOps** để tự động hóa các quy trình phát triển và vận hành của mình:
 
@@ -81,7 +81,7 @@ Các ngôn ngữ lập trình và công nghệ **DevOps** khác nhau được s�
 
 Ngôn ngữ lập trình tốt nhất cho **DevOps** là ngôn ngữ mà bạn cảm thấy thoải mái nhất và có kiến thức tốt nhất. Nếu bạn không chắc chắn ngôn ngữ nào nên sử dụng, thì **Python** là một lựa chọn tốt.
 
-### Tham khảo
+## Tham khảo
 
 - https://www.python.org/
 - https://vi.wikipedia.org/wiki/Bash
