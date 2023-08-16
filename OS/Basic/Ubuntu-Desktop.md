@@ -7,7 +7,7 @@ Thông thường các quản trị viên **DevOps** thường sử dụng **macO
 - **Tính ổn định**: macOS là một hệ điều hành ổn định, điều này có thể giúp giảm thiểu thời gian ngừng hoạt động và các vấn đề bảo mật.
 - **Tính thân thiện với người dùng**: macOS là một hệ điều hành thân thiện với người dùng, điều này có thể giúp các quản trị hệ thống DevOps bắt đầu sử dụng và làm việc với nó một cách nhanh chóng.
 
-Ngoài ra, **macOS** cũng cung cấp một số tính năng độc đáo mà có thể hữu ích cho các quản trị hệ thống DevOps, chẳng hạn như:
+Ngoài ra, **macOS** cũng cung cấp một số tính năng độc đáo mà có thể hữu ích cho các quản trị hệ thống **DevOps**, chẳng hạn như:
 
 - **Terminal**: Terminal là một công cụ dòng lệnh mạnh mẽ có thể được sử dụng để quản lý các hệ thống macOS và Linux.
 - **Xcode**: Xcode là một môi trường phát triển tích hợp (IDE) cho phép các nhà phát triển tạo các ứng dụng macOS, iOS, iPadOS, watchOS và tvOS.
