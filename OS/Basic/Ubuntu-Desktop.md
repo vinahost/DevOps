@@ -1,8 +1,21 @@
 # Làm việc trên Ubuntu Desktop
 
-Đừng nhầm lẫn với việc thiết lập máy chủ **Linux** theo cách này, tôi chỉ muốn muốn thể hiện tính linh hoạt mà chúng ta có với các máy tính chạy Linux.
+Thông thường các quản trị viên **DevOps** thường sử dụng **macOS** để quản lý hệ thống
 
-Tôi đã sử dụng máy tính chạy **Linux** gần một năm nay và tôi đã cấu hình nó theo cách tôi muốn từ góc nhìn và cảm nhận. Sử dụng máy ảo **Ubuntu** của chúng ta trên **Virtual Box**, chúng ta có thể xem một số tùy chỉnh mà tôi đã thực hiện cho các công việc hàng ngày của mình.
+- **Tính tương thích**: macOS tương thích với nhiều công cụ và phần mềm được sử dụng bởi các nhà phát triển và quản trị hệ thống DevOps, bao gồm Docker, Kubernetes và Git.
+- **Hiệu suất**: macOS là một hệ điều hành hiệu suất cao, điều này có thể giúp các quản trị hệ thống DevOps xử lý các tác vụ phức tạp một cách nhanh chóng và hiệu quả.
+- **Tính ổn định**: macOS là một hệ điều hành ổn định, điều này có thể giúp giảm thiểu thời gian ngừng hoạt động và các vấn đề bảo mật.
+- **Tính thân thiện với người dùng**: macOS là một hệ điều hành thân thiện với người dùng, điều này có thể giúp các quản trị hệ thống DevOps bắt đầu sử dụng và làm việc với nó một cách nhanh chóng.
+
+Ngoài ra, **macOS** cũng cung cấp một số tính năng độc đáo mà có thể hữu ích cho các quản trị hệ thống DevOps, chẳng hạn như:
+
+- **Terminal**: Terminal là một công cụ dòng lệnh mạnh mẽ có thể được sử dụng để quản lý các hệ thống macOS và Linux.
+- **Xcode**: Xcode là một môi trường phát triển tích hợp (IDE) cho phép các nhà phát triển tạo các ứng dụng macOS, iOS, iPadOS, watchOS và tvOS.
+- **Docker Desktop**: Docker Desktop là một nền tảng cho phép các nhà phát triển tạo và triển khai các ứng dụng Docker trên macOS.
+- **Kubernetes**: Kubernetes là một hệ thống quản lý cụm mã nguồn mở có thể được sử dụng để triển khai và quản lý các ứng dụng Docker.
+- **Git**: Git là một hệ thống quản lý phiên bản mã nguồn mở có thể được sử dụng để theo dõi các thay đổi trong mã.
+
+Trong trường hợp không sử dụng **macOS**, bạn có thể sử dụng **Desktop Ubuntu**. Sử dụng máy ảo **Ubuntu** của chúng ta trên **Virtual Box**, chúng ta có thể xem một số tùy chỉnh mà tôi đã thực hiện cho các công việc hàng ngày của mình.
 
 Tôi đã tổng hợp thành một video trên **YouTube** hướng dẫn phần còn lại để các bạn có thể theo dõi tốt hơn:
 
