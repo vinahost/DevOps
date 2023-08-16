@@ -26,9 +26,9 @@ Nói thêm rằng, tệp **dotfile** không chỉ được sử dụng để tù
 
 Như tôi đã đề cập, nhiều chương trình phần mềm lưu cấu hình của chúng trong các tệp **dotfile** này.
 
-Mỗi tệp **dotfile** bắt đầu bằng `.` Bạn có thể đoán được cách đặt tên bắt nguồn từ đâu đúng không? (dot là "dấu chấm")
+Mỗi tệp **dotfile** bắt đầu bằng `.` Bạn có thể đoán được cách đặt tên bắt nguồn từ đâu đúng không? (**dot** là "*dấu chấm*")
 
-Cho đến bây giờ, chúng ta đã sử dụng **bash** làm trình **shell** của mình, điều đó có nghĩa là bạn sẽ có `.bashrc` và `.bash_profile` trong thư mục chính của chúng ta. Bạn có thể xem bên dưới một vài tệp dotfile mà chúng ta có trên hệ thống.
+Cho đến bây giờ, chúng ta đã sử dụng **bash** làm trình **shell** của mình, điều đó có nghĩa là bạn sẽ có `.bashrc` và `.bash_profile` trong thư mục chính của chúng ta. Bạn có thể xem bên dưới một vài tệp **dotfile** mà chúng ta có trên hệ thống.
 
 ![Ubuntu Desktop](../../Image/Ubuntu-Desktop03.png)
 
@@ -56,7 +56,7 @@ Bạn có thể thấy từ **menu** này rằng chúng ta có thể thực hi�
 
 Nếu bạn thoát khỏi trình hướng dẫn bằng `0` và sau đó sử dụng `ls -al | grep .zshrc`, bạn sẽ thấy chúng ta có một tệp cấu hình mới.
 
-Bây giờ chúng ta muốn đặt zsh là trình **shell** mặc định của mình mỗi khi mở **terminal** của mình. Có thể thực hiện việc này bằng cách chạy lệnh sau để thay đổi shell `chsh -s $( which zsh)` sau đó chúng ta cần đăng xuất và đăng nhập lại đẻ các thay đổi được cập nhật.
+Bây giờ chúng ta muốn đặt zsh là trình **shell** mặc định của mình mỗi khi mở **terminal** của mình. Có thể thực hiện việc này bằng cách chạy lệnh sau để thay đổi shell `chsh -s $( which zsh)` sau đó chúng ta cần đăng xuất và đăng nhập lại để các thay đổi được cập nhật.
 
 Khi bạn đăng nhập lại và mở một **terminal**, nó sẽ giống như thế này. Chúng ta cũng có thể xác nhận trình **shell** của chúng ta hiện đã được thay đổi bằng cách chạy ` which $SHELL`
 
@@ -80,7 +80,7 @@ Khi bạn đã chạy lệnh trên, bạn sẽ thấy một số đầu ra như 
 
 ![Ubuntu Desktop](../../Image/Ubuntu-Desktop07.png)
 
-Bây giờ chúng ta có thể bắt đầu đưa cài đặt **theme** để trải nghiệm, có hơn 100 **theme** đi kèm với **Oh My ZSH** nhưng tôi sẽ luôn cài đặt các ứng dụng của mình với **theme Dracula**.
+Bây giờ chúng ta có thể bắt đầu đưa cài đặt **theme** để trải nghiệm, có hơn **100 theme** đi kèm với **Oh My ZSH** nhưng tôi sẽ luôn cài đặt các ứng dụng của mình với **theme Dracula**.
 
 Tôi cũng muốn nói thêm rằng hai **plugin** này là gần như bắt buộc khi sử dụng **Oh My ZSH**.
 
