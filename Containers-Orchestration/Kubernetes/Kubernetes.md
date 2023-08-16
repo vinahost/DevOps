@@ -17,6 +17,8 @@ Nhưng cộng động và tài nguyên học tập miễn phí và các tư li�
 
 _Kubernetes là một nền tảng mã nguồn mở, di động, có thể mở rộng để quản lý khối lượng công việc và dịch vụ được chạy trên container, hỗ trợ cả cấu hình khai báo và tự động hóa. Nó có một hệ sinh thái lớn, phát triển nhanh chóng. Các dịch vụ, hỗ trợ và công cụ Kubernetes được phổ biến rộng rãi._
 
+![Kubernetes Architecture](../../Image/Kubernetes-Architecture.png)
+
 Những điều quan trọng cần lưu ý trong câu trích dẫn trên, **Kubernetes** là dự án mã nguồn mở với lịch sử bắt nguồn từ **Google**, người đã trao tặng dự án cho tổ chức **Cloud Native Computing Foundation** (**CNCF**) và nó hiện cũng đang được phát triển bởi cộng đồng mã nguồn mở và các doanh nghiệp lớn góp phần tạo nên **Kubernetes** như ngày nay.
 
 Tôi đã đề cập ở trên về việc các **container** tốt như thế nào và trong phần trước, chúng ta đã nói về cách **container** và các **container image** đã thay đổi và đẩy nhanh việc áp dụng các hệ thống **cloud-native**. Nhưng chỉ riêng **container** sẽ không cung cấp trải nghiệm sẵn sàng cho môi trường sản xuất của các ứng dụng của bạn. **Kubernetes** cung cấp cho chúng ta những điều sau:
