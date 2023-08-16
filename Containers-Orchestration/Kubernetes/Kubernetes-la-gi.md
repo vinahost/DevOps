@@ -1,6 +1,6 @@
 # Kubernetes là gì ?
 
-**Kubernetes** hay còn gọi là **K8s** ( **K8s** là thuật ngữ được rút gọn từ **Kubernetes**. "K" là chữ cái đầu tiên, "s" là chữ cái cuối và số "8" là chỉ 8 chữ cái nằm giữa "K" và "s" ) là một nền tảng mã nguồn mở, được quản lý bởi cộng đồng, để tự động hóa việc triển khai, cân bằng tải và quản lý các ứng dụng được đóng gói trong các **container**. **Kubernetes** thường được gọi là bộ điều phối **container**, vì nó có nhiệm vụ tự động hóa các tác vụ thủ công liên quan đến việc triển khai và quản lý các ứng dụng **container**.
+**Kubernetes** hay còn gọi là **K8s** ( **K8s** là thuật ngữ được rút gọn từ **Kubernetes** "K" là chữ cái đầu tiên, "s" là chữ cái cuối và số "8" là chỉ 8 chữ cái nằm giữa "K" và "s" ) là một nền tảng mã nguồn mở, được quản lý bởi cộng đồng, để tự động hóa việc triển khai, cân bằng tải và quản lý các ứng dụng được đóng gói trong các **container**. **Kubernetes** thường được gọi là bộ điều phối **container**, vì nó có nhiệm vụ tự động hóa các tác vụ thủ công liên quan đến việc triển khai và quản lý các ứng dụng **container**.
 
 ![Kubernetes là gì?](../../Image/Kubernetes-Architecture.png)
 
