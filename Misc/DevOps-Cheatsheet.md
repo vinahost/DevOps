@@ -20,6 +20,7 @@ Một bộ sưu tập các danh sách: hướng dẫn sử dụng, cheatsheets, 
 Hướng dẫn DevOps - Development đến Production tất cả các cấu hình với các lưu ý cơ bản để gỡ lỗi hiệu quả.
 
 - https://github.com/Tikam02/DevOps-Guide
+- https://github.com/bregman-arie/devops-exercises
 
 ### Khóa học miễn phí Làm việc với Terminal & Ubuntu
 

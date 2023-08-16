@@ -44,7 +44,7 @@
 - [✔️] 🐧 > [Text Editors - nano vs vim](OS/Basic/Linux-Nano-Vim.md)
 - [✔️] 🐧 > [SSH & Webserver (LAMP)](OS/Basic/SSH-Webserver.md)
 - [✔️] 🐧 > [Tự động hóa các tác vụ với các tập lệnh bash](OS/Basic/Tu-Dong-Hoa-Voi-Bash.md)
-- [✔️] 🐧 > [Thiết lập máy trạm phát triển - những điều tuyệt vời]
+- [✔️] 🐧 > [Thao tác trên Ubuntu Desktop](OS/Basic/Ubuntu-Desktop.md)
 
 ## Kiến thức về mạng (Network)
 
