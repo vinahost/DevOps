@@ -2,7 +2,7 @@
 
 ![Ansible - Playbook](/Image/Ansible-Playbook.jpg)
 
-**Ansible** là một công cụ tự động hóa cơ sở hạ tầng mã nguồn mở, giúp bạn quản lý và cấu hình các máy chủ từ xa. Ansible sử dụng một kiến trúc **agentless**, nghĩa là nó không yêu cầu cài đặt bất kỳ phần mềm bổ sung nào trên các máy chủ được quản lý. Thay vào đó, **Ansible** sử dụng giao thức **SSH** để giao tiếp với các máy chủ và thực hiện các tác vụ.
+**Ansible** là một công cụ tự động hóa cơ sở hạ tầng mã nguồn mở, giúp bạn quản lý và cấu hình các máy chủ từ xa. **Ansible** sử dụng một kiến trúc **agentless**, nghĩa là nó không yêu cầu cài đặt bất kỳ phần mềm bổ sung nào trên các máy chủ được quản lý. Thay vào đó, **Ansible** sử dụng giao thức **SSH** để giao tiếp với các máy chủ và thực hiện các tác vụ.
 
 **Ansible** được sử dụng để quản lý một loạt các tác vụ, bao gồm:
 
@@ -12,7 +12,7 @@
 - Quản lý bảo mật
 - Phân phối thay đổi
 
-## Lợi ích của việc sử dụng Ansible:
+## Lợi ích của việc sử dụng Ansible
 
 - Dễ sử dụng: Ansible được thiết kế để dễ sử dụng, ngay cả đối với những người không có kinh nghiệm về tự động hóa hệ thống.
 - Mạnh mẽ: Ansible có thể được sử dụng để quản lý một loạt các tác vụ, từ cài đặt phần mềm đến cấu hình hệ thống.
@@ -64,18 +64,21 @@ Một **playbook Ansible** có thể chứa nhiều tác vụ, mỗi tác vụ t
         name: httpd
         state: started
 ```
-* Trên đây là một playbook đơn giản chứa một kịch bản có tên Play 1 (name: Play 1).
-* Có tổng cộng 4 nhiệm vụ cần được chạy cho server. Nhiệm vụ lần lượt là:
+
+Trên đây là một **playbook** đơn giản chứa một kịch bản có tên **Play 1** (**name: Play 1**).
+
+Có tổng cộng 4 nhiệm vụ cần được chạy cho **server**. Nhiệm vụ lần lượt là:
 
 1. chạy lệnh date
 1. chạy file test_script.sh
 1. cài đặt dịch vụ httpd
 1. start dịch vụ httpd vừa cài trên
 
-* Bạn để ý các thuộc tính **command, script, yum, service** là những module có sẵn do ansible cung cấp. Module hỗ trợ bạn viết và thực thi các nhiệm vụ  một cách đơn giản hơn.
+Bạn để ý các thuộc tính **command, script, yum, service** là những **code** có sẵn do **ansible** cung cấp. **Module** hỗ trợ bạn viết và thực thi các nhiệm vụ một cách đơn giản hơn.
+
+Chạy file ansible play-book
 
 ```
-# chạy file ansible play-book
 ansible-palybook -i hosts my_playbook.yml
 ```
 
@@ -93,10 +96,10 @@ Và còn hàng trăm module khác đã được **ansible** cung cấp sẵn.
 
 ## INVENTORY
 
-Đây là nơi sẽ chứa tên các con server hay địa chỉ ip mà bạn muốn thực thi.
+Đây là nơi sẽ chứa tên các con **server** hay địa chỉ **ip** mà bạn muốn thực thi.
 
 ```
-#Sample Inventory File
+# Sample Inventory File
 Server1.company.com
 Server2.company.com 
 
@@ -118,7 +121,7 @@ db
 web
 ```
 
-Bạn để ý cách khai báo với **[mail], [db], [web].** Đây là cách khai bao 1 group các server với nhau. **[mail]** là tên group. Trong playbook, nếu bạn muốn file playbook đó sẽ thực thi group các server liên quan đến web, bạn chỉ cần khai báo
+Bạn để ý cách khai báo với **[mail], [db], [web].** Đây là cách khai báo 1 **group** các **server** với nhau. **[mail]** là tên **group**. Trong **playbook**, nếu bạn muốn **file playbook** đó sẽ thực thi **group** các **server** liên quan đến **web**, bạn chỉ cần khai báo
 
 ```
 hosts: web
@@ -126,7 +129,7 @@ hosts: web
 
 Còn **[all_servers:children]** là cách khai báo **group** các **group** với nhau.
 
-Ansible còn cung cấp một số params phục vụ cho việc truy cập vào server mà bạn đã khai báo trong inventory file dễ dàng hơn.
+**Ansible** còn cung cấp một số **params** phục vụ cho việc truy cập vào **server** mà bạn đã khai báo trong **inventory file** dễ dàng hơn.
 
 ```
 # DB Servers
@@ -154,17 +157,17 @@ Biến được sử dụng để lưu trữ các giá trị và có thể thay 
       command: echo "I live in the {‌{ country_name }}"
 ```
 
-Để khai báo biến, chúng ta sẽ sử dụng thuộc tính vars mà ansible đã cung cấp.
-**car_model** sẽ là key, **"BMW M3"** sẽ là value. Bên dưới để sử dụng biến **car_model** ta sử dụng cặp dấu ngoặc nhọn và tên biến **{{ car_model }}**
+Để khai báo biến, chúng ta sẽ sử dụng thuộc tính **vars** mà **ansible** đã cung cấp.
+**car_model** sẽ là key, **"BMW M3"** sẽ là **value**. Bên dưới để sử dụng biến **car_model** ta sử dụng cặp dấu ngoặc nhọn và tên biến **{{ car_model }}**
 
 ## CONDITIONS
 
 **Ansible** cũng cho phép bạn điều hướng lệnh chạy hay giới hạn phạm vi để run câu lệnh nào đó.
 
 ```
-#Simple playbook.yml
+# Simple playbook.yml
 -
-  name: Toi da tot nghiep chưa
+  name: Toi da tot nghiep chua
   hosts: localhost
   vars:
     age: 25
@@ -184,7 +187,7 @@ Biến được sử dụng để lưu trữ các giá trị và có thể thay 
 Ví dụ ta có bài toán như sau: kiểm tra trạng thái của **service httpd**, nếu **start** thất bại thì gửi **mail** thông báo cho **admin**.
 
 ```
-#Sample ansible playbook.yml
+# Sample ansible playbook.yml
 -
   name: Check status of service and email if its down
   hosts: localhost
@@ -594,7 +597,9 @@ Alternative Directory Layout
 ## 4.2 `ansible.cfg`
 
 ansible.cfg in the current working directory, .ansible.cfg in the home directory or /etc/ansible/ansible.cfg, whichever it finds first
+
 - Nội dung mặc định của file ansible.cfg: https://raw.githubusercontent.com/ansible/ansible/devel/examples/ansible.cfg
+
 - Một số thiết lập trong thẻ [defaults]:
 
 | Tên | Ý nghĩa|
