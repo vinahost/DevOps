@@ -162,9 +162,9 @@ Mở trình duyệt và **click** vài liên kết trong **terminal**.
 
 ![Kubernetes Application](../../Image/Kubernetes-Application018.png)
 
-### Helm
+## Helm
 
-**Helm** là một cách khác để chúng ta có thể triển khai các ứng dụng của mình. Được gọi là "Trình quản lý gói cho **Kubernetes**". Bạn có thể tìm hiểu thêm tại [đây](https://helm.sh/)
+**Helm** là một cách khác để chúng ta có thể triển khai các ứng dụng của mình. Được gọi là "*Trình quản lý gói cho* **Kubernetes**". Bạn có thể tìm hiểu thêm tại [đây](https://helm.sh/)
 
 **Helm** là trình quản lý gói cho **Kubernetes**. **Helm** có thể được coi như **yum** hoặc **apt** cho **Kubernetes**. **Heml** triển khai các **charts** mà bạn có thể coi như một ứng dụng được đóng gói. Đây là một **blueprint** cho các tài nguyên ứng dụng được định cấu hình trước của bạn. Các **charts** này có thể được triển khai dưới dạng một **easy-to-use chart**. Sau đó, bạn có thể triển khai một phiên bản khác của **chart** với một bộ cấu hình khác.
 
