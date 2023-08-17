@@ -1,4 +1,4 @@
-# Microservices, Monolith với devops
+# Microservices, Monolith với Devops
 
 **Microservices**, **Monolith** và **DevOps** là ba khái niệm khác nhau trong phát triển phần mềm.
 
@@ -7,27 +7,27 @@
 - **Monolith** là một kiến trúc phần mềm trong đó hệ thống được phát triển và triển khai như một đơn vị duy nhất. Tất cả các thành phần của hệ thống đều được liên kết chặt chẽ và phụ thuộc lẫn nhau.
 DevOps là một cách tiếp cận tổng thể cho việc phát triển, triển khai và vận hành phần mềm. Nó tập trung vào việc hợp nhất các nhóm phát triển và vận hành để họ có thể cùng nhau làm việc để cung cấp phần mềm nhanh hơn, đáng tin cậy hơn và có thể bảo trì hơn.
 
-- **DevOps** có thể được sử dụng với cả microservices và monolith. Tuy nhiên, microservices thường được coi là phù hợp hơn với DevOps vì chúng có thể được phát triển, triển khai và bảo trì độc lập, điều này làm cho chúng dễ dàng hơn để tự động hóa và quản lý.
+- **DevOps** có thể được sử dụng với cả Microservices và monolith. Tuy nhiên, Microservices thường được coi là phù hợp hơn với DevOps vì chúng có thể được phát triển, triển khai và bảo trì độc lập, điều này làm cho chúng dễ dàng hơn để tự động hóa và quản lý.
 
 ## Lợi ích của việc sử dụng DevOps với Microservices
 
-- **Tăng tốc độ phát triển và triển khai**: DevOps có thể giúp các nhóm phát triển và vận hành microservices làm việc cùng nhau hiệu quả hơn, tự động hóa các quy trình và giảm thiểu các lỗi. Điều này có thể giúp tăng tốc độ phát triển và triển khai các hệ thống microservices.
+- **Tăng tốc độ phát triển và triển khai**: DevOps có thể giúp các nhóm phát triển và vận hành Microservices làm việc cùng nhau hiệu quả hơn, tự động hóa các quy trình và giảm thiểu các lỗi. Điều này có thể giúp tăng tốc độ phát triển và triển khai các hệ thống Microservices.
 
-- **Cải thiện khả năng bảo trì**: Microservices có thể được bảo trì dễ dàng hơn các hệ thống monolithic lớn. DevOps có thể giúp các nhóm phát triển và vận hành microservices tự động hóa các quy trình bảo trì và giảm thiểu các lỗi.
+- **Cải thiện khả năng bảo trì**: Microservices có thể được bảo trì dễ dàng hơn các hệ thống Monolithic lớn. DevOps có thể giúp các nhóm phát triển và vận hành Microservices tự động hóa các quy trình bảo trì và giảm thiểu các lỗi.
 
-- **Tăng khả năng mở rộng**: Microservices có thể được mở rộng dễ dàng hơn các hệ thống monolithic lớn. DevOps có thể giúp các nhóm phát triển và vận hành microservices tự động hóa các quy trình mở rộng và giảm thiểu các lỗi.
+- **Tăng khả năng mở rộng**: Microservices có thể được mở rộng dễ dàng hơn các hệ thống Monolithic lớn. DevOps có thể giúp các nhóm phát triển và vận hành Microservices tự động hóa các quy trình mở rộng và giảm thiểu các lỗi.
 
-- **Tăng khả năng đáp ứng**: Microservices có thể được đáp ứng nhanh hơn các hệ thống monolithic lớn. DevOps có thể giúp các nhóm phát triển và vận hành microservices tự động hóa các quy trình đáp ứng và giảm thiểu các lỗi.
+- **Tăng khả năng đáp ứng**: Microservices có thể được đáp ứng nhanh hơn các hệ thống Monolithic lớn. DevOps có thể giúp các nhóm phát triển và vận hành Microservices tự động hóa các quy trình đáp ứng và giảm thiểu các lỗi.
 
 ## Thách thức
 
 Tuy nhiên, cũng cần lưu ý rằng **Microservices** và **DevOps** cũng có một số thách thức:
 
-- **Sự phức tạp**: Microservices có thể phức tạp hơn các hệ thống monolithic lớn. DevOps có thể giúp giảm thiểu các thách thức này bằng cách cung cấp các công cụ và thực practices để quản lý các hệ thống microservices phức tạp.
+- **Sự phức tạp**: Microservices có thể phức tạp hơn các hệ thống Monolithic lớn. DevOps có thể giúp giảm thiểu các thách thức này bằng cách cung cấp các công cụ và thực practices để quản lý các hệ thống Microservices phức tạp.
 
-- **Khả năng tương tác**: Các microservices cần phải có khả năng tương tác với nhau để hoạt động như một hệ thống thống nhất. DevOps có thể giúp các nhóm phát triển và vận hành microservices xác định và giải quyết các vấn đề về khả năng tương tác.
+- **Khả năng tương tác**: Các Microservices cần phải có khả năng tương tác với nhau để hoạt động như một hệ thống thống nhất. DevOps có thể giúp các nhóm phát triển và vận hành Microservices xác định và giải quyết các vấn đề về khả năng tương tác.
 
-- **Quản trị**: Các microservices cần được quản trị một cách hiệu quả để đảm bảo rằng chúng hoạt động như một hệ thống thống nhất. DevOps có thể giúp các nhóm phát triển và vận hành microservices xác định và giải quyết các vấn đề về quản trị.
+- **Quản trị**: Các Microservices cần được quản trị một cách hiệu quả để đảm bảo rằng chúng hoạt động như một hệ thống thống nhất. DevOps có thể giúp các nhóm phát triển và vận hành Microservices xác định và giải quyết các vấn đề về quản trị.
 
 ## So sánh Monolith và Microservices
 
@@ -73,7 +73,7 @@ Tuy nhiên, cũng cần lưu ý rằng **Microservices** và **DevOps** cũng c�
 
 |	|Monolith	|Microservices|
 |---|-----------|-------------|
-|Định nghĩa|	Một ứng dụng lớn và đơnolithic	Một ứng dụng phân tách thành các dịch vụ nhỏ|
+|Định nghĩa|	Một ứng dụng lớn và đơn nolithic|	Một ứng dụng phân tách thành các dịch vụ nhỏ|
 |Kích thước ứng dụng|	Lớn|	Nhỏ hơn so với Monolith|
 |Độ phức tạp|	Cao|	Thấp|
 |Độ phụ thuộc giữa các thành phần|	Cao|	Thấp|
@@ -137,4 +137,4 @@ Tóm lại, **Monolith** và **Microservices** đều có ưu điểm và hạn 
 
 ## Tham khảo
 
-- https://stringee.com/vi/blog/post/khac-biet-giua-monolith-va-microservices
+- https://stringee.com/vi/blog/post/khac-biet-giua-monolith-va-Microservices
