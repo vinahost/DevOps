@@ -1,6 +1,7 @@
 # Docker nâng cao
 
 **Bài viết trước chúng ta đã tìm hiểu:**
+
 - Docker là gì
 - Ưu điểm của Docker
 - Các thành phần chính của Docker
@@ -14,7 +15,7 @@
 **Dockerfile**
 ![Dockerfile](/Image/Dockerfile.png)
 
-**Dockerfile** là **file config** cho **Docker** để **build** ra **image**. Nó dùng một **image** cơ bản để xây dựng lớp **image** ban đầu. Một số **image** cơ bản: **python**, **unbutu** and **alpine**. Sau đó nếu có các lớp bổ sung thì nó được xếp chồng lên lớp cơ bản. Cuối cùng một lớp mỏng có thể được xếp chồng lên nhau trên các lớp khác trước đó.
+**Dockerfile** là **file config** cho **Docker** để **build** ra **image**. Nó dùng một **image** cơ bản để xây dựng lớp **image** ban đầu. Một số **image** cơ bản: **python**, **unbutu** và **alpine**. Sau đó nếu có các lớp bổ sung thì nó được xếp chồng lên lớp cơ bản. Cuối cùng một lớp mỏng có thể được xếp chồng lên nhau trên các lớp khác trước đó.
 
 **Các config :**
 
@@ -33,11 +34,12 @@
 
 ### Demo tạo file Dockerfile
 
-> Một số bước thực hiện:
-> - Đầu tiên chúng ta sẽ viết Dockerfile để tạo nên image rồi tạo nên container, sau khi tạo được container rồi thì đồng nghĩa là đã tạo ra được máy ảo để bạn có thể khởi chạy ứng dụng của bạn trên máy ảo đó.
-> - Thư mục webroot chứa mã nguồn chương trình, có thể là một c++ app, java app hoặc web app được viết bằng php hoặc ruby,.... (Ở đây, để cho đơn giản, chúng ta chỉ đặt file hello.html, chạy trên trình duyệt sẽ hiển thị dòng Hello Word)
-> - Sau này, bạn dùng editor để lập trình trên máy thật, chỉnh sửa mã nguồn trong thư mục này, mọi sự thay đổi được cập nhật ngay lập tức trên máy ảo.
-> - File start.sh chứa những câu lệnh được chạy khi bật container (có thể dùng để start mysql, nginx, redis ...)  
+Một số bước thực hiện:
+
+- Đầu tiên chúng ta sẽ viết Dockerfile để tạo nên image rồi tạo nên container, sau khi tạo được container rồi thì đồng nghĩa là đã tạo ra được máy ảo để bạn có thể khởi chạy ứng dụng của bạn trên máy ảo đó.
+- Thư mục webroot chứa mã nguồn chương trình, có thể là một c++ app, java app hoặc web app được viết bằng php hoặc ruby,.... (Ở đây, để cho đơn giản, chúng ta chỉ đặt file hello.html, chạy trên trình duyệt sẽ hiển thị dòng Hello Word)
+- Sau này, bạn dùng editor để lập trình trên máy thật, chỉnh sửa mã nguồn trong thư mục này, mọi sự thay đổi được cập nhật ngay lập tức trên máy ảo.
+- File start.sh chứa những câu lệnh được chạy khi bật container (có thể dùng để start mysql, nginx, redis ...)  
 
 Nội dung file *Dockerfile*
 
@@ -67,13 +69,12 @@ ENTRYPOINT ["/venv/start.sh"]
 EXPOSE 80
 
 ```  
-*Tạo file hello.html trong thư mục webroot:*
+Tạo file `hello.html` trong thư mục **webroot**:
 
 ```js
 <h1>Hello word</h1>
-
 ```  
-*Tạo file start.sh như sau*
+Tạo file `start.sh` như sau
 
 ```js
 #!/bin/bash
@@ -81,7 +82,6 @@ service nginx start
 exec $@
 
 ```  
-
 
 Tiến hành **build** file **Dockerfile**
 
@@ -96,10 +96,11 @@ Tạo **container** từ **image**:
 sudo docker run -v <forder_in_computer>:<forder_in_container> -p <port_in_computer>:<port_in_container> -it <image_name> /bin/bash
 
 ```  
-> Trong đó:
-> - -v : Thể hiện việc mount volume, dữ liệu từ thư mục từ máy thật có thể được truy cập từ thư mục của máy ảo.
-> - -p: Cổng mạng từ máy thật để dẫn tới cổng mạng của máy ảo đang chạy.
-> - -t: Chạy container và mở terminal bằng /bin/bash
+Trong đó:
+
+- -v : Thể hiện việc mount volume, dữ liệu từ thư mục từ máy thật có thể được truy cập từ thư mục của máy ảo.
+- -p: Cổng mạng từ máy thật để dẫn tới cổng mạng của máy ảo đang chạy.
+- -t: Chạy container và mở terminal bằng /bin/bash
 
 Ví dụ vào **localhost** mặc định của **nginx**:  
 
@@ -122,11 +123,13 @@ Build **container** từ **image**
 $ docker run --name {container_name} -it {image_id/name:tag} /bin/bash
 
 ```  
-> Một số option:
-> - -it để cho phép container vừa tạo ra có thể nhận tương tác (-i), và kết nối với terminal (-t).
-> - --name container_name của container mà bạn muốn sau khi khởi chạy. Mặc định khi không có thì nó sẽ tự đặt tên cho container là 1 tên nào đó, nên tốt nhất mình tự đặt cho dễ nhớ
-> - -p {host_port}:{container_port} , -h {container_host} optional
-> - Còn nhiều option khác, các bạn có thể tìm hiểu thêm
+
+Một số option:
+
+- -it để cho phép container vừa tạo ra có thể nhận tương tác (-i), và kết nối với terminal (-t).
+- --name container_name của container mà bạn muốn sau khi khởi chạy. Mặc định khi không có thì nó sẽ tự đặt tên cho container là 1 tên nào đó, nên tốt nhất mình tự đặt cho dễ nhớ
+- -p {host_port}:{container_port} , -h {container_host} optional
+- Còn nhiều option khác, các bạn có thể tìm hiểu thêm
 
 `start/stop` một **container** khởi chạy **container** đã **build**
 
@@ -136,9 +139,11 @@ docker attach {container_id/name} # access vào container đang start
 docker exec -it {container_id/name} /bin/bash #khởi động container và access vào container đó luôn
 docker start {container_id/name}
 ```  
-> Note: 
-> - Có thể dùng docker exec để đứng từ host và chỉ định cho container thực thi lệnh.
-> - Vd: Đứng từ host, và liệt kê tất cả các file có trong container_1 thì ta có lệnh: docker exec container_1 ls  
+
+Note: 
+
+- Có thể dùng docker exec để đứng từ host và chỉ định cho container thực thi lệnh.
+- Vd: Đứng từ host, và liệt kê tất cả các file có trong container_1 thì ta có lệnh: docker exec container_1 ls  
 
 Thoát khỏi **container** đang **access**
 
@@ -173,15 +178,17 @@ docker diff {container_name}
 
 ```  
 
-Lưu **container** thành **image**: trong trường hợp bạn muốn lưu **container** của bạn thành **image** để thuận tiện **share** cho ng khác hoặc đem đi cài trên máy khác thì bạn dùng lệnh sau
+Lưu **container** thành **image**: trong trường hợp bạn muốn lưu **container** của bạn thành **image** để thuận tiện **share** cho người khác hoặc đem đi cài trên máy khác thì bạn dùng lệnh sau
 
 ```js
 docker commit {container_id/name} {image_name}:{tag}
 
 ```  
-> Note:
-> - Phải stop container trước khi bạn lưu.
-> - {image_name}:{tag} đặt tên image và version cho container sau khi lưu.  
+
+Note:
+
+- Phải stop container trước khi bạn lưu.
+- {image_name}:{tag} đặt tên image và version cho container sau khi lưu.  
 
 Lưu **image** thành **file** để tiện **share**
 
@@ -189,7 +196,9 @@ Lưu **image** thành **file** để tiện **share**
 docker save --output filename.tar {image_id/name}
 
 ```  
-> Note: filename.tar sẽ được lưu ở vị trí bạn đang đứng trong terminal  
+Note:
+
+- filename.tar sẽ được lưu ở vị trí bạn đang đứng trong terminal  
 
 **Load image** từ **file** ra để sử dụng
 
@@ -197,7 +206,10 @@ docker save --output filename.tar {image_id/name}
 docker load -i filename.tar
 
 ```  
-> Note: khi load image từ file thì image_name và image_tag sẽ là rỗng để đặt tên và tag cho image ta dùng lệnh  
+
+Note: 
+
+- khi load image từ file thì image_name và image_tag sẽ là rỗng để đặt tên và tag cho image ta dùng lệnh  
 
 ```js
 docker tag {image_id} {new_name:new_version}
@@ -302,6 +314,7 @@ Có 3 loại **networks** được tự động tạo ra trong **docker** là **
 docker network ls
 
 ```  
+
 - bridge đây là driver mạng mặc định của Docker, bridge là driver phù hợp nhất cho việc giao tiếp các containers độc lập. các container trong cùng mạng có thể giao tiếp với nhau qua địa chỉ IP, nếu không chỉ định driver thì bridge sẽ là driver mạng mặc định khi khởi tạo.
 
 - none driver cung cấp cho một container networking stack và không gian mạng riêng của nó, thường được dùng với mạng tùy chỉnh, driver này không thể dùng trong cụm swarm.
@@ -333,25 +346,28 @@ docker network rm name_network
 docker run -it --name B4 --network network1 busybox
 
 ```  
-*Lệnh trên ta tạo một container tên là B4 từ image busybox và có kết nối trong mạng network1 mới tạo ở trên*
+
+Lệnh trên ta tạo một **container** tên là **B4** từ **image busybox** và có kết nối trong mạng **network1** mới tạo ở trên
 
 *kiểm tra bằng lệnh*
+
 ```js
 docker network inspect network1
  ```  
  
-*sẽ thấy có container B4 kết nối*
+chúng ta sẽ thấy có **container B4** kết nối
 
 Kết nối một **container** đang chạy với một mạng khác
 
-*Ví dụ: ta có 2 network là network1 và network2 có một container B5 đang kết nối với mạng network1 và ta muốn container này kết nối với cả network2 thì ta chạy lệnh*
+Ví dụ: ta có 2 **network** là **network1** và **network2** có một **container B5** đang kết nối với mạng **network1** và ta muốn **container** này kết nối với cả **network2** thì ta chạy lệnh
 
 ```js
 docker network connect network2 B5
 ```  
-*Lệnh trên là kết nối container B5 vào mạng network2*
 
-**Docker Hub**
+Lệnh trên là kết nối **container B5** vào mạng **network2**
+
+### Docker Hub
 
 **Docker Hub** là một dịch vụ do **Docker** cung cấp, cho phép tìm kiếm và chia sẻ các **container images**. Các tính năng chính của **Docker Hub** là:
 
