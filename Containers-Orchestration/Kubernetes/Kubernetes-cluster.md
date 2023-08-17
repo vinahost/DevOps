@@ -1,6 +1,6 @@
 # Triển khai Kubernetes Cluster
 
-Trong bài viết này, chúng ta sẽ thiết lập và chạy một **Kubernetes cluster** trên máy tính cá nhân sử dụng **minikube**, điều này sẽ cung cấp cho chúng ta một **cluster** cơ bản cho phần còn lại của tuần nói về **Kubernetes**. Mặc dù chúng ta cũng sẽ xem xét tới việc triển khai một **Kubernetes cluster** với **Virtual Box **trong bài sau. Lý do chọn phương pháp này so với sử dụng dịch vụ được quản lý bởi các nhà cung cấp điện toán đám mây công cộng là vì nó sẽ khiến bạn tốn tiền ngay cả với bậc miễn phí.
+Trong bài viết này, chúng ta sẽ thiết lập và chạy một **Kubernetes cluster** trên máy tính cá nhân sử dụng **minikube**, điều này sẽ cung cấp cho chúng ta một **cluster** cơ bản cho phần còn lại của tuần nói về **Kubernetes**. Mặc dù chúng ta cũng sẽ xem xét tới việc triển khai một **Kubernetes cluster** với **Virtual Box** trong bài sau. Lý do chọn phương pháp này so với sử dụng dịch vụ được quản lý bởi các nhà cung cấp điện toán đám mây công cộng là vì nó sẽ khiến bạn tốn tiền ngay cả với bậc miễn phí.
 
 ## Minikube là gì?
 
