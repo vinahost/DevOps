@@ -46,7 +46,7 @@ Tuy nhiên, cũng cần lưu ý rằng **Microservices** và **DevOps** cũng c�
 
 - **Dễ hiểu và duy trì**: Vì tất cả các phần của ứng dụng **Monolith** được kết hợp lại, nên việc hiểu và duy trì mã nguồn **Monolith** thường dễ dàng hơn so với các kiến trúc phức tạp hơn. Với **Monolith**, các nhà phát triển và quản trị viên có thể nắm bắt tổng thể của ứng dụng một cách dễ dàng hơn, vì không cần xử lý các tương tác phức tạp giữa các dịch vụ độc lập như trong kiến trúc **Microservices**.
 
-### Monolith cũng có nhược điểm:
+### Monolith cũng có nhược điểm
 
 - **Độ linh hoạt kém**: Trong kiến trúc **Monolith**, một thay đổi nhỏ trong một thành phần có thể yêu cầu triển khai lại toàn bộ ứng dụng. Điều này làm giảm độ linh hoạt của hệ thống, vì các phần của ứng dụng được kết hợp chặt chẽ với nhau và không thể triển khai độc lập.
 

@@ -113,7 +113,7 @@
 - [✔️] ☸ > [Kubernetes Platform](Containers-Orchestration/Kubernetes/Kubernetes-platform.md)
 - [✔️] ☸ > [Triển khai Kubernetes Cluster](Containers-Orchestration/Kubernetes/Kubernetes-cluster.md)
 - [✔️] ☸ > [Thiết lập Kubernetes Cluster Multi Node](Containers-Orchestration/Kubernetes/Kubernetes-Cluster-Multi-Node.md)
-- [✔️] ☸ > [Tổng quan về Rancher - Thực hành]
+- [✔️] ☸ > [Tổng quan về Rancher](Containers-Orchestration/Kubernetes/Rancher.md)
 - [✔️] ☸ > [Triển khai ứng dụng Kubernetes]
 - [✔️] ☸ > [State và Ingress trong Kubernetes]
 - [✔️] ☸ > [Cài đặt Kubernet Cluster bằng Kubespray trên vCloud](Containers-Orchestration/Kubernetes/Kubespray.md)
