@@ -18,7 +18,7 @@
 
 **Dockerfile** là **file config** cho **Docker** để **build** ra **image**. Nó dùng một **image** cơ bản để xây dựng lớp **image** ban đầu. Một số **image** cơ bản: **python**, **unbutu** và **alpine**. Sau đó nếu có các lớp bổ sung thì nó được xếp chồng lên lớp cơ bản. Cuối cùng một lớp mỏng có thể được xếp chồng lên nhau trên các lớp khác trước đó.
 
-### Các config :
+### Các config
 
 - FROM — chỉ định image gốc: python, unbutu, alpine…
 - LABEL — cung cấp metadata cho image. Có thể sử dụng để add thông tin maintainer. Để xem các label của images, dùng lệnh docker inspect.
@@ -368,7 +368,7 @@ Ví dụ: ta có 2 **network** là **network1** và **network2** có một **con
 
 Lệnh trên là kết nối **container B5** vào mạng **network2**
 
-### Docker Hub
+## Docker Hub
 
 **Docker Hub** là một dịch vụ do **Docker** cung cấp, cho phép tìm kiếm và chia sẻ các **container images**. Các tính năng chính của **Docker Hub** là:
 
@@ -381,7 +381,7 @@ Lệnh trên là kết nối **container B5** vào mạng **network2**
 
 Để sử dụng **Docker Hub**, bạn hãy đăng ký một tài khoản [tại đây](https://hub.docker.com/).
 
-### Docker compose
+## Docker compose
 
 Là công cụ giúp ta thiết lập và quản lý nhiều **container**, **network**, **volume** (gọi chung là các **service**) và thiết lập cấu hình cho các **service** một cách nhanh chóng và đơn giản bằng việc chạy theo các chỉ định trong file `docker-compose.yml`
 
@@ -470,7 +470,7 @@ Theo dõi **Logs** các **services**
 docker-compose logs [SERVICES]
 ```  
 
-### Tài liệu tham khảo
+## Tài liệu tham khảo
 
 - https://docs.docker.com/engine/reference/builder/
 - https://docs.docker.com/docker-hub/
