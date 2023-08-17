@@ -114,7 +114,7 @@
 - [✔️] ☸ > [Triển khai Kubernetes Cluster](Containers-Orchestration/Kubernetes/Kubernetes-cluster.md)
 - [✔️] ☸ > [Thiết lập Kubernetes Cluster Multi Node](Containers-Orchestration/Kubernetes/Kubernetes-Cluster-Multi-Node.md)
 - [✔️] ☸ > [Tổng quan về Rancher](Containers-Orchestration/Kubernetes/Rancher.md)
-- [✔️] ☸ > [Triển khai ứng dụng Kubernetes]
+- [✔️] ☸ > [Triển khai ứng dụng Kubernetes](Containers-Orchestration/Kubernetes/Application-Kubernetes.md)
 - [✔️] ☸ > [State và Ingress trong Kubernetes]
 - [✔️] ☸ > [Cài đặt Kubernet Cluster bằng Kubespray trên vCloud](Containers-Orchestration/Kubernetes/Kubespray.md)
 - [✔️] ☸ > [Helm Chart là gì?](Containers-Orchestration/Kubernetes/Helm.md)
