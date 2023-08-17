@@ -14,6 +14,8 @@ Tôi sẽ sử dụng [bài viết và repository này](https://devopscube.com/k
 
 Tôi đã tải lên trong [Kubernetes folder](../../Scripts/Kubernetes/Vagrantfile) **vagrantfile** mà chúng ta sẽ sử dụng để xây dựng môi trường. Lấy tệp này và điều hướng đến thư mục trong **terminal** của bạn. Tôi đang sử dụng **Windows** nên **Powershell** là lựa chọn để thực hiện các lệnh trên máy trạm của mình với **vagrant**. Nếu bạn chưa có **vagrant** thì bạn có thể sử dụng **arkade**, bài viết trước chúng ta đã đề cập đến nó khi cài đặt **minikube** và các công cụ khác. Chỉ sử dụng lệnh `arkade get vagrant` và bạn sẽ tải xuống và cài đặt phiên bản **vagrant** mới nhất.
 
+**Lưu ý:** bạn nên **download** toàn bộ nội dung [**Kubernetes**](../../Scripts/Kubernetes/Kubernetes.zip) để tiện cho việc thực hiện bài lab của mình.
+
 Khi bạn đang ở trong thư mục của mình, chạy `vagrant up` và nếu tất cả được cấu hình chính xác thì bạn sẽ thấy phần khởi động sau trong **terminal** của mình.
 
 ![Kubernetes Cluster Multi Node](../../Image/Kubernetes-Cluster-Multi-Node01.png)
