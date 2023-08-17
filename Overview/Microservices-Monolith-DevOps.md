@@ -5,29 +5,32 @@
 - **Microservices** là một kiến trúc phần mềm trong đó hệ thống được chia thành các dịch vụ nhỏ, độc lập, có thể tự quản lý. Mỗi dịch vụ có một chức năng cụ thể và có thể được phát triển, triển khai và bảo trì độc lập.
 
 - **Monolith** là một kiến trúc phần mềm trong đó hệ thống được phát triển và triển khai như một đơn vị duy nhất. Tất cả các thành phần của hệ thống đều được liên kết chặt chẽ và phụ thuộc lẫn nhau.
-DevOps là một cách tiếp cận tổng thể cho việc phát triển, triển khai và vận hành phần mềm. Nó tập trung vào việc hợp nhất các nhóm phát triển và vận hành để họ có thể cùng nhau làm việc để cung cấp phần mềm nhanh hơn, đáng tin cậy hơn và có thể bảo trì hơn.
 
-- **DevOps** có thể được sử dụng với cả Microservices và monolith. Tuy nhiên, Microservices thường được coi là phù hợp hơn với DevOps vì chúng có thể được phát triển, triển khai và bảo trì độc lập, điều này làm cho chúng dễ dàng hơn để tự động hóa và quản lý.
+- **DevOps** là một cách tiếp cận tổng thể cho việc phát triển, triển khai và vận hành phần mềm. Nó tập trung vào việc hợp nhất các nhóm phát triển và vận hành để họ có thể cùng nhau làm việc để cung cấp phần mềm nhanh hơn, đáng tin cậy hơn và có thể bảo trì hơn.
 
-## Lợi ích của việc sử dụng DevOps với Microservices
+**DevOps** có thể được sử dụng với cả **Microservices** và **Monolith**. Tuy nhiên, **Microservices** thường được coi là phù hợp hơn với **DevOps** vì chúng có thể được phát triển, triển khai và bảo trì độc lập, điều này làm cho chúng dễ dàng hơn để tự động hóa và quản lý.
 
-- **Tăng tốc độ phát triển và triển khai**: DevOps có thể giúp các nhóm phát triển và vận hành Microservices làm việc cùng nhau hiệu quả hơn, tự động hóa các quy trình và giảm thiểu các lỗi. Điều này có thể giúp tăng tốc độ phát triển và triển khai các hệ thống Microservices.
+## Lợi ích 
 
-- **Cải thiện khả năng bảo trì**: Microservices có thể được bảo trì dễ dàng hơn các hệ thống Monolithic lớn. DevOps có thể giúp các nhóm phát triển và vận hành Microservices tự động hóa các quy trình bảo trì và giảm thiểu các lỗi.
+Lợi ích của việc sử dụng **DevOps** với **Microservices**
 
-- **Tăng khả năng mở rộng**: Microservices có thể được mở rộng dễ dàng hơn các hệ thống Monolithic lớn. DevOps có thể giúp các nhóm phát triển và vận hành Microservices tự động hóa các quy trình mở rộng và giảm thiểu các lỗi.
+- **Tăng tốc độ phát triển và triển khai**: **DevOps** có thể giúp các nhóm phát triển và vận hành **Microservices** làm việc cùng nhau hiệu quả hơn, tự động hóa các quy trình và giảm thiểu các lỗi. Điều này có thể giúp tăng tốc độ phát triển và triển khai các hệ thống **Microservices**.
 
-- **Tăng khả năng đáp ứng**: Microservices có thể được đáp ứng nhanh hơn các hệ thống Monolithic lớn. DevOps có thể giúp các nhóm phát triển và vận hành Microservices tự động hóa các quy trình đáp ứng và giảm thiểu các lỗi.
+- **Cải thiện khả năng bảo trì**: **Microservices** có thể được bảo trì dễ dàng hơn các hệ thống **Monolithic** lớn. **DevOps** có thể giúp các nhóm phát triển và vận hành **Microseervices** tự động hóa các quy trình bảo trì và giảm thiểu các lỗi.
+
+- **Tăng khả năng mở rộng**: **Microservices** có thể được mở rộng dễ dàng hơn các hệ thống **Monolithic** lớn. **DevOps** có thể giúp các nhóm phát triển và vận hành **Microservices** tự động hóa các quy trình mở rộng và giảm thiểu các lỗi.
+
+- **Tăng khả năng đáp ứng**: **Microservices** có thể được đáp ứng nhanh hơn các hệ thống **Monolithic** lớn. **DevOps** có thể giúp các nhóm phát triển và vận hành **Microservices** tự động hóa các quy trình đáp ứng và giảm thiểu các lỗi.
 
 ## Thách thức
 
 Tuy nhiên, cũng cần lưu ý rằng **Microservices** và **DevOps** cũng có một số thách thức:
 
-- **Sự phức tạp**: Microservices có thể phức tạp hơn các hệ thống Monolithic lớn. DevOps có thể giúp giảm thiểu các thách thức này bằng cách cung cấp các công cụ và thực practices để quản lý các hệ thống Microservices phức tạp.
+- **Sự phức tạp**: **Microservices** có thể phức tạp hơn các hệ thống **Monolithic** lớn. **DevOps** có thể giúp giảm thiểu các thách thức này bằng cách cung cấp các công cụ và thực hành để quản lý các hệ thống **Microservices** phức tạp.
 
-- **Khả năng tương tác**: Các Microservices cần phải có khả năng tương tác với nhau để hoạt động như một hệ thống thống nhất. DevOps có thể giúp các nhóm phát triển và vận hành Microservices xác định và giải quyết các vấn đề về khả năng tương tác.
+- **Khả năng tương tác**: Các **Microservices** cần phải có khả năng tương tác với nhau để hoạt động như một hệ thống thống nhất. **DevOps** có thể giúp các nhóm phát triển và vận hành **Microservices** xác định và giải quyết các vấn đề về khả năng tương tác.
 
-- **Quản trị**: Các Microservices cần được quản trị một cách hiệu quả để đảm bảo rằng chúng hoạt động như một hệ thống thống nhất. DevOps có thể giúp các nhóm phát triển và vận hành Microservices xác định và giải quyết các vấn đề về quản trị.
+- **Quản trị**: Các **Microservices** cần được quản trị một cách hiệu quả để đảm bảo rằng chúng hoạt động như một hệ thống thống nhất. **DevOps** có thể giúp các nhóm phát triển và vận hành **Microservices** xác định và giải quyết các vấn đề về quản trị.
 
 ## So sánh Monolith và Microservices
 
@@ -39,15 +42,15 @@ Tuy nhiên, cũng cần lưu ý rằng **Microservices** và **DevOps** cũng c�
 
 ### Ưu điểm của kiến trúc Monolith
 
-- **Dễ phát triển**: Kiến trúc Monolith dễ dàng để xây dựng và triển khai ban đầu vì không có sự phân tách rõ ràng giữa các thành phần. Điều này có nghĩa là việc phát triển và triển khai ứng dụng Monolith ban đầu được thực hiện một cách đơn giản hơn so với các kiến trúc phức tạp hơn như Microservices.
+- **Dễ phát triển**: Kiến trúc **Monolith** dễ dàng để xây dựng và triển khai ban đầu vì không có sự phân tách rõ ràng giữa các thành phần. Điều này có nghĩa là việc phát triển và triển khai ứng dụng **Monolith** ban đầu được thực hiện một cách đơn giản hơn so với các kiến trúc phức tạp hơn như **Microservices**.
 
-- **Dễ hiểu và duy trì**: Vì tất cả các phần của ứng dụng Monolith được kết hợp lại, nên việc hiểu và duy trì mã nguồn Monolith thường dễ dàng hơn so với các kiến trúc phức tạp hơn. Với Monolith, các nhà phát triển và quản trị viên có thể nắm bắt tổng thể của ứng dụng một cách dễ dàng hơn, vì không cần xử lý các tương tác phức tạp giữa các dịch vụ độc lập như trong kiến trúc Microservices.
+- **Dễ hiểu và duy trì**: Vì tất cả các phần của ứng dụng **Monolith** được kết hợp lại, nên việc hiểu và duy trì mã nguồn **Monolith** thường dễ dàng hơn so với các kiến trúc phức tạp hơn. Với **Monolith**, các nhà phát triển và quản trị viên có thể nắm bắt tổng thể của ứng dụng một cách dễ dàng hơn, vì không cần xử lý các tương tác phức tạp giữa các dịch vụ độc lập như trong kiến trúc **Microservices**.
 
 ### Monolith cũng có nhược điểm:
 
-- **Độ linh hoạt kém**: Trong kiến trúc Monolith, một thay đổi nhỏ trong một thành phần có thể yêu cầu triển khai lại toàn bộ ứng dụng. Điều này làm giảm độ linh hoạt của hệ thống, vì các phần của ứng dụng được kết hợp chặt chẽ với nhau và không thể triển khai độc lập.
+- **Độ linh hoạt kém**: Trong kiến trúc **Monolith**, một thay đổi nhỏ trong một thành phần có thể yêu cầu triển khai lại toàn bộ ứng dụng. Điều này làm giảm độ linh hoạt của hệ thống, vì các phần của ứng dụng được kết hợp chặt chẽ với nhau và không thể triển khai độc lập.
 
-- **Kích thước lớn**: Khi ứng dụng Monolith mở rộng, kích thước của nó cũng tăng lên. Điều này có thể gây ra vấn đề hiệu suất, vì toàn bộ ứng dụng phải được triển khai và chạy trên cùng một máy chủ hoặc môi trường cloud duy nhất.
+- **Kích thước lớn**: Khi ứng dụng **Monolith** mở rộng, kích thước của nó cũng tăng lên. Điều này có thể gây ra vấn đề hiệu suất, vì toàn bộ ứng dụng phải được triển khai và chạy trên cùng một máy chủ hoặc môi trường **cloud** duy nhất.
 
 ## Microservices là gì?
 
@@ -57,15 +60,15 @@ Tuy nhiên, cũng cần lưu ý rằng **Microservices** và **DevOps** cũng c�
 
 ### Lợi ích của Microservices
 
-- **Linh hoạt và mở rộng**: Với kiến trúc Microservices, mỗi dịch vụ có thể được phát triển, triển khai và mở rộng độc lập. Điều này giúp tăng cường khả năng mở rộng và đáp ứng nhu cầu của ứng dụng. Thay vì triển khai toàn bộ ứng dụng khi có sự thay đổi hoặc mở rộng, chỉ cần triển khai các dịch vụ cụ thể liên quan đến thay đổi đó.
+- **Linh hoạt và mở rộng**: Với kiến trúc **Microservices**, mỗi dịch vụ có thể được phát triển, triển khai và mở rộng độc lập. Điều này giúp tăng cường khả năng mở rộng và đáp ứng nhu cầu của ứng dụng. Thay vì triển khai toàn bộ ứng dụng khi có sự thay đổi hoặc mở rộng, chỉ cần triển khai các dịch vụ cụ thể liên quan đến thay đổi đó.
 
-- **Độc lập công nghệ**: Mỗi dịch vụ trong kiến trúc Microservices có thể sử dụng công nghệ khác nhau phù hợp với yêu cầu của nó, mà không ảnh hưởng đến các dịch vụ khác trong hệ thống. Điều này cho phép các nhà phát triển lựa chọn công nghệ tốt nhất cho từng dịch vụ cụ thể, tăng cường tính linh hoạt và khả năng đáp ứng đối với các yêu cầu kỹ thuật và chức năng.
+- **Độc lập công nghệ**: Mỗi dịch vụ trong kiến trúc **Microservices** có thể sử dụng công nghệ khác nhau phù hợp với yêu cầu của nó, mà không ảnh hưởng đến các dịch vụ khác trong hệ thống. Điều này cho phép các nhà phát triển lựa chọn công nghệ tốt nhất cho từng dịch vụ cụ thể, tăng cường tính linh hoạt và khả năng đáp ứng đối với các yêu cầu kỹ thuật và chức năng.
 
 ### Microservices cũng có nhược điểm
 
-- **Phức tạp hóa**: Kiến trúc Microservices đòi hỏi sự quản lý phức tạp hơn do sự phân tách của các dịch vụ và việc phải xử lý các vấn đề về giao tiếp và đồng bộ giữa chúng. Việc phải duy trì và điều phối các dịch vụ độc lập nhau có thể tạo ra thách thức quản lý và phát triển hệ thống.
+- **Phức tạp hóa**: Kiến trúc **Microservices** đòi hỏi sự quản lý phức tạp hơn do sự phân tách của các dịch vụ và việc phải xử lý các vấn đề về giao tiếp và đồng bộ giữa chúng. Việc phải duy trì và điều phối các dịch vụ độc lập nhau có thể tạo ra thách thức quản lý và phát triển hệ thống.
 
-- **Khó hiểu và duy trì**: Với nhiều dịch vụ riêng biệt, mã nguồn của kiến trúc Microservices có thể trở nên phức tạp và khó hiểu hơn so với Monolith. Sự phân tách của các dịch vụ và các tương tác giữa chúng đòi hỏi sự hiểu biết sâu về kiến trúc và mã nguồn, cũng như khả năng duy trì và khắc phục sự cố trong hệ thống phân tán.
+- **Khó hiểu và duy trì**: Với nhiều dịch vụ riêng biệt, mã nguồn của kiến trúc **Microservices** có thể trở nên phức tạp và khó hiểu hơn so với **Monolith**. Sự phân tách của các dịch vụ và các tương tác giữa chúng đòi hỏi sự hiểu biết sâu về kiến trúc và mã nguồn, cũng như khả năng duy trì và khắc phục sự cố trong hệ thống phân tán.
 
 ## Phân biệt Monolith và Microservices
 
