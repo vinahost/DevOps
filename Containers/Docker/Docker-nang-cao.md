@@ -146,7 +146,9 @@ docker start {container_id/name}
 - Có thể dùng docker exec để đứng từ host và chỉ định cho container thực thi lệnh.
 - Vd: Đứng từ host, và liệt kê tất cả các file có trong container_1 thì ta có lệnh: 
 
+
     docker exec container_1 ls  
+
 
 Thoát khỏi **container** đang **access**
 
@@ -210,7 +212,7 @@ docker load -i filename.tar
 
 ```  
 
-**Note: **
+**Note:**
 
 - khi load image từ file thì image_name và image_tag sẽ là rỗng để đặt tên và tag cho image ta dùng lệnh  
 
@@ -330,7 +332,7 @@ docker network ls
 
 - host dùng khi container cần giao tiếp với host và sử dụng trực tiếp mạng của máy chủ đang chạy
 
-### Tạo **docker network**
+### Làm việc với **docker network**
 
 *Tạo network*
 ```js
