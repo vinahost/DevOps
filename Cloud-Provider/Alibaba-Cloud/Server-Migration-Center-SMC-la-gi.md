@@ -1,10 +1,10 @@
 # Server Migration Center (SMC) là gì ?
 
-**Server Migration Center (SMC)** là một nền tảng giúp người dùng dễ dàng di chuyển dữ liệu đa nền tảng và môi trường được phát triển bởi [Alibaba Cloud](https://vn.alibabacloud.com/). SMC cho phép bạn di chuyển một hoặc nhiều máy chủ nguồn đến Alibaba Cloud. Máy chủ nguồn có thể là máy chủ trong các trung tâm dữ liệu (servers in self-managed data centers) , máy ảo ( virtual machines ) , máy chủ trên các nền tảng đám mây khác (third-party cloud servers ) hoặc máy chủ của các loại khác nhau. Khi sử dụng SMC để di chuyển máy chủ, bạn sẽ bị tính phí cho các tài nguyên [Elastic Compute Service (ECS)](https://www.alibabacloud.com/vi/product/ecs) được sử dụng trong quá trình di chuyển. ECS bao gồm các trường hợp trung gian, bản snapshot và đĩa hệ thống và đĩa dữ liệu được gắn vào các trường hợp trung gian. 
+**Server Migration Center (SMC)** là một nền tảng giúp người dùng dễ dàng di chuyển dữ liệu đa nền tảng và môi trường được phát triển bởi [Alibaba Cloud](https://vn.alibabacloud.com/). **SMC** cho phép bạn di chuyển một hoặc nhiều máy chủ nguồn đến **Alibaba Cloud**. Máy chủ nguồn có thể là máy chủ trong các trung tâm dữ liệu (**servers in self-managed data centers**) , máy ảo (**virtual machines**) , máy chủ trên các nền tảng đám mây khác (**third-party cloud servers**) hoặc máy chủ của các loại khác nhau. Khi sử dụng **SMC** để di chuyển máy chủ, bạn sẽ bị tính phí cho các tài nguyên [Elastic Compute Service (ECS)](https://www.alibabacloud.com/vi/product/ecs) được sử dụng trong quá trình di chuyển. **ECS** bao gồm các trường hợp trung gian, bản **snapshot** và đĩa hệ thống và đĩa dữ liệu được gắn vào các trường hợp trung gian. 
 
 ### Lợi ích khi sử dụng Server Migration Center (SMC)
 
-Bên cạnh đó, SMC còn mang đến nhiều lợi ích vượt trội:
+Bên cạnh đó, **SMC** còn mang đến nhiều lợi ích vượt trội:
 
 - Độc lập với môi trường cơ bản của máy chủ nguồn: SMC hỗ trợ di chuyển các hình thức di chuyển như P2C, V2C và C2C và hoàn toàn tự động.
 - Khả năng di chuyển mà không bị gián đoạn và không cần dừng các dịch vụ trên máy chủ nguồn.
@@ -14,7 +14,7 @@ Bên cạnh đó, SMC còn mang đến nhiều lợi ích vượt trội:
 
 ### Quá trình Migration
 
-SMC bao gồm SMC client và SMC console. Hình ảnh bên dưới cho thấy cách chuyển một máy chủ thành Elastic Compute Service (ECS) image.
+**SMC** bao gồm **SMC client** và **SMC console**. Hình ảnh bên dưới cho thấy cách chuyển một máy chủ thành **Elastic Compute Service (ECS) image**.
 
 ![Server Migration Center (SMC) là gì ?](/Image/Server-Migration-Center-SMC-la-gi.png)
 

@@ -14,7 +14,7 @@
 **Dockerfile**
 ![Dockerfile](/Image/Dockerfile.png)
 
-Dockerfile là file config cho Docker để build ra image. Nó dùng một image cơ bản để xây dựng lớp image ban đầu. Một số image cơ bản: python, unbutu and alpine. Sau đó nếu có các lớp bổ sung thì nó được xếp chồng lên lớp cơ bản. Cuối cùng một lớp mỏng có thể được xếp chồng lên nhau trên các lớp khác trước đó.
+**Dockerfile** là **file config** cho **Docker** để **build** ra **image**. Nó dùng một **image** cơ bản để xây dựng lớp **image** ban đầu. Một số **image** cơ bản: **python**, **unbutu** and **alpine**. Sau đó nếu có các lớp bổ sung thì nó được xếp chồng lên lớp cơ bản. Cuối cùng một lớp mỏng có thể được xếp chồng lên nhau trên các lớp khác trước đó.
 
 **Các config :**
 
@@ -83,14 +83,14 @@ exec $@
 ```  
 
 
-Tiến hành build file Dockerfile
+Tiến hành **build** file **Dockerfile**
 
 ```js
 $ sudo docker build -t ubuntu-nginx . 
 
 ```  
 
-Tạo container từ image:
+Tạo **container** từ **image**:
 
 ```js
 sudo docker run -v <forder_in_computer>:<forder_in_container> -p <port_in_computer>:<port_in_container> -it <image_name> /bin/bash
@@ -101,7 +101,7 @@ sudo docker run -v <forder_in_computer>:<forder_in_container> -p <port_in_comput
 > - -p: Cổng mạng từ máy thật để dẫn tới cổng mạng của máy ảo đang chạy.
 > - -t: Chạy container và mở terminal bằng /bin/bash
 
-Ví dụ vào localhost mặc định của nginx:  
+Ví dụ vào **localhost** mặc định của **nginx**:  
 
 ```js
 sudo docker run -p 9000:80 -it ubuntu-nginx /bin/bash
@@ -116,7 +116,7 @@ sudo docker run -v  /home/webroot:/var/www/html -p 9000:80 -it ubuntu-nginx /bin
 
 ### Các lệnh thường dùng
 
-Build container từ image
+Build **container** từ **image**
 
 ```js
 $ docker run --name {container_name} -it {image_id/name:tag} /bin/bash
@@ -128,7 +128,7 @@ $ docker run --name {container_name} -it {image_id/name:tag} /bin/bash
 > - -p {host_port}:{container_port} , -h {container_host} optional
 > - Còn nhiều option khác, các bạn có thể tìm hiểu thêm
 
-start/stop một container khởi chạy container đã build
+`start/stop` một **container** khởi chạy **container** đã **build**
 
 ```js
 docker start {container_id/name} # Khởi động lại container
@@ -140,7 +140,7 @@ docker start {container_id/name}
 > - Có thể dùng docker exec để đứng từ host và chỉ định cho container thực thi lệnh.
 > - Vd: Đứng từ host, và liệt kê tất cả các file có trong container_1 thì ta có lệnh: docker exec container_1 ls  
 
-Thoát khỏi container đang access
+Thoát khỏi **container** đang **access**
 
 ```js
 exit  # thoát và stop luôn container  
@@ -148,32 +148,32 @@ ctrl + d # thoát và stop luôn container
 ctrl + p, ctrl + q # dùng cả 2 tỏ hợp phím này để thoát contraner mà vẫn giữ cho container chạy
 
 ```  
-Liệt kê các container
+Liệt kê các **container**
 
 ```js
 docker ps # Liệt kê các container đang chaỵ
 docker ps -a #Liệt kê tất các container bao gồm container đã tắt
 ```  
-Xóa một container
+Xóa một **container**
 
 ```js
 docker rm -f {container_id/name}
 ```  
 
-Đổi tên một container
+Đổi tên một **container**
 
 ```js
 docker rename {old_container_name} {new_container_name}
 ```  
 
-Xem các thay đổi trên container
+Xem các thay đổi trên **container**
 
 ```js
 docker diff {container_name}
 
 ```  
 
-Lưu container thành image: trong trường hợp bạn muốn lưu container của bạn thành image để thuận tiện share cho ng khác hoặc đem đi cài trên máy khác thì bạn dùng lệnh sau
+Lưu **container** thành **image**: trong trường hợp bạn muốn lưu **container** của bạn thành **image** để thuận tiện **share** cho ng khác hoặc đem đi cài trên máy khác thì bạn dùng lệnh sau
 
 ```js
 docker commit {container_id/name} {image_name}:{tag}
@@ -183,7 +183,7 @@ docker commit {container_id/name} {image_name}:{tag}
 > - Phải stop container trước khi bạn lưu.
 > - {image_name}:{tag} đặt tên image và version cho container sau khi lưu.  
 
-Lưu image thành file để tiện share
+Lưu **image** thành **file** để tiện **share**
 
 ```js
 docker save --output filename.tar {image_id/name}
@@ -191,7 +191,7 @@ docker save --output filename.tar {image_id/name}
 ```  
 > Note: filename.tar sẽ được lưu ở vị trí bạn đang đứng trong terminal  
 
-Load image từ file ra để sử dụng
+**Load image** từ **file** ra để sử dụng
 
 ```js
 docker load -i filename.tar
@@ -206,7 +206,7 @@ docker tag {image_id} {new_name:new_version}
 
 ### Data Volume
 
-Data volume dùng để chia sẻ dữ liệu, thông thường ta sẽ dùng cho những trường hợp sau:
+**Data volume** dùng để chia sẻ dữ liệu, thông thường ta sẽ dùng cho những trường hợp sau:
 
 - Để giữ lai dữ liệu của container
 - Để chia sẻ dữ liệu giữa host và doker container
@@ -225,7 +225,7 @@ docker run -it -v /home/hautp/share_data:/home/share_data --name C1 ubuntu:22.04
 
 *Giữa containter với nhau:*
 
-Để tạo ra một container có tên là C2 và cũng cùng chia sẻ giữ liệu của C1 (/home/share_data) ta dùng lệnh
+Để tạo ra một **container** có tên là **C2** và cũng cùng chia sẻ giữ liệu của **C1** (*/home/share_data*) ta dùng lệnh
 
 ```js
 docker run -it --name C2 --volumes-from C1 ubuntu:22.04
@@ -267,7 +267,7 @@ docker run -it --name C1 --mount source=Disk_1,target=/home/disk_1 ubuntu:22.04
 > - source=Disk_1 tên ổ đĩa mà mình muốn gán
 > - target=/home/disk_1 vị trí mà ổ đĩa Disk_1 ánh xạ vào thư mục /home/disk_1 của container  
 
-Chia sẻ dữ liệu ổ đĩa Volume với host và containter
+Chia sẻ dữ liệu ổ đĩa **Volume** với **host** và **containter**
 
 *Tạo ổ đĩa ánh xạ với host*
 ```js
@@ -284,7 +284,7 @@ docker run -it --name C2 -v Disk_2:/home/disk_2 ubuntu:22.04
 
 ### Khái niệm và các default Docker Network
 
-Docker network là nơi sẽ đảm nhiệm nhiệm vụ cho container kết nối vào network
+**Docker network** là nơi sẽ đảm nhiệm nhiệm vụ cho **container** kết nối vào **network**
 
 - Các container cùng một network có thể liên lạc với nhau qua tên của container và cổng (port) được lắng nghe của container trên mạng đó
 
@@ -296,7 +296,7 @@ Docker network là nơi sẽ đảm nhiệm nhiệm vụ cho container kết n�
 
 - Có thể cung cấp hầu hết các chức năng mà một hệ thống mạng bình thường cần có.
 
-Có 3 loại networks được tự động tạo ra trong docker là bridge, none, host ta có thể xem bằng lệnh
+Có 3 loại **networks** được tự động tạo ra trong **docker** là **bridge**, **none**, **host** ta có thể xem bằng lệnh
 
 ```js
 docker network ls
@@ -308,14 +308,14 @@ docker network ls
 
 - host dùng khi container cần giao tiếp với host và sử dụng trực tiếp mạng của máy chủ đang chạy
 
-Tạo docker network
+Tạo **docker network**
 
 *Tạo network*
 ```js
 docker network create --driver bridge network1
 
 ```  
-Lệnh trên tạo ra mạng network1 ta kiểm tra bằng lệnh
+Lệnh trên tạo ra mạng **network1** ta kiểm tra bằng lệnh
 
 ```js
 docker network ls
@@ -342,7 +342,7 @@ docker network inspect network1
  
 *sẽ thấy có container B4 kết nối*
 
-Kết nối một container đang chạy với một mạng khác
+Kết nối một **container** đang chạy với một mạng khác
 
 *Ví dụ: ta có 2 network là network1 và network2 có một container B5 đang kết nối với mạng network1 và ta muốn container này kết nối với cả network2 thì ta chạy lệnh*
 
@@ -351,8 +351,9 @@ docker network connect network2 B5
 ```  
 *Lệnh trên là kết nối container B5 vào mạng network2*
 
-**Docker Hub **
-Docker Hub là một dịch vụ do Docker cung cấp, cho phép tìm kiếm và chia sẻ các container images. Các tính năng chính của Docker Hub là:
+**Docker Hub**
+
+**Docker Hub** là một dịch vụ do **Docker** cung cấp, cho phép tìm kiếm và chia sẻ các **container images**. Các tính năng chính của **Docker Hub** là:
 
 - Repositories: Push và pull container images.
 - Teams & Organizations: Quản lý quyền truy cập vào private repositories của container images.
@@ -361,25 +362,26 @@ Docker Hub là một dịch vụ do Docker cung cấp, cho phép tìm kiếm và
 - Builds: Tự động tạo container images từ GitHub và Bitbucket. Push chúng lên Docker Hub.
 - Webhooks: Kích hoạt các actions sau khi push thành công một repository lên Docker Hub với các dịch vụ khác.
 
-Để sử dụng Docker Hub, bạn hãy đăng ký một tài khoản [tại đây](https://hub.docker.com/).
+Để sử dụng **Docker Hub**, bạn hãy đăng ký một tài khoản [tại đây](https://hub.docker.com/).
 
 ### Docker compose
 
-Là công cụ giúp ta thiết lập và quản lý nhiều container, network, volume (gọi chung là các service) và thiết lập cấu hình cho các service một cách nhanh chóng và đơn giản bằng việc chạy theo các chỉ định trong file docker-compose.yml
+Là công cụ giúp ta thiết lập và quản lý nhiều **container**, **network**, **volume** (gọi chung là các **service**) và thiết lập cấu hình cho các **service** một cách nhanh chóng và đơn giản bằng việc chạy theo các chỉ định trong file `docker-compose.yml`
 
 *Những tính năng chính của Compose bao gồm:*
+
 - Tạo và quản lý nhiều môi trường độc lập trong một máy host đảm bảo độc lập các phân vùng ổ nhớ tránh say ra xung đột
 - Chỉ tạo lại container thay đổi, nhận biết các container không thay đổi và sử dụng lại
 - Định nghĩa và sử dụng biến môi trường trong file YAML
 
 *Docker-compose.yml*
 
-Là một file lưu dạng yaml, file này lưu các chỉ thị để docker compose đọc file này và thực thi các chỉ thị đó, các chỉ thị như tạo container từ image, tạo network, cấu hình cho các dịch vụ. VD: file docker-compose.yml như sau
+Là một file lưu dạng **yaml**, file này lưu các chỉ thị để **docker compose** đọc file này và thực thi các chỉ thị đó, các chỉ thị như tạo **container** từ **image**, tạo **network**, cấu hình cho các dịch vụ. VD: file `docker-compose.yml` như sau
 
 ```js
 version: "3" #là phiên bản docker composer
 
-#Tạo mạng tên là my-network
+# Tạo mạng tên là my-network
 networks:
     my-network:
         driver: bridge
@@ -387,7 +389,7 @@ networks:
 # Tạo các dịch vụ (container)
 services:
 
-    #Tạo container my-php từ imgae php:latest có kết nối với mạng my-network
+    # Tạo container my-php từ imgae php:latest có kết nối với mạng my-network
     my-php:
         container_name: php-product
         image: 'php:latest'
@@ -396,7 +398,7 @@ services:
         networks:
             - my-network
 
-    #Tạo container my-httpd từ imgae httpd:latest có kết nối với mạng my-network, ánh xạ cổng 9999 của máy host vào cổng 80
+    # Tạo container my-httpd từ imgae httpd:latest có kết nối với mạng my-network, ánh xạ cổng 9999 của máy host vào cổng 80
     my-httpd:
         container_name: c-httpd01
         image: 'httpd:latest'
@@ -408,7 +410,7 @@ services:
             - "9999:80"
             - "443:443"
             
-     #Tạo container my-mysql từ imgae mysql:latest có kết nối với mạng my-network,config các biến môi trường
+     # Tạo container my-mysql từ imgae mysql:latest có kết nối với mạng my-network,config các biến môi trường
     my-mysql:
         container_name: myql-product
         image: "mysql:latest"
@@ -423,29 +425,29 @@ services:
             - MYSQL_PASSWORD=123abc
 
 ```  
-Vào thư mục chứa file docker-compose.yml và chạy lệnh
+Vào thư mục chứa file `docker-compose.yml` và chạy lệnh
 
 ```js
 docker-compose up
 
 ```  
-Vậy là xong rồi, giờ ta bật một terminal khác để kiểm tra xem đã có các container và network theo như mục tiêu đề ra hay chưa
+Vậy là xong rồi, giờ ta bật một **terminal** khác để kiểm tra xem đã có các **container** và **network** theo như mục tiêu đề ra hay chưa
 
-Chạy lệnh *docker ps* và *docker network ls* để xem danh sách container đang chạy và network
+Chạy lệnh *docker ps* và *docker network ls* để xem danh sách **container** đang chạy và **network**
 
-Muốn dừng các services đang chạy thì ta dùng lệnh
+Muốn dừng các **services** đang chạy thì ta dùng lệnh
 
 ```js
 docker-compose stop
 
 ```  
-Để kết thúc các services đang chạy và xóa hoàn toàn container ta dùng lệnh
+Để kết thúc các **services** đang chạy và xóa hoàn toàn **container** ta dùng lệnh
 
 ```js
 docker-compose down
 
 ```  
-Theo dõi Logs các services
+Theo dõi **Logs** các **services**
 
 ```js
 docker-compose logs [SERVICES]

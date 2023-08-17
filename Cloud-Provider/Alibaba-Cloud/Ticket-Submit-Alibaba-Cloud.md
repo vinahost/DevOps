@@ -2,7 +2,7 @@
 
 1) Alibaba Cloud After-Sales Support Plan
 
-Đối với mọi khách hàng sử dụng các giải pháp, sản phẩm của **Alibaba Cloud** đều được cung cấp gói hỗ trợ **Basic** (hỗ trợ theo Ticket) đi kèm hoàn toàn miễn phí.
+Đối với mọi khách hàng sử dụng các giải pháp, sản phẩm của **Alibaba Cloud** đều được cung cấp gói hỗ trợ **Basic** (hỗ trợ theo **Ticket**) đi kèm hoàn toàn miễn phí.
 
 ![Submit Ticket trên Alibaba Cloud](../../Image/Ticket-Submit01.png)
 
@@ -18,13 +18,13 @@
 
 ![Submit Ticket trên Alibaba Cloud](../../Image/Ticket-Submit03.png)
 
-Tại trang **New Ticket**, chọn loại support ticket tương ứng với nhu cầu của bạn,
+Tại trang **New Ticket**, chọn loại **support ticket** tương ứng với nhu cầu của bạn,
 
 ![Submit Ticket trên Alibaba Cloud](../../Image/Ticket-Submit04.png)
 
 ![Submit Ticket trên Alibaba Cloud](../../Image/Ticket-Submit05.png)
 
-Chọn loại **Ticket** phù hợp với nhu cầu của bạn. Nhấn **Ask** đối với** Consulting & Technical Ticket** hoặc nhấp vào tên sản phẩm bạn cần được hỗ trợ đối với **Product Ticket**.
+Chọn loại **Ticket** phù hợp với nhu cầu của bạn. Nhấn **Ask** đối với **Consulting & Technical Ticket** hoặc nhấp vào tên sản phẩm bạn cần được hỗ trợ đối với **Product Ticket**.
 
 ### Hướng dẫn tạo support ticket trên Alibaba CLoud
 
@@ -36,7 +36,7 @@ Trên trang **New Ticket** hiện ra, nhập các thông tin cụ thể bạn c�
 
 ![Submit Ticket trên Alibaba Cloud](../../Image/Ticket-Submit07.png)
 
-Tiếp theo là thông tin về mức độ nghiêm trọng của sự cố. Sự cố nghiêm trọng, cấp bách hơn đồng nghĩa với việc bạn cần và sẽ được hỗ trợ nhanh hơn. Tuy nhiên hãy lưu ý rằng số lần bạn được **raise ticket** cho những trường hợp nghiêm trọng sẽ ít hơn so với ticket thường (*đối với gói hỗ trợ miễn phí*).
+Tiếp theo là thông tin về mức độ nghiêm trọng của sự cố. Sự cố nghiêm trọng, cấp bách hơn đồng nghĩa với việc bạn cần và sẽ được hỗ trợ nhanh hơn. Tuy nhiên hãy lưu ý rằng số lần bạn được **raise ticket** cho những trường hợp nghiêm trọng sẽ ít hơn so với **ticket** thường (*đối với gói hỗ trợ miễn phí*).
 
 Cụ thể, **Critical** sẽ được dùng cho những trường hợp cần hỗ trợ nhanh (bạn sẽ được hỗ trợ trong vòng **15 phút**) và **Consulting** sẽ được dùng với những sự cố nhỏ và ít ảnh hưởng hơn (bạn sẽ được hỗ trợ được trong thời gian **18 tiếng**).
 
@@ -58,7 +58,7 @@ Khi quá trình gởi **Ticket** đã hoàn tất, bạn có thể kiểm tra th
 
 Vậy là chúng ta đã hoàn tất việc tìm hiểu về các **Support Package** của **Alibaba Cloud** và **raise ticket** yêu cầu hỗ trợ.
 
-Chúc bạn sẽ có những trải nghiệm tốt với dịch vụ của Alibaba Cloud nhé!
+Chúc bạn sẽ có những trải nghiệm tốt với dịch vụ của **Alibaba Cloud** nhé!
 
 *Author*: **Vo Thi Phuong Anh**
 

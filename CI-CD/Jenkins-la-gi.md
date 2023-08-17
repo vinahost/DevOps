@@ -1,6 +1,6 @@
 # Jenkins là gì ?
 
-![img](../Image/Jenkins-Devops.png)
+![Jenkins](../Image/Jenkins-Devops.png)
 
 **Jenkins** là một công cụ tự động hóa quy trình **Tích hợp liên tục (CI)** và **Phát hành liên tục (CD)**. Nó là một nền tảng mã nguồn mở, miễn phí và có thể được sử dụng để tự động hóa các nhiệm vụ như xây dựng, kiểm tra và triển khai mã. **Jenkins** có thể được triển khai trên máy chủ cục bộ hoặc máy chủ đám mây và có thể được sử dụng với nhiều ngôn ngữ lập trình và khung công tác khác nhau.
 

@@ -2,7 +2,7 @@
 
 **CI/CD Pipelines** (hay còn được gọi là Tích hợp liên tục/Phát hành liên tục **Pipelines**) là một tập hợp các công cụ và quy trình tự động hóa việc xây dựng, kiểm tra và triển khai mã. Các đường ống này thường được sử dụng trong phát triển phần mềm để đảm bảo rằng mã được xây dựng và triển khai một cách nhất quán và đáng tin cậy.
 
-![img](../Image/CI-CD-Pipelines.png)
+![CI/CD Pipelines](../Image/CI-CD-Pipelines.png)
 
 ### Xây dựng CI/CD Pipelines theo các bước
 

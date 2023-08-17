@@ -12,15 +12,15 @@ OSS lưu trữ dữ liệu trong các **buckets**. Vì thế, để bắt đầu
 
 Sau khi đăng nhập thành công, từ giao diện console của Alibaba Cloud, chọn vào menu ở góc trái, chọn **Object Storage Service**.
 
-![img](../../Image/OSS01.png)
+![Alibaba Cloud Object Storage Service (OSS)](../../Image/OSS01.png)
 
 Tiếp tục chọn **Object Storage Service**
 
-![img](../../Image/OSS02.png)
+![Alibaba Cloud Object Storage Service (OSS)](../../Image/OSS02.png)
 
 Tại trang **OSS Console**, chọn **Buckets**. Sau đó chọn vào **Create Bucket** để bắt đầu tạo một bucket.
 
-![img](../../Image/OSS03.png)
+![Alibaba Cloud Object Storage Service (OSS)](../../Image/OSS03.png)
 
 Sau đó, cửa sổ **Create Bucket** sẽ hiện lên để bắt đầu nhập thông tin của Bucket cần tạo.
 
@@ -29,7 +29,7 @@ Sau đó, cửa sổ **Create Bucket** sẽ hiện lên để bắt đầu nhậ
 - **Endpoint**: Để mặc định
 - **Resource Group** (không bắt buộc): để mặc định. Nếu bạn cần phân chia tài nguyên vào các nhóm, chọn Resource Group tương ứng của bạn.
 
-![img](../../Image/OSS04.png)
+![Alibaba Cloud Object Storage Service (OSS)](../../Image/OSS04.png)
 
 - **Storage Class**: chọn **Standard**. Đây là bộ nhớ được dùng phổ biến nhất, xử lý tốt các dữ liệu cần truy cấn thường xuyên.
 - **Redundancy**: chọn **LRS**. LRS là chế độ Locally redundant storage, sử dụng cơ chế single-zone (một vùng) để phân phổi dữ liệu. LRS sẽ có mức giá rẻ hơn so với ZRS – sử dụng cơ chế multi-zone (đa vùng).
@@ -37,31 +37,31 @@ Sau đó, cửa sổ **Create Bucket** sẽ hiện lên để bắt đầu nhậ
 - **Versioning**: giữ mặc định (**Not Activated**). Versioning là chế độ giúp lưu trữ lại cái phiên bản của các file trong bucket OSS, nghĩa là nếu một file bị ghi đè, versioning sẽ thể hiện nó dưới dạng phiên bản.
 - **Access Control List (ACL)**: chọn **Public Read**. Chế độ này cho phép những người dùng bên ngoài có thể xem dữ liệu bên trong Bucket OSS.
 
-![img](../../Image/OSS05.png)
+![Alibaba Cloud Object Storage Service (OSS)](../../Image/OSS05.png)
 
 - **Encryption Method**: Chọn **None**.
 - **Real-time Log Query**: giữ mặc định (**Not Activated**). Trong trường hợp bạn cần truy vấn và phân tích các đối tượng trong bối cảnh thời gian thực, bạn có thể chọn **Activate Real-time Log Query**.
 - **Scheduled Backup**: dùng để tự động Back-up tự động dữ liệu sau một khoảng thời gian – mặc định là một lần một ngày (được hỗ trợ bởi **Hybrid Backup Recovery**). Trong bài hướng dẫn này, chúng ta sẽ giữ mặc định – **Not Activated**.
 
-![img](../../Image/OSS06.png)
+![Alibaba Cloud Object Storage Service (OSS)](../../Image/OSS06.png)
 
 Sau khi nhấn tạo, **Bucket** được tạo thành công sẽ được hiển thị trong tab **Bucket** của OSS.
 
-![img](../../Image/OSS07.png)
+![Alibaba Cloud Object Storage Service (OSS)](../../Image/OSS07.png)
 
 ### Upload dữ liệu vào bucket
 Sau khi tạo thành công một bucket, bạn có thể bắt đầu thêm dữ liệu vào Bucket. Để thêm file vào OSS Bucket, nhấn vào tên **Bucket**, tại tab **Objects**, chọn **Upload**.
 
-![img](../../Image/OSS08.png)
+![Alibaba Cloud Object Storage Service (OSS)](../../Image/OSS08.png)
 
 Tại trang **Upload** hiện ra, chọn S**elect File** hoặc **Select Folder** để chọn **File/Folder**. Sau khi chọn xong các files, nhấn **Upload** ở cuối trang để hoàn tất.
 
-![img](../../Image/OSS09.png)
+![Alibaba Cloud Object Storage Service (OSS)](../../Image/OSS09.png)
 
 ### Xóa một bucket
 Bạn có thể xóa một bucket trong OSS bằng cách nhấn vào tên **Bucket** đó trong mục các **Bucket**. Tại cửa sổ chi tiết của bucket, chọn **Delete** và kiểm tra các điều kiện để xóa bucket:
 
-![img](../../Image/OSS10.png)
+![Alibaba Cloud Object Storage Service (OSS)](../../Image/OSS10.png)
 
 Nhấn **Delete** để xóa bucket.
 

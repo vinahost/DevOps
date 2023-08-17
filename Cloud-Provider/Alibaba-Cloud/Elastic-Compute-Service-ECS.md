@@ -10,11 +10,11 @@
 
 Sau khi đăng nhập thành công, từ giao diện console của Alibaba Cloud, chọn vào menu ở góc trái, chọn **Elastic Compute Service**.
 
-![img](../../Image/ECS01.png)
+![Elastic Compute Service (ECS)](../../Image/ECS01.png)
 
 Sau đó chọn **Create Instance** trong phần **My Resources**.
 
-![img](../../Image/ECS02.png)
+![Elastic Compute Service (ECS)](../../Image/ECS02.png)
 
 Sau khi chọn **Create Instance**, chọn **Custom Launch** để có thể xem được tất cả các thông số của máy ảo mới. Để tạo một máy ảo, ta sẽ đi qua 5 giai đoạn:
 
@@ -24,7 +24,7 @@ Sau khi chọn **Create Instance**, chọn **Custom Launch** để có thể xem
 - **Grouping** (chọn nhóm bảo mật cho máy ảo) - không bắt buộc
 - **Preview** (xem lại các thông số chi tiết đã lựa chọn cho máy ảo).
 
-![img](../../Image/ECS03.png)
+![Elastic Compute Service (ECS)](../../Image/ECS03.png)
 
 ### Giai đoạn 1: Set-up các thông số cơ bản (Basic Configurations)
 
@@ -38,13 +38,13 @@ Sau khi chọn **Create Instance**, chọn **Custom Launch** để có thể xem
 - **Region** là khu vực của data center mà máy ảo của bạn sẽ được deploy, nên chọn khu vực ở gần nhất để đạt được hiệu suất truy cập ổn định. Bạn có thể Region là **Singapore**.
 - **Zone** là vùng tương ứng với mỗi khu vực, chọn Random.
 
-![img](../../Image/ECS04.png)
+![Elastic Compute Service (ECS)](../../Image/ECS04.png)
 
 **Instance Type:** loại máy ảo mà bạn chọn sử dụng.
 
 - Alibaba Cloud hỗ trợ nhiều loại kiến trúc (**architecture**) và loại máy ảo (**category**) khác nhau. Chọn kiến trúc x86, loại **ecs.g6.large**.
 
-![img](../../Image/ECS05.png)
+![Elastic Compute Service (ECS)](../../Image/ECS05.png)
 
 - **Quantity:** số lượng instance, để mặc định là 1.
 - **Image:** hệ điều hành và các dịch vụ (nếu có) chạy cho máy ảo. Alibaba Cloud cung cấp nhiều hình thức để lựa chọn image:
@@ -52,7 +52,7 @@ Sau khi chọn **Create Instance**, chọn **Custom Launch** để có thể xem
 
 - **Storage:** Elastics Block Storage dùng cho ECS Instance. Chọn **Enhanced SSD (ESSD)** với 40 GiB.
 
-![img](../../Image/ECS06.png)
+![Elastic Compute Service (ECS)](../../Image/ECS06.png)
 
 Sau khi chọn xong, chọn **Next** ở cuối trang.
 
@@ -72,7 +72,7 @@ Sau khi chọn xong, chọn **Next** ở cuối trang.
 - Port 3389 được sử dụng để đăng nhập vào Remote Desktop trên Windows.
 
 
-![img](../../Image/ECS07.png)
+![Elastic Compute Service (ECS)](../../Image/ECS07.png)
 
 Hoàn tất set-up **Network**, chọn **Next**.
 
@@ -94,11 +94,11 @@ Xem lại tất cả các thông tin của instance sắp được tạo, cùng 
 
 **Popup** xác nhận như bên dưới sẽ hiện lên, nhấn **Console** để hoàn tất và di chuyển để tab **Instances**.
 
-![img](../../Image/ECS08.png)
+![Elastic Compute Service (ECS)](../../Image/ECS08.png)
 
 Sau khi nhấn **Console**, **Instance** được tạo thành công sẽ có trạng thái **Running**!
 
-![img](../../Image/ECS08.png)
+![Elastic Compute Service (ECS)](../../Image/ECS08.png)
 
 Chúc mừng bạn đã tạo thành công máy ảo trong ECS! Để thực hiện các thao tác liên quan với instance, nhấn vào các tên thao tác trong mục **Actions** được hiển thị cùng dòng với thông tin máy ảo.
 

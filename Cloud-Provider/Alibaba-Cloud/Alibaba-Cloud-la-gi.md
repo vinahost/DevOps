@@ -2,7 +2,7 @@
 
 **Alibaba Cloud**, còn được gọi là **Aliyun**, là một nền tảng điện toán đám mây cung cấp một loạt các dịch vụ cho doanh nghiệp và cá nhân. Nền tảng này cung cấp một loạt các dịch vụ, bao gồm máy chủ ảo, lưu trữ, cơ sở dữ liệu, mạng, phân tích dữ liệu, trí tuệ nhân tạo và máy học.
 
-![img](/Image/Alibaba-Cloud.png)
+![Alibaba Cloud](/Image/Alibaba-Cloud.png)
 
 **Alibaba Cloud** được thành lập vào năm 2009 và là một trong những nền tảng điện toán đám mây lớn nhất thế giới. Nền tảng này được sử dụng bởi hơn 2.400 doanh nghiệp và 200 triệu người dùng trên toàn thế giới.
 
