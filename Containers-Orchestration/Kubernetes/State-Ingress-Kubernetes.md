@@ -72,7 +72,7 @@ Một cách khác để nghĩ về **PVs** và **PVCs** như sau:
 - PVs được tạo bởi Kubernetes Admin
 - PVCs được tạo bởi người dùng hoặc nhà phát triển ứng dụng
 
-Cũng có 2 loại volumes khác mà chúng ta sẽ không đi vào chi tiết nhưng có được đề cập đến: 
+Cũng có 2 loại **volumes** khác mà chúng ta sẽ không đi vào chi tiết nhưng có được đề cập đến: 
 
 ## ConfigMaps | Secrets
 
@@ -140,7 +140,7 @@ Chúng ta cũng có **persistent volume** và **persistent volume claim**, lện
 
 Vì chúng ta đang sử dụng **Minikube** và như đã đề cập trong ứng dụng phi trạng thái, chúng ta có một số trở ngại cần vượt qua khi truy cập ứng dụng của mình. Tuy nhiên, chúng ta có quyền truy cập vào **ingress** hoặc **load balancer** trong **cluster** của mình, **service** được thiết lập để tự động nhận **IP** từ đó có thể truy cập từ bên ngoài (bạn có thể thấy điều này ở trên trong hình ảnh chụp các thành phần trong **Pacman namespace**).
 
-Đối với **demo** này, chúng ta sẽ sử dụng phương thức chuyển tiếp cổng để truy cập ứng dụng của mình. Bằng cách mở một **terminal** và chạy lệnh `kubectl port-forward svc/pacman 9090:80 -n pacman`. Mở trình duyệt và giờ đây, chúng ta sẽ có quyền truy cập vào ứng dụng của mình. Nếu bạn đang chạy ứng dụng này trên Alibaba cLoud thì nó cũng sẽ báo vị trí trên đám mây cũng như máy chủ chạy **pod** của bạn trong **Kubernetes**, một lần nữa bạn có thể nhìn lại và thấy tên **pod** này trên những ảnh chụp màn hình của chúng ta ở trên.
+Đối với **demo** này, chúng ta sẽ sử dụng phương thức chuyển tiếp cổng để truy cập ứng dụng của mình. Bằng cách mở một **terminal** và chạy lệnh `kubectl port-forward svc/pacman 9090:80 -n pacman`. Mở trình duyệt và giờ đây, chúng ta sẽ có quyền truy cập vào ứng dụng của mình. Nếu bạn đang chạy ứng dụng này trên **Alibaba Coud** thì nó cũng sẽ báo vị trí trên đám mây cũng như máy chủ chạy **pod** của bạn trong **Kubernetes**, một lần nữa bạn có thể nhìn lại và thấy tên **pod** này trên những ảnh chụp màn hình của chúng ta ở trên.
 
 ![State Ingress Kubernetes](../../Image/State-Ingress-Kubernetes08.png)
 
@@ -148,7 +148,7 @@ Bây giờ chúng ta có thể chơi và ghi điểm số, sau đó nó sẽ đ�
 
 ![State Ingress Kubernetes](../../Image/State-Ingress-Kubernetes09.png)
 
-OK, thât tuyệt nếu chúng ta có thể có một điểm số cao nhưng điều gì sẽ xảy ra nếu chúng ta xoá **pod** `mongo-0`? Bằng lệnh ``kubectl delete pod mongo-0 -n pacman` tôi có thể xoá nó và nếu bạn vẫn ở trong ứng dụng, bạn sẽ thấy điểm số sẽ không khả dụng ít nhất trong vài giây.
+OK, thât tuyệt nếu chúng ta có thể có một điểm số cao nhưng điều gì sẽ xảy ra nếu chúng ta xoá **pod** `mongo-0`? Bằng lệnh `kubectl delete pod mongo-0 -n pacman` tôi có thể xoá nó và nếu bạn vẫn ở trong ứng dụng, bạn sẽ thấy điểm số sẽ không khả dụng ít nhất trong vài giây.
 
 ![State Ingress Kubernetes](../../Image/State-Ingress-Kubernetes010.png)
 
@@ -179,7 +179,8 @@ Chúng ta cũng đã nói về **NodePort** là một tuỳ chọn, nhưng một
 Nếu bạn đang sử dụng nhà cung cấp điện toán đám mây, một dịch vụ **Kubernetes** được quản lý rất có thể sẽ có tuỳ chọn **ingress** của họ hoặc họ sẽ cung cấp cho bạn tuỳ chọn cân bằng tải. Bạn không phải tự mình triển khai điều này, một trong những lợi ích của dịch vụ **Kubernetes** được quản lý.
 
 Nếu bạn đang chạy **cluster** của mình thì bạn sẽ cần cấu hình một **entrypoint**
-If you are running your cluster then you will need to configure an entrypoint.
+
+> If you are running your cluster then you will need to configure an entrypoint.
 
 ### Cấu hình Ingress với Minikube
 
@@ -221,6 +222,6 @@ Nếu bạn có tài liệu **MIỄN PHÍ** mà bạn đã sử dụng thì vui 
 - [TechWorld with Nana - Kubernetes Crash Course for Absolute Beginners](https://www.youtube.com/watch?v=s_o8dwzRlu4)
 - [Kunal Kushwaha - Kubernetes Tutorial for Beginners | What is Kubernetes? Architecture Simplified!](https://www.youtube.com/watch?v=KVBON1lA9N8)
 
-Bài viết này tạm thời kết thúc phần **Kubernetes** của chúng ta, có rất nhiều nội dung khác mà chúng ta có thể trình bày về **Kubernetes** và các bài viết chỉ giúp chúng ta có được kiến thức cơ bản, mọi người có thể xem qua [100DaysOfKubernetes](https://100daysofkubernetes.io/overview.html) để có một cái nhìn đầy đủ hơn.
+Bài viết này tạm thời kết thúc, có rất nhiều nội dung khác mà chúng ta có thể trình bày về **Kubernetes** và các bài viết chỉ giúp chúng ta có được kiến thức cơ bản, mọi người có thể xem qua [100DaysOfKubernetes](https://100daysofkubernetes.io/overview.html) để có một cái nhìn đầy đủ hơn.
 
 Tiếp theo, chúng ta sẽ xem xét đến Cơ sở hạ tầng dưới dạng mã (**Infrastructure as Code - IaC**) và tầm quan trọng của nó từ góc độ **DevOps**.
