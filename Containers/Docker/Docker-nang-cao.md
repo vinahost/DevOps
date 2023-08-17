@@ -146,9 +146,9 @@ docker start {container_id/name}
 - Có thể dùng docker exec để đứng từ host và chỉ định cho container thực thi lệnh.
 - Vd: Đứng từ host, và liệt kê tất cả các file có trong container_1 thì ta có lệnh: 
 
-
-    docker exec container_1 ls  
-
+```js
+docker exec container_1 ls  
+``` 
 
 Thoát khỏi **container** đang **access**
 
