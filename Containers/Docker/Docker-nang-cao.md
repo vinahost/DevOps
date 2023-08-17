@@ -141,7 +141,7 @@ docker exec -it {container_id/name} /bin/bash #khởi động container và acce
 docker start {container_id/name}
 ```  
 
-**Note: **
+**Note:**
 
 - Có thể dùng docker exec để đứng từ host và chỉ định cho container thực thi lệnh.
 - Vd: Đứng từ host, và liệt kê tất cả các file có trong container_1 thì ta có lệnh: 
@@ -188,7 +188,7 @@ docker commit {container_id/name} {image_name}:{tag}
 
 ```  
 
-**Note**:
+**Note:**
 
 - Phải stop container trước khi bạn lưu.
 - {image_name}:{tag} đặt tên image và version cho container sau khi lưu.  
@@ -199,7 +199,7 @@ Lưu **image** thành **file** để tiện **share**
 docker save --output filename.tar {image_id/name}
 
 ```  
-**Note**:
+**Note:**
 
 - filename.tar sẽ được lưu ở vị trí bạn đang đứng trong terminal  
 
@@ -210,7 +210,7 @@ docker load -i filename.tar
 
 ```  
 
-Note: 
+**Note: **
 
 - khi load image từ file thì image_name và image_tag sẽ là rỗng để đặt tên và tag cho image ta dùng lệnh  
 
@@ -301,6 +301,8 @@ docker run -it --name C2 -v Disk_2:/home/disk_2 ubuntu:22.04
 
 ## Khái niệm và các default Docker Network
 
+### Docker network là gì?
+
 **Docker network** là nơi sẽ đảm nhiệm nhiệm vụ cho **container** kết nối vào **network**
 
 - Các container cùng một network có thể liên lạc với nhau qua tên của container và cổng (port) được lắng nghe của container trên mạng đó
@@ -312,6 +314,8 @@ docker run -it --name C2 -v Disk_2:/home/disk_2 ubuntu:22.04
 - Kết nối container với các mạng khác nằm ngoài docker.
 
 - Có thể cung cấp hầu hết các chức năng mà một hệ thống mạng bình thường cần có.
+
+### Các loại docker network
 
 Có 3 loại **networks** được tự động tạo ra trong **docker** là **bridge**, **none**, **host** ta có thể xem bằng lệnh
 
@@ -360,6 +364,8 @@ Lệnh trên ta tạo một **container** tên là **B4** từ **image busybox**
  
 chúng ta sẽ thấy có **container B4** kết nối
 
+### Kết nối trong docker network
+
 Kết nối một **container** đang chạy với một mạng khác
 
 Ví dụ: ta có 2 **network** là **network1** và **network2** có một **container B5** đang kết nối với mạng **network1** và ta muốn **container** này kết nối với cả **network2** thì ta chạy lệnh
@@ -368,7 +374,7 @@ Ví dụ: ta có 2 **network** là **network1** và **network2** có một **con
 
 Lệnh trên là kết nối **container B5** vào mạng **network2**
 
-## Docker Hub
+## Docker Hub là gì?
 
 **Docker Hub** là một dịch vụ do **Docker** cung cấp, cho phép tìm kiếm và chia sẻ các **container images**. Các tính năng chính của **Docker Hub** là:
 
@@ -381,7 +387,7 @@ Lệnh trên là kết nối **container B5** vào mạng **network2**
 
 Để sử dụng **Docker Hub**, bạn hãy đăng ký một tài khoản [tại đây](https://hub.docker.com/).
 
-## Docker compose
+## Docker compose là gì ?
 
 Là công cụ giúp ta thiết lập và quản lý nhiều **container**, **network**, **volume** (gọi chung là các **service**) và thiết lập cấu hình cho các **service** một cách nhanh chóng và đơn giản bằng việc chạy theo các chỉ định trong file `docker-compose.yml`
 
