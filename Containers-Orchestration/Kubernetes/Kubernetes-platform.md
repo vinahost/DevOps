@@ -1,6 +1,6 @@
 # Kubernetes Platform
 
-![Alibaba Cloud Container Service for Kubernetes (ACK)](/../../Image/Alibaba-Cloud-ACK.png)
+![Alibaba Cloud Container Service for Kubernetes (ACK)](Image/../../../Image/Alibaba-Cloud-ACK.png)
 
 Tôi muốn sử dụng phần này để chia nhỏ một số nền tảng, một thách thức với thế giới **Kubernetes** là loại bỏ, giảm bớt sự phức tạp.
 
