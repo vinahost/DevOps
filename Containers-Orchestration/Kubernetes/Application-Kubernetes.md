@@ -14,7 +14,7 @@ Xuyên suốt các bài trước **Container**, chúng ta đã thảo luận v�
 
 Trong bước đầu tiên này, chúng ta sẽ tạo một ứng dụng không trạng thái trong **minikube cluster** của mình. Chúng ta sẽ sử dụng một ứng dụng không trạng thái theo quy chẩn trong **demo** đầu tiên với **Deployment** của `nginx` sử dụng các **pods** của chúng ta, sau đó chúng ta cũng sẽ tạo một **service** cho phép chúng ta sử dụng một máy chủ **web** được phục vụ bởi **nginx pod**. Tất cả chúng sẽ nằm trong một **namespace**.
 
-![Kubernetes Application](../../Images/Kubernetes-Application01.png)
+![Kubernetes Application](../../Image/Kubernetes-Application01.png)
 
 ## Tạo tệp YAML
 
@@ -70,7 +70,7 @@ spec:
 
 Trước khi chúng ta triển khai bất cứ thứ gì, chúng ta chỉ cần đảm bảo rằng chúng ta không có một **namespace** nào là `nginx`. Có thể xác nhận việc này bằng cách chạy lệnh `kubectl get namespace` và như bạn có thể thấy dưới đây, chúng ta không có **namespace** nào là `nginx`.
 
-![Kubernetes Application](../../Images/Kubernetes-Application02.png)
+![Kubernetes Application](../../Image/Kubernetes-Application02.png)
 
 ### Triển khai ứng dụng của chúng ta
 
@@ -78,15 +78,15 @@ Bây giờ chúng ta đã sẵn sàng triển khai ứng dụng của mình lên
 
 Chúng ta cần điều hướng tới vị trị tệp **YAML** của mình và chạy lệnh `kubectl create -f nginx-stateless-demo.yaml`, sau đó bạn có thể thấy 3 đối tượng đã được tạo và chúng ta có một **namespace**, **deployment** và **service**.
 
-![Kubernetes Application](../../Images/Kubernetes-Application03.png)
+![Kubernetes Application](../../Image/Kubernetes-Application03.png)
 
 Hãy chạy lại lệnh để xem các **namespaces** có sẵn trong **cluster** của chúng ta `kubectl get namespace` và giờ bạn có thể thấy rằng chúng ta có **namespace** mới.
 
-![Kubernetes Application](../../Images/Kubernetes-Application04.png)
+![Kubernetes Application](../../Image/Kubernetes-Application04.png)
 
 Sau đó, nếu chúng ta kiểm tra các pods cho namespace sử dụng lệnh `kubectl get pods -n nginx` bạn sẽ thấy rằng chúng ta có 1 pod sẵn sàng và đang trong trạng thái chạy.
 
-![Kubernetes Application](../../Images/Kubernetes-Application05.png)
+![Kubernetes Application](../../Image/Kubernetes-Application05.png)
 
 Chúng ta cũng có thể kiểm tra **service** đã được tạo bằng câu lệnh `kubectl get service -n nginx`
 
@@ -94,29 +94,29 @@ Chúng ta cũng có thể kiểm tra **service** đã được tạo bằng câu
 
 Cuối cùng, chúng ta có thể kiểm tra xem **deployment** ở đâu và làm thể nào chúng ta giữ được cấu hình mong muốn của mình.
 
-![Kubernetes Application](../../Images/Kubernetes-Application07.png)
+![Kubernetes Application](../../Image/Kubernetes-Application07.png)
 
 Ở trên có vài lệnh chúng ta cần biết nhưng cũng có thể sử dụng lệnh `kubectl get all -n nginx` để xem mọi thứ chúng ta đã triển khai với tệp **YAML** đó.
 
-![Kubernetes Application](../../Images/Kubernetes-Application08.png)
+![Kubernetes Application](../../Image/Kubernetes-Application08.png)
 
 Bạn có thể nhận thấy như ở trên rằng chúng ta cũng có một **replicaset**, trong **deployment** của mình, chúng ta cấu hình số **replicas** của **image** mà chúng ta muốn triển khai. Ban đầu nó được đặt là 1, nhưng nếu muốn nhanh chóng mở rộng quy mô ứng dụng của mình thì chúng ta có thể làm theo những cách sau.
 
 Chúng ta có thể chỉnh sửa tệp của mình sử dụng  `kubectl edit deployment nginx-deployment -n nginx` sẽ mở trình soạn thảo văn bản trong **terminal** của bạn và cho phép bạn chỉnh sửa **deployment** của mình.
 
-![Kubernetes Application](../../Images/Kubernetes-Application09.png)
+![Kubernetes Application](../../Image/Kubernetes-Application09.png)
 
 Khi lưu thay đổi bằng trình soạn thảo của bạn trong **terrminal**, nếu không có sự cố nào và cú pháp chính xác đã được sửu dụng thì bạn sẽ thấy một số tài nguyên được triển khai trong **namespace**.
 
-![Kubernetes Application](../../Images/Kubernetes-Application010.png)
+![Kubernetes Application](../../Image/Kubernetes-Application010.png)
 
 Bạn cũng có thể thay đổi số lượng **replicas** sử dụng **kubectl** với câu lệnh `kubectl scale deployment nginx-deployment --replicas=10 -n nginx`
 
-![Kubernetes Application](../../Images/Kubernetes-Application011.png)
+![Kubernetes Application](../../Image/Kubernetes-Application011.png)
 
 Chúng ta có thể sử dụng phương pháp này để giảm quy mô ứng dụng của mình xuống 1 bằng cả 2 phương pháp. Tôi đã sử dụng lựa chọn chỉnh sửa nhưng bạn cũng có thể sử dụng lệnh `scale` như trên.
 
-![Kubernetes Application](../../Images/Kubernetes-Application012.png)
+![Kubernetes Application](../../Image/Kubernetes-Application012.png)
 
 Hy vọng rằng, bạn có thể thấy ở đây không chỉ việc triển khai ứng dụng siêu nhanh mà còn có khả năng tăng và giảm quy mô ứng dụng một cách nhanh chóng. Nếu đây là một máy chủ **web**, chúng ta có thể mở rộng quy mô khi có nhiều người sử dụng và giảm xuống khi tải được giảm.
 
@@ -140,11 +140,11 @@ Chúng ta có thể chỉ cần chạy lệnh sau để chuyển tiếp cổng �
 
 `kubectl port-forward deployment/nginx-deployment -n nginx 8090:80`
 
-![Kubernetes Application](../../Images/Kubernetes-Application014.png)
+![Kubernetes Application](../../Image/Kubernetes-Application014.png)
 
 Lưu ý rằng khi bạn chạy lệnh trên, **terminal** đó sẽ không sử dụng được vì nó sẽ thực hiện việc chuyển tiếp cổng tới máy và cổng cục bộ của bạn.
 
-![Kubernetes Application](../../Images/Kubernetes-Application015.png)
+![Kubernetes Application](../../Image/Kubernetes-Application015.png)
 
 Bây giờ chúng ta sẽ xem xét cụ thể với **Minikube** về cách chúng ta có thể **expose** ứng dụng của mình. Chúng ta cũng có thể sử dụng **minikube** để tạo **URL** kết nối tới dịch vụ, [chi tiết cụ thể](https://minikube.sigs.k8s.io/docs/commands/service/)
 
@@ -152,15 +152,15 @@ Trước hết, chúng ta xoá **service** của mình bằng cách sử dụng 
 
 Tiếp theo, chúng ta sẽ tạo một **service** mới sử dụng `kubectl expose deployment nginx-deployment --name nginx-service --namespace nginx --port=80 --type=NodePort` lưu ý ở đây rằng chúng ta sẽ sử dụng **Expose** và thay đổi **type** thành **NodePort**.
 
-![Kubernetes Application](../../Images/Kubernetes-Application06.png)
+![Kubernetes Application](../../Image/Kubernetes-Application06.png)
 
 Cuối cùng trong terminal mới chạy `minikube --profile='mc-demo' service nginx-service --URL -n nginx` để tạo một tunnel cho service của chúng ta.
 
-![Kubernetes Application](../../Images/Kubernetes-Application01.png)
+![Kubernetes Application](../../Image/Kubernetes-Application01.png)
 
 Mở trình duyệt và click vài liên kết trong **terminal**.
 
-![Kubernetes Application](../../Images/Kubernetes-Application018.png)
+![Kubernetes Application](../../Image/Kubernetes-Application018.png)
 
 ### Helm
 
