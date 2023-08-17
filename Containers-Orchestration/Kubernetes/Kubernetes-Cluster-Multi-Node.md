@@ -1,14 +1,12 @@
-# Thiết lập Kubernetes Cluster đa node
-
-Lúc đầu tôi đã tính để **title** của bài viết này là "**Thiết lập Kubernetes cluster đa node với Vagrant**" nhưng có thể nó hơi dài!
+# Thiết lập Kubernetes Cluster Multi Node
 
 Trong bài viết trước, chúng ta đã sử dụng một dự án thú vị để triển khai **Kubernetes cluster** đầu tiên của mình và thực hành chúng với công cụ **CLI** quan trọng nhất mà bạn sẽ gặp khi sử dụng **Kubernetes** (**kubectl**)
 
-Trong bài này, chúng ta sẽ sử dụng **VirtualBox** làm cơ sở nhưng như đã đề cập ở lần trước khi chúng ta nói về **Vagrant** trong phần về Linux, chúng ta có thể sử dụng bất kỳ công cụ ảo hoá nào được hỗ trợ, chúng ta sẽ sử dụng Ubuntu.
+Trong bài này, chúng ta sẽ sử dụng **VirtualBox** làm cơ sở nhưng như đã đề cập ở lần trước khi chúng ta nói về **Vagrant** trong phần về **Linux**, chúng ta có thể sử dụng bất kỳ công cụ ảo hoá nào được hỗ trợ, chúng ta sẽ sử dụng **Ubuntu**.
 
 ## Tóm tắt nhanh về Vagrant
 
-**Vagrant** là một tiện ích **CLI** giúp quản lý vòng đời các máy ảo của bạn. Chúng ta có thể sử dụng **vagrant** để tạo, xoá các máy ảo trên nhiều nền tảng khác nhau bao gồm **vSphere**, **Virtual Box** và cả **Docker**. Nó có các nhà cung cấp khác nhưng chúng ta sẽ chọn** Virtual Box** ở đây.
+**Vagrant** là một tiện ích **CLI** giúp quản lý vòng đời các máy ảo của bạn. Chúng ta có thể sử dụng **vagrant** để tạo, xoá các máy ảo trên nhiều nền tảng khác nhau bao gồm **vSphere**, **Virtual Box** và cả **Docker**. Nó có các nhà cung cấp khác nhưng chúng ta sẽ chọn **Virtual Box** ở đây.
 
 Tôi sẽ sử dụng [bài viết và repository này](https://devopscube.com/kubernetes-cluster-vagrant/) để cấu hình hệ thống. Tuy nhiên, tôi khuyên rằng nếu đây là lần đầu tiên bạn triển khai một **Kubernetes cluster** thì bạn cũng có thể xem xét thực hiện điều này một cách thủ công để sau đó ít nhất thì bạn cũng biết nó trông như thế nào. Phải công nhận sau mỗi bản phát hành của **Kubernetes**, các tác vụ để **setup** ngày càng được tinh gọn và hiệu quả hơn. Tôi nhớ thời của **VMware** và **ESX** và cách bạn mấy **1 ngày** để triển khai **3 ESX server**, bây giờ chúng ta có thể làm trong **1 giờ**. Chúng ta sẽ đi theo hướng đó khi nói đến **Kubernetes**.
 
@@ -24,7 +22,7 @@ Trong **terminal**, bạn sẽ thấy một số bước đang diễn ra, nhưng
 
 ![Kubernetes Cluster Multi Node](../../Image/Kubernetes-Cluster-Multi-Node02.png)
 
-Từ những điều trên, bạn có thể thấy rằng chúng ta sẽ xây dựng 3 máy ảo, chúng ta sẽ có một sẽ có một **control plane node** và 2 **worker nodes**.
+Từ những điều trên, bạn có thể thấy rằng chúng ta sẽ xây dựng **03 máy ảo**, chúng ta sẽ có một sẽ có  **01 control plane node** và **02 worker nodes**.
 
 Cũng trong hình ảnh đó, chúng ta thấy truy cập **kubectl** sẽ đến từ bên ngoài **cluster** tới **kube apiserver** trong khi thực tế như một phần của việc triển khai **vagrant**, chúng ta sẽ có **kubectl** trên mỗi **node** để có thể truy cập **cluster** từ trong tất cả các **nodes**.
 
