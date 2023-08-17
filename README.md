@@ -110,7 +110,7 @@
 - [✔️] ☸ > [Overview: Kubernetes](Containers-Orchestration/Kubernetes/Kubernetes-la-gi.md)
 - [✔️] ☸ > [Các thành phần trong Kubernetes](Containers-Orchestration/Kubernetes/Kubernetes.md)
 - [✔️] ☸ > [Kubernetes Platform](Containers-Orchestration/Kubernetes/Kubernetes-platform.md)
-- [✔️] ☸ > [Triển khai Kubernetes cluster đầu tiên]
+- [✔️] ☸ > [Triển khai Kubernetes cluster](Containers-Orchestration/Kubernetes/Kubernetes-cluster.md)
 - [✔️] ☸ > [Thiết lập Kubernetes cluster đa node]
 - [✔️] ☸ > [Tổng quan về Rancher - Thực hành]
 - [✔️] ☸ > [Triển khai ứng dụng Kubernetes]
