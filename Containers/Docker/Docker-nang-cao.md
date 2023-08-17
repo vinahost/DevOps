@@ -10,14 +10,15 @@
 - Quy trình thực thi của một hệ thống sử dụng Docker
 - Các lệnh cơ bản trong docker
 
-### Bài viết tiếp theo sẽ nói về **Docker nâng cao**
+## Docker nâng cao
 
-**Dockerfile**
+### Dockerfile
+
 ![Dockerfile](/Image/Dockerfile.png)
 
 **Dockerfile** là **file config** cho **Docker** để **build** ra **image**. Nó dùng một **image** cơ bản để xây dựng lớp **image** ban đầu. Một số **image** cơ bản: **python**, **unbutu** và **alpine**. Sau đó nếu có các lớp bổ sung thì nó được xếp chồng lên lớp cơ bản. Cuối cùng một lớp mỏng có thể được xếp chồng lên nhau trên các lớp khác trước đó.
 
-**Các config :**
+### Các config :
 
 - FROM — chỉ định image gốc: python, unbutu, alpine…
 - LABEL — cung cấp metadata cho image. Có thể sử dụng để add thông tin maintainer. Để xem các label của images, dùng lệnh docker inspect.
@@ -96,7 +97,7 @@ Tạo **container** từ **image**:
 sudo docker run -v <forder_in_computer>:<forder_in_container> -p <port_in_computer>:<port_in_container> -it <image_name> /bin/bash
 
 ```  
-Trong đó:
+**Trong đó:**
 
 - -v : Thể hiện việc mount volume, dữ liệu từ thư mục từ máy thật có thể được truy cập từ thư mục của máy ảo.
 - -p: Cổng mạng từ máy thật để dẫn tới cổng mạng của máy ảo đang chạy.
@@ -124,7 +125,7 @@ $ docker run --name {container_name} -it {image_id/name:tag} /bin/bash
 
 ```  
 
-Một số option:
+**Một số option**:
 
 - -it để cho phép container vừa tạo ra có thể nhận tương tác (-i), và kết nối với terminal (-t).
 - --name container_name của container mà bạn muốn sau khi khởi chạy. Mặc định khi không có thì nó sẽ tự đặt tên cho container là 1 tên nào đó, nên tốt nhất mình tự đặt cho dễ nhớ
@@ -140,10 +141,12 @@ docker exec -it {container_id/name} /bin/bash #khởi động container và acce
 docker start {container_id/name}
 ```  
 
-Note: 
+**Note: **
 
 - Có thể dùng docker exec để đứng từ host và chỉ định cho container thực thi lệnh.
-- Vd: Đứng từ host, và liệt kê tất cả các file có trong container_1 thì ta có lệnh: docker exec container_1 ls  
+- Vd: Đứng từ host, và liệt kê tất cả các file có trong container_1 thì ta có lệnh: 
+
+    docker exec container_1 ls  
 
 Thoát khỏi **container** đang **access**
 
@@ -185,7 +188,7 @@ docker commit {container_id/name} {image_name}:{tag}
 
 ```  
 
-Note:
+**Note**:
 
 - Phải stop container trước khi bạn lưu.
 - {image_name}:{tag} đặt tên image và version cho container sau khi lưu.  
@@ -196,7 +199,7 @@ Lưu **image** thành **file** để tiện **share**
 docker save --output filename.tar {image_id/name}
 
 ```  
-Note:
+**Note**:
 
 - filename.tar sẽ được lưu ở vị trí bạn đang đứng trong terminal  
 
@@ -274,10 +277,12 @@ docker volume rm {volume name}
 docker run -it --name C1 --mount source=Disk_1,target=/home/disk_1 ubuntu:22.04
 
 ```  
-> Note:
-> - --mount tham số để gán ổ đĩa vào
-> - source=Disk_1 tên ổ đĩa mà mình muốn gán
-> - target=/home/disk_1 vị trí mà ổ đĩa Disk_1 ánh xạ vào thư mục /home/disk_1 của container  
+
+**Note**:
+
+- --mount tham số để gán ổ đĩa vào
+- source=Disk_1 tên ổ đĩa mà mình muốn gán
+- target=/home/disk_1 vị trí mà ổ đĩa Disk_1 ánh xạ vào thư mục /home/disk_1 của container  
 
 Chia sẻ dữ liệu ổ đĩa **Volume** với **host** và **containter**
 
@@ -294,7 +299,7 @@ docker run -it --name C2 -v Disk_2:/home/disk_2 ubuntu:22.04
 ```  
 > Note: Khi đã ánh xạ ổ đĩa với host thì mình sẽ ko sử dụng --mount mà dùng
 
-### Khái niệm và các default Docker Network
+## Khái niệm và các default Docker Network
 
 **Docker network** là nơi sẽ đảm nhiệm nhiệm vụ cho **container** kết nối vào **network**
 
@@ -321,7 +326,7 @@ docker network ls
 
 - host dùng khi container cần giao tiếp với host và sử dụng trực tiếp mạng của máy chủ đang chạy
 
-Tạo **docker network**
+### Tạo **docker network**
 
 *Tạo network*
 ```js
@@ -351,9 +356,7 @@ Lệnh trên ta tạo một **container** tên là **B4** từ **image busybox**
 
 *kiểm tra bằng lệnh*
 
-```js
-docker network inspect network1
- ```  
+    docker network inspect network1
  
 chúng ta sẽ thấy có **container B4** kết nối
 
@@ -361,9 +364,7 @@ Kết nối một **container** đang chạy với một mạng khác
 
 Ví dụ: ta có 2 **network** là **network1** và **network2** có một **container B5** đang kết nối với mạng **network1** và ta muốn **container** này kết nối với cả **network2** thì ta chạy lệnh
 
-```js
-docker network connect network2 B5
-```  
+    docker network connect network2 B5
 
 Lệnh trên là kết nối **container B5** vào mạng **network2**
 
