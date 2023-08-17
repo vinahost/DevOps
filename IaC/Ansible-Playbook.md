@@ -624,7 +624,7 @@ ansible.cfg in the current working directory, .ansible.cfg in the home directory
 |become_user|The equivalent to ansible_sudo_user or ansible_su_user, allows to set the user you become through privilege escalation. The default is ‘root’:`become_user=root`|
 |become_ask_pass| Ask for privilege escalation password, the default is False:`become_ask_pass=True`|
 
-- Các thiết lập khác thao khảo tại đây: http://docs.ansible.com/ansible/intro_configuration.html
+Các thiết lập khác tham khảo [tại đây](http://docs.ansible.com/ansible/intro_configuration.html)
 
 
 ## Playbook chuẩn
