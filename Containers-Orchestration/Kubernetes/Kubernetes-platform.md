@@ -30,7 +30,7 @@ Có một số lựa chọn khi chạy **Kubernetes cluster** cục bộ trên m
 
 Tôi đã đề cập đến ảo hoá và điều này có thể thực hiện được với các trình ảo hoá cục bộ, chúng ta đã biết từ các phần trước rằng chúng ta cũng có thể tận dụng các máy ảo trong dịch vụ điện toán đám mây công cộng để hoạt động như các nodes của chúng ta. Điều tôi đang muốn nhắc tới ở đây khi nói tới các dịch vụ được quản lý của **Kubernetes** là các dịch vụ mà chúng ta thấy từ các công ty điện toán đám mây cũng như từ các **MSP** (**Managed service provider** - Bên cung cấp dịch vụ quản lý) loại bỏ các tác vụ quản lý và kiểm soát khỏi người dùng cuối, điều này có thể loại bỏ quyền kiểm soát **control plane** khỏi người dùng cuối, đây là điều sẽ xảy ra với **Amazon EKS**, **Microsoft AKS**, **Google Kubernetes Engine (GKE)** và **Alibaba Cloud Container Service for Kubernetes (ACK)**.
 
-### Quá nhiều chọn lựa
+**Quá nhiều chọn lựa**
 
 Ý tôi là được lựa chọn là điều tuyệt vời nhưng có một điểm khiến chúng ta bị ngập trong các chọn lựa và bài viết này không đề cập một cách sâu sắc về tất cả các tuỳ chọn trong mỗi danh mục được liệt kê ở trên. Ngoài những điều được nhắc tới ở trên, chúng ta cũng có **OpenShift** của **RedHat** và lựa chọn này có thể được chạy trên các lựa chọn ở trên với tất cả các nhà cung cấp điện toán đám mây lớn và có lẽ sẽ mang lại khả năng sử dụng tổng thể tốt nhất cho các quản trị viên bất kể **cluster** được triển khai ở đâu.
 
@@ -38,7 +38,7 @@ Vậy bạn bắt đầu từ đâu trong hành trình học tập của mình, 
 
 Lời khuyên thực tế của tôi bây giờ là sử dụng **Minikube** làm tuỳ chọn đầu tiên hoặc **Kind** (**Kubernetes in Docker**) nhưng **Minikube** mang lại cho chúng ta một số tiện ích bổ sung và gần như trừu tượng hoá sự phức tạp vì chúng ta có thể sử dụng các **add-on** và xây dựng mọi thứ một cách nhanh chóng, sau đó xoá tất cả khi chúng ta hoàn thành, chúng ta cũng có thể chạy nhiều **clusters**, chạy nó ở hầu hết tất cả mọi nơi, đa nền tảng và không phụ thuộc và phần cứng. 
 
-Tôi đã trài qua hành trình tìm hiểu về **Kubernetes**, vì vậy tôi sẽ để lại lựa chọn nền tảng và các chi tiết cụ thể ở đây để liệt kê các tuỳ chọn mà tôi đã thử để giúp tôi hiểu rõ hơn về nền tảng **Kubernetes** và nơi nó có thể chạy. Bạn có thể tham khảo những bài viết dưới đây để đưa ra lựa chọn của mình.
+Tôi đã trải qua hành trình tìm hiểu về **Kubernetes**, vì vậy tôi sẽ để lại lựa chọn nền tảng và các chi tiết cụ thể ở đây để liệt kê các tuỳ chọn mà tôi đã thử để giúp tôi hiểu rõ hơn về nền tảng **Kubernetes** và nơi nó có thể chạy. Bạn có thể tham khảo những bài viết dưới đây để đưa ra lựa chọn của mình.
 
 - [Kubernetes playground – How to choose your platform](https://vzilla.co.uk/vzilla-blog/building-the-home-lab-kubernetes-playground-part-1)
 - [Kubernetes playground – Setting up your cluster](https://vzilla.co.uk/vzilla-blog/building-the-home-lab-kubernetes-playground-part-2)
@@ -50,7 +50,7 @@ Tôi đã trài qua hành trình tìm hiểu về **Kubernetes**, vì vậy tôi
 - [Getting started with CIVO Cloud](https://vzilla.co.uk/vzilla-blog/getting-started-with-civo-cloud)
 - [Minikube - Kubernetes Demo Environment For Everyone](https://vzilla.co.uk/vzilla-blog/project_pace-kasten-k10-demo-environment-for-everyone)
 
-## Những gì chúng ta sẽ đề cập trong loạt bài về Kubernetes
+## Những kiến thức về Kubernetes
 
 - Kiến trúc Kubernetes
 - Các câu lệnh kubectl 
