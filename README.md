@@ -9,6 +9,7 @@
 - [✔️] ♾️ > [DevOps Lifecycle - Vòng đời DevOps](Overview/DevOps-Lifecycle.md)
 - [✔️] ♾️ > [DevOps & Agile](Overview/DevOps-Agile.md)
 - [✔️] ♾️ > [Quy trình DevOps](Overview/Quy-Trinh-DevOps.md)
+- [✔️] ♾️ > [Microservices, Monolith với Devops](Overview/Microservices-Monolith-DevOps.md)
 
 ## DevOps và ngôn ngữ lập trình
 
