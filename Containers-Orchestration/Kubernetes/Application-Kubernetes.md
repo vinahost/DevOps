@@ -84,13 +84,13 @@ Hãy chạy lại lệnh để xem các **namespaces** có sẵn trong **cluster
 
 ![Kubernetes Application](../../Image/Kubernetes-Application04.png)
 
-Sau đó, nếu chúng ta kiểm tra các pods cho namespace sử dụng lệnh `kubectl get pods -n nginx` bạn sẽ thấy rằng chúng ta có 1 pod sẵn sàng và đang trong trạng thái chạy.
+Sau đó, nếu chúng ta kiểm tra các **pods** cho **namespace** sử dụng lệnh `kubectl get pods -n nginx` bạn sẽ thấy rằng chúng ta có 1 **pod** sẵn sàng và đang trong trạng thái chạy.
 
 ![Kubernetes Application](../../Image/Kubernetes-Application05.png)
 
 Chúng ta cũng có thể kiểm tra **service** đã được tạo bằng câu lệnh `kubectl get service -n nginx`
 
-![Kubernetes Application](../../Images/Kubernetes-Application06.png)
+![Kubernetes Application](../../Image/Kubernetes-Application06.png)
 
 Cuối cùng, chúng ta có thể kiểm tra xem **deployment** ở đâu và làm thể nào chúng ta giữ được cấu hình mong muốn của mình.
 
@@ -100,7 +100,7 @@ Cuối cùng, chúng ta có thể kiểm tra xem **deployment** ở đâu và l�
 
 ![Kubernetes Application](../../Image/Kubernetes-Application08.png)
 
-Bạn có thể nhận thấy như ở trên rằng chúng ta cũng có một **replicaset**, trong **deployment** của mình, chúng ta cấu hình số **replicas** của **image** mà chúng ta muốn triển khai. Ban đầu nó được đặt là 1, nhưng nếu muốn nhanh chóng mở rộng quy mô ứng dụng của mình thì chúng ta có thể làm theo những cách sau.
+Bạn có thể nhận thấy như ở trên rằng chúng ta cũng có một **replicaset**, trong **deployment** của mình, chúng ta cấu hình số **replicas** của **image** mà chúng ta muốn triển khai. Ban đầu nó được đặt là **1**, nhưng nếu muốn nhanh chóng mở rộng quy mô ứng dụng của mình thì chúng ta có thể làm theo những cách sau.
 
 Chúng ta có thể chỉnh sửa tệp của mình sử dụng  `kubectl edit deployment nginx-deployment -n nginx` sẽ mở trình soạn thảo văn bản trong **terminal** của bạn và cho phép bạn chỉnh sửa **deployment** của mình.
 
@@ -134,7 +134,7 @@ Nếu bạn nhìn vào **service** của chúng ta ở trên, bạn sẽ thấy 
 
 **Port-Forward** - Chúng ta cũng có khả năng chuyển tiếp cổng, cho phép bạn truy cập và tương tác với các **process** của **Kubernetes cluster** từ **localhost**. Lựa chọn này chỉ dành cho kiểm thử và tìm lỗi.
 
-Bây giờ chúng ta có một số lựa chọn dể chọn và **Minikube** có vài hạn chế hoặc khác biết so với một **Kubernetes cluste**r thực tế.
+Bây giờ chúng ta có một số lựa chọn dể chọn và **Minikube** có vài hạn chế hoặc khác biệt so với một **Kubernetes cluster** thực tế.
 
 Chúng ta có thể chỉ cần chạy lệnh sau để chuyển tiếp cổng để truy cập ứng dụng từ máy trạm cục bộ của mình.
 
@@ -152,13 +152,13 @@ Trước hết, chúng ta xoá **service** của mình bằng cách sử dụng 
 
 Tiếp theo, chúng ta sẽ tạo một **service** mới sử dụng `kubectl expose deployment nginx-deployment --name nginx-service --namespace nginx --port=80 --type=NodePort` lưu ý ở đây rằng chúng ta sẽ sử dụng **Expose** và thay đổi **type** thành **NodePort**.
 
-![Kubernetes Application](../../Image/Kubernetes-Application06.png)
+![Kubernetes Application](../../Image/Kubernetes-Application016.png)
 
-Cuối cùng trong terminal mới chạy `minikube --profile='mc-demo' service nginx-service --URL -n nginx` để tạo một tunnel cho service của chúng ta.
+Cuối cùng trong **terminal** mới chạy `minikube --profile='mc-demo' service nginx-service --URL -n nginx` để tạo một **tunnel** cho **service** của chúng ta.
 
-![Kubernetes Application](../../Image/Kubernetes-Application01.png)
+![Kubernetes Application](../../Image/Kubernetes-Application017.png)
 
-Mở trình duyệt và click vài liên kết trong **terminal**.
+Mở trình duyệt và **click** vài liên kết trong **terminal**.
 
 ![Kubernetes Application](../../Image/Kubernetes-Application018.png)
 
