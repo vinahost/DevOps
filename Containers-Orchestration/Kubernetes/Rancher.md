@@ -1,6 +1,6 @@
 # Tổng quan về Rancher
 
-![What is Rancher](Image/../../../Image/Rancher.jpg)
+![What is Rancher](../../Image/Rancher.jpg)
 
 Trong bài viết này, chúng ta sẽ đề cập tới **Rancher**, cho đến giờ, mọi thứ chúng ta làm đều dưới giao diện dòng lệnh sử dụng **kubectl** nhưng chứng ta có một số công cụ quản lý **cluster** với giao diện người dùng để các nhóm vận hành có thể quản lý các **cluster** một cách tốt hơn.
 
