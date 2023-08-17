@@ -33,13 +33,13 @@
 
 ## PLAYBOOKS
 
-Ansible Playbook là gì ?
+**Ansible Playbook** là gì ?
 
-**Ansible Playbook** là một tệp văn bản được viết bằng định dạng **YAML** chứa các hướng dẫn về cách tự động hóa các tác vụ trên các máy chủ. Các playbook Ansible thường được sử dụng để quản lý cấu hình, triển khai phần mềm và quản lý mạng.
+**Ansible Playbook** là một tệp văn bản được viết bằng định dạng **YAML** chứa các hướng dẫn về cách tự động hóa các tác vụ trên các máy chủ. Các **playbook Ansible** thường được sử dụng để quản lý cấu hình, triển khai phần mềm và quản lý mạng.
 
-Một playbook Ansible có thể chứa nhiều tác vụ, mỗi tác vụ thực hiện một nhiệm vụ cụ thể. Các tác vụ có thể được sắp xếp thành các nhóm để tổ chức mã. Các playbook Ansible có thể được chạy theo cách thủ công hoặc được lên lịch để chạy tự động.
+Một **playbook Ansible** có thể chứa nhiều tác vụ, mỗi tác vụ thực hiện một nhiệm vụ cụ thể. Các tác vụ có thể được sắp xếp thành các nhóm để tổ chức mã. Các **playbook Ansible** có thể được chạy theo cách thủ công hoặc được lên lịch để chạy tự động.
 
-Ansible Playbook là một cách hiệu quả để tự động hóa các tác vụ trên các máy chủ. Chúng dễ viết và dễ đọc, và chúng có thể được sử dụng để quản lý các máy chủ trên nhiều nền tảng.
+**Ansible Playbook** là một cách hiệu quả để tự động hóa các tác vụ trên các máy chủ. Chúng dễ viết và dễ đọc, và chúng có thể được sử dụng để quản lý các máy chủ trên nhiều nền tảng.
 
 - Trong playbooks, chúng ta sẽ xác định những gì cần phải làm. Hay nói cách khác là nơi ta sẽ viết kịch bản cho các con server.
 - Trong playbooks sẽ chứa một tập hợn các activities (hoạt động) hay các tasks (nhiệm vụ) sẽ được chạy trên một hay một nhóm servers.
@@ -124,7 +124,7 @@ Bạn để ý cách khai báo với **[mail], [db], [web].** Đây là cách kh
 hosts: web
 ```
 
-Còn **[all_servers:children]** là cách khai báo group các group với nhau.
+Còn **[all_servers:children]** là cách khai báo **group** các **group** với nhau.
 
 Ansible còn cung cấp một số params phục vụ cho việc truy cập vào server mà bạn đã khai báo trong inventory file dễ dàng hơn.
 
@@ -181,7 +181,7 @@ Biến được sử dụng để lưu trữ các giá trị và có thể thay 
 
 **Register** giúp nhận kết quả trả về từ một câu lệnh. Sau đó ta có thể dùng kết quá trả về đó cho những câu lệnh chạy sau đó.
 
-Ví dụ ta có bài toán như sau: kiểm tra trạng thái của **service httpd**, nếu **start** thất bại thì gửi mail thông báo cho admin.
+Ví dụ ta có bài toán như sau: kiểm tra trạng thái của **service httpd**, nếu **start** thất bại thì gửi **mail** thông báo cho **admin**.
 
 ```
 #Sample ansible playbook.yml
@@ -199,11 +199,11 @@ Ví dụ ta có bài toán như sau: kiểm tra trạng thái của **service ht
       when: command_output.stdout.find("down") != -1
 ```
 
-Nhờ vào thuộc tính register, kết quả trả về sẽ được chứa vào biến command_output. Từ đó ta sử dụng tiếp các thuộc tính của biến command_output là stdout.find để tìm chữ "down" có xuất hiện trong nội dung trả về không. Nếu không tìm thấy thì kết quả sẽ là -1.
+Nhờ vào thuộc tính **register**, kết quả trả về sẽ được chứa vào biến **command_output**. Từ đó ta sử dụng tiếp các thuộc tính của biến **command_output** là **stdout.find** để tìm chữ "**down**" có xuất hiện trong nội dung trả về không. Nếu không tìm thấy thì kết quả sẽ là **-1**.
 
 ## LOOPS
 
-Nhưng nếu server yêu cầu cài thêm nhiều gói service khác như mysql, php thì sao. Như bình thường chúng ta sẽ viết như sau:
+Nhưng nếu **server** yêu cầu cài thêm nhiều gói **service** khác như **mysql**, **php** thì sao. Như bình thường chúng ta sẽ viết như sau:
 
 ```
 # Simple Ansible Playbook1.yml
@@ -222,7 +222,7 @@ Nhưng nếu server yêu cầu cài thêm nhiều gói service khác như mysql,
         name: php
 ```
 
-Ở đây mới ví dụ 3 service cần cài mà phải viết lập lại các thuộc tính name, module yum đến 3 lần. Nếu server cần cài lên đến 100 gói service thì việc ngồi copy/paste cũng trở nên vấn đề đấy. Thay vào đó, chúng ta sẽ sử dụng chức năng loops mà ansible đã cung cấp để để viết.
+Ở đây mới ví dụ 3 **service** cần cài mà phải viết lập lại các thuộc tính **name**, **module yum** đến 3 lần. Nếu **server** cần cài lên đến **100** gói **service** thì việc ngồi **copy/paste** cũng trở nên vấn đề đấy. Thay vào đó, chúng ta sẽ sử dụng chức năng **loops** mà **ansible** đã cung cấp để để viết.
 
 ```
 # Simple Ansible Playbook1.yml
@@ -238,11 +238,11 @@ Nhưng nếu server yêu cầu cài thêm nhiều gói service khác như mysql,
         - php
 ```
  
-**with_items** là một lệnh lặp, thực thi cùng một tác vụ nhiều lần. Mỗi lần chạy, nó lưu giá trị của từng thành phần trong biến item.
+**with_items** là một lệnh lặp, thực thi cùng một tác vụ nhiều lần. Mỗi lần chạy, nó lưu giá trị của từng thành phần trong biến **item**.
 
 ## ROLES
 
-Nếu bạn có nhiều server hay nhiều group server và mỗi server thực thiện những tasks riêng biệt. Và khi này nếu viết tất cả vào cùng một file playbook thì khá là xấu code và khó để quản lý. Ansible đã cung cấp sẵn chức năng roles, về đơn giản nó sẽ giúp bạn phân chia khu vực với nhiệm vụ riêng biệt.
+Nếu bạn có nhiều **server** hay nhiều **group server** và mỗi **server** thực thiện những **tasks** riêng biệt. Và khi này nếu viết tất cả vào cùng một **file playbook** thì **code** khá là xấu và khó để quản lý. **Ansible** đã cung cấp sẵn chức năng **roles**, về đơn giản nó sẽ giúp bạn phân chia khu vực với nhiệm vụ riêng biệt.
 
 ```
 # Simple Ansible setup_application.yml
@@ -273,14 +273,14 @@ Nếu bạn có nhiều server hay nhiều group server và mỗi server thực 
         state: enabled
 ```
 
-Mục tiêu của file playbook setup_application.yml này là cấu hình tường lửa cho group server về web. Bây giờ chúng ta sẽ cắt nhỏ file playbook này ra thành những file có chức năng riêng biệt như file chỉ chưa định nghĩa biến, hay file chứa định nghĩa tasks. Trước khi cắt file playbook nhỏ gọn lại, ta cần tạo cấu trúc thư mục như sau để ansible nhận biết được các thành phần ta đã khai báo.
+Mục tiêu của file **playbook** `setup_application.yml` này là cấu hình tường lửa cho **group server** về **web**. Bây giờ chúng ta sẽ cắt nhỏ **file playbook** này ra thành những **file** có chức năng riêng biệt như **file** chỉ chưa định nghĩa biến, hay **file** chứa định nghĩa **tasks**. Trước khi cắt **file playbook** nhỏ gọn lại, ta cần tạo cấu trúc thư mục như sau để **ansible** nhận biết được các thành phần ta đã khai báo.
 
 ![Ansible Playbook](/Image/Ansible-Playbook01.png)
 
 ## Modules
 ### [1. File](https://docs.ansible.com/ansible/latest/modules/file_module.html)
 
-Create Folder/File
+Create **Folder/File**
 
 ```
 - name: create folder
@@ -294,7 +294,7 @@ Create Folder/File
   	state: touch
 ```
 
-Link Folder/File - change ownership
+Link **Folder/File** - **change ownership**
 
 ```
 - name: Create a symbolic link
