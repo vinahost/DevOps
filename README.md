@@ -35,7 +35,7 @@
 ## Kiến thức cơ bản về Linux
 
 - [✔️] 🐧 > [Overview: DevOps & Linux](OS/Basic/DevOps-va-Linux.md)
-- [✔️] 🐧 > [Vagrant là gì ?](OS/Basic/Vagrant-la-gi.md)
+- [✔️] 🐧 > [Vagrant là gì?](OS/Basic/Vagrant-la-gi.md)
 - [✔️] 🐧 > [Thực hành Linux với HashiCorp Vagrant](OS/Basic/HashiCorp-Vagrant.md)
 - [✔️] 🐧 > [Các lệnh Linux cho DevOps](OS/Basic/Linux-Basics.md)
 - [✔️] 🐧 > [Cài phần mềm trên Linux](OS/Basic/Install-Software-Linux.md)
@@ -51,7 +51,7 @@
 - [✔️] 🌐 > [Overview: DevOps & Mạng máy tính](Networking/DevOps-Networking.md)
 - [✔️] 🌐 > [Mô hình OSI - 7 lớp mạng](Networking/Mo-hinh-7-lop-OSI.md)
 - [✔️] 🌐 > [Giao thức mạng](Networking/Network-Protocols.md)
-- [✔️] 🌐 > [Giao thức TCP và UDP là gì ?](Networking/TCP-UDP.md)
+- [✔️] 🌐 > [Giao thức TCP và UDP là gì?](Networking/TCP-UDP.md)
 - [✔️] 🌐 > [Tự động hoá mạng máy tính](Networking/Network-Automation.md)
 - [✔️] 🌐 > [Python cho tự động hoá Network](Networking/Python-Network-Automation.md)
 - [✔️] 🌐 > [Xây dựng Lab với EVE-NG](Networking/EVE-NG.md)
@@ -64,19 +64,19 @@
 ### Alibaba Cloud
 
 - [✔️] ☁️ > [Kiến thức cơ bản về Alibaba Cloud](Cloud-Provider/Alibaba-Cloud/Alibaba-Cloud-la-gi.md)
-- [✔️] ☁️ > [Server Migration Center (SMC) là gì ?](Cloud-Provider/Alibaba-Cloud/Server-Migration-Center-SMC-la-gi.md)
+- [✔️] ☁️ > [Server Migration Center (SMC) là gì?](Cloud-Provider/Alibaba-Cloud/Server-Migration-Center-SMC-la-gi.md)
 - [✔️] ☁️ > [Mô hình bảo mật Alibaba Cloud]
 - [✔️] ☁️ > [Mô hình Điện toán Alibaba Cloud]
 - [✔️] ☁️ > [Mô hình Mạng Alibaba Cloud]
 - [✔️] ☁️ > [Thực hành với Alibaba Cloud]
-    - [✔️] ☁️ > [Hướng dẫn tạo Elastic Compute Service - ECS ](Cloud-Provider/Alibaba-Cloud/Elastic-Compute-Service-ECS.md)
-    - [✔️] ☁️ > [Hướng dẫn tạo Object Storage Service - OSS ](Cloud-Provider/Alibaba-Cloud/Object-Storage-Service-OSS.md)
-    - [✔️] ☁️ > [Hướng dẫn tạo và cấp quyền cho tài khoản RAM ](Cloud-Provider/Alibaba-Cloud/Resource-Access-Management-RAM.md)
-    - [✔️] ☁️ > [Hướng dẫn sử dụng Alibaba Cloud Pricing Calculator ](Cloud-Provider/Alibaba-Cloud/Alibaba-Cloud-Pricing-Calculator.md)
-    - [✔️] ☁️ > [Hướng dẫn sử dụng ApsaraVideo VOD Calculator ](Cloud-Provider/Alibaba-Cloud/ApsaraVideo-VOD-Calculator.md)
+    - [✔️] ☁️ > [Hướng dẫn tạo Elastic Compute Service - ECS](Cloud-Provider/Alibaba-Cloud/Elastic-Compute-Service-ECS.md)
+    - [✔️] ☁️ > [Hướng dẫn tạo Object Storage Service - OSS](Cloud-Provider/Alibaba-Cloud/Object-Storage-Service-OSS.md)
+    - [✔️] ☁️ > [Hướng dẫn tạo và cấp quyền cho tài khoản RAM](Cloud-Provider/Alibaba-Cloud/Resource-Access-Management-RAM.md)
+    - [✔️] ☁️ > [Hướng dẫn sử dụng Alibaba Cloud Pricing Calculator](Cloud-Provider/Alibaba-Cloud/Alibaba-Cloud-Pricing-Calculator.md)
+    - [✔️] ☁️ > [Hướng dẫn sử dụng ApsaraVideo VOD Calculator](Cloud-Provider/Alibaba-Cloud/ApsaraVideo-VOD-Calculator.md)
     - [✔️] ☁️ > [Quản lý cơ sở dữ liệu RDS với Alibaba Cloud DMS](Cloud-Provider/Alibaba-Cloud/Quan-Ly-RDS-Alibaba-Cloud.md)
-    - [✔️] ☁️ > [Billing Management trên Aliaba Cloud ](Cloud-Provider/Alibaba-Cloud/Budget-Management-tren-Alibaba-Cloud.md)
-    - [✔️] ☁️ > [Hướng dẫn gởi ticket trên Alibaba Cloud ](Cloud-Provider/Alibaba-Cloud/Ticket-Submit-Alibaba-Cloud.md)
+    - [✔️] ☁️ > [Billing Management trên Aliaba Cloud](Cloud-Provider/Alibaba-Cloud/Budget-Management-tren-Alibaba-Cloud.md)
+    - [✔️] ☁️ > [Hướng dẫn gởi ticket trên Alibaba Cloud](Cloud-Provider/Alibaba-Cloud/Ticket-Submit-Alibaba-Cloud.md)
               
 ## Cách sử dụng Git hiệu quả
 
@@ -94,7 +94,7 @@
 ## Containers
 
 - [✔️] 🏗️ > [Overview: Containers](Containers/Docker/Containers-la-gi.md)
-- [✔️] 🏗️ > [Docker là gì & Cài đặt](Containers/Docker/Docker-la-gi.md)
+- [✔️] 🏗️ > [Docker là gì?](Containers/Docker/Docker-la-gi.md)
 - [✔️] 🏗️ > [Cài đặt Docker Desktop](Containers/Docker/Cai-dat-Docker-Desktop.md)
 - [✔️] 🏗️ > [Docker Images & Thực hành với Docker Desktop](Containers/Docker/Thuc-hanh-voi-Docker-Desktop.md)
 - [✔️] 🏗️ > [Phân tích một Docker Image](Containers/Docker/Docker-Image.md)
@@ -102,8 +102,8 @@
 - [✔️] 🏗️ > [Docker Networking & Security](Containers/Docker/Docker-Networking-Security.md)
 - [✔️] 🏗️ > [Docker Nâng Cao](Containers/Docker/Docker-nang-cao.md)
 - [✔️] 🏗️ > [Các lựa chọn thay thế cho Docker](Containers/Docker/Cac-lua-chon-thay-the-Docker.md)
-- [✔️] 🏗️ > [Docker Swarm là gì](Containers/Docker/Tim-hieu-Docker-Swarm.md)
-- [✔️] 🏗️ > [Hỏi đáp về Docker - English](Containers/Docker/Docker-questions-and-answers.md)
+- [✔️] 🏗️ > [Docker Swarm là gì?](Containers/Docker/Tim-hieu-Docker-Swarm.md)
+- [✔️] 🏗️ > [Docker Questions and Answers](Containers/Docker/Docker-questions-and-answers.md)
 
 ## Kubernetes
 
@@ -117,7 +117,7 @@
 - [✔️] ☸ > [State và Ingress trong Kubernetes]
 - [✔️] ☸ > [Cài đặt Kubernet Cluster bằng Kubespray trên vCloud](Containers-Orchestration/Kubernetes/Kubespray.md)
 - [✔️] ☸ > [Helm Chart là gì?](Containers-Orchestration/Kubernetes/Helm.md)
-- [✔️] ☸ > [Hỏi đáp về Kubernetes - English](Containers-Orchestration/Kubernetes/75-Cau-k8s.md)
+- [✔️] ☸ > [Kubernetes Questions and Answers](Containers-Orchestration/Kubernetes/75-Cau-k8s.md)
 
 ## Cơ sở hạ tầng dưới dạng mã (Infrastructure as Code)
 
