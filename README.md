@@ -134,7 +134,7 @@
 ## Tự động hóa quản lý cấu hình
 
 - [✔️] 📜 > [Overview: Quản lý cấu hình](IaC/Configuration-Management.md)
-- [✔️] 📜 > [Ansible: Bắt đầu](IaC/Setup-Ansible.md)
+- [✔️] 📜 > [Setup Ansible](IaC/Setup-Ansible.md)
 - [✔️] 📜 > [Ansible Playbooks](IaC/Ansible-Playbook.md)
 - [✔️] 📜 > [Tiếp tục với Ansible Playbooks...]
 - [✔️] 📜 > [Sử dụng Role & Triển khai Loadbalancer]
