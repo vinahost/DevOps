@@ -1,6 +1,6 @@
 # Quản lý cấu hình là gì ?
 
-Ngay sau phần nói về **Cơ sở hạ tầng dưới dạng mã** ( Infrastructure as Code - IaC ) , có nhiều khả năng sẽ có một số điểm giao khi chúng ta nói về **Quản lý cấu hình** ( Configuration Management ) hoặc **Quản lý cấu hình ứng dụng** ( Application Configuration Management ).
+Ngay sau phần nói về **Cơ sở hạ tầng dưới dạng mã** ( **Infrastructure as Code - IaC** ) , có nhiều khả năng sẽ có một số điểm giao khi chúng ta nói về **Quản lý cấu hình** ( **Configuration Management** ) hoặc **Quản lý cấu hình ứng dụng** ( **Application Configuration Management** ).
 
 **Quản lý cấu hình** là quá trình duy trì các ứng dụng, hệ thống và máy chủ ở trạng thái mong muốn. Sự trùng lặp với Cơ sở hạ tầng dưới dạng mã là **IaC** sẽ đảm bảo cơ sở hạ tầng của bạn ở trạng thái mong muốn nhưng sau đó, đặc biệt là **Terraform** sẽ không quản lý trạng thái mong muốn của cài đặt hệ điều hành hoặc ứng dụng của bạn, đó là nơi các công cụ quản lý cấu hình xuất hiện đảm bảo rằng hệ thống và ứng dụng hoạt động theo cách được mong đợi khi có thay đổi.
 
@@ -33,7 +33,6 @@ Có sẵn nhiều công cụ quản lý cấu hình và mỗi công cụ đều 
      - Kiến trúc - Server/Client
      - Dễ dàng thiết lập - Trung bình
      - Language - Procedural - Chỉ định cách thực hiện tác vụ
-
 
 - **Puppet**
 
@@ -77,9 +76,9 @@ Có sẵn nhiều công cụ quản lý cấu hình và mỗi công cụ đều 
 
 ### Ansible vs Terraform
 
-Công cụ mà chúng ta sẽ sử dụng cho phần này sẽ là Ansible (Dễ sử dụng và yêu cầu cơ bản về ngôn ngữ dễ dàng hơn).
+Công cụ mà chúng ta sẽ sử dụng cho phần này sẽ là **Ansible** (Dễ sử dụng và yêu cầu cơ bản về ngôn ngữ dễ dàng hơn).
 
-Tôi nghĩ rằng điều quan trọng là phải đề cập đến một số khác biệt giữa Ansible và Terraform trước khi chúng ta tìm hiểu sâu hơn về công cụ này.
+Tôi nghĩ rằng điều quan trọng là phải đề cập đến một số khác biệt giữa **Ansible** và **Terraform** trước khi chúng ta tìm hiểu sâu hơn về công cụ này.
 
 |                | Ansible                                                      | Terraform                                                        |
 | -------------- | ------------------------------------------------------------ | ---------------------------------------------------------------- |
@@ -95,4 +94,3 @@ Tôi nghĩ rằng điều quan trọng là phải đề cập đến một số 
 - [What is Ansible](https://www.youtube.com/watch?v=1id6ERvfozo)
 - [Ansible 101 - Episode 1 - Introduction to Ansible](https://www.youtube.com/watch?v=goclfp6a2IQ)
 - [NetworkChuck - You need to learn Ansible right now!](https://www.youtube.com/watch?v=5hycyr-8EKs&t=955s)
-- https://github.com/MichaelCade/90DaysOfDevOps/blob/main/2022/vi/Days/day63.md
