@@ -393,6 +393,7 @@ Sử dụng thư viện **Perl** có tên là [YAML::XS](https://metacpan.org/po
 
 Đoạn code **example**, sử dụng để load 1 file **config.yml**
 
+``` PERL
     #!/usr/bin/perl
     #
     # Read YAML Config File
@@ -404,12 +405,13 @@ Sử dụng thư viện **Perl** có tên là [YAML::XS](https://metacpan.org/po
         
     my $config = LoadFile('config.yaml');
     print Dumper($config);
+``` 
 
 ### Đọc file YAML trong PHP
 
 Để đọc file **yaml** trong **PHP**, các bạn có thể sử dụng **function** [yaml_parse_file](http://php.net/manual/en/function.yaml-parse-file.php) được **PHP** hỗ trợ sẵn. Đoạn code **example** như bên dưới.
 
-
+``` PHP
     <?php
     function cb_yaml_date($value, $tag, $flags) {
         return new DateTime($value);
@@ -425,6 +427,7 @@ Sử dụng thư viện **Perl** có tên là [YAML::XS](https://metacpan.org/po
     $data = yaml_parse($yaml, 0, $ndocs, array('!date' => 'cb_yaml_date'));
 
     print_r($data);
+```
 
 Ngoài ra **PHP** còn có rất nhiều thư viện bên ngoài như [symfony/yaml](https://symfony.com/doc/current/components/yaml/introduction.html)
 
@@ -437,13 +440,13 @@ Trong **Python**, để đọc file **yaml** thì chúng ta cài đặt thư vi�
 Đoạn **sample** code đọc **yaml** trong **Python 3**
 
 ``` python
-    #!/usr/bin/env python3
-    import yaml
-    with open("configs.yaml", 'r') as stream:
-        try:
-            print(yaml.safe_load(stream))
-        except yaml.YAMLError as error:
-            print(error)
+#!/usr/bin/env python3
+import yaml
+with open("configs.yaml", 'r') as stream:
+    try:
+        print(yaml.safe_load(stream))
+    except yaml.YAMLError as error:
+        print(error)
 ```
 
 ## Tóm lại
