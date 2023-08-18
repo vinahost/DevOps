@@ -132,34 +132,36 @@ Khi đã ở trong thư mục đó, chúng ta sẽ chạy lệnh `terraform init
 
 Chúng ta cần thực hiện lệnh này trên bất kỳ thư mục nào chứa mã **Terraform** hoặc trước khi chúng ta chạy bất kỳ mã **Terraform** nào. Việc khởi tạo một thư mục cấu hình tải xuống và cài đặt các **provider** đã được định nghĩa trong cấu hình, trong trường hợp này, chúng ta không có **provider**, nhưng trong ví dụ ở trên, điều này sẽ tải xuống **provider AWS** cho cấu hình này.
 
-![HashiCorp Configuration Language (HCL)](../../Image/../DevOps/Image/Terraform01.png)
+![HashiCorp Configuration Language (HCL)](../../Image/Terraform01.png)
 
 Lệnh tiếp theo sẽ là `terraform plan`.
 
-Lệnh `terraform plan` tạo ra một kế hoạch thực thi, cho phép bạn xem trước các thay đổi mà HashiCorp Configuration Language (HCL) dự định thực hiện trên hạ tầng của bạn.
+Lệnh `terraform plan` tạo ra một kế hoạch thực thi, cho phép bạn xem trước các thay đổi mà **HashiCorp Configuration Language (HCL)** dự định thực hiện trên hạ tầng của bạn.
 
 Dưới đây, bạn có thể thấy rằng với ví dụ **hello-world** của chúng ta, chúng ta sẽ thấy đầu ra nếu đây là một **instance EC2** trên **AWS**, chúng ta sẽ thấy tất cả các bước mà chúng ta sẽ tạo ra.
 
-![HashiCorp Configuration Language (HCL)](../../Image/../DevOps/Image/Terraform02.png)
-\
+![HashiCorp Configuration Language (HCL)](../../Image/Terraform02.png)
 
 Ở điểm này, chúng ta đã khởi tạo kho lưu trữ và đã tải xuống các **provider** khi cần thiết, chúng ta đã chạy một bước đi kiểm tra để đảm bảo rằng đây là những gì chúng ta muốn thấy, vì vậy bây giờ chúng ta có thể chạy và triển khai mã của chúng ta.
 
 `terraform apply` cho phép chúng ta làm điều này, có một biện pháp an toàn tích hợp trong lệnh này và nó sẽ cung cấp một kế hoạch về những gì sẽ xảy ra, đòi hỏi bạn phản hồi bằng cách nói `"yes"` để tiếp tục.
 
-![HashiCorp Configuration Language (HCL)](../../Image/../DevOps/Image/Terraform03.png)
+![HashiCorp Configuration Language (HCL)](../../Image/Terraform03.png)
 
 Khi chúng ta gõ `"yes"` để xác nhận, mã của chúng ta sẽ được triển khai. Không có gì thú vị nhưng bạn có thể thấy chúng ta có kết quả đầu ra mà chúng ta đã định nghĩa trong mã của mình.
 
-![HashiCorp Configuration Language (HCL)](../../Image/../DevOps/Image/Terraform04.png)
+![HashiCorp Configuration Language (HCL)](../../Image/Terraform04.png)
 
 Hiện tại, chúng ta chưa triển khai bất cứ thứ gì, chúng ta chưa thêm, thay đổi hoặc phá hủy bất cứ thứ gì, nhưng nếu chúng ta đã làm điều đó, chúng ta sẽ thấy điều đó được chỉ ra trong đoạn trên. Tuy nhiên, nếu chúng ta đã triển khai một cái gì đó và muốn loại bỏ tất cả những gì chúng ta đã triển khai, chúng ta có thể sử dụng lệnh `terraform destroy`. Một lần nữa, điều này có tính năng an toàn, bạn phải gõ `"yes"` để xác nhận, mặc dù bạn có thể sử dụng `--auto-approve` ở cuối các lệnh `apply` và `destroy` để bỏ qua sự can thiệp thủ công đó. Tuy nhiên, tôi khuyên bạn chỉ nên sử dụng lối tắt này khi học và thử nghiệm vì mọi thứ có thể biến mất nhanh hơn cả việc xây dựng.
 
 Từ đó, chúng ta đã tìm hiểu về 4 lệnh trong **CLI** của **Terraform**.
 
 `terraform init` = chuẩn bị thư mục dự án với các provider.
+
 `terraform plan` = hiển thị những gì sẽ được tạo ra và thay đổi trong lệnh tiếp theo dựa trên mã của chúng ta.
+
 `terraform apply` = triển khai các tài nguyên được định nghĩa trong mã của chúng ta.
+
 `terraform destroy` = phá hủy các tài nguyên chúng ta đã tạo ra trong dự án của chúng ta.
 
 Chúng ta cũng đã tìm hiểu về hai khía cạnh quan trọng của tệp mã.
