@@ -127,7 +127,7 @@
 - [✔️] 🤖 > [Giới thiệu về Terraform](IaC/Terraform-la-gi.md)
 - [✔️] 🤖 > [Ngôn ngữ cấu hình HashiCorp (HCL)](IaC/HCL.md)
 - [✔️] 🤖 > [Tạo VM với Terraform & Biến](IaC/Tao-VM-Terraform.md)
-- [✔️] 🤖 > [Docker Container, Providers & Modules]
+- [✔️] 🤖 > [Docker Container, Providers & Modules](IaC/Docker-Containers-Terraform.md)
 - [✔️] 🤖 > [Kubernetes & Đa môi trường]
 - [✔️] 🤖 > [Testing, Tools & Alternatives]
 
