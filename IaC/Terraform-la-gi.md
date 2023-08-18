@@ -1,17 +1,23 @@
 # Terraform là gì?
 
-**Terraform** là một công cụ mã nguồn mở cho phép bạn định nghĩa **Infrastructure as Code - IaC** với đa dạng cloud provider ví dụ: Alibaba Cloud, AWS, Azure… Terraform giúp bạn quản lý hệ thống bằng code và tự động hóa việc triển khai hạ tầng của bạn. Bạn có thể sử dụng Terraform để quản lý các tài nguyên như máy chủ, mạng, cơ sở dữ liệu và các tài nguyên khác của các nhà cung cấp đám mây khác nhau.
+**Terraform** là một công cụ mã nguồn mở cho phép bạn định nghĩa **Infrastructure as Code - IaC** với đa dạng **cloud provider** ví dụ: **Alibaba Cloud**, **AWS**, **Azure** … được quản lý bởi **HashiCorp**. **Terraform** giúp bạn quản lý hệ thống bằng **code** và tự động hóa việc triển khai hạ tầng của bạn. Bạn có thể sử dụng **Terraform** để quản lý các tài nguyên như máy chủ, mạng, cơ sở dữ liệu và các tài nguyên khác của các nhà cung cấp đám mây khác nhau.
+
 - Quản lý tài nguyên đám mây đa nền tảng.
 - Quản lý các phiên bản khác nhau của cơ sở hạ tầng.
 - Quản lý các phụ thuộc giữa các tài nguyên.
 - Tự động hóa việc triển khai và cập nhật cơ sở hạ tầng.
 
-Terraform sử dụng ngôn ngữ HCL (HashiCorp Configuration Language) để định nghĩa cấu trúc hạ tầng của bạn và có thể được sử dụng để quản lý hạ tầng trên nhiều nhà cung cấp đám mây khác nhau.
-![terraform](../Image/Terraform-la-gi.png)
+**Terraform** sử dụng ngôn ngữ **HCL** (*HashiCorp Configuration Language*) để định nghĩa cấu trúc hạ tầng của bạn và có thể được sử dụng để quản lý hạ tầng trên nhiều nhà cung cấp đám mây khác nhau.
+
+![Terraform là gì](../Image/Terraform-la-gi.png)
+
+> "**Terraform** là một công cụ phần mềm cơ sở hạ tầng dưới dạng mã mã nguồn mở cung cấp quy trình làm việc với **CLI** để quản lý hàng trăm dịch vụ điện toán đám mây. **Terraform** mã hoá các **API** của các nhà cung cấp thành các tệp cấu hình khai báo"
+
+**HashiCorp** có nguồn tài nguyên tuyệt vời tại [**HashiCorp Learn**](https://developer.hashicorp.com/terraform/tutorials) bao gồm tất cả các sản phẩm của họ và cung cấp một số bản **demo** hướng dẫn rất tốt khi bạn đang cố gắng làm việc với Cơ sở hạ tầng dưới dạng mã.
 
 ### Các công cụ thay thế Terraform
 
-Một số công cụ tương đương với Terraform mà bạn có thể tham khảo bao gồm:
+Một số công cụ tương đương với **Terraform** mà bạn có thể tham khảo bao gồm:
 
 - Chef Infra
 - Ansible
@@ -22,15 +28,50 @@ Một số công cụ tương đương với Terraform mà bạn có thể tham 
 - Azure Resource Manager
 - Google Cloud Deployment Manager
 
-Terraform được chọn vì nó có thể giúp quản lý cơ sở hạ tầng đám mây dễ dàng và hiệu quả hơn bằng cách viết mã để tự động hóa các quy trình triển khai và cập nhật.
+**Terraform** được chọn vì nó có thể giúp quản lý cơ sở hạ tầng đám mây dễ dàng và hiệu quả hơn bằng cách viết mã để tự động hóa các quy trình triển khai và cập nhật.
 
-Terraform cũng hỗ trợ cho Alibaba Cloud thông qua provider của Alibaba Cloud. Bạn có thể sử dụng Terraform để quản lý các tài nguyên trên Alibaba Cloud như ECS instances, VPCs, ApsaraDB for RDS instances và nhiều hơn nữa.
+**Terraform** cũng hỗ trợ cho **Alibaba Cloud** thông qua **provider** của **Alibaba Cloud**. Bạn có thể sử dụng **Terraform** để quản lý các tài nguyên trên A**libaba Cloud** như **ECS instances**, **VPCs**, **ApsaraDB for RDS instances** và nhiều hơn nữa.
 
-Ngoài ra, Alibaba Cloud cũng cung cấp một giải pháp sử dụng Terraform để triển khai và quản lý hạ tầng của mình.
+Ngoài ra, **Alibaba Cloud** cũng cung cấp một giải pháp sử dụng **Terraform** để triển khai và quản lý hạ tầng của mình.
+
+### Tổng quan về Terraform
+
+**Terraform** là một công cụ tập trung vào việc cung cấp hạ tầng, **Terraform** là một **CLI** có khả năng khởi tạo, cung cấp các môi trường cơ sở hạ tầng phức tạp. Với **Terraform**, chúng ta có thể xác định các yêu cầu cơ sở hạ tầng phức tạp tồn tại cục bộ hoặc từ xa (điện toán đám mây). **Terraform** không chỉ cho phép chúng ta xây dựng mọi thứ từ đầu mà còn duy trì và cập nhật các tài nguyên đó theo suốt vòng đời của chúng.
+
+Chúng ta sẽ đề cập tới **high level** trong bài viết này, bạn có thể biết thêm chi tiết và tìm hiểu các tài nguyên khác tại trang [terraform.io](https://www.terraform.io/)
+
+#### Write
+
+**Terraform** cho phép chúng ta tạo các tệp cấu hình khai báo để xây dựng môi trường của chúng ta. Các tệp được viết bằng ngôn ngữ cấu hình của **HashiCorp** (*HCL - HashiCorp Configuration Language*) cho phép mô tả ngắn gọn các tài nguyên bằng cách sử dụng các khối, đối số và biểu thức. Tất nhiên, chúng ta sẽ xem xét những điều này một cách chi tiết khi triển khai **VM**, **Container** và **Kubernetes**.
+
+#### Plan
+
+Khả năng kiểm tra xem các tệp cấu hình trên có triển khai những gì chúng ta muốn thấy hay không bằng cách sử dụng các chức năng cụ thể của **Terraform CLI** trước khi triển khai hoặc thay đổi bất cứ thứ gì. Hãy nhớ rằng **Terraform** là một công cụ được sử dụng xuyên suốt cho cơ sở hạ tầng của bạn, nếu bạn muốn thay đổi các khía cạnh của cơ sở hạ tầng của mình, bạn nên thực hiện điều đó thông qua **Terraform** để tất cả mọi thứ được nắm bắt thông qua mã.
+
+#### Apply
+
+Khi đã hài lòng, bạn có thể áp dụng cấu hình này cho nhiều **providers** có sẵn trong **Terraform**. Bạn có thể thấy danh sách các **provider** có sẵn [tại đây](https://registry.terraform.io/browse/providers)
+
+Một điều khác cần đề cập là cũng có sẵn các modules, nó tương tự như container images ở chỗ các modules này đã được tạo và chia sẻ công khai, do đó bạn không phải tạo đi tạo lại chúng mà chỉ cần sử dụng lại cách tốt nhất để triển khai một tài nguyên cụ thể theo cùng một cách ở mọi nơi. Bạn có thể tìm thấy các module có sẵn [tại đây](https://registry.terraform.io/browse/modules)
+
+#### Quy trình làm việc của Terraform
+
+![Terraform Workflow](../Image/Terraform-Workflow.png)
+
+### Terraform vs Vagrant
+
+Trong thử thách này, chúng ta đã sử dụng **Vagrant**, một công cụ mã nguồn mở khác của **Hashicorp** tập trung vào các môi trường phát triển.
+
+- **Vagrant** là một công cụ tập trung vào việc quản lý môi trường phát triển
+- **Terraform** là một công cụ để xây dựng cơ sở hạ tầng.
+
+Bạn có thể tìm thấy sự so sánh giữa hai công cụ tại đây trên trang web chính thức của [Hashicorp](https://www.vagrantup.com/intro/vs/terraform)
 
 ### Cài đặt Terraform
 
-Terraform hỗ trợ nhiều hệ điều hành khác nhau như Windows, Linux, MacOS, Solaris, FreeBSD và OpenBSD... Bài viết này sẽ hướng dẫn các bạn cài trên hệ điều hành Ubuntu
+![Cài đặt Terraform](../Image/Terraform-Setup.jpeg)
+
+**Terraform** hỗ trợ nhiều hệ điều hành khác nhau như **Windows**, **Linux**, **MacOS**, **Solaris**, **FreeBSD** và **OpenBSD**... Bài viết này sẽ hướng dẫn các bạn cài trên hệ điều hành **Ubuntu**
 
 ```js
 wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
