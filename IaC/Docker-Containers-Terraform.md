@@ -35,15 +35,15 @@ resource "docker_container" "nginx" {
 
 Nhiệm vụ đầu tiên là sử dụng lệnh `terraform init` để tải xuống nhà cung cấp vào máy tính cục bộ của chúng ta.
 
-![Docker Terraform](../../Image/../DevOps/Image/Terraform-Docker01.png)
+![Docker Terraform](Image/../../Image/Terraform-Docker01.png)
 
 Tiếp theo, chúng ta chạy lệnh `terraform apply`, sau đó là `docker ps`, và bạn sẽ thấy chúng ta có một **container** đang chạy.
 
-![Docker Terraform](../../Image/../DevOps/Image/Terraform-Docker02.png)
+![Docker Terraform](Image/../../Image/Terraform-Docker02.png)
 
 Nếu chúng ta mở trình duyệt và điều hướng đến http://localhost:8000/, bạn sẽ thấy chúng ta có quyền truy cập vào **container** `NGINX` của chúng ta.
 
-![Docker Terraform](../../Image/../DevOps/Image/Terraform-Docker03.png)
+![Docker Terraform](Image/../../Image/Terraform-Docker03.png)
 
 Các bạn có thể tìm hiểu thêm về **Docker Provider** tại đây [Docker Provider](https://registry.terraform.io/providers/kreuzwerker/docker/latest/docs/resources/container)
 
@@ -113,15 +113,15 @@ resource "docker_container" "wordpress" {
 
 Chúng ta lại tệp vào một thư mục mới và sau đó chạy lệnh `terraform init` để tải về các công cụ cần thiết.
 
-![Docker Terraform](../../Image/../DevOps/Image/Terraform-Docker04.png)
+![Docker Terraform](Image/../../Image/Terraform-Docker04.png)
 
 Sau đó, chúng ta chạy lệnh `terraform apply` và kiểm tra đầu ra của lệnh `docker ps`, chúng ta sẽ thấy các container mới được tạo ra.
 
-![Docker Terraform](../../Image/../DevOps/Image/Terraform-Docker05.png)
+![Docker Terraform](Image/../../Image/Terraform-Docker05.png)
 
 Sau đó, chúng ta có thể truy cập vào giao diện **WordPress**. Tương tự như khi chúng ta đã thực hiện quá trình này với **docker-compose** trong phần **container**, bây giờ chúng ta có thể tiếp tục thiết lập và các bài viết **WordPress** của chúng ta sẽ được lưu trong cơ sở dữ liệu **MySQL**.
 
-![Docker Terraform](../../Image/../DevOps/Image/Terraform-Docker06.png)
+![Docker Terraform](Image/../../Image/Terraform-Docker06.png)
 
 Bây giờ chúng ta đã thảo luận khá chi tiết về **containers** và **Kubernetes**, chúng ta có thể hiểu rằng việc sử dụng **containers** một mình chỉ phù hợp cho việc kiểm thử, và nếu bạn đang chạy ứng dụng, bạn sẽ không chỉ sử dụng **containers** mà còn xem xét sử dụng **Kubernetes** để đạt được điều này. Tiếp theo, chúng ta sẽ tìm hiểu cách sử dụng **Terraform** với **Kubernetes**.
 
