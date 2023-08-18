@@ -140,7 +140,7 @@ Tuy nhiên, mỗi phương pháp trên đều có ưu điểm và nhược đi�
   - Giảm thiểu lỗi cá nhân
 - Mã nguồn (code) thể hiện chính xác so với trạng thái triển khai
 
-##### Nhược điểm
+#### Nhược điểm
 
 - Phải chạy nhiều lần `terraform apply` để triển khai cho nhiều môi trường
 - Gia tăng sự trùng lặp, nhưng có thể giảm thiểu khi sử dụng module
