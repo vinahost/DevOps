@@ -2,482 +2,512 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://devops.vinahost.vn/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/CI-CD/GitHub-Actions/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/CI-CD/Jenkins-la-gi/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/CI-CD/Overview-CI-CD-Pipelines/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Cloud-Provider/Overview-DevOps-The-Cloud/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Cloud-Provider/Alibaba-Cloud/Alibaba-Cloud-Pricing-Calculator/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Cloud-Provider/Alibaba-Cloud/Alibaba-Cloud-la-gi/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Cloud-Provider/Alibaba-Cloud/ApsaraVideo-VOD-Calculator/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Cloud-Provider/Alibaba-Cloud/Budget-Management-tren-Alibaba-Cloud/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Cloud-Provider/Alibaba-Cloud/Elastic-Compute-Service-ECS/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Cloud-Provider/Alibaba-Cloud/Object-Storage-Service-OSS/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Cloud-Provider/Alibaba-Cloud/Quan-Ly-RDS-Alibaba-Cloud/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Cloud-Provider/Alibaba-Cloud/Resource-Access-Management-RAM/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Cloud-Provider/Alibaba-Cloud/Server-Migration-Center-SMC-la-gi/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Cloud-Provider/Alibaba-Cloud/Ticket-Submit-Alibaba-Cloud/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Containers/Docker/Cac-lua-chon-thay-the-Docker/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Containers/Docker/Cai-dat-Docker-Desktop/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Containers/Docker/Containers-la-gi/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Containers/Docker/Docker-Compose/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Containers/Docker/Docker-Image/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Containers/Docker/Docker-Networking-Security/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Containers/Docker/Docker-la-gi/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Containers/Docker/Docker-nang-cao/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Containers/Docker/Docker-questions-and-answers/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Containers/Docker/Thuc-hanh-voi-Docker-Desktop/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Containers/Docker/Tim-hieu-Docker-Swarm/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Containers-Orchestration/Kubernetes/75-Cau-k8s/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Containers-Orchestration/Kubernetes/Application-Kubernetes/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Containers-Orchestration/Kubernetes/Helm/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Containers-Orchestration/Kubernetes/Kubernetes-Cluster-Multi-Node/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Containers-Orchestration/Kubernetes/Kubernetes-cluster/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Containers-Orchestration/Kubernetes/Kubernetes-la-gi/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Containers-Orchestration/Kubernetes/Kubernetes-platform/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Containers-Orchestration/Kubernetes/Kubernetes/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Containers-Orchestration/Kubernetes/Kubespray/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Containers-Orchestration/Kubernetes/Rancher/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Containers-Orchestration/Kubernetes/State-Ingress-Kubernetes/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/IaC/Ansible-Playbook/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/IaC/Configuration-Management/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://devops.vinahost.vn/IaC/Docker-Containers-Terraform/</loc>
+         <lastmod>2023-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://devops.vinahost.vn/IaC/HCL/</loc>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/IaC/Infrastructure-as-Code-IaC/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://devops.vinahost.vn/IaC/Tao-VM-Terraform/</loc>
+         <lastmod>2023-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://devops.vinahost.vn/IaC/Terraform-Kubernetes/</loc>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/IaC/Terraform-la-gi/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://devops.vinahost.vn/IaC/Testing-Terraform/</loc>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Misc/DevOps-Cheatsheet/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Misc/Public-DNS-Servers/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Misc/Snapshot-Backup/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Misc/Training-AlibabaCloud/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Networking/DevOps-Networking/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Networking/EVE-NG/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Networking/Mo-hinh-7-lop-OSI/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Networking/Network-Automation/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Networking/Network-Protocols/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Networking/Python-Network-Automation/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Networking/TCP-UDP/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Networking/Working-With-Python/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/OS/Basic/DevOps-va-Linux/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/OS/Basic/File-System-Linux/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/OS/Basic/HashiCorp-Vagrant/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/OS/Basic/Install-Software-Linux/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/OS/Basic/Lenh-Find-Trong-Linux/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/OS/Basic/Linux-Basics/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/OS/Basic/Linux-Nano-Vim/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/OS/Basic/SSH-Webserver/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/OS/Basic/Tu-Dong-Hoa-Voi-Bash/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/OS/Basic/Ubuntu-Desktop/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/OS/Basic/Vagrant-la-gi/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Overview/DevOps-Agile/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Overview/DevOps-Lifecycle/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Overview/DevOps-Roadmap/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Overview/DevOps-la-gi/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Overview/Microservices-Monolith-DevOps/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Overview/Quy-Trinh-DevOps/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Programming-Langguage/Ngon-Ngu-Lap-Trinh-DevOps/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://devops.vinahost.vn/Programming-Langguage/YAML/</loc>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Programming-Langguage/GoLang/Bien-Hang-So-Go/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Programming-Langguage/GoLang/DevOps-Va-GoLang/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Programming-Langguage/GoLang/Go-Nhan-Gia-Tri-Bien/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Programming-Langguage/GoLang/Go-Workspace/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Programming-Langguage/GoLang/Hello-World-GoLang/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Programming-Langguage/GoLang/Twitter-Voi-GoLang/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Programming-Langguage/Python/Automation-with-Python/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Programming-Langguage/Python/Bat-Dau-Voi-Python/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Programming-Langguage/Python/Build-an-App-in-Python/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Programming-Langguage/Python/Introduction-to-Python/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Programming-Langguage/Python/Python-4-Concepts/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Programming-Langguage/Python/Python-Data-Structures-OOP/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Programming-Langguage/Python/Python-Debugging-Testing-Regular/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Programming-Langguage/Python/Web-development-in-Python/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Scripts/Containers/elasticsearch-logstash-kibana/ELK/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Version-Control/Git-Advanced-vi/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Version-Control/Git-Advanced/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Version-Control/Git-Co-Ban/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Version-Control/Git-Setup-Windows/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Version-Control/Git-Setup/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Version-Control/Git-Version/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Version-Control/Git/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Version-Control/GitHub-GitLab-BitBucket/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Version-Control/Quy-Trinh-Lam-Viec/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Version-Control/Staging-Changing/</loc>
-         <lastmod>2023-08-17</lastmod>
+         <lastmod>2023-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
