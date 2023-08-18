@@ -18,7 +18,7 @@ Hãy xem qua một tệp `.tf` trong **Terraform** để hiểu hơn về cấu 
 
 Ở đầu cấu trúc tệp `.tf`, thông thường được gọi là `main.tf`, ít nhất cho đến khi chúng ta làm các thứ phức tạp hơn, chúng ta sẽ định nghĩa các **provider** mà chúng ta đã đề cập trước đó. Nguồn của **provider AWS** như bạn có thể thấy là `hashicorp/aws`, điều này có nghĩa là **provider** này được duy trì hoặc đã được phát triển bởi chính **HashiCorp** và cộng đồng sử dụng. Mặc định, bạn sẽ tham chiếu đến các **provider** có sẵn từ **Terraform Registry**, bạn cũng có thể viết các **provider** riêng của bạn và sử dụng chúng cục bộ hoặc tự xuất bản lên **Terraform Registry**.
 
-```
+```hcl
 terraform {
   required_providers {
     aws = {
@@ -31,7 +31,7 @@ terraform {
 
 Chúng ta cũng có thể thêm khu vực (**region**) vào đây để xác định khu vực **AWS** mà chúng ta muốn triển khai, chúng ta có thể làm điều này bằng cách thêm các dòng sau đây:
 
-```
+```hcl
 provider "aws" {
   region = "ap-southeast-1" //region where resources need to be deployed
 }
@@ -45,7 +45,7 @@ provider "aws" {
 
 - Loại tài nguyên và tên cùng nhau tạo thành một định danh cho một tài nguyên cụ thể.
 
-```
+```hcl
 resource "aws_instance" "90daysofdevops" {
   ami               = data.aws_ami.instance_id.id
   instance_type     = "t2.micro"
