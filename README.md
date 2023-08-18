@@ -14,6 +14,7 @@
 ## DevOps và ngôn ngữ lập trình
 
 - [✔️] ⌨️ > [Overview: DevOps & Học một ngôn ngữ lập trình](Programming-Langguage/Ngon-Ngu-Lap-Trinh-DevOps.md)
+- [✔️] ⌨️ > [YAML là gì?](Programming-Langguage/YAML.md)
 
 ### Lập trình với Python
 - [✔️] ⌨️ > [Thiết lập môi trường DevOps cho Python](Programming-Langguage/Python/Bat-Dau-Voi-Python.md)
