@@ -128,7 +128,7 @@
 - [✔️] 🤖 > [Ngôn ngữ cấu hình HashiCorp (HCL)](IaC/HCL.md)
 - [✔️] 🤖 > [Tạo VM với Terraform & Biến](IaC/Tao-VM-Terraform.md)
 - [✔️] 🤖 > [Docker Container, Providers & Modules](IaC/Docker-Containers-Terraform.md)
-- [✔️] 🤖 > [Kubernetes & Đa môi trường]
+- [✔️] 🤖 > [Kubernetes & Đa môi trường](IaC/Terraform-Kubernetes.md)
 - [✔️] 🤖 > [Testing, Tools & Alternatives]
 
 ## Tự động hóa quản lý cấu hình
