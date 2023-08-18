@@ -1,6 +1,6 @@
 ## Kubernetes & Đa môi trường
 
-Cho đến nay, trong phần về **Infrastructure as Code (IaC)**, chúng ta đã xem xét triển khai máy ảo, mặc dù chúng ta đã sử dụng **VirtualBox**, nhưng nguyên tắc là giống nhau, chúng ta xác định bằng mã nguồn những gì chúng ta muốn máy ảo của mình trông như thế nào và sau đó triển khai. Tương tự cho các **container Docker** và trong bài viết náy, chúng ta sẽ xem cách **Terraform** có thể được sử dụng để tương tác với các tài nguyên được hỗ trợ bởi **Kubernetes**.
+Cho đến nay, trong phần về **Infrastructure as Code (IaC)**, chúng ta đã xem xét triển khai máy ảo, mặc dù chúng ta đã sử dụng **VirtualBox**, nhưng nguyên tắc là giống nhau, chúng ta xác định bằng mã nguồn những gì chúng ta muốn máy ảo của mình trông như thế nào và sau đó triển khai. Tương tự cho các **container Docker** và trong bài viết này, chúng ta sẽ xem cách **Terraform** có thể được sử dụng để tương tác với các tài nguyên được hỗ trợ bởi **Kubernetes**.
 
 Tôi đã sử dụng **Terraform** để triển khai các cụm **Kubernetes** cho mục đích trình diễn trên ba nhà cung cấp đám mây chính và bạn có thể tìm thấy kho lưu trữ tại đây [tf_k8deploy](https://github.com/MichaelCade/tf_k8deploy)
 
@@ -113,7 +113,7 @@ Nếu chúng ta muốn lấy bất kỳ bài thực hành nào đã được th�
 
 - `terraform workspaces`- nhiều phần được đặt tên trong một backend duy nhất
 
-- cấu trúc file - Cấu trúc thư mục cung cấp phân tách, các module cung cấp tái sử dụng.
+- Cấu trúc file - Cấu trúc thư mục cung cấp phân tách, các module cung cấp tái sử dụng.
 
 Tuy nhiên, mỗi phương pháp trên đều có ưu điểm và nhược điểm riêng.
 
@@ -143,7 +143,7 @@ Tuy nhiên, mỗi phương pháp trên đều có ưu điểm và nhược đi�
 ##### Nhược điểm
 
 - Phải chạy nhiều lần `terraform apply` để triển khai cho nhiều môi trường
-- Gia tăng sự trùng lặp,. nhưng có thể giảm thiểu khi sử dụng module
+- Gia tăng sự trùng lặp, nhưng có thể giảm thiểu khi sử dụng module
 
 ## Tài liệu tham khảo
 
