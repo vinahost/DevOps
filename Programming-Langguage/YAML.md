@@ -4,7 +4,7 @@
 
  **YAML** (*YANL Ain't Markup Language*) là một định dạng tuần tự hoá dữ liệu được sử dụng để lưu trữ và trao đổi dữ liệu giữa các hệ thống và ngôn ngữ lập trình khác nhau. **YAML** được thiết kế để con người có thể dễ dàng đọc được, làm cho nó trở thành một lựa chọn tốt cho dữ liệu mà con người dự định đọc.
 
-**YAML** được ra mắt vào ngày *11/5/2001*. Ngôn ngữ **YAML** dùng để chứ dữ liệu ở dạng **text**, dùng trong các file **config**, lưu các file **log**,... Các file viết bằng ngôn ngữ **YAML** có phần mở rộng `.yaml` hoặc `.yml`.
+**YAML** được ra mắt vào ngày *11/5/2001*. Ngôn ngữ **YAML** dùng để chứ dữ liệu ở dạng **text**, dùng trong các **file config**, lưu các *file log**,... Các **file** viết bằng ngôn ngữ **YAML** có phần mở rộng `.yaml` hoặc `.yml`.
 
 ## Ưu điểm của YAML:
 
@@ -18,7 +18,7 @@ Trong bài viết này chúng ta sẽ đi tìm hiểu các tính năng cơ bản
 
 Khi bắt đầu phát triển **YAML**, nó được đặt là tên viết tắt của "**Another Markup Language**". Sau đó, những người sáng tạo đã quyết định thay đổi thành "**YAML Ain't Markup Language**" để phân biệt nó với các ngôn ngữ đánh dấu thực và tránh nhầm lẫn.
 
-Ngôn ngữ này tương tự như **XML** và **JSON** nhưng sử dụng cú pháp tối giản hơn trong khi vẫn duy trì khả năng tương tự. **YAML** thường được sử dụng để tạo tệp cấu hình trong các chương tình cơ sở hạ tầng dưới dạng mã (**IAC**) hoặc để quản lý vùng chứ trong công việc **DevOps**.
+Ngôn ngữ này tương tự như **XML** và **JSON** nhưng sử dụng cú pháp tối giản hơn trong khi vẫn duy trì khả năng tương tự. **YAML** thường được sử dụng để tạo tệp cấu hình trong các chương tình cơ sở hạ tầng dưới dạng mã (**IaC**) hoặc để quản lý vùng chứ trong công việc **DevOps**.
 
 Trong hầu hết các trường hợp, **YAML** được sử dụng để tạo các giao thức tự động hoá có thể thực thi các chuỗi lệnh được ghi trong tệp **YAML**. Điều này cho phép hệ thống của bạn độc lập và phản ứng nhanh hơn mà không cần sự chú ý của nhà phát triển.
 
@@ -114,7 +114,7 @@ Cú pháp của **YAML** giống với **Python** là yêu cầu thụt đầu d
 
     # This is single line comment.
 
-Cú pháp cơ bản của YAML là chúng ta có thể tùy ý bắt dầu bằng --- và khi muốn kết thúc phải sử dụng .... Đây là dấu hiệu của việc bắt đầu và kết thúc của một tài liệu.
+Cú pháp cơ bản của **YAML** là chúng ta có thể tùy ý bắt dầu bằng `---` và khi muốn kết thúc phải sử dụng `....` Đây là dấu hiệu của việc bắt đầu và kết thúc của một tài liệu.
 
 **Lưu ý**: Không gõ **TAB/SPACE** tùy tiện trong `code` **YAML** vì việc này có thể phát sinh nhiều lỗi.
 
@@ -305,35 +305,37 @@ Thì chúng ta sẽ thu được kết quả sẽ được như sau:
 
 Với các giá trị lặp lại hoặc dùng nhiều lần chúng ta không cần khai báo đi khai báo lại mà dùng kí hiệu & để gán và kí hiệu * để lấy giá trị ra như sau:
 
----
-Test 1:
-    - Domain: vinahost
-    - TLD: &tld vn
-Test2:
-    - Domain: google
-    - TLD: *tld
-...
-Chúng ta sẽ được kết quả khi dịch sang JSON như sau:
+    ---
+    Test 1:
+        - Domain: vinahost
+        - TLD: &tld vn
+    Test2:
+        - Domain: google
+        - TLD: *tld
+    ...
 
-{
-  "Test2": [
+Chúng ta sẽ được kết quả khi dịch sang **JSON** như sau:
+
     {
-      "Domain": "google"
-    }, 
-    {
-      "TLD": "net"
+    "Test2": [
+        {
+        "Domain": "google"
+        }, 
+        {
+        "TLD": "net"
+        }
+    ], 
+    "Test 1": [
+        {
+        "Domain": "vinahost"
+        }, 
+        {
+        "TLD": "vn"
+        }
+    ]
     }
-  ], 
-  "Test 1": [
-    {
-      "Domain": "vinahost"
-    }, 
-    {
-      "TLD": "vn"
-    }
-  ]
-}
-Ở đây `net` được gán nhãn bằng &`tld` ở đầu. Để lấy lại giá trị `net` chúng ta dùng `*tld`. Phần này tương tự như con trỏ trong C & để ghi địa chỉ, * để lấy giá trị.
+
+Ở đây `vn` được gán nhãn bằng &`tld` ở đầu. Để lấy lại giá trị `vn` chúng ta dùng `*tld`. Phần này tương tự như con trỏ trong C & để ghi địa chỉ, * để lấy giá trị.
 
 ### Sử dung dấu ?
 
@@ -346,7 +348,7 @@ Khi chúng ta sử dụng một dấu hỏi ? theo sau nó là dấu `space` th�
     - 2020-03-01
     ...
 
-### sử dụng array
+### Sử dụng array
 
 Khi chúng ta muốn sử dụng **array** trong ngôn ngữ **YAML** thì mỗi phần tử trong 1 mảng/danh sách được xác định bằng dấu gạch ngang -, nhớ xuống dòng và lùi 2 `space` khi thêm 1 phần tử vào mảng/danh sách của chúng ta:
 
@@ -360,15 +362,15 @@ Khi chúng ta muốn sử dụng **array** trong ngôn ngữ **YAML** thì mỗi
 
 Bên trên là ví dụ về mảng/danh sách được xác định trong 1 đối tượng, chúng ta cũng có thể xác định nhiều đối tượng trong 1 phần tử của mảng/danh sách, hoặc có thể kết hợp cả 2:
 
----
-items:
-  - things:
-      thing1: www
-      thing2: vinahost
-      thing3: vn
-  - other things:
-      key: www.vinahost.vn
-...
+    ---
+    items:
+    - things:
+        thing1: www
+        thing2: vinahost
+        thing3: vn
+    - other things:
+        key: www.vinahost.vn
+    ...
 
 ###  Kết hợp ngôn ngữ YAML với Markdown
 
@@ -450,4 +452,3 @@ Trong **Python**, để đọc file **yaml** thì chúng ta cài đặt thư vi�
 
 - https://www.thegioicode.com/2023/02/yaml-la-gi-cac-tinh-nang-co-ban-cua-yaml.html
 - https://blogd.net/kubernetes/yaml-co-ban/
-- https://vinasupport.com/yaml-la-gi-cach-doc-file-yaml-trong-lap-trinh-php-perl/
