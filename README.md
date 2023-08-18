@@ -125,7 +125,7 @@
 
 - [✔️] 🤖 > [Overview: Cơ sở hạ tầng dưới dạng mã (IaC)](IaC/Infrastructure-as-Code-IaC.md)
 - [✔️] 🤖 > [Giới thiệu về Terraform](IaC/Terraform-la-gi.md)
-- [✔️] 🤖 > [Ngôn ngữ cấu hình HashiCorp (HCL)]
+- [✔️] 🤖 > [Ngôn ngữ cấu hình HashiCorp (HCL)](IaC/HCL.md)
 - [✔️] 🤖 > [Tạo VM với Terraform & Biến]
 - [✔️] 🤖 > [Docker Container, Providers & Modules]
 - [✔️] 🤖 > [Kubernetes & Đa môi trường]
