@@ -394,17 +394,17 @@ Sử dụng thư viện **Perl** có tên là [YAML::XS](https://metacpan.org/po
 Đoạn code **example**, sử dụng để load 1 file **config.yml**
 
 ``` PERL
-    #!/usr/bin/perl
-    #
-    # Read YAML Config File
-    #
-    use strict;
-    use warnings;
-    use YAML::XS 'LoadFile';
-    use Data::Dumper;
+#!/usr/bin/perl
+#
+# Read YAML Config File
+#
+use strict;
+use warnings;
+use YAML::XS 'LoadFile';
+use Data::Dumper;
         
-    my $config = LoadFile('config.yaml');
-    print Dumper($config);
+my $config = LoadFile('config.yaml');
+print Dumper($config);
 ``` 
 
 ### Đọc file YAML trong PHP
@@ -412,21 +412,21 @@ Sử dụng thư viện **Perl** có tên là [YAML::XS](https://metacpan.org/po
 Để đọc file **yaml** trong **PHP**, các bạn có thể sử dụng **function** [yaml_parse_file](http://php.net/manual/en/function.yaml-parse-file.php) được **PHP** hỗ trợ sẵn. Đoạn code **example** như bên dưới.
 
 ``` PHP
-    <?php
-    function cb_yaml_date($value, $tag, $flags) {
-        return new DateTime($value);
-    }
+<?php
+function cb_yaml_date($value, $tag, $flags) {
+    return new DateTime($value);
+}
 
-    $yaml = <<<YAML
-    event1:
-    name: My Event
-    date: !date 25.05.2001
-    YAML;
+$yaml = <<<YAML
+event1:
+name: My Event
+date: !date 25.05.2001
+YAML;
 
-    $ndocs = 0;
-    $data = yaml_parse($yaml, 0, $ndocs, array('!date' => 'cb_yaml_date'));
+$ndocs = 0;
+$data = yaml_parse($yaml, 0, $ndocs, array('!date' => 'cb_yaml_date'));
 
-    print_r($data);
+print_r($data);
 ```
 
 Ngoài ra **PHP** còn có rất nhiều thư viện bên ngoài như [symfony/yaml](https://symfony.com/doc/current/components/yaml/introduction.html)
