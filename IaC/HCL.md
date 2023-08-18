@@ -111,7 +111,7 @@ Mã trên sẽ triển khai một máy chủ **web** đơn giản dưới dạng
 
 Chúng ta hãy xem một ví dụ siêu đơn giản, một ví dụ mà bạn có thể chẳng bao giờ sử dụng nhưng hãy để chúng ta giả vờ nói về nó. Giống như các ngôn ngữ **scripting** và lập trình khác, chúng ta nên bắt đầu với một kịch bản **hello-world**.
 
-```
+```hcl
 terraform {
   # This module is now only being tested with Terraform 0.13.x. However, to make upgrading easier, we are setting
   # 0.12.26 as the minimum version, as that version added support for required_providers with source URLs, making it
@@ -132,7 +132,7 @@ Khi đã ở trong thư mục đó, chúng ta sẽ chạy lệnh `terraform init
 
 Chúng ta cần thực hiện lệnh này trên bất kỳ thư mục nào chứa mã **Terraform** hoặc trước khi chúng ta chạy bất kỳ mã **Terraform** nào. Việc khởi tạo một thư mục cấu hình tải xuống và cài đặt các **provider** đã được định nghĩa trong cấu hình, trong trường hợp này, chúng ta không có **provider**, nhưng trong ví dụ ở trên, điều này sẽ tải xuống **provider AWS** cho cấu hình này.
 
-![HashiCorp Configuration Language (HCL)](../../Image/Terraform01.png)
+![HashiCorp Configuration Language (HCL)](Image/../../Image/Terraform01.png)
 
 Lệnh tiếp theo sẽ là `terraform plan`.
 
