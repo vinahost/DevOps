@@ -436,6 +436,7 @@ Trong **Python**, để đọc file **yaml** thì chúng ta cài đặt thư vi�
 
 Đoạn **sample** code đọc **yaml** trong **Python 3**
 
+``` python
     #!/usr/bin/env python3
     import yaml
     with open("configs.yaml", 'r') as stream:
@@ -443,6 +444,7 @@ Trong **Python**, để đọc file **yaml** thì chúng ta cài đặt thư vi�
             print(yaml.safe_load(stream))
         except yaml.YAMLError as error:
             print(error)
+```
 
 ## Tóm lại
 
