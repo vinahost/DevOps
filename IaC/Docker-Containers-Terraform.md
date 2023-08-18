@@ -131,7 +131,7 @@ Bây giờ chúng ta đã thảo luận khá chi tiết về **containers** và 
 
 Nếu không có cách thức khác và việc thêm phức tạp vào mã của bạn là điểm đến cuối cùng, bạn có thể thực hiện điều này bằng cách chạy một đoạn mã tương tự như khối mã sau đây.
 
-```
+```terraform
 resource "docker_container" "db" {
   # ...
 
