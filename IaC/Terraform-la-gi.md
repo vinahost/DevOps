@@ -13,7 +13,7 @@
 
 > "**Terraform** là một công cụ phần mềm cơ sở hạ tầng dưới dạng mã mã nguồn mở cung cấp quy trình làm việc với **CLI** để quản lý hàng trăm dịch vụ điện toán đám mây. **Terraform** mã hoá các **API** của các nhà cung cấp thành các tệp cấu hình khai báo"
 
-**HashiCorp** có nguồn tài nguyên tuyệt vời tại [**HashiCorp Learn**](https://developer.hashicorp.com/terraform/tutorials) bao gồm tất cả các sản phẩm của họ và cung cấp một số bản **demo** hướng dẫn rất tốt khi bạn đang cố gắng làm việc với Cơ sở hạ tầng dưới dạng mã.
+**HashiCorp** có nguồn tài nguyên tuyệt vời tại [**HashiCorp Learn**](https://developer.hashicorp.com/terraform/tutorials) bao gồm tất cả các sản phẩm của họ và cung cấp một số bản **demo** hướng dẫn rất tốt khi bạn đang cố gắng làm việc với Cơ sở hạ tầng dưới dạng mã (**IaC**)
 
 ### Các công cụ thay thế Terraform
 
@@ -36,7 +36,9 @@ Ngoài ra, **Alibaba Cloud** cũng cung cấp một giải pháp sử dụng **T
 
 ### Tổng quan về Terraform
 
-**Terraform** là một công cụ tập trung vào việc cung cấp hạ tầng, **Terraform** là một **CLI** có khả năng khởi tạo, cung cấp các môi trường cơ sở hạ tầng phức tạp. Với **Terraform**, chúng ta có thể xác định các yêu cầu cơ sở hạ tầng phức tạp tồn tại cục bộ hoặc từ xa (điện toán đám mây). **Terraform** không chỉ cho phép chúng ta xây dựng mọi thứ từ đầu mà còn duy trì và cập nhật các tài nguyên đó theo suốt vòng đời của chúng.
+**Terraform** là một công cụ tập trung vào việc cung cấp hạ tầng, **Terraform** là một **CLI** có khả năng khởi tạo, cung cấp các môi trường cơ sở hạ tầng phức tạp. Với **Terraform**, chúng ta có thể xác định các yêu cầu cơ sở hạ tầng phức tạp tồn tại cục bộ hoặc từ xa (điện toán đám mây). 
+
+**Terraform** không chỉ cho phép chúng ta xây dựng mọi thứ từ đầu mà còn duy trì và cập nhật các tài nguyên đó theo suốt vòng đời của chúng.
 
 Chúng ta sẽ đề cập tới **high level** trong bài viết này, bạn có thể biết thêm chi tiết và tìm hiểu các tài nguyên khác tại trang [terraform.io](https://www.terraform.io/)
 
@@ -52,9 +54,9 @@ Khả năng kiểm tra xem các tệp cấu hình trên có triển khai những
 
 Khi đã hài lòng, bạn có thể áp dụng cấu hình này cho nhiều **providers** có sẵn trong **Terraform**. Bạn có thể thấy danh sách các **provider** có sẵn [tại đây](https://registry.terraform.io/browse/providers)
 
-Một điều khác cần đề cập là cũng có sẵn các modules, nó tương tự như container images ở chỗ các modules này đã được tạo và chia sẻ công khai, do đó bạn không phải tạo đi tạo lại chúng mà chỉ cần sử dụng lại cách tốt nhất để triển khai một tài nguyên cụ thể theo cùng một cách ở mọi nơi. Bạn có thể tìm thấy các module có sẵn [tại đây](https://registry.terraform.io/browse/modules)
+Một điều khác cần đề cập là cũng có sẵn các **modules**, nó tương tự như **container images** ở chỗ các **modules** này đã được tạo và chia sẻ công khai, do đó bạn không phải tạo đi tạo lại chúng mà chỉ cần sử dụng lại cách tốt nhất để triển khai một tài nguyên cụ thể theo cùng một cách ở mọi nơi. Bạn có thể tìm thấy các **module** có sẵn [tại đây](https://registry.terraform.io/browse/modules)
 
-#### Quy trình làm việc của Terraform
+### Quy trình làm việc của Terraform
 
 ![Terraform Workflow](../Image/Terraform-Workflow.png)
 
@@ -79,14 +81,14 @@ echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://
 sudo apt update && sudo apt install terraform
 
 ```  
-Kiểm tra phiên bản terraform được cài đặt trên hệ thống của bạn
+Kiểm tra phiên bản **terraform** được cài đặt trên hệ thống của bạn
 
 ```js
 $ terraform --version
 Terraform v1.4.5
 
 ```  
-Để xem danh sách các commands có trong terraform có thể sử dụng lệnh terraform -help
+Để xem danh sách các **commands** có trong **terraform** có thể sử dụng lệnh `terraform -help`
 
 ```js
 $ terraform -help
@@ -131,7 +133,7 @@ Global options (use these before the subcommand, if any):
   -version      An alias for the "version" subcommand.
 
 ```  
-Terraform sử dụng các file cấu hình để quản lý các tài nguyên cloud. Các file cấu hình này được viết bằng ngôn ngữ HashiCorp Configuration Language (HCL) hoặc JSON. Các file cấu hình này được chia thành các module, mỗi module đại diện cho một tài nguyên cloud cụ thể
+**Terraform** sử dụng các **file** cấu hình để quản lý các tài nguyên **cloud**. Các **file** cấu hình này được viết bằng ngôn ngữ **HashiCorp Configuration Language (HCL)** hoặc **JSON**. Các **file** cấu hình này được chia thành các **module**, mỗi **module** đại diện cho một tài nguyên **cloud** cụ thể
 
 ![terraform_config_files](../Image/Terraform-HashiCorp.png)
 
@@ -143,7 +145,8 @@ Terraform sử dụng các file cấu hình để quản lý các tài nguyên c
 
 ### Cách thành phần chính trong Terraform
 
-Một RootModule thông thường sẽ có 3 Terraform files chính:
+Một **RootModule** thông thường sẽ có 3 **Terraform** files chính:
+
 - main.tf: file là file tập trung các config Terraform chính, nằm ở root project.
 - variables.tf: là file tập trung tất cả các khai bao biến, nằm ở root project.
 - outputs.tf: dùng để export value sau khi terraform apply đã thực thi hoàn tất, nằm ở root project.
@@ -154,14 +157,15 @@ Một RootModule thông thường sẽ có 3 Terraform files chính:
 
 ### Hướng dẫn sử dụng Terraform cơ bản với Docker
 
-Sau khi bạn đã cài đặt Terraform xong, bạn có thể cung cấp máy chủ NGINX trong vòng chưa đầy một phút bằng cách sử dụng Docker trên Mac, Windows hoặc Linux. Yêu cầu là Docker đã được cài trên máy của bạn. Hướng dẫn này được thực hiện trên UBuntu
+Sau khi bạn đã cài đặt **Terraform** xong, bạn có thể cung cấp máy chủ **NGINX** trong vòng chưa đầy một phút bằng cách sử dụng **Docker** trên **Mac**, **Windows** hoặc **Linux**. Yêu cầu là **Docker** đã được cài trên máy của bạn. Hướng dẫn này được thực hiện trên **Ubuntu**
 
-Tạo thư mục có tên là learn-terraform-docker-container và cd vào thư mục này
+Tạo thư mục có tên là `learn-terraform-docker-container` và `cd` vào thư mục này
+
 ```js
 $ mkdir learn-terraform-docker-container
 $ cd learn-terraform-docker-container
 ```  
-Tại thư mục learn-terraform-docker-container, tạo file main.tf
+Tại thư mục `learn-terraform-docker-container`, tạo file **main.tf**
 
 ```js
 terraform {
@@ -191,22 +195,23 @@ resource "docker_container" "nginx" {
 }
 
 ```  
-Vì đây là lần đầu tiên chúng ta chạy dự án này, chúng ta cần khởi tạo nó bằng lệnh init
+Vì đây là lần đầu tiên chúng ta chạy dự án này, chúng ta cần khởi tạo nó bằng lệnh `init`
 
 ```js
 $ terraform init
 
 ```  
-Tiếp tục chạy lệnh terraform apply, nhập giá trị yes và nhấn Enter để xác nhận
+Tiếp tục chạy lệnh `terraform apply`, nhập giá trị **yes** và nhấn **Enter** để xác nhận
 
 ```js
 $ terraform apply
 
 ```  
-Trên trình duyệt truy cập localhost:8000 để xem kết quả
+Trên trình duyệt truy cập **localhost:8000** để xem kết quả
+
 ![nginx](../Image/Terraform-Nginx.png)
 
-Chạy lệnh docker ps để kiểm tra
+Chạy lệnh `docker ps` để kiểm tra
 
 ```js
 $ docker ps
@@ -215,7 +220,7 @@ CONTAINER ID   IMAGE          COMMAND                  CREATED         STATUS   
 
 ```  
 
-Kiểm tra trạng thái bằng lệnh terraform show
+Kiểm tra trạng thái bằng lệnh `terraform show`
 
 ```js
 $ terraform show
@@ -289,7 +294,7 @@ resource "docker_image" "nginx" {
 
 ```  
 
-Terraform có một lệnh tích hợp có tên là terraform state để quản lý trạng thái
+**Terraform** có một lệnh tích hợp có tên là `terraform state` để quản lý trạng thái
 
 ```js
 $ terraform state list
@@ -300,7 +305,7 @@ docker_image.nginx
 
 ### Một số lệnh khác trên Terraform
 
-- *terraform apply -auto-approve* là một tham số có thể được truyền vào lệnh *terraform apply* để bỏ qua xác nhận *yes*. Nó cũng có thể được kết hợp với các tùy chọn khác như *-input=false* để vô hiệu hóa các lời nhắc đầu vào. Thường được dùng trong automation CI/CD pipelines.
+- *terraform apply -auto-approve* là một tham số có thể được truyền vào lệnh *terraform apply* để bỏ qua xác nhận *yes*. Nó cũng có thể được kết hợp với các tùy chọn khác như *-input=false* để vô hiệu hóa các lời nhắc đầu vào. Thường được dùng trong automation **CI/CD pipelines**.
 
 - *terraform fmt* là một lệnh trong Terraform được sử dụng để định dạng lại các file cấu hình của Terraform thành một định dạng chuẩn và đẹp hơn. Lệnh này áp dụng một số quy ước về kiểu ngôn ngữ Terraform, cùng với các điều chỉnh khác cho tính đọc hiểu
 
