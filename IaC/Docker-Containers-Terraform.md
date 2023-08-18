@@ -49,7 +49,7 @@ Các bạn có thể tìm hiểu thêm về **Docker Provider** tại đây [Doc
 
 Phía trên là một ví dụ rất đơn giản về những gì có thể làm được với **Terraform** và **Docker** và cách chúng ta có thể quản lý nó dưới trạng thái **Terraform**. Chúng ta đã bàn về **docker-compose** trong phần **container** và có một chút sự chồng chéo theo cách nào đó giữa việc này, cơ sở hạ tầng như mã và sau đó **Kubernetes**.
 
-Để chứng minh điều này và cho thấy cách **Terraform** có thể xử lý một chút phức tạp hơn, chúng ta sẽ lấy tệp **docker-compose** cho **WordPress** và **MySQL** mà chúng ta đã tạo bằng **docker-compose** và đặt nó vào **Terraform**. Bạn có thể tìm thấy tệp [docker-wordpress.tf](/Scripts//IaC/Docker-WordPress/docker-WordPress.tf)
+Để chứng minh điều này và cho thấy cách **Terraform** có thể xử lý một chút phức tạp hơn, chúng ta sẽ lấy tệp **docker-compose** cho **WordPress** và **MySQL** mà chúng ta đã tạo bằng **docker-compose** và đặt nó vào **Terraform**. Bạn có thể tìm thấy tệp [docker-wordpress.tf](/Scripts/IaC/Docker-Wordpress/docker-wordpress.tf)
 
 ```
 terraform {
