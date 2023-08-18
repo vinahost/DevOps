@@ -129,7 +129,7 @@
 - [✔️] 🤖 > [Tạo VM với Terraform & Biến](IaC/Tao-VM-Terraform.md)
 - [✔️] 🤖 > [Docker Container, Providers & Modules](IaC/Docker-Containers-Terraform.md)
 - [✔️] 🤖 > [Kubernetes & Đa môi trường](IaC/Terraform-Kubernetes.md)
-- [✔️] 🤖 > [Testing, Tools & Alternatives]
+- [✔️] 🤖 > [Testing, Tools & Alternatives](/IaC/Testing-Terraform.md)
 
 ## Tự động hóa quản lý cấu hình
 
