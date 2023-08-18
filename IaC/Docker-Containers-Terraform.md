@@ -6,7 +6,7 @@ Trong bài trước, chúng ta đã cung cấp một máy ảo bằng cách sử
 
 Trước tiên, chúng ta sẽ sử dụng đoạn mã dưới đây, kết quả của đoạn mã này là chúng ta muốn triển khai một ứng dụng web đơn giản vào **docker** và công bố nó để nó có thể truy cập được từ mạng của chúng ta. Chúng ta sẽ sử dụng **nginx** và chúng ta sẽ làm cho nó có sẵn từ bên ngoài trên máy tính xách tay của chúng ta qua **localhost** và cổng **8000**. Chúng ta đang sử dụng một nhà cung cấp **docker** từ cộng đồng và bạn cũng có thể thấy **image docker** chúng ta đang sử dụng cũng được nêu trong cấu hình của chúng ta.
 
-```
+```terraform
 terraform {
   required_providers {
     docker = {
@@ -51,7 +51,7 @@ Phía trên là một ví dụ rất đơn giản về những gì có thể là
 
 Để chứng minh điều này và cho thấy cách **Terraform** có thể xử lý một chút phức tạp hơn, chúng ta sẽ lấy tệp **docker-compose** cho **WordPress** và **MySQL** mà chúng ta đã tạo bằng **docker-compose** và đặt nó vào **Terraform**. Bạn có thể tìm thấy tệp [docker-wordpress.tf](/Scripts/IaC/Docker-Wordpress/docker-wordpress.tf)
 
-```
+```terraform
 terraform {
   required_providers {
     docker = {
