@@ -90,7 +90,7 @@
 - [✔️] ☁️ > [Hệ thống Mạng và Management trong Microsoft Azure](Cloud-Provider/Microsoft-Azure/Microsoft-Azure-Networking-Management.md)
 - [✔️] ☁️ > [Thực hành với Microsoft Azure](Cloud-Provider/Microsoft-Azure/Thuc-hanh-voi-Microsoft-Azure.md)
 
-## Cách sử dụng Git hiệu quả
+## Git
 
 - [✔️] 📚 > [Overview: Git là gì?](Version-Control/Git.md)
 - [✔️] 📚 > [Overview: Git - Quản lý phiên bản](Version-Control/Git-Version.md)
@@ -131,7 +131,7 @@
 - [✔️] ☸ > [Helm Chart là gì?](Containers-Orchestration/Kubernetes/Helm.md)
 - [✔️] ☸ > [Kubernetes Questions and Answers](Containers-Orchestration/Kubernetes/75-Cau-k8s.md)
 
-## Cơ sở hạ tầng dưới dạng mã (Infrastructure as Code)
+## Infrastructure as Code - IaC
 
 - [✔️] 🤖 > [Overview: Cơ sở hạ tầng dưới dạng mã (IaC)](IaC/Infrastructure-as-Code-IaC.md)
 - [✔️] 🤖 > [Giới thiệu về Terraform](IaC/Terraform-la-gi.md)
@@ -141,7 +141,7 @@
 - [✔️] 🤖 > [Kubernetes & Đa môi trường](IaC/Terraform-Kubernetes.md)
 - [✔️] 🤖 > [Testing, Tools & Alternatives](IaC/Testing-Terraform.md)
 
-## Tự động hóa quản lý cấu hình
+## Ansible
 
 - [✔️] 📜 > [Overview: Quản lý cấu hình](IaC/Configuration-Management.md)
 - [✔️] 📜 > [Setup Ansible](IaC/Setup-Ansible.md)
