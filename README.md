@@ -84,6 +84,7 @@
 ### Microsoft Azure
 
 - [✔️] ☁️ > [Kiến thức cơ bản về Microsoft Azure](Cloud-Provider/Microsoft-Azure/Microsoft-Azure.md)
+- [✔️] ☁️ > [Mô hình bảo mật Microsoft Azure](Cloud-Provider/Microsoft-Azure/Securiy-Microsoft-Azure.md)
 
 ## Cách sử dụng Git hiệu quả
 
