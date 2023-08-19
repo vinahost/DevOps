@@ -2,7 +2,7 @@
 
 Trước khi chúng ta bắt đầu, nhà cung cấp chiến thắng trong cuộc thăm dò trên **twitter** là **Microsoft Azure**, do đó, nó sẽ là chủ đề xuyên suốt tuần này. Kết quả rất gần nhau và rất vui khi thấy nó chỉ trong 24 giờ.
 
-![Microsoft Azure](Image/../../Image/Microsoft-Azure01.png)
+![Microsoft Azure](Image/../../../Image/Microsoft-Azure01.png)
 
 Khi đề cập đến chủ đề này, nó sẽ giúp tôi hiểu rõ và biết đến những dịch vụ đang có của **Microsoft Azure**, dù vậy tôi vẫn nghiêng về **Amazon AWS** trong thời gian gần đây. Tuy nhiên, tôi cũng đã để lại các tài liệu tham khảo cho cả ba nhà cung cấp dịch vụ điện toán đám mây lớn nhất.
 
