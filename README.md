@@ -68,7 +68,7 @@
 
 - [✔️] ☁️ > [Alibaba Cloud là gì?](Cloud-Provider/Alibaba-Cloud/Alibaba-Cloud-la-gi.md)
 - [✔️] ☁️ > [Server Migration Center (SMC) là gì?](Cloud-Provider/Alibaba-Cloud/Server-Migration-Center-SMC-la-gi.md)
-- [✔️] ☁️ > [Mô hình bảo mật Alibaba Cloud]
+- [✔️] ☁️ > [Bảo mật với Alibaba Cloud]
 - [✔️] ☁️ > [Mô hình Điện toán Alibaba Cloud]
 - [✔️] ☁️ > [Mô hình Mạng Alibaba Cloud]
 - [✔️] ☁️ > [Thực hành với Alibaba Cloud]
@@ -85,6 +85,7 @@
 
 - [✔️] ☁️ > [Kiến thức cơ bản về Microsoft Azure](Cloud-Provider/Microsoft-Azure/Microsoft-Azure.md)
 - [✔️] ☁️ > [Mô hình bảo mật Microsoft Azure](Cloud-Provider/Microsoft-Azure/Securiy-Microsoft-Azure.md)
+- [✔️] ☁️ > [Mô hình Điện toán Microsoft Azure](Cloud-Provider/Microsoft-Azure/Microsoft-Azure-Compute-Models.md)
 
 ## Cách sử dụng Git hiệu quả
 
