@@ -72,7 +72,7 @@ Có một số điều thú vị xảy ra trong lĩnh vực này, không chỉ v
 
 Tổng hợp các mô hình này, chúng ta có rất nhiều lựa chọn về nơi lưu trữ và chạy các **workloads** của mình.
 
-![DevOps & các Cloud Provider](Image/../../Image/DevOps-Cloud-Provider01.png)
+![DevOps & các Cloud Provider](Image/../../Image/DevOps-Cloud-Provider09.png)
 
 Trước khi chúng ta đi vào một nhà cung cấp cụ thể, tôi đã tạo một **poll** trên **Twitter** của mình rằng chúng ta nên tìm hiểu về nhà cung cấp dịch vụ nào? 
 
