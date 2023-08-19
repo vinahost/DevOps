@@ -112,7 +112,7 @@ Làm theo [Module 07](https://microsoftlearning.github.io/AZ-104-MicrosoftAzureA
 
 - Nhiệm vụ 1: Tạo môi trường cho lab
 
-Trước hết, tôi chạy [PowerShell script](/Scripts/Cloud/03Storage/Mod07_90DaysOfDeveOps.ps1) của mình
+Trước hết, tôi chạy [PowerShell script](/Scripts/Cloud/03Storage/Mod07_90DaysOfDevOps.ps1) của mình
 
 ![Microsoft Azure Hands-On Scenarios](Image/../../../Image/Microsoft-Azure-Scenarios022.png)
 
