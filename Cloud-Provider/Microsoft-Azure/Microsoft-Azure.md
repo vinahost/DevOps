@@ -27,7 +27,7 @@ Cách tốt nhất để bắt đầu và có thể làm theo là vào đường
 
 Tôi đã để lại bản đồ ở trên, nhưng chúng ta có thể thấy hình ảnh bên dưới về độ rộng của các khu vực được cung cấp trong nền tảng của **Microsoft Azure** trên toàn thế giới.
 
-![Microsoft Azure](Image/../../Image/Microsoft-Azure02.png)
+![Microsoft Azure](Image/../../../Image/Microsoft-Azure02.png)
 
 _hình ảnh được lấy từ [Microsoft Docs - 01/05/2021](https://docs.microsoft.com/en-us/azure/networking/microsoft-global-network)_
 
@@ -41,7 +41,7 @@ Phía sau đó, một **region** có thể được tạo thành từ nhiều tr
 
 Trong hình ảnh dưới đây được lấy từ tài liệu chính thức của **Microsoft**, bạn sẽ thấy một **region** được tạo từ nhiều **Availability Zones** như thế nào. Tuy nhiên, không phải tất cả các khu vực đều có nhiều **Availability Zones**.
 
-![Microsoft Azure](Image/../../Image/Microsoft-Azure03.png)
+![Microsoft Azure](Image/../../../Image/Microsoft-Azure03.png)
 
 Tài liệu của **Microsoft** rất đầy đủ và bạn có thể đọc thêm về [Regions và Availability Zones](https://docs.microsoft.com/en-us/azure/availability-zones/az-overview) tại đây.
 
@@ -90,37 +90,37 @@ Hãy bắt đầu, tạo tài khoản và hãy chắc chắn rằng chúng ta c�
 
 Khi chúng ta đăng nhập lần đầu vào [Azure portal](https://portal.azure.com/#home), bạn sẽ thấy thanh tìm kiếm ở trên cùng của trang, nó có khả năng giúp chúng ta tìm kiếm các tài nguyên, dịch vụ và tài liệu hướng dẫn.
 
-![Microsoft Azure](Image/../../Image/Microsoft-Azure04.png)
+![Microsoft Azure](Image/../../../Image/Microsoft-Azure04.png)
 
 Trước tiên, chúng ta hãy xem **subscription** của mình, bạn sẽ thấy ở đây rằng tôi đang sử dụng đăng ký **Visual Studio Professional** của mình để lấy một khoản tín dụng miễn phí hàng tháng.
 
-![Microsoft Azure](Image/../../Image/Microsoft-Azure05.png)
+![Microsoft Azure](Image/../../../Image/Microsoft-Azure05.png)
 
 Nếu chúng ta đi vào đó, bạn sẽ có một cái nhìn bao quát hơn và xem được những gì đang xả ra hoặc những gì có thể làm với **subscription** của mình, chúng ta có thể thấy thông tin thanh toán với các chức năng kiểm soát ở bên trái, nơi bạn có thể xác định "**IAM Access Control**" và nhiều hơn nữa là các tài nguyên có sẵn.
 
-![Microsoft Azure](Image/../../Image/Microsoft-Azure06.png)
+![Microsoft Azure](Image/../../../Image/Microsoft-Azure06.png)
 
 Có thể có trường hợp bạn có nhiều **subscriptions** và bạn muốn quản lý tất cả chúng dưới một thứ duy nhất, đây là nơi có thể sử dụng các **management group** để chia ra các nhóm tuỳ vào mục đích của các group đó. Bạn có thể thấy chỉ có nhóm "**tenant root group**" đối với **subscription** của tôi.
 
 Bạn cũng sẽ thấy trong hình ảnh trước đó rằng **management group** chính có cùng **id** với "**tenant root group**"
 
-![Microsoft Azure](Image/../../Image/Microsoft-Azure07.png)
+![Microsoft Azure](Image/../../../Image/Microsoft-Azure07.png)
 
 Tiếp theo, chúng ta có **resource group**, đây là nơi chúng ta kết hợp các tài nguyên của mình và có thể dễ dành quản lý chúng ở một nơi duy nhất. Tôi có một số **resource groups** được tạo cho một vài dự án khác.
 
-![Microsoft Azure](Image/../../Image/Microsoft-Azure08.png)
+![Microsoft Azure](Image/../../../Image/Microsoft-Azure08.png)
 
 Với những gì chúng ta có thể làm trong vài ngày tới, chúng tôi muốn tại **resource group** của riêng mình. Điều này được thực hiện dễ dàng trong **console** bằng cách nhấn "**Create**" trong hình ảnh ở dưới.
 
-![Microsoft Azure](Image/../../Image/Microsoft-Azure09.png)
+![Microsoft Azure](Image/../../../Image/Microsoft-Azure09.png)
 
 Bước xác thực diễn ra ngay sau đó và cuối cùng bạn cũng có thể xem lại các yêu cầu tạo tài nguyên của mình và tạo chúng. Bạn cũng sẽ thấy ở dưới cùng là dòng "**Download a template for automation**", điều này cho phép chúng ta lấy file **JSON** để có thể thực hiện tác vụ này một cách tự động nếu muốn, chúng ta cũng sẽ đề cập đến vấn đề này sau.
 
-![Microsoft Azure](Image/../../Image/Microsoft-Azure010.png)
+![Microsoft Azure](Image/../../../Image/Microsoft-Azure010.png)
 
 Nhấn "**create**", sau đó trong danh sách **resource groups** của chúng ta đã có nhóm "**90DaysOfDevOps**" sẵn sàng cho những bài tiếp theo.
 
-![Microsoft Azure](Image/../../Image/Microsoft-Azure011.png)
+![Microsoft Azure](Image/../../../Image/Microsoft-Azure011.png)
 
 ## Tài liệu tham khảo 
 
