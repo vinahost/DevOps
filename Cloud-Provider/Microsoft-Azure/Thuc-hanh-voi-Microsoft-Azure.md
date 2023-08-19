@@ -19,7 +19,7 @@ Tôi đã xem qua phần trên và thay đổi một vài tên cho phù hợp v�
 Bạn có thể làm điều này bằng cách sử dụng `az login`, sau đó một trình duyệt sẽ được mở và cho phép bạn xác thực tài khoản của mình.
 
 Sau đó, tôi đã tạo tập lệnh **PowerShell** và tham khảo từ **module** để sử dụng nhằm xây dựng một số tác vụ bên dưới. Bạn có thể tìm thấy các tập tin liên quan trong thư mục này.
-[Cloud\01VirtualNetworking](/Scripts/Cloud/01VirtualNetworking/)
+[Cloud\01VirtualNetworking](/Scripts/Cloud/01VirtualNetworking.zip)
 
 Vui lòng đảm bảo rằng bạn thay đổi vị trí tệp trong tập lệnh phù hợp với môi trường của mình.
 
@@ -59,7 +59,7 @@ Làm theo [Module 06](https://microsoftlearning.github.io/AZ-104-MicrosoftAzureA
 Hướng dẫn tiếp theo, từ hướng dẫn cuối cùng, chúng ta đã vào **resource group** và xoá tài nguyên của mình. Nếu bạn chưa thiết lập tài khoảng người dùng như tôi để chỉ có quyền truy cập vào một nhóm tài nguyên đó, bạn có thể làm theo **module** đổi tên thành `90Days*`, điều này sẽ xoá tất cả các tài nguyên và nhóm tài nguyên. Đây sẽ là quy trình của tôi cho tất cả các bài **labs** sau này.
 
 Đối với **lab** này, tôi cũng đã tạo tập lệnh **PowerShell** và một số tài liệu tham khảo từ **module** sử dụng cho việc xây dựng một số tác vụ bên dưới. Bạn có thể tìm thấy các tập tin liên quan trong thư mục này.
-[Cloud\02TrafficManagement](/Scripts/Cloud/02TrafficManagement/)
+[Cloud\02TrafficManagement](/Scripts/Cloud/02TrafficManagement.zip)
 
 - Nhiệm vụ 1: Tạo môi trường cho lab
 
@@ -108,7 +108,7 @@ Sau đó, tôi có thể quay lại tài khoản **michael.cade@90DaysOfDevOps.c
 Làm theo [Module 07](https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/Instructions/Labs/LAB_07-Manage_Azure_Storage.html):
 
 Đối với bài Lab này, tôi cũng đã tạo tập lệnh **PowerShell** và tham khảo từ **module** sử dụng cho việc xây dựng một số tác vụ bên dưới. Bạn có thể tìm thấy các tập tin liên quan trong thư mục này.
-[Cloud/03Storage](/Scripts/Cloud/03Storage/)
+[Cloud/03Storage](/Scripts/Cloud/03Storage.zip)
 
 - Nhiệm vụ 1: Tạo môi trường cho lab
 
@@ -171,7 +171,7 @@ Làm theo [Module 09a](https://microsoftlearning.github.io/AZ-104-MicrosoftAzure
 
 - Nhiệm vụ 6: Định cấu hình và kiểm tra tính năng tự động thay đổi quy mô (auto-scaling)của Azure web app
 
-Tập lệnh tôi đang sử dụng có thể được tìm thấy trong [Cloud/04Serverless](/Scripts/Cloud/04Serverless/)
+Tập lệnh tôi đang sử dụng có thể được tìm thấy trong [Cloud/04Serverless](/Scripts/Cloud/04Serverless.zip)
 
 ![Microsoft Azure Hands-On Scenarios](Image/../../../Image/Microsoft-Azure-Scenarios037.png)
 
