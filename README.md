@@ -62,6 +62,7 @@
 ## Tìm hiểu về điện toán đám mây
 
 - [✔️] ☁️ > [Overview: DevOps & The Cloud](Cloud-Provider/Overview-DevOps-The-Cloud.md)
+- [✔️] ☁️ > [DevOps & các Cloud Provider](Cloud-Provider/DevOps-Cloud-Provider.md)
 
 ### Alibaba Cloud
 
@@ -80,6 +81,10 @@
     - [✔️] ☁️ > [Billing Management trên Aliaba Cloud](Cloud-Provider/Alibaba-Cloud/Budget-Management-tren-Alibaba-Cloud.md)
     - [✔️] ☁️ > [Hướng dẫn gởi ticket trên Alibaba Cloud](Cloud-Provider/Alibaba-Cloud/Ticket-Submit-Alibaba-Cloud.md)
               
+### Microsoft Azure
+
+- [✔️] ☁️ > 
+
 ## Cách sử dụng Git hiệu quả
 
 - [✔️] 📚 > [Overview: Git là gì?](Version-Control/Git.md)
