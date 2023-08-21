@@ -268,6 +268,6 @@ Như vậy là chúng ta đã cuộn được nền theo nhân vật rồi. Các
 ## Kết
 Vậy là chúng ta đã kết thúc phần cuộn nền rồi! Phần này theo mình cũng khá đơn giản và được ứng dụng trong rất nhiều game đấy. Trên đây chỉ là ý tưởng của mình cho việc cuộn nền. Nếu các bạn có những cách khác thì hãy để lại comment để mọi người cũng học hỏi nhé. 
 
-Phần này mình không để **code**, các bạn tự tìm hiểu nhé.
+Phần này mình không để **code**, các bạn tự tìm hiểu và làm theo hướng dẫn nhé.
 
 - https://codelearn.io/sharing/cach-cuon-nen-trong-game-voi-pygame
