@@ -28,7 +28,8 @@
 
 ### Làm game với Python
 
-- [✔️] ⌨️ > [Lập trình game cơ bản với Pygame](Programming-Langguage/Python/Python-Pygame01.md)
+- [✔️] ⌨️ > [Lập trình game cơ bản với Pygame - Phần 1](Programming-Langguage/Python/Python-Pygame01.md)
+- [✔️] ⌨️ > [Lập trình game cơ bản với Pygame - Phần 2](Programming-Langguage/Python/Python-Pygame02.md)
 
 ### Lập trình với GoLang
 - [✔️] ⌨️ > [Thiết lập môi trường DevOps cho GoLang](Programming-Langguage/GoLang/DevOps-Va-GoLang.md)

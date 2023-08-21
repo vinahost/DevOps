@@ -1,4 +1,4 @@
-# Lập Trình Game Cơ Bản Với Pygame
+# Lập Trình Game Cơ Bản Với Pygame - Phần 1
 
 Chào mọi người! Trong bài hướng dẫn này chúng ta sẽ tìm hiểu về thư viện **Pygame** của **Python** cùng với những yếu tố trong lập trình **game**. Trong những bài hướng dẫn sau mình sẽ giúp các bạn vận dụng kiến thức cơ bản để tạo ra những **game** đơn giản để chơi nha!
 
