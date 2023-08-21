@@ -513,6 +513,6 @@ Qua hai bài hướng dẫn, mình đã giới thiệu cho các bạn những ph
 
 Bạn có thể tham khảo đoạn code đầy đủ [tại đây](/Scripts/Python/Pygame02.py) và hình ảnh [car.png](/Scripts/Python/car.png)
 
-Lưu ý: bạn nên cd vào thư mục chứa source code và có đầy đủ 02 file Pygame02.py & car.png để chạy, nếu không sẽ báo lỗi không tìm thấy file **car.png**
+**Lưu ý**: bạn nên `cd` vào thư mục chứa **source code** và có đầy đủ 02 file `Pygame02.py` & `car.png` để chạy, nếu không sẽ báo lỗi không tìm thấy file **car.png**
 
 - https://codelearn.io/sharing/lap-trinh-game-co-ban-voi-pygame-p2
