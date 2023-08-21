@@ -54,15 +54,21 @@ from pygame.locals import *
 
 Hai dòng trên dùng để khai báo các thư viện cần thiết.
 
-    pygame.init()
+``` python
+pygame.init()
+```
 
 Dòng trên cần phải có để sử dụng các hàm của **pygame**, Chỉ cần biết khi dùng **pygame** thì nhớ thêm dòng này vào.
 
-    DISPLAYSURF = pygame.display.set_mode((400, 300))
+``` python
+DISPLAYSURF = pygame.display.set_mode((400, 300))
+```
 
 Dòng này dùng để tạo cửa sổ game. Hai số trong **tuple (400, 300)** chính là chiều rộng và chiều cao của cửa sổ. Đơn vị độ dài hay toạ độ của đối tượng trong **pygame** là **pixel**. **DISPLAYSURF** là 1 biến dạng **surface**. **Surface** là gì thì mình sẽ giải thích kĩ ở phần sau nhe. Bây giờ các bạn cứ hiểu đơn giản **DISPLAYSURF** là cái khung đen đen ấy là được.
 
-    pygame.display.set_caption('Hello world!')
+``` python   
+pygame.display.set_caption('Hello world!')
+```
 
 Dòng trên dùng để tạo cái tiêu đề thôi!
 
@@ -147,15 +153,21 @@ while True:
 
 Tiếp tục chú ý những dòng mới thêm vào nhe!
 
-    DISPLAYSURF.fill((255, 255, 255))
+``` python    
+DISPLAYSURF.fill((255, 255, 255))
+```
 
 Dòng trên dùng để tô màu cho cửa sổ game. Hàm `fill` có tham số là một `tuple` (hoặc **list**) thể hiện cho màu sắc. **(255, 255, 255)** thể hiện màu trắng trong hệ màu **RGB**.
 
-    pygame.draw.rect(DISPLAYSURF, (255, 0, 0), (100, 80, 150, 50))
+``` python
+pygame.draw.rect(DISPLAYSURF, (255, 0, 0), (100, 80, 150, 50))
+```
 
 Dòng này dùng để vẽ hình chữ nhật. Trong hàm `rect` có các tham số cơ bản như sau: 
 
-    pygame.draw.rect(surface, color, rect, width)
+``` python
+pygame.draw.rect(surface, color, rect, width)
+```
 
 - `surface` là “chỗ” vẽ vào, cụ thể ở đây là DISPLAYSURF (tức là cái cửa sổ đấy)
 - `color` là một tuple (hoặc list) thể hiện màu sắc, cụ thể ở đây là màu đỏ
@@ -202,19 +214,27 @@ while True:
 
 Bây giờ tiếp tục nghiên cứu những dòng **code** thôi!
 
-    surface2rect = pygame.Surface((150, 50))
+``` python
+surface2rect = pygame.Surface((150, 50))
+```
 
 Dòng trên dùng để tạo một **surface** dài **150 pixel** và cao **50 pixel**. Biến `surface2rect` đại diện cho **surface** đó.
 
-    surface2rect.fill((0, 255, 0))
+``` python
+surface2rect.fill((0, 255, 0))
+```
 
 Dòng này dùng để tô màu xanh lá cho `surface2rect`.
 
-    pygame.draw.rect(surface2rect, (255, 0, 0), (20, 20, 50, 20))
+``` python
+pygame.draw.rect(surface2rect, (255, 0, 0), (20, 20, 50, 20))
+```
 
 Dòng trên dùng để vẽ hình chữ nhật màu đỏ lên `surface2rect`. Cần chú ý là hoành độ và tung độ được tính theo `surface2rect` chứ không phải tính theo cửa sổ **game** nhe!
 
-    DISPLAYSURF.blit(surface2rect, (100, 80))
+``` python
+DISPLAYSURF.blit(surface2rect, (100, 80))
+```
 
 Hàm `blit` dùng để vẽ 1 **surface** lên 1 **surface** khác. Cụ thể ở đây là vẽ `surface2rect` lên **DISPLAYSURF**. **(100, 80)** là vị trí để vẽ (tương tự như hoành độ và tung độ hình chữ nhật). Các bạn có thể xem ảnh minh hoạ dưới đây nhé!
 
