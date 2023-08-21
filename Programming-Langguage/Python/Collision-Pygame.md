@@ -4,7 +4,7 @@
 
 ## Va chạm giữa hai hình chữ nhật
 
-Như các bạn đã biết thì một hình chữ nhật có thể được biểu diễn bằng 4 thông số: (**x, y, width, height**) tương ứng với hoành độ, tung độ, chiều rộng và chiều cao. Tuy nhiên, còn cách khác để biểu diễn hình chữ nhật đó là biểu diễn qua toạ độ của 2 điểm.
+Như các bạn đã biết thì một hình chữ nhật có thể được biểu diễn bằng **4** thông số: (**x, y, width, height**) tương ứng với **hoành độ**, **tung độ**, **chiều rộng** và **chiều cao**. Tuy nhiên, còn cách khác để biểu diễn hình chữ nhật đó là biểu diễn qua toạ độ của **2 điểm**.
 
 Cụ thể là (**x1, y1, x2, y**2) với:
 
@@ -42,7 +42,7 @@ def rectCollision(rect1, rect2):
 
 Các bạn lưu ý là `rect1` và `rect2` được biểu diễn theo (**x, y, width, height**). Vì thế, trong lệnh `if` cần phải đổi các thông số sang dạng (**x1, y1, x2, y2**) rồi xét các điều kiện như trên. Các bạn có thể test thử hàm này nhe.
 
-Đoạn code sau đây thể hiện trực quan hơn.
+Đoạn **code** sau đây thể hiện trực quan hơn.
 
 ``` python
 import pygame, sys
@@ -88,7 +88,7 @@ Trong đó:
 - **center** là toạ độ tâm hình tròn, **center** có dạng (**x, y**) với x là hoành độ, y là tung độ.
 - **radius** là bán kính hình tròn.
 
-Hai hình tròn chạm nhau khi khoảng cách giữa hai tâm bé hơn tổng hai bán kính.
+Hai hình tròn chạm nhau khi **khoảng cách giữa hai tâm bé hơn tổng hai bán kính**.
 
 ![Xử Lý Va Chạm Trong Game Với Pygame](Image/../../../Image/Collision03.png)
 
@@ -161,6 +161,7 @@ Tuy nhiên, do hình dạng của các đối tượng không thể chính xác 
 Giả sử mình có hai hình như thế này và muốn xét sự va chạm của 2 hình đó:
 
 ![Xử Lý Va Chạm Trong Game Với Pygame](Image/../../../Image/Collision06.png)
+![Xử Lý Va Chạm Trong Game Với Pygame](Image/../../../Image/Collision08.png)
 
 Có thể thấy rằng, việc sử dụng va chạm giữa hai hình chữ nhật hay va chạm giữa hai hình tròn đều không hiệu quả. Vì thế, mình có một cách khác để thực hiện việc này. Các bạn xem đoạn **code** bên dưới nhé!
 
