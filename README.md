@@ -26,6 +26,10 @@
 - [✔️] ⌨️ > [Automation with Python](Programming-Langguage/Python/Automation-with-Python.md)
 - [✔️] ⌨️ > [Build an App in Python](Programming-Langguage/Python/Build-an-App-in-Python.md)
 
+### Làm game với Python
+
+- [✔️] ⌨️ > [Lập trình game cơ bản với Pygame](Programming-Langguage/Python/Python-Pygame01.md)
+
 ### Lập trình với GoLang
 - [✔️] ⌨️ > [Thiết lập môi trường DevOps cho GoLang](Programming-Langguage/GoLang/DevOps-Va-GoLang.md)
 - [✔️] ⌨️ > [Chương trình đầu tiên với GoLang: Hello World](Programming-Langguage/GoLang/Hello-World-GoLang.md)
@@ -91,7 +95,6 @@
 - [✔️] ☁️ > [Thực hành với Microsoft Azure](Cloud-Provider/Microsoft-Azure/Thuc-hanh-voi-Microsoft-Azure.md)
 
 ## Git
-
 - [✔️] 📚 > [Overview: Git là gì?](Version-Control/Git.md)
 - [✔️] 📚 > [Overview: Git - Quản lý phiên bản](Version-Control/Git-Version.md)
 - [✔️] 📚 > [Cài đặt & Cấu hình Git trên Linux](Version-Control/Git-Setup.md)
