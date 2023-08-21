@@ -471,6 +471,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://devops.vinahost.vn/Programming-Langguage/Python/Collision-Pygame/</loc>
+         <lastmod>2023-08-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://devops.vinahost.vn/Programming-Langguage/Python/Introduction-to-Python/</loc>
          <lastmod>2023-08-21</lastmod>
          <changefreq>daily</changefreq>
@@ -497,6 +502,11 @@
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Programming-Langguage/Python/Python-Pygame02/</loc>
+         <lastmod>2023-08-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://devops.vinahost.vn/Programming-Langguage/Python/Scrolling-Background/</loc>
          <lastmod>2023-08-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
