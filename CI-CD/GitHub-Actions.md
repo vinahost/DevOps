@@ -26,9 +26,11 @@
 
 - Cấu hình GitHub reposiroty chứa Dockerfile, triển khai Kubernetes, services và files.
 
-## Sử dụng GitHub Actions để Deploy một Container lên ACK
+## Sử dụng GitHub Actions
 
-Trong phần sau, chúng ta sẽ triển khai 1 **container** chạy **Webserver Nginx** lên **Alibaba Cloud Container Service** trên **Kubernetes** bằng cách sử dụng **GitHub Actions**. Chúng ta sẽ sử dụng **ack-demo** cho bài hướng dẫn này
+Sử dụng **GitHub Actions** để **Deploy** một **Container** lên **ACK**
+
+Tiếp theo, chúng ta sẽ triển khai 1 **container** chạy **Webserver Nginx** lên **Alibaba Cloud Container Service** trên **Kubernetes** bằng cách sử dụng **GitHub Actions**. Chúng ta sẽ sử dụng **ack-demo** cho bài hướng dẫn này
 
 - **Bước 1**: Truy cập tính năng **GitHub Actions** trong phần kiển khai bằng **repo** chứa **Dockerfile**, triển khai **Kubernetes**, **service** và **files**. Chọn **Deploy to Alibaba Cloud ACK** trong mục **Actions** và click **Configure**
 
