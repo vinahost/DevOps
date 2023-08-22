@@ -33,6 +33,7 @@
 - [✔️] ⌨️ > [Cuộn Nền Trong Game Với Pygame](Programming-Langguage/Python/Scrolling-Background.md)
 - [✔️] ⌨️ > [Xử Lý Va Chạm Trong Game Với Pygame](Programming-Langguage/Python/Collision-Pygame.md)
 - [✔️] ⌨️ > [Lập Trình Game Flappy Bird với Pygame](Programming-Langguage/Python/Flappy-Bird-Pygame.md)
+- [✔️] ⌨️ > [Lập Trình Game Đua Xe Với Pygame](Programming-Langguage/Python/Racing-Pygame.md)
 
 ### Lập trình với GoLang
 - [✔️] ⌨️ > [Thiết lập môi trường DevOps cho GoLang](Programming-Langguage/GoLang/DevOps-Va-GoLang.md)

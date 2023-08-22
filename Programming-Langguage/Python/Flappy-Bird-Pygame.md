@@ -4,7 +4,7 @@ Chào mọi người! Trong bài hướng dẫn lần này mình sẽ cùng các
 
 ## Kiến thức căn bản
 
-Đầu tiên, các bạn cần phải biết cơ bản về **python** và **pygame**. Bạn nào chưa tìm hiểu **pygame** thì có thể xem qua 2 bài hướng dẫn cơ bản của mình ([phần 1](Python-Pygame01.md), [phần 2](Python-Pygame02.md)) hoặc có thể học trên những nguồn khác nhé. Bài này khá dài nên các bạn phải cố gắng theo dõi. Để có động lực thì chúng ta cùng xem trước thành quả làm được trong bài này nhe!
+Đầu tiên, các bạn cần phải biết cơ bản về **python** và **pygame**. Bạn nào chưa tìm hiểu **pygame** thì có thể xem qua 2 bài hướng dẫn cơ bản của mình ([phần 1](Python-Pygame01.md), [phần 2](Python-Pygame02.md)) hoặc có thể học trên những nguồn khác nhé. Bài này khá dài nên các bạn phải cố gắng theo dõi.
 
 ## Tạo thư mục và file cho game
 
