@@ -31,7 +31,9 @@ Các bạn click [vào đây](Introduction-to-Python.md) để được hướng
 
 - Cài đặt thư viện cho Python
 
-    pip install tk
+```
+pip install tk
+```
 
 ## Bắt đầu lập trình thôi nào.
 
