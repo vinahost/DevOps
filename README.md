@@ -32,6 +32,7 @@
 - [✔️] ⌨️ > [Lập trình game cơ bản với Pygame - Phần 2](Programming-Langguage/Python/Python-Pygame02.md)
 - [✔️] ⌨️ > [Cuộn Nền Trong Game Với Pygame](Programming-Langguage/Python/Scrolling-Background.md)
 - [✔️] ⌨️ > [Xử Lý Va Chạm Trong Game Với Pygame](Programming-Langguage/Python/Collision-Pygame.md)
+- [✔️] ⌨️ > [Lập Trình Game Flappy Bird với Pygame](Programming-Langguage/Python/Flappy-Bird-Pygame.md)
 
 ### Lập trình với GoLang
 - [✔️] ⌨️ > [Thiết lập môi trường DevOps cho GoLang](Programming-Langguage/GoLang/DevOps-Va-GoLang.md)
