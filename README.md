@@ -33,6 +33,7 @@
 - [✔️] ⌨️ > [Cuộn Nền Trong Game Với Pygame](Programming-Langguage/Python/Scrolling-Background.md)
 - [✔️] ⌨️ > [Xử Lý Va Chạm Trong Game Với Pygame](Programming-Langguage/Python/Collision-Pygame.md)
 - [✔️] ⌨️ > [Lập Trình Game Flappy Bird với Pygame](Programming-Langguage/Python/Flappy-Bird-Pygame.md)
+- [✔️] ⌨️ > [Lập Trình Game Flappybird Với Python có âm thanh](Programming-Langguage/Python/Flappy-Bird-Pygame-v2.md)
 - [✔️] ⌨️ > [Lập Trình Game Đua Xe Với Pygame](Programming-Langguage/Python/Racing-Pygame.md)
 - [✔️] ⌨️ > [Game Cờ Caro Qua Mạng LAN Bằng Python](Programming-Langguage/Python/Caro-LAN-Python.md)
 - [✔️] ⌨️ > [Lập Trình Game Rắn Săn Mồi Với Python](Programming-Langguage/Python/Snake-Python.md)
