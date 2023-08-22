@@ -600,7 +600,7 @@ def gamePlay(bg, car, obstacles, score):
         fpsClock.tick(FPS)
 ```
 
-Vậy là chúng ta đã hoàn thành hàm `gamePLay`. Tiếp theo, chúng ta sẽ viết hàm `gameOver`.
+Vậy là chúng ta đã hoàn thành hàm `gamePlay`. Tiếp theo, chúng ta sẽ viết hàm `gameOver`.
 
 ## Viết hàm gameOver
 
