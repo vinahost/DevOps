@@ -4,7 +4,7 @@ Chào mọi người! Trong bài hướng dẫn lần này mình sẽ cùng các
 
 ## Kiến thức căn bản
 
-Đầu tiên, các bạn cần phải biết cơ bản về **python** và **pygame**. Bạn nào chưa tìm hiểu **pygame** thì có thể xem qua 2 bài hướng dẫn cơ bản của mình ([phần 1](Python-Pygame01.md), [phần 2](Python-Pygame02.md))hoặc có thể học trên những nguồn khác nhé. Bài này khá dài nên các bạn phải cố gắng theo dõi. Để có động lực thì chúng ta cùng xem trước thành quả làm được trong bài này nhe!
+Đầu tiên, các bạn cần phải biết cơ bản về **python** và **pygame**. Bạn nào chưa tìm hiểu **pygame** thì có thể xem qua 2 bài hướng dẫn cơ bản của mình ([phần 1](Python-Pygame01.md), [phần 2](Python-Pygame02.md)) hoặc có thể học trên những nguồn khác nhé. Bài này khá dài nên các bạn phải cố gắng theo dõi. Để có động lực thì chúng ta cùng xem trước thành quả làm được trong bài này nhe!
 
 ## Tạo thư mục và file cho game
 
@@ -630,6 +630,6 @@ Thế là xong rồi. Code của chúng ta đã giống với đoạn **code** �
 ## Kết
 Vậy là chúng ta đã hoàn thành xong game **Flappy Bird** với **pygame**. Các bạn cũng có thể thêm những tính năng mới (thêm điểm cao, thêm huy chương...) cho **game** thú vị hơn. 
 
-Bạn có thể tham khảo đoạn code đầy đủ [tại đây](/Scripts/Python/FlappyBird.zip)
+Bạn có thể tham khảo đoạn **code** đầy đủ [tại đây](/Scripts/Python/FlappyBird.zip)
 
 - https://codelearn.io/sharing/lam-game-flappy-bird-voi-pygame
