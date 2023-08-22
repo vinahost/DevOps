@@ -1,6 +1,6 @@
 # Game Cờ Caro Qua Mạng LAN Bằng Python
 
-Cờ **Caro** là một **Game** trí tuệ đã rất quen thuộc với mỗi chúng ta. Với lối chơi đơn giản nhưng yếu tố trí tuệ lại rất cao nên cờ Caro được rất nhiều người yêu thích đặc biệt là các bạn học sinh, sinh viên và dân văn phòng. **Game** cờ **Caro** không chỉ mang tính chất giải trí đơn thuần mà là một cuộc đấu trí vô cùng gay cấn.
+Cờ **Caro** là một **Game** trí tuệ đã rất quen thuộc với mỗi chúng ta. Với lối chơi đơn giản nhưng yếu tố trí tuệ lại rất cao nên cờ **Caro** được rất nhiều người yêu thích đặc biệt là các bạn học sinh, sinh viên và dân văn phòng. **Game** cờ **Caro** không chỉ mang tính chất giải trí đơn thuần mà là một cuộc đấu trí vô cùng gay cấn.
 
 Hãy cùng mình làm một chương trình chơi cờ **Caro** đơn giản để cùng chơi với bạn bè của mình nhé.
 
@@ -34,7 +34,7 @@ Các bạn click [vào đây](Introduction-to-Python.md) để được hướng
 
 ## Bắt đầu lập trình thôi nào.
 
-1. Import các thư viện cần thiết
+### Import các thư viện cần thiết
 
 Mình dùng các thư viện  `tkinter`, `threading`, `socket` để tạo giao diện, xử lý đa luồng và kết nối hai chương trình với nhau.
 
@@ -46,7 +46,7 @@ import socket
 from tkinter import messagebox
 ```
 
-2. Tạo giao diện cho chương trình
+### Tạo giao diện cho chương trình
 
 Mình tạo khởi tạo một lớp `Window` kế thừa từ `tk.TK`.
 
@@ -189,7 +189,7 @@ def handleButton(self, x, y):
                 self.Buts[x, y]["text"] = ""
 ```
 
-2. Tao lớp đồng bộ dữ liều người chơi giữa hai chương trình :
+### Tạo lớp đồng bộ dữ liều người chơi giữa hai chương trình :
 
 Khởi tạo **Class** `Threading_socket`.
 
@@ -276,7 +276,7 @@ def __init__(self, gui):
         self.conn.sendall(str("{}|".format(self.name) + data).encode())
 ```
 
-3. Khởi tạo hàm main và chạy chương trình
+### Khởi tạo hàm `main` và chạy chương trình
 
 ```python
 if __name__ == "__main__":
