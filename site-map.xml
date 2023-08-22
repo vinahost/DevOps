@@ -471,12 +471,27 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://devops.vinahost.vn/Programming-Langguage/Python/Caro-LAN-Python/</loc>
+         <lastmod>2023-08-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://devops.vinahost.vn/Programming-Langguage/Python/Collision-Pygame/</loc>
          <lastmod>2023-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://devops.vinahost.vn/Programming-Langguage/Python/Flappy-Bird-Pygame-v2/</loc>
+         <lastmod>2023-08-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://devops.vinahost.vn/Programming-Langguage/Python/Flappy-Bird-Pygame/</loc>
+         <lastmod>2023-08-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://devops.vinahost.vn/Programming-Langguage/Python/Game-Space-Invaders-Python/</loc>
          <lastmod>2023-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -517,6 +532,11 @@
     </url>
     <url>
          <loc>https://devops.vinahost.vn/Programming-Langguage/Python/Scrolling-Background/</loc>
+         <lastmod>2023-08-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://devops.vinahost.vn/Programming-Langguage/Python/Snake-Python/</loc>
          <lastmod>2023-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
