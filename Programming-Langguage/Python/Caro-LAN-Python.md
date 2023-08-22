@@ -25,10 +25,11 @@ Bài viết mặc định yêu cầu bạn đã có kiến thức về **Python*
 
 ## Cài đặt Python và thư viện cần thiết.
 
-1. Cài đặt python :
+- Cài đặt python :
+
 Các bạn click [vào đây](Introduction-to-Python.md) để được hướng dẫn cài đặt **Python**
 
-2. Cài đặt thư viện cho Python
+- Cài đặt thư viện cho Python
 
     pip install tk
 
