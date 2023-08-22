@@ -20,7 +20,7 @@ Các bạn hãy tạo thư mục có cấu trúc như sau:
 
 **racing.py** là file **code** của chúng ta.
 
-Thư mục **img** chứa các hình ảnh dùng cho **game**. Các hình đó mình lấy trên [OpenGameArt.org](OpenGameArt.org) và có chỉnh lại cho phù hợp với **game**.
+Thư mục **img** chứa các hình ảnh dùng cho **game**. Các hình đó mình lấy trên **OpenGameArt.org** và có chỉnh lại cho phù hợp với **game**.
 
 Các bạn có thể tải **source code đầy đủ** về để lấy các hình ảnh nhe.
 
