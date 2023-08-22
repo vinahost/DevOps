@@ -289,6 +289,8 @@ if __name__ == "__main__":
 
 ## Kết
 
+Bạn có thể tải **source code** trên [tại đây](/Scripts/Python/Caro.py)
+
 Trên đây là bài hướng dẫn lập trình **Caro** hai người chơi qua mạng **Lan** bằng **Python**. Rất mong sự ủng hộ của các bạn, nếu các bạn thấy bài viết có giá trị thì hãy share để ủng hộ mình nhé.
 
 - https://codelearn.io/sharing/game-caro-qua-mang-lan-bang-python
