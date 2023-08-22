@@ -101,7 +101,7 @@ Hàm hiển thị điểm.
         self.screen.blit(score, (x, y))
 ```
 
-Phương thức colunm.
+Phương thức `colunm`.
 
 ```python
     def colunm(self):
@@ -122,7 +122,7 @@ Phương thức colunm.
         return yColunmChangeTop+self.ySizeColunm, yColunmChangeBotton  # Trả về vị trí hai cột
 ```
 
-Hàm run.
+Hàm `run`.
 
 ```python
     def run(self):
@@ -188,7 +188,7 @@ Lưu ý:  Các bạn chú ý vào phần ghi chú **Check** xem `bird` chạm c�
 
 ![Flappybird](../../Image/Flappybird03.png)
 
-Chạy thử.
+Hàm `main`
 
 ```python
 if __name__ == "__main__":
@@ -198,6 +198,6 @@ if __name__ == "__main__":
 
 ## Kết
 
-Cảm ơn các bạn đã đọc bài viết của mình, nếu có gì thắc mắc thì hãy bình luận phía bên dưới. Nếu các bạn thấy hay thì hãy share bài để ủng hộ mình nhé.
+Cảm ơn các bạn đã đọc bài viết của mình, nếu có gì thắc mắc thì hãy bình luận phía bên dưới. Nếu các bạn thấy hay thì hãy **share** bài để ủng hộ mình nhé.
 
 - https://codelearn.io/sharing/lap-trinh-game-flappybird-voi-python
