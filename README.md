@@ -36,6 +36,7 @@
 - [✔️] ⌨️ > [Lập Trình Game Đua Xe Với Pygame](Programming-Langguage/Python/Racing-Pygame.md)
 - [✔️] ⌨️ > [Game Cờ Caro Qua Mạng LAN Bằng Python](Programming-Langguage/Python/Caro-LAN-Python.md)
 - [✔️] ⌨️ > [Lập Trình Game Rắn Săn Mồi Với Python](Programming-Langguage/Python/Snake-Python.md)
+- [✔️] ⌨️ > [Làm Game Space Invaders Bằng Python](Programming-Langguage/Python/Game-Space-Invaders-Python.md)
 
 ### Lập trình với GoLang
 - [✔️] ⌨️ > [Thiết lập môi trường DevOps cho GoLang](Programming-Langguage/GoLang/DevOps-Va-GoLang.md)
