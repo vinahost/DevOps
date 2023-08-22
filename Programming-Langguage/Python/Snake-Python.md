@@ -261,7 +261,7 @@ main()
 
 ## Kết
 
-Sau đây là toàn bộ **code** của trò chơi: [Game snake với python]()
+Sau đây là toàn bộ **code** của trò chơi: [Game snake với python](/Scripts/Python/Snake.py)
 
 Có chỗ nào cần giải đáp hoặc bổ sung, các bạn để lại **comment** dưới bài viết nha. Chúc các bạn vận dụng được kiến thức và thực hiện thành công **game** này
 
