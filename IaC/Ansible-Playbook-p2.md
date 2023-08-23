@@ -114,5 +114,3 @@ I am going to leave this one here and in the next session, we will start working
 - [Ansible 101 - Episode 1 - Introduction to Ansible](https://www.youtube.com/watch?v=goclfp6a2IQ)
 - [NetworkChuck - You need to learn Ansible right now!](https://www.youtube.com/watch?v=5hycyr-8EKs&t=955s)
 - [Your complete guide to Ansible](https://www.youtube.com/playlist?list=PLnFWJCugpwfzTlIJ-JtuATD2MBBD7_m3u)
-
-This final playlist listed above is where a lot of the code and ideas came from for this section, a great resource and walkthrough in video format.

@@ -8,7 +8,7 @@ This is where **ansible playbooks** come in. A playbook enables us to take our g
 
 ### Playbook format
 
-Playbook > Plays > Tasks
+> Playbook > Plays > Tasks
 
 For anyone that comes from a sports background you may have come across the term playbook, a playbook then tells the team how you will play made up of various plays and tasks if we think of the plays as the set pieces within the sport or game, and the tasks are associated to each play, you can have multiple tasks to make up a play and in the playbook, you may have multiple different plays.
 
@@ -32,9 +32,9 @@ You will find the above file [simple_play](/Scripts/Configmgmt/simple_play.yml).
 
 ![Ansible Playbooks](Image/../../Image/Ansible-Playbook1.png)
 
-You can see the first task of "**gathering steps**" happened, but we didn't trigger or ask for this? This module is automatically called by playbooks to gather useful variables about remote hosts. [ansible.builtin.setup](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/setup_module.html)
+You can see the first task of "**gathering steps**" happened, but we didn't trigger or ask for this? This module is automatically called by playbooks to gather useful variables about remote hosts [ansible.builtin.setup](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/setup_module.html)
 
-Our second task was to set a ping, this is not an **ICMP** ping but a **python** script to report back `pong` on successful connectivity to remote or **localhost**. [ansible.builtin.ping](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/ping_module.html)
+Our second task was to set a ping, this is not an **ICMP** ping but a **python** script to report back `pong` on successful connectivity to remote or **localhost** [ansible.builtin.ping](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/ping_module.html)
 
 Then our third or our second defined task as the first one will run unless you disable was the printing of a message telling us our OS. In this task we are using conditionals, we could run this **playbook** against all different types of operating systems and this would return the OS name. We are simply messaging this output for ease but we could add a task to say something like:
 
