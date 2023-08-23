@@ -161,7 +161,7 @@
 - [✔️] 📜 > [Ansible Playbooks Part 1](IaC/Ansible-Playbook-p1.md)
 - [✔️] 📜 > [Ansible Playbooks Part 2](IaC/Ansible-Playbook-p2.md)
 - [✔️] 📜 > [Using Roles & Deploying a Loadbalancer](IaC/Ansible-Loadbalancer.md)
-- [✔️] 📜 > [Tags, Variables, Inventory & Database Server config]
+- [✔️] 📜 > [Tags, Variables, Inventory & Database Server config](IaC/Ansible-Config.md)
 - [✔️] 📜 > [Tất cả những thứ còn lại của Ansible - Automation Controller, AWX, Vault]
 
 ## CI/CD Pipelines
