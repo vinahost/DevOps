@@ -157,7 +157,9 @@
 
 - [✔️] 📜 > [Overview: Quản lý cấu hình](IaC/Configuration-Management.md)
 - [✔️] 📜 > [Setup Ansible](IaC/Setup-Ansible.md)
-- [✔️] 📜 > [Ansible Playbooks](IaC/Ansible-Playbook.md)
+- [✔️] 📜 > [Ansible Playbooks là gì](IaC/Ansible-Playbook.md)
+- [✔️] 📜 > [Ansible Playbooks Part 1](IaC/Ansible-Playbook-p1.md)
+- [✔️] 📜 > [Ansible Playbooks Part 2](IaC/Ansible-Playbook-p2.md)
 - [✔️] 📜 > [Tiếp tục với Ansible Playbooks...]
 - [✔️] 📜 > [Sử dụng Role & Triển khai Loadbalancer]
 - [✔️] 📜 > [Tags, Variables, Inventory & Database Server config]
