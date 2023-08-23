@@ -156,7 +156,7 @@
 ## Ansible
 
 - [✔️] 📜 > [Overview: Quản lý cấu hình](IaC/Configuration-Management.md)
-- [✔️] 📜 > [Ansible Playbooks là gì](IaC/Ansible-Playbook.md)
+- [✔️] 📜 > [Ansible là gì?](IaC/Ansible-Playbook.md)
 - [✔️] 📜 > [Setup Ansible](IaC/Setup-Ansible.md)
 - [✔️] 📜 > [Ansible Playbooks Part 1](IaC/Ansible-Playbook-p1.md)
 - [✔️] 📜 > [Ansible Playbooks Part 2](IaC/Ansible-Playbook-p2.md)
