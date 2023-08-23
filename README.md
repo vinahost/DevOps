@@ -153,15 +153,14 @@
 - [✔️] 🤖 > [Kubernetes & Đa môi trường](IaC/Terraform-Kubernetes.md)
 - [✔️] 🤖 > [Testing, Tools & Alternatives](IaC/Testing-Terraform.md)
 
-## Ansible
+## Ansible - English
 
 - [✔️] 📜 > [Overview: Quản lý cấu hình](IaC/Configuration-Management.md)
 - [✔️] 📜 > [Ansible là gì?](IaC/Ansible-Playbook.md)
 - [✔️] 📜 > [Setup Ansible](IaC/Setup-Ansible.md)
 - [✔️] 📜 > [Ansible Playbooks Part 1](IaC/Ansible-Playbook-p1.md)
 - [✔️] 📜 > [Ansible Playbooks Part 2](IaC/Ansible-Playbook-p2.md)
-- [✔️] 📜 > [Tiếp tục với Ansible Playbooks...]
-- [✔️] 📜 > [Sử dụng Role & Triển khai Loadbalancer]
+- [✔️] 📜 > [Using Roles & Deploying a Loadbalancer](IaC/Ansible-Loadbalancer.md)
 - [✔️] 📜 > [Tags, Variables, Inventory & Database Server config]
 - [✔️] 📜 > [Tất cả những thứ còn lại của Ansible - Automation Controller, AWX, Vault]
 
