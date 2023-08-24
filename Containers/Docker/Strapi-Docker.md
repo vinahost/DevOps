@@ -85,8 +85,8 @@ Bạn sẽ thấy trên màn hình **console** hiển thị một loạt các th
 
 Bạn sẽ phải chờ khoảng 5 phút để cài đặt các dependences trong strapi, Khi xong các kết quả màn hình sẽ hiển thị như sau:
 
-uc?id=1WCirAKWL9w67oDG48cndtCJNUKGYD8XG&export=download
-
-Bạn vào http://localhost:1337/admin/auth/register để xem kết quả nhé.
-
 ![Strapi Docker](/Image/Strapi-Docker04.png)
+
+Bạn truy vào **http://localhost:1337/admin/auth/register** để xem kết quả nhé.
+
+![Strapi Docker](/Image/Strapi-Docker05.png)
