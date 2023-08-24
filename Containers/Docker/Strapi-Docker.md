@@ -38,7 +38,7 @@ Hãy tạo ra một thư mục làm việc mà bạn mong muốn nhé. ở đây
 
 Bạn không cần phải tạo **2 folder app** hay **db** như trên đó là kết quả do mình **volume** các **folder** bằng kịch bản trong **file** `docker-compose.yml` ở dưới. Mình chỉ viết file **docker-compose.yml** như sau
 
-```yml
+```yaml
 version: '3'
 
 services:
@@ -71,7 +71,7 @@ db:
     POSTGRES_DB: strapi
 ```
 
-Mình đọc sơ qua kịch bản của `docker-compose` nhé: Ở đây mình sẽ sử dụng **2 docker image** là `postgres` và `strapi` để tạo ra 2 **container** chứa **database** và **strapi app**.
+Mình đọc qua kịch bản của `docker-compose` nhé: Ở đây mình sẽ sử dụng **2 docker image** là `postgres` và `strapi` để tạo ra 2 **container** chứa **database** và **strapi app**.
 
 Đối với **service strapi** sẽ truy cập vào bằng `port 1337` của máy, các biến môi trường sẽ được định nghĩa trong **environment** như trên. **strapi container** sẽ liên kết với **db container** thông qua `depends_on`.
 
