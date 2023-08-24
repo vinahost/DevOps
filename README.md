@@ -125,6 +125,7 @@
 - [✔️] 🏗️ > [Docker Compose](Containers/Docker/Docker-Compose.md)
 - [✔️] 🏗️ > [Docker Networking & Security](Containers/Docker/Docker-Networking-Security.md)
 - [✔️] 🏗️ > [Docker Nâng Cao](Containers/Docker/Docker-nang-cao.md)
+- [✔️] 🏗️ > [Hướng dẫn cài Strapi trên Docker](Containers/Docker/Strapi-Docker.md)
 - [✔️] 🏗️ > [Các lựa chọn thay thế cho Docker](Containers/Docker/Cac-lua-chon-thay-the-Docker.md)
 - [✔️] 🏗️ > [Docker Swarm là gì?](Containers/Docker/Tim-hieu-Docker-Swarm.md)
 - [✔️] 🏗️ > [Docker Questions and Answers](Containers/Docker/Docker-questions-and-answers.md)
