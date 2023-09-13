@@ -1,4 +1,4 @@
-# Hướng dẫn cài đặt Kubernet Cluster với Kubespray
+# Hướng dẫn cài đặt Kubernetes Cluster với Kubespray
 
 **Kubernetes** là một phần mềm mã nguồn mở, có vai trò là một **Container Orchestration**, tức là một hệ quản trị các **Container** và các thành phần khác liên quan. Nó tương đương với **Docker Swarm** nhưng có nhiều tính năng ưu việt và mạnh mẽ hơn.
 
