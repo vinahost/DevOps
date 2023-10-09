@@ -478,7 +478,7 @@ Tiến hành commit và push lại để chạy Jenkins CICD Pipeline
 
 Kết quả đã deploy thành công trên Staging server
 
-!jenkins cicd pipeline
+![Jenkins CI-CD Pipeline](http://elroydev.tech/wp-content/uploads/2023/04/6-setup-deploy-7-3.png)
 
 Truy cập địa chỉ **http://10.32.3.172:8081/swagger/index.html** đã thấy backend chạy thành công.
 
