@@ -494,8 +494,8 @@ Stage này mình nhường cho bạn và mình sẽ dừng bài hướng dẫn t
 
 Vậy là chúng ta đã thành công triển khai một Jenkins CICD Pipeline mà mình đã hướng dẫn cực kỳ chi tiết nếu bạn hoàn thành và hiểu toàn bộ thì bạn thật sự đã có kiến cơ bản về devops. Sau đây mình cũng sẽ hướng dẫn rất nhiều về CI/CD pipeline với những sự chỉnh chu và chất lượng, nâng cao hơn. Mong rằng cộng đồng DevOps của chúng ta ngày càng mở rộng và những bạn mới sẽ có nhiều cơ hội hơn để làm DevOps.
 
-Mọi thắc mắc bạn có thể liên hệ:
+**Mọi thắc mắc bạn có thể liên hệ:**
 
-Email: elroydevops@gmail.com
+- Email: elroydevops@gmail.com
 
-Link gốc: https://elroydev.tech/jenkins-cicd-pipeline-du-an-thuc-te-sieu-chi-tiet/
+- Link gốc: https://elroydev.tech/jenkins-cicd-pipeline-du-an-thuc-te-sieu-chi-tiet/
