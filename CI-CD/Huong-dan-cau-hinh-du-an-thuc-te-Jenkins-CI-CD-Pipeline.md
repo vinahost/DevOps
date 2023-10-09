@@ -384,11 +384,11 @@ Vậy là chúng ta đã setup xong stage migration database này trong Jenkins 
 
 Tiến hành tạo tiếp tục Credentials để login vào Dockerhub như dưới đây
 
-#### ![Jenkins CI-CD Pipeline](http://elroydev.tech/wp-content/uploads/2023/04/5-setup-build-project-2.png)
+![Jenkins CI-CD Pipeline](http://elroydev.tech/wp-content/uploads/2023/04/5-setup-build-project-2.png)
 
 Tạo thành công bạn hãy chú ý đến ID nhé vì chúng ta sẽ sử dụng nó trong Jenkinsfile
 
-#### ![Jenkins CI-CD Pipeline](http://elroydev.tech/wp-content/uploads/2023/04/5-setup-build-project-3.png)
+![Jenkins CI-CD Pipeline](http://elroydev.tech/wp-content/uploads/2023/04/5-setup-build-project-3.png)
 
 Trong docker-compose.yml file chỉnh sửa như sau:
 
@@ -396,7 +396,7 @@ Trong docker-compose.yml file chỉnh sửa như sau:
 *   image: định nghĩa image để tag của image được xác định mỗi lần commit code (có giá trị mặc định là “1.0.0”)
 *   envinroment: biến môi trường mà đã thiết lập ở trên
 
-#### ![Jenkins CI-CD Pipeline](http://elroydev.tech/wp-content/uploads/2023/04/5-setup-build-project-5.png)
+![Jenkins CI-CD Pipeline](http://elroydev.tech/wp-content/uploads/2023/04/5-setup-build-project-5.png)
 
 Thêm một số thông tin:
 
@@ -406,15 +406,15 @@ Thêm một số thông tin:
 *   DOCER\_TAG: ở đây mình sẽ lấy theo branch commit và một mã băm (hash) được tạo ra bởi Git để đại diện cho commit cụ thể đó và mình tiến hành cắt string lấy 7 ký tự đầu tiên của mã băm từ biến GIT\_COMMIT
     *   Ví dụ: Nếu tên nhánh trên Git là “feature/new-feature” và mã băm commit là “abc123def456”, thì giá trị cuối cùng của biến DOCKER\_TAG sẽ là “new-feature-abc123d”.
 
-#### ![Jenkins CI-CD Pipeline](http://elroydev.tech/wp-content/uploads/2023/04/5-setup-build-project-6.png)
+![Jenkins CI-CD Pipeline](http://elroydev.tech/wp-content/uploads/2023/04/5-setup-build-project-6.png)
 
 Thêm stage build and push images như dưới đây
 
-#### ![Jenkins CI-CD Pipeline](http://elroydev.tech/wp-content/uploads/2023/04/5-setup-build-project-6-1.png)
+![Jenkins CI-CD Pipeline](http://elroydev.tech/wp-content/uploads/2023/04/5-setup-build-project-6-1.png)
 
 Tạo 2 repository trên dockerhub (chú ý là trên dockerhub chỉ có 1 repository được private còn lại sẽ public ở phiên bản miễn phí nhé)
 
-#### ![Jenkins CI-CD Pipeline](http://elroydev.tech/wp-content/uploads/2023/04/5-setup-build-project-4-1.png)
+![Jenkins CI-CD Pipeline](http://elroydev.tech/wp-content/uploads/2023/04/5-setup-build-project-4-1.png)
 
 Tiến hành commit và kiểm tra Jenkins CICD Pipeline chạy thành công
 
@@ -422,11 +422,11 @@ Tiến hành commit và kiểm tra Jenkins CICD Pipeline chạy thành công
 
 Kiểm tra trên dockerhub thấy commit và repo backend đã có image
 
-#### ![Jenkins CI-CD Pipeline](http://elroydev.tech/wp-content/uploads/2023/04/5-setup-build-project-8-3.png)
+![Jenkins CI-CD Pipeline](http://elroydev.tech/wp-content/uploads/2023/04/5-setup-build-project-8-3.png)
 
 Tương tự xem repo frontend image cũng đã lên thành công
 
-#### ![Jenkins CI-CD Pipeline](http://elroydev.tech/wp-content/uploads/2023/04/5-setup-build-project-9.png)
+![Jenkins CI-CD Pipeline](http://elroydev.tech/wp-content/uploads/2023/04/5-setup-build-project-9.png)
 
 Vậy là đến đây chúng ta đã tiến hành xong bước đóng gói và đẩy image lên registry ở đây là dockerhub trong Jenkins CICD Pipeline
 
