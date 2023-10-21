@@ -4,7 +4,7 @@ site_description: Hành trình trở thành DevOps
 site_author: Vinahost Team
 
 repo_url: https://github.com/vinahost/DevOps
-# edit_uri: blob/master/docs/
+edit_uri: blob/master/docs/
 # docs_dir: /root/devops/docs/DevOps/
 
 theme:
