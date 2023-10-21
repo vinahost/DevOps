@@ -1,0 +1,8 @@
+mkdocs-material
+mkdocs-glightbox
+mkdocs-material
+mkdocs-open-in-new-tab
+pymdown-extensions
+#Add pip package if needed
+#mkdocs-bootswatch
+#mkdocs-minify-plugin

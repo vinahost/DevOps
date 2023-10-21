@@ -1,0 +1,283 @@
+site_name: Journey to Become a DevOps
+# site_url: https://devops.vinahost.vn
+site_description: Hành trình trở thành DevOps
+site_author: Vinahost Team
+
+repo_url: https://github.com/vinahost/DevOps
+edit_uri: blob/master/docs/
+# docs_dir: /root/devops/docs/DevOps/
+
+theme:
+  name: material
+  locale: en
+  favicon: favicon/favicon.ico
+  logo: favicon/favicon.png
+  icon:
+    repo: fontawesome/brands/github
+  highlightjs: true
+  palette:
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  features:
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - content.tooltips
+    - search.suggest
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tracking
+    - navigation.footer
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - navigation.top
+  
+  hljs_languages:
+    - yaml
+    - django
+    - python
+    - ruby
+plugins:
+  - search
+  # - open-in-new-tab
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - custom-skip-class-name
+      auto_caption: false
+      caption_position: bottom
+    #  - optimize:
+    #  cache: true
+
+nav:
+- Trang chủ: README.md
+- Giới thiệu DevOps:
+    - DevOps là gì?: Overview/DevOps-la-gi.md
+    - Roadmap để trở thành DevOps: Overview/DevOps-Roadmap.md
+    - Vòng đời DevOps: Overview/DevOps-Lifecycle.md
+    - DevOps và Agile: Overview/DevOps-Agile.md
+    - Quy trình DevOps: Overview/Quy-Trinh-DevOps.md
+    - Microservices, Monolith với Devops: Overview/Microservices-Monolith-DevOps.md
+- DevOps và ngôn ngữ lập trình:
+    - DevOps và ngôn ngữ lập trình: Programming-Langguage/Ngon-Ngu-Lap-Trinh-DevOps.md
+    - YAML là gì?: Programming-Langguage/YAML.md
+    - Lập trình với Python:
+      - Thiết lập môi trường DevOps cho Python: Programming-Langguage/Python/Bat-Dau-Voi-Python.md
+      - Introduction to Python: Programming-Langguage/Python/Introduction-to-Python.md
+      - Python Loops, functions, modules and libraries: Programming-Langguage/Python/Python-4-Concepts.md
+      - Python Data Structures and OOP: Programming-Langguage/Python/Python-Data-Structures-OOP.md
+      - Python Debugging, Testing and Regular expression: Programming-Langguage/Python/Python-Debugging-Testing-Regular.md
+      - Web development in Python: Programming-Langguage/Python/Web-development-in-Python.md
+      - Automation with Python: Programming-Langguage/Python/Automation-with-Python.md
+      - Build an App in Python: Programming-Langguage/Python/Build-an-App-in-Python.md
+    - Làm game với Python:
+      - Lập trình game cơ bản với Pygame 01: Programming-Langguage/Python/Python-Pygame01.md
+      - Lập trình game cơ bản với Pygame 02: Programming-Langguage/Python/Python-Pygame02.md
+      - Cuộn Nền Trong Game Với Pygame: Programming-Langguage/Python/Scrolling-Background.md
+      - Xử Lý Va Chạm Trong Game Với Pygame: Programming-Langguage/Python/Collision-Pygame.md
+      - Lập Trình Game Flappy Bird với Pygame: Programming-Langguage/Python/Flappy-Bird-Pygame.md
+      - Lập Trình Game Flappybird Với Python có âm thanh: Programming-Langguage/Python/Flappy-Bird-Pygame-v2.md
+      - Lập Trình Game Đua Xe Với Pygame: Programming-Langguage/Python/Racing-Pygame.md
+      - Game Cờ Caro Qua Mạng LAN Bằng Python: Programming-Langguage/Python/Caro-LAN-Python.md
+      - Lập Trình Game Rắn Săn Mồi Với Python: Programming-Langguage/Python/Snake-Python.md
+      - Làm Game Space Invaders Bằng Python: Programming-Langguage/Python/Game-Space-Invaders-Python.md
+    - Lập trình với GoLang:
+      - Thiết lập môi trường DevOps cho GoLang: Programming-Langguage/GoLang/DevOps-Va-GoLang.md
+      - Hello World với Go: Programming-Langguage/GoLang/Hello-World-GoLang.md
+      - Go Workspace: Programming-Langguage/GoLang/Go-Workspace.md
+      - Biến, hằng số và kiểu dữ liệu: Programming-Langguage/GoLang/Bien-Hang-So-Go.md
+      - Go nhận giá trị đầu vào: Programming-Langguage/GoLang/Go-Nhan-Gia-Tri-Bien.md
+      - Ứng dụng GoLang với Twitter: Programming-Langguage/GoLang/Twitter-Voi-GoLang.md
+
+- Kiến thức cơ bản về Linux:
+    - Mối liên hệ giữa DevOps với Linux: OS/Basic/DevOps-va-Linux.md
+    - Vagrant là gì?: OS/Basic/Vagrant-la-gi.md
+    - Thực hành Linux với HashiCorp Vagrant: OS/Basic/HashiCorp-Vagrant.md
+    - Các lệnh Linux cho DevOps: OS/Basic/Linux-Basics.md
+    - Cài phần mềm trên Linux: OS/Basic/Install-Software-Linux.md
+    - Câu lệnh Find trong Linux: OS/Basic/Lenh-Find-Trong-Linux.md
+    - Quản lý Hệ thống Linux, Hệ thống Flie và Lưu trữ: OS/Basic/File-System-Linux.md
+    - Text Editors chọn nano hay vim: OS/Basic/Linux-Nano-Vim.md
+    - SSH và Webserver (LAMP): OS/Basic/SSH-Webserver.md
+    - Tự động hóa với BASH: OS/Basic/Tu-Dong-Hoa-Voi-Bash.md
+    - Thao tác trên Ubuntu Desktop: OS/Basic/Ubuntu-Desktop.md
+- Kiến thức về mạng Network:
+    - DevOps và Mạng máy tính: Networking/DevOps-Networking.md
+    - Mô hình OSI 7 lớp mạng: Networking/Mo-hinh-7-lop-OSI.md
+    - Giao thức mạng: Networking/Network-Protocols.md
+    - Giao thức TCP và UDP là gì ?: Networking/TCP-UDP.md
+    - Tự động hoá mạng máy tính: Networking/Network-Automation.md
+    - Tự động hoá Network với Python: Networking/Python-Network-Automation.md
+    - Xây dựng Lab Network với EVE-NG: Networking/EVE-NG.md
+    - Thực hành Network với Python: Networking/Working-With-Python.md
+- Cloud Provider:
+    - DevOps và Cloud Computing: Cloud-Provider/Overview-DevOps-The-Cloud.md
+    - DevOps và các Cloud Provider: Cloud-Provider/DevOps-Cloud-Provider.md
+    - Alibaba Cloud:
+      - Kiến thức cơ bản về Alibaba Cloud: Cloud-Provider/Alibaba-Cloud/Alibaba-Cloud-la-gi.md
+      - Server Migration Center SMC là gì?: Cloud-Provider/Alibaba-Cloud/Server-Migration-Center-SMC-la-gi.md
+        #- Mô hình bảo mật Alibaba Cloud: Update.md
+        #- Mô hình Điện toán Alibaba Cloud: Update.md
+        #- Mô hình lưu trữ và cơ sở dữ liệu Alibaba Cloud: Update.md
+        #- Mô hình Mạng Alibaba Cloud: Update.md
+      - Hướng dẫn tạo Elastic Compute Service (ECS): Cloud-Provider/Alibaba-Cloud/Elastic-Compute-Service-ECS.md
+      - Hướng dẫn tạo Object Storage Service (OSS): Cloud-Provider/Alibaba-Cloud/Object-Storage-Service-OSS.md
+      - Hướng dẫn tạo và cấp quyền cho tài khoản RAM: Cloud-Provider/Alibaba-Cloud/Resource-Access-Management-RAM.md
+      - Hướng dẫn sử dụng Alibaba Cloud Pricing Calculator: Cloud-Provider/Alibaba-Cloud/Alibaba-Cloud-Pricing-Calculator.md
+      - Hướng dẫn sử dụng ApsaraVideo VOD Calculator: Cloud-Provider/Alibaba-Cloud/ApsaraVideo-VOD-Calculator.md
+      - Quản lý cơ sở dữ liệu RDS trên Alibaba Cloud: Cloud-Provider/Alibaba-Cloud/Quan-Ly-RDS-Alibaba-Cloud.md
+      - Billing Management trên Aliaba Cloud: Cloud-Provider/Alibaba-Cloud/Budget-Management-tren-Alibaba-Cloud.md
+      - Hướng dẫn gởi ticket trên Alibaba Cloud: Cloud-Provider/Alibaba-Cloud/Ticket-Submit-Alibaba-Cloud.md
+    - Microsoft Azure:
+      - Kiến thức cơ bản về Microsoft Azure: Cloud-Provider/Microsoft-Azure/Microsoft-Azure.md
+      - Bảo mật trong Microsoft Azure: Cloud-Provider/Microsoft-Azure/Securiy-Microsoft-Azure.md
+      - Mô hình Điện toán Microsoft Azure: Cloud-Provider/Microsoft-Azure/Microsoft-Azure-Compute-Models.md
+      - Lưu trữ và cơ sở dữ liệu Microsoft Azure: Cloud-Provider/Microsoft-Azure/Microsoft-Azure-Storage-Models.md
+      - Hệ thống Mạng và Management trong Microsoft Azure: Cloud-Provider/Microsoft-Azure/Microsoft-Azure-Networking-Management.md
+      - Thực hành với Microsoft Azure: Cloud-Provider/Microsoft-Azure/Thuc-hanh-voi-Microsoft-Azure.md
+- Git căn bản:
+    - Git là gì?: Version-Control/Git.md
+    - Git Quản lý phiên bản: Version-Control/Git-Version.md
+    - Cài đặt và Cấu hình Git trên Linux: Version-Control/Git-Setup.md
+    - Cài đặt và Cấu hình Git trên Windows: Version-Control/Git-Setup-Windows.md
+    - Cơ bản về Git: Version-Control/Git-Co-Ban.md
+    - Staging và Changing: Version-Control/Staging-Changing.md
+    - Viewing, unstaging, discarding và restoring: Version-Control/Git-Advanced.md
+    - Viewing, unstaging, discarding và restoring Tiếng Việt: Version-Control/Git-Advanced-vi.md
+    - Mạng xã hội dành cho code: Version-Control/GitHub-GitLab-BitBucket.md
+    - Quy trình làm việc với mã nguồn mở: Version-Control/Quy-Trinh-Lam-Viec.md
+- Containers:
+    - Containers là gì?: Containers/Docker/Containers-la-gi.md
+    - Docker là gì?: Containers/Docker/Docker-la-gi.md
+    - Cài đặt Docker Desktop: Containers/Docker/Cai-dat-Docker-Desktop.md
+    - Thực hành với Docker Desktop: Containers/Docker/Thuc-hanh-voi-Docker-Desktop.md
+    - Docker Image là gì?: Containers/Docker/Docker-Image.md
+    - Docker Compose: Containers/Docker/Docker-Compose.md
+    - Elasticsearch Logstash Kibana (ELK) với Docker Compose: Scripts/Containers/elasticsearch-logstash-kibana/ELK.md
+    - Docker Networking và Security: Containers/Docker/Docker-Networking-Security.md
+    - Docker Nâng Cao: Containers/Docker/Docker-nang-cao.md
+    - Hướng dẫn cài Strapi trên Docker: Containers/Docker/Strapi-Docker.md
+    - Các lựa chọn thay thế cho Docker: Containers/Docker/Cac-lua-chon-thay-the-Docker.md
+    - Docker Swarm là gì?: Containers/Docker/Tim-hieu-Docker-Swarm.md
+    - Docker Questions and Answers: Containers/Docker/Docker-questions-and-answers.md 
+- Kubernetes:
+    - Kubernetes là gì?: Containers-Orchestration/Kubernetes/Kubernetes-la-gi.md
+    - Các thành phần trong Kubernetes: Containers-Orchestration/Kubernetes/Kubernetes.md
+    - Kubernetes Platform: Containers-Orchestration/Kubernetes/Kubernetes-platform.md
+    - Triển khai Kubernetes cluster: Containers-Orchestration/Kubernetes/Kubernetes-cluster.md
+    - Kubernetes Cluster Multi Node: Containers-Orchestration/Kubernetes/Kubernetes-Cluster-Multi-Node.md
+    - Tổng quan về Rancher: Containers-Orchestration/Kubernetes/Rancher.md
+    - Triển khai ứng dụng Kubernetes: Containers-Orchestration/Kubernetes/Application-Kubernetes.md
+    - Helm Chart là gì?: Containers-Orchestration/Kubernetes/Helm.md
+    - State và Ingress trong Kubernetes: Containers-Orchestration/Kubernetes/State-Ingress-Kubernetes.md
+    - Cài đặt Kubernetes Cluster bằng Kubespray trên vCloud: Containers-Orchestration/Kubernetes/Kubespray.md
+    - Kubernetes Questions and Answers: Containers-Orchestration/Kubernetes/75-Cau-k8s.md
+- Infrastructure as Code:
+    - Cơ sở hạ tầng dưới dạng mã IaC: IaC/Infrastructure-as-Code-IaC.md
+    - Terraform là gì?: IaC/Terraform-la-gi.md
+    - Ngôn ngữ cấu hình HashiCorp HCL: IaC/HCL.md
+    - Tạo VM với Terraform và Biến: IaC/Tao-VM-Terraform.md
+    - Docker Container, Providers và Modules: IaC/Docker-Containers-Terraform.md
+    - Kubernetes và Đa môi trường: IaC/Terraform-Kubernetes.md
+    - Testing, Tools và Alternatives: IaC/Testing-Terraform.md
+- Ansible (English):
+    - Quản lý cấu hình: IaC/Configuration-Management.md
+    - Ansible là gì?: IaC/Ansible-Playbook.md
+    - Setup Ansible: IaC/Setup-Ansible.md
+    - Ansible Playbooks Part 1: IaC/Ansible-Playbook-p1.md
+    - Ansible Playbooks Part 2: IaC/Ansible-Playbook-p2.md
+    - Using Roles and Deploying a Loadbalancer: IaC/Ansible-Loadbalancer.md
+    - Ansible Config: IaC/Ansible-Config.md
+    - Ansible Automation Controller (Tower), AWX, Vault: IaC/Ansible-Tower-AWX-Vault.md
+      #- Tiếp tục với Ansible Playbooks...: Update.md
+      #- Sử dụng Role và  Triển khai Loadbalancer: Update.md
+      #- Tags, Variables, Inventory và Database Server config: Update.md
+      #- Tất cả những thứ còn lại của Ansible  Automation Controller, AWX, Vault: Update.md
+- CI/CD Pipelines:
+    - CI/CD Pipelines: CI-CD/Overview-CI-CD-Pipelines.md
+    - Jenkins là gì?: CI-CD/Jenkins-la-gi.md
+      #- Getting hands on with Jenkins: Update.md
+      #- Building a Jenkins pipeline: Update.md
+      #- Hello World, Jenkinsfile App Pipeline: Update.md
+    - CI-CD/Huong-dan-cau-hinh-du-an-thuc-te-Jenkins-CI-CD-Pipeline.md
+    - GitHub Actions là gì?: CI-CD/GitHub-Actions.md
+      #- ArgoCD Overview: Update.md
+##- Giám sát, quản lý logs và trực quan hóa dữ liệu:
+      #- Monitoring: Update.md
+      #- Hands-On Monitoring Tools: Update.md
+      #- Log Management: Update.md
+      #- ELK Stack: Update.md
+      #- Fluentd và FluentBit: Update.md
+      #- EFK Stack: Update.md
+      #- Data Visualisation Grafana: Update.md
+##- Lưu trữ và bảo vệ dữ liệu:
+      #- Data Management: Update.md
+      #- Data Services: Update.md
+      #- Backup all the platforms: Update.md
+      #- Hands-On Backup và Recovery: Update.md
+      #- Application Focused Backups: Update.md
+      #- Disaster Recovery: Update.md
+      #- Data và Application Mobility: Update.md
+- Misc:
+    - Cheatsheet: Misc/DevOps-Cheatsheet.md
+    - Public DNS: Misc/Public-DNS-Servers.md
+    - Alibaba Cloud Academy: Misc/Training-AlibabaCloud.md
+    - Snapshot và Backup: Misc/Snapshot-Backup.md
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+extra:
+  analytics:
+    provider: google
+    property: G-RYW9ZPVJLX
+
+validation:
+  absolute_links: ignore
+  unrecognized_links: ignore
+
+copyright: Copyright &copy; 2023 <a href="https://vinahost.vn/">Vinahost</a>, by the <a href="https://vinahost.vn/lien-he/">Vinahost Team</a>.
