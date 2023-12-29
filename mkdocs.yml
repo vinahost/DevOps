@@ -62,6 +62,7 @@ theme:
     - ruby
 plugins:
   - search
+  - mkdocstrings
   # - open-in-new-tab
   - glightbox:
       touchNavigation: true
