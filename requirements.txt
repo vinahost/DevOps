@@ -3,6 +3,7 @@ mkdocs-glightbox
 mkdocs-material
 mkdocs-open-in-new-tab
 pymdown-extensions
+mkdocstrings
 #Add pip package if needed
 #mkdocs-bootswatch
 #mkdocs-minify-plugin
