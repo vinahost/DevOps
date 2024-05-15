@@ -1,5 +1,5 @@
-# Jenkins CICD pipeline 1 dự án thực tế (siêu chi tiết)
-Tiếp tục trong series CI/CD mình sẽ làm một bài hướng dẫn **Jenkins CICD Pipeline một dự án thực tế (vô cùng chi tiết).** Chắc hẳn bạn đã biết CI/CD là một phần công việc cực kỳ quan trọng của DevOps engineer, có những dự án CI/CD chiếm tới 50-70% khối lượng công việc của DevOps, đây là một dự án mà trước đây mình đã từng làm để bạn có thêm cái nhìn cụ thể, thực tế hơn về CI/CD.
+# Hướng dẫn cấu hình Jenkins CI/CD pipeline 1 dự án thực tế
+Tiếp tục trong series CI/CD mình sẽ làm một bài hướng dẫn **Hướng dẫn cấu hình Jenkins CI/CD pipeline 1 dự án thực tế** Chắc hẳn bạn đã biết CI/CD là một phần công việc cực kỳ quan trọng của DevOps engineer, có những dự án CI/CD chiếm tới 50-70% khối lượng công việc của DevOps, đây là một dự án mà trước đây mình đã từng làm để bạn có thêm cái nhìn cụ thể, thực tế hơn về CI/CD.
 
 **Lưu ý (phải biết):**
 
