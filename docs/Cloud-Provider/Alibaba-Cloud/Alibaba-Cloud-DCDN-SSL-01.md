@@ -5,6 +5,7 @@
 > Trước khi đến với DCDN, mình xin bắt đầu với việc đăng ký một chứng chỉ SSL miễn phí từ Let's encrypt qua ACME và tự động trỏ dns record để xác thực tên miền qua Alibaba Cloud DNS.  Để chuẩn bị cho việc enable HTTPS trên DCDN. 
 
 1. **Sơ lược về SSL, Let's Encrypt và ACME.**
+
 - **SSL Certificate** là một chứng chỉ số được gắn với một domain, hostname,... Một SSL certificate gồm nhiều file chứa các thông tin, khóa mã hóa kỹ thuật số. Trong trường hợp sử dụng với web server, nó được dùng để thiết lập **kết nối HTTPS**. Về cơ bản, một SSL Certificate cần 1 cặp Keypair (Public Key và Private Key), cùng với CA Certificate (Certificate Authority - nhà cung cấp chứng chỉ kỹ thuật số) - là chứng chỉ của cơ quan đã cấp chứng chỉ SSL này. Các trình duyệt sẽ lưu một danh sách các CA "đáng tin cậy", khi xử lý một SSL certificate do một CA nằm ngoài danh sách này, hoặc các SSL certificate có vấn đề, hết hạn,... thì trình duyệt sẽ cảnh báo "Your connection is not private" hoặc một vài cảnh báo lỗi khác.
 - **Let's Encrypt** là một nhà cung cấp chứng chỉ SSL "được tin cậy". Ngoài các chứng chỉ trả phí, nó vẫn cung cấp các bản chứng chỉ SSL miễn phí cho bất kỳ domain, nhưng chỉ có thời hạn trong thời gian ngắn (**3 tháng**), sau khi hết hạn, phải đăng ký hoặc renew lại chứng chỉ.
 - **ACME (Automatic Certificate Management Environment)** là một giao thức, hay một chuẩn giao tiếp để client có thể tương tác với các CA (Certificate Authority) để thực hiện các thao tác như **issue, renew, và revoke**.
