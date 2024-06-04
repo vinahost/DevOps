@@ -155,7 +155,7 @@ main()
 - Phía trên mình đã viết về các hàm cơ bản để chuẩn bị cho việc request một chứng chỉ SSL. Quy trình cơ bản khi CA cấp chứng chỉ là client sẽ gửi CSR, CA sẽ **xác thực** rằng client là người sở hữu domain được ghi trong CSR bằng một trong những cách như TraditionalOpenSSL, HTTP, Email,... Sau khi xác thực thành công sẽ gửi ssl cert về cho người dùng. Người dùng sau đó có thể cài đặt ssl cert này và private key của mình lên web server để thiết lập kết nối https.
 - Vậy nên, ở phần [thứ 2](#), mình xin được giới thiệu một số hàm Python SDK tương tác với Alibaba Cloud DNS để trỏ domain tự động, sau đó là request 1 chứng chỉ SSL và xác thực bằng **phương thức DNS**.
 ### **5. Tham khảo**
-	1. [Project letsencrypt-apis-cert-generation](https://github.com/saichander17/letsencrypt-apis-cert-generation/blob/main/src/main.py#L33)
-	2. [Python cryptography](https://cryptography.io/en/latest/hazmat/primitives/asymmetric/rsa/)
-	3. [Python ACME](https://pypi.org/project/acme/)
-	4. [Let's Encrypt ACME on Alibaba Cloud – Part 1](https://www.alibabacloud.com/blog/lets-encrypt-acme-on-alibaba-cloud-part-1_593777)
+1. [Project letsencrypt-apis-cert-generation](https://github.com/saichander17/letsencrypt-apis-cert-generation/blob/main/src/main.py#L33)
+2. [Python cryptography](https://cryptography.io/en/latest/hazmat/primitives/asymmetric/rsa/)
+3. [Python ACME](https://pypi.org/project/acme/)
+4. [Let's Encrypt ACME on Alibaba Cloud – Part 1](https://www.alibabacloud.com/blog/lets-encrypt-acme-on-alibaba-cloud-part-1_593777)

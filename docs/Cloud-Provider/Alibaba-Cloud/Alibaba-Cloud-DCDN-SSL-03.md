@@ -2,7 +2,7 @@
 
 > Ở các phần trước, mình đã hoàn thành việc đăng ký chứng chỉ SSL và upload lên Alibaba Cloud. Ở phần này, mình sẽ tập trung vào triển khai DCDN qua python SDK.
 
-1. **Sơ lược về DCDN của Alibaba Cloud**
+### **1. Sơ lược về DCDN của Alibaba Cloud**
 - DCDN (**Alibaba Cloud Dynamic Route for Content Delivery Network**) là một dịch vụ phân phối nội dung mạnh mẽ, đưa website đến gần người dùng hơn, và nâng cao bảo mật của website. Không như CDN thông thường chỉ phân phối các nội dung tĩnh (static content) như hình ảnh, các file css, js,... DCDN tự động phân loại các nội dung "động" (dynamic) và "tĩnh", với các yêu cầu với dữ liệu tĩnh, nó tự động cache trên các node (Points of Presence) để tăng tốc độ truyền tải và giảm tải cho Origin Server. Với các dữ liệu đòi hỏi xử lý ở Origin Server (dynamic content), DCDN sẽ sử dụng thuật toán route thông minh để tối ưu nhất tốc độ truyền tải giữa end user và Origin Server dựa trên mạng lưới hạ tầng mạnh mẽ của mình. Điều này mang lại sự tối ưu và giảm sự phức tạp khi triển khai (không cần can thiệp nhiều ở backend server).
 - Origin Server hay **Backend Server** là nơi lưu trữ dịch vụ của người dùng, có thể được triển khai trên hosting, VPS, Cloud hay server vật lý. 
 - **DCDN** không chỉ mang lại lợi ích về **tốc độ truyền tải**, **giảm tải** cho Orign Server, nó còn nâng cao tính **bảo mật**, do các traffic từ người dùng đều phải đi qua các POP DCDN trước khi đến được Origin Server (về cơ bản nó giúp che giấu IP thật và tránh bị tấn công trực tiếp). Điều này cũng cho phép DCDN có thể tích hợp các giải pháp bảo mật nâng cao "**Edge Security**" như **WAF, anti DDoS** để bảo vệ các dịch vụ phía sau một cách hiệu quả nhất. 
@@ -13,7 +13,7 @@
 	- Lúc đầu DCDN sẽ nhận các traffic **http**, khi này cần **enable HTTPS**, để enable HTTPS cần có một **SSL certificate** được thêm vào trên DCDN. 
 	- Về cơ bản, đến bước này, DCDN đã hoạt động, sau khi DCDN hoạt động sẽ có rất nhiều cấu hình khác và cả tích hợp Edge Security, nhưng không nằm trong phạm vi bài này.
 	> Lưu ý: DCDN có thể triển khai với second-level domain nhưng chỉ **xác thực với first-level domain**.
-2. **Xây dựng các hàm ví dụ**
+### **2. Xây dựng các hàm ví dụ**
 - Hàm **GetDnsRecordValue** dùng trong việc kiểm tra record đã có trên hệ thống hay chưa, hàm nhận vào domain name, RR là name của bản ghi. Ví dụ như cần tìm bản ghi liên quan đến domain blog.vinahost.cloud thì tham số Domain='vinahost.cloud', thamm số RR='blog'. Hàm sẽ trả về một object chứa danh sách thông tin các bản ghi filter được, có thể xem giá trị của của từng bản ghi bằng cú pháp: res.body.domain_records.record[0].value. Lọc theo mode EXACT sẽ không áp dụng các bộ lọc như Type, RR_keyword,..., chỉ cần điền KeyWord là đủ. Kết quả sẽ liệt kê chính xác các domain cần tìm, và mặc định là cái nào thêm vào mới nhất thì xếp ở đầu tiên. Bỏ qua sự phức tạp, mình chỉ lấy về một domain (để ví dụ).
 ```python
 def GetDnsRecordValue(AccessKey, SecretKey,PrimaryDomain,RR): # RR is hostname
@@ -286,7 +286,7 @@ def DcdnStartOnAlibabaCloud(AccessKey, SecretKey, DomainName,Endpoint,CertID):
     print('DCDN Scope:', res.scope)
     return 0
 ```
-3. **Ví dụ về hàm Main.**
+### **4. Ví dụ về hàm Main.**
 - Sau khi đã xây dựng các hàm như trên, mình viết hàm main mô tả ví dụ về việc gọi các hàm đã xây dựng:
 ```python
 def main():
@@ -314,7 +314,7 @@ def main():
     print("===========END-MAIN==============")
 main()
 ```
-4. **Tạm kết**
+### **5. Tạm kết**
 - Các thư viện đã cài đặt:
 ```python
 cryptography
@@ -347,13 +347,13 @@ from alibabacloud_dcdn20180115.client import Client as dcdnClient
 from alibabacloud_dcdn20180115 import models as dcdn_models
 ```
 - Trên đây chỉ là các minh họa, mình thử nghiệm trên các hàm riêng rẽ, ít có tính tái sử dụng. Các lỗi khi gọi API vẫn không xử lý hết. Về CertID, khi enable HTTPS trên DCDN cần có certID, nhưng mình vẫn không tìm được cách lấy CertID từ API, nên phải lưu tạm vào file. 
-5. **Tham khảo**
-	1. [Let's Encrypt acme on Alibaba Cloud](https://www.alibabacloud.com/blog/let%27s-encrypt-acme-on-alibaba-cloud-%E2%80%93-part-1_593777)
-	2. [GitHub letsencrypt-apis-cert-generation](https://github.com/saichander17/letsencrypt-apis-cert-generation/)
-	3. [GitHub Certbot](https://github.com/certbot/certbot/blob/master/acme/examples/http01_example.py)
-	4. [Certificate Manager Service SDK Center](https://api.alibabacloud.com/api-tools/sdk/cas?version=2020-04-07&language=python-tea&tab=primer-doc)
-	5. [DCDN API Reference](https://www.alibabacloud.com/help/en/dcdn/developer-reference/api-reference-guide/)
-	6. [CAS endpoint](https://api.alibabacloud.com/product/cas)
-	7. [GitHub AlibabaCloud Python SDK 20200407](https://github.com/aliyun/alibabacloud-python-sdk/blob/master/cas-20200407/alibabacloud_cas20200407)
-	8. [Alibaba Cloud DNS Example](https://next.api.alibabacloud.com/api-tools/sdk/Alidns?version=2015-01-09&language=python-tea&tab=primer-doc)
-	9. [DCDN Document](https://www.alibabacloud.com/help/en/dcdn/)
+### **6. Tham khảo**
+1. [Let's Encrypt acme on Alibaba Cloud](https://www.alibabacloud.com/blog/let%27s-encrypt-acme-on-alibaba-cloud-%E2%80%93-part-1_593777)
+2. [GitHub letsencrypt-apis-cert-generation](https://github.com/saichander17/letsencrypt-apis-cert-generation/)
+3. [GitHub Certbot](https://github.com/certbot/certbot/blob/master/acme/examples/http01_example.py)
+4. [Certificate Manager Service SDK Center](https://api.alibabacloud.com/api-tools/sdk/cas?version=2020-04-07&language=python-tea&tab=primer-doc)
+5. [DCDN API Reference](https://www.alibabacloud.com/help/en/dcdn/developer-reference/api-reference-guide/)
+6. [CAS endpoint](https://api.alibabacloud.com/product/cas)
+7. [GitHub AlibabaCloud Python SDK 20200407](https://github.com/aliyun/alibabacloud-python-sdk/blob/master/cas-20200407/alibabacloud_cas20200407)
+8. [Alibaba Cloud DNS Example](https://next.api.alibabacloud.com/api-tools/sdk/Alidns?version=2015-01-09&language=python-tea&tab=primer-doc)
+9. [DCDN Document](https://www.alibabacloud.com/help/en/dcdn/)

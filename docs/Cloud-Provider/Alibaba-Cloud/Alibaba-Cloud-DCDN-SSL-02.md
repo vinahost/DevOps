@@ -5,13 +5,13 @@
 > Để sử dụng các chức năng như mô tả, domain được sử dụng phải được thiết lập trên **Alibaba Cloud DNS service** (nameserver nằm ở Alibaba Cloud).
 
 
-1. **Alibaba Cloud DNS service và DNS Python SDK.**
+### **1. Alibaba Cloud DNS service và DNS Python SDK.**
 - **DNS hay Domain Name System** là một giao thức, một dịch vụ Internet có nhiệm vụ phân giải **domain name** thành địa chỉ **IP**. Domain name là các tên mà con người dễ đọc và dễ nhớ, nhưng trình duyệt hay máy tính chỉ làm việc với các địa chỉ IP, vậy nên cần có DNS để chuyển domain name mà người dùng nhập trên trình duyệt thành các địa chỉ IP mà trình duyệt có thể xử lý. Domain name được tổ chức theo dạng phân cấp. Ví dụ như tên miền client.vinahost.cloud. Nó bao gồm **top level** domain là ".cloud", "vinahost.cloud" là primary hay **first-level** domain, "client.vinahost.cloud" là subdomain hay **second-level** domain. 
 > **DCDN** của Alibaba Cloud có thể sử dụng với second-level domain, nhưng để xác thực domain lúc triển khai cần phải **xác thực trên first-level domain**. Vậy nên các tên miền có đuôi như .id.vn, .name.vn sẽ không thể sử dụng DCDN. Do user không sở hữu  first-level domain là id.vn
 - **Alibaba Cloud DNS** hay cu thể hơn là Public Authoritative DNS Resolution là dịch vụ của Alibaba cung cấp các hoạt động phân giải tên miền hiệu quả, linh hoạt và an toàn. Có thể quản lý các bản ghi DNS thống nhất trên giao diện của Alibaba Cloud và liên kết với các dịch vụ khác trong hệ sinh thái của Alibaba Cloud.
 - Alibaba Cloud SDK hỗ trợ nhiều ngôn ngữ như Java, Python, Golang, C#...
 - Để có quyền truy cập vào dịch vụ của Alibaba cần cung cấp **AccessKey**.
-2. **Tương tác với Alibaba Cloud DNS qua Python SDK**
+### **2. Tương tác với Alibaba Cloud DNS qua Python SDK**
 - Để sử dụng gói python SDK của Alibaba Cloud DNS cần phải cài đặt gói **alibabacloud_alidns20150109**.
 - Tham khảo tài liệu của Alibaba Cloud, có thể sử dụng Access Key, khởi tạo kết nối đến Alibaba Cloud để thực hiện request, dùng hàm add_domain_record. Cần chuẩn bị nội dung record bao gồm RR (hostname) và Value. Ví dụ muốn trỏ A record cho domain blog.vinahost.cloud thì PrimaryDomain là vinahost.cloud, RR là "blog" và Value là IP muốn trỏ. Cuối cùng, cần lưu ý đến **region và endpoint** gửi request.
 ```python
@@ -47,7 +47,7 @@ def main():
 main()
 ```
 
-3. **Request chứng chỉ SSL cho domain**.
+### **3. Request chứng chỉ SSL cho domain**.
 - Các bước để tạo chứng chỉ SSL được khái quát theo flow sau:
 	- Tạo **CSR** 
 	- **Order SSL** trên Let's encrypt với CSR vừa tạo.
@@ -132,7 +132,7 @@ main()
 ```
 - Output ví dụ:
 ![](../../Image/Alibaba-Cloud-DCDN01-1.png)
-4. **Upload SSL Cert lên Certificate Management Service.** 
+### **4. Upload SSL Cert lên Certificate Management Service.** 
 - **Certificate Management Service** là một dịch vụ của Alibaba cloud cho phép quản lý, hoặc order SSL từ Alibaba Cloud, là một nơi lưu trữ SSL certificate cá nhân an toàn và cũng được liên kết rộng rãi với các dịch vụ khác của Alibaba Cloud (như DCDN). 
 - Với chứng chỉ vừa có được, đã lưu trên file ở localhost, lúc này cần upload lên Certificate Management Service của Alibaba Cloud để tiện cho việc sử dụng sau này.
 - Để thực hiện việc này, cần có một số hàm cơ bản khác bổ sung.
@@ -205,7 +205,7 @@ main()
 ```
 - Sau khi hoàn tất, có thể kiểm tra trên giao diện phần "hallenge,", nếu code báo thành công, nhưng không thấy chứng chỉ trên giao diện, có thể chọn sang **Region khác** (ví dụ: Chinese Mainland). Nếu chứng chỉ được upload, nhưng không nằm ở region mong muốn, có thể **thiết lập lại endpoint** phù hợp hơn. 
 ![](../../Image/Alibaba-Cloud-DCDN02-1.png)
-5. **Tạm kết**
+### **5. Tạm kết**
 - Các gói cần cài đặt:
 	- **alibabacloud_alidns20150109**
 	- **alibabacloud_cas20200407**
@@ -223,9 +223,9 @@ from alibabacloud_cas20200407 import models as cas_20200407_models
 - Ở phần trên này, mình đã thử nghiệm hoàn thành việc **order một chứng chỉ** ssl, t**rỏ TXT record** để xác thực domain, sau đó lưu cert ở local và **upload cert** lên Certificate Management Service của Alibaba Cloud và **lưu ID** của cert đó lại. Tuy nhiên, sẽ có **rất nhiều lỗi** có thể xảy ra trong các quá tình này, nhất là giao tiếp với CA và Alibaba Cloud, nhưng phần này nằm ngoài phạm vi bài viết.
 - Ở phần tiếp theo, mình sẽ thử nghiệm kích hoạt DCDN, bật thiết lập kết nối https bằng file SSL vừa upload. 
 
-6. **Tham khảo**
-	1. [Certbot ACME Example](https://github.com/certbot/certbot/blob/master/acme/examples/http01_example.py)
-	2. [Alibaba CloudDns](https://api.alibabacloud.com/product/Alidns)
-	3. [Python ACME doc](https://acme-python.readthedocs.io/en/stable/api/client.html)
-	4. [Alibaba Cloud CAS](https://api.alibabacloud.com/product/cas)
-    5. [Alibaba Python SDK](https://github.com/aliyun/alibabacloud-python-sdk)
+### **6. Tham khảo**
+1. [Certbot ACME Example](https://github.com/certbot/certbot/blob/master/acme/examples/http01_example.py)
+2. [Alibaba CloudDns](https://api.alibabacloud.com/product/Alidns)
+3. [Python ACME doc](https://acme-python.readthedocs.io/en/stable/api/client.html)
+4. [Alibaba Cloud CAS](https://api.alibabacloud.com/product/cas)
+5. [Alibaba Python SDK](https://github.com/aliyun/alibabacloud-python-sdk)
