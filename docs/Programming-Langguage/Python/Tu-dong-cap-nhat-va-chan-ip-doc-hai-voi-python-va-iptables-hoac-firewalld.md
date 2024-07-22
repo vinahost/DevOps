@@ -1,9 +1,10 @@
 # Tự động cập nhật và chặn IP độc hại với Python và Iptables hoặc Firewalld
-### Giới thiệu về Spamhaus
+
+## Giới thiệu về Spamhaus
 
 **Spamhaus** là một tổ chức phi lợi nhuận quốc tế chuyên chống lại thư rác (spam) và các hoạt động mạng độc hại. Được thành lập vào năm 1998 bởi Steve Linford, Spamhaus cung cấp một loạt các dịch vụ bảo mật mạng nhằm bảo vệ người dùng Internet khỏi các mối đe dọa từ thư rác, phần mềm độc hại và các cuộc tấn công mạng.
 
-### Các dịch vụ chính của Spamhaus
+## Các dịch vụ chính của Spamhaus
 
 1.  **DNS Blocklists (DNSBLs)**:
     
@@ -17,7 +18,7 @@
 
 Dưới đây là đoạn mã Python để tự động tải xuống các danh sách IP từ Spamhaus, sau đó chặn các IP đó trên một linux server sử dụng iptables hoặc firewalld. Đoạn mã này đáp ứng nhu cầu chạy webserver (apache, nginx), mail server và các ứng dụng khác.
 
-### Đoạn mã Python chặn bằng iptables:
+## Đoạn mã Python chặn bằng iptables:
 
 ```
 import requests
@@ -56,13 +57,13 @@ block_ips_iptables(blocked_ips)
 
 ```
 
-### Giải thích:
+## Giải thích:
 
 1.  **download\_ip\_list(url)**: Tải xuống danh sách IP từ URL cung cấp.
 2.  **clear\_iptables\_rules()**: Xóa bỏ tất cả các rule trong iptables.
 3.  **block\_ips\_iptables(blocked\_ips)**: Thêm các rule mới từ danh sách IP cập nhật vào iptables.
 
-### Đoạn mã Python chặn bằng firewalld:
+## Đoạn mã Python chặn bằng firewalld:
 
 ```
 import requests
@@ -105,7 +106,7 @@ block_ips_firewalld(blocked_ips)
 
 ```
 
-### Giải thích:
+## Giải thích:
 
 1.  **download\_ip\_list(url)**: Tải xuống danh sách IP từ URL cung cấp.
 2.  **clear\_firewalld\_rules()**: Xóa bỏ tất cả các IP đã được thêm vào zone 'drop' của `firewalld`.

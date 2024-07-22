@@ -101,6 +101,7 @@ nav:
       - Web development in Python: Programming-Langguage/Python/Web-development-in-Python.md
       - Automation with Python: Programming-Langguage/Python/Automation-with-Python.md
       - Build an App in Python: Programming-Langguage/Python/Build-an-App-in-Python.md
+      - Tự động cập nhật và chặn IP độc hại với Python và Iptables hoặc Firewalld: Tu-dong-cap-nhat-va-chan-ip-doc-hai-voi-python-va-iptables-hoac-firewalld.md
     - Làm game với Python:
       - Lập trình game cơ bản với Pygame 01: Programming-Langguage/Python/Python-Pygame01.md
       - Lập trình game cơ bản với Pygame 02: Programming-Langguage/Python/Python-Pygame02.md
